@@ -54,7 +54,7 @@ tiki_cookie_jar = {};
   <h3>3. A Tool for Visual Presentation of Proofs <a name="vpp" id="vpp"></a></h3>
   <p>The part of visual presentation of proofs makes JGEX most           distinctive from other geometry drawing systems on one side, and           from other geometry reasoning systems, including our previous          versions of GEX, on the other side. It is based on our work on          automated generation of readable proofs and on our approach to          geometric drawing.</p>
   <p>However,  as a first step, instead of automated generation of visual  presentations of proofs, we implement the manual input method for  creating visual presentations of proofs. This gives us first-hand  experience with the approach we propose. It is also an important  preparation for our future work on the proof checker. Especially, we  have a collection of over 100 examples created manually with JGEX. We  collect mainly those examples that do not mix algebraic expressions or  computations with the geometry diagrams.</p>
-  <p><a href="dynamic_presentation_of_proofs.html">See Detail &gt;&gt;&gt; </a></p>
+  <p><a href="http://www.cs.wichita.edu/~ye/Documentation/dynamic_presentation_of_proofs.html">See Detail &gt;&gt;&gt; </a></p>
   <p>&nbsp;</p>
   <p><strong>See Also: </strong></p>
   <ul>
@@ -66,4 +66,11 @@ tiki_cookie_jar = {};
       Presentation of Proofs</a></li>
   </ul>
   <p>&nbsp;</p>
+  
+  <h3>4. How to use <a name="vpp" id="vpp"></a></h3>
+  
+  <p>
+  The JGEX is written in Java, so you need a JDK in order to compile the code. The prefered IDE for development is NetBeans:
+  <a>https://netbeans.org/</a>
+  </p>
 </div>
