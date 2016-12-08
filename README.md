@@ -25,7 +25,7 @@ tiki_cookie_jar = {};
             <td id="centercolumn" valign="top"><div id="tiki-center">
 
 
-<h1><a class="pagetitle" title="refresh" accesskey="2" href="http://doc.cinderella.de/tiki-index.php?page=What+Is+Cinderella%3F">What Is JGEX?</a></h1>
+<h1><a class="pagetitle" title="refresh" accesskey="2" href="http:http://www.cs.wichita.edu/~ye/">What Is JGEX?</a></h1>
 
 <div class="wikitopline"></div>
 
@@ -47,10 +47,10 @@ tiki_cookie_jar = {};
     <p align="center" class="codelisting STYLE1">By a dynamic geometry we simply mean a study of the parts of space andtheir relations            to one another while they are in motion and changing.</p>
   </blockquote>
   <p> The drawing part of JGEX allows the user to construct the diagram interactively and manipulate          the diagram in a dynamic way, so JGEX is first a DGS. Starting from free points, the user can          create elements which is dependent on existed elements. With the mouse, the user can place points,          draw lines, introduce marks, etc. In this way, the diagram is constructed step by step. Much more          important is the fact that the user can explore the dynamic nature of the diagram. The user can drag           part of the diagram with mouse and see immediately how the diagram changes accordingly.          However, JGEX has its distinctive features comparing to the three commercial geometry drawing          systems.</p>
-  <p><a href="dynamic_geometry_software.html">See Detail &gt;&gt;&gt;</a> </p>
+  <p><a href="http://www.cs.wichita.edu/~ye/Documentation/dynamic_geometry_software.html">See Detail &gt;&gt;&gt;</a> </p>
   <h3>2. An Automated Geometry Theorem Prover <a name="gtp" id="gtp"></a></h3>
   <p>Wu's          method, the Full Angle Method and the Deductive Database Method          based on Full Angle are implemented in JGEX as  reasoning and          proving tool.</p>
-  <p><a href="automated_theorem_prover.html">See Detail &gt;&gt;&gt; </a></p>
+  <p><a href="http://www.cs.wichita.edu/~ye/Documentation/automated_theorem_prover.html">See Detail &gt;&gt;&gt; </a></p>
   <h3>3. A Tool for Visual Presentation of Proofs <a name="vpp" id="vpp"></a></h3>
   <p>The part of visual presentation of proofs makes JGEX most           distinctive from other geometry drawing systems on one side, and           from other geometry reasoning systems, including our previous          versions of GEX, on the other side. It is based on our work on          automated generation of readable proofs and on our approach to          geometric drawing.</p>
   <p>However,  as a first step, instead of automated generation of visual  presentations of proofs, we implement the manual input method for  creating visual presentations of proofs. This gives us first-hand  experience with the approach we propose. It is also an important  preparation for our future work on the proof checker. Especially, we  have a collection of over 100 examples created manually with JGEX. We  collect mainly those examples that do not mix algebraic expressions or  computations with the geometry diagrams.</p>
@@ -58,11 +58,11 @@ tiki_cookie_jar = {};
   <p>&nbsp;</p>
   <p><strong>See Also: </strong></p>
   <ul>
-    <li><a title="no description" href='gex_jgex.html' class='wiki'>GEX and JGEX </a></li>
-    <li> <a title="no description" href='dynamic_geometry_software.html' class='wiki'>A Dynamic Geometry Software</a></li>
-    <li> <a title="no description" href='automated_theorem_prover.html' class='wiki'>An Automated
+    <li><a title="no description" href='http://www.cs.wichita.edu/~ye/Documentation/gex_jgex.html' class='wiki'>GEX and JGEX </a></li>
+    <li> <a title="no description" href='http://www.cs.wichita.edu/~ye/Documentation/dynamic_geometry_software.html' class='wiki'>A Dynamic Geometry Software</a></li>
+    <li> <a title="no description" href='http://www.cs.wichita.edu/~ye/Documentation/automated_theorem_prover.html' class='wiki'>An Automated
       Geometry Theorem Prover</a></li>
-    <li> <a title="no description" href='dynamic_presentation_of_proofs.html' class='wiki'>A  Tool for  Visually Dynamic
+    <li> <a title="no description" href='http://www.cs.wichita.edu/~ye/Documentation/dynamic_presentation_of_proofs.html' class='wiki'>A  Tool for  Visually Dynamic
       Presentation of Proofs</a></li>
   </ul>
   <p>&nbsp;</p>
