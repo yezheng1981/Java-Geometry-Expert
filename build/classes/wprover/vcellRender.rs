@@ -1,6 +1,0 @@
-wprover.BasicCellEditor
-wprover.itemLabel$1
-wprover.itemLabel
-wprover.BookCellEditor
-wprover.BookCellRenderer
-wprover.vcellRender

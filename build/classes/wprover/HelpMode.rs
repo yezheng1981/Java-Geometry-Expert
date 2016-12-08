@@ -1,2 +1,0 @@
-wprover.HelpMode
-wprover.HelpItemAtom
