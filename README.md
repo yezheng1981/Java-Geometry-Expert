@@ -1,30 +1,14 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html><head>
-
-
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
 
 <script type="text/javascript">
 var tiki_cookie_jar = new Array();
-tiki_cookie_jar = {
-	};
+tiki_cookie_jar = {};
 </script>
 <script type="text/javascript" src="lib/tiki-js.js"></script><title>JGEX Documentation : What Is JGEX?</title>
 
 
 <link rel="StyleSheet" href="lib/1.css" type="text/css">
 <link rel="StyleSheet" href="styles/cindydoc.css" type="text/css">
-
-
-
-
-
-
-
-
 
 <link rel="alternate" type="application/xml" title="RSS Wiki"  >
 <style type="text/css">
@@ -36,13 +20,6 @@ tiki_cookie_jar = {
 
 <div id="overDiv" style="position: absolute; visibility: hidden; z-index: 1000;"></div>
 <script type="text/javascript" language="JavaScript" src="what_is_jgex_files/overlib.js"></script>
-
-	<div id="siteheader">
-
-
-<div id="sitesearchbar"></div>
-
-	</div>
 
 <div id="tiki-main">
     <div id="tiki-mid">
@@ -93,29 +70,3 @@ tiki_cookie_jar = {
   </ul>
   <p>&nbsp;</p>
 </div>
-
-
-<p class="editdate">&nbsp;</p>
-
-      <hr>
-<div id="page-bar"></div>
-
-
-
-
-    <div id="comzone">
-
-    </div><!-- comzone end -->
-            </div>
-      </td>
-            <td id="rightcolumn" valign="top">
-
-
-<!-- no perm --></td>
-      </tr>
-    </tbody></table>
-  </div>
-  </div>
-
-
-</body></html>
