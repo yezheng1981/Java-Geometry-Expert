@@ -1,0 +1,13 @@
+# Example 6.321 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  buttfly2
+HYPOTHESES:
+  CIRCLE A B C D E E_1 ;
+  INTERSECTION_LL G  A B  E C ;
+  INTERSECTION_LL F  A B  E D ;
+  INTERSECTION_LL G_1  A B  E_1 C ;
+  INTERSECTION_LL F_1  A B  E_1 D ;
+SHOW: (CROSS_RATIO A F G B ) = (CROSS_RATIO A F_1 G_1 B ).

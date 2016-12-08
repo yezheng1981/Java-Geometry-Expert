@@ -1,0 +1,12 @@
+# Example 3.70 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  A_120  
+HYPOTHESES:
+  POINT B C I ;
+  INCENTER A C B I;
+  INTERSECTION_LL D  A I  B C ;
+  INTERSECTION_TL I_A  B B I  A I ;
+SHOW:  HARMONIC A D I I_A.

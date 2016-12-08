@@ -1,0 +1,17 @@
+proof #9 is the same as example 2
+proof #10 *** A004.
+Proof #12 ** example 23
+Proof #17  ** example 20
+proof#28 ** example
+proof#29 vector
+proof#30 color. example 29
+proof#31 ????
+proof#38 ??
+proof # 51,52,63,65,66 ??
+proof #69 **example 23
+
+<1>:  equilateral tirangle similiar to itself.
+
+
+proof #55
+  http://www.cut-the-knot.org/pythagoras/PythInPara.shtml

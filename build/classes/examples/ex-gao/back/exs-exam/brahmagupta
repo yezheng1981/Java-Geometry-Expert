@@ -1,0 +1,12 @@
+# Example 6.293 in
+# << Machine Proof In Geometry>>
+# World Scientific
+#
+EXAMPLE  A_276  
+HYPOTHESES:
+  POINT A B C ;
+  CIRCUMCENTER O A B C ;
+  FOOT E B A C ;
+  INTERSECTION_LC D  B E  O B  ;
+  INTERSECTION_LT F  A B  E C D ;
+SHOW:  MIDPOINT F A B.

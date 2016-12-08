@@ -1,0 +1,12 @@
+EXAMPLE addl
+HYPOTHESES: 
+POINT A B C;
+LINE x1 A B;
+LINE x1 B C;
+LINE x1 A C;
+POINT x y z;
+DLINE X x y;
+DLINE X y z;
+DLINE X z x;
+SHOW: NO.
+

@@ -1,0 +1,39 @@
+\documentstyle[11pt]{article}
+\voffset=-2.5truecm
+\hoffset=-1.9truecm
+\textwidth = 16truecm
+\textheight = 22.5truecm
+\parskip=8pt
+\parindent=15pt
+\def\fa#1#2{\langle{#1},{#2}\rangle}
+\begin{document}
+The following auxilliary point is added by the program
+
+\begin{verbatim}
+INTERSECTION_LL A_{0}  P M  C D;
+\end{verbatim}
+
+
+{\vskip6pt \parskip=6pt \parindent=10pt 
+The Machine Proof
+
+
+1. midp[$M,AB$] :- (hyp)coll[$MBA$], (2)$MB = MA$.
+
+2. $MB = MA$ :- (3)$CA_{0}*AM = BM*CA_{0}$.
+
+3. $CA_{0}*AM = BM*CA_{0}$ :- (4)$QC*AM = QB*CA_{0}$, (5)$QC*BM = QB*CA_{0}$.
+
+4. $QC*AM = QB*CA_{0}$ :- (6)$PC*AM = PA*CA_{0}$, (7)$PC*QB = PA*QC$.
+
+5. $QC*BM = QB*CA_{0}$ :- (hyp)para[$CA_{0},BM$].
+
+6. $PC*AM = PA*CA_{0}$ :- (hyp)para[$CA_{0},AM$].
+
+7. $PC*QB = PA*QC$ :- (8)$QC*BA = QB*CD$, (9)$PC*AB = PA*CD$.
+
+8. $QC*BA = QB*CD$ :- (hyp)para[$CD,AB$].
+
+9. $PC*AB = PA*CD$ :- (hyp)para[$CD,AB$].
+}
+\end{document}

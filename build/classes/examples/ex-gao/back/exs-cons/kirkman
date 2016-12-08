@@ -1,0 +1,14 @@
+EXAMPLE KIRKMAN
+HYPOTHESES: POINT A C B;
+            INTERSECTION_BB O A C A B;
+            ON_CIRCLE D  O A;
+            ON_CIRCLE E O A;
+            ON_CIRCLE F  O A;
+            INTERSECTION_LL P C D A B;
+            INTERSECTION_LL Q D F A E;
+            INTERSECTION_LL S A C B F;
+            INTERSECTION_LL T B D A E;
+            INTERSECTION_LL X A B E F;
+            INTERSECTION_LL Y D F A C;
+            INTERSECTION_LL I S T P Q;
+      SHOW: COLLINEAR X Y I.

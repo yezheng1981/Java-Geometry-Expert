@@ -1,0 +1,14 @@
+# Example 6.219 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  A_242  
+HYPOTHESES:
+  POINT A B C D ;
+  MIDPOINT E A B ;
+  MIDPOINT G C D ;
+  MIDPOINT N A C ;
+  MIDPOINT M B D ;
+  INTERSECTION_LL O  E G  N M ;
+SHOW:  MIDPOINT O N M.

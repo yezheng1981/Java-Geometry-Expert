@@ -1,0 +1,31 @@
+\documentstyle[11pt]{article}
+\voffset=-2.5truecm
+\hoffset=-1.9truecm
+\textwidth = 16truecm
+\textheight = 22.5truecm
+\parskip=8pt
+\parindent=15pt
+\def\fa#1#2{\langle{#1},{#2}\rangle}
+\begin{document}
+
+{\vskip6pt \parskip=6pt \parindent=10pt 
+The Machine Proof
+
+
+1. perp[$OS,PQ$] :- (hyp)perp[$PK,BO$], (2)$[PK,BO]=[PQ,OS]$.
+
+2. $[PK,BO]=[PQ,OS]$ :- (3)$[PK,PQ]=[BO,OS]$.
+
+3. $[PK,PQ]=[BO,OS]$ :- (4)$[PK,PQ]=[TK,QT]$, (5)$[BO,OS]=[TK,QT]$.
+
+4. $[PK,PQ]=[TK,QT]$ :- (6)circle[$PTQK$].
+
+5. $[BO,OS]=[TK,QT]$ :- (hyp)coll$[BOK]$, (hyp)coll$[QTS]$, (7)$[OK,OS]=[TK,TS]$.
+
+6. circle[$PTQK$] :- (hyp)perp[$TP,TQ$], (hyp)perp[$KP,KQ$].
+
+7. $[OK,OS]=[TK,TS]$ :- (8)circle[$OTKS$].
+
+8. circle[$OTKS$] :- (hyp)perp[$TS,TO$], (hyp)perp[$KS,KO$].
+}
+\end{document}

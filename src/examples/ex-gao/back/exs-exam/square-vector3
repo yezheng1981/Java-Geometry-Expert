@@ -1,0 +1,20 @@
+# Example 6.246 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  D208  
+HYPOTHESES:
+  POINT A B C ;
+#  INTERSECTION_PP D A B C C A B;
+  PRATIO D A B C 1;
+  MIDPOINT L A D ;
+#area  CONSTANT i^2+1 ;
+  PSQUARE S L D ;
+  MIDPOINT N B C ;
+  PSQUARE Q N B ;
+  MIDPOINT T A B ;
+  PSQUARE P T A ;
+#area SHOW:  (VEC P S ) -  i (VEC P Q ) =  0.
+#wu SHOW: EQDISTANCE P S P Q.
+#wu SHOW: PERPENDICULAR P S P Q.

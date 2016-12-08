@@ -1,0 +1,13 @@
+# Example 2.41 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  AFFINE  
+HYPOTHESES:
+  POINT A B P ;
+  ON_LINE C A P;
+  INTERSECTION_LP D  B P  C A B ;
+  INTERSECTION_LL Q  B C  A D ;
+  INTERSECTION_LL M  A B  P Q ;
+SHOW:  MIDPOINT M A B.

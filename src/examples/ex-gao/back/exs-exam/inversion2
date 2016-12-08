@@ -1,0 +1,13 @@
+# Example 6.357 in
+# << Machine Proof In Geometry>>
+# World Scientific
+#
+EXAMPLE  C26_18  
+HYPOTHESES:
+  POINT O A ;
+  LRATIO Q O A (1) (r);
+  TRATIO R Q Q O r_1;
+  LRATIO P O A r;
+  MIDPOINT U P O ;
+  INVERSION G R O A ;
+SHOW:  EQDISTANCE G U U O.

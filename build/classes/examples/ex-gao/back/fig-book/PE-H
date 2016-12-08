@@ -1,0 +1,7 @@
+EXAMPLE  PE-H  
+HYPOTHESES:
+  POINT A B C ;
+  FOOT E A B C ;
+  FOOT F B A C ;
+  FOOT G C A B ;
+SHOW: NO.

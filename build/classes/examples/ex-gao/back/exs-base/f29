@@ -1,0 +1,17 @@
+EXAMPLE Full1
+HYPOTHESES: 
+  POINT A B C;
+  FOOT D A B C;
+  FOOT P D A C;
+  FOOT Q D A B;
+SHOW: COCIRCLE B C P Q.
+
+
+
+
+
+
+
+
+
+

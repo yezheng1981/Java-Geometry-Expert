@@ -1,0 +1,542 @@
+﻿Chinese
+Font: 宋体# 0 # 14
+
+	* File Menu
+0# File 	#			文件
+1# New 		#			新建
+2# Open 	#			打开
+3# Save 	#			保存
+4# Save as... 	#			另存为..
+5# Save as PS 	#			另存为 PS
+6# Save as Text #			另存为文本
+7# Print 	#			打印
+8# Exit 	#			退出
+9# Select 	# 			选择
+10 # Move 	#			移动
+11# Geometry Expert 		#	几何专家
+12 # Save as Image 		#	另存为图像
+13 # Save as Animated Image 	# 	另存为动态图像
+
+14 # Save as PDF                #	另存为 PDF
+15 # Save Proof as Animated Image   #	保存证明为动态(gif)图像
+	* End of File Menu
+
+
+	* Examples Menu
+19# Examples			#	例子
+	* End of Example Menu
+
+
+	* Construct Menu
+20# Construct 			# 	构造
+21# Point by Point and Segment 	# 	点和固定线段 	#选择三个点(A,B,C),然后选择一个对象（直线或者园），构造Ｄ使得D在这个对象上而且AB = CD.
+22# Radical of Two Circles 	#	园的根轴 	# 选取两个园求根轴
+23# Oriented Segment 		# 	有向线段
+24# Oriented T Segment 		#	垂直有向线段
+25# Other.. 			# 	自定义	
+27# Oriented Segment * Ratio 	#	N倍有向线段
+28# Oriented T Segment * Ratio 	#	N倍垂直有向线段
+
+31# Proportional Segment 	#	比例线段
+
+33# Point 			#	点 		#	添加一个自由点
+34# Midpoint 			#	中点 		#	选取两个点来构造它们的中点
+35# Circumcenter 		#	外心 		# 	选取三个点作为三角形的三个顶点
+36# Centroid 			#	重心 		# 	选取三个点作为三角形的三个顶点
+37# Orthocenter 		#	垂心 		# 	选取三个点作为三角形的三个顶点
+38# Incenter 			#	内心 		# 	选取三个点作为三角形的三个顶点
+39# Foot 			#	垂足 		# 	选取一个点和一条直线来确定垂足
+40# Line 			#	直线 		# 	选取两个点来确定一条直线
+41# Parallel Line 		#	平行线 		# 	选取一条直线和直线外的一个点来确定一条平行线
+42# Perpendicular Line		#	垂直线		#  	选取一条直线和一个点来确定一条垂直线
+43# ALine 			#	倍角线
+44# Perp-Bisect Line		#	中垂线 		# 	选取两个点来确定一条中垂线
+45# Tangent Line		#	切线 		#	选取园和园上的一个点
+46# Parallel			#	平行线		#	选取一条直线和直线外的一个点来确定一条平行线
+47# Perpendicular		#	垂直线		#	选取一条直线和一个点来确定一条垂直线
+49 # ABline 			# 	角平分线	#	选择两条相交直线来构造它们的角平分线
+
+50# Circle 			# 	园　		# 	选取两个点（圆心和园上的一个点）
+51# Circle by Three Points 	#	三点园 		# 	选取不共线的三个点来确定一个园
+52# Circle by Radius 		# 	固定半径园 	# 	选取三个点。两点为半径，第三个点为圆心
+
+60# Action 			# 	操作 		# 
+61# Intersect 			# 	相交 		# 	选取两个元素（园或者直线），求取它们的交点
+62# Mirror 			# 	镜像 		# 	选取一个元素（园或者直线）和一条直线，求元素的镜像
+
+70 # Polygon 			# 	多边形 		# 
+71 # Triangle 			# 	三角形 		# 
+72 # Isosceles Triangle 	#	等腰三角形 	# 
+73 # Equilateral Triangle 	#	正三角形 	# 
+74 # Right-angled Triangle 	#	直角三角形 	# 
+75 # Isosceles Right-angled Triangle 			#	等要直角三角形 # 
+76 # Quadrangle 		# 	四边形 		# 
+77 # Parallelogram 		#	平行四边形 	# 
+78 # Trapezoid 			#	五边形 		# 
+79 # Right-angled Trapezoid 	#	直角梯形 	# 
+80 # Rectangle 			# 	矩形 		# 
+81 # Square 			# 	正方形 		# 
+82 # Pentagon 			# 	五边形  	# 
+83 # Polygon 			# 	多边形 		# 
+84 # Hexagon			# 	六边形		#
+
+90 # Special Angles 		# 	特殊角 		#
+100 # Constraint 		# 	约束
+101 # Eqangle 			# 	角相等 		#  选取两个角，添加一个两角相等的约束
+102 # Nteqangle 		# 	Nteqangle
+103 # Eqangle3p 		# 	三角和 		#  设定三个角的和等于一个固定值
+104 # Angle Specification 	# 	定义特殊角 	#  定义一个特殊角
+105 # Equal Ratio 		# 	比例相等 	#  选取四条线段（八个点），设定它们的比例相等
+106 # Equal Distance 		# 	距离相等 	#  选取两条线段（四个点），设定他们的长度相等	 
+107 # CCtangent 		#	两园相切 	#  选取两个园，添加两园相切的约束
+108 # Ratio Distance 		# 	设置比例 	# 
+	* End of Construct Menu
+
+	* Action Menu
+120 # Trace 			# 	跟踪 		# 手动跟踪一个点，画出它的轨迹
+121 # Locus 			# 	轨迹 		# 自动跟踪一个点
+122 # Animation 		# 	动画 		# 让一个点在另一个元素上运动
+123 # Fill Polygon 		# 	填充 		# 填充一个多边形或者圆
+124 # Measure Distance 		# 	标注 		#选取两个点，标注它们之间的距离
+125 # Equal Mark 		# 	距离标记 	# 
+126 # Right-angle Mark 		# 	直角标注 	# 选取两条直角边，产生直角标注
+127 # Hide Object 		# 	隐藏 		# 
+128 # Show Object 		# 	显示 		# 
+129 # Transform 		# 	变换		# 
+130 # Equivalence 		#	等积变换 	# 
+131 # Free Transform 		#	自由变换 	# 
+132 # Calculation 		# 	计算		#
+133 # Arrow             #   箭头         #构造两个点生成一个箭头
+	* End of Action Menu
+
+	* Lemmas Menu
+140 # Lemmas 			# 	规则
+141 # Rulers for Full Angle 	# 	全角规则
+142 # Rulers for GDD 		#	演绎数据库规则
+	* End of Lemmas Menu
+
+	* Prove Menu
+150 # Prove 			# 	证明 
+151 # To Prove 			#	证明结论
+152 # Numerical Check 		#	数值检测
+153 # Nondegenerate Conditions 	# 	非退化条件
+154 # Polynomials 		#	多项式
+155 # Option 			# 	选项
+149 # All Solutions     #   所有作图结果
+156 # Preference # 参数
+157 # Construct History 	# 	构造历史
+158 # Show Step Bar 		# 	Step 工具栏
+159 # Style Dialog           #  作图属性页
+	* End of Prove Menu
+
+	* Help Menu
+160 # Help 			        # 	帮助
+161 # Online Help 		    	# 	在线帮助
+162 # About JGEX 		    	# 	关于 JGEX
+163 # Check for Update			# 	检查更新
+164 # Help on Mode          #   帮助上下文
+165 # JGEX Homepage         #   JGEX 主页
+167 # Contact Us            #   联系我们
+	* End of Help Menu
+
+	* ToolBar 
+170 # Translate 		#	平移 		# 平移整个图形
+171 # Zoom-in 			# 	放大 		# 放大整个图形
+172 # Zoom-out 			# 	缩小 		# 缩小整个图形
+173 # Snap 			# 	吸附 		# 网格吸附
+174 # Grid 			# 	网格 		# 显示网格
+175 # LessGrid 			# 	网格稀疏 	# 让网格更稀疏
+176 # MoreGrid 			# 	网格稠密 	# 让网格更稠密
+177 # Redo 			# 	重复 		# 向前做一步
+178 # Undo 			# 	回退 		# 向后回退一步
+179 # FF 			# 	重做至最后	# 向前重复做直至最前
+180 # FR 			# 	回退至最前	# 向后回退直至最开始
+181 # autoshowstep 		# 	自动回放 	# 自动回放整个作图过程
+182 # animate_start 		# 	播放动画 	# 播放图形动画
+	* End of ToolBar
+
+	* Assertion
+200 # Collinear 		# 	共线
+201 # Parallel 			# 	平行
+202 # Perpendicular 		# 	垂直
+203 # Midpoint 			#	中点
+204 # Cyclic 			# 	共圆
+205 # Equal Distance 		#	等距
+206 # Equal Angle 		# 	角相等
+207 # Similiar Triangle 	# 	相似三角形 
+208 # Congruent Triangle 	# 	全等三角形 
+209 # Equalateral Triangle 	#	正三角形
+210 # Bisect 			# 	中垂线
+211 # Tangent 			# 	相切
+212 # Equal Product 		# 	乘积相等
+213 # Ratio 			# 	比例
+214 # Special Angle 		#	特殊角
+215 # Angles Equation 		# 	角度等式
+216 # Segment Equation 		# 	线段等式
+	* End of Assertion
+
+	* Dialog
+230 # TRUE 			# 	正确
+231 # FALSE 			# 	错误
+232 # Intersection 		# 	交点
+
+240 # Variables 		# 	参数
+241 # Reduce 			# 	简化
+242 # Detail 			# 	详细
+243 # Reload 			# 	重新载入
+244 # NDGs 			# 	非退化条件
+245 # Name 			# 	名字
+246 # Variable 			# 	参数
+247 # Length 			# 	长度
+248 # Polynomial 		#	多项式
+249 # Cut 			# 	剪切
+250 # Copy 			# 	复制
+251 # Paste 			#	粘贴
+252 # Delete 			#	删除
+253 # Calculation		# 	计算
+254 # Data			#	数据
+255 # Function 			# 	函数
+	* End of Dialog
+
+
+	* FixPoint
+300 # Close 			# 	关闭
+301 # Clear 			# 	清除
+302 # Warning 			# 	警告
+303 # failed 			#　	失败
+304 # Message 			#　	消息
+305 # Search A Fact 		# 	搜索一个事实
+306 # Add Conclution 		# 	添加结论
+307 # Fixpoint 			# 	不动点
+308 # Second(s) 		# 	秒
+309 # Property 			# 	属性
+310 # Refresh			#	刷新
+311 # Prove in New Tab		#	在新的标签窗口中证明				
+	* End of FixPoint
+
+
+	* Property
+347 # Significant Digit		#	有效数字
+348 # Show Label		#	显示标签
+349 # Show Text			#	显示文本
+350 # Color 			# 	颜色
+351 # Gray 			# 	灰色
+352 # Black and White 		# 	黑白
+353 # Cancel 			# 	取消
+354 # Version 			# 	版本
+355 # Text 			# 	文本 		# 输入文本
+356 # OK 			# 	好
+
+	* End of Property
+
+	* Preference Dialog
+357 # Preference 		# 	参数
+358 # Polygon Alpha 		# 	填充多边形的透明度
+359 # Radius of Point 		#	点的半径
+360 # Point's Text 		# 	点的文本
+361 # Show Text 		#	显示文本
+362 # Default Font 		#	默认字体
+363 # Angle Text 		# 	角的文本
+364 # None			#	没有
+365 # Label 			#	标签
+366 # Degrees 			#	角度
+367 # Foot Mark 		#	垂足标记
+368 # Show foot mark 		#	显示垂足标记
+369 # Length 			#	长度 
+370 # Mode 			#	模式
+371 # AntiAlias 		#	反锯齿
+372 # On 			# 	开
+373 # OFF 			# 	关
+374 # Change.. 			# 	更改
+375 # Language 			# 	语言
+376 # Display 			# 	显示
+3761 # Font 			# 	字体
+377 # BackGround Color 		# 	背景颜色
+378 # Choose Color 		#	选择颜色
+379 # Change Color 		#	改变颜色
+
+388 # Color Mode 		# 	颜色模式
+
+380 # Animation 		# 	动画
+381 # Polygon Moving Interval 	# 	多边形移动速度
+382 # Angle 			#	角度 		#选取两条直线来定义一个角
+383 # Without Arrow 		#	没有箭头
+384 # With Arrow 		#	有箭头
+385 # Multiple Arc 		# 	多条弧线
+386 # Fill 			#	填充角度
+390 # Arc Num 			#	弧的条数
+	* End  of Preference Dialog
+
+	* Fixpoint
+401 # lines 			# 	直线
+402 # parallel lines 		# 	平行线
+403 # perpendicular lines 	# 	垂直线
+404 # midpoints 		# 	中点
+405 # circles 			# 	园
+406 # congruent segments 	# 	线段相等
+407 # congruent angles 		#	角相等
+408 # similiar triangles 	# 	相似三角形
+409 # congruent triangles 	# 	全等三角形
+410 # special angles 		# 	特殊角
+411 # perp-acong angles 	# 	互余角
+412 # ratio segments 		# 	比例线段
+	* End of Fixpoint
+
+	* Line Property
+450 # Point Number 		# 点的数目
+451 # Draw Line 		# 画线
+452 # Num 			# 数目
+460 # Girth			# 周长
+461 # Area			# 面积
+	* End of Line Property
+
+	* Preference
+501 # Save Preference 		# 保存参数
+502 # Can not Save Preference 	# 无法保存参数
+503 # Save Preference Successfully 	# 参数被成功保存
+504 # Failed 			# 失败
+505 # Default 			# 恢复默认
+506 # Please restart the program. 	#请重新启动你程序
+507 # Saved 			# 已保存
+508 # LookAndFeel 		# 外观
+509 # Error 			# 错误
+	* End of Preference
+
+	* Font Chooser
+601 # Font Chooser 		# 选择字体
+602 # Font 			# 字体
+603 # Effects 			# 效果 
+604 # Bold 			# 粗大
+605 # Italic 			# 意大利
+606 # Underline 		# 下划线
+607 # Strikethrough		# 删除线
+608 # Subscript 		# 下标
+609 # Superscript 		# 上标
+610 # Preview Font 		# 预览字体
+611 # Font name 		# 字体名称
+612 # Font size 		# 字体大小
+613 # Font Color 		# 字体颜色
+614 # Preview 			# 预览 
+
+615 # Save and exit 		# 保存并且退出
+616 # Exit without save 	# 不保存退出
+650 # Other			# 其他
+
+710 # propline 			# 比例点
+730 # type 			# 类型
+731 # width 			# 宽度
+
+	* End of Font Chooser
+
+	* Tips
+1000 # The diagram has been changed, do you want to save it? 	# 图形已经被改变，你想保存它么？
+1001 # File exists 				# 文件已经存在
+1002 # already exists, do you want to overwrite it? 		# 已经存在，你想覆盖它么？
+1003 # Time to build fixpoint: 			# 产生不动点消耗的时间：
+1004 # Can not find any proof! 			#　找不到任何证明
+1005 # No conclution 				#　没有结论
+1006 # NO conclution has been set! 		# 没有添加结论，无法证明！
+1007 # Can not prove this theorem with Deductive Database Method 	# 无法用演绎数据库方法证明这个定理。
+1008 # Please Construct the Diagram First! 	# 需要首先完成作图
+1009 # Diagram Not Completed 			# 图形未完成
+1010 # is trivially true 			# 显然正确
+1011 # is obviously true  (by hypothesis) 	#　显然正确（从前提）。
+1012 # Can not prove this theorem. 		# 无法证明这个定理。 
+1013 # Point filled with background color 	# 用背景色来填充点
+1014 # Proof text 				# 显示证明文本
+1015 # Colorful 				# 彩色
+
+1016 # Java Geometry Expert 			# 几何专家 Java 版
+1017 # Built on 				# 发布时间
+1018 # JDK Version: 				# JDK 版本
+1019 # Java Geometry Expert is free under GNU General Public License(GPL). 	# 几何专家软件使用 GNU 通用公共授权，是一款免费软件。
+1020 # The user may download and distribute it freely. 				# 用户可以自由地下载和发布它
+1021 # However, JGEX is an educational tool, not intended for commercial use. 	# 然而，几何专家软件是一个教育软件，不能用作商业用途。
+1022 # Author: 					# 作者
+1023 # for more information,please visit: 				# 为获取更多的信息，请访问：
+1024 # Choose default foot for point's text 				# 为点的文本选择默认的字体
+1025 # The selected two line don't have intersected point # 所选择的两条直线没有交点
+1026 # No Intersected point 						#没有交点
+1027 # Angle Specification must be done before drawing anything 	# 请在作图之前定义特殊角
+1028 # The two lines you selected are parallel, \n don't have any intersection! 	#你选择的两条线是平行的，没有任何交点
+1029 # No intersection 				# 不相交
+1030 # The line and the circle you selected don't have any intersection! # 你选择的直线和圆没有交点
+1031 # The two objects you selected already have two points as their intersections! 	# 你所选择的两个元素已近有两个交点已经定义
+1032 # intersection already defined 		#交点已定义
+1033 # The circles you selected don't have any intersection # 你选择的两个园不相交
+1034 # The two circles you selected already have two points as their intersections 	# 你所选择的两个园已经有两个交点
+1050 # Nothing to be saved 			# 无需存盘
+1051 # File Format Not Supported			# 文件格式不支持!
+1052 # Free Point 				# 自由点
+1053 # Please input the value of the angle	# 请输入角的度数
+1054 # Connection Failed 			# 连接出错
+1055 # Connection failed: Please check your network connection and try again. # 连接出错：请检查网络然后再尝试连接
+1056 # New version available, do you want to update now? 	# 服务器上有新版本可用，你想现在就更新么？
+1057 # Your current JGEX version: 		#  当前的版本是
+1058 # Available JGEX version: 			#  最新版本是
+1059 # Press OK to update.			#  点击 “确定”开始更新
+1060 # Update Information			#  更新信息
+1061 # JGEX Update				#  JGEX更新
+1062 # File Downloaded				#  文件已下载
+1063 # File downloaded! \nTo update JGEX, we will exit the program and start again # 文件已经下载，更新JGEX需要重新启动当前程序
+1070 # Authors # 作者
+
+	* End of Tips
+
+	* Algebraic Proof
+1101 # The Algebraic Form:  		# 代数形式
+1102 # The coordinates 			# 坐标
+1103 # The equational hypotheses: 	# 等价的多项式
+1104 # The Triangulized Hypotheses: 	# 三角化之后的多项式
+1105 # The Conclution 			# 结论
+1106 # Successive Pseudo Remainder of CONC wrpt TS : 	#CONC关于TS依次消减的余项：
+1107 # The Conclution is false 		# 结论是不对的
+1108 # The Conclution is true 		# 结论是正确的
+1109 # The Conclution is not proved 	# 结论没有被证明 
+1110 # Remainder 			# 余项
+1111 # Algebra Method 			# 代数方法
+
+1114 # The Initial Polynomial Set 	# 初始的多项式集合
+1115 # The Groebner Basis: 		# Groebner基：
+1116 # The Nondegenerate Conditions 	# 非退化条件
+1117 # The Conclution After Reduce: 	# 消减以后的结论多项式：
+
+1130 # System Run Out Of Memory 	# 内存不足
+1131 # The Theorem Is Not Proved! 	# 定理未被证明
+1132 # The theorem is not proved with the Deductive Database Method! # 定理没有被证明！
+1133 # Show Detail # 显示细节
+1134 # The conclusion can not be translated to full-angle expression. # 所需要证明的结论无法用全角表示
+1135 # Not Supported # 无法证明
+1136 # The theorem is not proved with The Full-Angle Method. # 定理没有被证明！
+1137 # Construction # 构造
+1138 # The Simplified Nondegenerate Conditions 	# 简化后的非退化条件
+1139 # The Final Nondegenerate Conditions 	# 最终的非退化条件
+	* End of Algebraic Proof
+
+
+
+	* Dialog Save As 
+2001 # Use the LEFT button to select a position # 左键选择一个位置
+2002 # Select two points to determine a line 	# 选择两个点来确定一条直线
+
+2200 # Please input two integers 	# 请输入两个整数
+2201 # Set the ratio 			# 设置比例
+2300 # Please Choose the Client Area	# 请选择客户区
+2301 # No animation has been defined	# 你还没有定义动画
+2302 # Please use the menu " Action -> Animation " to define an animation first # 请使用菜单“操作 -> 动画”先定义一个动画！
+2303 # GIF Option 			# GIF选项
+2304 # Image Quality 			# 图像质量
+2305 # Best  				# 最好 
+2306 # Good  				# 好　
+2307 # Medium 				# 一般
+2308 # Low 				# 低
+2309 # Very Low 			# 很低
+	* End of Dialog Save As 
+
+
+	* Prove Method
+3001 # Deductive Database Method 	# 演绎数据库法
+3002 # Full Angle Method 		# 全角法
+3003 # Traditional Method 		# 传统证明方法
+3004 # Area Method 			# 面积法 
+3005 # Groebner Basis Method 		# Groebner基方法
+3006 # Wu's Method 			# 吴方法
+3007 # Manual Method			# 手动证明方法
+	* End of Prove Method
+
+	* Manual Input
+3100 # Theorem 				# 定理
+3101 # Delete 				# 删除
+3102 # Delete This Row 			# 删除整行
+3103 # Add A New Row 			# 添加一行
+3104 # Append A Term 			# 尾部添加一项
+3105 # Combine Selected Rows 		# 合并选定的行
+
+3106 # Because 				# 因为
+3107 # Hence 				# 所以
+3108 # Given: 				# 给定
+3109 # To Prove: 			# 证明
+3110 # In 				# 在
+3101 # and 				# 并且
+3102 # Similarly, 			# 相似地
+3103 #  Q.E.D. 				# 证明毕
+
+
+3104 # line 				# 线段
+3105 # triangle 			# 三角形
+3106 # circle 				# 园
+3107 # square 				# 正方形
+3108 # area 				# 面积
+3109 # angle 				# 角
+3110 # parallelogram 			# 平行四边形
+
+3111 # Text 				# 文本
+3112 # Keywords 			# 关键字
+3113 # Symbol 				# 符号
+3114 # Assertion 			# 断言
+3115 # Object 				# 对象
+3116 # Draw 				# 作图
+3117 # Construction 			# 辅助元素
+3118 # Equation 			# 等式
+3119 # Rule 				# 规则
+3120 # rectangle			# 矩形
+3121 # quadrangle			# 四边形 
+3122 # trapezoid 			# 五边形
+
+3200 # Edit 				# 编辑
+3201 # Add 				# 添加
+3202 # Append 				# 附加
+3203 # Child 				# 子节点
+3204 # OK 				# 确定
+3205 # Cancel 				# 取消
+3206 # Please select 			# 请选择
+3207 # Basic 				# 基本
+
+3220 # Basic Assertions 		# 基本断言
+3221 # Polygon Related 			# 多边形相关
+3222 # Inequality 			# 不等式
+	* End of Manual Input
+
+	* Add Conclution.
+3300 # The number of points to be selected: # 需要选择的点的数目：
+3301 # Set One 				# 集合一
+3302 # Set Two 				# 集合二
+	* End of Add Conclution.
+
+	* Property Menu 
+4000 # Fill 			# 填充
+4001 # Grid 			# 网格
+4002 # Vertical Line 		# 垂直线
+4003 # Horizontal Line 		# 水平线 
+4004 # Radius 			# 半径
+4005 # X Coordinate 		# X轴坐标
+4006 # Y Coordinate 		# Y轴坐标
+4007 # Freezed 			# 固定
+4008 # Point on Line 		# 在线上的点
+4009 # Point on Circle 		# 在园上的点
+
+4010 # Center X 		# 中点X坐标
+4011 # Center Y 		# 中点Y坐标
+4012 # Center 			# 中心
+
+4013 # Grid Step 		# 网格的疏密
+4014 # Slope Angle 		# 倾斜角度
+4015 # Coordinates 		# 坐标
+	* End of Property Menu 
+
+	* Right Button Menu
+4020 # Cancel Action 		# 取消命令
+4021 # Edit Text 		# 编辑文本
+4022 # Freeze 			# 固定点
+4023 # Unfreeze 		# 解除固定
+4024 # Stop Trace 		# 停止跟踪
+4025 # Plain 			# 普通
+4026 # Bold 			# 粗大
+4027 # Font Size 		# 字体大小
+	* End of Right Button Menu
+
+
+10001 # Fact # 事实
+
+ 
+	* Update Dialog 

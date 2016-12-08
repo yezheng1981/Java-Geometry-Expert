@@ -1,0 +1,14 @@
+# Example 6.303 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE BUTTERFLY
+HYPOTHESES: 
+POINT A B C;
+CIRCUMCENTER O A B C;
+LRATIO  P A B r;
+INTERSECTION_LC D C P O C;
+INTERSECTION_LT E A C P O P;
+INTERSECTION_LL F B D P E;
+SHOW: MIDPOINT P E F.

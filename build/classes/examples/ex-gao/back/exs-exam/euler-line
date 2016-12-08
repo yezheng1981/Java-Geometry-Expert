@@ -1,0 +1,12 @@
+# Example 3.71 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  EULER_LINE
+HYPOTHESES:
+  POINT A B C ;
+  CIRCUMCENTER O A B C ;
+  CENTROID M A B C ;
+  LRATIO H M O -2;
+SHOW:  PERPENDICULAR A H B C.

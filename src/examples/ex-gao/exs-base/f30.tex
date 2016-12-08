@@ -1,0 +1,91 @@
+\documentstyle[11pt]{article}
+\voffset=-2.5truecm
+\hoffset=-1.9truecm
+\textwidth = 16truecm
+\textheight = 22.5truecm
+\parskip=8pt
+\parindent=15pt
+\def\fa#1#2{\langle{#1},{#2}\rangle}
+\begin{document}
+The following auxilliary point is added by the program
+
+\begin{verbatim}
+INTERSECTION_LC A_{0}  A O  O A;
+\end{verbatim}
+
+
+{\vskip6pt \parskip=6pt \parindent=10pt 
+The Machine Proof
+
+
+1. perp[$AO,EF$] :- (hyp)perp[$AC,BE$], (2)$[AC,BE]=[EF,AO]$.
+
+2. $[AC,BE]=[EF,AO]$ :- (3)$[AC,EF]=[BE,AO]$.
+
+3. $[AC,EF]=[BE,AO]$ :- (4)$[AC,EF]=[BC,AB]$, (5)$[BE,AO]=[BC,AB]$.
+
+4. $[AC,EF]=[BC,AB]$ :- (hyp)coll$[AEC]$, (hyp)coll$[ABF]$, (6)$[EC,EF]=[BC,BF]$.
+
+5. $[BE,AO]=[BC,AB]$ :- (7)$[EC,CB]=[AA_{0},A_{0}B]$, (8)$[CE,EB]=[AB,BA_{0}]$.
+
+6. $[EC,EF]=[BC,BF]$ :- (9)circle[$BECF$].
+
+7. $[EC,CB]=[AA_{0},A_{0}B]$ :- (hyp)coll$[ECA]$, (10)$[CA,CB]=[A_{0}A,A_{0}B]$.
+
+8. $[CE,EB]=[AB,BA_{0}]$ :- (11)$[CE,AB]=[EB,BA_{0}]$.
+
+9. circle[$BECF$] :- (hyp)perp[$EC,EB$], (hyp)perp[$FC,FB$].
+
+10. $[CA,CB]=[A_{0}A,A_{0}B]$ :- (hyp)circle[$ABCA_{0}$].
+
+11. $[CE,AB]=[EB,BA_{0}]$ :- (12)$[CE,AB]=[CA_{0},CF]$, (13)$[EB,BA_{0}]=[CA_{0},CF]$.
+
+12. $[CE,AB]=[CA_{0},CF]$ :- (14)$[CE,BC]=[AO,CF]$, (15)$[CA_{0},AO]=[BC,AB]$.
+
+13. $[EB,BA_{0}]=[CA_{0},CF]$ :- (16)$[EB,EF]=[BC,CF]$, (17)$[CA_{0},BC]=[EF,BA_{0}]$.
+
+14. $[CE,BC]=[AO,CF]$ :- (18)$[CE,AB]=[BE,CF]$, (19)$[AO,BE]=[AB,BC]$.
+
+15. $[CA_{0},AO]=[BC,AB]$ :- (hyp)coll$[OA_{0}A]$, (20)$[A_{0}C,A_{0}A]=[BC,BA]$.
+
+16. $[EB,EF]=[BC,CF]$ :- (9)circle[$BECF$].
+
+17. $[CA_{0},BC]=[EF,BA_{0}]$ :- (21)$[CA_{0},BC]=[AO,AB]$, (22)$[EF,BA_{0}]=[AO,AB]$.
+
+18. $[CE,AB]=[BE,CF]$ :- (hyp)perp[$BE,AC$], (hyp)perp[$CF,AB$].
+
+19. $[AO,BE]=[AB,BC]$ :- (7)$[EC,CB]=[AA_{0},A_{0}B]$, (8)$[CE,EB]=[AB,BA_{0}]$.
+
+20. $[A_{0}C,A_{0}A]=[BC,BA]$ :- (hyp)circle[$ACBA_{0}$].
+
+21. $[CA_{0},BC]=[AO,AB]$ :- (hyp)coll$[OAA_{0}]$, (23)$[CA_{0},CB]=[AA_{0},AB]$.
+
+22. $[EF,BA_{0}]=[AO,AB]$ :- (24)$[EF,BA_{0}]=[AB,BO]$, (25)$[AO,AB]=[AB,BO]$.
+
+23. $[CA_{0},CB]=[AA_{0},AB]$ :- (hyp)circle[$ACBA_{0}$].
+
+24. $[EF,BA_{0}]=[AB,BO]$ :- (26)$[EF,AB]=[BA_{0},BO]$.
+
+25. $[AO,AB]=[AB,BO]$ :- (hyp)$OA = OB$.
+
+26. $[EF,AB]=[BA_{0},BO]$ :- (27)$[EF,AB]=[AC,BC]$, (28)$[BA_{0},BO]=[AC,BC]$.
+
+27. $[EF,AB]=[AC,BC]$ :- (9)circle[$BECF$].
+
+28. $[BA_{0},BO]=[AC,BC]$ :- (29)$[BA_{0},AC]=[BO,BC]$.
+
+29. $[BA_{0},AC]=[BO,BC]$ :- (30)$[BA_{0},AC]=[BC,CO]$, (31)$[BO,BC]=[BC,CO]$.
+
+30. $[BA_{0},AC]=[BC,CO]$ :- (32)$[BA_{0},BC]=[AC,CO]$.
+
+31. $[BO,BC]=[BC,CO]$ :- (hyp)$OB = OC$.
+
+32. $[BA_{0},BC]=[AC,CO]$ :- (33)$[BA_{0},BC]=[AO,AC]$, (34)$[AC,CO]=[AO,AC]$.
+
+33. $[BA_{0},BC]=[AO,AC]$ :- (hyp)coll$[OAA_{0}]$, (35)$[BA_{0},BC]=[AA_{0},AC]$.
+
+34. $[AC,CO]=[AO,AC]$ :- (hyp)$OA = OC$.
+
+35. $[BA_{0},BC]=[AA_{0},AC]$ :- (hyp)circle[$ABCA_{0}$].
+}
+\end{document}

@@ -1,0 +1,13 @@
+# Example 3.36 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  ORTH  
+HYPOTHESES:
+  POINT A B C;
+  FOOT E B A C;
+  FOOT F A B C;
+  INTERSECTION_LL H  A F  B E;
+  INTERSECTION_LL G  C H A B;
+SHOW:  PERPENDICULAR A B C H.

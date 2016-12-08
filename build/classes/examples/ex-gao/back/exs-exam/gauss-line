@@ -1,0 +1,14 @@
+# Example 2.36 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE GAUSS
+HYPOTHESES: 
+  POINT A0 A1 A2 A3;
+  INTERSECTION_LL X A0 A3 A1 A2;
+  INTERSECTION_LL Y A2 A3 A1 A0;
+  MIDPOINT M1 A1 A3;
+  MIDPOINT M2 A2 A0;
+  INTERSECTION_LL M3 M1 M2 X Y;
+SHOW: MIDPOINT M3 X Y.

@@ -1,0 +1,13 @@
+# Example 6.17 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  HARMONIC_SET  
+HYPOTHESES:
+  POINT A B P Q;
+  INTERSECTION_LL R A Q B P;
+  INTERSECTION_LL S Q B  A P ;
+  INTERSECTION_LL C A B  S R ;
+  INTERSECTION_LL F A B  Q P ;
+SHOW:  HARMONIC A B C F.

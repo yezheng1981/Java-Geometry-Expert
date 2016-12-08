@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<script type="text/javascript">
+var tiki_cookie_jar = new Array();
+tiki_cookie_jar = {
+	};
+</script>
+<script type="text/javascript" src="lib/tiki-js.js"></script><title>JGEX Documentation :jgex on web</title>
+
+
+<link rel="StyleSheet" href="lib/1.css" type="text/css">
+<link rel="StyleSheet" href="styles/cindydoc.css" type="text/css">
+
+
+
+
+    
+
+
+
+<link rel="alternate" type="application/xml" title="RSS Wiki" >
+<style type="text/css">
+<!--
+.style2 {font-size: 18px}
+-->
+</style>
+</head>
+<body>
+
+<div id="overDiv" style="position: absolute; visibility: hidden; z-index: 1000;"></div>
+<script type="text/javascript" language="JavaScript" src="lib/overlib.js"></script>
+
+
+
+
+
+<div id="tiki-clean">
+  <div id="tiki-mid">
+    
+
+<div class="wikitopline">
+<table><tbody><tr>
+<td style="vertical-align: top;">
+</td>
+</tr></tbody></table>
+</div>
+
+<div class="wikitext">
+<h2>Use JGEX on Web </h2>
+<p>This is a brief introduction to help use to use JGEX on web. </p>
+<p>Since JGEX is written totally in JAVA, it can be run in browser under any operating system which has JVM. When the user have built an example and want to put it on his own homepage, the web version of JGEX (JGEX Applet) can be used to do this. </p>
+<p>To do this, take the following three steps. </p>
+<p><strong>1. </strong>Download JGEX Applet. Please go to our homepage: <a href="http://woody.cs.wichita.edu">http://woody.cs.wichita.edu</a> to download the applet for JGEX. It's a jar file and the filename of this applet is: gexApplet.jar. </p>
+<p><strong>2.</strong> Create a html file and put the file of the example in the same folder. </p>
+<p><strong>3.</strong> Put the following code in the html file.</p>
+<p class="codelisting">&lt;applet <br />
+code=&quot;wprover.GApplet1&quot; <br />
+archive=&quot;gexApplet.jar&quot; <br />
+filename = &quot;9point.gex&quot;<br />
+animationbar = &quot;false&quot;<br />
+provestepbar = &quot;true&quot;<br />
+ppane = &quot;true&quot;<br />
+mprove = &quot;true&quot;<br />
+has_proof = &quot;true&quot;<br />
+width=&quot;950&quot; <br />
+height=&quot;501&quot; <br />
+alt=&quot;JGEX Applet&quot; <br />
+title=&quot;Applet&quot;<br />
+grid = &quot;25&quot;<br />
+&lt;/applet&gt;</p>
+<p>&nbsp;</p>
+<p>About the parameter:</p>
+<p>As we can see from the above example, JGEX provides a whole bunch of parameters. We will list the meaning of different parameters.</p>
+<p>1.  <span class="diffadded">code=&quot;wprover.GApplet1&quot; </span>. This is the entry point of the jgex applet. </p>
+<p>2. <span class="diffadded">archive=&quot;gexApplet.jar&quot; </span>. This is the filename for the applet.</p>
+<p>3.  <span class="diffadded">filename = &quot;9point.gex</span>. This is the filename for the example to be shown.</p>
+<p>4.  <span class="diffadded">animationbar = &quot;false&quot;</span>. This sets the visibility of Animation Bar.</p>
+<p>5. <span class="diffadded">provestepbar = &quot;true&quot;</span>. This sets the visibility of Prove Step Bar.</p>
+<p>6. <span class="diffadded">ppane = &quot;true&quot;</span>. This sets the visibility of the Prove Pane.</p>
+<p>7.  <span class="diffadded">mprove = &quot;true&quot;</span>. This sets the type of example: If the value is &quot;True&quot;, it's a manually created example; otherwise it's an example proved by automated method.</p>
+<p>8.  <span class="diffadded">has_proof = &quot;true&quot;</span>. This sets if the example has proof or not. If the value is &quot;false&quot;, then the example is just a drawing example.</p>
+<p>9.  <span class="diffadded">grid = &quot;25&quot;</span>. This sets the distance between two grid line. </p>
+</div> 
+
+
+<p class="editdate">JGEX Help </p>
+</div>
+
+</div>
+
+
+
+
+</body></html>

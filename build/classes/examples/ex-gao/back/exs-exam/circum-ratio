@@ -1,0 +1,17 @@
+# Example 6.96 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  A165_6  
+HYPOTHESES:
+  POINT A B C ;
+  CIRCUMCENTER O A B C ;
+  LRATIO P O A -1;
+  LRATIO Q O B -1;
+  LRATIO R O C -1;
+  INTERSECTION_LL K  B C  A O ;
+  INTERSECTION_LL L  C A  B O ;
+  INTERSECTION_LL M  A B  C O ;
+SHOW: (RATIO K P A K) + (RATIO L Q B L) 
+    + (RATIO M R C M ) =  1 .

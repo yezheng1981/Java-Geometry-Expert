@@ -1,0 +1,9 @@
+
+EXAMPLE  PE-O  
+HYPOTHESES:
+  POINT A B C ;
+  CIRCUMCENTER O A B C ;
+  FOOT E O B C ;
+  FOOT F O A C ;
+  FOOT G O A B ;
+SHOW: NO.

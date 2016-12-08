@@ -1,0 +1,16 @@
+# Example 6.390 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  pascal
+HYPOTHESES:
+  POINT A B D E S ;
+  ON_LINE C S D;
+  INTERSECTION_LL P  D E  A B ;
+  INTERSECTION_LL Q  P S  B C ;
+  INTERSECTION_LL F  S A  Q E ;
+  INTERSECTION_LL S_1  B A  F D ;
+  INTERSECTION_LL P_1  D E  A C ;
+  INTERSECTION_LL Q_1  E B  C F ;
+SHOW: COLLINEAR P_1 Q_1 S_1.

@@ -1,0 +1,16 @@
+# Example 6.191 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  C336  
+HYPOTHESES:
+  CONSTANT r^2-3;
+  POINT A B C ;
+  MIDPOINT E A C ;
+  TRATIO O_2 E E A (r) (3);
+  MIDPOINT F B C ;
+  TRATIO O_1 F F C (r) (3);
+  MIDPOINT G A B ;
+  TRATIO O_3 G G B (r) (3);
+SHOW: EQDISTANCE O_1 O_2 O_2 O_3.

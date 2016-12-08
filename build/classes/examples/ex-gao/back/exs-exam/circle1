@@ -1,0 +1,13 @@
+# Example 6.285 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  A135_8  
+HYPOTHESES:
+  CIRCLE A B C D E ;
+  FOOT P E A B ;
+  FOOT Q E B C ;
+  FOOT R E C D ;
+  FOOT S E A D ;
+SHOW:  EQ_PRODUCT E S E Q E P E R.

@@ -1,0 +1,487 @@
+﻿Persian
+Font: Tahoma # 1 # 11 	
+	
+	* File Menu
+0 	#	File 	#	فایل
+1 	#	New 	#	جدید
+2 	#	Open 	#	باز کردن
+3 	#	Save 	#	ذخیره
+4 	#	Save as... 	#	ذخیره به عنوان
+5 	#	Save as PS 	#	ذخیره به عنوان ps
+6 	#	Save as Text 	#	ذخیره به عنوان متن
+7 	#	Print 	#	چاپ
+8 	#	Exit 	#	خروج
+9 	#	Select 	#	انتخاب
+10 	#	Move 	#	حرکت دادن
+11 	#	Geometry Expert 	#	متخصص هندسه
+12 	#	Save as Image 	#	 
+13 	#	Save as Animated Image 	#	 
+	* End of File Menu
+
+	* Examples Menu
+
+19 	#	Examples 	#	مثال ها
+	* End of Example Menu
+
+	* Construct Menu
+
+20 	#	Construct 	#	ایجاد کردن
+21 	#	Point by Point and Segment 	#	نقطه به نقطه
+22 	#	Radical of Two Circles 	#	
+23 	#	Oriented Segment 	#	
+24 	#	Oriented T Segment 	#	
+25 	#	Other.. 	#	
+27 	#	Oriented Segment * Ratio 	#	
+28 	#	Oriented T Segment * Ratio 	#	
+31 	#	Proportional Segment 	#	
+33 	#	Point 	#	نقطه
+34 	#	Midpoint 	#	نقطه میانی
+35 	#	Circumcenter 	#	
+36 	#	Centroid 	#	مرکز
+37 	#	Orthocenter 	#	
+38 	#	Incenter 	#	داخل مرکز
+39 	#	Foot 	#	پای عمود
+40 	#	Line 	#	خط
+41 	#	Parallel Line 	#	خط موازی
+42 	#	Perpendicular Line 	#	خط عمودی
+43 	#	ALine 	#	در یک امتداد بودن
+44 	#	Perp-Bisect Line 	#	
+45 	#	Tangent Line 	#	خط مماس
+46 	#	Parallel 	#	موازی
+47 	#	Perpendicular 	#	عمودی
+49 	#	ABline 	#	 
+50 	#	Circle 	#	دایره
+51 	#	Circle by Three Points 	#	دایره با سه نقطه
+52 	#	Circle by Radius 	#	دایره با شعاع
+60 	#	Action 	#	عمل
+61 	#	Intersect 	#	قطع کردن
+62 	#	Reflect 	#	بازتاب دادن
+70 	#	Polygon 	#	چند ضلعی
+71 	#	Triangle 	#	مثلث
+72 	#	Isosceles Triangle 	#	مثلث متساوی الساقین
+73 	#	Equilateral Triangle 	#	مثلث متساوی الاضلاع
+74 	#	Right-angled Triangle 	#	مثلث قائم الزاویه
+75 	#	Isosceles Right-angled Triangle 	#	مثلث قائم الزاویه متسای الساقین
+76 	#	Quadrangle 	#	چهارضلعی
+77 	#	Parallelogram 	#	متوازی الاضلاع
+78 	#	Trapezoid 	#	ذوزنقه
+79 	#	Right-angled Trapezoid 	#	ذوزنقه قائم الزاویه
+80 	#	Rectangle 	#	مستطیل
+81 	#	Square 	#	مربع
+82 	#	Pentagon 	#	پنج ضلعی
+83 	#	Polygon 	#	کثیرالاضلاع
+90 	#	Special Angles 	#	زاویه های مخصوص
+100 	#	Constraint 	#	قید
+101 	#	Eqangle 	#	
+102 	#	Nteqangle 	#	
+103 	#	Eqangle3p 	#	
+104 	#	Angle Specification 	#	تعیین زاویه
+105 	#	Equal Ratio 	#	نسبت مساوی
+106 	#	Equal Distance 	#	فاصله مساوی
+107 	#	CCtangent 	#	
+108 	#	Ratio Distance 	#	
+	* End of Construct Menu
+
+	* Action Menu
+
+120 	#	Trace 	#	ردیابی
+121 	#	Locus 	#	مکان هندسی
+122 	#	Animation 	#	انیمیشن
+123 	#	Fill Polygon 	#	پرکردن چند ضلعی
+124 	#	Measure Distance 	#	اندازه گرفتن فاصله
+125 	#	Equal Mark 	#	نمره مساوی
+126 	#	Right-angle Mark 	#	
+127 	#	Hide Object 	#	مخفی کردن شی
+128 	#	Show Object 	#	نمایش دادن شی
+129 	#	Transform 	#	تغییر شکل دادن
+130 	#	Equivalence 	#	تعادل
+131 	#	Free Transform 	#	تبدیل کردن آزاد
+	* End of Action Menu
+
+	* Lemmas Menu
+
+140 	#	Lemmas 	#	لم ها
+141 	#	Rulers for Full Angle 	#	
+142 	#	Rulers for GDD 	#	
+	* End of Lemmas Menu
+
+	* Prove Menu
+
+150 	#	Prove 	#	اثبات
+151 	#	To Prove 	#	اثبات کردن
+152 	#	Numerical Check 	#	تست عددی
+153 	#	Nondegenerate Conditions 	#	
+154 	#	Leading Variable 	#	
+155 	#	Option 	#	خصیصه
+156 	#	Preference 	#	صلیقه ها
+157 	#	Construct History 	#	لیست اشکال قبلی
+158 	#	Show Step Bar 	#	نمایش نوار مرحله به مرحله
+	* End of Prove Menu
+
+	* Help Menu
+
+160 	#	Help 	#	راهنما
+161 	#	Online Help 	#	راهنمای آنلاین
+162 	#	About JGEX 	#	درباره JGEX
+	* End of Help Menu
+
+	* ToolBar 
+
+170 	#	Translate 	#	جابجایی
+171 	#	Zoom-in 	#	بزرگنمایی
+172 	#	Zoom-out 	#	کوچک نمایی
+173 	#	Snap 	#	
+174 	#	Grid 	#	صفحه شطرنجی
+175 	#	LessGrid 	#	شطرنجی کم
+176 	#	MoreGrid 	#	شطرنجی زیاد
+177 	#	Redo 	#	دوباره انجام دادن
+178 	#	Undo 	#	برگشت به عمل قبلی
+179 	#	FF 	#	بعدی
+180 	#	FR 	#	قبلی
+181 	#	autoshowstep 	#	
+182 	#	animate_start 	#	
+	* End of ToolBar
+
+	* Assertion
+
+200 	#	Collinear 	#	روی یک خط بودن
+201 	#	Parallel 	#	موازی
+202 	#	Perpendicular 	#	عمود
+203 	#	Midpoint 	#	نقطه میانی
+204 	#	Cyclic 	#	دایره ای
+205 	#	Equal Distance 	#	فاصله یکسان
+206 	#	Equal Angle 	#	زاویه مساوی
+207 	#	Similiar Triangle 	#	مثلث متشابه
+208 	#	Congruent Triangle 	#	مثلث متجانس
+209 	#	Equalateral Triangle 	#	مثلث متساوی الاضلاع
+210 	#	Bisect 	#	نیمساز
+211 	#	Tangent 	#	مماس
+212 	#	Equal Product 	#	محصول برابر
+213 	#	Ratio 	#	نسبت
+214 	#	Special Angle 	#	زاویه مخصوص
+215 	#	Angles Equation 	#	برابری زاویه ها
+216 	#	Segment Equation 	#	
+	* End of Assertion
+
+	* Dialog
+
+230 	#	TRUE 	#	صحیح
+231 	#	FALSE 	#	غلط
+232 	#	Intersection 	#	تقاطع
+240 	#	Variables 	#	متغییرها
+241 	#	Reduce 	#	کم کردن
+242 	#	Detail 	#	جزئیات
+243 	#	Reload 	#	بارگذاری مجدد
+244 	#	NDGs 	#	
+245 	#	Name 	#	اسم
+246 	#	Variable 	#	متغییر
+247 	#	Length 	#	طول
+248 	#	Polynomial 	#	چند جمله ای
+249 	#	Cut 	#	بریدن
+250 	#	Copy 	#	کپی کردن
+251 	#	Paste 	#	چسباندن
+252 	#	Delete 	#	حذف کردن
+	* End of Dialog
+
+	* FixPoint
+
+300 	#	Close 	#	بستن
+301 	#	Clear 	#	پاک کردن
+302 	#	Warning 	#	اخطار
+303 	#	failed 	#	رد شده
+304 	#	Message 	#	پیام
+305 	#	Search facts 	#	واقعیات جستجو
+306 	#	Add Conclution 	#	اضافه کردن نتیجه
+307 	#	Fixpoint 	#	نقطه ثابت
+308 	#	Second(s) 	#	ثانیه ( ها )
+309 	#	Property 	#	مشخصه
+	* End of FixPoint
+
+	* Property
+
+350 	#	Color 	#	رنگ
+351 	#	Gray 	#	خاکستری
+352 	#	Black and White 	#	سیاه و سفید
+353 	#	Cancel 	#	لغو
+354 	#	Version 	#	نسخه
+355 	#	Text 	#	متن
+356 	#	OK 	#	تایید
+	* End of Property
+
+	* Preference Dialog
+
+357 	#	Preference 	#	صلیقه
+358 	#	Polygon Alpha 	#	آلفای چند جمله
+359 	#	Radius of Point 	#	شعاع نقطه
+360 	#	Point's Text 	#	متن نقطه
+361 	#	Show Text 	#	نمایش متن
+362 	#	Default Font 	#	فونت پیش فرض
+363 	#	Angle Text 	#	متن زاویه
+364 	#	None 	#	هیچ
+365 	#	Label 	#	برچسب
+366 	#	Degrees 	#	درجه
+367 	#	Foot Mark 	#	علامت پایین
+368 	#	Show foot mark 	#	نمایش علامت پایین
+369 	#	Length 	#	طول
+370 	#	Mode 	#	حالت
+371 	#	AntiAlias 	#	ضد نام مستعار
+372 	#	On 	#	روشن
+373 	#	OFF 	#	خاموش
+374 	#	Change.. 	#	تغییر ..
+375 	#	Language 	#	زبان
+376 	#	Display 	#	نمایش
+376 	#	Display 	#	نمایش
+377 	#	BackGround Color 	#	رنگ زمینه
+378 	#	Choose Color 	#	رنگ انتخاب شده
+379 	#	Change Color 	#	رنگ شی تغییر یافته
+388 	#	Color Mode 	#	حالت رنگ
+380 	#	Animation 	#	انیمیشن
+381 	#	Polygon Moving Interval 	#	فاصله حرکت چند ضلعی
+382 	#	Angle 	#	زاویه
+383 	#	Without Arrow 	#	بدون فلش
+384 	#	With Arrow 	#	با فلش
+385 	#	Multiple Arc 	#	چند قوس
+386 	#	Fill 	#	پر کردن
+390 	#	Arc Num 	#	شماره قوس
+	* End  of Preference Dialog
+
+	* Fixpoint
+
+401 	#	lines 	#	خطوط
+402 	#	parallel lines 	#	خطوط موازی
+403 	#	perpendicular lines 	#	خطوط عمود
+404 	#	midpoints 	#	نقاط میانی
+405 	#	circles 	#	دایره ها
+406 	#	congruent segments 	#	تکه های متجانس
+407 	#	congruent angles 	#	زاویه های متجانس
+408 	#	similiar triangles 	#	مثلث های متشابه
+409 	#	congruent triangles 	#	مثلث های متجانس
+410 	#	special angles 	#	زاویه های وِیژه
+411 	#	perp-acong angles 	#	
+412 	#	ratio segments 	#	
+	* End of Fixpoint
+
+	* Line Property
+
+450 	#	Point Number 	#	شماره نقطه
+451 	#	Draw Line 	#	رسم خط
+452 	#	Num 	#	شماره
+	* End of Line Property
+
+	* Preference
+
+501 	#	Save Preference 	#	ذخیره صلایق
+502 	#	Can not Save Preference 	#	نمیتوان این تنظیمات را ذخیره کرد
+503 	#	Save Preference Successfully 	#	تنظیمات ذخیره شدند
+504 	#	Failed 	#	رد شده
+505 	#	Default 	#	پیش فرض
+506 	#	Please restart the program. 	#	لطفا برنامه را مجددا راه اندازی کنید
+507 	#	Saved 	#	ذخیره شده
+508 	#	LookAndFeel 	#	نگاه کنید و احساس کنید
+	* End of Preference
+
+	* Font Chooser
+
+601 	#	Font Chooser 	#	انتخاب کننده فونت
+602 	#	Font 	#	فونت
+603 	#	Effects 	#	افکت
+604 	#	Bold 	#	پررنگ
+605 	#	Italic 	#	کج
+606 	#	Underline 	#	زیر خط
+607 	#	Strikethrough 	#	وسط ضربه زدن
+608 	#	Subscript 	#	زیر نویس
+609 	#	Superscript 	#	بالا نویس
+610 	#	Preview Font 	#	پیش نمایش فونت
+611 	#	Font name 	#	نام فونت
+612 	#	Font size 	#	اندازه فونت
+613 	#	Font Color 	#	رنگ فونت
+614 	#	Preview 	#	پیش نمایش
+615 	#	Save and exit 	#	ذخیره و خروج
+616 	#	Exit without save 	#	خروج بدون ذخیره
+710 	#	propline 	#	
+730 	#	type 	#	نوع
+731 	#	width 	#	عرض
+	* End of Font Chooser
+
+	* Tips
+
+1000 	#	The diagram has been changed, do you want to save it? 	#	شکل هندسی تغییر یافته است ، میخواهید ذخیره شود ؟
+1001 	#	File exists 	#	وجود داشتن فایل
+1002 	#	already exists, do you want to overwrite it? 	#	فایل وجود دارد ، میخواهید بر روی آن ذخیره شود ؟
+1003 	#	Time to build fixpoint: 	#	زمان برای ایجاد نقطه
+1004 	#	Can not find any proof! 	#	هیچ اثباتی را نمیتوان یافت
+1005 	#	No conclution 	#	بدون نتیجه
+1006 	#	NO conclution has been set! 	#	
+1007 	#	Can not prove this theorem with Deductive Database Method 	#	با شیوه های استقرایی موجود نمیتوان این قضیه را ثابت کرد
+1008 	#	Please Construct the Diagram First! 	#	ابتدا این شکل هندسی را ایجاد کنید
+1009 	#	Diagram Not Completed 	#	شکل هندسی کامل نشده است
+1010 	#	is trivially true 	#	
+1011 	#	is obviously true  (by hypothesis) 	#	
+1012 	#	Can not prove this theorem. 	#	این قضیه را نمیتوان اثبات کرد
+1013 	#	Point filled with background color 	#	نقاط با رنگ زمینه ثابت شده اند
+1014 	#	Proof text 	#	متن اثبات
+1015 	#	Colorful 	#	رنگارنگ
+1016 	#	Java Geometry Expert 	#	متخصص هندسه تحت جاوا
+1017 	#	Built on 	#	ساخته شده در
+1018 	#	JDK Version: 	#	نسخه jdk
+1019 	#	Java Geometry Expert is free under GNU General Public License(GPL). 	#	برنامه متخصص هندسه تحت لیسانس آزاد قرار دارد
+1020 	#	The user may download and distribute it freely. 	#	کاربر میتواند برنامه را دانلود و استفاده کند
+1021 	#	However, JGEX is an educational tool, not intended for commercial use. 	#	به هر حال متخصص هندسه یک برنامه آموزشی است نه تجاری
+1022 	#	Author: 	#	نویسندگان
+1023 	#	for more information,please visit: 	#	برای کسب اطلاعات بیشتر ، ببینید :
+1024 	#	Choose default foot for point's text 	#	انتخاب فوت مناسب برای متن نقاط
+1025 	#	The selected two line don't have intersected point 	#	دو خط انتخاب شده هیچ نقطه تقاطعی ندارند
+1026 	#	No Intersected point 	#	بدون نقطه تقاطع
+1027 	#	Angle Specification must be done before drawing anything 	#	
+1028 	#	The two lines you selected are parallel, \n don't have any intersection! 	#	
+1029 	#	No intersection 	#	
+1030 	#	The line and the circle you selected don't have any intersection! 	#	
+1031 	#	The two objects you selected already have two points as their intersections! 	#	
+1032 	#	intersection already defined 	#	
+1033 	#	The circles you selected don't have any intersection 	#	
+1034 	#	The two circles you selected already have two points as their intersections 	#	
+1050 	#	Nothing to be saved 	#	 
+	* End of Tips
+
+	* Algebraic Proof
+
+1101 	#	The Algebraic Form: 	#	 
+1102 	#	The coordinates 	#	 
+1103 	#	The equational hypotheses: 	#	 
+1104 	#	The Triangulized Hypotheses: 	#	 
+1105 	#	The Conclution 	#	 
+1106 	#	Successive Pseudo Remainder of CONC wrpt TS : 	#	 
+1107 	#	The Conclution is false 	#	 
+1108 	#	The Conclution is true 	#	 
+1109 	#	The Conclution is not proved 	#	 
+1110 	#	Remainder 	#	 
+1114 	#	The Initial Polynomial Set 	#	 
+1115 	#	The Groebner Basis: 	#	 
+1116 	#	The Nondegenerate Conditions 	#	 
+1117 	#	The Conclution After Reduce: 	#	 
+1130 	#	System Run Out Of Memory 	#	 
+1131 	#	The Theorem Is Not Proved! 	#	 
+1132 	#	The theorem is not proved with the Deductive Database Method! 	#	 
+1133 	#	Show Detail 	#	 
+1134 	#	The conclusion can not be translated to full-angle expression. 	#	 
+1135 	#	Not Supported 	#	 
+1136 	#	The theorem is not proved with The Full-Angle Method. 	#	 
+1137 	#	Construction 	#	 
+1138 	#	The Simplified Nondegenerate Conditions 	#	 
+1139 	#	The Final Nondegenerate Conditions 	#	 
+	* End of Algebraic Proof
+
+	* Dialog Save As 
+
+2001 	#	Use the LEFT button to select a position 	#	از دکمه چپ برای مشخص نمودن موقعیت استفاده کنید
+2002 	#	Select two points to determine a line 	#	نمایش خط با مشخص کردن دو نقطه
+2200 	#	Please input two integers 	#	لطفا دو عدد صحیح وارد کنید
+2201 	#	Set the ratio 	#	
+2300 	#	Please Choose the Client Area 	#	 
+2301 	#	No animation has been defined 	#	 
+2302 	#	Please use the menu " Action -> Animation " to define an animation first 	#	 
+2303 	#	GIF Option 	#	 
+2304 	#	Image Quality 	#	 
+2305 	#	Best 	#	 
+2306 	#	Good 	#	 
+2307 	#	Medium 	#	 
+2308 	#	Low 	#	 
+2309 	#	Very Low 	#	 
+	* End of Dialog Save As 
+
+	* Prove Method
+
+3001 	#	Deductive Database Method 	#	
+3002 	#	Full Angle Method 	#	
+3003 	#	Traditional Method 	#	
+3004 	#	Area Method 	#	
+3005 	#	Groebner Basis Method 	#	
+3006 	#	Wu's Method 	#	
+	* End of Prove Method
+
+	* Manual Input
+
+3100 	#	Theorem 	#	قضیه
+3101 	#	Delete 	#	حذف کردن
+3102 	#	Delete This Row 	#	حذف کردن این ردیف
+3103 	#	Add A New Row 	#	اضافه کردن یک ردیف جدید
+3104 	#	Append A Term 	#	
+3105 	#	Combine Selected Rows 	#	
+3106 	#	Because 	#	زیرا
+3107 	#	Hence 	#	
+3108 	#	Given: 	#	
+3109 	#	To Prove: 	#	
+3110 	#	In 	#	در
+3101 	#	Delete 	#	حذف کردن
+3102 	#	Delete This Row 	#	حذف کردن این ردیف
+3103 	#	Add A New Row 	#	اضافه کردن یک ردیف جدید
+3104 	#	Append A Term 	#	
+3105 	#	Combine Selected Rows 	#	
+3106 	#	Because 	#	زیرا
+3107 	#	Hence 	#	
+3108 	#	Given: 	#	
+3109 	#	To Prove: 	#	
+3110 	#	In 	#	در
+3111 	#	Text 	#	متن
+3112 	#	Keywords 	#	کلمات کلیدی
+3113 	#	Symbol 	#	علامت
+3114 	#	Assertion 	#	ادعا
+3115 	#	Object 	#	شی
+3116 	#	Draw 	#	رسم کردن
+3117 	#	Construction 	#	ساخت
+3118 	#	Equation 	#	معادله
+3119 	#	Rule 	#	قاعده
+3120 	#	rectangle 	#	مستطیل
+3121 	#	quadrangle 	#	چهارگوشه
+3122 	#	trapezoid 	#	ذوزنقه
+3200 	#	Edit 	#	ویرایش کردن
+3201 	#	Add 	#	اضافه کردن
+3202 	#	Append 	#	افزودن
+3203 	#	Child 	#	بچه
+3204 	#	OK 	#	تایید
+3205 	#	Cancel 	#	لغو
+3206 	#	Please select 	#	لطفا انتخاب کنید
+3207 	#	Basic 	#	پایه ای
+3220 	#	Basic Assertions 	#	ادعای پایه
+3221 	#	Polygon Related 	#	مربوط به چند ضلعی
+3222 	#	Inequality 	#	نابرابری
+	* End of Manual Input
+
+	* Add Conclution.
+
+3300 	#	The number of points to be selected: 	#	تعداد نقاط انتخاب شده
+3301 	#	Set One 	#	مجموعه یک
+3302 	#	Set Two 	#	مجموعه دو
+	* End of Add Conclution.
+
+	* Property Menu 
+
+4000 	#	Fill 	#	پر کردن
+4001 	#	Grid 	#	شطرنجی
+4002 	#	Vertical Line 	#	خط افقی
+4003 	#	Horizontal Line 	#	خط عمودی
+4004 	#	Radius 	#	شعاع
+4005 	#	X coordinate 	#	مختص x
+4006 	#	Y coordinate 	#	مختص y
+4007 	#	Freezed 	#	
+4008 	#	Point on Line 	#	نقطه روی خط
+4009 	#	Point on Circle 	#	نقطه روی داریره
+4010 	#	Center X 	#	مرکز x
+4011 	#	Center Y 	#	مرکز y
+4012 	#	Center 	#	مرکز
+4013 	#	Grid Step 	#	گام شطرنجی
+4014 	#	Slope Angle 	#	شیب زاویه
+	* End of Property Menu 
+
+	* Right Button Menu
+
+4020 	#	Cancel Action 	#	لغو عمل
+4021 	#	Edit Text 	#	ویرایش متن
+4022 	#	Freeze 	#	
+4023 	#	Unfreeze 	#	
+4024 	#	Stop Trace 	#	
+4025 	#	Plain 	#	مسطح
+4026 	#	Bold 	#	پررنگ
+4027 	#	Font Size 	#	اندازه فونت
+	* End of Right Button Menu
+

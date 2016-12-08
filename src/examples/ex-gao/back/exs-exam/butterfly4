@@ -1,0 +1,17 @@
+# Example 6.305 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  BTF2  
+HYPOTHESES:
+  POINT A C B ;
+  MIDPOINT M A C ;
+  LRATIO D M B r_1;
+  LRATIO P A B r_2;
+  LRATIO R A D r_3;
+  INTERSECTION_LL Q  P M  C D ;
+  INTERSECTION_LL S  R M  B C ;
+  INTERSECTION_LL G  A C  P R ;
+  INTERSECTION_LL H  A C  S Q ;
+SHOW: EQ_RATIO M G G A M H H C.

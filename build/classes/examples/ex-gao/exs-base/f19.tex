@@ -1,0 +1,47 @@
+\documentstyle[11pt]{article}
+\voffset=-2.5truecm
+\hoffset=-1.9truecm
+\textwidth = 16truecm
+\textheight = 22.5truecm
+\parskip=8pt
+\parindent=15pt
+\def\fa#1#2{\langle{#1},{#2}\rangle}
+\begin{document}
+The following auxilliary point is added by the program
+
+\begin{verbatim}
+INTERSECTION_LL A_{0}  A B  O Q;
+\end{verbatim}
+
+
+{\vskip6pt \parskip=6pt \parindent=10pt 
+The Machine Proof
+
+
+1. para[$CD,EF$] :- (2)$[AF,AF]=[CD,EF]$.
+
+2. $[AF,AF]=[CD,EF]$ :- (3)$[AF,CD]=[AF,EF]$.
+
+3. $[AF,CD]=[AF,EF]$ :- (4)$[AF,CD]=[AB,BE]$, (5)$[AF,EF]=[AB,BE]$.
+
+4. $[AF,CD]=[AB,BE]$ :- (6)$[AF,AC]=[BD,BE]$, (7)$[AB,AC]=[BD,CD]$.
+
+5. $[AF,EF]=[AB,BE]$ :- (8)circle[$AEBF$].
+
+6. $[AF,AC]=[BD,BE]$ :- (8)circle[$AEBF$].
+
+7. $[AB,AC]=[BD,CD]$ :- (9)$[AB,BC]=[AD,CD]$, (10)$[BD,AD]=[BC,AC]$.
+
+8. circle[$AEBF$] :- (hyp)circle$[(Q)BF]$, (11)circle$[(Q)ABE]$.
+
+9. $[AB,BC]=[AD,CD]$ :- (hyp)circle[$ACBD$].
+
+10. $[BD,AD]=[BC,AC]$ :- (hyp)circle[$ABCD$].
+
+11. circle$[(Q)ABE]$ :- (hyp)circle$[(Q)AE]$, (12)circle$[(Q)AB]$.
+
+12. circle$[(Q)AB]$ :- (hyp)coll[$QA_{0}O$], (hyp)$OA = OB$, (13)midp[$A_{0},AB$].
+
+13. midp[$A_{0},AB$] :- (hyp)$OA = OB$, (hyp)perp[$AB,OQ$].
+}
+\end{document}

@@ -1,0 +1,12 @@
+68   P,D,G lines.
+41  lines. Need to improve.
+
+08, 17, 18,38,48,64, 71,79,85,Aux LC
+27 ,42,Aux ILL
+81 foot
+
+63,65 ,77,91,109,false
+
+21 ,25, 75,83, 87Conclution not suported. 
+
+\76,100, long

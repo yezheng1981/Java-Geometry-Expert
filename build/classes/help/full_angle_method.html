@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<script type="text/javascript">
+var tiki_cookie_jar = new Array();
+tiki_cookie_jar = {
+	};
+</script>
+<script type="text/javascript" src="lib/tiki-js.js"></script><title>JGEX Documentation : Full Angle Method.</title>
+
+
+<link rel="StyleSheet" href="lib/1.css" type="text/css">
+<link rel="StyleSheet" href="styles/cindydoc.css" type="text/css">
+
+
+
+
+
+    
+
+
+
+<link rel="alternate" type="application/xml" title="RSS Wiki"  >
+<style type="text/css">
+<!--
+.style2 {font-size: 18px}
+-->
+</style>
+</head>
+<body>
+
+<div id="overDiv" style="position: absolute; visibility: hidden; z-index: 1000;"></div>
+<script type="text/javascript" language="JavaScript" src="lib/overlib.js"></script>
+
+
+
+
+
+<div id="tiki-clean">
+  <div id="tiki-mid">
+    
+
+<div class="wikitopline">
+<table><tbody><tr>
+<td style="vertical-align: top;">
+</td>
+</tr></tbody></table>
+</div>
+
+<div class="wikitext">
+<h2> Full Angle Method </h2>
+<p>The definition of angles in common geometry textbooks uses the order relation. In unordered
+  geometries, we need to use full-angles that do not involve the order relation. We will presents the
+  definition and the basic properties of full-angles.</p>
+<p><br />
+  <strong>R1. </strong>A full-angle is defined as an ordered pair of two lines u and v denoted by ∠[u, v].<br />
+  <strong>R2.</strong> ∠[u, v] = −∠[v, u].<br />
+  <strong>R3.</strong> Constant full-angle ∠[u, u] is denoted by ∠[0]. We have ∠[0] + ∠[u, v] = ∠[u, v] + ∠[0] =
+  ∠[u, v]. Also ∠[u, v] = ∠[0] iff //  v.<br />
+  <strong>R4.</strong> If u ⊥ v, then we define ∠[u, v] to be a constant full-angle ∠[1]. ∠[u, v] + ∠[u, v] = ∠[0], or
+  ∠[1] + ∠[1] = ∠[0].<br />
+  <strong>R5.</strong> For any line l, the operation ”addition” between two full angles is defined as∠[u, v] =
+  ∠[u, l]+∠[l, v]. Thus the addition of two full-angles does not use the order relation and is diagramindependent.</p>
+<p><br />
+  The set of all full-angles with the addition operator “+”, is an additive (Abelian)
+  group.</p>
+<p><br />
+  <strong>Remark.</strong> The geometries with the definition of the addition of full-angles are Euclidean, as opposed
+  to non-Euclidean geometries. For example, the assertion that the sum of three angles of a triangle
+  ABC equals 180◦, which is equivalent to Euclidean fifth hypothesis, can be expressed as<br />
+  ∠[CA,AB] + ∠[AB,BC] + ∠[BC,CA] = ∠[CA,CA] = ∠[0].</p>
+<p><br />
+  <strong>R6.</strong> If l ⊥ v, we have ∠[u, v] = ∠[u, l] + ∠[l, v] = ∠[u, l] + ∠[1].  
+  Note that this rule is the combination of Rule4 and Rule5.<br />
+  <strong>R7.</strong> If AB = AC, then ∠[AB,BC] = ∠[BC,CA].</p>
+<p><br />
+  The full-angle method works particularly well for theorems involving circles and angles.
+  Let A,B,C, and D be four non-collinear points.5 We use ∠[ABC] to denote the full-angle
+  ∠[AB,BC] and use ∠ABC to denote the traditional angle. In ordered geometry, ∠[ABC] =
+  ∠[DEF] if and only if ∠ABC = ∠DEF and the two angles have the same orientation, or
+  ∠ABC = 180 − ∠DEF and the two angles have the opposite orientations.</p>
+<p>  <strong> The Inscribed Angle Theorem</strong><br />
+  <strong>R8.</strong> (The Inscribed Angle Theorem) Points A,B,C, and D are cyclic iff ∠[ABC] = ∠[ADC]
+  (the left of Figure 5.)</p>
+<p><img src="images2/inscribed angle theorem.gif" width="612" height="241" border="1" /><br />
+  Applying this twice we can have a combined rule, say, ∠[BAC] = ∠[BDC] iff ∠[ABC] =
+  ∠[ADC] (the right of Figure 5), etc. Here the four points can be in any order.
+  These diagram-independent properties of full-angles make the proofs not only much simpler and<br />
+  diagram-independent, but also rigorous.</p>
+<p><br />
+  <strong>Example 6.</strong> The same as Example 1. Let points C and D be the intersections of two circles (A)
+  and (B), line HF be passing through C and meeting (A) and (B) at H and F, line GE be passing
+  through D and meeting (A) and (B) at G and E. Show that GH is parallel to EF (Figure 6).</p>
+<p><strong>A Two Circle Theorem</strong></p>
+<p><img src="images2/two_circle_theorem.gif" width="410" height="210" border="1" /><br />
+  Proof<br />
+  ∠[GH,EF] = ∠[GHC] + ∠[CFE] (1)<br />
+  (∵ ∠[GHC] = ∠[GDC] and ∠[CFE] = ∠[CDE]) <strong>(2)</strong><br />
+  = ∠[GDC] + ∠[CDE] <strong>(3)</strong><br />
+  = ∠[GDE] = ∠[0] <strong>(4)</strong></p>
+<p><br />
+  In this way we prove that ∠[GH,EF] = ∠[0], thus we have GH // EF from <strong>R3</strong>. In Step <strong>(2)</strong>,
+  the two angle equality assertions use R8 with the hypotheses cyclic(HDGC) and cyclic(CFED).
+  This gives us a way to organize the proof in a hierarchical way: by clicking ‘∵ ∠[GHC] =
+  ∠[GDC]’, it expands to include a substep ‘∵ cyclic(HDGC)’ on which the rule is applied; by
+  clicking cyclic(HDGC) it might expand a substep for the proof of the assertion cyclic(HDGC)<br />
+  and in this example it is not needed to prove because it is a hypothesis.  </p>
+<p>Here we deliberately use the order HDGC instead of the clockwise order HGDC to emphasize
+  the diagram-independent nature of the full-angle proof. This proof is a diagram-independent proof.  </p>
+<p><br />
+  Also here we implicitly use hypotheses on collinear facts, e.g., in Step <strong>(1),</strong> we use the fact that
+  ∠[GHC] is ∠[GHF] and this fact is true because H, C, and F are collinear, etc. The proof adds an auxiliary segment CD. This addition is natural for our full-angle method because
+  the proof requires ∠[GDC], hence requires segment CD. We will discuss the topic on
+  adding auxiliary geometric elements for the full-angle method.</p>
+<p><a href="pdf/Automated Generation of Readable Proofs with2.pdf">For detail please read our paper &gt;&gt; <br>
+    <br>
+      </a></p>
+</div> 
+
+
+<p class="editdate">JGEX Help </p>
+</div>
+
+</div>
+
+
+
+
+</body></html>

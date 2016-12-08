@@ -1,0 +1,18 @@
+# Example 6.392 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  KIRKMAN  
+HYPOTHESES:
+  CIRCLE A B C D E F ;
+  INTERSECTION_LL P  C D  A B ;
+  INTERSECTION_LL Q  D F  A E ;
+  INTERSECTION_LL S  A C  B F ;
+  INTERSECTION_LL T  B D  A E ;
+  INTERSECTION_LL X  A B  E F ;
+  INTERSECTION_LL Y  D F  A C ;
+  INTERSECTION_LL I  S T  P Q ;
+SHOW: COLLINEAR I X Y.
+#  INTERSECTION_LL J  P Q  X Y ;
+# SHOW: EQ_RATIO P I Q I P J Q J.

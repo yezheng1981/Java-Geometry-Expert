@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<script type="text/javascript">
+var tiki_cookie_jar = new Array();
+tiki_cookie_jar = {
+	};
+</script>
+<script type="text/javascript" src="lib/tiki-js.js"></script><title>JGEX Documentation : Visual Effects</title>
+
+
+<link rel="StyleSheet" href="lib/1.css" type="text/css">
+<link rel="StyleSheet" href="styles/cindydoc.css" type="text/css">
+
+
+
+
+
+    
+
+
+
+<link rel="alternate" type="application/xml" title="RSS Wiki"  >
+<style type="text/css">
+<!--
+.style2 {font-size: 18px}
+-->
+</style>
+</head>
+<body>
+
+<div id="overDiv" style="position: absolute; visibility: hidden; z-index: 1000;"></div>
+<script type="text/javascript" language="JavaScript" src="lib/overlib.js"></script>
+
+
+
+
+
+<div id="tiki-clean">
+  <div id="tiki-mid">
+    
+
+<div class="wikitopline">
+<table><tbody><tr>
+<td style="vertical-align: top;">
+</td>
+</tr></tbody></table>
+</div>
+
+<div class="wikitext">
+<h2>The Visual Effects of All Assertions .</h2>
+<p>Atomic Predicates: </p>
+<table border="1" width="783">
+  <tbody>
+    <tr>
+      <td width="30">P1</td>
+      <td width="257"><a href="#collinear">collinear A B C</a></td>
+      <td width="474">A, B, and C are collinear</td>
+    </tr>
+    <tr>
+      <td>P2</td>
+      <td><a href="#para">parallel A B C D</a></td>
+      <td>AB and CD are parallel</td>
+    </tr>
+    <tr>
+      <td>P3</td>
+      <td><a href="#perp">perpendicular A B C D</a></td>
+      <td>AB and CD are perpendicular</td>
+    </tr>
+    <tr>
+      <td>P4</td>
+      <td><a href="#eqdistance">eq-distance A B C D</a></td>
+      <td>|AB| = |CD| </td>
+    </tr>
+    <tr>
+      <td>P5</td>
+      <td><a href="#cyclic">cyclic A B C D</a></td>
+      <td>A, B, C and D are cyclic</td>
+    </tr>
+    <tr>
+      <td>P6</td>
+      <td><a href="#eqangle">eq-angle [A B C D] [A1 B1 C1 D1]</a></td>
+      <td>full-angles ∠[ABCD] = ∠[A1B1C1D1]</td>
+    </tr>
+    <tr>
+      <td>P7</td>
+      <td><a href="#eqangle1">eq-angle A B C A1 B1 C1</a></td>
+      <td>traditional angles ∠ABC = ∠A1B1C1</td>
+    </tr>
+    <tr>
+      <td>P8</td>
+      <td><a href="#congruent">congruent A B C D E F</a></td>
+      <td>triangle ABC is congruent to triangle DEF </td>
+    </tr>
+    <tr>
+      <td>P9</td>
+      <td><a href="#similiar">similiar A B C D E F</a></td>
+      <td>triangle ABC is similiar to triangle DEF </td>
+    </tr>
+    <tr>
+      <td>P10</td>
+      <td><a href="#eqratio">eq-ratio [A B C D] [A1 B1 C1 D1]</a></td>
+      <td>AB / CD = A1B1 / C1D1 </td>
+    </tr>
+  </tbody>
+</table>
+<p>Compounded Predicates</p>
+<table border="1" width="783">
+  <tbody>
+    <tr>
+      <td width="30">P11</td>
+      <td width="259"><a href="#midpoint">midpoint M A B</a></td>
+      <td width="472">M is the midpoint of AB, i.e., A, M, B are collinear and AM = MB</td>
+    </tr>
+    <tr>
+      <td>P12</td>
+      <td><a href="#lratio">lratio C A B n m </a></td>
+      <td>A, B, C are collinear and AC / n = CB / m</td>
+    </tr>
+    <tr>
+      <td>P13</td>
+      <td><a href="#pratio">pratio C D A B n m</a></td>
+      <td>AB and CD are parallel and CD / n = AB / m</td>
+    </tr>
+    <tr>
+      <td>P14</td>
+      <td><a href="#tratio">tratio C D A B n m</a></td>
+      <td>AB and CD are perpendicular and CD / AB = n / m ;where n and m are two positive integers. </td>
+    </tr>
+  </tbody>
+</table>
+<p>Compounded Predicates (Construction-Related) </p>
+<table border="1" width="783">
+  <tbody>
+    <tr>
+      <td width="30">P15</td>
+      <td width="260"><a href="#triangle">triangle A B C</a></td>
+      <td width="471">A, B, and C are not collinear</td>
+    </tr>
+    <tr>
+      <td>P16</td>
+      <td><a href="#R-triangle">R-triangle C A B</a></td>
+      <td> AC ⊥ BC and A, B, and C are not collinear</td>
+    </tr>
+    <tr>
+      <td>P17</td>
+      <td><a href="#iso-triangle">iso-triangle C A B</a></td>
+      <td>CA = CB and A, B, C are not collinear</td>
+    </tr>
+    <tr>
+      <td>P18</td>
+      <td><a href="#iso-right">iso-right triangle C A B </a></td>
+      <td>BC ⊥ AC, BC = AC, A, B, and C are not collinear</td>
+    </tr>
+    <tr>
+      <td>P19</td>
+      <td><a href="#foot"> foot D C A B</a></td>
+      <td>CD ⊥ AB, A, C and D are collinear, and AB is non-isotropic</td>
+    </tr>
+    <tr>
+      <td>P20</td>
+      <td><a href="#equi">equi-triangle A B C</a></td>
+      <td> AB = BC = CA, ∠ABC = ∠CAB∠BCA = 60◦. A, B, C are not collinear and are in the counter-clockwise orientation</td>
+    </tr>
+    <tr>
+      <td height="58">P21</td>
+      <td><a href="#trapezoid">trapezoid A B C D</a></td>
+      <td>AB and CD are parallel &amp; AB and CD have the  same direction, which is equivalent to AB and CD  are parallel, where AB denotes the oriented segment of AB.  Also we need a nondegenerate condition: A, B, and C are not collinear.</td>
+    </tr>
+    <tr>
+      <td>P22</td>
+      <td><a href="#parallelogram">parallelogram A B C D</a></td>
+      <td>AB // CD, BC // AD, and A, B, C are not collinear</td>
+    </tr>
+    <tr>
+      <td>P23</td>
+      <td><a href="#rectangle">rectangle A B C D</a></td>
+      <td>Parallelogram A B C D and DA ⊥ BA</td>
+    </tr>
+    <tr>
+      <td>P24</td>
+      <td><a href="#square">square A B C D </a></td>
+      <td> Rectangle A B C D and AB = AD</td>
+    </tr>
+  </tbody>
+</table>
+<p>Inequality Predicates:</p>
+<table border="1" width="783">
+  <tbody>
+    <tr>
+      <td width="30">P25</td>
+      <td width="260"><a href="#between">between A B C</a></td>
+      <td width="471">A, B, and C are collinear, B           != C, and A is between B and C</td>
+    </tr>
+    <tr>
+      <td>P26</td>
+      <td><a href="#angle-inside">angle-inside D A B C</a></td>
+      <td>D is inside (traditional) angle ∠ ABC</td>
+    </tr>
+    <tr>
+      <td>P27</td>
+      <td><a href="#angle-outside">angle-outside D A B C </a></td>
+      <td>D is outside ∠ ABC</td>
+    </tr>
+    <tr>
+      <td>P28</td>
+      <td><a href="#triangle-inside">triangle-inside D A B C</a></td>
+      <td>D is inside triangle ABC</td>
+    </tr>
+    <tr>
+      <td>P29</td>
+      <td><a href="#paral-inside">paral-inside E A B C D</a></td>
+      <td>E is inside parallelogram ABCD</td>
+    </tr>
+    <tr>
+      <td>P30</td>
+      <td><a href="#opposite-side">opposite-side C D A B </a></td>
+      <td>C and D are on the opposite sides of line AB, and A           != B</td>
+    </tr>
+    <tr>
+      <td>P31</td>
+      <td><a href="#same-side">same-side C D A B</a></td>
+      <td>points C and D are on the same side of line AB , and A           != B</td>
+    </tr>
+    <tr>
+      <td>P32</td>
+      <td><a href="#segment_less">AB &lt; DC</a></td>
+      <td>segment AB is less than segment DC</td>
+    </tr>
+    <tr>
+      <td>P33</td>
+      <td><a href="#angle_less">∠ ABC &lt; ∠ CDE</a></td>
+      <td>∠ ABC &lt; ∠ CDE</td>
+    </tr>
+    <tr>
+      <td>P34</td>
+      <td><a href="#convex">The (n + 1)-polygon A0A1A2 . . . An is convex (n ≥ 3).</a></td>
+      <td>points Ai and Ai+3 are on the same side of line  Ai+1Ai+2, where indexes are understood mod n + 1.</td>
+    </tr>
+  </tbody>
+</table>
+<p> </p>
+<p>The Visual Effects of All Predicates. </p>
+<p>P1. collinear A, B, C<a name="collinear" id="collinear"></a><br />
+  Points A, B, C and line ABC are all highlighted.<br />
+  <img src="effects/p1.gif" border="1" height="180" width="400" /> </p>
+<p>P2. parallel A, B, C, D<a name="para" id="para"></a><br />
+  Two endless lines are drawn to overlap linesAB and CD. The points on the two lines are highlighted also. <br />
+  <img src="effects/p2.gif" border="1" height="180" width="400" /></p>
+<p>P3. perpendicular A, B, C, D<a name="perp" id="perp"></a><br />
+  Segments AB and CD are highlighted and a foot mark is drawn on the diagram. <br />
+  <img src="effects/p3.gif" border="1" height="180" width="400" /></p>
+<p>P4. eq-distance A, B, C, D<a name="eqdistance" id="eqdistance"></a><br />
+  AB and CD are highlighted and a copy of AB is moved on the fly to overlap CD.<br />
+  <img src="effects/p4_1.gif" height="180" width="400" /> <img src="effects/p4.gif" height="180" width="400" /></p>
+<p>P5. cyclic A, B, C, D<a name="cyclic" id="cyclic"></a><br />
+  Draw an auxiliary circle, and highlight the points A, B, C, D.<br />
+  <img src="effects/p5.gif" border="1" height="180" width="400" /><br />
+</p>
+<p>P6. eq-angle [A B C D] [A1 B1 C1 D1]<a name="eqangle" id="eqangle"></a><br />
+  full-angles ∠[ABCD] = ∠[A1B1C1D1]<br />
+  <img src="effects/p6.gif" border="1" height="180" width="400" /></p>
+<p>P7. eq-angle A B C A1 B1 C1<a name="eqangle1" id="eqangle1"></a><br />
+  traditional angles ∠ABC = ∠A1B1C1<br />
+  <img src="effects/p7.gif" border="1" height="180" width="400" /></p>
+<p> </p>
+<p>P8. cogruent A, B, C, D, E, F<a name="congruent" id="congruent"></a><br />
+  The program moves a copy of color-filled triangle ABC on the fly by a rotation followed by a translation,          possibly with a flip (reflection) if the orientations of the two triangles are opposite, and drops it to          the position of the triangle DEF, at last blinks the corresponding sides of the two triangles alternately.<br />
+  <img src="effects/cg1.gif" border="1" height="180" width="400" /> <img src="effects/cg.gif" border="1" height="180" width="400" /></p>
+<p>P9. similiar A, B, C, D, E, F<a name="similiar" id="similiar"></a><br />
+  A copy of triangle ABC first scales to the size of triangle DEF on the fly so that the two triangles can fit. The          other visual effects are the same as those for two congruent triangles mentioned above.<br />
+  <img src="effects/st1.gif" border="1" height="180" width="400" /> <img src="effects/st.gif" border="1" height="180" width="400" /></p>
+<p>P10. eq-ratio [A B C D] [A1 B1 C1 D1]<a name="eqratio" id="eqratio"></a><br />
+  AB / CD = A1B1 / C1D1 </p>
+<p>P11. midpoint M A B<a name="midpoint" id="midpoint"></a><br />
+  M is the midpoint of AB, i.e., A, M, B are collinear and AM = MB. The Effects is same as P4. <br />
+  <img src="effects/p9.gif" border="1" height="180" width="400" /> </p>
+<p> </p>
+<p>P12. lratio C A B n m <a name="lratio" id="lratio"></a><br />
+  P13. pratio C D A B n m<a name="pratio" id="pratio"></a><br />
+  P14. tratio C D A B n m<a name="tratio" id="tratio"></a><br />
+  Two related segements are highlighted. <br />
+  <img src="effects/p11.gif" border="1" height="180" width="400" /></p>
+<p>P15. triangle A B C <a name="triangle" id="triangle"></a><br />
+  triangle ABC are filled with color. <br />
+  <img src="effects/p13.gif" border="1" height="180" width="400" /> </p>
+<p>P16. R-triangle C A B <a name="R-triangle" id="R-triangle"></a><br />
+  Combination of P3 and P13. <br />
+  <img src="effects/p14.gif" border="1" height="180" width="400" /> </p>
+<p>P17. iso-triangle C A B<a name="iso-triangle" id="iso-triangle"></a><br />
+  Combination of P3 and P13. <br />
+  <img src="effects/p15.gif" border="1" height="180" width="400" /> </p>
+<p>P18. iso-right triangle C A B <a name="iso-right" id="iso-right"></a><br />
+  Combination of P3 and P13. <br />
+  <img src="effects/p16.gif" border="1" height="180" width="400" /> </p>
+<p> </p>
+<p>P19. foot D C A B<a name="foot" id="foot"></a><br />
+  Same as P16. <br />
+  <img src="effects/p17.gif" border="1" height="180" width="400" /></p>
+<p>P20. equi-triangle A B C<a name="equi" id="equi"></a><br />
+  triangle ABC is filled with default color and three equal mark are put on each segments. <br />
+  <img src="effects/p18.gif" border="1" height="180" width="400" /></p>
+<p> </p>
+<p>P21. trapezoid A B C D<a name="trapezoid" id="trapezoid"></a><br />
+  P22. parallelogram A B C D<a name="parallelogram" id="parallelogram"></a><br />
+  P23. rectangle A B C D<a name="rectangle" id="rectangle"></a><br />
+  P24. square A B C D <a name="square" id="square"></a><br />
+  <img src="effects/p19.gif" border="1" height="180" width="400" /></p>
+<p> </p>
+<p>P25. between A B C<a name="between" id="between"></a><br />
+  Combination. <br />
+  <img src="effects/between.gif" border="1" height="180" width="400" /></p>
+<p> </p>
+<p>P26. angle-inside D A B C<a name="angle-inside" id="angle-inside"></a><br />
+  Combination of P3 and P13. <br />
+  <img src="effects/angle_inside.gif" border="1" height="180" width="400" /></p>
+<p>P27. angle-outside D A B C<a name="angle-outside" id="angle-outside"></a><br />
+  Combination of P3 and P13. <br />
+  <img src="effects/angle_inside_0000.gif" border="1" height="180" width="400" /></p>
+<p>P28. triangle-inside D A B C<a name="triangle-inside" id="triangle-inside"></a><br />
+  The triangle ABC is filled with default color and the point D is drawn with a slight longer radius. <br />
+  <img src="effects/triangle_inside.gif" border="1" height="180" width="400" /></p>
+<p>P29. paral-inside E A B C D<a name="paral-inside" id="paral-inside"></a><br />
+  the parallelogram ABCD is filled with default color. Point E is drawn with a slight longer radius to make it stand out. <br />
+  <img src="effects/para_inside.gif" border="1" height="180" width="400" /></p>
+<p> </p>
+<p>P30. opposite-side C D A B <a name="opposite-side" id="opposite-side"></a><br />
+  An endless line is drawn to overlap segment AB. <br />
+  <img src="effects/opposite.gif" border="1" height="180" width="400" /></p>
+<p> </p>
+<p>P31. same-side C D A B <a name="same-side" id="same-side"></a><br />
+  An endless line is drawn to overlap segment AB. Two arrows start from  this line and point to C and D respectively are drawn. <br />
+  <img src="effects/same_side.gif" border="1" height="180" width="400" /></p>
+<p>P32. AB &lt; DC <a name="segment_less" id="segment_less"></a><br />
+  The segments AB and CD are highlighted respectively. <br />
+  <img src="effects/dis_less.gif" border="1" height="180" width="400" /></p>
+<p>P33. ∠ ABC &lt; ∠ CDE <a name="angle_less" id="angle_less"></a><br />
+  Draw two traditional angle with value and blink. <br />
+  <img src="effects/angle_less.gif" border="1" height="180" width="400" /></p>
+<p>P34. The (n + 1)-polygon A0A1A2 . . . An is convex (n ≥ 3). <a name="convex" id="convex"></a><br />
+  We just fill the polygon with default color and blink its. <br />
+  <img src="effects/convex.gif" border="1" height="180" width="400" /></p>
+</div> 
+
+
+<p class="editdate">JGEX Help </p>
+</div>
+
+</div>
+
+
+
+
+</body></html>

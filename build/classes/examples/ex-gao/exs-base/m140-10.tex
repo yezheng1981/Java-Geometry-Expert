@@ -1,0 +1,29 @@
+\documentstyle[11pt]{article}
+\voffset=-2.5truecm
+\hoffset=-1.9truecm
+\textwidth = 16truecm
+\textheight = 22.5truecm
+\parskip=8pt
+\parindent=15pt
+\def\fa#1#2{\langle{#1},{#2}\rangle}
+\begin{document}
+
+{\vskip6pt \parskip=6pt \parindent=10pt 
+The Machine Proof
+
+
+1. circle[$KLNM$] :- (2)perp[$NK,NM$], (3)perp[$LK,LM$].
+
+2. perp[$NK,NM$] :- (hyp)perp[$AB,AC$], (4)$[AB,AC]=[SK,AC]$.
+
+3. perp[$LK,LM$] :- (5)$MC = MH$, (6)midp[$L,CH$].
+
+4. $[AB,AC]=[SK,AC]$ :- (hyp)para[$SK,AB$].
+
+5. $MC = MH$ :- (7)midp[$M,CA$], (hyp)perp[$HC,HA$].
+
+6. midp[$L,CH$] :- (hyp)para[$CA,LS$], (hyp)midp[$S,AH$].
+
+7. midp[$M,CA$] :- (hyp)para[$CH,MS$], (hyp)midp[$S,AH$].
+}
+\end{document}

@@ -1,0 +1,19 @@
+EXAMPLE addl
+HYPOTHESES: 
+POINT A B C E;
+INTERSECTION-PP D A B C C A B;
+INTERSECTION-PP F A B E E A B;
+SHOW: NO.
+
+
+
+
+
+
+
+
+
+
+
+
+

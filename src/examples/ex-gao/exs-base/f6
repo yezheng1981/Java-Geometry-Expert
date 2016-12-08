@@ -1,0 +1,17 @@
+EXAMPLE Full1
+HYPOTHESES: 
+  POINT A B C;
+  FOOT E B A C;
+  FOOT F A B C;
+  INTERSECTION_LL H B E A F;
+SHOW: PERPENDICULAR C H A B.
+
+
+
+
+
+
+
+
+
+

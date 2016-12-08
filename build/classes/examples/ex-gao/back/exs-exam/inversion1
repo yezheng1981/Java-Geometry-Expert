@@ -1,0 +1,13 @@
+# Example 3.44 in
+# << Machine Proof In Geometry>>
+# World Scientific
+#
+EXAMPLE  C26_17  
+HYPOTHESES:
+  POINT O A X ;
+  LRATIO P O A r_1;
+  INVERSION Q P O A ;
+  MIDPOINT U P O ;
+  INTERSECTION_LC R  O X  U O  ;
+  INVERSION G R O A ;
+SHOW:  PERPENDICULAR G Q O A.

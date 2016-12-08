@@ -1,0 +1,17 @@
+# Example 6.22 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  PAPPUS_POINT  
+HYPOTHESES:
+  POINT A A_1 B B_1 F ;
+  INTERSECTION_LL C  A B  A_1 F ;
+  INTERSECTION_LL C_1  A_1 B_1  A F ;
+  INTERSECTION_LL E  A_1 B  A B_1 ;
+  INTERSECTION_LL G  B C_1  A A_1 ;
+  INTERSECTION_LL H  B B_1  C A_1 ;
+  INTERSECTION_LL I  B B_1  A C_1 ;
+  INTERSECTION_LL J  B A_1  C C_1 ;
+  INTERSECTION_LL K  G H  E F ;
+SHOW:  COLLINEAR I J K.

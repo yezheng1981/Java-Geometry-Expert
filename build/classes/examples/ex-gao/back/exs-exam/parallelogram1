@@ -1,0 +1,14 @@
+# Example 6.244 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  H_28  
+HYPOTHESES:
+  POINT A B C E ;
+  INTERSECTION_PP D  A B C  C A B ;
+  INTERSECTION_LP F  E A  D E B ;
+  INTERSECTION_LP G  E B  C A E ;
+  INTERSECTION_LL H  G C  F D ;
+  INTERSECTION_LL O  B D  A C ;
+SHOW:  COLLINEAR O H E.

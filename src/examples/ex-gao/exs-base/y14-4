@@ -1,0 +1,10 @@
+#auxillary points
+EXAMPLE y14_4
+HYPOTHESES: 
+  POINT B C I;
+  INCENTER A B C I;
+  FOOT F A  C I;
+  FOOT G A B I;
+SHOW: PARALLEL B C F G.
+
+

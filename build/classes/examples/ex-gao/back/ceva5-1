@@ -1,0 +1,21 @@
+# Example 2.65 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  CEVA_S6  
+HYPOTHESES:
+  POINT A B C D E ;
+  INTERSECTION_LL P  A D  B E ;
+  INTERSECTION_LL Q  A C  B E ;
+  INTERSECTION_LL R  B D  A C ;
+  INTERSECTION_LL S  B D  C E ;
+  INTERSECTION_LL T  A D  C E ;
+SHOW: 
+(RATIO A T A D) (RATIO D R D B)
+(RATIO B P B E)(RATIO E S E C)
+(RATIO C Q C A)
+   = 
+(RATIO P D A D)(RATIO S B D B)
+(RATIO Q E B E)(RATIO T C E C)
+(RATIO R A C A).

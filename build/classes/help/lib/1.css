@@ -1,0 +1,144 @@
+/*
+$Header: /cvsroot/tikiwiki/tiki/styles/transitions/1.8to1.9.css,v 1.1.2.12 2005/08/02 14:46:39 sylvieg Exp $
+
+The following CSS classes were added to Tiki between v1.8.5 and v1.9.0
+They should be added to themes (possibly with tweaks) to make the theme v1.9 ready
+*/
+
+/* wiki diff styles */
+.diff td {          
+  border: 1px solid #A9B8C2;
+} 
+.diff div {
+  border-top : 1px solid #A9B8C2;
+}
+.diffheader {
+  background-color : #A9B8C2;
+  font-weight: bold;
+}
+.diffadded {            
+  background-color : #CCFFCC;
+}
+.diffdeleted {
+  background-color : #FFCCCC;
+}
+.diffbody {
+  background-color : #F2F4F5;
+}
+.diffchar {
+  color : red;
+}
+
+
+/** rbox: remarks box (note/warning/tip/comment) */
+.rbox {
+  margin-top: 10px;
+}
+.rbox-data {
+  padding: 2px;
+}
+.rbox-title, .rbox-title[name="warning"] { 
+  border: 0;
+  border-radius-topright : 1ex;
+  -moz-border-radius-topright : 1ex;
+  -khtml-border-radius-topright : 1ex;
+  font-size : small;
+  padding : 0 10px;   
+  position : relative;
+  display : inline;
+  margin : 0;
+  font-weight : bold;
+  background-color: #EFECEC;
+}
+.rbox-data, .rbox-data[name="warning"] {
+  background-color: #EFECEC;
+  border: 1px solid #DDCCCC;
+}
+.rbox-title[name="note"] {
+  background-color: #CCCCDD;
+}
+.rbox-data[name="note"] {
+  background-color: #ECECEF;
+  border: 1px solid #CCCCDD;
+}
+.rbox-title[name="comment"], .rbox-title[name="tip"] {
+  background-color: #CCCCDD;
+}
+.rbox-data[name="comment"], .rbox-data[name="tip"] {            
+  background-color: #ECEFEC;
+  border: 1px solid #CCDDCC;
+}
+
+/* (module) box styles */
+div.box-title table {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border-spacing: 0;
+}
+
+div.box-title table td {
+  text-align: center;
+}
+
+.box-flipimage, .flipmodimage {
+  border: 0px;
+  float: right;
+  margin-left: 0px;
+}
+/* these don't need defaults
+span.box-titletext, a.flipmodtitle {}
+ */
+
+
+/** site identity styles */
+/* these don't need defaults:
+ * div#sitenavbar, div#sitelogo, div#sitead, div#sitesearchbar {}
+ */
+
+/** default size for text in Location bar when it isn't a title */
+div#sitelocbar, a.crumblink {
+  font-size: medium;
+}
+
+/* a generic div to enclose the linkbut buttons at the top of a page to avoid the <br /><br /> after the buttons */
+div.navbar, div#navbar {margin-bottom: 20px;}
+
+/* a generic div to enclose the description at the top of a page to avoid small and <br /><br /> after the description*/
+/** style designers: by default make font style identical to H2 */
+div.description, div#description {
+  font-size: 18px;
+}
+
+/* changes to tikihelp */
+a.tikihelp {
+    vertical-align: text-top;
+}
+
+/* TOC: fancy toc */
+.fancytoclevel {
+        list-style-image: url(../img/icons/footprint.gif);
+}
+
+DIV.heading {
+        margin: 3px 2px;
+}
+
+/* TikiSheet Default Style {{{1 */
+table.default	thead	td,	table.default	tfoot	td
+{
+	font-weight:		bold;
+	text-align:			center;
+}
+
+table.default	td
+{
+	border-style:		solid;
+	border-width:		1px;
+	border-color:		#000000;
+}
+/* }}}1 */
+
+/* on the {maketoc} global ul
+.toc {}
+*/

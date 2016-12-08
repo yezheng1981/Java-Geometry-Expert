@@ -1,0 +1,14 @@
+EXAMPLE STEINER
+HYPOTHESES: POINT A C B;
+            INTERSECTION_BB O A C A B;
+            ON_CIRCLE D O A;
+            ON_CIRCLE E O A;
+            ON_CIRCLE F O A;
+            INTERSECTION_LL P C D A B;
+            INTERSECTION_LL Q F A D E;
+            INTERSECTION_LL S B C F A;
+            INTERSECTION_LL T A D B E;
+            INTERSECTION_LL X A B E F;
+            INTERSECTION_LL Y C F A D;
+            INTERSECTION_LL I S T P Q;
+      SHOW: COLLINEAR X Y I.

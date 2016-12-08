@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="jgex" default="all" basedir=".">
+    <property name="src" value="."/>
+    <property name="dest" value="classes"/>
+    <property name="out" value="output"/>
+    <property name="jgex_jar" value="jgex.jar"/>
+
+
+    <!-- Step 1:  clean alreay exists directory and files -->
+    <target name="clean">
+       <delete dir="${dest}"/>
+    </target>
+
+
+    <!-- Step 2:  create output directorys -->
+    <target name="init" description="Initialize" depends="clean">
+        <mkdir dir="${dest}/maths"/>
+        <mkdir dir="${dest}/gprover"/>
+        <mkdir dir="${dest}/UI"/>
+        <mkdir dir="${dest}/wprover"/>
+        <mkdir dir="${dest}/pdf"/>
+    </target>
+
+
+    <!-- Step 3:  compile all .java files, here we have four packages totally -->
+    <target name="compile" depends="clean, init" description="compiling jgex">
+        <javac  srcdir="${src}/pdf" destdir="${dest}" debug="off" nowarn="on" />      
+        <javac  srcdir="${src}/UI" destdir="${dest}" debug="off" nowarn="on" />
+        <javac  srcdir="${src}/maths" destdir="${dest}" debug="off" nowarn="on" />
+        <javac  srcdir="${src}/gprover" destdir="${dest}" debug="off" nowarn="on" />
+        <javac  srcdir="${src}/wprover" destdir="${dest}" debug="off" nowarn="on" />
+    </target>
+
+
+    <!-- Step 4:  copy all images to destination before generating jar file  -->
+    <target name="copy-images" depends="compile"
+            description="Copy all images to destination">
+        <copy todir="${dest}/wprover" overwrite="true">
+            <fileset dir="${src}/wprover">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+
+        <copy todir="${dest}" overwrite="true">
+            <fileset dir="${src}/wprover/images/about">
+                <exclude name="**/**/**/head*.*"/>
+                <exclude name="**/**/**/*.db"/>
+
+            </fileset>
+        </copy>
+
+    </target>
+
+
+    <!-- Step 5:  build jgex.jar file -->
+    <target name="build" depends="compile, copy-images" description="building jgex">
+<!--         <delete dir="${out}"/>
+        <mkdir dir="${out}"/>   -->
+        <jar jarfile="${out}/${jgex_jar}" manifest="./MANIFEST.MF" basedir="${dest}"/>
+    </target>
+
+
+    <!-- Step 6:  copy all resources(examples, rules and help) to output folder -->
+    <target name="copy-resources" depends="build"
+            description="Copy resources to output folder">
+
+        <mkdir dir="${out}/rules"/>
+        <copy todir="${out}/rules/" overwrite="true">
+            <fileset  dir="${src}/rules">
+            </fileset>
+        </copy>
+
+        <mkdir dir="${dest}/examples"/>
+        <copy todir="${out}/examples" overwrite="true">
+            <fileset  dir="${src}/examples">
+            </fileset>
+        </copy>
+
+        <mkdir dir="${dest}/language"/>
+        <copy todir="${out}/language" overwrite="true">
+            <fileset  dir="${src}/language">
+            </fileset>
+        </copy>
+
+        <mkdir dir="${out}/help"/>
+        <copy todir="${out}/help/" overwrite="true">
+            <fileset  dir="${src}/help">
+            </fileset>
+        </copy>
+
+    </target>
+
+    <!-- Step 7:  run  JGEX -->
+    <target name="run_all" depends="build" description="Run jar file">
+        <java jar="${out}/${jgex_jar}" classpath="${out}/"
+              fork="true"
+              failonerror="true"
+              maxmemory="128m"/>
+    </target>
+
+
+    <!-- Step 8:  default act, build jgex.jar and run all -->
+    <target name="all" depends="clean, init, compile, copy-resources,copy-images, build, run_all" description="build and run all"/>
+
+
+    <!-- Build Applet 1 for simple ainmation. -->
+
+      
+
+    <target name="build1" depends="compile" description="building jgex1">
+        <delete dir="${out}"/>
+        <mkdir dir="${out}"/>
+        <jar jarfile="${out}/${jgex_jar}" manifest="./MANIFEST1.MF" basedir="${dest}"/>
+    </target>
+
+
+    <target name="gexApp1" depends="clean, init, compile,copy-images, build1" description="build applet 1"/>
+
+
+    <!-- run. This just run jar file without rebuild. -->
+    <target name="run" description="Run jar file">
+        <java jar="${out}/${jgex_jar}" classpath="${out}/"
+              fork="true"
+              failonerror="true"
+              maxmemory="128m"/>
+    </target>
+
+
+</project>

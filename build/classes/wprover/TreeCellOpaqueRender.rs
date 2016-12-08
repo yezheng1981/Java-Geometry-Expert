@@ -1,0 +1,4 @@
+wprover.TreeCellAssertPanel
+wprover.TreeCellOpaqueLabel
+wprover.TreeCellOPaqueEditor
+wprover.TreeCellOpaqueRender

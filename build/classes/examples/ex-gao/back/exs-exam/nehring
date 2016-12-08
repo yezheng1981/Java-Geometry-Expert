@@ -1,0 +1,21 @@
+# Example 6.27 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  Nehring_1942  
+HYPOTHESES:
+  POINT B C A O ;
+  INTERSECTION_LL A_1  A O  B C ;
+  INTERSECTION_LL B_1  B O  C A ;
+  INTERSECTION_LL C_1  C O  B A ;
+  ON_LINE X_1 B C;
+  INTERSECTION_LL X_2  B_1 X_1  B A ;
+  INTERSECTION_LL X_3  A_1 X_2  C A ;
+  INTERSECTION_LL X_4  C_1 X_3  B C ;
+  INTERSECTION_LL X_5  B_1 X_4  B A ;
+  INTERSECTION_LL X_6  A_1 X_5  C A ;
+  INTERSECTION_LL Z2  C A  C_1 X_1 ;
+  INTERSECTION_LL Z1  A_1 X_5  C_1 X_1 ;
+SHOW:  (RATIO C_1 Z1 X_1 Z1)
+       (RATIO X_1 Z2 C_1 Z2)=1.

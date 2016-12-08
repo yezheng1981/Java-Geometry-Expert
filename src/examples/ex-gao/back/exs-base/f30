@@ -1,0 +1,17 @@
+EXAMPLE Full1
+HYPOTHESES: 
+  POINT A B C;
+  CIRCUMCENTER O A B C;
+  FOOT E B A C;
+  FOOT F C A B;
+SHOW: PERPENDICULAR A O E F.
+
+
+
+
+
+
+
+
+
+

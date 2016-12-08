@@ -1,0 +1,19 @@
+EXAMPLE addl
+HYPOTHESES: 
+POINT A B C D G;
+LINE o  B A;
+LINE o  C B;
+LINE o  A C;
+LINE o  A D;
+LINE o  D B;
+LINE o  D C;
+ON-PLINE P A D G;
+ON-PLINE Q B D G;
+ON-PLINE S C D G;
+DLINE o P Q;
+DLINE o P S;
+DLINE o Q S;
+DLINE o G P;
+DLINE o G Q;
+DLINE o G S;
+SHOW: NO.

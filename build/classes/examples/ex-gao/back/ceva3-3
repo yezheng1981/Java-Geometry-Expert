@@ -1,0 +1,13 @@
+# Example 6.9 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  A_342  
+HYPOTHESES:
+  POINT A B C S ;
+  INTERSECTION_LL L  B C  A S ;
+  INTERSECTION_LL N  B A  C S ;
+  INTERSECTION_LL M  A C  B S ;
+SHOW: (RATIO A M M C) + (RATIO A N N B ) 
+       = (RATIO A S S L ).

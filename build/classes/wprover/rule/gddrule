@@ -1,0 +1,153 @@
+* 1
+If AB // BC, then Collinear(A,B,C).
+
+* 2
+For two angle ］[l1,l2], ］[l3,l4]. If l1 = l3 and l2 // l4, then ］[l1,l2] = ］[l3,l4].
+For example, in parallelogram ABCD, AD // BC and AC = CA, hence ］[CAD] = ］[ACB].
+
+* 3
+if AB // CD and E is the intersection of AC and BD, then EA / EC = EB / ED. 
+
+* 4 
+If AB 〕 CD and CD 〕 EF, then AB ［ EF.
+
+* 5
+If AB 〕 CD, then ］[AB,CD] = [1] ( or 90 degrees).
+
+* 6
+In right riangle ACB, ］C = [1] and Midpoint(E,AB), then Circumcenter (E,ABC).
+
+* 7
+For four points A,B,C,D, if AC 〕 BC and AD 〕 BD, then Cyclic(A,B,C,D).
+
+* 8
+For a circle C(O,AB), if Collinear(A,B,O), then Midpoint(O,A,B).
+
+* 9
+For a circle c(O,AB) and a point C on Circle c, if Collinear(A,B,O), then AC 〕 BC and ］ACB = [1].
+
+* 10
+If AB is the Diameter of a circle and C is on the circle, then AC 〕 BC
+
+* 11
+Angle of circumference equals to half of angle of center
+
+* 12
+If AB // CD and Cyclic(A,B,C,D), then ］ABC = ］DAB. 
+
+* 13
+If Cyclic(A,B,C,D), then ］ADB = ］ACB and vice verse.
+
+* 14
+Chord tangent angle ***** 
+
+* 15 
+Line passing the centers of two circles is perpendicular to the common chord of two circles.  
+For example, two circles C1(O,AB) and C2(O1,AB), AB are two common points, then OO1 〕 AB.
+
+* 16
+The Addition for Full Angle.
+If ］[l1,l2] = ］[l3,l4] and ］[l5,l6] = ］[l7,l8], and l2 = l6 and l4 = l7, then ］[l1,l4] = ］[l5,l8] 
+
+* 17
+ASPP12.
+If ］[l1,l2] = ］[l3,l4] and l1 // l2, then l3 // l4.
+Because if l1 // l2, ］[l1,l2] = [0]. Hence ］[l3,l4] = [0].
+
+* 18
+ASPP13
+If ］[l1,l2] = ］[l3,l4] and l1 // l3, then l2 // l4.
+ 
+* 19
+ASTT12
+If ］[l1,l2] = ］[l3,l4] and l1 〕  l2, then l3 〕  l4.
+
+* 20
+ASTT13
+If ］[l1,l2] = ］[l3,l4] and l1 〕  l3, then l2 〕  l4.
+
+* 21
+Special Angles
+
+* 22
+Supplementary Angle
+
+* 23
+Isoceless triangle.
+
+* 24
+Isoceles Triangle three lines concurent
+
+* 25 
+Congruent Triangle. 
+Triangles are called congruent if they have the same size and shape. That is, corresponding angles have the same measure, and corresponding sides have the same length.
+
+* 26  #ASA
+ASA (angle-side-angle) congruence: 
+Two triangles are congruent if a pair of corresponding angles and the included side are equal. 
+
+* 27 #SAS
+SAS(side-angle-side) congruence
+Two triangles are congruent if a pair of corresponding sides and the included angle are equal.
+
+* 28 #SSS
+SSS (side-side-side) congruence
+Two triangles are congruent if their corresponding sides are equal.
+
+* 29 #SAS
+SAS (side-angle-side) congruence for right triangles.
+Two right triangle are congruent if their two corresponding cartesian edges are equal. 
+
+* 30
+Similar triangles
+Similar triangles are triangles that have the same shape but possibly different size. In particular, corresponding angles are congruent, and corresponding sides are in proportion.
+
+* 31 #SAS
+SAS (side-angle-side) similarity
+The side-angle-side (SAS) similarity test says that if two triangles have two pairs of sides that are proportional and the included angles are congruent, then the triangles are similar. 
+
+* 32 #SSS
+SSS (side-side-side) similarity
+If two triangles have all three pairs of sides in proportion, the triangles are similar.
+
+* 33 #AAA
+AAA (angle-angle-angle) similarity 
+If two triangles have corresponding angles that are congruent, then the triangles are similar. Because the sum of the angles in a triangle must be PI, we really only need to know that two pairs of corresponding angles are congruent to know the triangles are similar.
+
+* 34
+Ratio by similarity
+
+* 35
+Middle Connection Theorem for Triangles
+The line connect the midpoints of two sides of triangle is parallel to the third side of the triangle.
+
+* 36
+For a right triangle ACB, if AC 〕 BC and D is the midpoint of AB,  then DC = DA = DB, D is the center of circle ABC.
+
+* 37
+Equalateral Triangles
+An equilateral triangle is a triangle in which all three sides have equal lengths.
+
+* 38
+Pythagoras Theorem
+In any right triangle, the area of the square whose side is the hypotenuse (the side of a right triangle opposite the right angle) is equal to the sum of areas of the squares whose sides are the two legs (i.e. the two sides other than the hypotenuse). 
+
+* 39
+The sum of three interior angles of a triangle is 180
+
+* 40
+Parallelogram 
+A quadrilateral with two sets of opposite parallel sides
+
+* 41
+Middle Connection Theorem for Trapzoid
+
+*  42
+Ratio 
+Use Ratio in Deductive Database Method. 
+
+* 43
+Ratio by angle bisector
+In triangle ABC, if AD is the bisector of angle A, and D is on line BC, then AB/BD = AC/DC. 
+
+*END

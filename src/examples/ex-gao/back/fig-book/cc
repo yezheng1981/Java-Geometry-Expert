@@ -1,0 +1,9 @@
+EXAMPLE addl
+HYPOTHESES: 
+POINT C E;
+MIDPOINT O C E;
+SHOW: NO.
+
+
+
+

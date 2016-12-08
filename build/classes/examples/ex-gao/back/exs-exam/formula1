@@ -1,0 +1,14 @@
+# Example 2.52 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  WG12_2  
+HYPOTHESES:
+  POINT A B C ;
+  MRATIO A1 B C r1;
+  MRATIO B1 C A r2;
+  MRATIO C1 A B r3;
+SHOW: 
+  (r1+1)(r2+1)(r3+1)(AREA A1 B1 C1) 
+= (r1 r2 r3 +1) (AREA A B C ).

@@ -1,0 +1,18 @@
+# Example 6.134 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE NPOINT
+HYPOTHESES: POINT A B C;
+  MIDPOINT M A B;
+  MIDPOINT N B C;
+  MIDPOINT L C A;
+  FOOT C1 C A B;
+  FOOT A1 A B C;
+  FOOT B1 B A C;
+  INTERSECTION_LL H A A1 B B1;
+  MIDPOINT C2 H C;
+  MIDPOINT B2 H B;
+  MIDPOINT A2 H A;
+SHOW: COCIRCLE L M N C1.

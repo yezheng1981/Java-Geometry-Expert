@@ -1,0 +1,15 @@
+# Example 6.7 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  CEVA_1  
+HYPOTHESES:
+  POINT A B C S ;
+  INTERSECTION_LL L  B C  S A ;
+  INTERSECTION_LL M  A C  S B ;
+  INTERSECTION_LL N  A B  S C ;
+SHOW: 
+(AREA A M L) (AREA B N M) (AREA C L N )
+ = 
+(AREA A N L) (AREA B L M) (AREA C N M ).

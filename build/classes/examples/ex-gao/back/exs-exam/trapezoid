@@ -1,0 +1,14 @@
+# Example 2.37 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  M_24  
+HYPOTHESES:
+  POINT A B C ;
+  ON_PLINE D C A B;
+  ON_LINE E B C;
+  INTERSECTION_PL H  E A B  A D ;
+  INTERSECTION_LL F  B D  E H ;
+  INTERSECTION_LL G  A C  E F ;
+SHOW: (RATIO E F A B ) = -(RATIO H G A B ).

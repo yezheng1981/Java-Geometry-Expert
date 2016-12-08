@@ -1,0 +1,13 @@
+# Example 5.63 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  C237  
+HYPOTHESES:
+  POINT A B C ;
+  CONSTANT i^2+1;
+  PSQUARE F A B ;
+  NSQUARE H A C ;
+#area SHOW:  (VEC F C ) -  i (VEC B H ) =  0 .
+#wu SHOW: CONGRUENT F C B H.

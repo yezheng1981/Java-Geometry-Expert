@@ -1,0 +1,26 @@
+EXAMPLE  GAUSS_CONIC
+HYPOTHESES: POINT A_0 A_1 A_2 A_3 A_4 A_5;
+          INTERSECTION_LL X A_3 A_4 A_0 A_1;
+          INTERSECTION_LL Y A_4 A_5 A_1 A_2;
+          INTERSECTION_LL Z A_5 A_0 A_2 A_3;
+          INTERSECTION_LL B_1 A_2 A_3 A_0 A_1;
+          INTERSECTION_LL B_2 A_4 A_5 A_0 A_1;
+          INTERSECTION_LL B_3 A_1 A_2 A_0 A_5;
+          INTERSECTION_LL B_4 A_3 A_4 A_0 A_5;
+          MIDPOINT M_1 A_1 A_3;
+          MIDPOINT M_2 A_2 X;
+          MIDPOINT M_3 A_1 A_5;
+          MIDPOINT M_4 A_0 Y;
+          MIDPOINT M_5 B_1 A_4;
+          MIDPOINT M_6 B_2 A_3;
+          MIDPOINT M_7 A_2 A_5;
+          MIDPOINT M_8 Z Y;
+          MIDPOINT M_9 A_0 A_4;
+          MIDPOINT N_1 A_5 X;
+          MIDPOINT N_2 A_3 B_3;
+          MIDPOINT N_3 A_2 B_4;
+          INTERSECTION_LL P M_3 M_4 M_1 M_2;
+          INTERSECTION_LL Q M_7 M_8 M_5 M_6;
+          INTERSECTION_LL S N_2 N_3 M_9 N_1;
+SHOW:     COLLINEAR P Q S.
+

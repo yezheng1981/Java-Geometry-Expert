@@ -1,0 +1,70 @@
+The intersection of line Q1M1 and P3M3 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M1Q1,M1M2] = [M3P3,M3M2])
+The intersection of line Q1M1 and Q4M0 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][Q1M1,Q4M0] = [M2M1,M2M0])
+The intersection of line P3M3 and Q4M0 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M3P3,M3M4] = [M0Q4,M0M4])
+
+The intersection of line P0M0 and Q1M2 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M0P0,M0M1] = [M2Q1,M2M1])
+The intersection of line P0M0 and Q3M3 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M0P0,M0M4] = [M3Q3,M3M4])
+The intersection of line Q1M2 and Q3M3 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][Q1M2,Q3M3] = [M0M2,M0M3])
+
+The intersection of line P1M2 and P0M4 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][P1M2,P0M4] = [M3M2,M3M4])
+The intersection of line P1M2 and Q0M3 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][P1M2,Q0M3] = [M0M2,M0M3])
+The intersection of line P0M4 and Q0M3 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M4P0,M4M0] = [M3Q0,M3M0])
+
+The intersection of line P1M0 and P2M3 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M0P1,M0M4] = [M3P2,M3M4])
+The intersection of line P1M0 and Q1M4 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M0P1,M0M3] = [M4Q1,M4M3])
+The intersection of line P2M3 and Q1M4 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M3P2,M3M0] = [M4Q1,M4M0])
+
+The intersection of line P2M1 and P3M4 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M0M1,M0M4] = [P2M1,P3M4])
+The intersection of line P2M1 and Q2M0 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M1P2,M1M2] = [M0Q2,M0M2])
+The intersection of line P3M4 and Q2M0 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][P3M4,Q2M0] = [M3M4,M3M0])
+
+The intersection of line P0M1 and P4M3 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][P0M1,P4M3] = [M2M1,M2M3])
+The intersection of line P0M1 and Q4M2 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M1P0,M1M0] = [M2Q4,M2M0])
+The intersection of line P4M3 and Q4M2 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M3P4,M3M0] = [M2Q4,M2M0])
+
+The intersection of line Q0M1 and P4M4 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M1Q0,M1M0] = [M4P4,M4M0])
+The intersection of line Q0M1 and Q2M2 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M1Q0,M1M0] = [M2Q2,M2M0])
+The intersection of line Q2M2 and P4M4 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M2Q2,M2M3] = [M4P4,M4M3])
+
+The intersection of line P4M0 and P3M2 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M0M1,M0P4] = [M2M1,M2P3])
+The intersection of line P4M0 and Q3M1 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M0P4,M0M3] = [M1Q3,M1M3])
+The intersection of line Q3M1 and P3M2 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M1M0,M1Q3] = [M2M0,M2P3])
+
+The intersection of line P1M1 and Q2M3 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M1P1,M1M2] = [M3Q2,M3M2])
+The intersection of line P1M1 and Q4M4 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M1P1,M1M0] = [M4Q4,M4M0])
+The intersection of line Q2M3 and Q4M4 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M3Q2,M3M0] = [M4Q4,M4M0])
+
+The intersection of line Q0M0 and P2M2 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M0Q0,M0M1] = [M2P2,M2M1])
+The intersection of line Q0M0 and Q3M4 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M0Q0,M0M3] = [M4Q3,M4M3])
+The intersection of line P2M2 and Q3M4 lies on circle cir [1]circle[M0M1M2M3M4]
+    ([1][M2P2,M2M3] = [M4Q3,M4M3])
+

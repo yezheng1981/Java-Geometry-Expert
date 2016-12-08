@@ -1,0 +1,19 @@
+# Example 5.65 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  E_2124_3  
+HYPOTHESES:
+  POINT A B C ;
+  CONSTANT i^2+1;
+  NSQUARE F C A ;
+  PSQUARE D C B ;
+  PRATIO E D  C B 1;
+  PSQUARE K B A ;
+  PRATIO Q F C D 1;
+  PRATIO P K B E 1;
+#area SHOW: (VEC A Q ) - i (VEC A P ) =0.
+#wu   SHOW: PERPENDICULAR A Q A P.
+#wu   SHOW: CONGRUENT A Q A P.
+

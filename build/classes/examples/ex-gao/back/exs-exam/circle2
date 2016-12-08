@@ -1,0 +1,13 @@
+# Example 6.327 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  circle2
+HYPOTHESES:
+  POINT A B C ;
+  FOOT D A B C ;
+  MIDPOINT O A D ;
+  INTERSECTION_LC E  A B  O A  ;
+  INTERSECTION_LC F  A C  O A  ;
+SHOW:  COCIRCLE E F C B.
