@@ -12,9 +12,6 @@ tiki_cookie_jar = {};
 
 <link rel="alternate" type="application/xml" title="RSS Wiki"  >
 <style type="text/css">
-<!--
-.STYLE1 {font-size: 14px}
--->
 </style>
 </head><body class="tiki_wiki">
 
