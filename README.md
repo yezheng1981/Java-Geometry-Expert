@@ -73,4 +73,26 @@ tiki_cookie_jar = {};
   The JGEX is written in Java, so you need a JDK in order to compile the code. The prefered IDE for development is NetBeans:
   <a>https://netbeans.org/</a>
   </p>
+  
+  <h3>5. the interface of JGEX <a name="vpp" id="vpp"></a></h3>
+  <p><img src="http://www.cs.wichita.edu/~ye/Documentation/images3/jgex.gif" width="802" height="645" border="1" /><br />
+  </p>
+  
+  <p>Some interesting animations</p>
+  <img src="http://www.cs.wichita.edu/~ye/Documentation/effects/st.gif" border="1" height="180" width="400" />
+  <img src="http://www.cs.wichita.edu/~ye/Documentation/effects/cg.gif" border="1" height="180" width="400" />
+  <img src="http://www.cs.wichita.edu/~ye/Documentation/effects/p3.gif" border="1" height="180" width="400" />
+  <img src="http://www.cs.wichita.edu/~ye/Documentation/effects/p4.gif" border="1" height="180" width="400" />
+  <img src="http://www.cs.wichita.edu/~ye/Documentation/effects/p5.gif" border="1" height="180" width="400" />
+  <img src="http://www.cs.wichita.edu/~ye/Documentation/effects/p6.gif" border="1" height="180" width="400" />
+
+<table width="200" border="0" align="center">
+  <tr>
+    <td><p align="center"><img src="http://www.cs.wichita.edu/~ye/Documentation/images2/pyth1.gif" width="698" height="378" border="1" /><br />
+            <br />
+            <strong>A Manually Created Proof for Pythagoras Theorem. </strong> </p></td>
+  </tr>
+</table>
+
+
 </div>
