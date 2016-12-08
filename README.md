@@ -4,7 +4,7 @@
 var tiki_cookie_jar = new Array();
 tiki_cookie_jar = {};
 </script>
-<script type="text/javascript" src="lib/tiki-js.js"></script><title>JGEX Documentation : What Is JGEX?</title>
+<script type="text/javascript" src="lib/tiki-js.js"></script>
 
 
 <link rel="StyleSheet" href="lib/1.css" type="text/css">
@@ -33,7 +33,7 @@ tiki_cookie_jar = {};
 <div class="wikitopline"></div>
 
 <div class="wikitext">
-  <h3>Introduction to  JGEX.</h3>
+  <div width="30%" height="90" style="width: 45%; color: rgb(0, 0, 0);"><span style="width: 280px; text-align: center; white-space: nowrap; color: rgb(0, 0, 0);"><img src="http://www.cs.wichita.edu/~ye/images/headline1.jpg" alt="Java Geometry Expert" width="218" height="117" /></span></div>
   <p>JGEX  is a software which combines dynamic geometry software (DGS), automated  geometry theorem prover (GTP) and our approach for visually dynamic  presentation of proofs. As a dynamic geometry software, JGEX can be  used to build dynamic visual models to assist teaching and learning of  various mathematical concepts. As an automated reasoning software, we  can build dynamic logic models which can do reasoning themselves. As a  tool for dynamic presentation of proofs, JGEX is a valuable for  teachers and students to write and present proofs of geometry theorems  with various dynamic visual effects.</p>
   <ol>
     <li>JGEX is a powerful software for <em>geometric reasoning</em>.  Within its domain, it invites comparison with the best of human  geometry provers. It implements most of the effective methods for  geometric reasoning introduced in the past twenty years, including the  deductive base method, Wu's method, and the full-angle method, etc.  With these methods, users may automated prove geometry theorems, to  discover new properties of theorems, and to generate readable proofs  for many geometry theorems. </li>
