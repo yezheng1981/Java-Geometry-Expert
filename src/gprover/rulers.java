@@ -4,73 +4,73 @@ public class rulers {
 
     final public static String[] GDD = {
             "* 1",
-            "If AB °Œ BC, then Collinear(A,B,C).",
+            "If AB ‚à• BC, then Collinear(A,B,C).",
 
             "* 2",
-            "For two angle °œ[l1,l2], °œ[l3,l4]. If l1 = l3 and l2 °Œ l4, then °œ[l1,l2] = °œ[l3,l4].",
-            "For example, in parallelogram ABCD, AD °Œ BC and AC = CA, hence °œ[CAD] = °œ[ACB].",
+            "For two angle ‚à†[l1,l2], ‚à†[l3,l4]. If l1 = l3 and l2 ‚à• l4, then ‚à†[l1,l2] = ‚à†[l3,l4].",
+            "For example, in parallelogram ABCD, AD ‚à• BC and AC = CA, hence ‚à†[CAD] = ‚à†[ACB].",
 
             "* 3",
-            "if AB °Œ CD and E is the intersection of AC and BD, then EA / EC = EB / ED.",
+            "if AB ‚à• CD and E is the intersection of AC and BD, then EA / EC = EB / ED.",
 
             "* 4 ",
-            "If AB °Œ CD and CD °Õ EF, then AB °Õ EF.",
+            "If AB ‚à• CD and CD ‚ä• EF, then AB ‚ä• EF.",
 
             "* 5",
-            "If AB °Õ CD, then °œ[AB,CD] = [1] ( or 90 degrees).",
+            "If AB ‚ä• CD, then ‚à†[AB,CD] = [1] ( or 90 degrees).",
 
             "* 6",
-            "In right triangle ACB, °œC = [1], if  midpoint(E, A B), then Circumcenter (E,A B C) and EA = EB = EC.",
+            "In right triangle ACB, ‚à†C = [1], if  midpoint(E, A B), then Circumcenter (E,A B C) and EA = EB = EC.",
 
             "* 7",
-            "If AB °Õ CD and CD °Õ EF, then AB °Œ EF.",
+            "If AB ‚ä• CD and CD ‚ä• EF, then AB ‚à• EF.",
 
             "* 8",
-            "For four points A,B,C,D, if AC °Õ BC and AD °Õ BD, then Cyclic(A,B,C,D).",
+            "For four points A,B,C,D, if AC ‚ä• BC and AD ‚ä• BD, then Cyclic(A,B,C,D).",
 
             "* 9",
-            "For a circle c(O,AB) and a point C on Circle c, if Collinear(A,B,O), then AC °Õ BC and °œACB = [1].",
+            "For a circle c(O,AB) and a point C on Circle c, if Collinear(A,B,O), then AC ‚ä• BC and ‚à†ACB = [1].",
 
             "* 10",
-            "If AB is the Diameter of a circle and point C is on the circle, then AC °Õ BC",
+            "If AB is the Diameter of a circle and point C is on the circle, then AC ‚ä• BC",
 
             "* 11",
             "Angle of circumference equals to half of angle of center",
 
             "* 12",
-            "If AB °Œ CD and Cyclic(A,B,C,D), then °œABC = °œDAB.",
+            "If AB ‚à• CD and Cyclic(A,B,C,D), then ‚à†ABC = ‚à†DAB.",
 
             "* 13",
-            "If Cyclic(A,B,C,D), then °œADB = °œACB and vice verse.",
+            "If Cyclic(A,B,C,D), then ‚à†ADB = ‚à†ACB and vice verse.",
 
             "* 14",
             "Chord tangent angle ***** ",
 
             "* 15 ",
             "Line passing the centers of two circles is perpendicular to the common chord of two circles.  ",
-            "For example, two circles C1(O,AB) and C2(O1,AB), AB are two common points, then OO1 °Õ AB.",
+            "For example, two circles C1(O,AB) and C2(O1,AB), AB are two common points, then OO1 ‚ä• AB.",
 
             "* 16",
             "The Addition for Full Angle.",
-            "If °œ[l1,l2] = °œ[l3,l4] and °œ[l5,l6] = °œ[l7,l8], and l2 = l6 and l4 = l7, then °œ[l1,l4] = °œ[l5,l8] ",
+            "If ‚à†[l1,l2] = ‚à†[l3,l4] and ‚à†[l5,l6] = ‚à†[l7,l8], and l2 = l6 and l4 = l7, then ‚à†[l1,l4] = ‚à†[l5,l8] ",
 
             "* 17",
             "ASPP12.",
-            "If °œ[l1,l2] = °œ[l3,l4] and l1 °Œ l2, then l3 °Œ l4.",
-            "Because if l1 °Œ l2, °œ[l1,l2] = [0]. Hence °œ[l3,l4] = [0].",
+            "If ‚à†[l1,l2] = ‚à†[l3,l4] and l1 ‚à• l2, then l3 ‚à• l4.",
+            "Because if l1 ‚à• l2, ‚à†[l1,l2] = [0]. Hence ‚à†[l3,l4] = [0].",
 
             "* 18",
             "ASPP13",
-            "If °œ[l1,l2] = °œ[l3,l4] and l1 °Œ l3, then l2 °Œ l4.",
+            "If ‚à†[l1,l2] = ‚à†[l3,l4] and l1 ‚à• l3, then l2 ‚à• l4.",
             " ",
 
             "* 19",
             "ASTT12",
-            "If °œ[l1,l2] = °œ[l3,l4] and l1 °Õ  l2, then l3 °Õ  l4.",
+            "If ‚à†[l1,l2] = ‚à†[l3,l4] and l1 ‚ä•  l2, then l3 ‚ä•  l4.",
 
             "* 20",
             "ASTT13",
-            "If °œ[l1,l2] = °œ[l3,l4] and l1 °Õ  l3, then l2 °Õ  l4.",
+            "If ‚à†[l1,l2] = ‚à†[l3,l4] and l1 ‚ä•  l3, then l2 ‚ä•  l4.",
 
             "* 21",
             "Special Angles",
@@ -83,7 +83,7 @@ public class rulers {
 
             "* 24 Isoceless Triangle Theorem.",
             "For a isoceless triangle ABC and a point D on line BC, if any one of following statement is true, the other two are also true .",
-            "1. AD °Õ BC     2. D is the midpoint of BC   3. °œBAD = °œDAC",
+            "1. AD ‚ä• BC     2. D is the midpoint of BC   3. ‚à†BAD = ‚à†DAC",
 
             "* 25 ",
             "Congruent Triangle. ",
@@ -130,7 +130,7 @@ public class rulers {
 
             "* 36",
             "The hypotenuse of a right triangle is the diameter of the circumscribed circle of the triangle, and the midpoint of the hypotenuse is the center of the circle.",
-            "For a right triangle ACB, if AC °Õ BC and D is the midpoint of AB,  then DC = DA = DB, D is the center of circle ABC.",
+            "For a right triangle ACB, if AC ‚ä• BC and D is the midpoint of AB,  then DC = DA = DB, D is the center of circle ABC.",
 
             "* 37",
             "Equalateral Triangles",
@@ -164,96 +164,96 @@ public class rulers {
     final public static String[] FULL =
             {
                     "* 1 # The Definition of Full Angle.",
-                    "A full angle is defined as an ordered pair of two lines u and v denoted by °œ[u,v].",
+                    "A full angle is defined as an ordered pair of two lines u and v denoted by ‚à†[u,v].",
 
                     "* 2",
-                    "°œ[u,v] =  - °œ[v,u].",
+                    "‚à†[u,v] =  - ‚à†[v,u].",
 
                     "* 3",
-                    "°œ[u,v] = °œ[0] if and only if u °Œ v  (including u = v).",
+                    "‚à†[u,v] = ‚à†[0] if and only if u ‚à• v  (including u = v).",
 
                     "* 4",
-                    "°œ[u,v] = °œ[1] if and only if u °Õ v.",
+                    "‚à†[u,v] = ‚à†[1] if and only if u ‚ä• v.",
 
                     "* 5 # Addition of Full Angle.",
-                    "°œ[u,s] + °œ[s,v] = °œ[u,v].  This rule to split an angle into two or more angles.",
-                    "For example, for any line m, we have  °œ[u,v] =  °œ[u,m] +  °œ[m,v]",
+                    "‚à†[u,s] + ‚à†[s,v] = ‚à†[u,v].  This rule to split an angle into two or more angles.",
+                    "For example, for any line m, we have  ‚à†[u,v] =  ‚à†[u,m] +  ‚à†[m,v]",
 
                     "* 6",
-                    "If l °Õ v or °œ[l,v] = °œ[1],  then °œ[u,v] = °œ[u,l] + °œ[l,v] = °œ[u,l] + °œ[1].",
-                    "For example, if we have AC °Õ BC, then  °œ[CBA] = °œ[BAC] + °œ[1].",
+                    "If l ‚ä• v or ‚à†[l,v] = ‚à†[1],  then ‚à†[u,v] = ‚à†[u,l] + ‚à†[l,v] = ‚à†[u,l] + ‚à†[1].",
+                    "For example, if we have AC ‚ä• BC, then  ‚à†[CBA] = ‚à†[BAC] + ‚à†[1].",
 
                     "* 7",
                     " The Isoceless Triangle Theorem for Full Angle.",
-                    " If AC = BC, we have °œ[ABC] = °œ[CAB]. Conversely, if °œ[ABC] = °œ[CAB], then AB = AC or A, B and C are collinear.",
+                    " If AC = BC, we have ‚à†[ABC] = ‚à†[CAB]. Conversely, if ‚à†[ABC] = ‚à†[CAB], then AB = AC or A, B and C are collinear.",
 
                     "* 8",
                     " The Inscribed Angle Theorem.",
-                    " Points A,B,C and D are cyclic iff °œ[ACB] = °œ[ADB].",
+                    " Points A,B,C and D are cyclic iff ‚à†[ACB] = ‚à†[ADB].",
 
                     "* 9",
-                    " If Cyclic( A,B,M,N),  then °œ[AB, AM] = °œ[BN,NM].  Hence we have  °œ[AB, CD] = °œ[AB, AM] + °œ[AM, CD] = °œ[BN,NM]] + °œ[AM, CD].",
+                    " If Cyclic( A,B,M,N),  then ‚à†[AB, AM] = ‚à†[BN,NM].  Hence we have  ‚à†[AB, CD] = ‚à†[AB, AM] + ‚à†[AM, CD] = ‚à†[BN,NM]] + ‚à†[AM, CD].",
 
                     "* 10",
                     " Rule 10.",
 
                     "* 11",
-                    " If AB is the diameter of the circumcircle of triangle ABC and D is on the circumcircle, then for any line FG, we have °œ[CD,FG] = °œ[DBA] + °œ[ACB] + °œ[BC, FG]].",
+                    " If AB is the diameter of the circumcircle of triangle ABC and D is on the circumcircle, then for any line FG, we have ‚à†[CD,FG] = ‚à†[DBA] + ‚à†[ACB] + ‚à†[BC, FG]].",
 
                     "* 12",
-                    "If O is the intersection of Circle(O1, O P1 P3 I ) and Circle(O2, O P2 P4 J ) and Collinear(O, I, J), then °œ[P1O, OP2] = °œ[P1P2, IP3] + °œ[JP4, P2P4].",
+                    "If O is the intersection of Circle(O1, O P1 P3 I ) and Circle(O2, O P2 P4 J ) and Collinear(O, I, J), then ‚à†[P1O, OP2] = ‚à†[P1P2, IP3] + ‚à†[JP4, P2P4].",
 
                     "* 13",
-                    " If O is the circumcenter of triangle ABC, then °œ[BOC] = 2 * °œ[BAC].",
+                    " If O is the circumcenter of triangle ABC, then ‚à†[BOC] = 2 * ‚à†[BAC].",
 
                     "* 14",
-                    " For a circle(O, A B C D), if O is the intersection of AD and BC, then °œ[AOB] = 2 * °œ[CDA].",
+                    " For a circle(O, A B C D), if O is the intersection of AD and BC, then ‚à†[AOB] = 2 * ‚à†[CDA].",
 
                     "* 15",
-                    " For a circle(O, A B), O is the center of circle, we have °œ[OAB] = °œ[ABO]. ",
+                    " For a circle(O, A B), O is the center of circle, we have ‚à†[OAB] = ‚à†[ABO]. ",
 
                     "* 16",
                     " If triangle ABE is a right triangle and O is the midpoint of the hypotenuse(i.e. AB), then for any line CD, we have",
-                    " °œ[AB, CD] =  °œ[BAE] + °œ[1] + °œ[BE, CD]  ",
+                    " ‚à†[AB, CD] =  ‚à†[BAE] + ‚à†[1] + ‚à†[BE, CD]  ",
 
                     "* 17",
-                    " For a circle(O, ABC) and D is midpoint of BC, we have °œ[AB, EF] = °œ[BOD] + °œ[AC,EF]. ",
+                    " For a circle(O, ABC) and D is midpoint of BC, we have ‚à†[AB, EF] = ‚à†[BOD] + ‚à†[AC,EF]. ",
 
                     "* 18",
-                    " For a circle(O,ABF) and E is the midpoint of AF, we have °œ[AB, CD] = °œ[EOA] + °œ[BF, CD].",
+                    " For a circle(O,ABF) and E is the midpoint of AF, we have ‚à†[AB, CD] = ‚à†[EOA] + ‚à†[BF, CD].",
 
                     "* 19",
-                    " If G is the orthocenter of A, B, C, °œ[AE, HI] = °œ[AE, BE] + °œ[BE, HI] = °œ[1] + °œ[BE, HI]",
+                    " If G is the orthocenter of A, B, C, ‚à†[AE, HI] = ‚à†[AE, BE] + ‚à†[BE, HI] = ‚à†[1] + ‚à†[BE, HI]",
 
                     "* 20",
-                    "If A is the incenter of P2, K, I,  °œ[AB, CD] = °œ[AB, BK] + °œ[BK, CD] = °œ[1] + °œ[KI, KA] + °œ[IA, IK] + °œ[BK, CD].",
+                    "If A is the incenter of P2, K, I,  ‚à†[AB, CD] = ‚à†[AB, BK] + ‚à†[BK, CD] = ‚à†[1] + ‚à†[KI, KA] + ‚à†[IA, IK] + ‚à†[BK, CD].",
 
                     "* 21",
                     " Equal Angle found in Geometry Deductive Database.",
 
                     "*  22",
-                    " If AB °Õ AC and AB = AC, then °œ[AB,AC] = 2 * °œ[AB,BC].",
+                    " If AB ‚ä• AC and AB = AC, then ‚à†[AB,AC] = 2 * ‚à†[AB,BC].",
 
                     "*  23",
-                    " If AB °Õ AC and AB = AC, then 2 * °œ[AB,DE] = 2 * °œ[AB,BC] + 2 * °œ[BC,DE] = °œ[1] +2 * °œ[BC,DE].",
+                    " If AB ‚ä• AC and AB = AC, then 2 * ‚à†[AB,DE] = 2 * ‚à†[AB,BC] + 2 * ‚à†[BC,DE] = ‚à†[1] +2 * ‚à†[BC,DE].",
 
                     "*  24",
-                    " If OB // DE and A is on Circle(O,B), then 2 * °œ[AB, DE] = °œ[OA,OB]",
+                    " If OB // DE and A is on Circle(O,B), then 2 * ‚à†[AB, DE] = ‚à†[OA,OB]",
 
                     "*  25",
-                    " A is on Circle(O,B), then 2 * °œ[AB, DE] = °œ[OA,OB] + 2 * °œ[OA,DE]",
+                    " A is on Circle(O,B), then 2 * ‚à†[AB, DE] = ‚à†[OA,OB] + 2 * ‚à†[OA,DE]",
 
                     "*  26",
-                    " CD is the diameter of Circle(A, BCD), AB °Õ CD, then  2 * °œ[DB,BA]  = °œ[0].",
+                    " CD is the diameter of Circle(A, BCD), AB ‚ä• CD, then  2 * ‚à†[DB,BA]  = ‚à†[0].",
 
                     "*  27",
-                    " A, B, C, D, E are cyclic and AC = AB, then 2*°œ[AB, BC] =  °œ[CE, ED].",
+                    " A, B, C, D, E are cyclic and AC = AB, then 2*‚à†[AB, BC] =  ‚à†[CE, ED].",
 
                     "*  28",
-                    " If A, B, E, F, G are cyclic and AE = AF, then 2 * °œ[AB, CD] =  2 * °œ[BE, CD] +  °œ[EG, GF].",
+                    " If A, B, E, F, G are cyclic and AE = AF, then 2 * ‚à†[AB, CD] =  2 * ‚à†[BE, CD] +  ‚à†[EG, GF].",
 
                     "*  29",
-                    " If AB = AC = BC, i.e., triangle ABC is an equilateral triangle, then 3 * °œ[AB, BC] = °œ[0].  ",
+                    " If AB = AC = BC, i.e., triangle ABC is an equilateral triangle, then 3 * ‚à†[AB, BC] = ‚à†[0].  ",
 
                     "* END.",
 
