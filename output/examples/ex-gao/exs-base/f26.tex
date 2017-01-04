@@ -1,0 +1,53 @@
+\documentstyle[11pt]{article}
+\voffset=-2.5truecm
+\hoffset=-1.9truecm
+\textwidth = 16truecm
+\textheight = 22.5truecm
+\parskip=8pt
+\parindent=15pt
+\def\fa#1#2{\langle{#1},{#2}\rangle}
+\begin{document}
+The following auxilliary points are added by the program
+
+\begin{verbatim}
+INTERSECTION_LL A_{0}  B H  C A;
+INTERSECTION_LL A_{1}  A H  C B;
+INTERSECTION_LL A_{2}  A H  P Q;
+\end{verbatim}
+
+
+{\vskip6pt \parskip=6pt \parindent=10pt 
+The Machine Proof
+
+
+1. para[$PC,QB$] :- (2)$[BH,BH]=[CP,BQ]$.
+
+2. $[BH,BH]=[CP,BQ]$ :- (3)$[BH,CP]=[BH,BQ]$.
+
+3. $[BH,CP]=[BH,BQ]$ :- (4)$[BH,CP]=[PQ,AB]$, (5)$[BH,BQ]=[PQ,AB]$.
+
+4. $[BH,CP]=[PQ,AB]$ :- (6)$[BH,CH]=[AC,AB]$, (7)$[PQ,AC]=[CH,CP]$.
+
+5. $[BH,BQ]=[PQ,AB]$ :- (8)$[BH,PQ]=[BQ,AB]$.
+
+6. $[BH,CH]=[AC,AB]$ :- (hyp)perp[$BH,AC$], (hyp)perp[$CH,AB$].
+
+7. $[PQ,AC]=[CH,CP]$ :- (9)$[PQ,CH]=[AC,CP]$.
+
+8. $[BH,PQ]=[BQ,AB]$ :- (10)$[BH,PQ]=[AB,AQ]$, (11)$[BQ,AB]=[AB,AQ]$.
+
+9. $[PQ,CH]=[AC,CP]$ :- (12)$[PQ,CH]=[AP,AC]$, (13)$[AC,CP]=[AP,AC]$.
+
+10. $[BH,PQ]=[AB,AQ]$ :- (hyp)circle[$(Q)AHB$], (hyp)$QA = QH$, (14)midp[$A_{2},AH$].
+
+11. $[BQ,AB]=[AB,AQ]$ :- (hyp)$QA = QB$.
+
+12. $[PQ,CH]=[AP,AC]$ :- (hyp)circle[$(P)AHC$], (hyp)$PA = PH$, (14)midp[$A_{2},AH$].
+
+13. $[AC,CP]=[AP,AC]$ :- (hyp)$PA = PC$.
+
+14. midp[$A_{2},AH$] :- (hyp)$PA = PH$, (15)perp[$AH,PQ$].
+
+15. perp[$AH,PQ$] :- (hyp)$PA = PH$, (hyp)$QA = QH$.
+}
+\end{document}

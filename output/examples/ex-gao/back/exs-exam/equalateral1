@@ -1,0 +1,14 @@
+# Example 5.61 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  COM5  
+HYPOTHESES:
+  POINT A B C ;
+#area  CONSTANT w^2+w+1;
+#wu    CONSTANT w^2-3;
+  PE_TRIANGLE B_1 A C ;
+  PE_TRIANGLE A_1 C B ;
+  NE_TRIANGLE C_1 B A ;
+SHOW:  (VEC A_1 C_1) - (VEC C B_1) =  0.

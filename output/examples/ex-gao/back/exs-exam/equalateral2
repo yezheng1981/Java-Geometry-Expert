@@ -1,0 +1,15 @@
+# Example 5.62 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  COM4  
+HYPOTHESES:
+  POINT A B C ;
+#area  CONSTANT w^2 + w + 1;
+#wu  CONSTANT w^2-3;
+#  INTERSECTION_PP D A B C C A B;
+  PRATIO D A B C 1;
+  PE_TRIANGLE X B C ;
+  PE_TRIANGLE Y C D ;
+SHOW:  PE_TRIANGLE A Y X.

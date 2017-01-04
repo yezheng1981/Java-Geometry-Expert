@@ -1,0 +1,19 @@
+EXAMPLE Simons
+HYPOTHESES: 
+  POINT A B C;
+  CIRCUMCENTER O A B C;
+  ON_CIRCLE D O A;
+  FOOT G D A B;
+  FOOT E D B C;
+  FOOT F D A C;
+SHOW: COLLINEAR E F G.
+
+
+
+
+
+
+
+
+
+

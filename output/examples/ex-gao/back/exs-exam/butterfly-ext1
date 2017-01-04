@@ -1,0 +1,14 @@
+# Example 3.81 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  GBUTT  
+HYPOTHESES:
+  CIRCLE A B C D E F ;
+  INTERSECTION_LL M  D C  A B ;
+  INTERSECTION_LL N  E F  A B ;
+  INTERSECTION_LL G  A B  C F ;
+  INTERSECTION_LL H  D E  A B ;
+SHOW: (RATIO M G A G) (RATIO B H N H) = 
+      (RATIO B M A B) (RATIO B A A N).

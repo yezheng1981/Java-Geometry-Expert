@@ -1,0 +1,12 @@
+# Example 3.79 in
+# << Machine Proof In Geometry>>
+# World Scientific
+#
+EXAMPLE SIMONS
+HYPOTHESES:
+ CIRCLE A B C D;
+ FOOT P D A B;
+ FOOT Q D B C;
+ FOOT R D A C;
+SHOW: COLLINEAR P Q R.
+

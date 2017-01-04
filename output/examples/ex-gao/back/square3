@@ -1,0 +1,16 @@
+# Example 3.42 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  O59_5  
+HYPOTHESES:
+  POINT A B ;
+  ON_LINE M A B;
+  TRATIO C M M A 1;
+  MIDPOINT U A C ;
+  TRATIO E M M B -1;
+  MIDPOINT V E B ;
+  INTERSECTION_LC N  B C  V B  ;
+  INTERSECTION_LL T  B C  A E ;
+SHOW: EQ_RATIO B N C N B T C T.

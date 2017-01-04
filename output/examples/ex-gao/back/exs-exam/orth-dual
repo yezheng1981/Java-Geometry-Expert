@@ -1,0 +1,12 @@
+# Example 6.62 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  ALTITUDE_DUAL  
+HYPOTHESES:
+  POINT A B C O ;
+  INTERSECTION_LT D  B C  O O A ;
+  INTERSECTION_LT E  C A  O O B ;
+  INTERSECTION_LT F  A B  O O C ;
+SHOW:  COLLINEAR E F D.

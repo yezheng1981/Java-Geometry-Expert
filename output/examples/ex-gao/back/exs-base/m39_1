@@ -1,0 +1,9 @@
+EXAMPLE m39_1
+HYPOTHESES: 
+  POINT A B C;
+  FOOT D A B C;
+  FOOT E D A B;
+  FOOT F D A C;
+SHOW: NO.
+
+

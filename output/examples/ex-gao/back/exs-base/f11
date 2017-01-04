@@ -1,0 +1,18 @@
+EXAMPLE Full1
+HYPOTHESES: 
+  POINT A B C;
+  FOOT D A B C;
+  MIDPOINT L A B;
+  MIDPOINT N A C;
+  MIDPOINT M B C;
+SHOW: COCIRCLE L M N D.
+
+
+
+
+
+
+
+
+
+

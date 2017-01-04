@@ -1,0 +1,13 @@
+# Example 3.51 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  A32_58  
+HYPOTHESES:
+  POINT A B C ;
+  FOOT D A B C ;
+  ON_LINE J A D;
+  INTERSECTION_LL M  A B  C J ;
+  INTERSECTION_LL N  A C  B J ;
+SHOW:  EQANGLE M D A A D N.

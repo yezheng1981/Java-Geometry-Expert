@@ -1,0 +1,15 @@
+# Example 3.40 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  D237_2  
+HYPOTHESES:
+  POINT A B C ;
+  TRATIO E A A B 1;
+  PRATIO D E A C 1;
+  LINE D C;
+  TRATIO G A A C -1;
+  PRATIO F G B C 1;
+  LINE F C;
+SHOW:  PERPENDICULAR E C G B.

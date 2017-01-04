@@ -1,0 +1,15 @@
+# Example 6.245 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  D204  
+HYPOTHESES:
+  POINT A B C ;
+#  INTERSECTION_PP D A B C C A B;
+  PRATIO D A B C 1;
+  FOOT F A B D ;
+  FOOT E B A C ;
+  FOOT H C B D ;
+  FOOT G D A C ;
+SHOW: (RATIO E H F G ) =  1 .

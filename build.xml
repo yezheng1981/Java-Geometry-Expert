@@ -1,73 +1,129 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- You may freely edit this file. See commented blocks below for -->
-<!-- some examples of how to customize the build. -->
-<!-- (If you delete it and reopen the project it will be recreated.) -->
-<!-- By default, only the Clean and Build commands use this build script. -->
-<!-- Commands such as Run, Debug, and Test only use this build script if -->
-<!-- the Compile on Save feature is turned off for the project. -->
-<!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
-<!-- in the project's Project Properties dialog box.-->
-<project name="JGEX" default="default" basedir=".">
-    <description>Builds, tests, and runs the project JGEX.</description>
-    <import file="nbproject/build-impl.xml"/>
-    <!--
-
-    There exist several targets which are by default empty and which can be 
-    used for execution of your tasks. These targets are usually executed 
-    before and after some main targets. They are: 
-
-      -pre-init:                 called before initialization of project properties
-      -post-init:                called after initialization of project properties
-      -pre-compile:              called before javac compilation
-      -post-compile:             called after javac compilation
-      -pre-compile-single:       called before javac compilation of single file
-      -post-compile-single:      called after javac compilation of single file
-      -pre-compile-test:         called before javac compilation of JUnit tests
-      -post-compile-test:        called after javac compilation of JUnit tests
-      -pre-compile-test-single:  called before javac compilation of single JUnit test
-      -post-compile-test-single: called after javac compilation of single JUunit test
-      -pre-jar:                  called before JAR building
-      -post-jar:                 called after JAR building
-      -post-clean:               called after cleaning build products
-
-    (Targets beginning with '-' are not intended to be called on their own.)
-
-    Example of inserting an obfuscator after compilation could look like this:
-
-        <target name="-post-compile">
-            <obfuscate>
-                <fileset dir="${build.classes.dir}"/>
-            </obfuscate>
-        </target>
-
-    For list of available properties check the imported 
-    nbproject/build-impl.xml file. 
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="jgex" default="all" basedir=".">
+    <property name="src" value="."/>
+    <property name="dest" value="classes"/>
+    <property name="out" value="output"/>
+    <property name="jgex_jar" value="jgex.jar"/>
 
 
-    Another way to customize the build is by overriding existing main targets.
-    The targets of interest are: 
+    <!-- Step 1:  clean alreay exists directory and files -->
+    <target name="clean">
+       <delete dir="${dest}"/>
+    </target>
 
-      -init-macrodef-javac:     defines macro for javac compilation
-      -init-macrodef-junit:     defines macro for junit execution
-      -init-macrodef-debug:     defines macro for class debugging
-      -init-macrodef-java:      defines macro for class execution
-      -do-jar:                  JAR building
-      run:                      execution of project 
-      -javadoc-build:           Javadoc generation
-      test-report:              JUnit report generation
 
-    An example of overriding the target for project execution could look like this:
+    <!-- Step 2:  create output directorys -->
+    <target name="init" description="Initialize" depends="clean">
+        <mkdir dir="${dest}/maths"/>
+        <mkdir dir="${dest}/gprover"/>
+        <mkdir dir="${dest}/UI"/>
+        <mkdir dir="${dest}/wprover"/>
+        <mkdir dir="${dest}/pdf"/>
+    </target>
 
-        <target name="run" depends="JGEX-impl.jar">
-            <exec dir="bin" executable="launcher.exe">
-                <arg file="${dist.jar}"/>
-            </exec>
-        </target>
 
-    Notice that the overridden target depends on the jar target and not only on 
-    the compile target as the regular run target does. Again, for a list of available 
-    properties which you can use, check the target you are overriding in the
-    nbproject/build-impl.xml file. 
+    <!-- Step 3:  compile all .java files, here we have four packages totally -->
+    <target name="compile" depends="clean, init" description="compiling jgex">
+        <javac  srcdir="${src}/pdf" destdir="${dest}" debug="off" nowarn="on" />      
+        <javac  srcdir="${src}/UI" destdir="${dest}" debug="off" nowarn="on" />
+        <javac  srcdir="${src}/maths" destdir="${dest}" debug="off" nowarn="on" />
+        <javac  srcdir="${src}/gprover" destdir="${dest}" debug="off" nowarn="on" />
+        <javac  srcdir="${src}/wprover" destdir="${dest}" debug="off" nowarn="on" />
+    </target>
 
-    -->
+
+    <!-- Step 4:  copy all images to destination before generating jar file  -->
+    <target name="copy-images" depends="compile"
+            description="Copy all images to destination">
+        <copy todir="${dest}/wprover" overwrite="true">
+            <fileset dir="${src}/wprover">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+
+        <copy todir="${dest}" overwrite="true">
+            <fileset dir="${src}/wprover/images/about">
+                <exclude name="**/**/**/head*.*"/>
+                <exclude name="**/**/**/*.db"/>
+
+            </fileset>
+        </copy>
+
+    </target>
+
+
+    <!-- Step 5:  build jgex.jar file -->
+    <target name="build" depends="compile, copy-images" description="building jgex">
+<!--         <delete dir="${out}"/>
+        <mkdir dir="${out}"/>   -->
+        <jar jarfile="${out}/${jgex_jar}" manifest="./MANIFEST.MF" basedir="${dest}"/>
+    </target>
+
+
+    <!-- Step 6:  copy all resources(examples, rules and help) to output folder -->
+    <target name="copy-resources" depends="build"
+            description="Copy resources to output folder">
+
+        <mkdir dir="${out}/rules"/>
+        <copy todir="${out}/rules/" overwrite="true">
+            <fileset  dir="${src}/rules">
+            </fileset>
+        </copy>
+
+        <mkdir dir="${dest}/examples"/>
+        <copy todir="${out}/examples" overwrite="true">
+            <fileset  dir="${src}/examples">
+            </fileset>
+        </copy>
+
+        <mkdir dir="${dest}/language"/>
+        <copy todir="${out}/language" overwrite="true">
+            <fileset  dir="${src}/language">
+            </fileset>
+        </copy>
+
+        <mkdir dir="${out}/help"/>
+        <copy todir="${out}/help/" overwrite="true">
+            <fileset  dir="${src}/help">
+            </fileset>
+        </copy>
+
+    </target>
+
+    <!-- Step 7:  run  JGEX -->
+    <target name="run_all" depends="build" description="Run jar file">
+        <java jar="${out}/${jgex_jar}" classpath="${out}/"
+              fork="true"
+              failonerror="true"
+              maxmemory="128m"/>
+    </target>
+
+
+    <!-- Step 8:  default act, build jgex.jar and run all -->
+    <target name="all" depends="clean, init, compile, copy-resources,copy-images, build, run_all" description="build and run all"/>
+
+
+    <!-- Build Applet 1 for simple ainmation. -->
+
+      
+
+    <target name="build1" depends="compile" description="building jgex1">
+        <delete dir="${out}"/>
+        <mkdir dir="${out}"/>
+        <jar jarfile="${out}/${jgex_jar}" manifest="./MANIFEST1.MF" basedir="${dest}"/>
+    </target>
+
+
+    <target name="gexApp1" depends="clean, init, compile,copy-images, build1" description="build applet 1"/>
+
+
+    <!-- run. This just run jar file without rebuild. -->
+    <target name="run" description="Run jar file">
+        <java jar="${out}/${jgex_jar}" classpath="${out}/"
+              fork="true"
+              failonerror="true"
+              maxmemory="128m"/>
+    </target>
+
+
 </project>

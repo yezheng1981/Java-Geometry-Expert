@@ -1,0 +1,15 @@
+# Example 5.58 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  COM2  
+HYPOTHESES:
+  POINT A B P Q ;
+  CONSTANT w^2 -3;  
+  PE_TRIANGLE C B A ;
+  PE_TRIANGLE R Q P ;
+  MIDPOINT L A P ;
+  MIDPOINT M B Q ;
+  MIDPOINT N C R ;
+SHOW:  PE_TRIANGLE N M L.

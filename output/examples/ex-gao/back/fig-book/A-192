@@ -1,0 +1,8 @@
+
+EXAMPLE  A-192  
+HYPOTHESES:
+  POINT A B C ;
+  FOOT F C A B ;
+  FOOT E B A C ;
+  FOOT D A B C ;
+SHOW:  EQANGLE E D C C D F.

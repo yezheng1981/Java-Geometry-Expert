@@ -1,0 +1,19 @@
+EXAMPLE Full1
+HYPOTHESES: 
+  POINT A B C;
+  FOOT F C A B;
+  FOOT P F A C;
+  FOOT T F B C;
+  FOOT E A B C;
+  FOOT Q F A E;
+SHOW: COLLINEAR P Q T.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+# Example 6.394 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  PAS_CONIC_1  
+HYPOTHESES:
+  POINT A_0 A_1 A_2 A_3 A_4 ;
+  INTERSECTION_LL P_0  A_2 A_3  A_0 A_1 ;
+  INTERSECTION_LL P_1  A_2 A_4  A_0 A_1 ;
+  INTERSECTION_LL P_2  A_1 A_3  A_0 A_2 ;
+  INTERSECTION_LL P_3  A_1 A_4  A_0 A_2 ;
+  INTERSECTION_LL P_4  A_1 A_2  A_0 A_3 ;
+  INTERSECTION_LL P_5  A_1 A_2  A_0 A_4 ;
+  INTERSECTION_LL P  P_3 P_4  P_0 P_1 ;
+  INTERSECTION_LL Q  P_4 P_5  P_1 P_2 ;
+  INTERSECTION_LL S  P_5 P_0  P_2 P_3 ;
+SHOW:  COLLINEAR P Q S.

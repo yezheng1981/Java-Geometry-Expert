@@ -1,0 +1,13 @@
+# Example 6.12 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  H189_200  
+HYPOTHESES:
+  POINT O A B C_1 D_1 ;
+  INTERSECTION_LL C  A B  O C_1 ;
+  INTERSECTION_LL D  A B  O D_1 ;
+  INTERSECTION_LL A_1  C_1 D_1  O A ;
+  INTERSECTION_LL B_1  C_1 D_1  O B ;
+SHOW: (CROSS_RATIO A B C D)=(CROSS_RATIO A_1 B_1 C_1 D_1).

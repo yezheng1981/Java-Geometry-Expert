@@ -1,0 +1,15 @@
+# Example 6.203 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  Trilinear
+HYPOTHESES:
+  POINT A B C P ;
+  INTERSECTION_LL A_1  B C  A P ;
+  INTERSECTION_LL B_1  A C  B P ;
+  INTERSECTION_LL C_1  A B  C P ;
+  INTERSECTION_LL A_2  B C  B_1 C_1 ;
+  INTERSECTION_LL B_2  A C  A_1 C_1 ;
+  INTERSECTION_LL C_2  A B  A_1 B_1 ;
+SHOW:  COLLINEAR C_2 B_2 A_2.

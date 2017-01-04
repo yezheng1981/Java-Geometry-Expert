@@ -1,0 +1,35 @@
+\documentstyle[11pt]{article}
+\voffset=-2.5truecm
+\hoffset=-1.9truecm
+\textwidth = 16truecm
+\textheight = 22.5truecm
+\parskip=8pt
+\parindent=15pt
+\def\fa#1#2{\langle{#1},{#2}\rangle}
+\begin{document}
+The following auxilliary point is added by the program
+
+\begin{verbatim}
+INTERSECTION_LC A_{0}  K M  O K;
+\end{verbatim}
+
+
+{\vskip6pt \parskip=6pt \parindent=10pt 
+The Machine Proof
+
+
+1. circle[$KOCM$] :- (2)$[CO,CM]=[KO,KM]$.
+
+2. $[CO,CM]=[KO,KM]$ :- (3)$[CO,CM]=[KM,OA_{0}]$, (4)$[KO,KM]=[KM,OA_{0}]$.
+
+3. $[CO,CM]=[KM,OA_{0}]$ :- (5)$[CO,CA_{0}]=[CA_{0},OA_{0}]$, (6)$[KM,CA_{0}]=[CA_{0},CM]$.
+
+4. $[KO,KM]=[KM,OA_{0}]$ :- (hyp)coll$[A_{0}KM]$, (7)$[OK,KA_{0}]=[KA_{0},A_{0}O]$.
+
+5. $[CO,CA_{0}]=[CA_{0},OA_{0}]$ :- (hyp)$OC = OA_{0}$.
+
+6. $[KM,CA_{0}]=[CA_{0},CM]$ :- (6)$[KM,CA_{0}]=[CA_{0},CM]$.
+
+7. $[OK,KA_{0}]=[KA_{0},A_{0}O]$ :- (hyp)$OK = OA_{0}$.
+}
+\end{document}

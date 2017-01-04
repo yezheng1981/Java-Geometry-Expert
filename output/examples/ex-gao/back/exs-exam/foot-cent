@@ -1,0 +1,13 @@
+# Example 3.69 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  A68_9  
+HYPOTHESES:
+  POINT A B C X ;
+  CENTROID G A B C ;
+  FOOT D A G X ;
+  FOOT E B G X ;
+  FOOT F C G X ;
+SHOW:(RATIO E B D A)+(RATIO F C D A)=-1.

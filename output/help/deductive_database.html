@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<script type="text/javascript">
+var tiki_cookie_jar = new Array();
+tiki_cookie_jar = {
+	};
+</script>
+<script type="text/javascript" src="lib/tiki-js.js"></script><title>JGEX Documentation : Deductive Database Method.</title>
+
+
+<link rel="StyleSheet" href="lib/1.css" type="text/css">
+<link rel="StyleSheet" href="styles/cindydoc.css" type="text/css">
+
+
+
+
+
+    
+
+
+
+<link rel="alternate" type="application/xml" title="RSS Wiki"  >
+<style type="text/css">
+<!--
+.style2 {font-size: 18px}
+-->
+</style>
+</head>
+<body>
+
+<div id="overDiv" style="position: absolute; visibility: hidden; z-index: 1000;"></div>
+<script type="text/javascript" language="JavaScript" src="lib/overlib.js"></script>
+
+
+
+
+
+<div id="tiki-clean">
+  <div id="tiki-mid">
+    
+
+<div class="wikitopline">
+<table><tbody><tr>
+<td style="vertical-align: top;">
+</td>
+</tr></tbody></table>
+</div>
+
+<div class="wikitext">
+<h2>Deductive Database Method based on Full-Angle </h2>
+<p>  Given a geometry statement of the equality type, each hypothesis is considered as a fact (a property).
+  All hypotheses of the statement form the initial database <strong>D0</strong> of facts. Then we apply the rule
+  set R to D0 to get new facts. We expand the database D0 by adding the new facts to D0 to have
+  the enlarged database <strong>D1</strong>. We repeat the process for D1 to have an enlarged database <strong>D2</strong>. Since
+  the number of points is finite, the numbers of segments, of angles, of triangles, and of circles are
+  also finite. This process will finally terminate, i.e., there is k ≥ 0 such that <strong>Dk</strong> = <strong>Dk</strong>+1. Then
+  we call Dk the fixpoint of the given geometric configuration. This process can be expressed by the
+  following diagram:<br />
+  <img src="images2/gdd2.gif" width="685" height="55" />  </p>
+<p>JGEX uses <span class="wiki">breadth first forward chaining method</span> to find new properties of this diagram. The naive form of breadth-rst forward chaining is notorious for its inefficiency. But, in the case of geometry, by using techniques from the theory of
+  deductive database [6] and by introducing new search techniques, we manage
+  to build a very effective prover based on this simple idea</p>
+<p>  Since the rule set R and the structured database are built into the source code, the prover is very
+  efficient and the fixpoint can be generally reached within a fraction of a second even for an antique
+  Pentium machine. If the conclusion (a fact also) is in the fixpoint, then we prove the statement to
+  be true and the proof can be generated.</p>
+<p><br />
+  In JGEX, there are only 43 rules instead of 75 rules in [5], because some rules have been built
+  into the structure of the deductive database. Please see <a href="lemmas.html">Rules for Deductive Database Method</a>. <a href="pdf/Automated Generation of Readable Proofs with2.pdf"><br>
+  </a></p>
+<p>For detail of this method please<a href="pdf/jar-gdbase.pdf"> read our paper &gt;&gt; </a></p>
+<p>&nbsp;</p>
+<h3>Showing the Fixpoint. <a name="fixpoint" id="fixpoint"></a></h3>
+<p>Generally, the fixpoint has surprisingly rich amounts of information even for a very simple configuration.
+  We can classify the facts in the fixpoint into several classes according to the geometric
+  predicates: collinear, parallel, perpendicular, segment equal, cyclic, (full) angle equal, triangle<br />
+  congruence, etc.</p>
+<p><br />
+  After the fixpoint is reached, we organize the database as an two-level tree. In this way, the user
+  can explore the database to find some interesting facts.</p>
+<p>For a theorem, please use the <strong>tabbed pane with &quot;Fix&quot; highlighted</strong> to see the fixpoint of the theorem. </p>
+<p>&nbsp;</p>
+<form id="form1" name="form1" method="post" action="">
+  <label><img src="images2/fixpane.gif" width="317" height="608" /></label>
+</form>
+</div> 
+
+
+<p class="editdate">JGEX Help </p>
+</div>
+
+</div>
+
+
+
+
+</body></html>

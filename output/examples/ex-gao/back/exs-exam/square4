@@ -1,0 +1,15 @@
+# Example 6.274 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  E_2124  
+HYPOTHESES:
+  POINT A B C ;
+  TRATIO F C C A 1;
+  TRATIO D C C B -1;
+  INTERSECTION_PP E D C B B D C;
+  TRATIO K B B A -1;
+  INTERSECTION_PP Q F C D D F C;
+  INTERSECTION_PP P K B E E K B;
+SHOW:  EQDISTANCE A Q A P.

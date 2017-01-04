@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<script type="text/javascript">
+var tiki_cookie_jar = new Array();
+tiki_cookie_jar = {
+	};
+</script>
+<script type="text/javascript" src="lib/tiki-js.js"></script><title>JGEX Documentation : A Tool for Visually Dynamic Presentation of Proofs</title>
+
+
+<link rel="StyleSheet" href="lib/1.css" type="text/css">
+<link rel="StyleSheet" href="styles/cindydoc.css" type="text/css">
+
+
+
+
+
+    
+
+
+
+<link rel="alternate" type="application/xml" title="RSS Wiki"  >
+<style type="text/css">
+<!--
+.style2 {font-size: 18px}
+-->
+</style>
+</head>
+<body>
+
+<div id="overDiv" style="position: absolute; visibility: hidden; z-index: 1000;"></div>
+<script type="text/javascript" language="JavaScript" src="lib/overlib.js"></script>
+
+
+
+
+
+<div id="tiki-clean">
+  <div id="tiki-mid">
+    
+
+<div class="wikitopline">
+<table><tbody><tr>
+<td style="vertical-align: top;">
+</td>
+</tr></tbody></table>
+</div>
+
+<div class="wikitext">
+<h2>A Tool for Visually Dynamic Presentation of Proofs </h2>
+<p>JGEX tries to help the user (reader) in reading a proof of a theorem in geometry and in
+  identifying geometry elements in the proof text with their counterparts in the diagram(s). To realize 
+  this goal, beside the main features of our approach – the dynamic diagram and the interrelationship
+  between textual geometry facts and those in the related diagram(s) in a dynamic way, we propose
+  some general dynamic visual features to realize the main features. They include, but are not limited
+  to</p>
+<p><strong>1. </strong>The proof text created by the program (either manually or automatically) is readable, similar to proofs in geometry textbooks. The reader can understand the proof by reading it step by step.<br />
+  </p>
+<p><strong>2. </strong>The displays of the proof text and the geometry diagram of the theorem are separated, but are internally related. By clicking a step or a part of the proof text, the corresponding geometric elements in the diagram respond with various dynamic visual effects. Although these effects do not have the exact semantics of their corresponding proof text, they intend to reflect the meaning of the proof text.<br />
+</p>
+<p><strong>3.</strong> The visual effect varies depending on the contents of each step. The detail of the visual effects in JGEX will be covered in section 3.2.<br />
+  </p>
+<p><strong>4.</strong> The proof is hierarchically organized, e.g., under a main step there might be substeps. Under each substep, there might be further substeps, and so on. In some cases, organizing a proof hierarchically is closely related to applications of lemmas in mathematical proofs. Generally the arrangement as substeps or lemmas are subjective and it does not have a formal semantics.<br />
+  </p>
+<p><strong>5.</strong> By clicking a main step, its substeps (if any) shrink to just this main step and when it is clicked again, it will expand back to the original form. This allows the user to concentrate on top-level (main) steps, and when needed, to look at their substeps.<br />
+  </p>
+<p><strong>6. </strong>By clicking a terminal substep (i.e., a substep without further substeps), it might pop another windowpossibly with a geometry diagram in animation to further explain this substep. This process can be nested with the hypertext technique.<br />
+  </p>
+<p><strong>7.</strong> If a step uses an assertion proved in a previous step, clicking this step causes the previous step to be highlighted. In this way, it’s much easier for the user to find the related step. The reading of the proof would be much easier, especially for complicate theorems.V8. Additional dynamic visual effects other than listed above. Proofs in geometry can have more imaginative dynamic visual effects than proofs in other branches of mathematics.</p>
+<h4>1. 
+  The Manually Input Method of JGEX. </h4>
+<p>Generally, for a relatively complicated human proof, a substantial amount of work and imagination
+  is needed for converting it into a visually dynamic representation of the proof. It is much harder to
+  develop a general tool so that the creation of visual presentations can be done easily. This tool has<br />
+  been implemented in JGEX and is the main theme of this paper.</p>
+<table width="200" border="0" align="center">
+  <tr>
+    <td><p align="center"><img src="images2/pyth1.gif" width="698" height="378" border="1" /><br />
+            <br />
+            <strong>A Manually Created Proof for Pythagoras Theorem. </strong> </p></td>
+  </tr>
+</table>
+<p>The above example   is a manually created proof for pythagoras theorem. Please read <a href="Pythagoras.html">Pythagoras Theorem</a> for the detail constructing of this proof. </p>
+<p>&nbsp;</p>
+<p><strong>See Also:</strong></p>
+<ul><li> <a title="no description" href='Pythagoras.html' class='wiki'>Pythagoras' Theorem </a></li>
+  <li><a href="effects.html">Visual Effects for all Assertions </a></li>
+</ul>
+<p>&nbsp; </p>
+<h3><br>
+<br>
+    <tt>    </tt></h3>
+</div> 
+
+
+<p class="editdate">JGEX Help </p>
+</div>
+
+</div>
+
+
+
+
+</body></html>

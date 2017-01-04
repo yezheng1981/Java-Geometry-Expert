@@ -1,0 +1,15 @@
+EXAMPLE GAUSS_POINT
+HYPOTHESES: POINT A1 A0;
+            ON_TLINE A2 A1 A0 A1;
+            POINT A3 A4;
+            INTERSECTION_LL X A3 A4 A1 A0;
+            INTERSECTION_LL Y A2 A3 A0 A4;
+            INTERSECTION_LL Z A4 A3 A1 A2;
+            MIDPOINT M1 A1 A3;
+            MIDPOINT M2 X A2;
+            MIDPOINT M3 A0 A2;
+            MIDPOINT M4 Y A1;
+            MIDPOINT M5 A1 A4;
+            MIDPOINT M6 A0 Z;
+            INTERSECTION_LL I M3 M4 M1 M2;
+      SHOW: COLLINEAR I M5 M6.

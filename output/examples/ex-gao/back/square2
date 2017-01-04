@@ -1,0 +1,12 @@
+# Example 3.41 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  CH62_2  
+HYPOTHESES:
+  POINT A B C ;
+  TRATIO F A A B 1;
+  TRATIO H A A C -1;
+  MIDPOINT M B C ;
+SHOW:  PERPENDICULAR F H A M.

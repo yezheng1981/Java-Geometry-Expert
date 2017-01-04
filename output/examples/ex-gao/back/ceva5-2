@@ -1,0 +1,17 @@
+# Example 2.66 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  PRATT_5  
+HYPOTHESES:
+  POINT A B C D E ;
+  INTERSECTION_PP A_1  B C A  A E B ;
+  INTERSECTION_PP B_1  C B D  B A C ;
+  INTERSECTION_PP C_1  D C E  C B D ;
+  INTERSECTION_PP D_1  E A D  D C E ;
+  INTERSECTION_PP E_1  A B E  E A D ;
+SHOW: 
+(RATIO A_1 B B B_1)(RATIO B_1 C C C_1)
+(RATIO C_1 D D D_1)(RATIO D_1 E E E_1) 
+(RATIO E_1 A A A_1) =  1.

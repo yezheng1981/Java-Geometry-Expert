@@ -1,0 +1,13 @@
+# Example 2.35 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE  MENELAUS
+HYPOTHESES:
+  POINT A B C ;
+  ON_LINE D B C;
+  ON_LINE E A C;
+  INTERSECTION_LL F  E D  A B ;
+SHOW: (RATIO A F F B )(RATIO B D D C )
+      (RATIO C E E A ) =  -1 .

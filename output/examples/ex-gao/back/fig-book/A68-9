@@ -1,0 +1,8 @@
+EXAMPLE  A68-9  
+HYPOTHESES:
+  POINT A B C X ;
+  CENTROID G A B C ;
+  FOOT D A G X ;
+  FOOT E B G X ;
+  FOOT F C G X ;
+SHOW: NO.

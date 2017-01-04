@@ -1,0 +1,10 @@
+# Example 6.241 in
+# << Machine Proof In Geometry>>
+# S.C. Chou, X.S. Gao, J.Z. Zhang
+# World Scientific
+#
+EXAMPLE PARALLELG
+  HYPOTHESES: POINT A B C;
+  INTERSECTION_PP D C A B A B C;
+  INTERSECTION_LL O A C B D;
+SHOW: MIDPOINT O A C.

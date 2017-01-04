@@ -1,0 +1,17 @@
+#unsolved
+EXAMPLE m33_1
+HYPOTHESES: 
+  POINT  A B;
+  PSQUARE C A B;
+  MIDPOINT D A C;
+  FOOT E A B D;
+  INTERSECTION_LL F B C A E;
+SHOW: EQANGLE A D B F D C.
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+EXAMPLE Full1
+HYPOTHESES: 
+  CIRCLE B C R S;
+  INTERSECTION_LL A B R C S;
+  FOOT M A R S;
+  FOOT N A B C;
+SHOW: EQANGLE B A M N A C.
+
+
+
+
+
+
+
+
+
+
