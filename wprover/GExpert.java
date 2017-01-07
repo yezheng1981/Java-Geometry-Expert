@@ -2893,10 +2893,10 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
 
             Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-            frame.setSize(1000, 750);
+            frame.setSize(1200, 900);
 
-            frame.setLocation((int) (screenSize.getWidth() - 1000) / 2,
-                    (int) (screenSize.getHeight() - 750) / 2); //center
+            frame.setLocation((int) (screenSize.getWidth() - 1200) / 2,
+                    (int) (screenSize.getHeight() - 900) / 2); //center
             frame.setVisible(true);
         }
     }
