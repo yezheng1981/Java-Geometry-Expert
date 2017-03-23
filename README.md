@@ -1,30 +1,3 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-<script type="text/javascript">
-var tiki_cookie_jar = new Array();
-tiki_cookie_jar = {};
-</script>
-<script type="text/javascript" src="lib/tiki-js.js"></script>
-
-
-<link rel="StyleSheet" href="lib/1.css" type="text/css">
-<link rel="StyleSheet" href="styles/cindydoc.css" type="text/css">
-
-<link rel="alternate" type="application/xml" title="RSS Wiki"  >
-<style type="text/css">
-</style>
-</head><body class="tiki_wiki">
-
-<div id="overDiv" style="position: absolute; visibility: hidden; z-index: 1000;"></div>
-<script type="text/javascript" language="JavaScript" src="what_is_jgex_files/overlib.js"></script>
-
-<div id="tiki-main">
-    <div id="tiki-mid">
-  <table id="tiki-midtbl" border="0" cellpadding="0" cellspacing="0">
-      <tbody><tr>
-            <td id="centercolumn" valign="top"><div id="tiki-center">
-
-
 <h1><a class="pagetitle" title="refresh" accesskey="2" href="http:http://www.cs.wichita.edu/~ye/">What Is JGEX?</a></h1>
 
 <div class="wikitopline"></div>
