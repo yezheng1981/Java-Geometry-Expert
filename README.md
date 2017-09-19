@@ -67,6 +67,6 @@
   </tr>
 </table>
 
-<p><strong>How to use</strong></p>
+<p><strong>How to install & develop</strong></p>
 It's suggested to use Netbeans to open Java Geometry Expert. The main class is in wprover.GExpert. The build.xml contains all the scripts to build the jar file. If you choose to run "all", this will do the compile, copy resources, generate jar file. You can also choose to generate applet for web use (unfortunately it's not supported anymore by the browser).
 </div>
