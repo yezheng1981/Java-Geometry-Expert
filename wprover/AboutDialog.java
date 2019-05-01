@@ -50,18 +50,18 @@ public class AboutDialog extends JPopupMenu implements MouseListener {
         lv.setHorizontalTextPosition(JLabel.LEFT);
         panel2.add(lv);
 
-        lv = new JLabel(GExpert.getLanguage(1017, "Built on") + "" + Version.getData());
+        lv = new JLabel(GExpert.getLanguage(1017, "Last modified on") + " " + Version.getData());
         lv.setHorizontalTextPosition(JLabel.RIGHT);
         panel2.add(lv);
 
-        lv = new JLabel(GExpert.getLanguage(1018, "JDK Version") + " 1.5.0");
+        lv = new JLabel(GExpert.getLanguage(1018, "Java version") + " " + System.getProperty("java.version"));
         lv.setHorizontalTextPosition(JLabel.LEFT);
         panel2.add(lv);
         pane = new wuTextPane();
         pane.addMouseListener(this);
 //        String s = "\n" +
         addString("\n", "regular");
-        addString(GExpert.getLanguage(1019, "Java Geometry Expert is free under GNU General Public License(GPL).") + "\n", "regular");
+        addString(GExpert.getLanguage(1019, "Java Geometry Expert is free under GNU General Public License (GPL).") + "\n", "regular");
         addString(GExpert.getLanguage(1020, "The user may download and distribute it freely.\n") + "\n", "regular");
 //        addString("The software Geometry Expert (GEX) was originally developed around 1994.\n", "regualr");
 //        addString("The Java Version of Geometry Expert ", "regular");
