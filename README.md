@@ -44,7 +44,8 @@
   
   <p>
   The JGEX is written in Java, so you need a JDK in order to compile the code. The prefered IDE for development is NetBeans:
-  <a>https://netbeans.org/</a>
+  <a>https://netbeans.org/</a>. Alternatively, you can use <a href="https://ant.apache.org/>Apache ANT</a> on command line
+  to compile and run the application: you need to type <b>ant</b> in the root folder of JGEX.
   </p>
   
   <h3>5. the interface of JGEX <a name="vpp" id="vpp"></a></h3>
