@@ -375,7 +375,7 @@ public class wu extends poly {
     }
 
     xterm gq2co(xterm p) {
-        var v;
+        variable v;
         xterm p1 = new xterm();
         v = p.var;
         while (v != null && v.nm > 0 && v.nm < 100) {

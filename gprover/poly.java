@@ -14,10 +14,10 @@ public class poly extends MathBase {
 
     boolean print_geo = false;
     int pro_type = 0;
-    var all_var, last_var;
+    variable all_var, last_var;
 
     void init_poly() {
-        all_var = new var();
+        all_var = new variable();
         last_var = all_var;
         all_var.nx = null;
     }
@@ -50,7 +50,7 @@ public class poly extends MathBase {
         return (p1);
     }
 
-    xterm get_xt(var v, dterm dp1) {
+    xterm get_xt(variable v, dterm dp1) {
         xterm xp1;
         xp1 = get_x();
         xp1.var = v;
@@ -62,7 +62,7 @@ public class poly extends MathBase {
         return (get_m(mk_svar(ch)));
     }
 
-    xterm get_m(var vn) {
+    xterm get_m(variable vn) {
         dterm dp1;
         xterm xp1;
         if (vn == null)
@@ -74,7 +74,7 @@ public class poly extends MathBase {
         }
     }
 
-    xterm get_v(var v, int d, xterm p) {
+    xterm get_v(variable v, int d, xterm p) {
         dterm dp1;
         xterm xp1;
         if (v == null)
@@ -199,7 +199,7 @@ xterm *p;
         return (dp1.deg);
     }
 
-    int pdeg(xterm p, var v) {
+    int pdeg(xterm p, variable v) {
         int tem, md;
         dterm dp1;
         if (p.var == null) return (0);
@@ -215,7 +215,7 @@ xterm *p;
         return (md);
     }
 
-    int mdeg(xterm p, var v) {
+    int mdeg(xterm p, variable v) {
         int tem, md;
         dterm ps1;
         if (p.var == null) return (0);
@@ -287,11 +287,11 @@ xterm *p;
     }
 
 
-    xterm init_v(xterm p, var v) {
+    xterm init_v(xterm p, variable v) {
         return (pinit(p, v, pdeg(p, v)));
     }
 
-    xterm pinit(xterm p, var v, int d) {
+    xterm pinit(xterm p, variable v, int d) {
         dterm dt, dp0, dp1, dp2;
         if (p.var == null) {
             put_x(p);
@@ -926,7 +926,7 @@ xterm *p;
         return (null);
     }
 
-    xterm prem_var(xterm p1, xterm p2, var v) {
+    xterm prem_var(xterm p1, xterm p2, variable v) {
         xterm ip0, ip1, ip2, u1, u2, v2;
         int deg1, deg2;
         init_deg = 0;
@@ -1138,7 +1138,7 @@ xterm *p;
 
 
     void print_ind(xterm p) {
-        var v;
+        variable v;
         if (p == null)
             gprint("()");
         else if (pzerop(p)) {
@@ -1197,9 +1197,9 @@ xterm *p;
 //-----------------------------------------var.cpp
 
 
-    static var svar = new var();
+    static variable svar = new variable();
 
-    boolean eq_var(var v1, var v2) {
+    boolean eq_var(variable v1, variable v2) {
         int i;
         if (v1.nm == 0 || v1.nm == 99) {
             if (!(v2.nm == 0 || v2.nm == 99)) return false;
@@ -1212,10 +1212,10 @@ xterm *p;
             return (false);
     }
 
-    var cp_var(var v) {
-        var v1;
+    variable cp_var(variable v) {
+        variable v1;
         int i;
-        v1 = new var();
+        v1 = new variable();
         v1.nm = v.nm;
         if (v1.nm == 0 || v1.nm == 99)
             for (i = 0; i < 9; i++) v1.p[i] = v.p[i];
@@ -1225,8 +1225,8 @@ xterm *p;
         return (v1);
     }
 
-    var ad_var(var v) {
-        var v1;
+    variable ad_var(variable v) {
+        variable v1;
         char i;
         v1 = all_var.nx;
         while ((v1 != null) && !(eq_var(v, v1))) {
@@ -1242,7 +1242,7 @@ xterm *p;
         return (v1);
     }
 
-    var mk_var(int nm, int p1, int p2, int p3, int p4) {
+    variable mk_var(int nm, int p1, int p2, int p3, int p4) {
         svar.nm = nm;
         svar.pt[0] = p1;
         svar.pt[1] = p2;
@@ -1251,7 +1251,7 @@ xterm *p;
         return (ad_var(svar));
     }
 
-    var mk_svar(char[] nm) {
+    variable mk_svar(char[] nm) {
         char i;
         for (i = 0; i < 9; i++) svar.p[i] = 0;
         svar.nm = 0;
@@ -1259,7 +1259,7 @@ xterm *p;
         return (ad_var(svar));
     }
 
-    var mk_cvar(char[] nm) {
+    variable mk_cvar(char[] nm) {
         char i;
         for (i = 0; i < 9; i++) svar.p[i] = 0;
         strcpy(svar.p, nm);
@@ -1267,7 +1267,7 @@ xterm *p;
         return (ad_var(svar));
     }
 
-    var mk_wvar(int nm) {
+    variable mk_wvar(int nm) {
         for (int i = 0; i < 4; i++) svar.pt[i] = 0;
         if (nm > 0)
             svar.nm = 100;
@@ -1290,7 +1290,7 @@ xterm *p;
         return (0);
     }
 
-    int lpt(var v) {
+    int lpt(variable v) {
         int k = v.pt[0];
         if (v.nm == 1) {
             if (v.pt[2] > v.pt[0]) k = v.pt[2];
@@ -1300,7 +1300,7 @@ xterm *p;
         return (k);
     }
 
-    boolean vless(var v1, var v2) {
+    boolean vless(variable v1, variable v2) {
         int m, l1, l2;
 
         if ((v1.nm == 0) && (v2.nm == 0)) {
@@ -1332,9 +1332,9 @@ xterm *p;
             m = 0;
 
         else if (v1.nm == 1 && v2.nm == 1) {
-            var vl_k1, vl_k2;
-            vl_k1 = new var();
-            vl_k2 = new var();
+            variable vl_k1, vl_k2;
+            vl_k1 = new variable();
+            vl_k2 = new variable();
 
             if (v1.pt[0] > v1.pt[2]) {
                 vl_k1.pt[0] = v1.pt[0];
@@ -1433,14 +1433,14 @@ xterm *p;
     }
 
 
-    void print_vars(var v, char mk) {
+    void print_vars(variable v, char mk) {
         while (v != null) {
             print_var(v, mk);
             v = v.nx;
         }
     }
 
-    void print_var(var v, int mk) {
+    void print_var(variable v, int mk) {
         switch (v.nm) {
             case 0:
             case 99:
