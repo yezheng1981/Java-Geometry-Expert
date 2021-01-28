@@ -14,7 +14,7 @@ public class el_term {
     final public static int EL_PARA = 2;
     final public static int EL_PERP = 3;
     public int etype = 0;
-    public var v;
+    public variable v;
     public xterm p1, p2, p;
     public int np = 1;
     public cond co;

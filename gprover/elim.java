@@ -13,7 +13,7 @@ public class elim extends gr
       el_term all_elim;
       dterm ds_set, last_ds;
 
-      el_term mk_elim(var v, xterm p1, xterm p2)
+      el_term mk_elim(variable v, xterm p1, xterm p2)
       {
             el_term v1 = new el_term();
             v1.v = v;
@@ -24,7 +24,7 @@ public class elim extends gr
             return (v1);
       }
 
-      el_term lratio_md1(var var, int y, int u, int v, xterm p1, xterm p2, xterm q1, xterm q2)
+      el_term lratio_md1(variable var, int y, int u, int v, xterm p1, xterm p2, xterm q1, xterm q2)
       {
             if (print_geo)
             {
@@ -49,7 +49,7 @@ public class elim extends gr
       }
 
 //var = (py a y y c)
-      el_term lratio_md2(var var, int y, int u, int v, xterm p1, xterm p2, xterm q1, xterm q2)
+      el_term lratio_md2(variable var, int y, int u, int v, xterm p1, xterm p2, xterm q1, xterm q2)
       {
             return (mk_elim(var,
                     pplus3(ptimes(geval(var, y, v), ptimes(cp_poly(p1), cp_poly(q2))),
@@ -59,7 +59,7 @@ public class elim extends gr
       }
 
 
-      el_term pratio_md1(var var, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term pratio_md1(variable var, int y, int w, int u, int v, xterm p1, xterm p2)
       {
 
             return (mk_elim(var,
@@ -68,7 +68,7 @@ public class elim extends gr
                     cp_poly(p2)));
       }
 
-      xterm geval1(var var, int y, int v, int u)
+      xterm geval1(variable var, int y, int v, int u)
       {
             switch (var.nm)
             {
@@ -89,7 +89,7 @@ public class elim extends gr
             return (null);
       }
 
-      el_term pratio_md2(var var, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term pratio_md2(variable var, int y, int w, int u, int v, xterm p1, xterm p2)
       {
             return (mk_elim(var,
                     pplus4(ptimes3(geval(var, y, w), cp_poly(p2), cp_poly(p2)),
@@ -101,7 +101,7 @@ public class elim extends gr
       }
 
 
-      el_term pe_v_pratio(var var, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term pe_v_pratio(variable var, int y, int w, int u, int v, xterm p1, xterm p2)
       {
             if (print_geo)
             {
@@ -129,7 +129,7 @@ public class elim extends gr
             return (null);
       }
 
-      el_term pe_r_pratio(var var, int n2, int n1, int d2, int d1, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term pe_r_pratio(variable var, int n2, int n1, int d2, int d1, int y, int w, int u, int v, xterm p1, xterm p2)
       {
             if (print_geo) gprint("pe_r_pratio: " + n1 + n2 + d1 + d2 + y + w + u + v);
             if ((n2 == y) && (d2 == y))
@@ -162,7 +162,7 @@ public class elim extends gr
             return (null);
       }
 
-      el_term pe_a_pratio(var var, int n1, int n2, int n3, int n4, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term pe_a_pratio(variable var, int n1, int n2, int n3, int n4, int y, int w, int u, int v, xterm p1, xterm p2)
       {
             el_term e1;
 
@@ -191,12 +191,12 @@ public class elim extends gr
             return (e1);
       }
 
-      el_term pe_g_pratio(var var, int n1, int n2, int n3, int n4, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term pe_g_pratio(variable var, int n1, int n2, int n3, int n4, int y, int w, int u, int v, xterm p1, xterm p2)
       {
             el_term e1;
             int n;
             xterm q1, q2;
-            var v1;
+            variable v1;
 
             q1 = get_n(1L);
             q2 = get_n(1L);
@@ -269,7 +269,7 @@ public class elim extends gr
             return (e1);
       }
 
-      el_term pe_v_ipp(var var, int y, int w, int u, int v, int r, int p, int q)
+      el_term pe_v_ipp(variable var, int y, int w, int u, int v, int r, int p, int q)
       {
             int n;
             if (w == v)
@@ -329,7 +329,7 @@ public class elim extends gr
             return (null);
       }
 
-      el_term pe_r_ipp(var var, int n1, int n2, int d1, int d2, int y, int w, int u, int v, int r, int p, int q)
+      el_term pe_r_ipp(variable var, int n1, int n2, int d1, int d2, int y, int w, int u, int v, int r, int p, int q)
       {
             int n;
             if (print_geo)
@@ -357,7 +357,7 @@ public class elim extends gr
             return (null);
       }
 
-      el_term pe_a_ipp(var var, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
+      el_term pe_a_ipp(variable var, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
       {
             int n;
 
@@ -415,10 +415,10 @@ public class elim extends gr
             return (pratio_md1(var, y, w, u, v, trim_a(w, p, r, q), trim_a(u, p, v, q)));
       }
 
-      el_term pe_g_ipp(var var, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
+      el_term pe_g_ipp(variable var, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
       {
             int n;
-            var v1;
+            variable v1;
             el_term e1;
             xterm p1, p2;
 
@@ -550,7 +550,7 @@ public class elim extends gr
       }
 
 
-      el_term pe_r_ill(var var, int n1, int n2, int d1, int d2, int y, int u, int v, int i, int j)
+      el_term pe_r_ill(variable var, int n1, int n2, int d1, int d2, int y, int u, int v, int i, int j)
       {
             int n0;
 
@@ -579,7 +579,7 @@ public class elim extends gr
             return (null);
       }
 
-      el_term pe_a_ill(var var, int n1, int n2, int n3, int n4, int y, int u, int v, int i, int j)
+      el_term pe_a_ill(variable var, int n1, int n2, int n3, int n4, int y, int u, int v, int i, int j)
       {
             int n;
             if (v < u)
@@ -647,12 +647,12 @@ public class elim extends gr
                     trim_a(v, j, i, i), trim_a(u, i, v, j)));
       }
 
-      el_term pe_g_ill(var var, int n1, int n2, int n3, int n4, int y, int u, int v, int i, int j)
+      el_term pe_g_ill(variable var, int n1, int n2, int n3, int n4, int y, int u, int v, int i, int j)
       {
             int n;
             el_term e1;
             xterm p1, p2;
-            var v1;
+            variable v1;
 
             if (v < u)
             {
@@ -800,7 +800,7 @@ public class elim extends gr
       }
 
 
-      el_term pe_vec_ill(var var, int n1, int n2, int y, int u, int v, int i, int j)
+      el_term pe_vec_ill(variable var, int n1, int n2, int y, int u, int v, int i, int j)
       {
             int n;
 
@@ -831,7 +831,7 @@ public class elim extends gr
                     trim_a(v, j, i, i), trim_a(u, i, v, j)));
       }
 
-      el_term pe_r_ilp(var var, int n1, int n2, int d1, int d2, int y, int u, int v, int r, int p, int q)
+      el_term pe_r_ilp(variable var, int n1, int n2, int d1, int d2, int y, int u, int v, int r, int p, int q)
       {
 
             if ((n2 == y) && (d2 == y))
@@ -861,7 +861,7 @@ public class elim extends gr
             return (null);
       }
 
-      el_term pe_a_ilp(var var, int n1, int n2, int n3, int n4, int y, int u, int v, int r, int p, int q)
+      el_term pe_a_ilp(variable var, int n1, int n2, int n3, int n4, int y, int u, int v, int r, int p, int q)
       {
             int n;
             if (v < u)
@@ -907,10 +907,10 @@ public class elim extends gr
                     trim_a(v, q, r, p), trim_a(u, p, v, q)));
       }
 
-      el_term pe_g_ilp(var var, int n1, int n2, int n3, int n4, int y, int u, int v, int r, int p, int q)
+      el_term pe_g_ilp(variable var, int n1, int n2, int n3, int n4, int y, int u, int v, int r, int p, int q)
       {
             int n;
-            var v1;
+            variable v1;
             el_term e1;
             xterm p1, p2;
             if (v < u)
@@ -1017,14 +1017,14 @@ public class elim extends gr
 /* trim functions */
 /*
 xterm *mk_trim (v)
-var *v;
-{ var *v1;
+variable *v;
+{ variable *v1;
   int i;
 
   v1 = all_var.nx;
   while ((v1 != null) && !(eq_var(v,v1))) { v1 = v1.nx;}
   if (v1 == null)
-	 { v1=(var *)calloc(1,sizeof(var));
+	 { v1=(variable *)calloc(1,sizeof(var));
 		v1.nm = v.nm;
 		for (i=0;i<9;i++) v1.pt[i] = v.pt[i];
 		v1.nx = null;
@@ -1034,7 +1034,7 @@ var *v;
 }
 */
       ///////////////////////////////////////////////////////////////from area.cpp trim function.
-      xterm geval(var var, int y, int p)
+      xterm geval(variable var, int y, int p)
       {
             int k;
             int i, pt[];
@@ -1292,7 +1292,7 @@ var *v;
       }
       /////////////////////////////////////////////////////////////////////////////////////////////from elimt;
 
-      el_term tratio_a_md1(var v_a, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term tratio_a_md1(variable v_a, int y, int w, int u, int v, xterm p1, xterm p2)
       {
             return (mk_elim(v_a,
                     pplus(ptimes3(get_n(4L), cp_poly(p2), geval(v_a, y, w)),
@@ -1300,7 +1300,7 @@ var *v;
                     ptimes(get_n(4L), cp_poly(p2))));
       }
 
-      el_term tratio_g_md1(var v_a, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term tratio_g_md1(variable v_a, int y, int w, int u, int v, xterm p1, xterm p2)
       {
             return (mk_elim(v_a,
                     pplus(ptimes(cp_poly(p2), geval(v_a, y, w)),
@@ -1308,7 +1308,7 @@ var *v;
                     cp_poly(p2)));
       }
 
-      el_term tratio_md2(var v_a, int n3, int n4, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term tratio_md2(variable v_a, int n3, int n4, int y, int w, int u, int v, xterm p1, xterm p2)
       {
             return (mk_elim(v_a,
                     pplus3(ptimes3(cp_poly(p2), cp_poly(p2), geval(v_a, y, w)),
@@ -1318,7 +1318,7 @@ var *v;
                     ptimes(cp_poly(p2), cp_poly(p2))));
       }
 
-      el_term pe_v_tratio(var v_a, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term pe_v_tratio(variable v_a, int y, int w, int u, int v, xterm p1, xterm p2)
       {
             if (print_geo)
             {  //printf("pe_v_tratio. %s %s %s %s\n",ANAME(y),ANAME(w),ANAME(u),ANAME(v));
@@ -1341,7 +1341,7 @@ var *v;
             return (null);
       }
 
-      el_term pe_r_tratio(var v_a, int n1, int n2, int n3, int n4, int y, int r, int p, int q, xterm p1, xterm p2)
+      el_term pe_r_tratio(variable v_a, int n1, int n2, int n3, int n4, int y, int r, int p, int q, xterm p1, xterm p2)
       {
             if (n2 == y && n4 == y)
             {
@@ -1370,13 +1370,13 @@ var *v;
             return (null);
       }
 
-      el_term pe_a_tratio(var v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term pe_a_tratio(variable v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, xterm p1, xterm p2)
       {
             if (xperp(n2, n4, u, v)) return (mk_elim(v_a, trim_a(w, n2, n3, n4), get_n(1L)));
             return (tratio_a_md1(v_a, y, w, u, v, p1, p2));
       }
 
-      el_term pe_g_tratio(var v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, xterm p1, xterm p2)
+      el_term pe_g_tratio(variable v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, xterm p1, xterm p2)
       {
             el_term e = null;
             if (n1 == y && n2 != y)
@@ -1397,7 +1397,7 @@ var *v;
       }
 
 
-      el_term pe_a_itt1(var v_a, int n1, int n2, int n3, int y, int o, int u, int v)
+      el_term pe_a_itt1(variable v_a, int n1, int n2, int n3, int y, int o, int u, int v)
       {
             int n;
             if ((n1 == u && n2 == v) || (n1 == v && n2 == u))
@@ -1415,7 +1415,7 @@ var *v;
             return (null);
       }
 
-      el_term pe_a_itt(var v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
+      el_term pe_a_itt(variable v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
       {
             int n;
             el_term e1;
@@ -1450,7 +1450,7 @@ var *v;
       }
 
 
-      el_term pe_g_itt1(var v_a, int n1, int n2, int n3, int y, int o, int u, int v)
+      el_term pe_g_itt1(variable v_a, int n1, int n2, int n3, int y, int o, int u, int v)
       {
             int n;
             if ((n1 == u && n3 == v) || (n1 == v && n3 == u))
@@ -1477,7 +1477,7 @@ var *v;
             return (null);
       }
 
-      el_term pe_g_itt(var v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
+      el_term pe_g_itt(variable v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
       {
             el_term e1;
             int n;
@@ -1522,12 +1522,12 @@ var *v;
 
 /*
 el_term  pe_r_itt (v_a,n1,n2,n3,n4,y,w,u,v,r,p,q)
-var  v_a;
+variable  v_a;
 int n1,n2,n3,n4,y,w,u,v,r,p,q;
 { return(null);}
 
 */
-      el_term pe_v_ipt(var v_a, int y, int w, int u, int v, int r, int p, int q)
+      el_term pe_v_ipt(variable v_a, int y, int w, int u, int v, int r, int p, int q)
       {
             int n;
             if (w == v)
@@ -1569,7 +1569,7 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (null);
       }
 
-      el_term pe_r_ipt(var v_a, int n1, int n2, int d1, int d2, int y, int w, int u, int v, int r, int p, int q)
+      el_term pe_r_ipt(variable v_a, int n1, int n2, int d1, int d2, int y, int w, int u, int v, int r, int p, int q)
       {
             if (n2 == y && d2 == y)
             {
@@ -1597,7 +1597,7 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (null);
       }
 
-      el_term pe_a_ipt(var v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
+      el_term pe_a_ipt(variable v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
       {
             if (xpara(n2, n4, u, v))
             {
@@ -1623,12 +1623,12 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (pratio_md1(v_a, y, w, u, v, trim_g(w, p, r, q), trim_g(u, p, v, q)));
       }
 
-      el_term pe_g_ipt(var v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
+      el_term pe_g_ipt(variable v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int r, int p, int q)
       {
             int n;
             el_term e1;
             xterm p1, p2;
-            var v1;
+            variable v1;
 
 //  int sn = 1;
 //  if (n2==y && n3==y) { n3 = n1; n1 = n2; sn = -1; }
@@ -1745,7 +1745,7 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (e1);
       }
 
-      el_term pe_v_ipc(var v_a, int y, int w, int u, int v, int o, int p)
+      el_term pe_v_ipc(variable v_a, int y, int w, int u, int v, int o, int p)
       {
             if (print_geo) gprint("\nCP " + " " + y + " " + w + " " + u + " " + v + " " + o + " " + p);
             switch (v_a.nm)
@@ -1768,7 +1768,7 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (null);
       }
 
-      el_term pe_r_ipc(var v_a, int n1, int n2, int d1, int d2, int y, int w, int u, int v, int o, int p)
+      el_term pe_r_ipc(variable v_a, int n1, int n2, int d1, int d2, int y, int w, int u, int v, int o, int p)
       {
             if (print_geo) gprint("\nr_icp: " + " " + y + " " + w + " " + u + " " + v + " " + o + " " + p);
             if (w != p) gerror("pe_r_ipc");
@@ -1794,7 +1794,7 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (null);
       }
 
-      el_term pe_a_ipc(var v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int o, int p)
+      el_term pe_a_ipc(variable v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int o, int p)
       {
             if (w != p) gerror("pe_r_ipc");
 
@@ -1829,10 +1829,10 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
       }
 
 
-      el_term pe_g_ipc(var v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int o, int p)
+      el_term pe_g_ipc(variable v_a, int n1, int n2, int n3, int n4, int y, int w, int u, int v, int o, int p)
       {
             int n;
-            var v1;
+            variable v1;
             el_term e1;
             xterm p1, p2;
             el_term e;
@@ -1937,7 +1937,7 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
       }
 
 
-      el_term pe_r_foot(var v_a, int n1, int n2, int d1, int d2, int y, int p, int u, int v)
+      el_term pe_r_foot(variable v_a, int n1, int n2, int d1, int d2, int y, int p, int u, int v)
       {
             int n;
             el_term e1 = null;
@@ -1977,7 +1977,7 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (e1);
       }
 
-      el_term pe_a_foot(var v_a, int n1, int n2, int n3, int n4, int y, int p, int u, int v)
+      el_term pe_a_foot(variable v_a, int n1, int n2, int n3, int n4, int y, int p, int u, int v)
       {
             int n;
             if (v < u)
@@ -2007,10 +2007,10 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
                     trim_g(p, v, v, u), trim_g(u, v, v, u)));
       }
 
-      el_term pe_g_foot(var v_a, int n1, int n2, int n3, int n4, int y, int p, int u, int v)
+      el_term pe_g_foot(variable v_a, int n1, int n2, int n3, int n4, int y, int p, int u, int v)
       {
             int n;
-            var v1;
+            variable v1;
             el_term e1;
             xterm p1, p2;
 
@@ -2139,8 +2139,8 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (p1);
       }
 
-      el_term pe_a_fpt(var v_a, int n1, int n2, int n3, int n4)
-//var  v_a;
+      el_term pe_a_fpt(variable v_a, int n1, int n2, int n3, int n4)
+//variable  v_a;
 //int n1,n2,n3,n4;
       {
             xterm p0, p1, p2;
@@ -2167,8 +2167,8 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (mk_elim(v_a, p2, get_n(1L)));
       }
 
-      el_term pe_v_fpt(var v, int pt)
-//var  v;
+      el_term pe_v_fpt(variable v, int pt)
+//variable  v;
 //int pt;
       {
             el_term e1 = null;
@@ -2249,7 +2249,7 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
                     ptimes3(get_n(2L), trim_l(p1, p3), trim_l(p1, p3))));
       }
 
-      el_term pe_circle(var v_a, int p1, int p2, int p3, int p4)
+      el_term pe_circle(variable v_a, int p1, int p2, int p3, int p4)
       {
             int n;
             if (v_a.nm == 2)
@@ -2307,8 +2307,8 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (get_m(mk_var(17, n, 0, 0, 0)));
       }
 
-      el_term pe_sc(var v_a, int p1, int p2)
-//var  v_a;
+      el_term pe_sc(variable v_a, int p1, int p2)
+//variable  v_a;
 //int p1,p2;
       {
             if (v_a.nm == 6)
@@ -2324,8 +2324,8 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
       }
 
 
-      el_term pe_v_bline(var v_a, int y, int u, int v)
-//var  v_a;
+      el_term pe_v_bline(variable v_a, int y, int u, int v)
+//variable  v_a;
 //int y,u,v;
       {
             int n;
@@ -2341,7 +2341,7 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (null);
       }
 
-      el_term pe_g_3bline(var v_a, int n1, int n2, int n3, int n4, int y, int u, int v)
+      el_term pe_g_3bline(variable v_a, int n1, int n2, int n3, int n4, int y, int u, int v)
       {
             if (n1 == v)
             {
@@ -2368,8 +2368,8 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (null);
       }
 
-      el_term pe_v_square(var v_a, int p1, int p2, int p3, int sn)
-//var  v_a;
+      el_term pe_v_square(variable v_a, int p1, int p2, int p3, int sn)
+//variable  v_a;
 //int p1,p2,p3,sn;
       {
             if (v_a.nm != 4) return (pe_v_tratio(v_a, p1, p2, p2, p3, get_n(1L * sn), get_n(1L)));
@@ -2388,8 +2388,8 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             }
       }
 
-      el_term pe_v_ptri(var v_a, int p1, int p2, int p3)
-//var  v_a;
+      el_term pe_v_ptri(variable v_a, int p1, int p2, int p3)
+//variable  v_a;
 //int p1,p2,p3;
       {
             if (v_a.pt[1] == 0)
@@ -2408,8 +2408,8 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             }
       }
 
-      el_term pe_v_ntri(var v_a, int p1, int p2, int p3)
-//var  v_a;
+      el_term pe_v_ntri(variable v_a, int p1, int p2, int p3)
+//variable  v_a;
 //int p1,p2,p3;
       {
             if (v_a.nm != 4)
@@ -2432,8 +2432,8 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             }
       }
 
-      el_term pe_v_sim(var v_a, int p1, int p2, int p3, int q1, int q2, int q3)
-//var  v_a;
+      el_term pe_v_sim(variable v_a, int p1, int p2, int p3, int q1, int q2, int q3)
+//variable  v_a;
 //int p1,p2,p3,q1,q2,q3;
       {
             if (v_a.nm != 4) gerror("pe_v_sim");
@@ -2464,7 +2464,7 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
             return (radius_e);
       }
 
-      el_term pe_v_cent(var v_a, int y, int a, int b, int c)
+      el_term pe_v_cent(variable v_a, int y, int a, int b, int c)
       {
             int n;
             xterm p;
@@ -2517,7 +2517,7 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
       }
 
 
-      el_term orth_md(var v_a, int y, int a, int b, int c)
+      el_term orth_md(variable v_a, int y, int a, int b, int c)
       {
             return (mk_elim(v_a,
                     pplus3(ptimes3(geval(v_a, y, a), trim_g(a, b, b, c), trim_g(a, c, c, b)),
@@ -2528,14 +2528,14 @@ int n1,n2,n3,n4,y,w,u,v,r,p,q;
 
 /*
 el_term *pe_r_orth (v_a,n1,n2,n3,n4,y,a,b,c)
-var *v_a;
+variable *v_a;
 int n1,n2,n3,n4,y,a,b,c;
 { gerror("pe_r_orth"); return(null);}
 
 */
 
-      el_term pe_a_orth(var v_a, int n1, int n2, int n3, int n4, int y, int a, int b, int c)
-//var  v_a;
+      el_term pe_a_orth(variable v_a, int n1, int n2, int n3, int n4, int y, int a, int b, int c)
+//variable  v_a;
 //int n1,n2,n3,n4,y,a,b,c;
       {
             if (n1 != y) gerror("pe_a_orth");
@@ -2549,7 +2549,7 @@ int n1,n2,n3,n4,y,a,b,c;
                   return (orth_md(v_a, y, a, b, c));
       }
 
-      el_term pe_g_orth(var v_a, int n1, int n2, int n3, int n4, int y, int a, int b, int c)
+      el_term pe_g_orth(variable v_a, int n1, int n2, int n3, int n4, int y, int a, int b, int c)
       {
             el_term e1, rr;
             int n;
@@ -2619,7 +2619,7 @@ int n1,n2,n3,n4,y,a,b,c;
       }
 
 
-      el_term circum_md(var v_a, int y, int a, int b, int c)
+      el_term circum_md(variable v_a, int y, int a, int b, int c)
       {
             return (mk_elim(v_a,
                     pplus3(ptimes3(geval(v_a, y, a), trim_g(b, c, c, b), trim_g(b, a, a, c)),
@@ -2628,7 +2628,7 @@ int n1,n2,n3,n4,y,a,b,c;
                     ptimes3(get_n(32L), trim_a(a, b, c, c), trim_a(a, b, c, c))));
       }
 
-      el_term pe_a_circum(var v_a, int n1, int n2, int n3, int n4, int y, int a, int b, int c)
+      el_term pe_a_circum(variable v_a, int n1, int n2, int n3, int n4, int y, int a, int b, int c)
       {
             int n;
             if (xperp(n2, n4, b, c))
@@ -2660,7 +2660,7 @@ int n1,n2,n3,n4,y,a,b,c;
             return (circum_md(v_a, y, a, b, c));
       }
 
-      el_term pe_g_circum(var v_a, int n1, int n2, int n3, int n4, int y, int a, int b, int c)
+      el_term pe_g_circum(variable v_a, int n1, int n2, int n3, int n4, int y, int a, int b, int c)
       {
             el_term e1;
             xterm r1, r2, r3, r4;
@@ -2708,7 +2708,7 @@ int n1,n2,n3,n4,y,a,b,c;
       }
 
 
-      el_term pe_r_circum(var v_a, int n1, int n2, int d1, int d2, int y, int a, int b, int c)
+      el_term pe_r_circum(variable v_a, int n1, int n2, int d1, int d2, int y, int a, int b, int c)
       {
             int a1 = 0, b1 = 0, c1 = 0;
             if (a == n1 || a == n2 || a == d1 || a == d2) a1 = a;
@@ -2747,7 +2747,7 @@ int n1,n2,n3,n4,y,a,b,c;
       }
 
 
-      el_term incent_md(var v_a, int y, int i, int a, int b)
+      el_term incent_md(variable v_a, int y, int i, int a, int b)
       {
             return (mk_elim(v_a,
                     pplus3(ptimes4(get_n(-2L), geval(v_a, y, i), trim_g(i, a, a, b), trim_g(i, b, b, a)),
@@ -2756,12 +2756,12 @@ int n1,n2,n3,n4,y,a,b,c;
                     ptimes(trim_g(a, i, i, b), trim_g(a, b, b, a))));
       }
 
-      el_term pe_a_incent(var v_a, int n1, int n2, int n3, int n4, int y, int i, int a, int b)
+      el_term pe_a_incent(variable v_a, int n1, int n2, int n3, int n4, int y, int i, int a, int b)
       {
             return (incent_md(v_a, y, i, a, b));
       }
 
-      el_term pe_g_incent(var v_a, int n1, int n2, int n3, int n4, int y, int i, int a, int b)
+      el_term pe_g_incent(variable v_a, int n1, int n2, int n3, int n4, int y, int i, int a, int b)
       {
             el_term e1;
             int n, sn;
@@ -2861,7 +2861,7 @@ int n1,n2,n3,n4,y,a,b,c;
       }
 
 
-      el_term pe_r_incent(var v_a, int n1, int n2, int d1, int d2, int y, int i, int a, int b)
+      el_term pe_r_incent(variable v_a, int n1, int n2, int d1, int d2, int y, int i, int a, int b)
       {
             if (n2 == y && d2 == y)
             {

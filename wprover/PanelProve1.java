@@ -277,7 +277,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                         if (dlg.loadRule(0, c.getRule()))
                             dlg.setVisible(true);
                     } else if (t == 1) {
-                        var v = ((xterm) selectLabel.getUserObject()).var;
+                        variable v = ((xterm) selectLabel.getUserObject()).var;
                         if (null != v) {
                             {
                                 dp.addFlashAngle(v.pt[0], v.pt[1], v.pt[2], v.pt[3]);
@@ -1092,7 +1092,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 gr_term g = (gr_term) obj;
                 Vector v1 = g.getAllvars();
                 for (int i = 0; i < v1.size(); i++) {
-                    var vr = (var) v1.get(i);
+                    variable vr = (variable) v1.get(i);
                     CLine ln1 = dp.addLn(vr.pt[0], vr.pt[1]);
                     CLine ln2 = dp.addLn(vr.pt[2], vr.pt[3]);
                     CPoint p1 = dp.fd_point(vr.pt[0]);
@@ -1110,7 +1110,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 Vector v1 = el.getAllxterm();
                 for (int i = 0; i < v1.size(); i++) {
                     xterm x = (xterm) v1.get(i);
-                    var vr = x.var;
+                    variable vr = x.var;
                     if (vr == null) {
                         continue;
                     }

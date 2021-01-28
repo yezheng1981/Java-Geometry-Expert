@@ -265,7 +265,7 @@ public class Full extends elim {
 
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
-    el_term mk_felim(var v, xterm p1, xterm p2) {
+    el_term mk_felim(variable v, xterm p1, xterm p2) {
         el_term e1 = new el_term();
         if (this.var_reOrder(v)) {
             p1 = neg_poly(p1);
@@ -279,7 +279,7 @@ public class Full extends elim {
         return (e1);
     }
 
-    el_term mk_felim(var v, xterm p1, xterm p2, int n, int t) {
+    el_term mk_felim(variable v, xterm p1, xterm p2, int n, int t) {
         el_term e = mk_felim(v, p1, p2, t);
         if (n != 1)
             e.p = ptimes(get_n(n), e.p);
@@ -287,13 +287,13 @@ public class Full extends elim {
     }
 
 
-    el_term mk_felim(var v, xterm p1, xterm p2, int t) {
+    el_term mk_felim(variable v, xterm p1, xterm p2, int t) {
         el_term el = mk_felim(v, p1, p2);
         el.etype = t;
         return el;
     }
 
-    el_term mk_feliminator(var v, xterm p1, xterm p2, int t) {
+    el_term mk_feliminator(variable v, xterm p1, xterm p2, int t) {
         el_term e1 = new el_term();
         e1.etype = t;
         e1.v = v;
@@ -305,7 +305,7 @@ public class Full extends elim {
     }
 
     el_term elim_qcs(xterm p) {                           // NO USAGE.
-        var v1 = p.var;
+        variable v1 = p.var;
         l_line ln1 = fadd_ln(v1.pt[0], v1.pt[1]);
         l_line ln2 = fadd_ln(v1.pt[2], v1.pt[3]);
 
@@ -345,7 +345,7 @@ public class Full extends elim {
             ps1 = ps1.nx;
             if (ps1 == null) return (null);
 
-            var v1 = p1.var;
+            variable v1 = p1.var;
             ln1 = fadd_ln(v1.pt[0], v1.pt[1]);
             ln2 = fadd_ln(v1.pt[2], v1.pt[3]);
             dterm ps2 = ps1;
@@ -353,7 +353,7 @@ public class Full extends elim {
             while (ps2 != null) {
                 xterm p2 = ps2.p;
                 if (npoly(p2)) break;//goto l2;
-                var v2 = p2.var;
+                variable v2 = p2.var;
                 ln3 = fadd_ln(v2.pt[0], v2.pt[1]);
                 ln4 = fadd_ln(v2.pt[2], v2.pt[3]);
                 if (fcc(p1) == fcc(p2)) {
@@ -417,7 +417,7 @@ public class Full extends elim {
     el_term elim_q8(xterm p1) {
         dterm ps1;
         xterm p2;
-        var v1, v2;
+        variable v1, v2;
         l_line ln1, ln2;
 
         if (p1 == null || npoly(p1)) return (null);
@@ -467,7 +467,7 @@ public class Full extends elim {
         return (p);
     }
 
-    el_term mk_felim11(var v, int a, int b, int c, int d, int o, int p1, int p2, int o1) { // <[ab, cd] = <[o1p1,o1,p2]
+    el_term mk_felim11(variable v, int a, int b, int c, int d, int o, int p1, int p2, int o1) { // <[ab, cd] = <[o1p1,o1,p2]
 //        co_db.nx = null;
 //
 //        cond c1 = add_codb(CO_COLL, o, p1, a, b, 0, 0, 0, 0);
@@ -477,7 +477,7 @@ public class Full extends elim {
 //            e1 = mk_felim(v, trim_f(o, p1, o, p2), get_n(1L), 0);
 //            co_db.nx = null;
 //            add_codb(CO_CYCLIC, 0, o, o1, p1, p2, 0, 0, 0);
-//            el_term e2 = mk_felim(new var(10, o, p1, o, p2), trim_f(o1, p1, o1, p2), get_n(1), 9);
+//            el_term e2 = mk_felim(new variable(10, o, p1, o, p2), trim_f(o1, p1, o1, p2), get_n(1), 9);
 //            e1.nx = e2;
 //            co_db.nx = null;
 //        } else {
@@ -496,7 +496,7 @@ public class Full extends elim {
 //        if (c1.pred != 0 || c2.pred != 0) {
 //            e1 = mk_felim(v, trim_f(o, p1, o, p2), get_n(1L), 0);
 //            co_db.nx = null;
-//            el_term e2 = mk_felim(new var(10, o, p1, o, p2), trim_f(o1, p1, o1, p2), get_n(1), 9);
+//            el_term e2 = mk_felim(new variable(10, o, p1, o, p2), trim_f(o1, p1, o1, p2), get_n(1), 9);
 //            e1.nx = e2;
 //            co_db.nx = null;
 //        } else {
@@ -508,20 +508,20 @@ public class Full extends elim {
         return el;
     }
 
-    el_term mk_felim6(var v, int a, int b, int c, int d) { // para
+    el_term mk_felim6(variable v, int a, int b, int c, int d) { // para
         co_db.nx = null;
         add_codb(CO_PARA, a, b, c, d, 0, 0, 0, 0);
         el_term e1 = mk_felim(v, get_n(0L), get_n(1L), 3);
         return e1;
     }
 
-    el_term mk_felim7(var v, int a, int b, int c, int d) {
+    el_term mk_felim7(variable v, int a, int b, int c, int d) {
         co_db.nx = null;
         add_codb(CO_PERP, a, b, c, d, 0, 0, 0, 0);
         return mk_felim(v, get_n(1L), get_n(1L), 4);
     }
 
-    el_term elim_f(var v) {
+    el_term elim_f(variable v) {
         el_term e1 = null;
         int a, b, c, d;
 
@@ -561,7 +561,7 @@ public class Full extends elim {
         return (e1);
     }
 
-    el_term elim_f_ln(var v, int a, int b, int c, int d) {
+    el_term elim_f_ln(variable v, int a, int b, int c, int d) {
 
         l_line ln1 = fd_ln(a, b);
         if (ln1 != null && a > ln1.pt[1]) {
@@ -572,7 +572,7 @@ public class Full extends elim {
         return (null);
     }
 
-    el_term elim_f_pn(var v, int a, int b, int c, int d) {
+    el_term elim_f_pn(variable v, int a, int b, int c, int d) {
 
         l_line ln1 = fd_ln(a, b);
         p_line pn1 = fd_pn(a, b);
@@ -582,7 +582,7 @@ public class Full extends elim {
             if (ln_less(ln2, ln1)) {
                 co_db.nx = null;
                 add_codb(CO_PARA, a, b, ln2.pt[0], ln2.pt[1], 0, 0, 0, 0);
-                var v1 = new var(10, a, b, ln2.pt[0], ln2.pt[1]);
+                variable v1 = new variable(10, a, b, ln2.pt[0], ln2.pt[1]);
                 el_term e1 = this.mk_felim6(v1, a, b, ln2.pt[0], ln2.pt[1]);
                 co_db.nx = null;
                 el_term e = (mk_felim(v, trim_f(ln2.pt[0], ln2.pt[1], c, d), get_n(1L), 1));
@@ -594,7 +594,7 @@ public class Full extends elim {
     }
 
 
-    el_term elim_f_tn(var v, int a, int b, int c, int d)    // could be more tn lines.
+    el_term elim_f_tn(variable v, int a, int b, int c, int d)    // could be more tn lines.
     {
         l_line ln2;
         l_line ln1 = fd_ln(a, b);
@@ -609,7 +609,7 @@ public class Full extends elim {
                 co_db.nx = null;
                 el_term e1 = mk_felim(v, pplus(trim_f(a, b, ln2.pt[0], ln2.pt[1]), trim_f(ln2.pt[0], ln2.pt[1], c, d)), get_n(1L), RF_ADDITION);
                 add_codb(CO_PERP, a, b, ln2.pt[0], ln2.pt[1], 0, 0, 0, 0);
-                var v1 = new var(10, a, b, ln2.pt[0], ln2.pt[1]);
+                variable v1 = new variable(10, a, b, ln2.pt[0], ln2.pt[1]);
                 el_term e2 = this.mk_felim7(v1, a, b, ln2.pt[0], ln2.pt[1]);
                 e1.nx = e2;
                 co_db.nx = null;
@@ -630,7 +630,7 @@ public class Full extends elim {
                     co_db.nx = null;
                     el_term e1 = mk_felim(v, pplus(trim_f(a, b, ln2.pt[0], ln2.pt[1]), trim_f(ln2.pt[0], ln2.pt[1], c, d)), get_n(1L), RF_ADDITION);
                     add_codb(CO_PERP, c, d, ln2.pt[0], ln2.pt[1], 0, 0, 0, 0);
-                    var v1 = new var(10, c, d, ln2.pt[0], ln2.pt[1]);
+                    variable v1 = new variable(10, c, d, ln2.pt[0], ln2.pt[1]);
                     el_term e2 = this.mk_felim7(v1, c, d, ln2.pt[0], ln2.pt[1]);
                     e1.nx = e2;
                     co_db.nx = null;
@@ -644,7 +644,7 @@ public class Full extends elim {
     }
 
 
-    el_term elim_f_cir1(var v, int a, int b, int c, int d) {
+    el_term elim_f_cir1(variable v, int a, int b, int c, int d) {
         int o, p1, p2, p3, p4;
         l_line ln3, ln4, ln5, ln6;
 
@@ -697,7 +697,7 @@ public class Full extends elim {
                         if (ln_less(ln3, ln1) && ln_less(ln4, ln1) && ln_less(ln5, ln1))// R12.
                         {
                             el_term e1 = mk_felim(v, pplus(trim_f(a, b, p2, p4), trim_f(p2, p4, c, d)), get_n(1L), RF_ADDITION);
-                            var v1 = new var(10, a, b, p2, p4);
+                            variable v1 = new variable(10, a, b, p2, p4);
                             el_term e2 = this.mk_felim11(v1, a, b, p2, p4, p2, p1, p4, p3);
                             e1.nx = e2;
                             co_db.nx = null;
@@ -713,10 +713,10 @@ public class Full extends elim {
                             while (ln6 != null) {
                                 if (ln_para(ln6, ln5) && ln_less(ln6, ln1)) {
                                     el_term e1 = mk_felim(v, pplus(trim_f(a, b, p2, p4), trim_f(p2, p4, c, d)), get_n(1L), RF_ADDITION);
-                                    var v2 = new var(10, a, b, p2, p4);
+                                    variable v2 = new variable(10, a, b, p2, p4);
                                     el_term e2 = this.mk_felim11(v2, a, b, p2, p4, p2, p1, p4, p3);
                                     co_db.nx = null;
-                                    var v3 = new var(10, p4, p2, ln6.pt[0], ln6.pt[1]);
+                                    variable v3 = new variable(10, p4, p2, ln6.pt[0], ln6.pt[1]);
                                     el_term e3 = this.mk_felim6(v3, p4, p2, ln6.pt[0], ln6.pt[1]);
                                     e1.nx = e2;
                                     e2.nx = e3;
@@ -731,10 +731,10 @@ public class Full extends elim {
                             while (ln6 != null) {
                                 if (ln_perp(ln6, ln5) && ln_less(ln6, ln1)) {
                                     el_term e1 = mk_felim(v, pplus(trim_f(a, b, p2, p4), trim_f(p2, p4, c, d)), get_n(1L), RF_ADDITION);
-                                    var v2 = new var(10, a, b, p2, p4);
+                                    variable v2 = new variable(10, a, b, p2, p4);
                                     el_term e2 = this.mk_felim11(v2, a, b, p2, p4, p2, p1, p4, p3);
                                     co_db.nx = null;
-                                    var v3 = new var(10, p4, p2, ln6.pt[0], ln6.pt[1]);
+                                    variable v3 = new variable(10, p4, p2, ln6.pt[0], ln6.pt[1]);
                                     el_term e3 = this.mk_felim7(v3, p4, p2, ln6.pt[0], ln6.pt[1]);
                                     e1.nx = e2;
                                     e2.nx = e3;
@@ -755,7 +755,7 @@ public class Full extends elim {
         return (null);
     }
 
-    el_term elim_f_cir2(var v, int a, int b, int c, int d) {
+    el_term elim_f_cir2(variable v, int a, int b, int c, int d) {
         a_cir cr1, cr2;
         int p1, p2, p3, p4;
         l_line ln3, ln4, ln5, ln6;
@@ -820,7 +820,7 @@ public class Full extends elim {
         return (null);
     }
 
-    el_term elim_f_cir3(var v, int a, int b, int c, int d) {
+    el_term elim_f_cir3(variable v, int a, int b, int c, int d) {
         a_cir cr1;
         int o, p1, p2, p3, p4;
         l_line ln1, ln2, ln3, ln4;
@@ -889,7 +889,7 @@ public class Full extends elim {
         return (null);
     }
 
-    el_term elim_f_cir4(var v, int a, int b, int c, int d) {
+    el_term elim_f_cir4(variable v, int a, int b, int c, int d) {
         a_cir cr1;
         int o, p1, p2, p3, p4;
         l_line ln1;
@@ -958,7 +958,7 @@ public class Full extends elim {
         return (null);
     }
 
-    el_term elim_f_center(var v, int a, int b, int c, int d) {
+    el_term elim_f_center(variable v, int a, int b, int c, int d) {
         l_line ln1, ln2;
         int p1, p2;
         char i, j, k, l;
@@ -1007,7 +1007,7 @@ public class Full extends elim {
         return (null);
     }
 
-    el_term elim_f_ans(var v, int a, int b, int c, int d) {
+    el_term elim_f_ans(variable v, int a, int b, int c, int d) {
         l_line l1, l2, ln0, ln1, ln2;
         angles as;
 
@@ -1077,7 +1077,7 @@ public class Full extends elim {
         return (null);
     }
 
-    el_term elim_d(var v) {
+    el_term elim_d(variable v) {
         l_line ln1, ln2;
         a_cir cr, cr1;
         int o, p1, p2, p3, p4, p5, a, b, c, d;
@@ -1273,7 +1273,7 @@ public class Full extends elim {
         return (null);
     }
 
-    el_term elim_t(var v) {
+    el_term elim_t(variable v) {
         l_line ln1, ln2;
         a_cir cr;
         int p1, p2, p3;
@@ -1308,7 +1308,7 @@ public class Full extends elim {
         return (null);
     }
 
-    el_term elim_tri(var v) {
+    el_term elim_tri(variable v) {
         int a = v.pt[0];
         int b = v.pt[1];
         int c = v.pt[2];
@@ -1545,7 +1545,7 @@ public class Full extends elim {
 
     void print_elim(el_term e, char mk) {
         xterm p1, p2;
-        var v;
+        variable v;
         if (e == null) {
             return;
         }
@@ -1609,7 +1609,7 @@ public class Full extends elim {
     }
 
     void print_all_vars() {
-        var e1;
+        variable e1;
 
         gprint(Cm.s2225);
         e1 = all_var.nx;
@@ -1627,7 +1627,7 @@ public class Full extends elim {
     boolean rps(dterm ps1) {
         dterm ps2;
         xterm p1;
-        var v1;
+        variable v1;
         while (ps1 != null) {
             p1 = ps1.p;
             v1 = p1.var;
@@ -1746,7 +1746,7 @@ public class Full extends elim {
     }
 
     boolean chord_p(xterm p) {
-        var v;
+        variable v;
         if (npoly(p)) return (true);
         v = p.var;
         return (v.nm == 5);
@@ -1823,7 +1823,7 @@ public class Full extends elim {
     }
 
     int getvarNum() {
-        var v = all_var.nx;
+        variable v = all_var.nx;
         int t = 0;
         while (v != null) {
             v = v.nx;
@@ -1842,7 +1842,7 @@ public class Full extends elim {
         return t;
     }
 
-    boolean var_reOrder(var v) {
+    boolean var_reOrder(variable v) {
         int p1, p2, p3, p4, p;
         boolean sr = false;
         p1 = v.pt[0];
@@ -2422,7 +2422,7 @@ public class Full extends elim {
         }
     }
 
-    protected cndg add_ndg_triplePI(var v) {
+    protected cndg add_ndg_triplePI(variable v) {
         cndg n = new cndg();
         n.type = NDG_TRIPLEPI;
 
@@ -2445,8 +2445,8 @@ public class Full extends elim {
                 xterm x1 = dx1.p;
                 long n1 = fcc(x1);
 
-                var v1 = x.var;
-                var v2 = x1.var;
+                variable v1 = x.var;
+                variable v2 = x1.var;
 
                 if (v2 != null) {  // v2 != null   <A + <B = 0.
                     if (n1 < 0) {
@@ -2716,7 +2716,7 @@ public class Full extends elim {
     }
 
 
-    protected cndg add_ndg_para(var v) {
+    protected cndg add_ndg_para(variable v) {
         return add_ndg_para(v.pt[0], v.pt[1], v.pt[2], v.pt[3]);
     }
 
@@ -2748,7 +2748,7 @@ public class Full extends elim {
         return n;
     }
 
-    protected cndg add_ndg_perp(var v) {
+    protected cndg add_ndg_perp(variable v) {
         return add_ndg_perp(v.pt[0], v.pt[1], v.pt[2], v.pt[3]);
     }
 
@@ -2870,8 +2870,8 @@ public class Full extends elim {
             if (dx1 != null) {
                 xterm x1 = dx1.p;
                 long n1 = fcc(x1);
-                var v1 = x.var;
-                var v2 = x1.var;
+                variable v1 = x.var;
+                variable v2 = x1.var;
                 if (n == n1) {
                     if (v1.pt[2] == v2.pt[0] && v1.pt[3] == v2.pt[1]) {
                         xterm p1 = pplus(get_m(v1), get_m(v2));

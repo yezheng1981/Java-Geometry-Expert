@@ -8,7 +8,7 @@ package gprover;
  * To change this template use File | Settings | File Templates.
  */
 public class xterm {
-    public var var;                //   variable.
+    public variable var;                //   variable.
     long c;                 //   value is an Integer.
     dterm ps;              //  prefix
     xterm p;                //
