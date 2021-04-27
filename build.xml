@@ -56,7 +56,7 @@
     <target name="build" depends="compile, copy-images" description="building jgex">
 <!--         <delete dir="${out}"/>
         <mkdir dir="${out}"/>   -->
-        <jar jarfile="${out}/${jgex_jar}" manifest="./MANIFEST.MF" basedir="${dest}"/>
+        <jar jarfile="${out}/${jgex_jar}" manifest="./manifest.mf" basedir="${dest}"/>
     </target>
 
 
