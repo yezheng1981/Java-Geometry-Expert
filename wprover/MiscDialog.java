@@ -783,8 +783,9 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
                     "French",
                     "German",
                     "Italian",
-                    "Spaish",
-                    "Persian"
+                    "Spanish",
+                    "Persian",
+                    "Portuguese"
             };
             blanguage = new JComboBox(lan);
             blanguage.setSelectedItem(CMisc.lan);
