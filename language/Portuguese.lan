@@ -109,11 +109,12 @@ Font: Dialog # 0 # 14
 
 	* Lemmas Menu
 140 #	Lemmas # Lema
-141 #	Rulers for Full Angle # Regole per Angolo Completo
-142 #	Rulers for GDD # Regole per GDD	 
+141 #	Rulers for Full Angle # Regras para Ângulo Completo
+142 #	Rulers for GDD # Regras para GDD	 
 	* End of Lemmas Menu
 
 	* Prove Menu
+149 #   All Solutions # Todas as soluções
 150 #	Prove # Demonstração
 151 #	To Prove # Demonstrar
 152 #	Numerical Check # Verificação Numérica
