@@ -4,6 +4,8 @@
     <property name="dest" value="classes"/>
     <property name="out" value="output"/>
     <property name="jgex_jar" value="jgex.jar"/>
+    <property name="deb_out" value="deb_output"/>
+    <property name="version" value="0.80"/>
 
 
     <!-- Step 1:  clean alreay exists directory and files -->
@@ -123,6 +125,28 @@
               fork="true"
               failonerror="true"
               maxmemory="128m"/>
+    </target>
+
+    <!-- Optional. Create a Debian package. -->
+    <target name="deb_package">
+      <get src="https://repo1.maven.org/maven2/org/vafer/jdeb/1.9/jdeb-1.9.jar" dest="jdeb.jar"/>
+
+      <taskdef name="deb" classname="org.vafer.jdeb.ant.DebAntTask" classpath="jdeb.jar"/>
+      <copy todir="${deb_out}/control">
+        <fileset dir="deb/control"/>
+        <filterset begintoken="[[" endtoken="]]">
+          <filter token="version" value="${version}"/>
+          <filter token="name" value="${ant.project.name}"/>
+        </filterset>
+      </copy>
+      <deb destfile="jgex_${version}_all.deb" control="${deb_out}/control">
+        <data src="output" type="directory">
+          <mapper type="perm" prefix="/usr/share/jgex"/>
+        </data>
+        <data src="deb/jgex" type="file">
+          <mapper type="perm" filemode="755" prefix="/usr/bin"/>
+        </data>
+      </deb>
     </target>
 
 
