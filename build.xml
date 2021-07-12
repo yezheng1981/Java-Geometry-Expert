@@ -7,14 +7,17 @@
     <property name="deb_out" value="deb_output"/>
     <property name="version" value="0.80"/>
 
+    <!-- Please override these settings with "ant -Ddate=... <task>" -->
+    <property name="date" value="2021Jul12"/>
+    <property name="bundled_jdk" value="&quot;c:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.1/jbr&quot;"/>
 
-    <!-- Step 1:  clean alreay exists directory and files -->
+    <!-- Step 1:  clean already existsing directory and files -->
     <target name="clean">
        <delete dir="${dest}"/>
     </target>
 
 
-    <!-- Step 2:  create output directorys -->
+    <!-- Step 2:  create output directories -->
     <target name="init" description="Initialize" depends="clean">
         <mkdir dir="${dest}/maths"/>
         <mkdir dir="${dest}/gprover"/>
@@ -129,7 +132,8 @@
 
     <!-- Optional. Create a Debian package. -->
     <target name="deb_package">
-      <get src="https://repo1.maven.org/maven2/org/vafer/jdeb/1.9/jdeb-1.9.jar" dest="jdeb.jar"/>
+      <get src="https://repo1.maven.org/maven2/org/vafer/jdeb/1.9/jdeb-1.9.jar" dest="jdeb.jar"
+           skipexisting="true"/>
 
       <taskdef name="deb" classname="org.vafer.jdeb.ant.DebAntTask" classpath="jdeb.jar"/>
       <copy todir="${deb_out}/control">
@@ -147,6 +151,23 @@
           <mapper type="perm" filemode="755" prefix="/usr/bin"/>
         </data>
       </deb>
+    </target>
+
+    <!-- Optional. Create a .zip package. -->
+    <target name="zip_package">
+      <get src="https://github.com/libgdx/packr/releases/download/4.0.0/packr-all-4.0.0.jar" dest="packr.jar"
+           skipexisting="true"/>
+      <exec executable="java" dir="${out}" osfamily="windows">
+        <arg line="-jar ..\packr.jar 
+             --platform windows64
+             --jdk ${bundled_jdk}
+             --executable jgex
+             --classpath jgex.jar
+             --mainclass wprover.GExpert
+             --resources examples help language rules --output jgex-${version}-windows64-${date}"/>
+      </exec>
+      <zip destfile="${out}/jgex-${version}-windows64-${date}.zip"
+           basedir="${out}/jgex-${version}-windows64-${date}" update="true"/>
     </target>
 
 
