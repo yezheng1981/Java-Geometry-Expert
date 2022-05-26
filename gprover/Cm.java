@@ -27,7 +27,8 @@ final public class Cm {
     final public static String sangle = "∠";
     final public static String s2082 = " = ";
     final public static String s2083 = " ∽ ";
-    final public static String s2084 = " �� ";
+    final public static String s2084 = " ∩ ";
+    // final public static String s2084 = " intersect ";
 
 
     final public static String s2700 = "\n List of new data\n";
