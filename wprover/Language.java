@@ -27,6 +27,8 @@ public class Language {
             Locale.setDefault(Locale.SIMPLIFIED_CHINESE);
         else if(stype.equalsIgnoreCase("Italian"))
             Locale.setDefault(Locale.ITALIAN);
+        else if(stype.equalsIgnoreCase("German"))
+            Locale.setDefault(Locale.GERMAN);
         else if(stype.equalsIgnoreCase("Portuguese"))
             Locale.setDefault(new Locale("pt", ""));
         else if(stype.equalsIgnoreCase("Persian"))
