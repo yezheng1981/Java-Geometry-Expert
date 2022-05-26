@@ -7,7 +7,13 @@
  */
 package gprover;
 
+
+
 final public class Cm {
+
+    static boolean isWindows() {
+        return System.getProperty("os.name").startsWith("Windows");
+    }
 
     final public static String s2060 = "Building the model costs";
     final public static String s2061 = "\r\nThe theorem is not in the database.\r\n\r\n";
@@ -19,16 +25,15 @@ final public class Cm {
     final public static String s2075 = ",\r\n   because ";
     final public static String s2076 = "(obvious)";
 
-    final public static String s2077 = " ⊥ ";
-    final public static String s2078 = "∠";
-    final public static String s2079 = " ∥ ";
-    final public static String s2080 = "∆";
+    final public static String s2077 = isWindows() ? "_|_" : " ⊥ ";
+    final public static String s2078 = isWindows() ? "<)" : "∠";
+    final public static String s2079 = isWindows() ? "||" : " ∥ ";
+    final public static String s2080 = isWindows() ? "<|" : "∆";
     final public static String s2081 = "Beginning make auxillary points\r\n";
-    final public static String sangle = "∠";
+    final public static String sangle = isWindows() ? "<)" : "∠";
     final public static String s2082 = " = ";
-    final public static String s2083 = " ∽ ";
-    final public static String s2084 = " ∩ ";
-    // final public static String s2084 = " intersect ";
+    final public static String s2083 = isWindows() ? "~" : " ∽ ";
+    final public static String s2084 = isWindows() ? " intersect " : " ∩ ";
 
 
     final public static String s2700 = "\n List of new data\n";
