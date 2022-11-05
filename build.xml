@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="jgex" default="all" basedir=".">
+
     <property name="src" value="."/>
     <property name="dest" value="classes"/>
     <property name="out" value="output"/>
@@ -11,7 +12,18 @@
     <property name="date" value="2021Jul12"/>
     <property name="bundled_jdk" value="&quot;c:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.1/jbr&quot;"/>
 
-    <!-- Step 1:  clean already existsing directory and files -->
+    <!-- Step 0:  detect OS and set some variables for later use -->
+    <target name="checkos">
+        <condition property="platform" value="windows64">
+            <os family="windows" />
+        </condition>
+
+        <condition property="platform" value="mac">
+            <os family="mac" />
+        </condition>
+    </target>
+
+    <!-- Step 1:  clean already existing directory and files -->
     <target name="clean">
        <delete dir="${dest}"/>
     </target>
@@ -154,21 +166,22 @@
     </target>
 
     <!-- Optional. Create a .zip package. -->
-    <target name="zip_package">
+    <target name="zip_package" depends="checkos">
       <get src="https://github.com/libgdx/packr/releases/download/4.0.0/packr-all-4.0.0.jar" dest="packr.jar"
            skipexisting="true"/>
-      <exec executable="java" dir="${out}" osfamily="windows">
-        <arg line="-jar ..\packr.jar 
-             --platform windows64
+      <exec executable="java" dir="${out}">
+        <arg line="-jar ..${file.separator}packr.jar 
+             --platform ${platform}
              --jdk ${bundled_jdk}
              --executable jgex
              --classpath jgex.jar
              --mainclass wprover.GExpert
-             --resources examples help language rules --output jgex-${version}-windows64-${date}"/>
+             --resources examples help language rules --output jgex-${version}-${platform}-${date}"/>
       </exec>
-      <zip destfile="${out}/jgex-${version}-windows64-${date}.zip"
-           basedir="${out}/jgex-${version}-windows64-${date}" update="true"/>
-    </target>
 
+      <zip destfile="${out}/jgex-${version}-${platform}-${date}.zip"
+           basedir="${out}/jgex-${version}-${platform}-${date}" update="true"/>
+
+    </target>
 
 </project>
