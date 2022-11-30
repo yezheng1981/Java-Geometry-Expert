@@ -969,9 +969,9 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         item = addAMenu(menu, "Help", "Help", KeyEvent.VK_F1, this);
         item.setAccelerator(KeyStroke.getKeyStroke("F1"));
 
-        this.addImageToItem(item, "help");
-        item = addAMenu(menu, "Online Help", "Online Help", this);
-        addImageToItem(item);
+        // this.addImageToItem(item, "help");
+        // item = addAMenu(menu, "Online Help", "Online Help", this);
+        // addImageToItem(item);
 
         item = addAMenu(menu, "Help on Mode", "Help on Mode", this);
         addImageToItem(item);
@@ -980,8 +980,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         addImageToItem(item);
         item = addAMenu(menu, "Contact Us", "Contact Us", this);
         addImageToItem(item);
-        menu.addSeparator();
-        item = addAMenu(menu, "Check for Update", "Check for Update", this);
+        // menu.addSeparator();
+        // item = addAMenu(menu, "Check for Update", "Check for Update", this);
         addImageToItem(item);
         item = addAMenu(menu, "About JGEX", "About Java Geometry Expert", this);
         addImageToItem(item, "infor");
@@ -1307,11 +1307,11 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
             setBKState();
             d.repaint();
         } else if (command.equals("Online Help")) {
-            openURL(("http://woody.cs.wichita.edu/help/index.html"));
+            openURL(("https://github.com/kovzol/Java-Geometry-Expert")); // FIXME, use help/index.html
         } else if (command.equals("JGEX Homepage")) {
-            openURL(("http://woody.cs.wichita.edu"));
+            openURL(("https://github.com/kovzol/Java-Geometry-Expert"));
         } else if (command.equals("Contact Us")) {
-            openURL(("mailto:yezheng@gmail.com"));
+            openURL(("mailto:zoltan@geogebra.org"));
         } else if (command.equals("ff")) {
             dp.redo();
             setBKState();
