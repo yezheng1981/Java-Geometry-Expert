@@ -1,7 +1,6 @@
 package wprover;
 
 import javax.swing.*;
-import java.security.acl.Group;
 import java.awt.event.ItemListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ActionListener;
