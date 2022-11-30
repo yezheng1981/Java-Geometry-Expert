@@ -11,7 +11,7 @@ package gprover;
 
 final public class Cm {
 
-    static boolean isWindows() {
+    static public boolean isWindows() {
         return System.getProperty("os.name").startsWith("Windows");
     }
 
@@ -49,7 +49,7 @@ final public class Cm {
     final public static String s2710 = "\r\n\r\nThe configuration contains the following perp lines\r\n\r\n";
     final public static String s2711 = "pair of perpendicular lines\r\n";
     final public static String s2712 = "\r\n\r\nThe configuration contains the following circles\r\n\r\n";
-    final public static String s2713 = "circles in the databse.";
+    final public static String s2713 = "circles in the database.";
 
     final public static String s2715 = "perp[";
     final public static String s2716 = "circle";

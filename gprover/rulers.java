@@ -66,11 +66,11 @@ public class rulers {
 
             "* 19",
             "ASTT12",
-            "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥  l2, then l3 ⊥  l4.",
+            "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l2, then l3 ⊥ l4.",
 
             "* 20",
             "ASTT13",
-            "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥  l3, then l2 ⊥  l4.",
+            "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l3, then l2 ⊥ l4.",
 
             "* 21",
             "Special Angles",
@@ -273,11 +273,11 @@ public class rulers {
                     "∠[u,v] = ∠[1] genau dann, wenn u ⊥ v.",
 
                     "* 5 # Addition eines Vollwinkels.",
-                    "∠[u,s] + ∠[s,v] = ∠[u,v].  Diese Regel gilt bei der Aufteilung eines Winkels in zwei oder mehrere Winkel.",
-                    "Beispielsweise gilt ∠[u,v] =  ∠[u,m] +  ∠[m,v] für eine beliebige Gerade m.",
+                    "∠[u,s] + ∠[s,v] = ∠[u,v]. Diese Regel gilt bei der Aufteilung eines Winkels in zwei oder mehrere Winkel.",
+                    "Beispielsweise gilt ∠[u,v] = ∠[u,m] + ∠[m,v] für eine beliebige Gerade m.",
 
                     "* 6",
-                    "Wenn l ⊥ v oder ∠[l,v] = ∠[1],  dann ist ∠[u,v] = ∠[u,l] + ∠[l,v] = ∠[u,l] + ∠[1].",
+                    "Wenn l ⊥ v oder ∠[l,v] = ∠[1], dann ist ∠[u,v] = ∠[u,l] + ∠[l,v] = ∠[u,l] + ∠[1].",
                     "Ist beispielsweise AC ⊥ BC, dann ist ∠[CBA] = ∠[BAC] + ∠[1].",
 
                     "* 7",
@@ -286,10 +286,10 @@ public class rulers {
 
                     "* 8",
                     " Das Kreiswinkel-Theorem.",
-                    " Die Punkte A, B,C und D sind genau dann zyklisch, wenn ∠[ACB] = ∠[ADB].",
+                    " Die Punkte A, B, C und D sind genau dann zyklisch, wenn ∠[ACB] = ∠[ADB].",
 
                     "* 9",
-                    " Sind A, B, M und N zyklisch gilt ∠[AB, AM] = ∠[BN,NM].  Daher gilt  ∠[AB, CD] = ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM]] + ∠[AM, CD].",
+                    " Sind A, B, M und N zyklisch gilt ∠[AB, AM] = ∠[BN,NM]. Daher gilt  ∠[AB, CD] = ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM]] + ∠[AM, CD].",
 
                     "* 10",
                     " Regel 10.",
@@ -421,11 +421,11 @@ public class rulers {
 
                     "* 19",
                     "ASTT12",
-                    "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ⊥  l2, dann gilt l3 ⊥ l4.",
+                    "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ⊥ l2, dann gilt l3 ⊥ l4.",
 
                     "* 20",
                     "ASTT13",
-                    "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ⊥  l3, dann gilt l2 ⊥ l4.",
+                    "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ⊥ l3, dann gilt l2 ⊥ l4.",
 
                     "* 21",
                     "Spezielle Winkel",

@@ -1,5 +1,6 @@
 package wprover;
 
+import gprover.Cm;
 import gprover.gib;
 import gprover.rulers;
 
@@ -95,6 +96,24 @@ public class RuleList {
 
         while (t != null) {
             t = t.trim();
+            // Fix encoding issues, TODO: This should be done in a different way!
+            t = t.replaceAll(" ⊥ ", Cm.s2077);
+            t = t.replaceAll("∠", Cm.s2078);
+            t = t.replaceAll(" ∥ ", Cm.s2079);
+            t = t.replaceAll("∆", Cm.s2080);
+            t = t.replaceAll(" ∽ ", Cm.s2083);
+            t = t.replaceAll(" ∩ ", Cm.s2084);
+            // Fix German characters:
+            if (Cm.isWindows()) {
+                t = t.replaceAll("ä", "ae");
+                t = t.replaceAll("ö", "oe");
+                t = t.replaceAll("ü", "ue");
+                t = t.replaceAll("ß", "ss");
+                t = t.replaceAll("Ä", "AE");
+                t = t.replaceAll("Ö", "OE");
+                t = t.replaceAll("Ü", "UE");
+            }
+
             if (t.length() != 0) {
                 if (s != null && t.startsWith("*")) {
                     grule r = new grule(id++, s, s1, s2, type);
@@ -115,25 +134,18 @@ public class RuleList {
 
             t = src[++i];
         }
-
-
     }
-
-
 
     final public static void loadRulers() {
 
-        if(GExpert.lan.equals("English")) { //only load the math vocab from the correct language "database"
-            loadRulers(rulers.GDD_English, GDDLIST, 0);
-            loadRulers(rulers.FULL_English, FULLLIST, 1);
-        }
         if(GExpert.lan.equals("German")) {
             loadRulers(rulers.GDD_German, GDDLIST, 0);
             loadRulers(rulers.FULL_German, FULLLIST, 1);
+        } else { // use English by default
+            loadRulers(rulers.GDD_English, GDDLIST, 0);
+            loadRulers(rulers.FULL_English, FULLLIST, 1);
         }
-
-
-        }
+    }
 
     final public static void writeRulers(File file, File file2) {
         try {
