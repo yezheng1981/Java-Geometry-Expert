@@ -2,12 +2,12 @@ package gprover;
 
 public class rulers {
 
-    final public static String[] GDD = {
+    final public static String[] GDD_English = {
             "* 1",
             "If AB ∥ BC, then Collinear(A,B,C).",
 
             "* 2",
-            "For two angle ∠[l1,l2], ∠[l3,l4]. If l1 = l3 and l2 ∥ l4, then ∠[l1,l2] = ∠[l3,l4].",
+            "For two angles ∠[l1,l2], ∠[l3,l4]. If l1 = l3 and l2 ∥ l4, then ∠[l1,l2] = ∠[l3,l4].",
             "For example, in parallelogram ABCD, AD ∥ BC and AC = CA, hence ∠[CAD] = ∠[ACB].",
 
             "* 3",
@@ -17,7 +17,7 @@ public class rulers {
             "If AB ∥ CD and CD ⊥ EF, then AB ⊥ EF.",
 
             "* 5",
-            "If AB ⊥ CD, then ∠[AB,CD] = [1] ( or 90 degrees).",
+            "If AB ⊥ CD, then ∠[AB,CD] = [1] (or 90 degrees).",
 
             "* 6",
             "In right triangle ACB, ∠C = [1], if  midpoint(E, A B), then Circumcenter (E,A B C) and EA = EB = EC.",
@@ -126,7 +126,7 @@ public class rulers {
 
             "* 35",
             "Middle Connection Theorem for Triangles",
-            "The line connect the midpoints of two sides of triangle is parallel to the third side of the triangle.",
+            "The line connects the midpoints of two sides of triangle is parallel to the third side of the triangle.",
 
             "* 36",
             "The hypotenuse of a right triangle is the diameter of the circumscribed circle of the triangle, and the midpoint of the hypotenuse is the center of the circle.",
@@ -150,7 +150,7 @@ public class rulers {
             "* 41",
             "Middle Connection Theorem for Trapzoid",
 
-            "*  42",
+            "* 42",
             "Ratio ",
             "Use Ratio in Deductive Database Method. ",
 
@@ -160,8 +160,7 @@ public class rulers {
             "*END",
     };
 
-
-    final public static String[] FULL =
+    final public static String[] FULL_English =
             {
                     "* 1 # The Definition of Full Angle.",
                     "A full angle is defined as an ordered pair of two lines u and v denoted by ∠[u,v].",
@@ -176,7 +175,7 @@ public class rulers {
                     "∠[u,v] = ∠[1] if and only if u ⊥ v.",
 
                     "* 5 # Addition of Full Angle.",
-                    "∠[u,s] + ∠[s,v] = ∠[u,v].  This rule to split an angle into two or more angles.",
+                    "∠[u,s] + ∠[s,v] = ∠[u,v].  This rule is to split an angle into two or more angles.",
                     "For example, for any line m, we have  ∠[u,v] =  ∠[u,m] +  ∠[m,v]",
 
                     "* 6",
@@ -192,7 +191,7 @@ public class rulers {
                     " Points A,B,C and D are cyclic iff ∠[ACB] = ∠[ADB].",
 
                     "* 9",
-                    " If Cyclic( A,B,M,N),  then ∠[AB, AM] = ∠[BN,NM].  Hence we have  ∠[AB, CD] = ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM]] + ∠[AM, CD].",
+                    " If Cyclic(A,B,M,N),  then ∠[AB, AM] = ∠[BN,NM].  Hence we have  ∠[AB, CD] = ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM]] + ∠[AM, CD].",
 
                     "* 10",
                     " Rule 10.",
@@ -201,7 +200,7 @@ public class rulers {
                     " If AB is the diameter of the circumcircle of triangle ABC and D is on the circumcircle, then for any line FG, we have ∠[CD,FG] = ∠[DBA] + ∠[ACB] + ∠[BC, FG]].",
 
                     "* 12",
-                    "If O is the intersection of Circle(O1, O P1 P3 I ) and Circle(O2, O P2 P4 J ) and Collinear(O, I, J), then ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4].",
+                    "If O is the intersection of Circle(O1, O P1 P3 I) and Circle(O2, O P2 P4 J) and Collinear(O, I, J), then ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4].",
 
                     "* 13",
                     " If O is the circumcenter of triangle ABC, then ∠[BOC] = 2 * ∠[BAC].",
@@ -257,5 +256,262 @@ public class rulers {
 
                     "* END.",
 
+            };
+
+    final public static String[] FULL_German =
+            {
+                    "* 1 # Die Definition eines Vollwinkels.",
+                    "Ein Vollwinkel ist definiert als ein geordnetes Paar von zwei Geraden u und v und wird als ∠[u,v] bezeichnet.",
+
+                    "* 2",
+                    "∠[u,v] =  - ∠[v,u].",
+
+                    "* 3",
+                    "∠[u,v] = ∠[0] genau dann, wenn u ∥ v  (einschließlich u = v).",
+
+                    "* 4",
+                    "∠[u,v] = ∠[1] genau dann, wenn u ⊥ v.",
+
+                    "* 5 # Addition eines Vollwinkels.",
+                    "∠[u,s] + ∠[s,v] = ∠[u,v].  Diese Regel gilt bei der Aufteilung eines Winkels in zwei oder mehrere Winkel.",
+                    "Beispielsweise gilt ∠[u,v] =  ∠[u,m] +  ∠[m,v] für eine beliebige Gerade m.",
+
+                    "* 6",
+                    "Wenn l ⊥ v oder ∠[l,v] = ∠[1],  dann ist ∠[u,v] = ∠[u,l] + ∠[l,v] = ∠[u,l] + ∠[1].",
+                    "Ist beispielsweise AC ⊥ BC, dann ist ∠[CBA] = ∠[BAC] + ∠[1].",
+
+                    "* 7",
+                    " Das Gleichschenklige Dreieck-Theorem für Vollwinkel.",
+                    " Ist AC = BC, gilt ∠[ABC] = ∠[CAB]. Umgekehrt, wenn ∠[ABC] = ∠[CAB], dann gilt AB = AC oder A, B und C sind kollinear.",
+
+                    "* 8",
+                    " Das Kreiswinkel-Theorem.",
+                    " Die Punkte A, B,C und D sind genau dann zyklisch, wenn ∠[ACB] = ∠[ADB].",
+
+                    "* 9",
+                    " Sind A, B, M und N zyklisch gilt ∠[AB, AM] = ∠[BN,NM].  Daher gilt  ∠[AB, CD] = ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM]] + ∠[AM, CD].",
+
+                    "* 10",
+                    " Regel 10.",
+
+                    "* 11",
+                    " Ist AB der Durchmesser des Umkreises des Dreiecks ABC und Punkt D liegt darauf, dann gilt für jede Strecke FG ∠[CD,FG] = ∠[DBA] + ∠[ACB] + ∠[BC, FG]].",
+
+                    "* 12",
+                    " Ist O der Schnittpunkt der Kreise (O1, O P1 P3 I) und (O2, O P2 P4 J) und O, I und J sind kollinear dann gilt ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4].",
+
+                    "* 13",
+                    " Ist O der Umkreismittelpunkt des Dreiecks ABC, dann gilt: ∠[BOC] = 2 * ∠[BAC].",
+
+                    "* 14",
+                    " Ist O der Schnittpunkt von AD und BC, dann gilt für einen Kreis (O, A B C D) ∠[AOB] = 2 * ∠[CDA].",
+
+                    "* 15",
+                    " Für einen Kreis (O, A B) bei dem O der Mittelpunkt ist gilt ∠[OAB] = ∠[ABO]. ",
+
+                    "* 16",
+                    " Ist das Dreieck ABE ein rechtwinkliges Dreieck und O der Mittelpunkt der Hypotenuse (i.e. AB), dann gilt für jede Strecke CD",
+                    " ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, CD]  ",
+
+                    "* 17",
+                    " Für einen Kreis (O, ABC) bei dem D der Mittelpunkt von BC ist gilt ∠[AB, EF] = ∠[BOD] + ∠[AC, EF].",
+
+                    "* 18",
+                    " Für einen Kreis (O, ABF) bei dem E der Mittelpunkt von AF ist gilt ∠[AB, CD] = ∠[EOA] + ∠[BF, CD].",
+
+                    "* 19",
+                    " Ist G der Höhenschnittpunkt von A, B und C dann gilt ∠[AE, HI] = ∠[AE, BE] + ∠[BE, HI] = ∠[1] + ∠[BE, HI]",
+
+                    "* 20",
+                    " Ist A der Inkreismittelpunkt von P2, K und I dann gilt ∠[AB, CD] = ∠[AB, BK] + ∠[BK, CD] = ∠[1] + ∠[KI, KA] + ∠[IA, IK] + ∠[BK, CD].",
+
+                    "* 21",
+                    " Gleicher Winkel in der Geometry Deductive Datenbank gefunden.",
+
+                    "*  22",
+                    " Ist AB ⊥ AC und AB = AC, dann gilt ∠[AB,AC] = 2 * ∠[AB,BC].",
+
+                    "*  23",
+                    " Ist AB ⊥ AC und AB = AC, dann gilt 2 * ∠[AB,DE] = 2 * ∠[AB,BC] + 2 * ∠[BC,DE] = ∠[1] +2 * ∠[BC,DE].",
+
+                    "*  24",
+                    " Ist OB // DE und A ist auf dem Kreis (O, B) dann gilt 2 * ∠[AB, DE] = ∠[OA,OB]",
+
+                    "*  25",
+                    " Ist A auf dem Kreis (O, B) dann gilt 2 * ∠[AB, DE] = ∠[OA,OB] + 2 * ∠[OA,DE]",
+
+                    "*  26",
+                    " Ist CD ist der Durchmesser des Kreises (A, BCD) und AB ⊥ CD, dann gilt  2 * ∠[DB,BA]  = ∠[0].",
+
+                    "*  27",
+                    " Sind A, B, C, D und E zyklisch und AC = AB, dann ist 2*∠[AB, BC] =  ∠[CE, ED].",
+
+                    "*  28",
+                    " Sind A, B, E, F und G zyklisch und AE = AF, dann ist 2 * ∠[AB, CD] =  2 * ∠[BE, CD] + ∠[EG, GF].",
+
+                    "*  29",
+                    " Ist AB = AC = BC, i.e., triangle ABC is an equilateral triangle, then 3 * ∠[AB, BC] = ∠[0].  ",
+
+                    "* END.",
+
+            };
+
+    final public static String[] GDD_German =
+            {
+                    "* 1",
+                    "Gilt AB ∥ BC, dann sind A, B und C kollinear.",
+
+                    "* 2",
+                    "Für zwei Winkel ∠[l1,l2], ∠[l3,l4] gilt: Ist l1 = l3 und l2 ∥ l4, dann ist ∠[l1,l2] = ∠[l3,l4].",
+                    "Beispielsweise gilt im Parallelogramm ABCD AD ∥ BC und AC = CA, und somit auch ∠[CAD] = ∠[ACB].",
+
+                    "* 3",
+                    "Ist AB ∥ CD und E der Schnittpunkt von AC und BD, dann gilt EA / EC = EB / ED.",
+
+                    "* 4 ",
+                    "Wenn AB ∥ CD und CD ⊥ EF, dann gilt AB ⊥ EF.",
+
+                    "* 5",
+                    "Wenn AB ⊥ CD, dann gilt ∠[AB,CD] = [1] (oder 90 Grad).",
+
+                    "* 6",  
+                    "Im rechtwinkligen Dreieck ACB gilt ∠C = [1], wenn der Mittelpunkt (E, A B) ist, dann ist der Umkreismittelpunkt (E, A B C) und EA = EB = EC.",
+
+                    "* 7",
+                    "Wenn AB ⊥ CD und CD ⊥ EF, dann gilt AB ∥ EF.",
+
+                    "* 8",
+                    "Für vier Punkte A, B, C und D gilt: Wenn AC ⊥ BC und AD ⊥ BD, dann sind A,B,C,D zyklisch.",
+
+                    "* 9",
+                    "Für einen Kreis c(O, AB) und einen Punkt C auf dem Kreis c gilt: Sind A, B und O kollinear, dann sind AC ⊥ BC und ∠ACB = [1]",
+
+                    "* 10",
+                    "Wenn AB der Durchmesser eines Kreises ist und Punkt C auf diesem liegt, dann gilt AC ⊥ BC",
+
+                    "* 11",
+                    "Der Umfangwinkel ist gleich der Hälfte des Mittelpunktwinkels.",
+
+                    "* 12",
+                    "Wenn AB ∥ CD und A, B, C und D zyklisch sind, dann ist ∠ABC = ∠DAB.",
+
+                    "* 13",
+                    "Wenn A, B, C und D zyklisch sind, dann ist ∠ADB = ∠ACB und umgekehrt.",
+
+                    "* 14",
+                    "Sehne-Tangente-Winkel ***** ",
+
+                    "* 15 ",
+                    "Die Gerade, die durch die Mittelpunkte zweier Kreise verläuft, steht senkrecht auf deren gemeinsamen Sehne.",
+                    "Sind beispielsweise AB gemeinsame Punkte der Kreise C1(O,AB) und C2(O1,AB), dann gilt OO1 ⊥ AB.",
+
+                    "* 16",
+                    "Die Addition für Vollwinkel.",
+                    "Ist ∠[l1,l2] = ∠[l3,l4], ∠[l5,l6] = ∠[l7,l8], l2 = l6 und l4 = l7, dann gilt ∠[l1,l4] = ∠[l5,l8] ",
+
+                    "* 17",
+                    "ASPP12.",
+                    "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ∥ l2, dann gilt l3 ∥ l4.",
+                    "Denn wenn l1 ∥ l2 gilt ∠[l1,l2] = [0]. Somit gilt ∠[l3,l4] = [0].",
+
+                    "* 18",
+                    "ASPP13",
+                    "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ∥ l3, dann gilt l2 ∥ l4.",
+                    " ",
+
+                    "* 19",
+                    "ASTT12",
+                    "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ⊥  l2, dann gilt l3 ⊥ l4.",
+
+                    "* 20",
+                    "ASTT13",
+                    "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ⊥  l3, dann gilt l2 ⊥ l4.",
+
+                    "* 21",
+                    "Spezielle Winkel",
+
+                    "* 22",
+                    "Supplementärwinkel",
+
+                    "* 23",
+                    "Gleichschenkliges Dreieck.",
+
+                    "* 24 Satz des gleichschenkligen Dreiecks.",
+                    "Sei ABC ein gleichschenkliges Dreieck und sei Punkt D auf der Seite BC. Wenn eine der folgenden Aussagen wahr ist, sind die anderen zwei auch wahr:",
+                    "1. AD ⊥ BC     2. D ist der Mittelpunkt von BC    3. ∠BAD = ∠DAC",
+
+                    "* 25 ",
+                    "Kongruentes Dreieck. ",
+                    "Dreiecke sind kongruent, wenn sie in Größe und Form gleich sind. Das heißt, dass die dazugehörigen Winkel gleich groß sind und die Seiten die gleiche Länge haben.",
+
+                    "* 26  #WSW",
+                    "WSW- (Winkel-Seite-Winkel) Kongruenz: ",
+                    "Zwei Dreiecke sind kongruent, wenn zwei der Winkel und die davon eingeschlossene Seite gleich sind.",
+
+                    "* 27 #SWS",
+                    "SWS- (Seite-Winkel-Seite) Kongruenz",
+                    "Zwei Dreiecke sind kongruent, wenn zwei Seiten und der davon eingeschlossene Winkel gleich sind.",
+
+                    "* 28 #SSS",
+                    "SSS- (Seite-Seite-Seite) Kongruenz",
+                    "Zwei Dreiecke sind kongruent, wenn deren Seiten gleich sind.",
+
+                    "* 29 #SWS",
+                    "SWS- (Seite-Winkel-Seite) Kongruenz für rechtwinklige Dreiecke.",
+                    "Zwei rechtwinklige Dreiecke sind kongruent, wenn deren zwei entsprechenden kartesischen Ecken gleich sind.",
+
+                    "* 30",
+                    "Ähnliche Dreiecke",
+                    "Ähnliche Dreiecke sind Dreiecke, die dieselbe Form haben aber möglicherweise unterschiedlich groß sind - die dazugehörigen Winkel sind kongruent und die dazugehörigen Seiten sind im gleichen Verhältnis zueinander.",
+
+                    "* 31 #WWW",
+                    "WWW- (Winkel-Winkel-Winkel) Ähnlichkeit",
+                    "Haben zwei Dreiecke zwei entsprechende kongruente Winkel, sind die Dreiecke ähnlich. Da die Summe der Winkel in einem Dreieck PI sein muss, muss nur klar sein, dass diese beiden Paare von entsprechenden Winkeln kongruent sind, um zu wissen, dass die Dreiecke ähnlich sind.",
+
+                    "* 32 #SWS",
+                    "SWS- (Seite-Winkel-Seite) Ähnlichkeit",
+                    "Die Seiten-Winkel-Seiten-Ähnlichkeit besagt, dass zwei Dreiecke ähnlich sind, wenn sie zwei  Seiten im gleichen Verhältnis haben und die eingeschlossenen Winkel kongruent sind.",
+
+                    "* 33 #SSS",
+                    "SSS (Seite-Seite-Seite) Ähnlichkeit",
+                    "Sind alle drei Seiten zweier Dreiecke im gleichen Verhältnis, sind die Dreiecke ähnlich.",
+
+                    "* 34",
+                    "Verhältnis durch Ähnlichkeit",
+
+                    "* 35",
+                    "Satz der Mittelparallelen für Dreiecke",
+                    "Die Strecke, die die Mittelpunkte zweier Seiten eines Dreiecks verbindet, ist parallel zur dritten Seite des Dreiecks.",
+
+                    "* 36",
+                    "Die Hypotenuse eines rechtwinkligen Dreiecks ist gleich dem Durchmesser des Umkreises des Dreiecks und deren Mittelpunkt ist gleich dem Mittelpunkt des Umkreises.",
+                    "Für ein rechtwinkliges Dreieck ACB gilt: Wenn AC ⊥ BC und D der Mittelpunkt von AB ist, dann ist DC = DA = DB und D der Mittelpunkt des Kreises ABC.",
+
+                    "* 37",
+                    "Gleichseitige Dreiecke",
+                    "Ein gleichseitiges Dreieck ist ein Dreieck in dem die Längen aller drei Seiten gleich sind.",
+
+                    "* 38",
+                    "Satz des Pythagoras",
+                    "In jedem rechtwinkligen Dreieck ist die Fläche des Quadrats, dessen Seite die Hypotenuse (die Seite des rechtwinkligen Dreiecks, die gegenüber des rechten Winkels liegt) ist, gleich der Summe der Flächen des Quadrats deren Seiten die beiden Katheten sind (i.e. die beiden anderen Seiten als die Hypotenuse).",
+
+                    "* 39",
+                    "Die Summe der inneren Winkel eines Dreiecks ist [0]. (oder 180 Grad für herkömmliche Dreiecke).",
+
+                    "* 40",
+                    "Parallelogram ",
+                    "Ein Parallelogramm ist ein Viereck mit zwei Paaren von gegenüberliegenden parallelen Seiten.",
+
+                    "* 41",
+                    "Satz der Mittelparallelen für Trapeze",
+
+                    "* 42",
+                    "Verhältnis",
+                    "Verwendung des Verhältnisses in der deduktiven Datenbank-Methode.",
+
+                    "* 43",
+                    "Verhältnis durch die Winkelhalbierende",
+                    "Im Dreieck ABC gilt: Ist AD die Winkelhalbierende von Winkel A und D liegt auf der Strecke BC, dann ist AB/BD = AC/DC. ",
+                    "*END",
             };
 }

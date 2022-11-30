@@ -34,7 +34,8 @@ public class GApplet1 extends JApplet {
             this.setAppletGridColor();
             CMisc.initFont();
             msymbol.createAllIcons();
-            RuleList.loadRulers();
+            String lang = "English"; //Set language to English
+            RuleList.loadRulers(); //Pass English to loadRulers
             gib.initRulers();
             CMisc.homedir = this.getDocumentBase();
 

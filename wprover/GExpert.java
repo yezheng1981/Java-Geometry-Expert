@@ -81,6 +81,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     private JToggleButton BK1, BK2, BK3, BK4;
     private Vector iconPool = new Vector();
     public String _command;
+    public static String lan = null;
 
     public GExpert() {
         super();  //GAPPLET.
@@ -94,9 +95,12 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 //        setLocal();
 //        showWelcome();
         CMisc.initFont();
+
+        loadPreference(); //swapped loadPreference() and loadRules() because loadPreference needs to happen first.
+        loadLanguage(); // this was after loadrules and loadpreference. real order: loadRules, LoadPreference, loadLanguage
         loadRules();
-        loadPreference();
-        loadLanguage();
+
+
         initAttribute();
         setLookAndFeel();
         initKeyMap();
@@ -190,6 +194,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         File f = new File(user_directory + "/language/" + CMisc.lan + ".lan");
         language.load(f);
         Language.setLanugage(language);
+        System.out.println("Language loaded: "+CMisc.lan);
+        lan = CMisc.lan; //setting lan to current language so RuleList can read it.
     }
 
     public void initAttribute() {

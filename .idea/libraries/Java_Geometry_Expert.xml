@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Java-Geometry-Expert">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/convert.jar!/" />
+      <root url="jar://$PROJECT_DIR$/update.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

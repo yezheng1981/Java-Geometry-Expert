@@ -23,6 +23,9 @@ public class RuleList {
 
     }
 
+
+
+
     final public static Vector GDDLIST = new Vector();
     final public static Vector FULLLIST = new Vector();
 
@@ -116,10 +119,21 @@ public class RuleList {
 
     }
 
+
+
     final public static void loadRulers() {
-        loadRulers(rulers.GDD, GDDLIST, 0);
-        loadRulers(rulers.FULL, FULLLIST, 1);
-    }
+
+        if(GExpert.lan.equals("English")) { //only load the math vocab from the correct language "database"
+            loadRulers(rulers.GDD_English, GDDLIST, 0);
+            loadRulers(rulers.FULL_English, FULLLIST, 1);
+        }
+        if(GExpert.lan.equals("German")) {
+            loadRulers(rulers.GDD_German, GDDLIST, 0);
+            loadRulers(rulers.FULL_German, FULLLIST, 1);
+        }
+
+
+        }
 
     final public static void writeRulers(File file, File file2) {
         try {

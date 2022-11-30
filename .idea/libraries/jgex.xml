@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jgex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/output/jgex.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
