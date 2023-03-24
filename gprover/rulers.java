@@ -183,7 +183,7 @@ public class rulers {
                     "For example, if we have AC ⊥ BC, then  ∠[CBA] = ∠[BAC] + ∠[1].",
 
                     "* 7",
-                    " The Isoceless Triangle Theorem for Full Angle.",
+                    " The Isosceles Triangle Theorem for Full Angle.",
                     " If AC = BC, we have ∠[ABC] = ∠[CAB]. Conversely, if ∠[ABC] = ∠[CAB], then AB = AC or A, B and C are collinear.",
 
                     "* 8",
