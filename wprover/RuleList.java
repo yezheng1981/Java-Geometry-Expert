@@ -141,6 +141,10 @@ public class RuleList {
         if(GExpert.lan.equals("German")) {
             loadRulers(rulers.GDD_German, GDDLIST, 0);
             loadRulers(rulers.FULL_German, FULLLIST, 1);
+        }
+        else if(GExpert.lan.equals("Serbian")) {
+            loadRulers(rulers.GDD_Serbian, GDDLIST, 0);
+            loadRulers(rulers.FULL_Serbian, FULLLIST, 1);
         } else { // use English by default
             loadRulers(rulers.GDD_English, GDDLIST, 0);
             loadRulers(rulers.FULL_English, FULLLIST, 1);
