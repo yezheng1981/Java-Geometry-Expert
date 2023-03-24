@@ -77,6 +77,7 @@ This fork is maintained by Zoltán Kovács (PHDL Linz, Austria). The following c
 some features in this version:
 <ul>
  <li>Jorge Cassio (Portuguese translation)
+ <li>Alexander Vujic (Serbian translation)
  <li>Benedek Kovács (Localization support)
  <li>Alexander Thaller (German translation)
  <li>Engelbert Zeintl (German translation)

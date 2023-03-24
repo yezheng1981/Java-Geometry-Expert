@@ -31,6 +31,8 @@ public class Language {
             Locale.setDefault(Locale.GERMAN);
         else if(stype.equalsIgnoreCase("Portuguese"))
             Locale.setDefault(new Locale("pt", ""));
+        else if(stype.equalsIgnoreCase("Serbian"))
+            Locale.setDefault(new Locale("rs", ""));
         else if(stype.equalsIgnoreCase("Persian"))
         {
          //Locale.setDefault(Locale.P);   
