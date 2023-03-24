@@ -20,7 +20,7 @@ public class rulers {
             "If AB ⊥ CD, then ∠[AB,CD] = [1] (or 90 degrees).",
 
             "* 6",
-            "In right triangle ACB, ∠C = [1], if  midpoint(E, A B), then Circumcenter (E,A B C) and EA = EB = EC.",
+            "In right triangle ACB, ∠C = [1], if  midpoint(E, A B), then Circumcenter(E,A B C) and EA = EB = EC.",
 
             "* 7",
             "If AB ⊥ CD and CD ⊥ EF, then AB ∥ EF.",
@@ -79,10 +79,10 @@ public class rulers {
             "Supplementary Angle",
 
             "* 23",
-            "Isoceless Triangle.",
+            "Isosceles Triangle.",
 
-            "* 24 Isoceless Triangle Theorem.",
-            "For a isoceless triangle ABC and a point D on line BC, if any one of following statement is true, the other two are also true .",
+            "* 24 Isosceles Triangle Theorem.",
+            "For a isosceles triangle ABC and a point D on line BC, if any one of following statement is true, the other two are also true .",
             "1. AD ⊥ BC     2. D is the midpoint of BC   3. ∠BAD = ∠DAC",
 
             "* 25 ",
@@ -133,7 +133,7 @@ public class rulers {
             "For a right triangle ACB, if AC ⊥ BC and D is the midpoint of AB,  then DC = DA = DB, D is the center of circle ABC.",
 
             "* 37",
-            "Equalateral Triangles",
+            "Equilateral Triangles",
             "An equilateral triangle is a triangle in which all three sides have equal lengths.",
 
             "* 38",
@@ -148,7 +148,7 @@ public class rulers {
             "A parallelogram is a quadrilateral with two sets of opposite parallel sides.",
 
             "* 41",
-            "Middle Connection Theorem for Trapzoid",
+            "Middle Connection Theorem for Trapezoid",
 
             "* 42",
             "Ratio ",
