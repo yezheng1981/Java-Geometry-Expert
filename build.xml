@@ -12,7 +12,7 @@
     <property name="date" value="2021Jul12"/>
     <property name="bundled_jdk" value="&quot;c:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.1/jbr&quot;"/>
 
-    <!-- Step 0:  detect OS and set some variables for later use -->
+    <!-- Step 0:  detect OS and set some variables for later use (ZIP package creation) -->
     <target name="checkos">
         <condition property="platform" value="windows64">
             <os family="windows" />
@@ -23,14 +23,14 @@
         </condition>
     </target>
 
-    <!-- Step 1:  clean already existing directory and files -->
+    <!-- Step 1:  clean already existing directories and files -->
     <target name="clean">
        <delete dir="${dest}"/>
+       <delete dir="${out}" />
     </target>
 
-
     <!-- Step 2:  create output directories -->
-    <target name="init" description="Initialize" depends="clean">
+    <target name="init" description="Initialize">
         <mkdir dir="${dest}/maths"/>
         <mkdir dir="${dest}/gprover"/>
         <mkdir dir="${dest}/UI"/>
@@ -38,16 +38,11 @@
         <mkdir dir="${dest}/pdf"/>
     </target>
 
-
-    <!-- Step 3:  compile all .java files, here we have four packages totally -->
-    <target name="compile" depends="clean, init" description="compiling jgex">
-        <javac  srcdir="${src}/pdf" destdir="${dest}" debug="off" nowarn="on" source="8" />
-        <javac  srcdir="${src}/UI" destdir="${dest}" debug="off" nowarn="on" source="8" />
-        <javac  srcdir="${src}/maths" destdir="${dest}" debug="off" nowarn="on" source="8" />
-        <javac  srcdir="${src}/gprover" destdir="${dest}" debug="off" nowarn="on" source="8" />
-        <javac  srcdir="${src}/wprover" destdir="${dest}" debug="off" nowarn="on" source="8" />
+    <!-- Step 3:  compile all .java files, here we have five packages totally -->
+    <target name="compile" depends="init" description="compiling jgex">
+        <javac  srcdir="${src}" destdir="${dest}" includes="pdf/**, UI/**, maths/**, gprover/**, wprover/**"
+                debug="off" nowarn="on" source="8" includeantruntime="false"/>
     </target>
-
 
     <!-- Step 4:  copy all images to destination before generating jar file  -->
     <target name="copy-images" depends="compile"
@@ -62,22 +57,17 @@
             <fileset dir="${src}/wprover/images/about">
                 <exclude name="**/**/**/head*.*"/>
                 <exclude name="**/**/**/*.db"/>
-
             </fileset>
         </copy>
 
     </target>
 
-
     <!-- Step 5:  build jgex.jar file -->
     <target name="build" depends="compile, copy-images" description="building jgex">
-<!--         <delete dir="${out}"/>
-        <mkdir dir="${out}"/>   -->
         <jar jarfile="${out}/${jgex_jar}" manifest="./MANIFEST.MF" basedir="${dest}"/>
     </target>
 
-
-    <!-- Step 6:  copy all resources(examples, rules and help) to output folder -->
+    <!-- Step 6:  copy all resources (examples, rules and help) to output folder -->
     <target name="copy-resources" depends="build"
             description="Copy resources to output folder">
 
@@ -107,34 +97,32 @@
 
     </target>
 
-    <!-- Step 7:  run  JGEX -->
-    <target name="run_all" depends="build" description="Run jar file">
+    <!-- Step 7:  run JGEX -->
+    <target name="run_all" depends="build" description="Run jar file (after rebuild)">
         <java jar="${out}/${jgex_jar}" classpath="${out}/"
               fork="true"
               failonerror="true"
               maxmemory="128m"/>
     </target>
 
+    <!-- Step 8:  default action, build jgex.jar and run all -->
+    <target name="all" depends="init, compile, copy-resources, copy-images, build, run_all"
+            description="build and run all"/>
 
-    <!-- Step 8:  default act, build jgex.jar and run all -->
-    <target name="all" depends="clean, init, compile, copy-resources,copy-images, build, run_all" description="build and run all"/>
+    <!-- Rebuild jgex.jar and run all -->
+    <target name="all_rebuild" depends="clean, all"
+            description="rebuild and run all"/>
 
-
-    <!-- Build Applet 1 for simple ainmation. -->
-
-      
-
+    <!-- Build Applet 1 for simple animation. -->
     <target name="build1" depends="compile" description="building jgex1">
         <delete dir="${out}"/>
         <mkdir dir="${out}"/>
         <jar jarfile="${out}/${jgex_jar}" manifest="./MANIFEST1.MF" basedir="${dest}"/>
     </target>
 
-
     <target name="gexApp1" depends="clean, init, compile,copy-images, build1" description="build applet 1"/>
 
-
-    <!-- run. This just run jar file without rebuild. -->
+    <!-- run. This just runs jar file without rebuild. -->
     <target name="run" description="Run jar file">
         <java jar="${out}/${jgex_jar}" classpath="${out}/"
               fork="true"
@@ -142,7 +130,7 @@
               maxmemory="128m"/>
     </target>
 
-    <!-- Optional. Create a Debian package. -->
+    <!-- Optional. Create a Debian package (only on Linux). -->
     <target name="deb_package">
       <get src="https://repo1.maven.org/maven2/org/vafer/jdeb/1.9/jdeb-1.9.jar" dest="jdeb.jar"
            skipexisting="true"/>
@@ -178,10 +166,8 @@
              --mainclass wprover.GExpert
              --resources examples help language rules --output jgex-${version}-${platform}-${date}"/>
       </exec>
-
       <zip destfile="${out}/jgex-${version}-${platform}-${date}.zip"
            basedir="${out}/jgex-${version}-${platform}-${date}" update="true"/>
-
     </target>
 
 </project>
