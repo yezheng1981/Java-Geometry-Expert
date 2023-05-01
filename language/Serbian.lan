@@ -12,105 +12,105 @@ Font: Dialog # 0 # 14
 7	# Print 	 	   						# Štampaj
 8	# Exit 	    							# Izlaz
 9	# Select 	    						# Izaberi
-10	# Move 	    							# Pomjeri
+10	# Move 	    							# Pomeri
 11	# Geometry Expert 						# Ekspert za geometriju
 12	# Save as Image 						# Sačuvaj kao sliku
-13	# Save as Animated Image 				# Sačuvaj kao animiranu sliku
+13	# Save as Animated Image 				# Sačuvaj kao animaciju
 
 14	# Save as PDF                			# Sačuvaj kao PDF
-15	# Save Proof as Animated Image  	 	# Sačuvaj dokaz kao animiranu sliku
+15	# Save Proof as Animated Image  	 	# Sačuvaj dokaz kao animaciju
 	* End of File Menu
 
 
 	* Examples Menu
-19	# Examples								# Primjeri
+19	# Examples								# Primeri
 	* End of Example Menu
 
 
 	* Construct Menu
 20	# Construct 							# Konstruiši
 21	# Point by Point and Segment 			# Tačka po tačka i duž  ???
-22	# Radical of Two Circles 				# Radikal dvije kružnice
+22	# Radical of Two Circles 				# Radikalna osa dva kruga
 		23#	Oriented Segment 					# Vektor
-		24#	Oriented T Segment 					# Normalvektor
+		24#	Oriented T Segment 					# Vektor normale
 25	# Other.. 								# Ostalo..
 		27#	Oriented Segment * Ratio 			# Vektor * Skalar
 		28#	Oriented T Segment * Ratio 			# Normalvektor * Skalar
 
-31	#	Proportional Segment 				# Proporcionalna dužina
+31	#	Proportional Segment 				# Proporcionalne duži
 
 33	# Point 								# Tačka
-		34#	Midpoint 							# Srednja tačka ???
+		34#	Midpoint 							# Središte duži
 35	# Circumcenter 							# Centar opisane kružnice
 36	# Centroid 								# Težište
 37	# Orthocenter 							# Ortocentar
 38	# Incenter 								# Centar upisane kružnice
-39	# Foot 									# Stopalo visine
-40	# Line 										# Prava / Linija ???
+39	# Foot 									# Podnožje visine
+40	# Line 										# Prava
 41	# Parallel Line 						# Paralelna prava
 42	# Perpendicular Line 					# Normalna prava
-		43#	ALine 								# A-prava ???
-		44#	Perp-Bisect Line 				# Pravac simetrije i deljenja
+		43#	ALine 								# A-prava
+		44#	Perp-Bisect Line 				# Simetrala duži
 45	#	Tangent Line 						# Tangenta
 46	#	Parallel 							# Paralelno
 47	#	Perpendicular 						# Pravolinijska
-50 	# Circle 								# Kružnica
-51	# Circle by Three Points 				# Kružnica zadana tri tačke
-	52 	# Circle by Radius 						# Kružnica zadana poluprečnikom / radius ???
+50 	# Circle 								# Krug
+51	# Circle by Three Points 				# Krug zadana tri tačke
+	52 	# Circle by Radius 						# Krug zadana poluprečnikom
 
 60 	# Action 								# Akcija
 61 	# Intersect 							# Presek
-		62 	#	Mirror 							# Reflektovati / Ogledati ???
+		62 	#	Mirror 							# Reflektovati
 
-70	# Polygon 								# Poligon
+70	# Polygon 								# Mnogougao
 71	# Triangle 								# Trougao
 72	# Isosceles Triangle 					# Jednakokraki trougao
-73	# Equilateral Triangle 					# Jednakostranicni trougao
+73	# Equilateral Triangle 					# Jednakostranični trougao
 74	# Right-angled Triangle 				# Pravougli trougao
 75	# Isosceles Right-angled Triangle 		# Jednakokraki pravougli trougao
-76	# Quadrangle 							# Cetvorougao
+76	# Quadrangle 							# Četvorougao
 77	# Parallelogram  						# Paralelogram
 78	# Trapezoid  							# Trapez
 79	# Right-angled Trapezoid 				# Pravougli trapez
 80	# Rectangle  							# Pravougaonik
 81	# Square  							 	# Kvadrat
 82	# Pentagon 								# Petougao
-83	# Polygon  								# Poligon
+83	# Polygon  								# Mnogougao
 		84	# Hexagon 	 							# Sestougao / Heksagon ???
 
 90	# Special Angles 						# Posebni uglovi
 100 # Constraint  							# Ogranicenje
 101 # Eqangle  								# Jednak ugao
 102 # Nteqangle  							# Suprotan ugao
-103 # Eqangle3p  							# Ugao izmedju tri tacke
+103 # Eqangle3p  							# Ugao određen sa tri tačke
 104 # Angle Specification 					# Specifikacija ugla
 105 # Equal Ratio 							# Jednak odnos
 106 # Equal Distance  						# Jednaka udaljenost
-107 # CCtangent  							# Tangenta iz tacke na krug
+107 # CCtangent  							# Tangentni krugovi
 108 # Ratio Distance  						# Odnos udaljenosti
 	* End of Construct Menu
 
 	* Action Menu
 120 # Trace 								# Trag
-121 # Locus  								# Mesto
+121 # Locus  								# Geometrijsko mesto tačaka
 122 # Animation  							# Animacija
-123 # Fill Polygon 							# Popuni poligon
+123 # Fill Polygon 							# Popuni mnogougao
 124 # Measure Distance  					# Izmeri udaljenost
-125 # Equal Mark 							# Jednaka oznaka
+125 # Equal Mark 							# Oznaka za jednakost duži
 126 # Right-angle Mark 	 					# Oznaka za prav ugao
 127 # Hide Object  							# Sakrij objekat
-128 # Show Object  							# Prikazi objekat
+128 # Show Object  							# Prikaži objekat
 129 # Transform  							# Transformisi
 130 # Equivalence  							# Ekvivalentnost
 131 # Free Transform  						# Slobodna transformacija
-		132 # Calculation 						# Izračunavanje / Kalkulacija ???
+		132 # Calculation 						# Izračunavanje
 133 # Arrow             					# Strelica
 	* End of Action Menu
 
 	* Lemmas Menu
 140 # Lemmas 								# Lema
-	141 #	Rulers for Full Angle 				# Zakon za pun ugao ???
-	142 #	Rulers for GDD 						# Zakon za GDD
+	141 #	Rules for Full Angle 				# Pravila izvođenja za pun ugao
+	142 #	Rules for GDD 						# Pravila izvođenja za GDD
 	* End of Lemmas Menu
 
 	* Prove Menu
@@ -120,7 +120,7 @@ Font: Dialog # 0 # 14
 153 #	Nondegenerate Conditions  			# Uslovi nedegenarisanosti
 154 #	Polynomials 						# Polinomi
 155 #	Option  							# Opcija
-156 #	Preference  						# Prednost
+156 #	Preference  						# Podešavanja
 157 #	Construct History  					# Istorija konstrukcije
 158 #	Show Step Bar  						# Prikaz trake koraka
 159 # Style Dialog            				# Stil Dialog
@@ -129,8 +129,8 @@ Font: Dialog # 0 # 14
 	* Help Menu
 160 # Help 			       					# Pomoć
 161 # Online Help 		    				# Onlajn Pomoć
-162 # About JGEX 		    				# Preko JGEX
-163 # Check for Update						# Proveri za Updates
+162 # About JGEX 		    				# O JGEX-u
+163 # Check for Update						# Dostupna ažuriranja
 164 # Help on Mode      				    # Pomoć u vezi moda
 165 # JGEX Homepage    				 	    # JGEX Homepage
 167 # Contact Us         				    # Kontakt
@@ -183,7 +183,7 @@ Font: Dialog # 0 # 14
 243 #	Reload 								# Učitaj ponovo
 244 #	NDGs 								# NDGs
 	245 #	Name 								# Naziv / Oznaka ???
-246 #	Variable 							# Varijabla
+246 #	Variable 							# Promenljiva
 247 #	Length 								# Dužina
 248 #	Polynomial 							# Polinom
 249 #	Cut 								# Iseci
@@ -227,11 +227,11 @@ Font: Dialog # 0 # 14
 
 	* Preference Dialog
 357 #	Preference 							# Preferenca
-358 #	Polygon Alpha 						# Poligon Alfa
+358 #	Polygon Alpha 						# Mnogougao Alfa
 359 #	Radius of Point 					# Poluprečnik tačke
 360 #	Point's Text 						# Tekst tačke
 361 #	Show Text 							# Prikaži tekst
-362 #	Default Font 						# Podrazumevana fonta
+362 #	Default Font 						# Podrazumevani font
 363 #	Angle Text  						# Tekst ugla
 364 #	None  								# Nijedan
 365 #	Label  								# Oznaka
@@ -248,7 +248,7 @@ Font: Dialog # 0 # 14
 	376 #	Display  							# Prikaz / Ektran ???
 3761#	Font  								# Font
 377 #	BackGround Color  					# Boja pozadine
-378 #	Choose Color  						# WOdaberite boju
+378 #	Choose Color  						# Odaberite boju
 	379 #	Change Color  						# Izmeni boju / Promeni boju ???
 
 388 #	Color Mode 							# Režim boja
@@ -269,13 +269,13 @@ Font: Dialog # 0 # 14
 403 #	perpendicular lines 				# normalne linije
 	404 #	midpoints 							# Srednje tačke ???
 405 #	circles 							# krugovi
-406 #	congruent segments 					# kongruentni segmenti
-407 #	congruent angles 					# kongruentni uglovi
+406 #	congruent segments 					# podudarne duži
+407 #	congruent angles 					# podudarne uglovi
 408 #	similiar triangles 					# slični trouglovi
-409 #	congruent triangles 				# kongruentni trouglovi
+409 #	congruent triangles 				# podudarne trouglovi
 410 #	special angles 						# Specijalni uglovi
 	411 #	perp-acong angles 					# perp-acong uglovi / Pravolinijski uglovi koji su kongruentni ???
-412 #	ratio segments 						# Odnos segmenata
+412 #	ratio segments 						# Odnos duži
 	* End of Fixpoint
 
 	* Line Property
@@ -287,8 +287,8 @@ Font: Dialog # 0 # 14
 	* End of Line Property
 
 	* Preference
-	501 #	Save Preference 					# Sačuvaj opcije / Sačuvaj postavke ???
-	502 #	Can not Save Preference 			# Ne mogu da sačuvam postavke ???
+	501 #	Save Preference 					# Sačuvaj postavke
+	502 #	Can not Save Preference 			# Ne mogu da sačuvam postavke
 503 #	Save Preference Successfully 		# Opcije uspešno sačuvane
 504 #	Failed 								# Neuspešno
 505 #	Default 							# Zadano
@@ -302,7 +302,7 @@ Font: Dialog # 0 # 14
 	601 #	Font Chooser 						# Birač fonta / Odaberite font ???
 602 #	Font 								# Font
 603 #	Effects 							# Efekti
-	604 #	Bold 								# Podebljano / Debelo ???
+	604 #	Bold 								# Podebljano
 605 #	Italic 								# Italik
 606 #	Underline 							# Podvučeno
 607 #	Strikethrough 						# Precrtano
@@ -338,9 +338,9 @@ Font: Dialog # 0 # 14
 1009 #	Diagram Not Completed 												# Dijagram nije završen
 1010 #	is trivially true 													# Je trivijalno tačno
 	1011 #	is obviously true  (by hypothesis) 								# Je očigledno tačno (po hipotezi) / Očigledno je istinito (prema hipotezi) ???
-1012 #	Can not prove this theorem. 										# Nije moguće dokazati ovaj teorem.
+1012 #	Can not prove this theorem. 										# Nije moguće dokazati ovu teoremu.
 1013 #	Point filled with background color 									# Tačka sa popunjenom pozadinom
-1014 #	Proof text 															# Dokazni tekst
+1014 #	Proof text 															# Tekst dokaza
 1015 #	Colorful 															# Šareno
 
 
@@ -353,16 +353,16 @@ Font: Dialog # 0 # 14
 1021 #	However, JGEX is an educational tool, not intended for commercial use. 		# Međutim, JGEX je edukativni alat namenjen za nekomercijalnu upotrebu.
 1022 #	Author: 																	# Autor:
 1023 #	for more information,please visit: 											# Za više informacija, molimo posetite:
-1024 #	Choose default foot for point's text 										# Izaberi podrazumevano stopalo za tekst tačke"
-1025 #	The selected two line don't have intersected point 							# Izabrane dve linije nemaju zajedničku tačku preseka."
+1024 #	Choose default foot for point's text 										# Izaberi podrazumevano stopalo za tekst tačke
+1025 #	The selected two line don't have intersected point 							# Dve prave koje ste odabrali se ne seku.
 1026 #	No Intersected point 														# Nema presečne tačke
 1027 #	Angle Specification must be done before drawing anything 					# Specifikacija ugla mora biti izvršena pre crtanja bilo čega.
-1028 #	The two lines you selected are parallel, \n don't have any intersection! 	# Dve linije koje ste izabrali su paralelne, \n nemaju tačku preseka."
+1028 #	The two lines you selected are parallel, \n don't have any intersection! 	# Dve linije koje ste izabrali su paralelne, \n nemaju tačku preseka.
 1029 #	No intersection 															# Nema preseka
-1030 #	The line and the circle you selected don't have any intersection! 			# Linija i krug koje ste izabrali nemaju tačke preseka.
+1030 #	The line and the circle you selected don't have any intersection! 			# Prava i krug koje ste odabrali se ne seku.
 1031 #	The two objects you selected already have two points as their intersections! # Dva objekta koje ste izabrali već imaju dve tačke preseka!
 1032 #	intersection already defined 												# Presek je već definisan.
-1033 #	The circles you selected don't have any intersection 						# Krugovi koje ste odabrali nemaju preseka.
+1033 #	The circles you selected don't have any intersection 						# Krugovi koje ste odabrali se ne seku.
 
 
 1034 #	The two circles you selected already have two points as their intersections # Dva kruga koja ste izabrali već imaju dve tačke kao njihova presečišta.
@@ -387,7 +387,7 @@ Font: Dialog # 0 # 14
 	* Algebraic Proof
 1101 #	The Algebraic Form: 										# Algebarski oblik:
 1102 #	The coordinates  											# Koordinate
-1103 #	The equational hypotheses:  								# Jednačinske pretpostavke:
+1103 #	The equational hypotheses:  								# Jednakosne pretpostavke:
 1104 #	The Triangulized Hypotheses:  								# Triangulirane hipoteze:
 1105 #	The Conclution  											# Zaključak
 1106 #	Successive Pseudo Remainder of CONC wrpt TS :  				# Sukzessive Pseudo Rest von COND im Bezug auf TS :
@@ -399,27 +399,27 @@ Font: Dialog # 0 # 14
 
 	1114 #	The Initial Polynomial Set 									# Početni skup polinoma ???
 1115 #	The Groebner Basis:  										# Groebner Basis:
-1116 #	The Nondegenerate Conditions  								# Nedeformirajući uslovi
+1116 #	The Nondegenerate Conditions  								# Uslovi Nedegenerisanosti
 1117 #	The Conclution After Reduce:  								# Zaključak nakon redukcije:
 
 1130 #	System Run Out Of Memory  									# Sistem je ostao bez memorije
 1131 #	The Theorem Is Not Proved!  								# Teorema nije dokazana!
-	1132 #	The theorem is not proved with the Deductive Database Method! 		# Teorija nije dokazana Deduktivnom metodom baze podataka! ???
+	1132 #	The theorem is not proved with the Deductive Database Method! 		# Teorija nije dokazana metodom Deduktivne baze podataka!
 1133 #	Show Detail  									 			# Pokazi detalje
 1134 #	The conclusion can not be translated to full-angle expression. 		# Zaključak ne može biti preveden u izraz sa punim uglom.
 1135 #	Not Supported  												# Nije podržano
 1136 #	The theorem is not proved with The Full-Angle Method. 		# Teorema nije dokazana metodom punog ugla.
 1137 #	Construction 												# Konstrukcija
 	1138 #	The Simplified Nondegenerate Conditions 					# Pojednostavljeni uslovi neizrodnosti ???
-1139 #	The Final Nondegenerate Conditions 							# Konačni neopozitni uslovi
+1139 #	The Final Nondegenerate Conditions 							# Konačni uslovi nedegenerisanosti
 	* End of Algebraic Proof
 
 
 
 	* Dialog Save As
-2001 	#	Use the LEFT button to select a position 				# Upotrijebite lijevu tipku miša za odabir pozicije
+2001 	#	Use the LEFT button to select a position 				# Upotrebite levi taster miša za izbor pozicije
 2002 	#	Select two points to determine a line 					# Izaberite dve tačke da biste odredili liniju
-2200 	#	Please input two integers 								# BMolim unesite dva cela broja
+2200 	#	Please input two integers 								# Molim unesite dva cela broja
 	2201 	#	Set the ratio 											# Postavi odnos ???
 2300 	#	Please Choose the Client Area 							# Molimo odaberite područje klijenta
 2301 	#	No animation has been defined 							# Nije definisana animacija
@@ -439,7 +439,7 @@ Font: Dialog # 0 # 14
 3002 #	Full Angle Method 											# Metoda punog ugla
 3003 #	Traditional Method 											# Tradicionalna metoda
 3004 #	Area Method 												# Metoda površina
-3005 #	Groebner Basis Method 										# Groebner Basis metoda
+3005 #	Groebner Basis Method 										# Metod Grebnerove baze
 3006 #	Wu's Method 												# Wu-ova metoda
 	3007 # 	Manual Method												# Ručni metod ???
 	* End of Prove Method
@@ -483,7 +483,7 @@ Font: Dialog # 0 # 14
 3157 	#	Equation  												# Jednačina
 3158 	#	Rule  													# Pravilo
 3159 	#	rectangle  												# Pravougaonik
-3160 	#	quadrangle 												# Kvadrilj
+3160 	#	quadrangle 												# Četvorougao
 3161 	#	trapezoid 												# Trapez
 
 
@@ -536,8 +536,8 @@ Font: Dialog # 0 # 14
 4023 	#	Unfreeze  												# Odmrzni
 4024 	#	Stop Trace  											# Zaustavi trag
 	4025 	#	Plain  													# Obično ???
-	4026 	#	Bold  													# Podebljano ???
-	4027 	#	Font Size  												# Veličina fonta ???
+	4026 	#	Bold  													# Podebljano
+	4027 	#	Font Size  												# Veličina fonta
 	* End of Right Button Menu
 
 
