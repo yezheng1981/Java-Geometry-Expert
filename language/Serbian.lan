@@ -109,8 +109,8 @@ Font: Dialog # 0 # 14
 
 * Lemmas Menu
 140 # Lemmas 								# Lema
-141 #	Rules for Full Angle 				# Pravila izvođenja za pun ugao
-142 #	Rules for GDD 						# Pravila izvođenja za GDD
+141 #	Rulers for Full Angle 				# Pravila izvođenja za pun ugao
+142 #	Rulers for GDD 						# Pravila izvođenja za GDD
 * End of Lemmas Menu
 
 * Prove Menu
