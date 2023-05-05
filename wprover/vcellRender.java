@@ -17,6 +17,8 @@ import java.awt.*;
 import java.util.Vector;
 import java.util.EventObject;
 
+import static wprover.GExpert.getLanguage;
+
 /**
  * Created by IntelliJ IDEA.
  * User: yezheng
@@ -173,7 +175,7 @@ class BookCellRenderer extends vcellRender implements TreeCellRenderer {
                 } else if (node.getChildCount() == 0) {
                     int n = c.get_conc_type();
                     if (n != 0) {
-                        setLabelObject1(k++, 0, "   (by HYP)");
+                        setLabelObject1(k++, 0, "   (" + getLanguage("by HYP") + ")");
                     } else if (c.getNo() == 0) {
                         setLabelObject1(k++, 0, "   (in GIB)");
                     }
@@ -390,7 +392,7 @@ class BasicCellEditor extends AbstractCellEditor implements TreeCellEditor {
                 } else if (node.getChildCount() == 0) {
                     int n = c.get_conc_type();
                     if (n != 0) {
-                        setLabelObject1(k++, 0, "   (by HYP)");
+                        setLabelObject1(k++, 0, "   (" + getLanguage("by HYP") + ")");
                     } else if (c.getNo() == 0) {
                         setLabelObject1(k++, 0, "   (in GIB)");
                     }

@@ -3,8 +3,8 @@ Font: Dialog # 0 # 14
 
 	* File Menu
 0# File 	# Datei
-1# New 		# Neu
-2# Open 	# Öffnen
+1# New 		# Neu # Erstelle eine neue Ansicht
+2# Open 	# Öffnen # Öffne eine Datei
 3# Save 	# Speichern
 4# Save as... 	# Speichern unter
 5# Save as PS 	# Speichern als PS
@@ -537,3 +537,6 @@ Font: Dialog # 0 # 14
 
  
 	* Update Dialog 
+
+20001 # by HYP # laut Annahme
+20002 # because # weil

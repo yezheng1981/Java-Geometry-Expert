@@ -22,6 +22,8 @@ import UI.EntityButtonUI;
 import UI.BlueishButtonUI;
 import UI.SolidBorder;
 
+import static wprover.GExpert.getLanguage;
+
 public class RuleApplicationDialog extends JBaseDialog implements ComponentListener, ActionListener, WindowListener {
 
     private GExpert gxInstance;
@@ -304,7 +306,7 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
             int n = v.size();
             if (n != 0) {
                 Color cr = new Color(0, 128, 0);
-                JLabel label = new JLabel("because  ");
+                JLabel label = new JLabel(getLanguage("because") + "  ");
                 label.setForeground(cr);
                 this.add(label);
                 for (int i = 0; i < v.size(); i++) {
