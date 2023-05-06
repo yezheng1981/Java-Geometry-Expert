@@ -141,7 +141,7 @@ Font: Dialog # 0 # 14
 170 #	Translate # Verschieben
 171 #	Zoom-in # Einzoomen
 172 #	Zoom-out # Auszoomen
-173 #	Snap # 
+173 #	Snap # Fang
 174 #	Grid # Gitter
 175 #	LessGrid # Weniger Gitter
 176 #	MoreGrid # Mehr Gitter
@@ -150,7 +150,7 @@ Font: Dialog # 0 # 14
 179 #	FF # 
 180 #	FR # 
 181 #	autoshowstep # 
-182 #	animate_start #   
+182 #	animate_start #  Starte Animation
 	* End of ToolBar
 
 	* Assertion
@@ -163,7 +163,7 @@ Font: Dialog # 0 # 14
 206 #	Equal Angle # Gleicher Winkel
 207 #	Similiar Triangle # Ähnliches Dreieck
 208 #	Congruent Triangle # Kongruentes Dreieck
-209 #	Equalateral Triangle # Gleichseitiges Freieck
+209 #	Equalateral Triangle # Gleichseitiges Dreieck
 210 #	Bisect # Halbieren
 211 #	Tangent # Tangente
 212 #	Equal Product # Gleiches Produkt
