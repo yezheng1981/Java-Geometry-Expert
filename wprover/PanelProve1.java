@@ -1521,19 +1521,30 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         }
     }
 
+    boolean drawStructure = false; // set this to false to get original behavior
+    // TODO: Add this as an option.
+
     private void createNodes(cond co, DefaultMutableTreeNode to) {
         PTNode node = null;
         node = new PTNode(co.getNo() + ". " + co.getText(), co);
         node.tlevel = true;
         to.add(node);
 
-        createSubNode(node, co);
-        if (co.nx != null) {
+        createSubNode(node, co, co);
+        if (!drawStructure && co.nx != null) {
             createNodes(co.nx, to);
         }
     }
 
-    private void createSubNode(DefaultMutableTreeNode node, cond co) {
+    /* Search for a numbered condition in the main tree. */
+    private cond searchSubCond(cond co, int no) {
+        while (co.nx != null && co.nx.getNo() != no) {
+            co = co.nx;
+        }
+        return co.nx;
+    }
+
+    private void createSubNode(DefaultMutableTreeNode node, cond co, cond root) {
 
         if (co.vlist == null) {
             return;
@@ -1550,6 +1561,12 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             }
             DefaultMutableTreeNode nd = new PTNode(st, c);
             node.add(nd);
+            if (drawStructure && num != 0) {
+                cond leaf = searchSubCond(root, num);
+                if (leaf != null) {
+                    createSubNode(nd, leaf, root);
+                }
+            }
         }
     }
 
