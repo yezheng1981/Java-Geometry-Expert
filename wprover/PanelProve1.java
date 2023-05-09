@@ -221,7 +221,9 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
         top = new PTNode("", null);
         tree = new JTree(top);
-        tree.putClientProperty("JTree.lineStyle", "Horizontal");
+        if (!drawStructure) {
+            tree.putClientProperty("JTree.lineStyle", "Horizontal");
+        }
         tree.getSelectionModel().setSelectionMode(TreeSelectionModel.
                 SINGLE_TREE_SELECTION);
         tree.setCellRenderer(new BookCellRenderer(4));
@@ -1521,7 +1523,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         }
     }
 
-    boolean drawStructure = false; // set this to false to get original behavior
+    boolean drawStructure = true; // set this to false to get original behavior
     // TODO: Add this as an option.
 
     private void createNodes(cond co, DefaultMutableTreeNode to) {
