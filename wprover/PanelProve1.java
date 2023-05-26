@@ -1524,9 +1524,11 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
     }
 
     boolean drawStructure = true; // set this to false to get original behavior
+    public static String graphvizProgram = "";
     // TODO: Add this as an option.
 
     private void createNodes(cond co, DefaultMutableTreeNode to) {
+        graphvizProgram = "";
         PTNode node = null;
         node = new PTNode(co.getNo() + ". " + co.getText(), co);
         node.tlevel = true;
@@ -1558,8 +1560,12 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             String st;
             if (num != 0) {
                 st = c.getNo() + ". " + c.getText();
+                // We put the connection between co and c in the GraphViz output:
+                graphvizProgram += co.getNo() + " -> " + c.getNo() + ";\n";
             } else {
                 st = c.getText();
+                // We show not just the number of the node but also its description:
+                graphvizProgram += co.getNo() + " [ label = \"" + co.getText() + "\" ];\n";
             }
             DefaultMutableTreeNode nd = new PTNode(st, c);
             node.add(nd);
