@@ -11,14 +11,14 @@ import java.util.Vector;
 
 public class cond {
     final public static int MAX_GEO = 16;
-    protected int rule = 0;
+    protected int rule = 0; // the rule being used in this step (theorems or lemmas)
     public int pred;
-    public int no;
+    public int no; // the number of the current step
     public int[] p;
     public ustruct u;
-    public cond nx, cd;
-    public String sd = null;
-    public Vector vlist = null;
+    public cond nx, cd; // nx: next
+    public String sd = null; // step description
+    public Vector vlist = null; // the list of the direct steps in this node
     public long dep = gib.depth;
 
     public String getText() {
