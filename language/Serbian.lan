@@ -35,16 +35,16 @@ Font: Dialog # 0 # 14
 24  #	Oriented T Segment 					# Vektor normale
 25	# Other... 								# Ostalo...
 27#	Oriented Segment * Ratio 			    # Vektor * Skalar
-28#	Oriented T Segment * Ratio 			    # Normalvektor * Skalar
+28#	Oriented T Segment * Ratio 			    # Vektor normale * Skalar
 
 31	#	Proportional Segment 				# Proporcionalne duži
 
 33	# Point 								# Tačka
 34  # Midpoint 	    						# Središte duži
-35	# Circumcenter 							# Centar opisane kružnice
+35	# Circumcenter 							# Središte opisanog kruga
 36	# Centroid 								# Težište
 37	# Orthocenter 							# Ortocentar
-38	# Incenter 								# Centar upisane kružnice
+38	# Incenter 								# Središte upisanog kruga
 39	# Foot 									# Podnožje visine
 40	# Line 									# Prava
 41	# Parallel Line 						# Paralelna prava
@@ -53,9 +53,9 @@ Font: Dialog # 0 # 14
 44  # Perp-Bisect Line 	        			# Simetrala duži
 45	#	Tangent Line 						# Tangenta
 46	#	Parallel 							# Paralelno
-47	#	Perpendicular 						# Pravolinijska
+47	#	Perpendicular 						# Normala
 50 	# Circle 								# Krug
-51	# Circle by Three Points 				# Krug zadana tri tačke
+51	# Circle by Three Points 				# Krug zadat sa tri tačke
 52 	# Circle by Radius 						# Krug zadat poluprečnikom
 
 60 	# Action 								# Akcija
@@ -108,9 +108,9 @@ Font: Dialog # 0 # 14
 * End of Action Menu
 
 * Lemmas Menu
-140 # Lemmas 								# Lema
-141 #	Rulers for Full Angle 				# Pravila izvođenja za pun ugao
-142 #	Rulers for GDD 						# Pravila izvođenja za GDD
+140 # Lemmas 								# Leme
+141 #	Rulers for Full Angle 				# Pravila izvođenja za metod punih uglova
+142 #	Rulers for GDD 						# Pravila izvođenja za metod GDD
 * End of Lemmas Menu
 
 * Prove Menu
@@ -137,7 +137,7 @@ Font: Dialog # 0 # 14
 * End of Help Menu
 
 * ToolBar
-170 # Translate 							# Prevedi
+170 # Translate 							# Potez
 171 # Zoom-in 								# Uvećaj
 172 # Zoom-out 								# Smanji
 173 # Snap 									# Snap
@@ -153,23 +153,23 @@ Font: Dialog # 0 # 14
 * End of ToolBar
 
 * Assertion
-200 #	Collinear							# Kolinearan
+200 #	Collinear							# Kolinearno
 201 #	Parallel 							# Paralelan
 202 #	Perpendicular 						# Normalna
 203 #	Midpoint 							# Središte
 204 #	Cyclic 								# Cikličan
-205 #	Equal Distance 						# Jednak razmak
+205 #	Equal Distance 						# Jednako rastojanje
 206 #	Equal Angle 						# Jednak ugao
 207 #	Similiar Triangle 					# Sličan trougao
-208 #	Congruent Triangle 					# Kongruentan trougao
+208 #	Congruent Triangle 					# Podudaran trougao
 209 #	Equalateral Triangle 				# Jednakostranični trougao
-210 #	Bisect 								# Povući simetralu
+210 #	Bisect 								# Bisektrisa
 211 #	Tangent 							# Tangenta
 212 #	Equal Product 						# Jednak proizvod
-213 #	Ratio 								# Verhältnis
-214 #	Special Angle 						# Spezieller Winkel
-215 #	Angles Equation 					# Gleichung für Winkel
-216 #	Segment Equation 					# Gleichung für Strecke
+213 #	Ratio 								# Odnos duži
+214 #	Special Angle 						# Posebni uglovi
+215 #	Angles Equation 					# Jednakost nad uglovima
+216 #	Segment Equation 					# Jednakost nad dužima
 * End of Assertion
 
 * Dialog
@@ -181,7 +181,7 @@ Font: Dialog # 0 # 14
 241 #	Reduce 								# Smanji
 242 #	Detail 								# Detalji
 243 #	Reload 								# Učitaj ponovo
-244 #	NDGs 								# NDGs
+244 #	NDGs 								# Uslovi nedegenerisanosti
 245 #	Name 								# Naziv
 246 #	Variable 							# Promenljiva
 247 #	Length 								# Dužina
@@ -240,7 +240,7 @@ Font: Dialog # 0 # 14
 368 #	Show foot mark  					# Prikaži fusnote
 369 #	Length  							# Dužina
 370 #	Mode 								# Mod
-371 #	AntiAlias  							# AntiAlias
+371 #	AntiAlias  							# Antialijasovanje
 372 #	On  								# Uključeno
 373 #	OFF  								# Isključeno
 374 #	Change...  							# Izmena...
@@ -264,15 +264,15 @@ Font: Dialog # 0 # 14
 * End  of Preference Dialog
 
 * Fixpoint
-401 #	lines 								# linije
-402 #	parallel lines 						# paralelne linije
-403 #	perpendicular lines 				# normalne linije
+401 #	lines 								# prave
+402 #	parallel lines 						# paralelne prave
+403 #	perpendicular lines 				# normalne prave
 404 #	midpoints 							# Središta
 405 #	circles 							# krugovi
 406 #	congruent segments 					# podudarne duži
 407 #	congruent angles 					# podudarne uglovi
 408 #	similiar triangles 					# slični trouglovi
-409 #	congruent triangles 				# podudarne trouglovi
+409 #	congruent triangles 				# podudarni trouglovi
 410 #	special angles 						# Specijalni uglovi
 411 #	perp-acong angles 					# Pravolinijski uglovi koji su kongruentni
 412 #	ratio segments 						# Odnos duži
@@ -328,11 +328,11 @@ Font: Dialog # 0 # 14
 1000 #	The diagram has been changed, do you want to save it? 				# Dijagram je promenjen, želite li da ga sačuvate?
 1001 #	File exists 														# Datoteka postoji
 1002 #	already exists, do you want to overwrite it? 						# Već postoji, želite li da je prepišete?
-1003 #	Time to build fixpoint: 											# Vreme za izgradnju fiksne tačke:
+1003 #	Time to build fixpoint: 											# Vreme za kreiranje fiksne tačke:
 1004 #	Can not find any proof! 											# Ne mogu naći nikakav dokaz!
 1005 #	No conclution 														# Bez zaključka
-1006 #	NO conclution has been set! 										# Zaključak nije postavljen!
-1007 #	Can not prove this theorem with Deductive Database Method	 		# Ne mogu dokazati ovu teoremu Deduktivnom metodom baze podataka.
+1006 #	NO conclution has been set! 										# Zaključak nije zadat!
+1007 #	Can not prove this theorem with Deductive Database Method	 		# Ne mogu dokazati ovu teoremu primenom metode Deduktivne baze podataka.
 1008 #	Please Construct the Diagram First! 								# Molim Vas da prvo napravite dijagram!
 1009 #	Diagram Not Completed 												# Dijagram nije završen
 1010 #	is trivially true 													# Je trivijalno tačno
@@ -352,7 +352,7 @@ Font: Dialog # 0 # 14
 1021 #	However, JGEX is an educational tool, not intended for commercial use. 		# Međutim, JGEX je edukativni alat namenjen za nekomercijalnu upotrebu.
 1022 #	Author: 																	# Autor:
 1023 #	for more information,please visit: 											# Za više informacija, molimo posetite:
-1024 #	Choose default foot for point's text 										# Izaberi podrazumevano stopalo za tekst tačke
+1024 #	Choose default foot for point's text   										# Izaberi podrazumevanu tipografiju za tekst tačke.
 1025 #	The selected two line don't have intersected point 							# Dve prave koje ste odabrali se ne seku.
 1026 #	No Intersected point 														# Nema presečne tačke
 1027 #	Angle Specification must be done before drawing anything 					# Specifikacija ugla mora biti izvršena pre crtanja bilo čega.
@@ -369,7 +369,7 @@ Font: Dialog # 0 # 14
 1051 #	File Format Not Supported  													# Format datoteke nije podržan
 1052 # 	Free Point 																	# Slobodna tačka
 1053 # 	Please input the value of the angle 										# Unesite vrednost ugla:
-1054 #	Connection Failed 															# Veza nije uspjela
+1054 #	Connection Failed 															# Veza nije uspela
 1055 #	Connection failed: Please check your network connection and try again. 		# Veza nije uspela: Molimo proverite vašu mrežnu vezu i pokušajte ponovo.
 1056 #	New version available, do you want to update now? 							# Nova verzija je dostupna, želite li ažurirati sada?
 1057 #	Your current JGEX version: 													# trenutna JGEX verzija:"
@@ -389,7 +389,7 @@ Font: Dialog # 0 # 14
 1103 #	The equational hypotheses:  								# Jednakosne pretpostavke:
 1104 #	The Triangulized Hypotheses:  								# Triangulirane hipoteze:
 1105 #	The Conclution  											# Zaključak
-1106 #	Successive Pseudo Remainder of CONC wrpt TS :  				# Sukcesivno pseudo Ostatak zaključka u odnosu na tezu
+1106 #	Successive Pseudo Remainder of CONC wrpt TS :  				# Sukcesivni pseudo-ostatak deljenja zaključka u odnosu na tezu
 1107 #	The Conclution is false  									# Zaključak je netačan
 1108 #	The Conclution is true  									# Zaključak je tačan.
 1109 #	The Conclution is not proved  								# Zaključak nije dokazan
@@ -397,8 +397,8 @@ Font: Dialog # 0 # 14
 1111 # Algebra Method 			 									# Metoda površina
 
 1114 #	The Initial Polynomial Set 									# Početni skup polinoma
-1115 #	The Groebner Basis:  										# Groebner Basis:
-1116 #	The Nondegenerate Conditions  								# Uslovi Nedegenerisanosti
+1115 #	The Groebner Basis:  										# Grebnerova baza:
+1116 #	The Nondegenerate Conditions  								# Uslovi nedegenerisanosti
 1117 #	The Conclution After Reduce:  								# Zaključak nakon redukcije:
 
 1130 #	System Run Out Of Memory  									# Sistem je ostao bez memorije
@@ -407,7 +407,7 @@ Font: Dialog # 0 # 14
 1133 #	Show Detail  									 			# Pokazi detalje
 1134 #	The conclusion can not be translated to full-angle expression. 		# Zaključak ne može biti preveden u izraz sa punim uglom.
 1135 #	Not Supported  												# Nije podržano
-1136 #	The theorem is not proved with The Full-Angle Method. 		# Teorema nije dokazana metodom punog ugla.
+1136 #	The theorem is not proved with The Full-Angle Method. 		# Teorema nije dokazana metodom punih uglova.
 1137 #	Construction 												# Konstrukcija
 1138 #	The Simplified Nondegenerate Conditions 					# Pojednostavljeni uslovi nedegenerisanosti
 1139 #	The Final Nondegenerate Conditions 							# Konačni uslovi nedegenerisanosti
@@ -434,7 +434,7 @@ Font: Dialog # 0 # 14
 
 
 * Prove Method
-3001 #	Deductive Database Method 									# Deduktivna baza podataka
+3001 #	Deductive Database Method 									# Metod deduktivne baze podataka
 3002 #	Full Angle Method 											# Metoda punog ugla
 3003 #	Traditional Method 											# Tradicionalna metoda
 3004 #	Area Method 												# Metoda površina
@@ -475,7 +475,7 @@ Font: Dialog # 0 # 14
 3150 	#	Text  													# Tekst
 3151 	#	Keywords  												# Ključne reči
 3152 	#	Symbol  												# Simbol
-3153 	#	Assertion  												# Pretpostavka
+3153 	#	Assertion  												# Tvrdnja
 3154 	#	Object  												# Objekat
 3155 	#	Draw  													# Crtati
 3156 	#	Construction  											# Konstrukcija
