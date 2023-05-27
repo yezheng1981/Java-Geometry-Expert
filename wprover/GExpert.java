@@ -1675,10 +1675,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         }
         try {
             DataOutputStream out = dp.openOutputFile(ff.getPath());
-            out.writeUTF("digraph G {\n");
             String program = PanelProve1.graphvizProgram;
-            out.writeUTF(program);
-            out.writeUTF("}\n");
+            out.writeBytes(program);
             out.close();
         } catch (Exception ee) {
             ee.printStackTrace();

@@ -1528,7 +1528,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
     // TODO: Add this as an option.
 
     private void createNodes(cond co, DefaultMutableTreeNode to) {
-        graphvizProgram = "";
+        graphvizProgram = "digraph G {\n";
         PTNode node = null;
         node = new PTNode(co.getNo() + ". " + co.getText(), co);
         node.tlevel = true;
@@ -1538,6 +1538,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         if (!drawStructure && co.nx != null) {
             createNodes(co.nx, to);
         }
+
+        graphvizProgram += "}\n";
     }
 
     /* Search for a numbered condition in the main tree. */
