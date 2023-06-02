@@ -1529,6 +1529,11 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
     private void createNodes(cond co, DefaultMutableTreeNode to) {
         graphvizProgram = "digraph G {\n";
+        // We create yellow boxes:
+        graphvizProgram += "node [shape=box,style=filled,color=\"yellow\"];\n";
+        // We set the direction for the arrows reversed:
+        graphvizProgram += "edge [dir = back]\n";
+
         PTNode node = null;
         node = new PTNode(co.getNo() + ". " + co.getText(), co);
         node.tlevel = true;
@@ -1573,7 +1578,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             if (num != 0) {
                 st = c.getNo() + ". " + c.getText();
                 // We put the connection between co and c in the GraphViz output:
-                graphvizProgram += co.getNo() + " -> " + c.getNo() + " [dir = back];\n";
+                graphvizProgram += co.getNo() + " -> " + c.getNo() + ";\n";
             } else {
                 st = c.getText();
             }
