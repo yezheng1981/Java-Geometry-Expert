@@ -1563,7 +1563,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             if (num != 0) {
                 st = c.getNo() + ". " + c.getText();
                 // We put the connection between co and c in the GraphViz output:
-                graphvizProgram += co.getNo() + " -> " + c.getNo() + ";\n";
+                graphvizProgram += co.getNo() + " -> " + c.getNo() + " [dir = back];\n";
             } else {
                 st = c.getText();
                 // We show not just the number of the node but also its description:
