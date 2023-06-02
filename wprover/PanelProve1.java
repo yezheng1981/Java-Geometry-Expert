@@ -1539,6 +1539,16 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             createNodes(co.nx, to);
         }
 
+        // At the end of the GraphViz file we give a detailed definition for each
+        // step of the proof:
+        while (co.nx != null) {
+            // We show not just the number of the node but also its description:
+            graphvizProgram += co.getNo() + " [ label = \"" + co.getNo() + ") " + co.getText() + "\" ];\n";
+            co = co.nx;
+        }
+        // For the last node we add the missing information:
+        graphvizProgram += co.getNo() + " [ label = \"" + co.getNo() + ") " + co.getText() + "\" ];\n";
+
         graphvizProgram += "}\n";
     }
 
@@ -1566,8 +1576,6 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 graphvizProgram += co.getNo() + " -> " + c.getNo() + " [dir = back];\n";
             } else {
                 st = c.getText();
-                // We show not just the number of the node but also its description:
-                graphvizProgram += co.getNo() + " [ label = \"" + co.getText() + "\" ];\n";
             }
             DefaultMutableTreeNode nd = new PTNode(st, c);
             node.add(nd);
