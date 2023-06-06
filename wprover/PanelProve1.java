@@ -1528,11 +1528,6 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
     // TODO: Add this as an option.
 
     private void createNodes(cond co, DefaultMutableTreeNode to) {
-        graphvizProgram = "digraph G {\n";
-        // We create yellow boxes:
-        graphvizProgram += "node [shape=box,style=filled,color=\"yellow\"];\n";
-        // We set the direction for the arrows reversed:
-        graphvizProgram += "edge [dir = back]\n";
 
         PTNode node = null;
         node = new PTNode(co.getNo() + ". " + co.getText(), co);
@@ -1544,17 +1539,24 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             createNodes(co.nx, to);
         }
 
-        // At the end of the GraphViz file we give a detailed definition for each
-        // step of the proof:
-        while (co.nx != null) {
-            // We show not just the number of the node but also its description:
-            graphvizProgram += co.getNo() + " [ label = \"" + co.getNo() + ") " + co.getText() + "\" ];\n";
-            co = co.nx;
-        }
-        // For the last node we add the missing information:
-        graphvizProgram += co.getNo() + " [ label = \"" + co.getNo() + ") " + co.getText() + "\" ];\n";
+    }
 
-        graphvizProgram += "}\n";
+    String setNode(cond co) {
+        // We show not just the number of the node but also its description:
+        int rule = co.getRule();
+        System.out.println("Rule " + rule + " is used for node " + co.getNo());
+        String color = "yellow";
+        if (rule == 0) {
+            color = "cyan";
+        }
+        if (rule == 28) {
+            color = "green";
+        }
+        if (rule == 36) {
+            color = "white";
+        }
+        return co.getNo() + " [ label = \"" + co.getNo() + ") " + co.getText()
+                + "\", fillcolor = \"" + color + "\"];\n";
     }
 
     /* Search for a numbered condition in the main tree. */
@@ -1578,14 +1580,22 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             if (num != 0) {
                 st = c.getNo() + ". " + c.getText();
                 // We put the connection between co and c in the GraphViz output:
-                graphvizProgram += co.getNo() + " -> " + c.getNo() + ";\n";
+                if (drawStructure) {
+                    graphvizProgram += co.getNo() + " -> " + c.getNo() + ";\n";
+                }
             } else {
                 st = c.getText();
             }
-            DefaultMutableTreeNode nd = new PTNode(st, c);
+            cond leaf = searchSubCond(root, num);
+            DefaultMutableTreeNode nd;
+            if (!drawStructure || leaf == null) {
+                nd = new PTNode(st, c);
+            } else {
+                nd = new PTNode(st, leaf);
+            }
+
             node.add(nd);
             if (drawStructure && num != 0) {
-                cond leaf = searchSubCond(root, num);
                 if (leaf != null) {
                     createSubNode(nd, leaf, root);
                 }
@@ -1625,7 +1635,29 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         top.setUserObject("To Prove :" + co);
 
         ((DefaultTreeModel) (tree.getModel())).reload();
+
+        if (drawStructure) {
+            graphvizProgram = "digraph G {\n";
+            // We create yellow boxes:
+            graphvizProgram += "node [shape = box, color = black, style = filled];\n";
+            // We set the direction for the arrows reversed:
+            graphvizProgram += "edge [dir = back]\n";
+        }
+
         createNodes(co, top);
+
+        if (drawStructure) {
+            // At the end of the GraphViz file we give a detailed definition for each
+            // step of the proof:
+            while (co.nx != null) {
+                graphvizProgram += setNode(co);
+                co = co.nx;
+            }
+            // For the last node we add the missing information:
+            graphvizProgram += setNode(co);
+            graphvizProgram += "}\n";
+        }
+
         tree.expandRow(0);
 
         int n = top.getChildCount();
