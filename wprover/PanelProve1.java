@@ -1525,6 +1525,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
     boolean drawStructure = true; // set this to false to get original behavior
     public static String graphvizProgram = "";
+    public static String hypotheses = "";
     // TODO: Add this as an option.
 
     private void createNodes(cond co, DefaultMutableTreeNode to) {
@@ -1581,10 +1582,17 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 st = c.getNo() + ". " + c.getText();
                 // We put the connection between co and c in the GraphViz output:
                 if (drawStructure) {
+                    // It is possible to draw something on the arrow... but what? TODO...
                     graphvizProgram += co.getNo() + " -> " + c.getNo() + ";\n";
                 }
             } else {
                 st = c.getText();
+                if (drawStructure) {
+                    // This is a leaf without numbering, we need a label. Let's use its text:
+                    graphvizProgram += co.getNo() + " -> \"" + st + "\";\n";
+                    // This may duplicate some entries, FIXME:
+                    hypotheses += "\"" + st + "\" [ fillcolor = pink, shape = oval, style = filled ];\n";
+                }
             }
             cond leaf = searchSubCond(root, num);
             DefaultMutableTreeNode nd;
@@ -1655,6 +1663,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             }
             // For the last node we add the missing information:
             graphvizProgram += setNode(co);
+            graphvizProgram += hypotheses;
             graphvizProgram += "}\n";
         }
 
