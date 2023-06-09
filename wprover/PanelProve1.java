@@ -1583,6 +1583,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 // We put the connection between co and c in the GraphViz output:
                 if (drawStructure) {
                     // It is possible to draw something on the arrow... but what? TODO...
+                    // To avoid multiple edges, we already set "strict".
                     graphvizProgram += co.getNo() + " -> " + c.getNo() + ";\n";
                 }
             } else {
@@ -1645,7 +1646,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         ((DefaultTreeModel) (tree.getModel())).reload();
 
         if (drawStructure) {
-            graphvizProgram = "digraph G {\n";
+            // We don't want multiple edges:
+            graphvizProgram = "strict digraph G {\n";
             // We create yellow boxes:
             graphvizProgram += "node [shape = box, color = black, style = filled];\n";
             // We set the direction for the arrows reversed:
