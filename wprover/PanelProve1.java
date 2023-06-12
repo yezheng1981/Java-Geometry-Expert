@@ -1651,7 +1651,9 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             // We create yellow boxes:
             graphvizProgram += "node [shape = box, color = black, style = filled];\n";
             // We set the direction for the arrows reversed:
-            graphvizProgram += "edge [dir = back]\n";
+            graphvizProgram += "edge [dir = back];\n";
+            // Reset hypotheses:
+            hypotheses = "";
         }
 
         createNodes(co, top);
