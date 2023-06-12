@@ -26,6 +26,7 @@ import java.awt.datatransfer.*;
 import java.lang.reflect.Method;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Locale;
 import java.util.Vector;
@@ -631,6 +632,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
         if (f.isDirectory()) {
             File contents[] = f.listFiles();
+            Arrays.sort(contents);
             int n = contents.length - 1;
             for (int i = n; i >= 0; i--) {
                 if (contents[i].isDirectory()) {
