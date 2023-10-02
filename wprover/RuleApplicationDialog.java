@@ -744,7 +744,7 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
 
             for (int i = 0; i < aglist.size(); i++) {
                 xterm x = (xterm) aglist.get(i);
-                var v = x.var;
+                variable v = x.var;
                 if (v == null) continue;
                 CPoint p1 = dp.fd_point(v.pt[0]);
                 CPoint p2 = dp.fd_point(v.pt[1]);
@@ -797,7 +797,7 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
 
             for (int i = 0; i < aglist.size(); i++) {
                 xterm x = (xterm) aglist.get(i);
-                var v = x.var;
+                variable v = x.var;
                 if (v == null) {
                     continue;
                 }

@@ -7,19 +7,19 @@ package gprover;
  * Time: 13:31:19
  * To change this template use File | Settings | File Templates.
  */
-public class var {
+public class variable {
     int nm;
     char[] p = new char[9];
     public int[] pt = new int[4];
-    var nx;
+    variable nx;
 
     String sd = null;
 
-    public var() {
+    public variable() {
 
     }
 
-    public var(int n, int p1, int p2, int p3, int p4) {
+    public variable(int n, int p1, int p2, int p3, int p4) {
         nm = n;
         pt[0] = p1;
         pt[1] = p2;
@@ -37,7 +37,7 @@ public class var {
         pt[3] = k;
     }
 
-    public var(var v) {
+    public variable(variable v) {
         nm = v.nm;
         pt[0] = v.p[0];
         pt[1] = v.p[1];

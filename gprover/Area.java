@@ -231,7 +231,7 @@ public class Area extends Full
       boolean area_p(xterm p)
       {
             dterm ps;
-            var v;
+            variable v;
             if (p.var == null) return (true);
             v = p.var;
             if (v.nm == 2 || v.nm < 0)
@@ -257,7 +257,7 @@ public class Area extends Full
 //xterm  p;
       {
             dterm ps;
-            var v;
+            variable v;
             if (p.var == null) return (false);
             v = p.var;
             if (v.nm != 4)
@@ -272,7 +272,7 @@ public class Area extends Full
       boolean str_p(xterm p)
       {
             dterm ps;
-            var v;
+            variable v;
             if (p.var == null) return (false);
             v = p.var;
             if (v.nm != 0)
@@ -586,7 +586,7 @@ int p0,p1,p2,p3;
       dterm ds_set = new dterm();
       dterm last_ds;
 
-      el_term mk_elim(var v, xterm p1, xterm p2)
+      el_term mk_elim(variable v, xterm p1, xterm p2)
       {
             el_term v1 = new el_term();//(el_term  )calloc(1,sizeof(el_term));
             v1.v = v;
@@ -679,7 +679,7 @@ int p0,p1,p2,p3;
 
       xterm pe_p(xterm p, int c, int d)
       {
-            var v1;
+            variable v1;
             el_term el1;
             xterm p1;
 
@@ -742,7 +742,7 @@ int p0,p1,p2,p3;
             // return (null);  //????
       }
 
-      boolean elim_varp(var v, int pt)
+      boolean elim_varp(variable v, int pt)
       {
             if (ATYPE(pt) == 11)
             {
@@ -794,7 +794,7 @@ int p0,p1,p2,p3;
             return (p1);
       }
 
-      el_term pe_v_c(var v, int ptn)
+      el_term pe_v_c(variable v, int ptn)
       {
             int etype = 0;
 
@@ -1069,7 +1069,7 @@ int p0,p1,p2,p3;
 
       xterm pe_pv(xterm p, int c, int d)
       {
-            var v1;
+            variable v1;
             el_term e1;
             xterm p1, p2, p3;
 
@@ -1120,7 +1120,7 @@ int p0,p1,p2,p3;
             return (p);
       }
 
-      boolean test_pv(var v, int c)
+      boolean test_pv(variable v, int c)
       {
             switch (c)
             {
@@ -1147,7 +1147,7 @@ int p0,p1,p2,p3;
             return (true);
       }
 
-      el_term pe_v_nc(var v, int ptn)
+      el_term pe_v_nc(variable v, int ptn)
       {
             el_term e1 = null;
 
@@ -1228,7 +1228,7 @@ int p0,p1,p2,p3;
             return (e1);
       }
 
-      xterm geval(var var, int y, int p)
+      xterm geval(variable var, int y, int p)
       {
             int[] pt = new int[9];
 

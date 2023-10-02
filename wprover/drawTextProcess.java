@@ -2477,7 +2477,7 @@ public class drawTextProcess extends drawProcess {
         if (x == null) {
             return null;
         }
-        var v = x.var;
+        variable v = x.var;
         if (v == null) {
             return null;
         }
