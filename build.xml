@@ -24,11 +24,11 @@
 
     <!-- Step 3:  compile all .java files, here we have four packages totally -->
     <target name="compile" depends="clean, init" description="compiling jgex">
-        <javac  srcdir="${src}/pdf" destdir="${dest}" debug="off" nowarn="on" />      
-        <javac  srcdir="${src}/UI" destdir="${dest}" debug="off" nowarn="on" />
-        <javac  srcdir="${src}/maths" destdir="${dest}" debug="off" nowarn="on" />
-        <javac  srcdir="${src}/gprover" destdir="${dest}" debug="off" nowarn="on" />
-        <javac  srcdir="${src}/wprover" destdir="${dest}" debug="off" nowarn="on" />
+        <javac  srcdir="${src}/pdf" destdir="${dest}" debug="off" nowarn="on" source="8" />      
+        <javac  srcdir="${src}/UI" destdir="${dest}" debug="off" nowarn="on" source="8" />
+        <javac  srcdir="${src}/maths" destdir="${dest}" debug="off" nowarn="on" source="8" />
+        <javac  srcdir="${src}/gprover" destdir="${dest}" debug="off" nowarn="on" source="8" />
+        <javac  srcdir="${src}/wprover" destdir="${dest}" debug="off" nowarn="on" source="8" />
     </target>
 
 
@@ -56,7 +56,7 @@
     <target name="build" depends="compile, copy-images" description="building jgex">
 <!--         <delete dir="${out}"/>
         <mkdir dir="${out}"/>   -->
-        <jar jarfile="${out}/${jgex_jar}" manifest="./MANIFEST.MF" basedir="${dest}"/>
+        <jar jarfile="${out}/${jgex_jar}" manifest="./manifest.mf" basedir="${dest}"/>
     </target>
 
 
