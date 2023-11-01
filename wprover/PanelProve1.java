@@ -21,6 +21,7 @@ import org.graphper.api.Graphviz;
 import org.graphper.api.Graphviz.GraphvizBuilder;
 import org.graphper.api.Node;
 import org.graphper.api.attributes.NodeShapeEnum;
+import org.graphper.api.attributes.Rankdir;
 import org.w3c.dom.svg.SVGDocument;
 
 public class PanelProve1 extends JTabbedPane implements ChangeListener {
@@ -1656,7 +1657,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
                     Node from = getGraphvizNode(co);
                     Node to = getGraphvizNode(c);
-                    gb.addLine(from, to).build();
+                    // gb.addLine(from, to).build();
+                    gb.addLine(to, from).rankdir(Rankdir.BT).build();
                 }
             } else {
                 st = c.getText();
@@ -1666,7 +1668,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
                     Node from = getGraphvizNode(co);
                     Node to = getGraphvizNode(st);
-                    gb.addLine(from, to).build();
+                    // gb.addLine(from, to).build();
+                    gb.addLine(to, from).rankdir(Rankdir.BT).build();
 
                     // This may duplicate some entries, FIXME:
                     hypotheses += "\"" + st + "\" [ fillcolor = pink, shape = oval, style = filled ];\n";
