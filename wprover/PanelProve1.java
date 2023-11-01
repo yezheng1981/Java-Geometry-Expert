@@ -13,6 +13,8 @@ import java.awt.event.*;
 import java.util.Vector;
 import java.io.*;
 
+import org.graphper.api.Graphviz;
+import org.graphper.api.Node;
 
 public class PanelProve1 extends JTabbedPane implements ChangeListener {
 //    private Font font_thm = new Font("Dialog", Font.BOLD, 12);
@@ -1644,6 +1646,17 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         top.setUserObject("To Prove :" + co);
 
         ((DefaultTreeModel) (tree.getModel())).reload();
+
+        /*
+        // sample code to generate SVG output
+        Node nd_1 = Node.builder().label("Node 1").build();
+        Graphviz graphviz = Graphviz.digraph().addLine(nd_1, nd_1).build();
+        try {
+            System.out.println(graphviz.toSvgStr());
+        } catch (Exception e) {
+            System.err.println("Error: " + e.toString());
+        }
+         */
 
         if (drawStructure) {
             // We don't want multiple edges:
