@@ -11,6 +11,7 @@ import javax.swing.tree.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Vector;
 import java.io.*;
 
@@ -1540,6 +1541,23 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
     GraphvizBuilder gb; // The global Graphviz object that can be appended.
     HashMap<String, Node> nodes; // For each string we assign a Graphviz node.
 
+    class Pair {
+        public String from;
+        public String to;
+        public Pair(String from, String to)
+        {
+            this.from = from;
+            this.to = to;
+        }
+        public boolean equals(Object o) {
+            return o.hashCode() == this.hashCode();
+        }
+        public int hashCode() {
+            return (from + "->" + to).hashCode();
+        }
+    }
+    HashSet<Pair> edges;
+
     private void createNodes(cond co, DefaultMutableTreeNode to) {
 
         PTNode node = null;
@@ -1615,6 +1633,14 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         return co.nx;
     }
 
+    private void addLine(String from, String to) {
+        Pair p = new Pair(from, to);
+        if (!edges.contains(p)) {
+            gb.addLine(nodes.get(to), nodes.get(from)).rankdir(Rankdir.BT).build();
+            edges.add(p);
+        }
+    }
+
     /**
      * Create a Graphviz node from cond if it does not exist. If it does, return the node.
      */
@@ -1658,7 +1684,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                     Node from = getGraphvizNode(co);
                     Node to = getGraphvizNode(c);
                     // gb.addLine(from, to).build();
-                    gb.addLine(to, from).rankdir(Rankdir.BT).build();
+                    // gb.addLine(to, from).rankdir(Rankdir.BT).build();
+                    addLine(co.toString(), c.toString());
                 }
             } else {
                 st = c.getText();
@@ -1669,7 +1696,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                     Node from = getGraphvizNode(co);
                     Node to = getGraphvizNode(st);
                     // gb.addLine(from, to).build();
-                    gb.addLine(to, from).rankdir(Rankdir.BT).build();
+                    // gb.addLine(to, from).rankdir(Rankdir.BT).build();
+                    addLine(co.toString(), st);
 
                     // This may duplicate some entries, FIXME:
                     hypotheses += "\"" + st + "\" [ fillcolor = pink, shape = oval, style = filled ];\n";
@@ -1728,6 +1756,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         // initialize
         gb = Graphviz.digraph();
         nodes = new HashMap<>();
+        edges = new HashSet<>();
 
         if (drawStructure) {
             // We don't want multiple edges:
