@@ -10,16 +10,17 @@ import javax.swing.event.*;
 import javax.swing.tree.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.HashMap;
 import java.util.Vector;
 import java.io.*;
 
 import org.apache.batik.anim.dom.SAXSVGDocumentFactory;
 import org.apache.batik.util.XMLResourceDescriptor;
-import org.graphper.api.Graphviz;
-import org.graphper.api.Node;
-
 import org.apache.batik.swing.JSVGCanvas;
-
+import org.graphper.api.Graphviz;
+import org.graphper.api.Graphviz.GraphvizBuilder;
+import org.graphper.api.Node;
+import org.graphper.api.attributes.NodeShapeEnum;
 import org.w3c.dom.svg.SVGDocument;
 
 public class PanelProve1 extends JTabbedPane implements ChangeListener {
@@ -1531,10 +1532,12 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         }
     }
 
+    // TODO: Add this as an option.
     boolean drawStructure = true; // set this to false to get original behavior
     public static String graphvizProgram = "";
     public static String hypotheses = "";
-    // TODO: Add this as an option.
+    GraphvizBuilder gb; // The global Graphviz object that can be appended.
+    HashMap<String, Node> nodes; // For each string we assign a Graphviz node.
 
     private void createNodes(cond co, DefaultMutableTreeNode to) {
 
@@ -1568,12 +1571,69 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 + "\", fillcolor = \"" + color + "\"];\n";
     }
 
+    /**
+     * Create a Graphviz node from a cond.
+     * @param co
+     * @return
+     */
+    Node graphvizNode(cond co) {
+        // We show not just the number of the node but also its description:
+        int rule = co.getRule();
+        org.graphper.api.attributes.Color c = org.graphper.api.attributes.Color.YELLOW;
+        org.graphper.api.attributes.NodeShape s = NodeShapeEnum.RECT;
+        if (rule == 0) {
+            c = org.graphper.api.attributes.Color.ofRGB("#00FFFF");
+        }
+        if (rule == 28) {
+            c = org.graphper.api.attributes.Color.GREEN;
+        }
+        if (rule == 36) {
+            c = org.graphper.api.attributes.Color.WHITE;
+        }
+        Node n = Node.builder().label(co.getNo() + ") " + co.getText()).fillColor(c).shape(s).build();
+        return n;
+    }
+
+    /**
+     * Create a Graphviz node from a string.
+     * @param st
+     * @return
+     */
+    Node graphvizNode(String st) {
+        org.graphper.api.attributes.Color c = org.graphper.api.attributes.Color.PINK;
+        org.graphper.api.attributes.NodeShape s = NodeShapeEnum.ELLIPSE;
+        Node n = Node.builder().label(st).fillColor(c).shape(s).build();
+        return n;
+    }
+
     /* Search for a numbered condition in the main tree. */
     private cond searchSubCond(cond co, int no) {
         while (co.nx != null && co.nx.getNo() != no) {
             co = co.nx;
         }
         return co.nx;
+    }
+
+    /**
+     * Create a Graphviz node from cond if it does not exist. If it does, return the node.
+     */
+    private Node getGraphvizNode(cond co) {
+        if (nodes.containsKey(co.toString()))
+            return nodes.get(co.toString());
+        Node n = graphvizNode(co);
+        nodes.put(co.toString(), n);
+        return n;
+    }
+
+    /**
+     * Create a Graphviz node from string if it does not exist. If it does, return the node.
+     */
+    private Node getGraphvizNode(String s) {
+        if (nodes.containsKey(s))
+            return nodes.get(s);
+        Node n = graphvizNode(s);
+        nodes.put(s, n);
+        return n;
     }
 
     private void createSubNode(DefaultMutableTreeNode node, cond co, cond root) {
@@ -1593,12 +1653,21 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                     // It is possible to draw something on the arrow... but what? TODO...
                     // To avoid multiple edges, we already set "strict".
                     graphvizProgram += co.getNo() + " -> " + c.getNo() + ";\n";
+
+                    Node from = getGraphvizNode(co);
+                    Node to = getGraphvizNode(c);
+                    gb.addLine(from, to).build();
                 }
             } else {
                 st = c.getText();
                 if (drawStructure) {
                     // This is a leaf without numbering, we need a label. Let's use its text:
                     graphvizProgram += co.getNo() + " -> \"" + st + "\";\n";
+
+                    Node from = getGraphvizNode(co);
+                    Node to = getGraphvizNode(st);
+                    gb.addLine(from, to).build();
+
                     // This may duplicate some entries, FIXME:
                     hypotheses += "\"" + st + "\" [ fillcolor = pink, shape = oval, style = filled ];\n";
                 }
@@ -1653,31 +1722,9 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
         ((DefaultTreeModel) (tree.getModel())).reload();
 
-        /*
-        // sample code to generate SVG output
-        Node nd_1 = Node.builder().label("Node 1").build();
-        Graphviz graphviz = Graphviz.digraph().addLine(nd_1, nd_1).build();
-        try {
-            String svgString = graphviz.toSvgStr();
-            JSVGCanvas svg = new JSVGCanvas();
-            StringReader reader = new StringReader(svgString);
-            String uri = "file:make-something-up";
-            String parser = XMLResourceDescriptor.getXMLParserClassName();
-            SAXSVGDocumentFactory f = new SAXSVGDocumentFactory(parser);
-            SVGDocument doc = f.createSVGDocument(uri, reader);
-            svg.setSVGDocument(doc);
-            JPanel panel = new JPanel();
-            panel.add(svg);
-            JFrame frame = new JFrame("SVGView");
-            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            frame.getContentPane().add(panel);
-            frame.pack();
-            frame.setSize(500, 400);
-            frame.setVisible(true);
-        } catch (Exception e) {
-            System.err.println("Error: " + e.toString());
-        }
-        */
+        // initialize
+        gb = Graphviz.digraph();
+        nodes = new HashMap<>();
 
         if (drawStructure) {
             // We don't want multiple edges:
@@ -1712,6 +1759,31 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             tree.expandRow(i);
         }
         tree.setVisible(true);
+
+        if (drawStructure) {
+            try {
+                Graphviz graphviz = gb.build();
+                String svgString = graphviz.toSvgStr();
+                JSVGCanvas svg = new JSVGCanvas();
+                StringReader reader = new StringReader(svgString);
+                String uri = "file:make-something-up";
+                String parser = XMLResourceDescriptor.getXMLParserClassName();
+                SAXSVGDocumentFactory f = new SAXSVGDocumentFactory(parser);
+                SVGDocument doc = f.createSVGDocument(uri, reader);
+                svg.setSVGDocument(doc);
+                JPanel panel = new JPanel();
+                panel.add(svg);
+                JFrame frame = new JFrame("GDD proof visualization");
+                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                frame.getContentPane().add(panel);
+                frame.pack();
+                frame.setSize(500, 400);
+                frame.setVisible(true);
+            } catch (Exception e) {
+                System.err.println("Error: " + e.toString());
+            }
+        }
+
     }
 
     private void createNodes(Vector vl) {
