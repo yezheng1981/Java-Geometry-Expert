@@ -9,7 +9,7 @@
     <property name="version" value="0.80"/>
 
     <!-- Please override these settings with "ant -Ddate=... <task>" -->
-    <property name="date" value="2021Jul12"/>
+    <property name="date" value="2023Nov01"/>
     <property name="bundled_jdk" value="&quot;c:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.1/jbr&quot;"/>
 
     <!-- Step 0:  detect OS and set some variables for later use (ZIP package creation) -->
@@ -41,7 +41,32 @@
     <!-- Step 3:  compile all .java files, here we have five packages totally -->
     <target name="compile" depends="init" description="compiling jgex">
         <javac  srcdir="${src}" destdir="${dest}" includes="pdf/**, UI/**, maths/**, gprover/**, wprover/**"
-                debug="off" nowarn="on" source="8" includeantruntime="false"/>
+                debug="off" nowarn="on" source="8" includeantruntime="false">
+            <classpath>
+                <pathelement path="lib/batik-anim-1.17.jar"/>
+                <pathelement path="lib/batik-awt-util-1.17.jar"/>
+                <pathelement path="lib/batik-bridge-1.17.jar"/>
+                <pathelement path="lib/batik-constants-1.17.jar"/>
+                <pathelement path="lib/batik-css-1.17.jar"/>
+                <pathelement path="lib/batik-dom-1.17.jar"/>
+                <pathelement path="lib/batik-ext-1.17.jar"/>
+                <pathelement path="lib/batik-gui-util-1.17.jar"/>
+                <pathelement path="lib/batik-gvt-1.17.jar"/>
+                <pathelement path="lib/batik-i18n-1.17.jar"/>
+                <pathelement path="lib/batik-parser-1.17.jar"/>
+                <pathelement path="lib/batik-script-1.17.jar"/>
+                <pathelement path="lib/batik-svg-dom-1.17.jar"/>
+                <pathelement path="lib/batik-swing-1.17.jar"/>
+                <pathelement path="lib/batik-util-1.17.jar"/>
+                <pathelement path="lib/batik-xml-1.17.jar"/>
+                <pathelement path="lib/graph-support-1.1.2.jar"/>
+                <pathelement path="lib/logback.jar"/>
+                <pathelement path="lib/slf4j.jar"/>
+                <pathelement path="lib/xml-apis-1.4.01.jar"/>
+                <pathelement path="lib/xml-apis-ext-1.3.04.jar"/>
+                <pathelement path="lib/xmlgraphics-commons-2.9.jar"/>
+            </classpath>
+        </javac>
     </target>
 
     <!-- Step 4:  copy all images to destination before generating jar file  -->
@@ -67,9 +92,15 @@
         <jar jarfile="${out}/${jgex_jar}" manifest="./MANIFEST.MF" basedir="${dest}"/>
     </target>
 
-    <!-- Step 6:  copy all resources (examples, rules and help) to output folder -->
+    <!-- Step 6:  copy all resources (lib, examples, rules and help) to output folder -->
     <target name="copy-resources" depends="build"
             description="Copy resources to output folder">
+
+        <mkdir dir="${out}/lib"/>
+        <copy todir="${out}/lib/" overwrite="true">
+            <fileset  dir="${src}/lib">
+            </fileset>
+        </copy>
 
         <mkdir dir="${out}/rules"/>
         <copy todir="${out}/rules/" overwrite="true">
@@ -99,10 +130,12 @@
 
     <!-- Step 7:  run JGEX -->
     <target name="run_all" depends="build" description="Run jar file (after rebuild)">
-        <java jar="${out}/${jgex_jar}" classpath="${out}/"
-              fork="true"
+        <java fork="true"
+              dir="${out}"
               failonerror="true"
-              maxmemory="128m"/>
+              maxmemory="128m"
+              classname="wprover.GExpert"
+              classpath="${out}/${jgex_jar}:${out}/lib/*"/>
     </target>
 
     <!-- Step 8:  default action, build jgex.jar and run all -->
@@ -124,10 +157,12 @@
 
     <!-- run. This just runs jar file without rebuild. -->
     <target name="run" description="Run jar file">
-        <java jar="${out}/${jgex_jar}" classpath="${out}/"
-              fork="true"
+        <java fork="true"
+              dir="${out}"
               failonerror="true"
-              maxmemory="128m"/>
+              maxmemory="128m"
+              classname="wprover.GExpert"
+              classpath="${out}/${jgex_jar}:${out}/lib/*"/>
     </target>
 
     <!-- Optional. Create a Debian package (only on Linux). -->
@@ -162,7 +197,7 @@
              --platform ${platform}
              --jdk ${bundled_jdk}
              --executable jgex
-             --classpath jgex.jar
+             --classpath ${jgex_jar}:lib/*
              --mainclass wprover.GExpert
              --resources examples help language rules --output jgex-${version}-${platform}-${date}"/>
       </exec>
