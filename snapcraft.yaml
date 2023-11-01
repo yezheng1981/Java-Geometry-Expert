@@ -51,7 +51,7 @@ parts:
       echo "JGEX_WD=~/.jgex # working directory" >> $SNAPCRAFT_PART_INSTALL/bin/jgex
       echo "test -d \$JGEX_WD || (mkdir -p \$JGEX_WD; cd \$SNAP/root; cp -a * \$JGEX_WD)" >> $SNAPCRAFT_PART_INSTALL/bin/jgex
       echo "cd \$JGEX_WD" >> $SNAPCRAFT_PART_INSTALL/bin/jgex
-      echo "java -cp \$SNAP/usr/share/jgex/jgex.jar:\$SNAP/usr/share/jgex/lib/*" >> $SNAPCRAFT_PART_INSTALL/bin/jgex wprover.GExpert
+      echo "java -cp \$SNAP/usr/share/jgex/jgex.jar:\$SNAP/root/lib/* wprover.GExpert" >> $SNAPCRAFT_PART_INSTALL/bin/jgex
       chmod 755 $SNAPCRAFT_PART_INSTALL/bin/jgex
 
     stage-packages:
