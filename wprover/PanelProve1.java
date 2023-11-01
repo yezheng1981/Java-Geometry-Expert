@@ -1764,6 +1764,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         tree.setVisible(true);
 
         if (drawStructure) {
+            int w = 1000, h = 800;
             try {
                 Graphviz graphviz = gb.build();
                 String svgString = graphviz.toSvgStr();
@@ -1774,13 +1775,20 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 SAXSVGDocumentFactory f = new SAXSVGDocumentFactory(parser);
                 SVGDocument doc = f.createSVGDocument(uri, reader);
                 svg.setSVGDocument(doc);
+                svg.setPreferredSize(new Dimension(w, h));
+                svg.setEnableZoomInteractor(false); // disallow CTRL+left mouse key: select view (a part of the current view)
+                svg.setEnableRotateInteractor(false); // disallow CTRL+right mouse key+move mouse: rotate view
+
                 JPanel panel = new JPanel();
                 panel.add(svg);
-                JFrame frame = new JFrame("GDD proof visualization");
+                String info = "GDD proof visualization";
+                info = "Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag with left mouseclick to move";
+                JFrame frame = new JFrame(info);
                 frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 frame.getContentPane().add(panel);
                 frame.pack();
-                frame.setSize(500, 400);
+                frame.setSize(w, h);
+                // frame.repaint();
                 frame.setVisible(true);
             } catch (Exception e) {
                 System.err.println("Error: " + e.toString());
