@@ -5,4 +5,4 @@ cd .jgex
 for i in help examples rules language; do
  test -r $i || ln -s /usr/share/jgex/$i
  done
-java -jar /usr/share/jgex/jgex.jar
+java -cp /usr/share/jgex/jgex.jar:/usr/share/jgex/lib/* wprover.GExpert
