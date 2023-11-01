@@ -10,7 +10,7 @@
 
     <!-- Please override these settings with "ant -Ddate=... <task>" -->
     <property name="date" value="2023Nov01"/>
-    <property name="bundled_jdk" value="&quot;c:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2021.1/jbr&quot;"/>
+    <property name="bundled_jdk" value="&quot;c:/Program Files/OpenJDK/jdk-19.0.1/&quot;"/>
 
     <!-- Step 0:  detect OS and set some variables for later use (ZIP package creation) -->
     <target name="checkos">
@@ -197,7 +197,8 @@
              --platform ${platform}
              --jdk ${bundled_jdk}
              --executable jgex
-             --classpath ${jgex_jar}:lib/*
+             --classpath ${jgex_jar}
+             --classpath lib${file.separator}*
              --mainclass wprover.GExpert
              --resources examples help language rules --output jgex-${version}-${platform}-${date}"/>
       </exec>
