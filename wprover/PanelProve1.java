@@ -13,8 +13,14 @@ import java.awt.event.*;
 import java.util.Vector;
 import java.io.*;
 
+import org.apache.batik.anim.dom.SAXSVGDocumentFactory;
+import org.apache.batik.util.XMLResourceDescriptor;
 import org.graphper.api.Graphviz;
 import org.graphper.api.Node;
+
+import org.apache.batik.swing.JSVGCanvas;
+
+import org.w3c.dom.svg.SVGDocument;
 
 public class PanelProve1 extends JTabbedPane implements ChangeListener {
 //    private Font font_thm = new Font("Dialog", Font.BOLD, 12);
@@ -1652,11 +1658,26 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         Node nd_1 = Node.builder().label("Node 1").build();
         Graphviz graphviz = Graphviz.digraph().addLine(nd_1, nd_1).build();
         try {
-            System.out.println(graphviz.toSvgStr());
+            String svgString = graphviz.toSvgStr();
+            JSVGCanvas svg = new JSVGCanvas();
+            StringReader reader = new StringReader(svgString);
+            String uri = "file:make-something-up";
+            String parser = XMLResourceDescriptor.getXMLParserClassName();
+            SAXSVGDocumentFactory f = new SAXSVGDocumentFactory(parser);
+            SVGDocument doc = f.createSVGDocument(uri, reader);
+            svg.setSVGDocument(doc);
+            JPanel panel = new JPanel();
+            panel.add(svg);
+            JFrame frame = new JFrame("SVGView");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.getContentPane().add(panel);
+            frame.pack();
+            frame.setSize(500, 400);
+            frame.setVisible(true);
         } catch (Exception e) {
             System.err.println("Error: " + e.toString());
         }
-         */
+        */
 
         if (drawStructure) {
             // We don't want multiple edges:
