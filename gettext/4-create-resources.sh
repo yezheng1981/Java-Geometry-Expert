@@ -8,5 +8,5 @@ set -e
 . settings.conf
 
 for i in $SUPPORTED_LANGUAGES; do
- msgfmt --java2 -d .. -r jgex.i18n.Messages -l $i po/$i.po
+ msgfmt --java2 -d ../classes -r wprover.Messages -l $i po/$i.po
  done

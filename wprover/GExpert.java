@@ -1128,10 +1128,16 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
     public static String getLanguage(int n, String s) {
         // Try to use gettext:
-        I18n i18n = I18nFactory.getI18n(GExpert.class);
+
+        /*
+        I18n i18n = I18nFactory.getI18n(GExpert.class,
+                Locale.GERMAN, org.xnap.commons.i18n.I18nFactory.FALLBACK);
+
         String gettextTranslation = i18n.tr(s);
         if (gettextTranslation != null && !gettextTranslation.equals(""))
             return gettextTranslation;
+
+        */
 
         // Otherwise use the old method (deprecated):
         if (language == null)

@@ -59,6 +59,7 @@
                 <pathelement path="lib/batik-swing-1.17.jar"/>
                 <pathelement path="lib/batik-util-1.17.jar"/>
                 <pathelement path="lib/batik-xml-1.17.jar"/>
+                <pathelement path="lib/gettext-commons-0.9.8.jar"/>
                 <pathelement path="lib/graph-support-1.1.2.jar"/>
                 <pathelement path="lib/logback.jar"/>
                 <pathelement path="lib/slf4j.jar"/>
