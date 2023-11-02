@@ -114,7 +114,7 @@ final public class Cm {
     final public static String P_NEQ = "��";
 
 
-    final public static String PC_TRI = "tri";//"��";    // added APR 17th
+    final public static String PC_TRI = "tri";
     final public static String S_T_E = "Centroid";
     final public static String S_T_C = "Circumcenter";
     final public static String S_T_O = "Orthocenter";

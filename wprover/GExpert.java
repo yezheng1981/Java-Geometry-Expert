@@ -5,6 +5,8 @@ import UI.GBevelBorder;
 import UI.GifEncoder;
 import gprover.gib;
 import gprover.gterm;
+import org.xnap.commons.i18n.I18n;
+import org.xnap.commons.i18n.I18nFactory;
 import pdf.PDFJob;
 
 import javax.imageio.IIOImage;
@@ -1125,6 +1127,13 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public static String getLanguage(int n, String s) {
+        // Try to use gettext:
+        I18n i18n = I18nFactory.getI18n(GExpert.class);
+        String gettextTranslation = i18n.tr(s);
+        if (gettextTranslation != null && !gettextTranslation.equals(""))
+            return gettextTranslation;
+
+        // Otherwise use the old method (deprecated):
         if (language == null)
             return s;
 

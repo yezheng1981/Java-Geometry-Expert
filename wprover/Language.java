@@ -267,7 +267,7 @@ public class Language {
         String n = path + "1";
         File f1 = new File(n);
         f1.createNewFile();
-        OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(f1), "UNICODE");//����UNICODE,UTF-16
+        OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream(f1), "UNICODE");//UNICODE,UTF-16
         return writer;
     }
 

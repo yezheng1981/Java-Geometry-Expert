@@ -12,9 +12,9 @@ import java.awt.*;
 import javax.swing.*;
 
 public class ThreadDialog extends Thread {
-    public Thread currentThread = null;//ʵ�ʵ���ʱ����TestThread�������߳�
-    private JFrame parentFrame = null;//��ʾ��ĸ�����
-    private JDialog clueDiag = null;//   ���߳��������С���ʾ��
+    public Thread currentThread = null;
+    private JFrame parentFrame = null;
+    private JDialog clueDiag = null;
     private Dimension dimensions = Toolkit.getDefaultToolkit().getScreenSize();
     private int width = dimensions.width / 4, height = 60;
     private int left = 0, top = 0;
@@ -49,7 +49,7 @@ public class ThreadDialog extends Thread {
             }
         });
 
-        initDiag();//��ʼ����ʾ��
+        initDiag();
     }
 
     protected void initDiag() {
@@ -62,7 +62,7 @@ public class ThreadDialog extends Thread {
         clueDiag.setSize(400, 300);
 
 //       clueDiag.setVisible(true);
-//       (new DisposeDiag()).start();//�����ر���ʾ���߳�
+//       (new DisposeDiag()).start();
     }
 
     //
@@ -81,12 +81,12 @@ public class ThreadDialog extends Thread {
     class DisposeDiag extends Thread {
         public void run() {
             try {
-                currentThread.join();//�ȴ��������߳̽���
+                currentThread.join();
             }
             catch (InterruptedException e) {
                 System.out.println("Exception:" + e);
             }
-            clueDiag.dispose();//�ر���ʾ��
+            clueDiag.dispose();
         }
 
     }

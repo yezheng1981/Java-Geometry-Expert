@@ -1,0 +1,2 @@
+#!/bin/bash
+PACKAGE_VERSION=0.80
