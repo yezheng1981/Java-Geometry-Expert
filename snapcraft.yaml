@@ -69,6 +69,7 @@ parts:
       - libasound2
       - openjdk-11-jre
       - epiphany-browser
+      - epiphany-browser-data
     override-prime: |
       snapcraftctl prime
       rm -f usr/lib/jvm/java-11-openjdk-*/lib/security/blacklisted.certs
