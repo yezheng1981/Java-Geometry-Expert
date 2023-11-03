@@ -68,8 +68,7 @@ parts:
       - libgtk2.0-0
       - libasound2
       - openjdk-11-jre
-      - epiphany-browser
-      - epiphany-browser-data
+      - firefox
     override-prime: |
       snapcraftctl prime
       rm -f usr/lib/jvm/java-11-openjdk-*/lib/security/blacklisted.certs
