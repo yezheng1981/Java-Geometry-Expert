@@ -1,0 +1,8 @@
+Allowed objects: Points, segments, lines, circle.
+Circles can have only one designated intersection point.
+
+Lines are loaded as segments.
+
+Not supported at the moment (among other objects):
+Midpoints of segments, parallel or perpendicular lines, perpendicular or angle bisectors.
+These need to be constructed via simple Euclidean steps.

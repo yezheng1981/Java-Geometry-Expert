@@ -5,7 +5,7 @@ public class Version {
 
     private static float version = 0.80f;
     private static String sversion = "0.80";
-    private static String data = "2023-04-29";
+    private static String data = "2023-11-06";
     private static String project = "Geometry Expert";
 
 

@@ -7,6 +7,7 @@
     <property name="jgex_jar" value="jgex.jar"/>
     <property name="deb_out" value="deb_output"/>
     <property name="version" value="0.80"/>
+    <property name="debug" value="on"/>
 
     <!-- Please override these settings with "ant -Ddate=... <task>" -->
     <property name="date" value="2023Nov01"/>
@@ -40,7 +41,7 @@
 
     <!-- Step 3:  compile all .java files, here we have five packages totally -->
     <target name="compile" depends="init" description="compiling jgex">
-        <javac  srcdir="${src}" destdir="${dest}" includes="pdf/**, UI/**, maths/**, gprover/**, wprover/**"
+        <javac srcdir="${src}" destdir="${dest}" includes="pdf/**, UI/**, maths/**, gprover/**, wprover/**"
                 debug="off" nowarn="on" source="8" includeantruntime="false">
             <classpath>
                 <pathelement path="lib/batik-anim-1.17.jar"/>
@@ -164,6 +165,18 @@
               maxmemory="128m"
               classname="wprover.GExpert"
               classpath="${out}/${jgex_jar}:${out}/lib/*"/>
+    </target>
+
+    <!-- Run the jar file for debugging without building it. -->
+    <target name="run_debug" description="Run JGEX for Debugging">
+        <java jar="${out}/${jgex_jar}"
+              fork="true"
+              failonerror="true"
+              maxmemory="128m"
+              classname="wprover.GExpert"
+              classpath="${out}/${jgex_jar}:${out}/lib/*">
+            <jvmarg value="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:8000"/>
+        </java>
     </target>
 
     <!-- Optional. Create a Debian package (only on Linux). -->

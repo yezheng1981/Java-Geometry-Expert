@@ -877,6 +877,13 @@ public class CLine extends CClass {
         this.addApoint(B);
     }
 
+    public CLine(String name, CPoint A, CPoint B) {
+        super(CClass.LINE);
+        this.m_name=name;
+        this.addApoint(A);
+        this.addApoint(B);
+    }
+
 
     public boolean sameLine(CPoint A, CPoint B) {
         CPoint p = new CPoint();

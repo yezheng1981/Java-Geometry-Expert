@@ -154,9 +154,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public void addSplitListener() {
-        d.addComponentListener(new ComponentListener()
-
-        {
+        d.addComponentListener(new ComponentListener() {
             public void componentResized(ComponentEvent e) {
                 if (provePanelbar != null && provePanelbar.isVisible())
                     provePanelbar.movetoDxy(0, 0);
@@ -426,6 +424,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
             String dr = getUserDir();
             filechooser.setCurrentDirectory(new File(dr));
             filechooser.setFileFilter(new JFileFilter("gex"));
+            filechooser.setFileFilter(new JFileFilter("ggb"));
         }
         filechooser.setSelectedFile(null);
         filechooser.setSelectedFiles(null);
@@ -751,7 +750,9 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
         item = addAMenu(menu, "Open", null, 'O', this);
         addImageToItem(item, "open");
+        item = addAMenu(menu, "Import", null, this);
         menu.addSeparator();
+
         item = addAMenu(menu, "Save", null, 'S', this);
         addImageToItem(item, "save");
         JMenuItem item1 = addAMenu(menu, "Save as...", "null", this);
@@ -1309,6 +1310,18 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                     ee.printStackTrace();
                 }
             }
+            // Handle import of ggb file
+        } else if (command.equals("Import")) {
+            JFileChooser chooser = getFileChooser();
+            int result = chooser.showOpenDialog(this);
+            if (result == JFileChooser.APPROVE_OPTION) {
+                try {
+                    File file = chooser.getSelectedFile();
+                    openGGBFile(file);
+                } catch (Exception ee) {
+                    ee.printStackTrace();
+                }
+            }
         } else if (command.equals("Exit")) {
             if (saveBeforeExit())
                 System.exit(0);
@@ -1698,8 +1711,51 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         } catch (Exception ee) {
             ee.printStackTrace();
         }
+    }
 
 
+    private boolean openGGBFile(File file) {
+        String path = file.getPath();
+        File f = new File(path);
+        if (!f.exists() && !path.endsWith(".ggb"))
+            path += ".ggb";
+        f = new File(path);
+        try {
+            if (f.exists()) {
+                boolean r = true;
+                if (2 == this.Clear()) // cancel option.
+                    return false;
+                if (f.getName().endsWith("ggb")) {
+                    dp.clearAll();
+                    dp.setFile(f);
+                    DataInputStream in = dp.openInputFile(f.getPath());
+                    //r = dp.LoadGGB(in,f.getPath());
+                    r = dp.LoadGGB2(in,f.getPath());
+                    // pprove.LoadProve(in); // TODO:
+                    in.close();
+                    // dp.stopUndoFlash(); // TODO:
+                    dp.reCalculate();
+                } else {
+                    System.out.println("GeoGebra file must end with .ggb");
+                    return false;
+                }
+                dp.setName(file.getName());
+                CMisc.version_load_now = 0;
+                CMisc.onFileSavedOrLoaded();
+                updateTitle();
+                return r;
+            } else return false;
+        } catch (IOException ee) {
+            StackTraceElement[] tt = ee.getStackTrace();
+
+            String s = ee.toString();
+            for (int i = 0; i < tt.length; i++) {
+                if (tt[i] != null)
+                    s += tt[i].toString() + "\n";
+            }
+            System.out.println(s);
+        }
+        return false;
     }
 
     int[] parse2Int(String s) {
@@ -2118,8 +2174,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                 if (writer.canInsertImage(0))
                     writer.writeInsert(0, iioImage, null);
                 imageOut.close();
-            }
-            catch (IOException exception) {
+            } catch (IOException exception) {
                 if (CMisc.isDebug())
                     exception.printStackTrace();
                 else
@@ -3062,7 +3117,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
             }
             if (file.exists()) {
                 int n2 = JOptionPane.showConfirmDialog(this, file.getName()
-                        + " already exists, do you want to overwrite?",
+                                + " already exists, do you want to overwrite?",
                         "File Exists", JOptionPane.YES_NO_CANCEL_OPTION);
                 if (n2 != JOptionPane.YES_OPTION) {
                     return;

@@ -3,24 +3,30 @@ package wprover;
 import gprover.*;
 
 import javax.swing.*;
-import java.util.Vector;
-import java.util.Calendar;
-import java.util.Locale;
+import javax.swing.Timer;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import java.awt.List;
+import java.util.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.print.*;
 import java.io.*;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
+import java.util.zip.ZipInputStream;
 
 import maths.TPoly;
 import maths.TMono;
 import maths.param;
 import maths.PolyBasic;
 import maths.CharSet;
+import org.w3c.dom.*;
 
 
 public class
-        drawProcess extends drawbase implements Printable, ActionListener {
+drawProcess extends drawbase implements Printable, ActionListener {
 
 
     final public static int SELECT = 0;
@@ -5481,6 +5487,11 @@ public class
         return pt;
     }
 
+    public CPoint SmartgetApointFromXY(double x, double y, String name) {
+        CPoint pt = SmartAddPoint(x, y, name);
+        return pt;
+    }
+
     public void addPointToList(CPoint p) {
         if (p == null)
             return;
@@ -6510,6 +6521,39 @@ public class
         }
 
         CPoint p = this.CreateANewPoint(x, y);
+        this.addPointToList(p);
+        p.hasSetColor = false;
+        int n = v.size();
+        if (n == 0) {
+            setCatchHVPoint(p);
+        } else if (n == 1) {
+            Object obj = v.get(0);
+            if (obj instanceof CLine) {
+                CLine ln = (CLine) obj;
+                ln.pointOnLine(p);
+                ln.pointonMiddle(p);
+                AddPointToLine(p, (CLine) obj, false);
+            } else if (obj instanceof Circle)
+                AddPointToCircle(p, (Circle) obj, false);
+            charsetAndAddPoly(false);
+        }
+        return p;
+    }
+
+    public CPoint SmartAddPoint(double x, double y, String name) { // add a new point to drawing with x,y
+        CPoint pt = SelectAPoint(x, y);
+        if (pt != null)
+            return pt;
+
+
+        Vector v = new Vector();
+        SelectFromAList(v, linelist, x, y);
+        SelectFromAList(v, circlelist, x, y);
+        if (v.size() >= 2) {
+            return meetTwoObject(v.get(0), v.get(1), true, x, y);
+        }
+
+        CPoint p = this.CreateANewPoint(x, y, name);
         this.addPointToList(p);
         p.hasSetColor = false;
         int n = v.size();
@@ -7998,7 +8042,22 @@ public class
         param p2 = parameter[paraCounter -
                 1] = new param(paraCounter++, y);
         CPoint p = new CPoint(p1, p2);
- //       this.setTextPositionAutomatically(p.ptext);
+        //       this.setTextPositionAutomatically(p.ptext);
+        return p;
+    }
+
+    public CPoint CreateANewPoint(double x, double y, String name) {
+        if (paraCounter > 1023) {
+            CMisc.print("point overflow.");
+            return null;
+        }
+
+        param p1 = parameter[paraCounter -
+                1] = new param(paraCounter++, x);
+        param p2 = parameter[paraCounter -
+                1] = new param(paraCounter++, y);
+        CPoint p = new CPoint(name, p1, p2);
+        //       this.setTextPositionAutomatically(p.ptext);
         return p;
     }
 
@@ -8008,7 +8067,7 @@ public class
             return null;
         if (check_para(line1, line2)) {
             JOptionPane.showMessageDialog(gxInstance, gxInstance.getLanguage(1028, "The two lines you selected are parallel" +
-                    ", don't have any intersection!")
+                            ", don't have any intersection!")
                     , gxInstance.getLanguage(1029, "No intersection"), JOptionPane.ERROR_MESSAGE);
             return null;
         }
@@ -8635,6 +8694,15 @@ public class
         for (int i = 0; i < this.paraCounter - 1; i++) {
             parameter[i].Save(out);
         }
+
+        /*
+        // Set paraBackup to current paramter values when saving the file
+        for (int i = 0; i < paraCounter; i++) {
+            if (parameter[i] != null)
+                paraBackup[i] = parameter[i].value;
+        }
+        */
+
 
         for (int i = 0; i < this.paraCounter - 1; i++) {
             out.writeDouble(paraBackup[i]);
@@ -10685,7 +10753,7 @@ public class
             tx = mx + cx;
             ty = my + cy;
 
-            addOrientedSegment(pt0,pt1,t,tx,ty);
+            addOrientedSegment(pt0, pt1, t, tx, ty);
             //CPoint t1 = this.SmartgetApointFromXY(tx, ty);
         }
     }
@@ -10701,9 +10769,8 @@ public class
         }
     }
 
-    public void setTextPositionAutomatically(CText tex)
-    {
-        if( tex.getType() != CText.NAME_TEXT )
+    public void setTextPositionAutomatically(CText tex) {
+        if (tex.getType() != CText.NAME_TEXT)
             return;
 
         Point o = tex.getLocation();
@@ -10712,54 +10779,48 @@ public class
         double r = 15;
 
         CClass c = tex.father;
-        if(c != null && c.get_type() == CClass.POINT)
-        {
-            CPoint px = (CPoint)c;
+        if (c != null && c.get_type() == CClass.POINT) {
+            CPoint px = (CPoint) c;
             double x = tex.getX();
             double y = tex.getY();
-            double dx = x ;//- px.getx();
-            double dy = y ;//- px.gety();
+            double dx = x;//- px.getx();
+            double dy = y;//- px.gety();
             double dpi = Math.PI / 16;
             boolean bfound = false;
             double sx, sy;
             sx = sy = 0;
-            for(int i = 0; i < 16; i ++)
-            {
-                if(bfound)
-                   break;
+            for (int i = 0; i < 16; i++) {
+                if (bfound)
+                    break;
                 double sta = i * dpi;
-                for(int j = 0; j < 2; j ++)
-                {
+                for (int j = 0; j < 2; j++) {
                     sx = dx * Math.cos(sta) - dy * Math.sin(sta);
                     sy = dx * Math.sin(sta) + dy * Math.cos(sta);
-                    if(!intsWithCircle(sx + px.getx(),sy + px.gety(),r))
-                    {
+                    if (!intsWithCircle(sx + px.getx(), sy + px.gety(), r)) {
                         bfound = true;
                         break;
                     }
-                    if(bfound)
+                    if (bfound)
                         break;
                     sta *= -1;
                 }
             }
-         if(bfound)
-            {
-                tex.setXY((int)(sx  ), (int)(sy  ));
+            if (bfound) {
+                tex.setXY((int) (sx), (int) (sy));
             }
         }
 
     }
 
-    public boolean intsWithCircle(double ptx, double pty, double r)
-    {
+    public boolean intsWithCircle(double ptx, double pty, double r) {
 
         boolean bat = false;
         int size = pointlist.size();
-        for (int i = 0; i < size -1; i++) {
+        for (int i = 0; i < size - 1; i++) {
             CPoint p = (CPoint) pointlist.get(i);
             double ds = Math.pow(p.getx() - ptx, 2) + Math.pow(p.gety() - pty, 2);
             ds = Math.sqrt(ds);
-            if(ds < r){
+            if (ds < r) {
                 return true;
             }
         }
@@ -10767,10 +10828,9 @@ public class
         size = linelist.size();
         for (int i = 0; i < size; i++) {
             CLine ln = (CLine) linelist.get(i);
-            double d = ln.distance(ptx,pty);
-            if(d < r)
-            {
-                if( ln.isOnMiddle(ptx, pty))
+            double d = ln.distance(ptx, pty);
+            if (d < r) {
+                if (ln.isOnMiddle(ptx, pty))
                     return true;
             }
         }
@@ -10778,10 +10838,804 @@ public class
         for (int i = 0; i < size; i++) {
             Circle c = (Circle) circlelist.get(i);
             double d = Math.sqrt(Math.pow(c.o.getx() - ptx, 2) + Math.pow(c.o.gety() - pty, 2));
-            if( Math.abs(d - c.getRadius()) < r)
+            if (Math.abs(d - c.getRadius()) < r)
                 return true;
         }
         return false;
+    }
+
+    public boolean LoadGGB(DataInputStream in, String path) throws IOException {
+        // Reset everything in the current construction
+        clearAll();
+        double version = 0.053; // Current gex file version for JGEX 0.8 is 0.053
+        CMisc.version_load_now = version;
+
+        // Need to make type ArrayList because JGEX uses java.awt.List as well
+        ArrayList<CPoint> points = new ArrayList<>();
+        ArrayList<CLine> lines = new ArrayList<>();
+        ArrayList<CAngle> angles = new ArrayList<>();
+
+        ZipFile ggbFile = new ZipFile(path);
+
+        Enumeration<? extends ZipEntry> entries = ggbFile.entries();
+
+        while (entries.hasMoreElements()) {
+            ZipEntry entry = entries.nextElement();
+            String filename = entry.getName();
+            if (filename.equals("geogebra.xml")) {
+                InputStream stream = ggbFile.getInputStream(entry);
+                try {
+                    DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+                    //an instance of builder to parse the specified xml file
+                    DocumentBuilder db = dbf.newDocumentBuilder();
+                    Document doc = db.parse(stream);
+                    doc.getDocumentElement().normalize();
+
+                    // System.out.println("Root element: " + doc.getDocumentElement().getNodeName());
+
+                    NodeList nodeSize = doc.getElementsByTagName("size");
+                    if (nodeSize.getLength() > 1) {
+                        System.out.println("More than one size element in ggb file! Use only graphics view 1.");
+                    }
+                    NamedNodeMap sizeGGB = nodeSize.item(0).getAttributes();
+                    int widthGGB = Integer.parseInt(sizeGGB.getNamedItem("width").getTextContent());
+                    int heightGGB = Integer.parseInt(sizeGGB.getNamedItem("height").getTextContent());
+
+                    NodeList nodeScales = doc.getElementsByTagName("coordSystem");
+                    if (nodeScales.getLength() > 1) {
+                        System.out.println("More than one coord system in ggb file! Use only graphics views 1.");
+                    }
+                    NamedNodeMap coordsGGB = nodeScales.item(0).getAttributes();
+                    double xScaleGGB = Double.parseDouble(coordsGGB.getNamedItem("scale").getTextContent());
+                    double yScaleGGB = Double.parseDouble(coordsGGB.getNamedItem("yscale").getTextContent());
+                    double xZeroGGB = Double.parseDouble(coordsGGB.getNamedItem("xZero").getTextContent());
+                    double yZeroGGB = Double.parseDouble(coordsGGB.getNamedItem("yZero").getTextContent());
+
+                    double widthFraction = (double) Width / widthGGB;
+                    double heightFraction = (double) Height / heightGGB;
+
+
+                    // Find commands.
+                    HashSet<GgbMidpoint> midpointsGgb = new HashSet<>(); // Set of Midpoints
+                    ArrayList<GgbSegment> segmentsGgb = new ArrayList<>(); // Set of Segments
+                    ArrayList<GgbLine> linesGgb = new ArrayList<>();
+                    NodeList nodeList = doc.getElementsByTagName("command");
+                    for (int itr = 0; itr < nodeList.getLength(); itr++) {
+                        Node node = nodeList.item(itr);
+                        if (node.getNodeType() == Node.ELEMENT_NODE) {
+                            Element eElement = (Element) node;
+                            if (eElement.getAttribute("name").equals("Midpoint")) { // Handle Midpoint Command
+                                NamedNodeMap outputName = eElement.getElementsByTagName("output").item(0).getAttributes();
+                                NamedNodeMap inputName = eElement.getElementsByTagName("input").item(0).getAttributes();
+                                String nameMidpoint = outputName.getNamedItem("a0").getTextContent();
+                                if (inputName.getLength() == 2) { // Midpoint of two points
+                                    String nameP1 = inputName.getNamedItem("a0").getTextContent();
+                                    String nameP2 = inputName.getNamedItem("a1").getTextContent();
+                                    midpointsGgb.add(new GgbMidpoint(nameMidpoint, nameP1, nameP2));
+                                } else if (inputName.getLength() == 1) { // Midpoint of a segment
+                                    String nameSegment = inputName.getNamedItem("a0").getTextContent();
+                                    for (GgbSegment segment : segmentsGgb) { // Find segment
+                                        if (segment.getName().equals(nameSegment)) {
+                                            midpointsGgb.add(new GgbMidpoint(nameMidpoint, segment.getNameP1(), segment.getNameP2()));
+                                        }
+                                    }
+                                }
+                            } else if (eElement.getAttribute("name").equals("Segment")) { // Handle segment command. Segment between two points
+                                NamedNodeMap outputName = eElement.getElementsByTagName("output").item(0).getAttributes();
+                                NamedNodeMap inputName = eElement.getElementsByTagName("input").item(0).getAttributes();
+                                if (inputName.getLength() == 2) { // Segment between two points
+                                    String nameSegment = outputName.getNamedItem("a0").getTextContent();
+                                    String nameP1 = inputName.getNamedItem("a0").getTextContent();
+                                    String nameP2 = inputName.getNamedItem("a1").getTextContent();
+                                    segmentsGgb.add(new GgbSegment(nameSegment, nameP1, nameP2));
+
+                                }
+                            } else if (eElement.getAttribute("name").equals("Line")) { // Handle line command
+                                NamedNodeMap outputName = eElement.getElementsByTagName("output").item(0).getAttributes();
+                                NamedNodeMap inputName = eElement.getElementsByTagName("input").item(0).getAttributes();
+                                if (inputName.getLength() == 2) { // Line between two points
+                                    String nameLine = outputName.getNamedItem("a0").getTextContent();
+                                    String nameP1 = inputName.getNamedItem("a0").getTextContent();
+                                    String nameP2 = inputName.getNamedItem("a1").getTextContent();
+                                    linesGgb.add(new GgbLine(nameLine, nameP1, nameP2));
+                                }
+                            }
+                        }
+                    }
+
+
+                    // Get a list of all elements in the construction
+                    nodeList = doc.getElementsByTagName("element");
+                    // nodeList is not iterable, so we are using for loop
+                    for (int itr = 0; itr < nodeList.getLength(); itr++) {
+                        Node node = nodeList.item(itr);
+                        if (node.getNodeType() == Node.ELEMENT_NODE) {
+                            Element eElement = (Element) node;
+
+                            // Handle GeoGebra Point
+                            if (eElement.getAttribute("type").equals("point")) {
+                                // The name of the point is the same as in GeoGebra
+                                String label = eElement.getAttribute("label");
+
+                                // Do not add midpoints
+                                if (midpointsGgb.contains(new GgbMidpoint(label))) {
+                                    continue;
+                                }
+
+                                NamedNodeMap coords = eElement.getElementsByTagName("coords").item(0).getAttributes();
+                                double xGGB = Double.parseDouble(coords.getNamedItem("x").getTextContent());
+                                double yGGB = Double.parseDouble(coords.getNamedItem("y").getTextContent());
+                                double xJGEX = widthFraction * (xZeroGGB + xScaleGGB * xGGB);
+                                double yJGEX = heightFraction * (yZeroGGB - yScaleGGB * yGGB);
+                                // clearSelection();
+
+
+                                CPoint p = this.SmartgetApointFromXY(xJGEX, yJGEX, label);
+
+                                points.add(p);
+
+
+                                if (p != null) {
+                                    addToSelectList(p);
+                                    this.UndoAdded(p.TypeString());
+                                }
+                                // System.out.println(xJGEX+", "+yJGEX); // DEBUG
+                            } // TODO: Add handlers for other geometric objects as well
+                            /*
+                            System.out.println("Student id: " + eElement.getElementsByTagName("id").item(0).getTextContent());
+                            System.out.println("First Name: " + eElement.getElementsByTagName("firstname").item(0).getTextContent());
+                            System.out.println("Last Name: " + eElement.getElementsByTagName("lastname").item(0).getTextContent());
+                            System.out.println("Subject: " + eElement.getElementsByTagName("subject").item(0).getTextContent());
+                            System.out.println("Marks: " + eElement.getElementsByTagName("marks").item(0).getTextContent());
+
+                             */
+                        }
+                    }
+
+                    // Make all Midpoints between two Points or Segments
+                    for (GgbMidpoint mp : midpointsGgb) {
+                        CPoint[] pts = new CPoint[2];
+                        for (CPoint p : points) {
+                            if (p.getname().equals(mp.getNameP1())) {
+                                pts[0] = p;
+                            } else if (p.getname().equals(mp.getNameP2())) {
+                                pts[1] = p;
+                            }
+                        }
+                        CPoint po = this.CreateANewPoint(0, 0);
+                        constraint cs = new constraint(constraint.MIDPOINT, po, pts[0], pts[1]);
+                        CPoint pu = this.addADecidedPointWithUnite(po);
+                        if (pu == null) {
+                            this.addConstraintToList(cs);
+                            this.addPointToList(po);
+                            CLine ln = fd_line(pts[0], pts[1]);
+                            if (ln != null) {
+                                ln.addApoint(po);
+                                constraint cs2 = new constraint(constraint.PONLINE, po, ln, false);
+                                this.addConstraintToList(cs2);
+                            }
+                            this.UndoAdded(po.getname() + ": the midpoint of " + pts[0].m_name + pts[1].m_name);
+                        } else {
+                            po = pu;
+                        }
+                        clearSelection();
+                    }
+
+                    // Make a line for every segment
+                    for (GgbSegment seg : segmentsGgb) {
+                        CPoint[] pts = new CPoint[2];
+                        for (CPoint p : points) {
+                            if (p.getname().equals(seg.getNameP1())) {
+                                pts[0] = p;
+                            } else if (p.getname().equals(seg.getNameP2())) {
+                                pts[1] = p;
+                            }
+                        }
+                        CPoint tp = pts[0];
+                        CPoint pp = pts[1];
+
+                        getSmartPV(pts[0], pts[1]);
+
+                        if (tp != pp && tp != null && pp != null) {
+                            setSmartPVLine(tp, pp);
+                            addPointToList(pp);
+                            CLine ln = new CLine(pp, tp, CLine.LLine);
+                            this.addLineToList(ln);
+                            constraint cs = new constraint(constraint.LINE, tp, pp);
+                            addConstraintToList(cs);
+                            this.reCalculate();
+                            this.UndoAdded(ln.getDescription());
+                        }
+                    }
+
+                    // Make a line for every line
+                    for (GgbLine l : linesGgb) {
+                        CPoint[] pts = new CPoint[2];
+                        for (CPoint p : points) {
+                            if (p.getname().equals(l.getNameP1())) {
+                                pts[0] = p;
+                            } else if (p.getname().equals(l.getNameP2())) {
+                                pts[1] = p;
+                            }
+                        }
+                        CPoint tp = pts[0];
+                        CPoint pp = pts[1];
+
+                        getSmartPV(pts[0], pts[1]);
+
+                        if (tp != pp && tp != null && pp != null) {
+                            setSmartPVLine(tp, pp);
+                            addPointToList(pp);
+                            CLine ln = new CLine(pp, tp, CLine.LLine);
+                            this.addLineToList(ln);
+                            constraint cs = new constraint(constraint.LINE, tp, pp);
+                            addConstraintToList(cs);
+                            this.reCalculate();
+                            this.UndoAdded(ln.getDescription());
+                        }
+                    }
+
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+        ggbFile.close();
+//
+//        //int idcount = CMisc.id_count = getNumIds(); // TODO
+//        poly.clearZeroN();
+//
+//
+//        pnameCounter = in.readInt();
+//        plineCounter = in.readInt();
+//        pcircleCounter = in.readInt();
+//        paraCounter = in.readInt();
+//
+//        for (int i = 0; i < this.paraCounter - 1; i++) {
+//            param pm = new param();
+//            pm.Load(in);
+//            this.parameter[i] = pm;
+//        }
+//
+//        for (int i = 0; i < this.paraCounter - 1; i++) {
+//            paraBackup[i] = in.readDouble();
+//        }
+//
+//        int size;
+//
+//        if (CMisc.version_load_now < 0.01) {
+//            size = in.readInt();
+//            int trackCounter = size;
+//            if (CMisc.version_load_now >= 0.008) {
+//                for (int i = 0; i < 2 * trackCounter; i++) {
+//                    in.readInt();
+//                }
+//            } else {
+//                for (int i = 0; i < trackCounter; i++) {
+//                    in.readInt();
+//                }
+//            }
+//        } else if (CMisc.version_load_now < 0.012) {
+//            size = in.readInt();
+//            for (int i = 0; i < size; i++) {
+//                CTrace ct = new CTrace(null);
+//                ct.Load(in, this);
+//                tracelist.add(ct);
+//            }
+//        }
+//
+//        size = in.readInt();
+//        for (int i = 0; i < size; i++) {
+//            int d = in.readInt();
+//            addConstraintToList(new constraint(d));
+//        }
+//
+//        size = in.readInt();
+//        for (int i = 0; i < size; i++) {
+//            CPoint p = new CPoint();
+//            p.Load(in, this);
+//            pointlist.add(p);
+//        }
+//        size = in.readInt();
+//        for (int i = 0; i < size; i++) {
+//            CLine ln = new CLine(0);
+//            ln.Load(in, this);
+//            linelist.add(ln);
+//        }
+//        size = in.readInt();
+//        for (int i = 0; i < size; i++) {
+//            Circle c = new Circle();
+//            c.Load(in, this);
+//            circlelist.add(c);
+//        }
+//        size = in.readInt();
+//        for (int i = 0; i < size; i++) {
+//            CAngle ag = new CAngle();
+//            ag.Load(in, this);
+//            anglelist.add(ag);
+//        }
+//        size = in.readInt();
+//        for (int i = 0; i < size; i++) {
+//            CDistance dis = new CDistance();
+//            dis.Load(in, this);
+//            distancelist.add(dis);
+//        }
+//        size = in.readInt();
+//        for (int i = 0; i < size; i++) {
+//
+//            CPolygon poly = new CPolygon();
+//            poly.Load(in, this);
+//            addPolygonToList(poly);
+//        }
+//        size = in.readInt();
+//        for (int i = 0; i < size; i++) {
+//            CText ct = new CText();
+//            ct.Load(in, this);
+//            textlist.add(ct);
+//        }
+//
+//        if (CMisc.version_load_now >= 0.012) {
+//            size = in.readInt();
+//            for (int i = 0; i < size; i++) {
+//                CTrace ct = new CTrace(null);
+//                ct.Load(in, this);
+//                tracelist.add(ct);
+//            }
+//        }
+//
+//        if (CMisc.version_load_now >= 0.017) {
+//            size = in.readInt();
+//            if (CMisc.version_load_now <= 0.040)
+//                for (int i = 0; i < size; i++) {
+//                    Cedmark ce = new Cedmark();
+//                    ce.Load(in, this);
+//                    otherlist.add(ce);
+//                }
+//            else {
+//                for (int i = 0; i < size; i++) {
+//                    int t = in.readInt();
+//                    switch (t) {
+//
+//                        case CClass.TMARK: {
+//                            CTMark mt = new CTMark();
+//                            mt.Load(in, this);
+//                            otherlist.add(mt);
+//                        }
+//                        break;
+//                        case CClass.ARROW: {
+//                            CArrow ar = new CArrow(null, null);
+//                            ar.Load(in, this);
+//                            otherlist.add(ar);
+//                            break;
+//                        }
+//                        case CClass.EQMARK:
+//                        case 0: {
+//                            Cedmark ce = new Cedmark();
+//                            ce.Load(in, this);
+//                            otherlist.add(ce);
+//                        }
+//                        break;
+//                        default:
+//                            CMisc.eprint(panel, "Mark unidentified!");
+//                            break;
+//                    }
+//                }
+//            }
+//
+//        }
+//
+//
+//        this.optmizePolynomial();
+//
+//        size = in.readInt();
+//        for (int i = 0; i < size; i++) {
+//            constraint cs = (constraint) constraintlist.get(i);
+//            cs.Load(in, this);
+//            if (cs.is_poly_genereate) {
+//                cs.PolyGenerate();
+//                this.charsetAndAddPoly(true);
+//            }
+//
+//        }
+//
+////        for (int i = 0; i < size; i++) {
+////            constraint cs = (constraint) constraintlist.get(i);
+////
+////        }
+//
+//        size = in.readInt();
+//        for (int i = 0; i < size; i++) {
+//            UndoStruct ud = new UndoStruct(0);
+//            ud.Load(in, this);
+//            undolist.add(ud);
+//            if (ud.m_type == UndoStruct.T_TO_PROVE_NODE) {
+//                drawData.setProveStatus();
+//            }
+//        }
+//
+//        currentUndo = new UndoStruct(0);
+//        currentUndo.Load(in, this);
+//
+//        if (version >= 0.006) {
+//            int ti = in.readInt();
+//        }
+//
+//        if (CMisc.version_load_now >= 0.009) { //version 0.009 special for web saver.
+//            boolean isrun = in.readBoolean();
+//            if (isrun) {
+//                this.animate = new AnimateC();
+//                this.animate.Load(in, this);
+//                if (gxInstance != null) {
+//                    {
+//                        gxInstance.anButton.setEnabled(true);
+//                        gxInstance.getAnimateDialog().setAttribute(animate);
+//                        gxInstance.showAnimatePane();
+//                    }
+//                }
+//            } else {
+//                if (gxInstance != null) {
+//                    {
+//                        gxInstance.anButton.setEnabled(false);
+//                    }
+//                }
+//            }
+//        }
+//
+//        if (CMisc.version_load_now >= 0.017) {
+//            boolean havep = in.readBoolean();
+//            if (havep) {
+//                cpfield = new CProveField();
+//                cpfield.Load(in, this);
+////                if (gxInstance != null) {
+////                    gxInstance.showProveBar(true);
+////                }
+//            }
+//        }
+        //CMisc.id_count = idcount;
+        CurrentAction = MOVE;
+        //currentUndo.id = idcount;
+
+        setSavedTag();
+        return true;
+    }
+
+
+    // New version that iterates over the ggb construction element
+    public boolean LoadGGB2(DataInputStream in, String path) throws IOException {
+        //BUG: Axis Ratio needs to be 1:1
+        // Reset everything in the current construction
+        clearAll();
+        double version = 0.053; // Current gex file version for JGEX 0.8 is 0.053
+        CMisc.version_load_now = version;
+
+        // Need to make type ArrayList because JGEX uses java.awt.List as well
+        ArrayList<CPoint> points = new ArrayList<>();
+        ArrayList<CLine> lines = new ArrayList<>();
+        ArrayList<Circle> circles = new ArrayList<>();
+        ArrayList<CAngle> angles = new ArrayList<>();
+
+        // Save names of all the points
+        ArrayList<GgbPoint> pointsGgb = new ArrayList<>();
+// Save names of all the segments
+        ArrayList<GgbSegment> segmentsGgb = new ArrayList<>();
+        // Save names of all the lines
+        ArrayList<GgbLine> linesGgb = new ArrayList<>();
+        ArrayList<GgbCircle> circlesGgb = new ArrayList<>();
+
+        ZipFile ggbFile = new ZipFile(path);
+
+        Enumeration<? extends ZipEntry> entries = ggbFile.entries();
+
+        while (entries.hasMoreElements()) {
+            ZipEntry entry = entries.nextElement();
+            String filename = entry.getName();
+            if (filename.equals("geogebra.xml")) {
+                InputStream stream = ggbFile.getInputStream(entry);
+                try {
+                    DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+                    //an instance of builder to parse the specified xml file
+                    DocumentBuilder db = dbf.newDocumentBuilder();
+                    Document doc = db.parse(stream);
+                    doc.getDocumentElement().normalize();
+
+                    // System.out.println("Root element: " + doc.getDocumentElement().getNodeName());
+
+                    NodeList nodeSize = doc.getElementsByTagName("size");
+                    if (nodeSize.getLength() > 1) {
+                        System.out.println("More than one size element in ggb file! Use only graphics view 1.");
+                    }
+                    NamedNodeMap sizeGGB = nodeSize.item(0).getAttributes();
+                    int widthGGB = Integer.parseInt(sizeGGB.getNamedItem("width").getTextContent());
+                    int heightGGB = Integer.parseInt(sizeGGB.getNamedItem("height").getTextContent());
+
+                    NodeList nodeScales = doc.getElementsByTagName("coordSystem");
+                    if (nodeScales.getLength() > 1) {
+                        System.out.println("More than one coord system in ggb file! Use only graphics views 1.");
+                    }
+                    NamedNodeMap coordsGGB = nodeScales.item(0).getAttributes();
+                    double xScaleGGB = Double.parseDouble(coordsGGB.getNamedItem("scale").getTextContent());
+                    double yScaleGGB = Double.parseDouble(coordsGGB.getNamedItem("yscale").getTextContent());
+                    double xZeroGGB = Double.parseDouble(coordsGGB.getNamedItem("xZero").getTextContent());
+                    double yZeroGGB = Double.parseDouble(coordsGGB.getNamedItem("yZero").getTextContent());
+
+
+                    SetDimension(widthGGB, heightGGB);
+                    double widthFraction = (double) Width / widthGGB; // Factor to convert from relative ggb coordinates to JGEX pixels
+                    double heightFraction = (double) Height / heightGGB; // Factor to convert from relative ggb coordinates to JGEX pixels
+                    double fraction = Math.min(widthFraction, heightFraction);
+
+                    NodeList construction = doc.getElementsByTagName("construction");
+                    int len1 = construction.getLength();
+                    for (int i = 0; i < len1; i++) { // Should only iterate one time. Only one construction
+                        Node constructionNode = construction.item(i);
+                        if (constructionNode.getNodeType() == Node.ELEMENT_NODE) {
+                            NodeList steps = constructionNode.getChildNodes();
+                            int len2 = steps.getLength();
+                            for (int j = 0; j < len2; j++) { // Iterate over all steps in teh construction
+                                Node stepNode = steps.item(j);
+                                if (stepNode.getNodeType() == Node.ELEMENT_NODE) {
+                                    Element step = (Element) stepNode;
+                                    switch (step.getTagName()) {
+                                        case "element": // We are mostly interested in points
+                                            // Construct a new point
+                                            if (step.getAttribute("type").equals("point")) {
+                                                Element point = step;
+                                                // The name of the point is the same as in GeoGebra
+                                                String label = point.getAttribute("label");
+                                                GgbPoint gp = new GgbPoint(label);
+                                                // Do not add points that already are in the construction
+                                                if (pointsGgb.contains(gp)) {
+                                                    break;
+                                                }
+
+                                                NamedNodeMap coords = point.getElementsByTagName("coords").item(0).getAttributes();
+                                                double xGGB = Double.parseDouble(coords.getNamedItem("x").getTextContent());
+                                                double yGGB = Double.parseDouble(coords.getNamedItem("y").getTextContent());
+                                                double xJGEX = widthFraction * (xZeroGGB + xScaleGGB * xGGB);
+                                                double yJGEX = heightFraction * (yZeroGGB - yScaleGGB * yGGB);
+
+                                                CPoint p = this.SmartgetApointFromXY(xJGEX, yJGEX, label); // Automatically handles points on lines and circles
+                                                points.add(p);
+                                                if (p != null) {
+                                                    addToSelectList(p);
+                                                    this.UndoAdded(p.TypeString());
+                                                }
+                                                pointsGgb.add(gp);
+                                            }
+                                            break;
+                                        case "command":
+                                            // Midpoint
+                                            if (step.getAttribute("name").equals("Midpoint")) {
+                                                NamedNodeMap output = step.getElementsByTagName("output").item(0).getAttributes();
+                                                NamedNodeMap input = step.getElementsByTagName("input").item(0).getAttributes();
+                                                String name = output.getNamedItem("a0").getTextContent();
+                                                String nameP1 = "";
+                                                String nameP2 = "";
+                                                // Midpoint of two points
+                                                if (input.getLength() == 2) {
+                                                    nameP1 = input.getNamedItem("a0").getTextContent();
+                                                    nameP2 = input.getNamedItem("a1").getTextContent();
+
+                                                    // Midpoint of a segment
+                                                } else if (input.getLength() == 1) {
+                                                    String nameSegment = input.getNamedItem("a0").getTextContent();
+                                                    for (GgbSegment segment : segmentsGgb) { // Find segment
+                                                        if (segment.getName().equals(nameSegment)) {
+                                                            nameP1 = segment.getNameP1();
+                                                            nameP2 = segment.getNameP2();
+                                                        }
+                                                    }
+                                                }
+
+                                                CPoint[] pts = new CPoint[2];
+                                                for (CPoint p : points) {
+                                                    if (p.getname().equals(nameP1)) {
+                                                        pts[0] = p;
+                                                    } else if (p.getname().equals(nameP2)) {
+                                                        pts[1] = p;
+                                                    }
+                                                }
+                                                CPoint po = this.CreateANewPoint(0, 0, name);
+                                                constraint cs = new constraint(constraint.MIDPOINT, po, pts[0], pts[1]);
+                                                CPoint pu = this.addADecidedPointWithUnite(po);
+                                                if (pu == null) {
+                                                    this.addConstraintToList(cs);
+                                                    this.addPointToList(po);
+                                                    CLine ln = fd_line(pts[0], pts[1]);
+                                                    if (ln != null) {
+                                                        ln.addApoint(po);
+                                                        constraint cs2 = new constraint(constraint.PONLINE, po, ln, false);
+                                                        this.addConstraintToList(cs2);
+                                                    }
+                                                    this.UndoAdded(po.getname() + ": the midpoint of " + pts[0].m_name + pts[1].m_name);
+                                                } else {
+                                                    po = pu;
+                                                }
+                                                points.add(po);
+                                                pointsGgb.add(new GgbPoint(name));
+                                                // Handle segment command. Segment between two points
+                                            } else if (step.getAttribute("name").equals("Segment")) {
+                                                NamedNodeMap outputName = step.getElementsByTagName("output").item(0).getAttributes();
+                                                NamedNodeMap inputName = step.getElementsByTagName("input").item(0).getAttributes();
+                                                if (inputName.getLength() == 2) { // Segment between two points
+                                                    String nameSegment = outputName.getNamedItem("a0").getTextContent();
+                                                    String nameP1 = inputName.getNamedItem("a0").getTextContent();
+                                                    String nameP2 = inputName.getNamedItem("a1").getTextContent();
+                                                    segmentsGgb.add(new GgbSegment(nameSegment, nameP1, nameP2));
+
+                                                    CPoint[] pts = new CPoint[2];
+                                                    // Make a line for every segment
+                                                    for (CPoint p : points) {
+                                                        if (p.getname().equals(nameP1)) {
+                                                            pts[0] = p;
+                                                        } else if (p.getname().equals(nameP2)) {
+                                                            pts[1] = p;
+                                                        }
+                                                    }
+                                                    CPoint tp = pts[0];
+                                                    CPoint pp = pts[1];
+                                                    lines.add(new CLine(nameSegment, tp, pp));
+
+                                                    getSmartPV(pts[0], pts[1]);
+
+                                                    if (tp != pp && tp != null && pp != null) {
+                                                        setSmartPVLine(tp, pp);
+                                                        addPointToList(pp);
+                                                        CLine ln = new CLine(pp, tp, CLine.LLine);
+                                                        this.addLineToList(ln);
+                                                        constraint cs = new constraint(constraint.LINE, tp, pp);
+                                                        addConstraintToList(cs);
+                                                        this.reCalculate();
+                                                        this.UndoAdded(ln.getDescription());
+                                                    }
+                                                }
+                                            } else if (step.getAttribute("name").equals("Line")) { // Handle line command
+                                                NamedNodeMap outputName = step.getElementsByTagName("output").item(0).getAttributes();
+                                                NamedNodeMap inputName = step.getElementsByTagName("input").item(0).getAttributes();
+                                                // TODO: Handle parallel lines as well (Line(Point, Parallel Line)
+                                                if (inputName.getLength() == 2) { // Line between two points Line(Point,Point)
+                                                    String nameLine = outputName.getNamedItem("a0").getTextContent();
+                                                    String nameP1 = inputName.getNamedItem("a0").getTextContent();
+                                                    String nameP2 = inputName.getNamedItem("a1").getTextContent();
+                                                    linesGgb.add(new GgbLine(nameLine, nameP1, nameP2));
+                                                    CPoint[] pts = new CPoint[2];
+                                                    // Make a line for every segment
+                                                    for (CPoint p : points) {
+                                                        if (p.getname().equals(nameP1)) {
+                                                            pts[0] = p;
+                                                        } else if (p.getname().equals(nameP2)) {
+                                                            pts[1] = p;
+                                                        }
+                                                    }
+                                                    CPoint tp = pts[0];
+                                                    CPoint pp = pts[1];
+                                                    lines.add(new CLine(nameLine, tp, pp));
+
+                                                    getSmartPV(pts[0], pts[1]);
+
+                                                    if (tp != pp && tp != null && pp != null) {
+                                                        setSmartPVLine(tp, pp);
+                                                        addPointToList(pp);
+                                                        CLine ln = new CLine(pp, tp, CLine.LLine);
+                                                        this.addLineToList(ln);
+                                                        constraint cs = new constraint(constraint.LINE, tp, pp);
+                                                        addConstraintToList(cs);
+                                                        this.reCalculate();
+                                                        this.UndoAdded(ln.getDescription());
+                                                    }
+                                                }
+                                            } else if (step.getAttribute("name").equals("OrthogonalLine")) { // Handle PerpendicularLine (OrthogonalLine) command
+                                                NamedNodeMap outputName = step.getElementsByTagName("output").item(0).getAttributes();
+                                                NamedNodeMap inputName = step.getElementsByTagName("input").item(0).getAttributes();
+                                                if (inputName.getLength() == 2) {
+                                                    String nameLinePerp = outputName.getNamedItem("a0").getTextContent();
+                                                    String nameP = inputName.getNamedItem("a0").getTextContent();
+                                                    String nameLine = inputName.getNamedItem("a1").getTextContent();
+                                                    linesGgb.add(new GgbLine(nameLinePerp));
+                                                    CPoint footPoint = null;
+                                                    CLine origLine = null;
+                                                    // Make a line for every segment
+                                                    for (CPoint p : points) {
+                                                        if (p.getname().equals(nameP)) {
+                                                            footPoint = p;
+                                                        }
+                                                    }
+                                                    for (CLine l : lines) {
+                                                        if (l.getname().equals(nameLine)) {
+                                                            origLine = l;
+                                                        }
+                                                    }
+                                                    CLine linePerp = new CLine(footPoint, CLine.TLine);
+                                                    lines.add(linePerp);
+
+                                                    constraint c = new constraint(constraint.PERPENDICULAR, linePerp, origLine);
+                                                    this.addConstraintToList(c);
+                                                    linePerp.addconstraint(c);
+                                                    origLine.addconstraint(c);
+                                                    addLineToList(linePerp);
+                                                    addCTMark(origLine, linePerp);
+                                                    // this.otherlist.add(m);
+                                                    UndoStruct u = this.UndoAdded(linePerp.TypeString() + " perp " +
+                                                            origLine.getDiscription() + " passing " +
+                                                            footPoint.getname());
+                                                    u.adddOjbect(linePerp);
+                                                    u.adddOjbect(origLine);
+                                                    u.adddOjbect(footPoint);
+                                                    linePerp.m_name=nameLinePerp;
+                                                }
+                                            } else if (step.getAttribute("name").equals("Intersect")) { // Handle intersect command
+                                                NamedNodeMap outputName = step.getElementsByTagName("output").item(0).getAttributes();
+                                                NamedNodeMap inputName = step.getElementsByTagName("input").item(0).getAttributes();
+                                                // Intersect two objects
+                                                if (inputName.getLength() == 2) { // TODO: Currently only intersection between two lines. Handle intersection between circles and circle and line too.
+                                                    String name = outputName.getNamedItem("a0").getTextContent();
+                                                    String nameO1 = inputName.getNamedItem("a0").getTextContent();
+                                                    String nameO2 = inputName.getNamedItem("a1").getTextContent();
+                                                    CLine line1 = null;
+                                                    CLine line2 = null;
+                                                    for (CLine l : lines) {
+                                                        if (l.getname().equals(nameO1)) {
+                                                            line1 = l;
+                                                        } else if (l.getname().equals(nameO2)) {
+                                                            line2 = l;
+                                                        }
+                                                    }
+                                                    CPoint intersectionPoint = MeetDifineAPoint(line1, line2);
+                                                    intersectionPoint.m_name = name;
+                                                    points.add(intersectionPoint);
+                                                    pointsGgb.add(new GgbPoint(name));
+                                                }
+                                            } else if (step.getAttribute("name").equals("Circle")) { // Handle Circle command Circle(Point,Point)
+                                                NamedNodeMap outputName = step.getElementsByTagName("output").item(0).getAttributes();
+                                                NamedNodeMap inputName = step.getElementsByTagName("input").item(0).getAttributes();
+
+                                                if (inputName.getLength() == 2) {
+                                                    String name = outputName.getNamedItem("a0").getTextContent();
+                                                    String nameCenterPoint = inputName.getNamedItem("a0").getTextContent();
+                                                    String namePointOnCircle = inputName.getNamedItem("a1").getTextContent();
+
+                                                    CPoint p1 = null;
+                                                    CPoint p2 = null;
+                                                    for (CPoint p : points) {
+                                                        if (p.getname().equals(nameCenterPoint)) {
+                                                            p1 = p;
+                                                        } else if (p.getname().equals(namePointOnCircle)) {
+                                                            p2 = p;
+                                                        }
+                                                    }
+
+                                                    Circle c = new Circle(p1, p2);
+                                                    c.m_name = name;
+                                                    circles.add(c);
+                                                    circlesGgb.add(new GgbCircle(name));
+                                                    addCircleToList(c);
+                                                    constraint cs = new constraint(constraint.CIRCLE, p1, p2);
+                                                    this.addConstraintToList(cs);
+                                                    this.charsetAndAddPoly(false);
+                                                    this.UndoAdded(c.getDescription());
+                                                }
+                                            }
+                                            break;
+
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        ggbFile.close();
+        CurrentAction = MOVE;
+
+        setSavedTag();
+        return true;
     }
 }
 
