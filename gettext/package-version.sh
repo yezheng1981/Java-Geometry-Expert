@@ -1,5 +1,3 @@
 #!/bin/bash
 
-# FIXME: This should be read from the Java source:
-
-PACKAGE_VERSION=0.80
+PACKAGE_VERSION=`cat ../wprover/Version.java | grep "sversion =" | awk '{print $6}' | sed s/\"//g | sed s/\;//`
