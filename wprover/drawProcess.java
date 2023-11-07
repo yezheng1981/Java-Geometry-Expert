@@ -11373,7 +11373,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                         if (constructionNode.getNodeType() == Node.ELEMENT_NODE) {
                             NodeList steps = constructionNode.getChildNodes();
                             int len2 = steps.getLength();
-                            for (int j = 0; j < len2; j++) { // Iterate over all steps in teh construction
+                            for (int j = 0; j < len2; j++) { // Iterate over all steps in the construction
                                 Node stepNode = steps.item(j);
                                 if (stepNode.getNodeType() == Node.ELEMENT_NODE) {
                                     Element step = (Element) stepNode;
@@ -11417,9 +11417,8 @@ drawProcess extends drawbase implements Printable, ActionListener {
                                                 if (input.getLength() == 2) {
                                                     nameP1 = input.getNamedItem("a0").getTextContent();
                                                     nameP2 = input.getNamedItem("a1").getTextContent();
-
-                                                    // Midpoint of a segment
                                                 } else if (input.getLength() == 1) {
+                                                    // Midpoint of a segment
                                                     String nameSegment = input.getNamedItem("a0").getTextContent();
                                                     for (GgbSegment segment : segmentsGgb) { // Find segment
                                                         if (segment.getName().equals(nameSegment)) {
@@ -11569,7 +11568,8 @@ drawProcess extends drawbase implements Printable, ActionListener {
                                                 NamedNodeMap outputName = step.getElementsByTagName("output").item(0).getAttributes();
                                                 NamedNodeMap inputName = step.getElementsByTagName("input").item(0).getAttributes();
                                                 // Intersect two objects
-                                                if (inputName.getLength() == 2) { // TODO: Currently only intersection between two lines. Handle intersection between circles and circle and line too.
+                                                if (inputName.getLength() == 2) { // Currently only intersection between two lines or two circles if there is only one point given is implemented.
+                                                    // TODO: Handle intersection in general between circles and circle and line too.
                                                     String name = outputName.getNamedItem("a0").getTextContent();
                                                     String nameO1 = inputName.getNamedItem("a0").getTextContent();
                                                     String nameO2 = inputName.getNamedItem("a1").getTextContent();
