@@ -13,7 +13,9 @@ test -r po/keys.pot && {
 . package-version.sh
 . settings.conf
 
-xgettext -ktr -kgetLanguage -kgetLanguage:2 -o po/keys.pot -L Java --from-code=ASCII \
+xgettext -ktr -kgetLanguage -kgetLanguage:2 -kaddAMenu:2 -kaddAMenu:3 \
+ -kaddRadioButtonMenuItem:2 -kaddRadioButtonMenuItem:3 \
+ -o po/keys.pot -L Java --from-code=ASCII \
  --copyright-holder="JGEX Contributors" --package-name=jgex --package-version=$PACKAGE_VERSION \
  --msgid-bugs-address="$MAINTAINER_EMAIL" \
  ../wprover/*.java ../gprover/*.java ../UI/*.java ../maths/*.java ../pdf/*.java
