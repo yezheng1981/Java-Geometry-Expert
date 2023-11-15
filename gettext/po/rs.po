@@ -346,13 +346,8 @@ msgstr ""
 msgid "1 : 5"
 msgstr ""
 
-#, fuzzy
 msgid "Midpoint"
-msgstr ""
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Središte duži\n"
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Središte"
+msgstr "Središte duži"
 
 msgid "Circumcenter"
 msgstr "Središte opisanog kruga"
@@ -369,21 +364,11 @@ msgstr "Središte upisanog kruga"
 msgid "Foot"
 msgstr "Podnožje visine"
 
-#, fuzzy
 msgid "Parallel"
-msgstr ""
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Paralelno\n"
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Paralelan"
+msgstr "Paralelno"
 
-#, fuzzy
 msgid "Perpendicular"
-msgstr ""
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Normala\n"
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Normalna"
+msgstr "Normala"
 
 #: ../wprover/GExpert.java:858 ../wprover/HelpMode.java:61
 msgid "Angle Bisector"
@@ -503,13 +488,8 @@ msgstr "Specifikacija ugla"
 msgid "Equal Ratio"
 msgstr "Jednak odnos"
 
-#, fuzzy
 msgid "Equal Distance"
-msgstr ""
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Jednaka udaljenost\n"
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Jednako rastojanje"
+msgstr "Jednaka udaljenost"
 
 msgid "Ratio Distance"
 msgstr "Odnos udaljenosti"
@@ -559,13 +539,8 @@ msgstr ""
 msgid "Right-angle Mark"
 msgstr "Oznaka za prav ugao"
 
-#, fuzzy
 msgid "Calculation"
-msgstr ""
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Kalkulator\n"
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Izračunavanje"
+msgstr "Kalkulator"
 
 msgid "Hide Object"
 msgstr "Sakrij objekat"
@@ -594,13 +569,8 @@ msgstr "Pravila izvođenja za metod GDD"
 msgid "Option"
 msgstr "Opcija"
 
-#, fuzzy
 msgid "Preference"
-msgstr ""
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Podešavanja\n"
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Preferenca"
+msgstr "Podešavanja"
 
 msgid "Construct History"
 msgstr "Istorija konstrukcije"
@@ -797,13 +767,8 @@ msgstr "Sa strelicom"
 msgid "Multiple Arc"
 msgstr "Višestruki lukovi"
 
-#, fuzzy
 msgid "Fill"
-msgstr ""
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Popunjavanje\n"
-"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Ispuni"
+msgstr "Popunjavanje"
 
 msgid "Polygon Moving Interval"
 msgstr "Interval kretanja poligona"

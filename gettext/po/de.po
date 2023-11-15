@@ -174,13 +174,8 @@ msgstr ""
 msgid "Length"
 msgstr "Länge"
 
-#, fuzzy
 msgid "Polygon"
-msgstr ""
-"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
-"Polygon\n"
-"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
-"Vieleck"
+msgstr "Polygon"
 
 #: ../wprover/CProperty.java:1094 ../wprover/MiscDialog.java:375
 msgid "Angle"
@@ -630,13 +625,8 @@ msgstr "Winkelspezifikation"
 msgid "Equal Ratio"
 msgstr "Gleiches Verhältnis"
 
-#, fuzzy
 msgid "Equal Distance"
-msgstr ""
-"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
-"Gleiche Distanz\n"
-"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
-"Gleicher Abstand"
+msgstr "Gleiche Distanz"
 
 #: ../wprover/GExpert.java:914 ../wprover/HelpMode.java:94
 msgid "Ratio Distance"
@@ -738,13 +728,8 @@ msgstr "Regeln für GDD"
 msgid "Option"
 msgstr "Option"
 
-#, fuzzy
 msgid "Preference"
-msgstr ""
-"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
-"Einstellung\n"
-"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
-"Einstellungen"
+msgstr "Einstellung"
 
 #: ../wprover/GExpert.java:968 ../wprover/HelpMode.java:120
 #: ../wprover/ListTree.java:60 ../wprover/UndoEditDialog.java:20
@@ -1001,13 +986,8 @@ msgstr "Mit Pfeil"
 msgid "Multiple Arc"
 msgstr ""
 
-#, fuzzy
 msgid "Fill"
-msgstr ""
-"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
-"Fülle\n"
-"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
-"Ausfüllen"
+msgstr "Fülle"
 
 #: ../wprover/MiscDialog.java:399
 msgid "Polygon Moving Interval"
@@ -1443,13 +1423,8 @@ msgstr "Schriftgröße"
 msgid "Plain"
 msgstr "Schlicht"
 
-#, fuzzy
 msgid "Bold"
-msgstr ""
-"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
-"Fett\n"
-"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
-"Kursiv"
+msgstr "Fett"
 
 #: ../wprover/RuleApplicationDialog.java:309 ../wprover/MProveTree.java:1000
 #: ../wprover/MProveTree.java:1001 ../wprover/MProveTree.java:1002
