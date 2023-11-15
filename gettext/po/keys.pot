@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jgex 0.80\n"
 "Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
-"POT-Creation-Date: 2023-11-15 21:53+0100\n"
+"POT-Creation-Date: 2023-11-15 22:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,7 +96,7 @@ msgstr ""
 msgid "The number of points to be selected: "
 msgstr ""
 
-#: ../wprover/CProperty.java:238
+#: ../wprover/CProperty.java:238 ../wprover/CProperty.java:179
 msgid "Basic"
 msgstr ""
 
@@ -339,7 +339,7 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
-#: ../wprover/GExpert.java:756 ../wprover/GExpert.java:1864
+#: ../wprover/GExpert.java:756 ../wprover/GExpert.java:1867
 #: ../wprover/HelpMode.java:33
 msgid "Save"
 msgstr ""
@@ -773,44 +773,44 @@ msgstr ""
 msgid "About JGEX"
 msgstr ""
 
-#: ../wprover/GExpert.java:1155 ../wprover/GExpert.java:2421
+#: ../wprover/GExpert.java:1158 ../wprover/GExpert.java:2424
 msgid "Move"
 msgstr ""
 
-#: ../wprover/GExpert.java:1160 ../wprover/GExpert.java:2416
+#: ../wprover/GExpert.java:1163 ../wprover/GExpert.java:2419
 msgid "Select"
 msgstr ""
 
-#: ../wprover/GExpert.java:1658
+#: ../wprover/GExpert.java:1661
 msgid "Please input the value of the angle"
 msgstr ""
 
-#: ../wprover/GExpert.java:1808
+#: ../wprover/GExpert.java:1811
 msgid "Nothing to be saved."
 msgstr ""
 
-#: ../wprover/GExpert.java:1863
+#: ../wprover/GExpert.java:1866
 msgid "The diagram has been changed, do you want to save it?"
 msgstr ""
 
-#: ../wprover/GExpert.java:1927
+#: ../wprover/GExpert.java:1930
 msgid " already exists, do you want to overwrite it?"
 msgstr ""
 
-#: ../wprover/GExpert.java:1928
+#: ../wprover/GExpert.java:1931
 msgid "File exists"
 msgstr ""
 
-#: ../wprover/GExpert.java:2005
+#: ../wprover/GExpert.java:2008
 msgid "No animation has been defined."
 msgstr ""
 
-#: ../wprover/GExpert.java:2006
+#: ../wprover/GExpert.java:2009
 msgid ""
 "Please use the menu \" Action -> Animation \" to define an animation first."
 msgstr ""
 
-#: ../wprover/GExpert.java:2012
+#: ../wprover/GExpert.java:2015
 msgid "GIF Option"
 msgstr ""
 
@@ -1630,11 +1630,11 @@ msgstr ""
 msgid "Click two points to get a point with ratio 1:5"
 msgstr ""
 
-#: ../wprover/GExpert.java:843 ../wprover/GExpert.java:2426
+#: ../wprover/GExpert.java:843 ../wprover/GExpert.java:2429
 msgid "Add a single point"
 msgstr ""
 
-#: ../wprover/GExpert.java:844 ../wprover/GExpert.java:2489
+#: ../wprover/GExpert.java:844 ../wprover/GExpert.java:2492
 msgid "Click two points to get their midpoint"
 msgstr ""
 
@@ -1911,127 +1911,127 @@ msgstr ""
 msgid "About Java Geometry Expert"
 msgstr ""
 
-#: ../wprover/GExpert.java:2355
+#: ../wprover/GExpert.java:2358
 msgid "construct history"
 msgstr ""
 
-#: ../wprover/GExpert.java:2358
+#: ../wprover/GExpert.java:2361
 msgid "translate view"
 msgstr ""
 
-#: ../wprover/GExpert.java:2361
+#: ../wprover/GExpert.java:2364
 msgid "Zoom in view"
 msgstr ""
 
-#: ../wprover/GExpert.java:2364
+#: ../wprover/GExpert.java:2367
 msgid "Zoom out view"
 msgstr ""
 
-#: ../wprover/GExpert.java:2368
+#: ../wprover/GExpert.java:2371
 msgid "snap to grid"
 msgstr ""
 
-#: ../wprover/GExpert.java:2370
+#: ../wprover/GExpert.java:2373
 msgid "draw the rectangle grid"
 msgstr ""
 
-#: ../wprover/GExpert.java:2372
+#: ../wprover/GExpert.java:2375
 msgid "make the grid less dense"
 msgstr ""
 
-#: ../wprover/GExpert.java:2374
+#: ../wprover/GExpert.java:2377
 msgid "make the grid more dense"
 msgstr ""
 
-#: ../wprover/GExpert.java:2377
+#: ../wprover/GExpert.java:2380
 msgid "redo a step"
 msgstr ""
 
-#: ../wprover/GExpert.java:2382
+#: ../wprover/GExpert.java:2385
 msgid "undo a step"
 msgstr ""
 
-#: ../wprover/GExpert.java:2384
+#: ../wprover/GExpert.java:2387
 msgid "forward to end"
 msgstr ""
 
-#: ../wprover/GExpert.java:2386
+#: ../wprover/GExpert.java:2389
 msgid "back to start"
 msgstr ""
 
-#: ../wprover/GExpert.java:2389
+#: ../wprover/GExpert.java:2392
 msgid "auto show draw step by step"
 msgstr ""
 
-#: ../wprover/GExpert.java:2403
+#: ../wprover/GExpert.java:2406
 msgid "create a new view"
 msgstr ""
 
-#: ../wprover/GExpert.java:2408
+#: ../wprover/GExpert.java:2411
 msgid "Open a file"
 msgstr ""
 
-#: ../wprover/GExpert.java:2412
+#: ../wprover/GExpert.java:2415
 msgid "Save to a file"
 msgstr ""
 
-#: ../wprover/GExpert.java:2416
+#: ../wprover/GExpert.java:2419
 msgid "Select mode"
 msgstr ""
 
-#: ../wprover/GExpert.java:2430
+#: ../wprover/GExpert.java:2433
 msgid "Select two points to construct a line"
 msgstr ""
 
-#: ../wprover/GExpert.java:2434 ../wprover/GExpert.java:856
+#: ../wprover/GExpert.java:2437 ../wprover/GExpert.java:856
 msgid "Draw a line which is parallel to another line"
 msgstr ""
 
-#: ../wprover/GExpert.java:2438
+#: ../wprover/GExpert.java:2441
 msgid "Draw a line which is perpdicular to another line"
 msgstr ""
 
-#: ../wprover/GExpert.java:2446
+#: ../wprover/GExpert.java:2449
 msgid "Select a point and a line to construct the foot"
 msgstr ""
 
-#: ../wprover/GExpert.java:2450
+#: ../wprover/GExpert.java:2453
 msgid "Draw two points and a circle"
 msgstr ""
 
-#: ../wprover/GExpert.java:2456
+#: ../wprover/GExpert.java:2459
 msgid "Select three points to construct the circle passing through them"
 msgstr ""
 
-#: ../wprover/GExpert.java:2460 ../wprover/GExpert.java:867
+#: ../wprover/GExpert.java:2463 ../wprover/GExpert.java:867
 msgid "Draw a circle with center and radius"
 msgstr ""
 
-#: ../wprover/GExpert.java:2465
+#: ../wprover/GExpert.java:2468
 msgid "define an polygon"
 msgstr ""
 
-#: ../wprover/GExpert.java:2469
+#: ../wprover/GExpert.java:2472
 msgid "Select two lines to define their full-angle with a label"
 msgstr ""
 
-#: ../wprover/GExpert.java:2473
+#: ../wprover/GExpert.java:2476
 msgid "Add text"
 msgstr ""
 
-#: ../wprover/GExpert.java:2477
+#: ../wprover/GExpert.java:2480
 msgid "Take the intersection of two objects (circle or line)"
 msgstr ""
 
-#: ../wprover/GExpert.java:2481
+#: ../wprover/GExpert.java:2484
 msgid "Mirror a object by clicking and then click a reflection axis or point"
 msgstr ""
 
-#: ../wprover/GExpert.java:2485
+#: ../wprover/GExpert.java:2488
 msgid "Select two points or drag a segment to construct an isosceles triangle"
 msgstr ""
 
-#: ../wprover/GExpert.java:2493
+#: ../wprover/GExpert.java:2496
 msgid "Select two points or drag a segment to construct a square"
 msgstr ""
 
@@ -2063,168 +2063,168 @@ msgstr ""
 msgid "Draw a circle by three points"
 msgstr ""
 
-#: ../wprover/GExpert.java:2358
+#: ../wprover/GExpert.java:2361
 msgid "Translate"
 msgstr ""
 
-#: ../wprover/GExpert.java:2361
+#: ../wprover/GExpert.java:2364
 msgid "Zoom-in"
 msgstr ""
 
-#: ../wprover/GExpert.java:2364
+#: ../wprover/GExpert.java:2367
 msgid "Zoom-out"
 msgstr ""
 
-#: ../wprover/GExpert.java:2368
+#: ../wprover/GExpert.java:2371
 msgid "snap"
 msgstr ""
 
-#: ../wprover/GExpert.java:2370
+#: ../wprover/GExpert.java:2373
 msgid "grid"
 msgstr ""
 
-#: ../wprover/GExpert.java:2372
+#: ../wprover/GExpert.java:2375
 msgid "lessGrid"
 msgstr ""
 
-#: ../wprover/GExpert.java:2374
+#: ../wprover/GExpert.java:2377
 msgid "moreGrid"
 msgstr ""
 
-#: ../wprover/GExpert.java:2377
+#: ../wprover/GExpert.java:2380
 msgid "redo"
 msgstr ""
 
-#: ../wprover/GExpert.java:2382
+#: ../wprover/GExpert.java:2385
 msgid "undo"
 msgstr ""
 
-#: ../wprover/GExpert.java:2384
+#: ../wprover/GExpert.java:2387
 msgid "ff"
 msgstr ""
 
-#: ../wprover/GExpert.java:2386
+#: ../wprover/GExpert.java:2389
 msgid "fr"
 msgstr ""
 
-#: ../wprover/GExpert.java:2389
+#: ../wprover/GExpert.java:2392
 msgid "play"
 msgstr ""
 
-#: ../wprover/GExpert.java:2403
+#: ../wprover/GExpert.java:2406
 msgid "new"
 msgstr ""
 
-#: ../wprover/GExpert.java:2408
+#: ../wprover/GExpert.java:2411
 msgid "open"
 msgstr ""
 
-#: ../wprover/GExpert.java:2412
+#: ../wprover/GExpert.java:2415
 msgid "save"
 msgstr ""
 
-#: ../wprover/GExpert.java:2421
+#: ../wprover/GExpert.java:2424
 msgid "move"
 msgstr ""
 
-#: ../wprover/GExpert.java:2426
+#: ../wprover/GExpert.java:2429
 msgid "point"
 msgstr ""
 
-#: ../wprover/GExpert.java:2430 ../wprover/MProveTree.java:1252
+#: ../wprover/GExpert.java:2433 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1363
 msgid "line"
 msgstr ""
 
-#: ../wprover/GExpert.java:2434
+#: ../wprover/GExpert.java:2437
 msgid "parallel"
 msgstr ""
 
-#: ../wprover/GExpert.java:2438
+#: ../wprover/GExpert.java:2441
 msgid "perpendicular"
 msgstr ""
 
-#: ../wprover/GExpert.java:2446
+#: ../wprover/GExpert.java:2449
 msgid "foot"
 msgstr ""
 
-#: ../wprover/GExpert.java:2450 ../wprover/MProveTree.java:1252
+#: ../wprover/GExpert.java:2453 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1369
 msgid "circle"
 msgstr ""
 
-#: ../wprover/GExpert.java:2456
+#: ../wprover/GExpert.java:2459
 msgid "circle3p"
 msgstr ""
 
-#: ../wprover/GExpert.java:2460
+#: ../wprover/GExpert.java:2463
 msgid "circler"
 msgstr ""
 
-#: ../wprover/GExpert.java:2465 ../wprover/GExpert.java:2502
-#: ../wprover/GExpert.java:2566
+#: ../wprover/GExpert.java:2468 ../wprover/GExpert.java:2505
+#: ../wprover/GExpert.java:2569
 msgid "polygon"
 msgstr ""
 
-#: ../wprover/GExpert.java:2469 ../wprover/MProveTree.java:1252
+#: ../wprover/GExpert.java:2472 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1388
 msgid "angle"
 msgstr ""
 
-#: ../wprover/GExpert.java:2473
+#: ../wprover/GExpert.java:2476
 msgid "text"
 msgstr ""
 
-#: ../wprover/GExpert.java:2477
+#: ../wprover/GExpert.java:2480
 msgid "intersect"
 msgstr ""
 
-#: ../wprover/GExpert.java:2481
+#: ../wprover/GExpert.java:2484
 msgid "reflectr"
 msgstr ""
 
-#: ../wprover/GExpert.java:2485 ../wprover/GExpert.java:2532
+#: ../wprover/GExpert.java:2488 ../wprover/GExpert.java:2535
 msgid "isosceles triangle"
 msgstr ""
 
-#: ../wprover/GExpert.java:2489
+#: ../wprover/GExpert.java:2492
 msgid "midpoint"
 msgstr ""
 
-#: ../wprover/GExpert.java:2493 ../wprover/GExpert.java:2559
+#: ../wprover/GExpert.java:2496 ../wprover/GExpert.java:2562
 #: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1372
 msgid "square"
 msgstr ""
 
-#: ../wprover/GExpert.java:2497 ../wprover/GExpert.java:2528
-#: ../wprover/GExpert.java:2540 ../wprover/MProveTree.java:1252
+#: ../wprover/GExpert.java:2500 ../wprover/GExpert.java:2531
+#: ../wprover/GExpert.java:2543 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1366
 msgid "triangle"
 msgstr ""
 
-#: ../wprover/GExpert.java:2536
+#: ../wprover/GExpert.java:2539
 msgid "equilateral triangle"
 msgstr ""
 
-#: ../wprover/GExpert.java:2544 ../wprover/MProveTree.java:1253
+#: ../wprover/GExpert.java:2547 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1395
 msgid "quadrangle"
 msgstr ""
 
-#: ../wprover/GExpert.java:2547 ../wprover/GExpert.java:2563
+#: ../wprover/GExpert.java:2550 ../wprover/GExpert.java:2566
 msgid "pentagon"
 msgstr ""
 
-#: ../wprover/GExpert.java:2550 ../wprover/MProveTree.java:1253
+#: ../wprover/GExpert.java:2553 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1399
 msgid "trapezoid"
 msgstr ""
 
-#: ../wprover/GExpert.java:2553
+#: ../wprover/GExpert.java:2556
 msgid "right angle trapezoid"
 msgstr ""
 
-#: ../wprover/GExpert.java:2556 ../wprover/MProveTree.java:1253
+#: ../wprover/GExpert.java:2559 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1392
 msgid "rectangle"
 msgstr ""
@@ -2249,8 +2249,8 @@ msgstr ""
 msgid "hence"
 msgstr ""
 
-#: ../wprover/MProveTree.java:1023 ../wprover/MProveTree.java:1265
-#: ../wprover/MProveTree.java:1025
+#: ../wprover/MProveTree.java:1022 ../wprover/MProveTree.java:1265
+#: ../wprover/MProveTree.java:1023 ../wprover/MProveTree.java:1025
 msgid "Can not find image : "
 msgstr ""
 
@@ -2494,10 +2494,6 @@ msgstr ""
 msgid "Dialog"
 msgstr ""
 
-#: ../wprover/CProperty.java:179
-msgid "images/"
-msgstr ""
-
 #: ../wprover/CProperty.java:383 ../wprover/CProperty.java:384
 #: ../wprover/CProperty.java:385 ../wprover/CProperty.java:393
 msgid ":   "
@@ -2537,4 +2533,246 @@ msgstr ""
 
 #: ../wprover/CProperty.java:1266
 msgid "Y2"
+msgstr ""
+
+msgid "Geometry Expert"
+msgstr ""
+
+msgid "ALine"
+msgstr ""
+
+msgid "ABline"
+msgstr ""
+
+msgid "Hexagon"
+msgstr ""
+
+msgid "Nteqangle"
+msgstr ""
+
+msgid "Snap"
+msgstr ""
+
+msgid "LessGrid"
+msgstr ""
+
+msgid "MoreGrid"
+msgstr ""
+
+msgid "Redo"
+msgstr ""
+
+msgid "Undo"
+msgstr ""
+
+msgid "FF"
+msgstr ""
+
+msgid "FR"
+msgstr ""
+
+msgid "autoshowstep"
+msgstr ""
+
+msgid "animate_start"
+msgstr ""
+
+msgid "Equal Angle"
+msgstr ""
+
+msgid "Similiar Triangle"
+msgstr ""
+
+msgid "Congruent Triangle"
+msgstr ""
+
+msgid "Equalateral Triangle"
+msgstr ""
+
+msgid "Bisect"
+msgstr ""
+
+msgid "Tangent"
+msgstr ""
+
+msgid "Equal Product"
+msgstr ""
+
+msgid "Ratio"
+msgstr ""
+
+msgid "Special Angle"
+msgstr ""
+
+msgid "Angles Equation"
+msgstr ""
+
+msgid "Segment Equation"
+msgstr ""
+
+msgid "NDGs"
+msgstr ""
+
+msgid "failed"
+msgstr ""
+
+msgid "Second(s)"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Change.."
+msgstr ""
+
+msgid "BackGround Color"
+msgstr ""
+
+msgid "Change Color"
+msgstr ""
+
+msgid "Point Number"
+msgstr ""
+
+msgid "Font Color"
+msgstr ""
+
+msgid "propline"
+msgstr ""
+
+msgid "type"
+msgstr ""
+
+msgid "width"
+msgstr ""
+
+msgid "already exists, do you want to overwrite it?"
+msgstr ""
+
+msgid "Time to build fixpoint:"
+msgstr ""
+
+msgid "Can not prove this theorem with Deductive Database Method"
+msgstr ""
+
+msgid "is obviously true (by hypothesis)"
+msgstr ""
+
+msgid "Can not prove this theorem."
+msgstr ""
+
+msgid "Proof text"
+msgstr ""
+
+msgid "Built on"
+msgstr ""
+
+msgid "JDK Version:"
+msgstr ""
+
+msgid "The user may download and distribute it freely."
+msgstr ""
+
+msgid "However, JGEX is an educational tool, not intended for commercial use."
+msgstr ""
+
+msgid "Author:"
+msgstr ""
+
+msgid "The two lines you selected are parallel, n don't have any intersection!"
+msgstr ""
+
+msgid "The line and the circle you selected don't have any intersection!"
+msgstr ""
+
+msgid ""
+"The two objects you selected already have two points as their intersections!"
+msgstr ""
+
+msgid "Nothing to be saved"
+msgstr ""
+
+msgid "File Format Not Supported"
+msgstr ""
+
+msgid "Free Point"
+msgstr ""
+
+msgid "The Algebraic Form:"
+msgstr ""
+
+msgid "The coordinates"
+msgstr ""
+
+msgid "The equational hypotheses:"
+msgstr ""
+
+msgid "The Triangulized Hypotheses:"
+msgstr ""
+
+msgid "The Conclution is false"
+msgstr ""
+
+msgid "The Conclution is true"
+msgstr ""
+
+msgid "The Conclution is not proved"
+msgstr ""
+
+msgid "The Groebner Basis:"
+msgstr ""
+
+msgid "The theorem is not proved with the Deductive Database Method!"
+msgstr ""
+
+msgid "The theorem is not proved with The Full-Angle Method."
+msgstr ""
+
+msgid "Use the LEFT button to select a position"
+msgstr ""
+
+msgid "Select two points to determine a line"
+msgstr ""
+
+msgid "Please Choose the Client Area"
+msgstr ""
+
+msgid "No animation has been defined"
+msgstr ""
+
+msgid ""
+"Please use the menu ' Action -> Animation ' to define an animation first"
+msgstr ""
+
+msgid "GIF Opt on"
+msgstr ""
+
+msgid "Groebner Basis Method"
+msgstr ""
+
+msgid "Because"
+msgstr ""
+
+msgid "Hence"
+msgstr ""
+
+msgid "Given:"
+msgstr ""
+
+msgid "To Prove:"
+msgstr ""
+
+msgid "Q.E.D."
+msgstr ""
+
+msgid "The number of points to be selected:"
+msgstr ""
+
+msgid "X coordinate"
+msgstr ""
+
+msgid "Y coordinate"
 msgstr ""

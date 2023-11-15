@@ -45,10 +45,20 @@ xgettext -a -o po/all.pot -L Java --from-code=UTF-8 \
 # Remove unnecessary entries from po/all.pot, including images and strings beginning with spaces
 cat po/all.pot | \
  awk '{if (index($0, ".gif") == 0) print $0; else getline; }' | \
+ awk '{if (index($0, "images/") == 0) print $0; else getline; }' | \
  awk '{if (index($0, "msgid \" ") == 0) print $0; else getline; }' \
  > po/all-filtered.pot
 
-xgettext po/names.pot po/tooltips.pot po/texts.pot po/all-filtered.pot -o po/keys.pot
+# Get English language keys, use JGEX's English.lan file and extract the second column
+rm -f po/old.pot
+set -f # Disable expansion of *
+cat ../language/English.lan | dos2unix | grep -v ^Font | grep '#' | \
+ awk -F '#' '{gsub(/^[ \t]+|[ \t]+$/,"", $1); print $2}' | while read key; do
+ key=`echo $key | sed s/\"/\'/g` # Change quotes to apostrophes
+ echo -e "msgid \"$key\"\nmsgstr \"\"\n" >> po/old.pot
+ done
+
+xgettext po/names.pot po/tooltips.pot po/texts.pot po/all-filtered.pot po/old.pot -o po/keys.pot
 
 # Cleanup
-rm po/names.pot po/tooltips.pot po/texts.pot po/all-filtered.pot po/all.pot
+rm po/names.pot po/tooltips.pot po/texts.pot po/all-filtered.pot po/all.pot po/old.pot
