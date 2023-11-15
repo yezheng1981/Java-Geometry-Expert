@@ -7,6 +7,7 @@ package wprover;
  * Time: 11:37:39
  * To change this template use File | Settings | File Templates.
  */
+/*
 public class SClass {
 
     public static String[][] ActionString=
@@ -95,3 +96,5 @@ public class SClass {
                 {"ccline",          "Select two circles to define their common line"}
             };
 }
+*/
+// This seems to be unused.

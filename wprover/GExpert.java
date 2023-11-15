@@ -1036,6 +1036,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         return miten;
     }
 
+    /*
     public JMenuItem addAMenu(JMenu bar, String name, String tooltip,
                               ActionListener listener, String command) {
         JMenuItem item = addAMenu(bar, name, tooltip, listener);
@@ -1048,6 +1049,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         item.setActionCommand(command);
         return item;
     }
+     */
 
     public JMenuItem addAMenu(JMenu bar, String name, String tooltip, int ne, ActionListener listener) {
         JMenuItem item = addAMenu(bar, name, tooltip, listener);
@@ -1074,6 +1076,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         item.setIcon(m);
     }
 
+    /*
     public JMenuItem addAMenu(JMenu bar, String name, String tooltip, int ne, ActionListener listener, String image) {
         JMenuItem item = addAMenu(bar, name, tooltip, listener);
         item.setMnemonic(ne);
@@ -1083,6 +1086,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         item.setIcon(m);
         return item;
     }
+    */
 
     public JMenuItem addAMenu(JMenu bar, String name, String tooltip, ActionListener listener) {
         JMenuItem miten;

@@ -100,15 +100,18 @@ msgid "Width"
 msgstr ""
 
 #: ../wprover/CProperty.java:374 ../wprover/CProperty.java:632
-#: ../wprover/GExpert.java:853
+#: ../wprover/GExpert.java:854 ../wprover/GExpert.java:855
+#: ../wprover/HelpMode.java:45
 msgid "Line"
 msgstr ""
 
-#: ../wprover/CProperty.java:494 ../wprover/GExpert.java:863
+#: ../wprover/CProperty.java:494 ../wprover/GExpert.java:864
+#: ../wprover/GExpert.java:865 ../wprover/HelpMode.java:67
 msgid "Circle"
 msgstr ""
 
-#: ../wprover/CProperty.java:551 ../wprover/GExpert.java:841
+#: ../wprover/CProperty.java:551 ../wprover/GExpert.java:842
+#: ../wprover/GExpert.java:843 ../wprover/HelpMode.java:42
 #: ../wprover/LeadVariableDialog.java:425
 msgid "Point"
 msgstr ""
@@ -155,7 +158,8 @@ msgstr ""
 msgid "Length"
 msgstr ""
 
-#: ../wprover/CProperty.java:1010 ../wprover/GExpert.java:873
+#: ../wprover/CProperty.java:1010 ../wprover/GExpert.java:874
+#: ../wprover/GExpert.java:887 ../wprover/HelpMode.java:86
 msgid "Polygon"
 msgstr ""
 
@@ -165,11 +169,12 @@ msgstr ""
 
 #: ../wprover/CProperty.java:1217 ../wprover/CProperty.java:1261
 #: ../wprover/CProperty.java:1307 ../wprover/LeadVariableDialog.java:242
+#: ../wprover/CProperty.java:625
 msgid "Name"
 msgstr ""
 
 #: ../wprover/CProperty.java:1218 ../wprover/CProperty.java:1312
-#: ../wprover/drawProcess.java:10441 ../wprover/RightClickPopMenu.java:93
+#: ../wprover/drawProcess.java:10509 ../wprover/RightClickPopMenu.java:93
 msgid "Radius"
 msgstr ""
 
@@ -213,7 +218,8 @@ msgstr ""
 msgid "Slope Angle"
 msgstr ""
 
-#: ../wprover/DialogPsProperty.java:26
+#: ../wprover/DialogPsProperty.java:26 ../wprover/GExpert.java:766
+#: ../wprover/HelpMode.java:35
 msgid "Save as PS"
 msgstr ""
 
@@ -233,161 +239,559 @@ msgstr ""
 msgid "Intersection"
 msgstr ""
 
-#: ../wprover/drawProcess.java:2236
+#: ../wprover/drawProcess.java:2242
 msgid "Angle Specification must be done before drawing anything"
 msgstr ""
 
-#: ../wprover/drawProcess.java:2237 ../wprover/drawProcess.java:3032
+#: ../wprover/drawProcess.java:2243 ../wprover/drawProcess.java:3038
 #: ../wprover/PanelProve1.java:1087 ../wprover/Update.java:127
 msgid "Warning"
 msgstr ""
 
-#: ../wprover/drawProcess.java:3031
+#: ../wprover/drawProcess.java:3037
 msgid "The two selected line don'thave any intersected point"
 msgstr ""
 
-#: ../wprover/drawProcess.java:3091
+#: ../wprover/drawProcess.java:3097
 msgid "The selected two line don't have intersected point"
 msgstr ""
 
-#: ../wprover/drawProcess.java:3092
+#: ../wprover/drawProcess.java:3098
 msgid "No Intersected point"
 msgstr ""
 
-#: ../wprover/drawProcess.java:8010
+#: ../wprover/drawProcess.java:8069
 msgid "The two lines you selected are parallel, don't have any intersection!"
 msgstr ""
 
-#: ../wprover/drawProcess.java:8012 ../wprover/drawProcess.java:8073
-#: ../wprover/drawProcess.java:8146
+#: ../wprover/drawProcess.java:8071 ../wprover/drawProcess.java:8132
+#: ../wprover/drawProcess.java:8205
 msgid "No intersection"
 msgstr ""
 
-#: ../wprover/drawProcess.java:8072
+#: ../wprover/drawProcess.java:8131
 msgid "The line and the circle you selected don't have any intersection"
 msgstr ""
 
-#: ../wprover/drawProcess.java:8088
+#: ../wprover/drawProcess.java:8147
 msgid ""
 "The two objects you selected already have two points as their intersections"
 msgstr ""
 
-#: ../wprover/drawProcess.java:8089 ../wprover/drawProcess.java:8162
+#: ../wprover/drawProcess.java:8148 ../wprover/drawProcess.java:8221
 msgid "intersection already defined"
 msgstr ""
 
-#: ../wprover/drawProcess.java:8145
+#: ../wprover/drawProcess.java:8204
 msgid "The circles you selected don't have any intersection"
 msgstr ""
 
-#: ../wprover/drawProcess.java:8161
+#: ../wprover/drawProcess.java:8220
 msgid ""
 "The two circles you selected already have two points as their intersections"
 msgstr ""
 
-#: ../wprover/drawProcess.java:10381 ../wprover/drawProcess.java:10433
+#: ../wprover/drawProcess.java:10449 ../wprover/drawProcess.java:10501
 #: ../wprover/RightClickPopMenu.java:87 ../wprover/RightClickPopMenu.java:98
 msgid "Area"
 msgstr ""
 
-#: ../wprover/drawProcess.java:10437 ../wprover/RightClickPopMenu.java:90
+#: ../wprover/drawProcess.java:10505 ../wprover/RightClickPopMenu.java:90
 msgid "Girth"
 msgstr ""
 
-#: ../wprover/GExpert.java:355 ../wprover/RightClickPopMenu.java:38
+#: ../wprover/GExpert.java:353 ../wprover/RightClickPopMenu.java:38
 msgid "Property"
 msgstr ""
 
-#: ../wprover/GExpert.java:745
+#: ../wprover/GExpert.java:744
 msgid "File"
 msgstr ""
 
-#: ../wprover/GExpert.java:787
-msgid "Examples"
+#: ../wprover/GExpert.java:747 ../wprover/HelpMode.java:31
+msgid "New"
 msgstr ""
 
-#: ../wprover/GExpert.java:808
-msgid "Construct"
+#: ../wprover/GExpert.java:751 ../wprover/HelpMode.java:32
+msgid "Open"
 msgstr ""
 
-#: ../wprover/GExpert.java:817
-msgid "Oriented Segment * Ratio"
+#: ../wprover/GExpert.java:753
+msgid "Import"
 msgstr ""
 
-#: ../wprover/GExpert.java:824
-msgid "Oriented T Segment * Ratio"
-msgstr ""
-
-#: ../wprover/GExpert.java:831
-msgid "Proportional Segment"
-msgstr ""
-
-#: ../wprover/GExpert.java:869 ../wprover/GExpert.java:921
-msgid "Action"
-msgstr ""
-
-#: ../wprover/GExpert.java:888
-msgid "Special Angles"
-msgstr ""
-
-#: ../wprover/GExpert.java:902
-msgid "Constraint"
-msgstr ""
-
-#: ../wprover/GExpert.java:913
-msgid "Ratio Distance"
-msgstr ""
-
-#: ../wprover/GExpert.java:933
-msgid "Equal Mark"
-msgstr ""
-
-#: ../wprover/GExpert.java:956
-msgid "Lemmas"
-msgstr ""
-
-#: ../wprover/GExpert.java:962
-msgid "Option"
-msgstr ""
-
-#: ../wprover/GExpert.java:974
-msgid "Help"
-msgstr ""
-
-#: ../wprover/GExpert.java:1638
-msgid "Please input the value of the angle"
-msgstr ""
-
-#: ../wprover/GExpert.java:1745
-msgid "Nothing to be saved."
-msgstr ""
-
-#: ../wprover/GExpert.java:1800
-msgid "The diagram has been changed, do you want to save it?"
-msgstr ""
-
-#: ../wprover/GExpert.java:1801
+#: ../wprover/GExpert.java:756 ../wprover/GExpert.java:1864
+#: ../wprover/HelpMode.java:33
 msgid "Save"
 msgstr ""
 
-#: ../wprover/GExpert.java:1864
+#: ../wprover/GExpert.java:758
+msgid "Save as..."
+msgstr ""
+
+#: ../wprover/GExpert.java:763 ../wprover/HelpMode.java:34
+msgid "Save as Text"
+msgstr ""
+
+#: ../wprover/GExpert.java:768 ../wprover/HelpMode.java:36
+msgid "Save as PDF"
+msgstr ""
+
+#: ../wprover/GExpert.java:771 ../wprover/HelpMode.java:37
+msgid "Save as Image"
+msgstr ""
+
+#: ../wprover/GExpert.java:773 ../wprover/HelpMode.java:38
+msgid "Save as Animated Image"
+msgstr ""
+
+#: ../wprover/GExpert.java:775 ../wprover/HelpMode.java:39
+msgid "Save Proof as Animated Image"
+msgstr ""
+
+#: ../wprover/GExpert.java:777
+msgid "Save GDD Proof as GraphViz File"
+msgstr ""
+
+#: ../wprover/GExpert.java:781 ../wprover/HelpMode.java:40
+msgid "Print"
+msgstr ""
+
+#: ../wprover/GExpert.java:784 ../wprover/HelpMode.java:41
+msgid "Exit"
+msgstr ""
+
+#: ../wprover/GExpert.java:788
+msgid "Examples"
+msgstr ""
+
+#: ../wprover/GExpert.java:809
+msgid "Construct"
+msgstr ""
+
+#: ../wprover/GExpert.java:811 ../wprover/HelpMode.java:49
+msgid "Point by Point and Segment"
+msgstr ""
+
+#: ../wprover/GExpert.java:812 ../wprover/HelpMode.java:50
+msgid "Radical of Two Circles"
+msgstr ""
+
+#: ../wprover/GExpert.java:815 ../wprover/HelpMode.java:51
+msgid "Oriented Segment"
+msgstr ""
+
+#: ../wprover/GExpert.java:816 ../wprover/HelpMode.java:52
+msgid "Oriented T Segment"
+msgstr ""
+
+#: ../wprover/GExpert.java:818 ../wprover/HelpMode.java:53
+msgid "Oriented Segment * Ratio"
+msgstr ""
+
+#: ../wprover/GExpert.java:820 ../wprover/GExpert.java:826
+#: ../wprover/GExpert.java:835 ../wprover/GExpert.java:916
+msgid "1 : 2"
+msgstr ""
+
+#: ../wprover/GExpert.java:821 ../wprover/GExpert.java:827
+msgid "2 : 1"
+msgstr ""
+
+#: ../wprover/GExpert.java:822 ../wprover/GExpert.java:828
+#: ../wprover/GExpert.java:839 ../wprover/GExpert.java:898
+#: ../wprover/GExpert.java:918
+msgid "Other.."
+msgstr ""
+
+#: ../wprover/GExpert.java:825
+msgid "Oriented T Segment * Ratio"
+msgstr ""
+
+#: ../wprover/GExpert.java:832 ../wprover/HelpMode.java:54
+msgid "Proportional Segment"
+msgstr ""
+
+#: ../wprover/GExpert.java:834 ../wprover/GExpert.java:915
+msgid "1 : 1"
+msgstr ""
+
+#: ../wprover/GExpert.java:836 ../wprover/GExpert.java:917
+msgid "1 : 3"
+msgstr ""
+
+#: ../wprover/GExpert.java:837
+msgid "1 : 4"
+msgstr ""
+
+#: ../wprover/GExpert.java:838
+msgid "1 : 5"
+msgstr ""
+
+#: ../wprover/GExpert.java:844 ../wprover/HelpMode.java:43
+#: ../wprover/MProveTree.java:1817
+msgid "Midpoint"
+msgstr ""
+
+#: ../wprover/GExpert.java:846 ../wprover/HelpMode.java:55
+msgid "Circumcenter"
+msgstr ""
+
+#: ../wprover/GExpert.java:847 ../wprover/HelpMode.java:56
+msgid "Centroid"
+msgstr ""
+
+#: ../wprover/GExpert.java:848 ../wprover/HelpMode.java:57
+msgid "Orthocenter"
+msgstr ""
+
+#: ../wprover/GExpert.java:849 ../wprover/HelpMode.java:58
+msgid "Incenter"
+msgstr ""
+
+#: ../wprover/GExpert.java:851 ../wprover/HelpMode.java:60
+msgid "Foot"
+msgstr ""
+
+#: ../wprover/GExpert.java:856 ../wprover/HelpMode.java:46
+#: ../wprover/MProveTree.java:1816
+msgid "Parallel"
+msgstr ""
+
+#: ../wprover/GExpert.java:857 ../wprover/HelpMode.java:47
+#: ../wprover/MProveTree.java:1816
+msgid "Perpendicular"
+msgstr ""
+
+#: ../wprover/GExpert.java:858 ../wprover/HelpMode.java:61
+msgid "Angle Bisector"
+msgstr ""
+
+#: ../wprover/GExpert.java:859 ../wprover/HelpMode.java:63
+msgid "Aline"
+msgstr ""
+
+#: ../wprover/GExpert.java:860 ../wprover/HelpMode.java:64
+msgid "Bline"
+msgstr ""
+
+#: ../wprover/GExpert.java:861 ../wprover/HelpMode.java:65
+msgid "TCline"
+msgstr ""
+
+#: ../wprover/GExpert.java:866 ../wprover/HelpMode.java:68
+msgid "Circle by Three Points"
+msgstr ""
+
+#: ../wprover/GExpert.java:867 ../wprover/HelpMode.java:69
+msgid "Circler"
+msgstr ""
+
+#: ../wprover/GExpert.java:870 ../wprover/GExpert.java:922
+msgid "Action"
+msgstr ""
+
+#: ../wprover/GExpert.java:871 ../wprover/HelpMode.java:71
+msgid "Intersect"
+msgstr ""
+
+#: ../wprover/GExpert.java:872 ../wprover/HelpMode.java:72
+msgid "Mirror"
+msgstr ""
+
+#: ../wprover/GExpert.java:875 ../wprover/HelpMode.java:74
+msgid "Triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:876 ../wprover/HelpMode.java:75
+#: ../wprover/MProveTree.java:1822
+msgid "Isosceles Triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:877 ../wprover/HelpMode.java:76
+#: ../wprover/MProveTree.java:1823
+msgid "Equilateral Triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:878 ../wprover/HelpMode.java:77
+msgid "Right-angled Triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:879 ../wprover/HelpMode.java:78
+msgid "Isosceles Right-angled Triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:880 ../wprover/HelpMode.java:79
+msgid "Quadrangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:881 ../wprover/HelpMode.java:80
+#: ../wprover/MProveTree.java:1820
+msgid "Parallelogram"
+msgstr ""
+
+#: ../wprover/GExpert.java:882 ../wprover/HelpMode.java:81
+#: ../wprover/MProveTree.java:1823
+msgid "Trapezoid"
+msgstr ""
+
+#: ../wprover/GExpert.java:883 ../wprover/HelpMode.java:82
+msgid "Right-angled Trapezoid"
+msgstr ""
+
+#: ../wprover/GExpert.java:884 ../wprover/HelpMode.java:83
+#: ../wprover/MProveTree.java:1824
+msgid "Rectangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
+#: ../wprover/MProveTree.java:1824
+msgid "Square"
+msgstr ""
+
+#: ../wprover/GExpert.java:886 ../wprover/HelpMode.java:85
+msgid "Pentagon"
+msgstr ""
+
+#: ../wprover/GExpert.java:889
+msgid "Special Angles"
+msgstr ""
+
+#: ../wprover/GExpert.java:890
+msgid "15"
+msgstr ""
+
+#: ../wprover/GExpert.java:891 ../wprover/CProperty.java:1094
+msgid "30"
+msgstr ""
+
+#: ../wprover/GExpert.java:892
+msgid "45"
+msgstr ""
+
+#: ../wprover/GExpert.java:893
+msgid "60"
+msgstr ""
+
+#: ../wprover/GExpert.java:894
+msgid "75"
+msgstr ""
+
+#: ../wprover/GExpert.java:895
+msgid "90"
+msgstr ""
+
+#: ../wprover/GExpert.java:896
+msgid "115"
+msgstr ""
+
+#: ../wprover/GExpert.java:897
+msgid "120"
+msgstr ""
+
+#: ../wprover/GExpert.java:903
+msgid "Constraint"
+msgstr ""
+
+#: ../wprover/GExpert.java:904 ../wprover/HelpMode.java:89
+#: ../wprover/MProveTree.java:1818
+msgid "Eqangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:906 ../wprover/HelpMode.java:90
+msgid "Eqangle3p"
+msgstr ""
+
+#: ../wprover/GExpert.java:907 ../wprover/HelpMode.java:91
+#: ../wprover/SpecificAngleDialog.java:32
+msgid "Angle Specification"
+msgstr ""
+
+#: ../wprover/GExpert.java:910 ../wprover/HelpMode.java:92
+msgid "Equal Ratio"
+msgstr ""
+
+#: ../wprover/GExpert.java:912 ../wprover/HelpMode.java:93
+msgid "Equal Distance"
+msgstr ""
+
+#: ../wprover/GExpert.java:914 ../wprover/HelpMode.java:94
+msgid "Ratio Distance"
+msgstr ""
+
+#: ../wprover/GExpert.java:920 ../wprover/HelpMode.java:95
+msgid "CCtangent"
+msgstr ""
+
+#: ../wprover/GExpert.java:924 ../wprover/HelpMode.java:98
+#: ../wprover/RightClickPopMenu.java:73
+msgid "Trace"
+msgstr ""
+
+#: ../wprover/GExpert.java:925 ../wprover/HelpMode.java:99
+msgid "Locus"
+msgstr ""
+
+#: ../wprover/GExpert.java:926 ../wprover/HelpMode.java:100
+msgid "Animation"
+msgstr ""
+
+#: ../wprover/GExpert.java:929 ../wprover/HelpMode.java:102
+msgid "Fill Polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:930 ../wprover/HelpMode.java:103
+msgid "Measure Distance"
+msgstr ""
+
+#: ../wprover/GExpert.java:931 ../wprover/HelpMode.java:104
+msgid "Arrow"
+msgstr ""
+
+#: ../wprover/GExpert.java:934 ../wprover/HelpMode.java:106
+msgid "Equal Mark"
+msgstr ""
+
+#: ../wprover/GExpert.java:935 ../wprover/CProperty.java:905
+#: ../wprover/CProperty.java:960 ../wprover/CProperty.java:961
+#: ../wprover/CProperty.java:1095
+msgid "1"
+msgstr ""
+
+#: ../wprover/GExpert.java:936
+msgid "2"
+msgstr ""
+
+#: ../wprover/GExpert.java:937
+msgid "3"
+msgstr ""
+
+#: ../wprover/GExpert.java:938
+msgid "4"
+msgstr ""
+
+#: ../wprover/GExpert.java:940 ../wprover/HelpMode.java:107
+msgid "Right-angle Mark"
+msgstr ""
+
+#: ../wprover/GExpert.java:941 ../wprover/HelpMode.java:108
+#: ../wprover/TextValueEditor.java:45
+msgid "Calculation"
+msgstr ""
+
+#: ../wprover/GExpert.java:944 ../wprover/HelpMode.java:110
+msgid "Hide Object"
+msgstr ""
+
+#: ../wprover/GExpert.java:945 ../wprover/HelpMode.java:111
+msgid "Show Object"
+msgstr ""
+
+#: ../wprover/GExpert.java:947 ../wprover/HelpMode.java:112
+msgid "Transform"
+msgstr ""
+
+#: ../wprover/GExpert.java:948 ../wprover/HelpMode.java:113
+msgid "Equivalence"
+msgstr ""
+
+#: ../wprover/GExpert.java:949 ../wprover/HelpMode.java:114
+msgid "Free Transform"
+msgstr ""
+
+#: ../wprover/GExpert.java:957
+msgid "Lemmas"
+msgstr ""
+
+#: ../wprover/GExpert.java:959 ../wprover/HelpMode.java:116
+msgid "Rulers for Full Angle"
+msgstr ""
+
+#: ../wprover/GExpert.java:960 ../wprover/HelpMode.java:117
+msgid "Rulers for GDD"
+msgstr ""
+
+#: ../wprover/GExpert.java:963
+msgid "Option"
+msgstr ""
+
+#: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
+#: ../wprover/MiscDialog.java:32
+msgid "Preference"
+msgstr ""
+
+#: ../wprover/GExpert.java:968 ../wprover/HelpMode.java:120
+#: ../wprover/ListTree.java:60 ../wprover/UndoEditDialog.java:20
+msgid "Construct History"
+msgstr ""
+
+#: ../wprover/GExpert.java:970 ../wprover/HelpMode.java:121
+msgid "Show Step Bar"
+msgstr ""
+
+#: ../wprover/GExpert.java:972 ../wprover/HelpMode.java:122
+msgid "Style Dialog"
+msgstr ""
+
+#: ../wprover/GExpert.java:975 ../wprover/GExpert.java:976
+#: ../wprover/HelpMode.java:125
+msgid "Help"
+msgstr ""
+
+#: ../wprover/GExpert.java:983 ../wprover/HelpMode.java:127
+msgid "Help on Mode"
+msgstr ""
+
+#: ../wprover/GExpert.java:986 ../wprover/HelpMode.java:128
+msgid "JGEX Homepage"
+msgstr ""
+
+#: ../wprover/GExpert.java:988 ../wprover/HelpMode.java:129
+msgid "Contact Us"
+msgstr ""
+
+#: ../wprover/GExpert.java:993 ../wprover/HelpMode.java:131
+msgid "About JGEX"
+msgstr ""
+
+#: ../wprover/GExpert.java:1155 ../wprover/GExpert.java:2421
+msgid "Move"
+msgstr ""
+
+#: ../wprover/GExpert.java:1160 ../wprover/GExpert.java:2416
+msgid "Select"
+msgstr ""
+
+#: ../wprover/GExpert.java:1658
+msgid "Please input the value of the angle"
+msgstr ""
+
+#: ../wprover/GExpert.java:1808
+msgid "Nothing to be saved."
+msgstr ""
+
+#: ../wprover/GExpert.java:1863
+msgid "The diagram has been changed, do you want to save it?"
+msgstr ""
+
+#: ../wprover/GExpert.java:1927
 msgid " already exists, do you want to overwrite it?"
 msgstr ""
 
-#: ../wprover/GExpert.java:1865
+#: ../wprover/GExpert.java:1928
 msgid "File exists"
 msgstr ""
 
-#: ../wprover/GExpert.java:1942
+#: ../wprover/GExpert.java:2005
 msgid "No animation has been defined."
 msgstr ""
 
-#: ../wprover/GExpert.java:1943
+#: ../wprover/GExpert.java:2006
 msgid ""
 "Please use the menu \" Action -> Animation \" to define an animation first."
 msgstr ""
 
-#: ../wprover/GExpert.java:1949
+#: ../wprover/GExpert.java:2012
 msgid "GIF Option"
 msgstr ""
 
@@ -413,6 +817,18 @@ msgstr ""
 
 #: ../wprover/GIFOptionDialog.java:110
 msgid "Very Low"
+msgstr ""
+
+#: ../wprover/HelpMode.java:87
+msgid "sangle"
+msgstr ""
+
+#: ../wprover/HelpMode.java:126
+msgid "Online Help"
+msgstr ""
+
+#: ../wprover/HelpMode.java:130
+msgid "Check for Update"
 msgstr ""
 
 #: ../wprover/LeadVariableDialog.java:34
@@ -462,19 +878,12 @@ msgid "Paste"
 msgstr ""
 
 #: ../wprover/LeadVariableDialog.java:379 ../wprover/MProveTree.java:752
+#: ../wprover/MProveTree.java:756 ../wprover/MProveTree.java:807
 msgid "Delete"
-msgstr ""
-
-#: ../wprover/ListTree.java:60 ../wprover/UndoEditDialog.java:20
-msgid "Construct History"
 msgstr ""
 
 #: ../wprover/ListTree.java:99
 msgid "Objects"
-msgstr ""
-
-#: ../wprover/MiscDialog.java:32
-msgid "Preference"
 msgstr ""
 
 #: ../wprover/MiscDialog.java:40
@@ -498,7 +907,7 @@ msgstr ""
 msgid "Save Preference"
 msgstr ""
 
-#: ../wprover/MiscDialog.java:59
+#: ../wprover/MiscDialog.java:59 ../wprover/CProperty.java:625
 msgid "Default"
 msgstr ""
 
@@ -554,19 +963,20 @@ msgstr ""
 msgid "Show foot mark"
 msgstr ""
 
-#: ../wprover/MiscDialog.java:378
+#: ../wprover/MiscDialog.java:378 ../wprover/CProperty.java:624
 msgid "Without Arrow"
 msgstr ""
 
-#: ../wprover/MiscDialog.java:380
+#: ../wprover/MiscDialog.java:380 ../wprover/CProperty.java:624
 msgid "With Arrow"
 msgstr ""
 
-#: ../wprover/MiscDialog.java:382
+#: ../wprover/MiscDialog.java:382 ../wprover/CProperty.java:624
 msgid "Multiple Arc"
 msgstr ""
 
-#: ../wprover/MiscDialog.java:384
+#: ../wprover/MiscDialog.java:384 ../wprover/CProperty.java:624
+#: ../wprover/CProperty.java:997
 msgid "Fill"
 msgstr ""
 
@@ -606,11 +1016,12 @@ msgstr ""
 msgid "BackGroud Color"
 msgstr ""
 
-#: ../wprover/MiscDialog.java:652
+#: ../wprover/MiscDialog.java:652 ../wprover/CProperty.java:998
 msgid "Grid"
 msgstr ""
 
 #: ../wprover/MiscDialog.java:700 ../wprover/MiscDialog.java:711
+#: ../wprover/CProperty.java:318
 msgid "Choose Color"
 msgstr ""
 
@@ -690,7 +1101,7 @@ msgstr ""
 msgid "The Final Nondegenerate Conditions"
 msgstr ""
 
-#: ../wprover/ndgDialog.java:258
+#: ../wprover/ndgDialog.java:258 ../wprover/MProveTree.java:1519
 msgid "Construction"
 msgstr ""
 
@@ -994,10 +1405,6 @@ msgstr ""
 msgid "Stop Trace"
 msgstr ""
 
-#: ../wprover/RightClickPopMenu.java:73
-msgid "Trace"
-msgstr ""
-
 #: ../wprover/RightClickPopMenu.java:196
 msgid "Font Size"
 msgstr ""
@@ -1010,20 +1417,20 @@ msgstr ""
 msgid "Bold"
 msgstr ""
 
-#: ../wprover/RuleApplicationDialog.java:309
+#: ../wprover/RuleApplicationDialog.java:309 ../wprover/MProveTree.java:1000
+#: ../wprover/MProveTree.java:1001 ../wprover/MProveTree.java:1002
+#: ../wprover/MProveTree.java:1003 ../wprover/MProveTree.java:1004
+#: ../wprover/MProveTree.java:1005 ../wprover/MProveTree.java:1006
+#: ../wprover/MProveTree.java:1007 ../wprover/MProveTree.java:1008
+#: ../wprover/MProveTree.java:1009 ../wprover/MProveTree.java:1010
+#: ../wprover/MProveTree.java:1011 ../wprover/MProveTree.java:1012
+#: ../wprover/MProveTree.java:1013 ../wprover/MProveTree.java:1015
 msgid "because"
 msgstr ""
 
-#: ../wprover/SpecificAngleDialog.java:32
-msgid "Angle Specification"
-msgstr ""
-
 #: ../wprover/TextFrame.java:196 ../wprover/TextFrame.java:198
+#: ../wprover/MProveTree.java:1518
 msgid "Text"
-msgstr ""
-
-#: ../wprover/TextValueEditor.java:45
-msgid "Calculation"
 msgstr ""
 
 #: ../wprover/TextValueEditor.java:107
@@ -1140,4 +1547,979 @@ msgstr ""
 
 #: ../wprover/vFontChooser.java:183
 msgid "Exit without save"
+msgstr ""
+
+#: ../wprover/AnimatePanel.java:42
+msgid "start the animation"
+msgstr ""
+
+#: ../wprover/AnimatePanel.java:45
+msgid "pause the animation"
+msgstr ""
+
+#: ../wprover/AnimatePanel.java:48
+msgid "stop the animation"
+msgstr ""
+
+#: ../wprover/GExpert.java:758
+msgid "null"
+msgstr ""
+
+#: ../wprover/GExpert.java:781
+msgid "Print the client Aream"
+msgstr ""
+
+#: ../wprover/GExpert.java:811
+msgid "Click three points A B C, then click a point D on an object AB = CD"
+msgstr ""
+
+#: ../wprover/GExpert.java:812
+msgid "Click two circles to construct their radical axis"
+msgstr ""
+
+#: ../wprover/GExpert.java:815
+msgid "Click two points A B then  a point C to get AB //= CD"
+msgstr ""
+
+#: ../wprover/GExpert.java:816
+msgid ""
+"Click two points A B then point C to get CD equal and perpendicular to +- AB"
+msgstr ""
+
+#: ../wprover/GExpert.java:822 ../wprover/GExpert.java:828
+#: ../wprover/GExpert.java:839
+msgid "Input your own ratio"
+msgstr ""
+
+#: ../wprover/GExpert.java:834
+msgid "Click two points to get a point with ratio 1:1"
+msgstr ""
+
+#: ../wprover/GExpert.java:835
+msgid "Click two points to get a point with ratio 1:2"
+msgstr ""
+
+#: ../wprover/GExpert.java:836
+msgid "Click two points to get a point with ratio 1:3"
+msgstr ""
+
+#: ../wprover/GExpert.java:837
+msgid "Click two points to get a point with ratio 1:4"
+msgstr ""
+
+#: ../wprover/GExpert.java:838
+msgid "Click two points to get a point with ratio 1:5"
+msgstr ""
+
+#: ../wprover/GExpert.java:843 ../wprover/GExpert.java:2426
+msgid "Add a single point"
+msgstr ""
+
+#: ../wprover/GExpert.java:844 ../wprover/GExpert.java:2489
+msgid "Click two points to get their midpoint"
+msgstr ""
+
+#: ../wprover/GExpert.java:846
+msgid "Construct the circumcenter by select three points"
+msgstr ""
+
+#: ../wprover/GExpert.java:847
+msgid "Construct the centroid by clicking three points"
+msgstr ""
+
+#: ../wprover/GExpert.java:848
+msgid "Construct the orthocenter by clicking three points"
+msgstr ""
+
+#: ../wprover/GExpert.java:849
+msgid "Construct the incenter by clicking three points"
+msgstr ""
+
+#: ../wprover/GExpert.java:851
+msgid "Click a point then drag to a line to construct the foot"
+msgstr ""
+
+#: ../wprover/GExpert.java:855
+msgid "Draw a lines by connecting two points"
+msgstr ""
+
+#: ../wprover/GExpert.java:856
+msgid "Parallel Line"
+msgstr ""
+
+#: ../wprover/GExpert.java:857
+msgid "Perpendicular Line"
+msgstr ""
+
+#: ../wprover/GExpert.java:858
+msgid "Draw an angle bisector"
+msgstr ""
+
+#: ../wprover/GExpert.java:859
+msgid "Draw Aline"
+msgstr ""
+
+#: ../wprover/GExpert.java:860
+msgid "Perp-Bisect Line"
+msgstr ""
+
+#: ../wprover/GExpert.java:861
+msgid "Tangent Line"
+msgstr ""
+
+#: ../wprover/GExpert.java:865
+msgid "Draw a circle by a center point and a point on circle"
+msgstr ""
+
+#: ../wprover/GExpert.java:867
+msgid "Circle by Radius"
+msgstr ""
+
+#: ../wprover/GExpert.java:871
+msgid "Intersect to decide a point"
+msgstr ""
+
+#: ../wprover/GExpert.java:872
+msgid "Mirror an element with respect to a line or a point"
+msgstr ""
+
+#: ../wprover/GExpert.java:875
+msgid "Draw a triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:876
+msgid "Draw a isosceles triangl"
+msgstr ""
+
+#: ../wprover/GExpert.java:877
+msgid "Draw a equilateral triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:878
+msgid "Draw a right-angled triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:879
+msgid "Draw a isosceles right-angled triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:880
+msgid "Draw a  quadrangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:881
+msgid "Draw a parallelogram"
+msgstr ""
+
+#: ../wprover/GExpert.java:882
+msgid "Draw a trapezoid"
+msgstr ""
+
+#: ../wprover/GExpert.java:883
+msgid "Draw a right angle trapezoid"
+msgstr ""
+
+#: ../wprover/GExpert.java:884
+msgid "Draw a rectangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:885
+msgid "Draw a square"
+msgstr ""
+
+#: ../wprover/GExpert.java:886
+msgid "Draw a pentagon"
+msgstr ""
+
+#: ../wprover/GExpert.java:887
+msgid "Draw a polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:890
+msgid "Draw an angle of 15 degree"
+msgstr ""
+
+#: ../wprover/GExpert.java:891
+msgid "Draw an angle of 30 degree"
+msgstr ""
+
+#: ../wprover/GExpert.java:892
+msgid "Draw an angle of 45 degree"
+msgstr ""
+
+#: ../wprover/GExpert.java:893
+msgid "Draw an angle of 60 degree"
+msgstr ""
+
+#: ../wprover/GExpert.java:894
+msgid "Draw an angle of 75 degree"
+msgstr ""
+
+#: ../wprover/GExpert.java:895
+msgid "Draw an angle of 90 degree"
+msgstr ""
+
+#: ../wprover/GExpert.java:896
+msgid "Draw an angle of 115 degree"
+msgstr ""
+
+#: ../wprover/GExpert.java:897 ../wprover/GExpert.java:898
+msgid "Draw an angle of 120 degree"
+msgstr ""
+
+#: ../wprover/GExpert.java:904
+msgid "Set two angles equal"
+msgstr ""
+
+#: ../wprover/GExpert.java:906
+msgid "Set the sum of three angles equal to one"
+msgstr ""
+
+#: ../wprover/GExpert.java:907
+msgid "Set specific angles of system"
+msgstr ""
+
+#: ../wprover/GExpert.java:910
+msgid "Select four segments to set their equal ratio"
+msgstr ""
+
+#: ../wprover/GExpert.java:912
+msgid "Set two segments to be equal"
+msgstr ""
+
+#: ../wprover/GExpert.java:915
+msgid "Set two segments to have ratio: 1 : 1"
+msgstr ""
+
+#: ../wprover/GExpert.java:916
+msgid "Set two segments to have ratio: 1 : 2"
+msgstr ""
+
+#: ../wprover/GExpert.java:917
+msgid "Set two segments to have ratio: 1 : 3"
+msgstr ""
+
+#: ../wprover/GExpert.java:918
+msgid "Set two segments to have specified ratio"
+msgstr ""
+
+#: ../wprover/GExpert.java:920
+msgid "Set two circle to be tangent"
+msgstr ""
+
+#: ../wprover/GExpert.java:924
+msgid ""
+"Select a point to trace its locus (in combination with move or animation)"
+msgstr ""
+
+#: ../wprover/GExpert.java:925
+msgid "The locus of a point"
+msgstr ""
+
+#: ../wprover/GExpert.java:926
+msgid "Click a point then an object to animate"
+msgstr ""
+
+#: ../wprover/GExpert.java:929
+msgid "select a close segment path to fill the polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:930
+msgid "Select two angle to set equal"
+msgstr ""
+
+#: ../wprover/GExpert.java:931
+msgid "Select two points to construct an arrow"
+msgstr ""
+
+#: ../wprover/GExpert.java:935
+msgid "Mark for equal with one line"
+msgstr ""
+
+#: ../wprover/GExpert.java:936
+msgid "Mark for equal with two line"
+msgstr ""
+
+#: ../wprover/GExpert.java:937
+msgid "Mark for equal with three line"
+msgstr ""
+
+#: ../wprover/GExpert.java:938
+msgid "Mark for equal with four line"
+msgstr ""
+
+#: ../wprover/GExpert.java:940
+msgid "Draw an right angle mark"
+msgstr ""
+
+#: ../wprover/GExpert.java:944
+msgid "Hide objects"
+msgstr ""
+
+#: ../wprover/GExpert.java:945
+msgid "Show objects that is hiden"
+msgstr ""
+
+#: ../wprover/GExpert.java:947
+msgid "Transform polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:948
+msgid "Equivalence transform polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:949
+msgid "Transform polygon freely"
+msgstr ""
+
+#: ../wprover/GExpert.java:965
+msgid "Set the default Property"
+msgstr ""
+
+#: ../wprover/GExpert.java:968
+msgid "Edit construct history"
+msgstr ""
+
+#: ../wprover/GExpert.java:970
+msgid "Show Step Bar for prove "
+msgstr ""
+
+#: ../wprover/GExpert.java:972
+msgid "Show Draw Style Dialog"
+msgstr ""
+
+#: ../wprover/GExpert.java:993
+msgid "About Java Geometry Expert"
+msgstr ""
+
+#: ../wprover/GExpert.java:2355
+msgid "construct history"
+msgstr ""
+
+#: ../wprover/GExpert.java:2358
+msgid "translate view"
+msgstr ""
+
+#: ../wprover/GExpert.java:2361
+msgid "Zoom in view"
+msgstr ""
+
+#: ../wprover/GExpert.java:2364
+msgid "Zoom out view"
+msgstr ""
+
+#: ../wprover/GExpert.java:2368
+msgid "snap to grid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2370
+msgid "draw the rectangle grid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2372
+msgid "make the grid less dense"
+msgstr ""
+
+#: ../wprover/GExpert.java:2374
+msgid "make the grid more dense"
+msgstr ""
+
+#: ../wprover/GExpert.java:2377
+msgid "redo a step"
+msgstr ""
+
+#: ../wprover/GExpert.java:2382
+msgid "undo a step"
+msgstr ""
+
+#: ../wprover/GExpert.java:2384
+msgid "forward to end"
+msgstr ""
+
+#: ../wprover/GExpert.java:2386
+msgid "back to start"
+msgstr ""
+
+#: ../wprover/GExpert.java:2389
+msgid "auto show draw step by step"
+msgstr ""
+
+#: ../wprover/GExpert.java:2403
+msgid "create a new view"
+msgstr ""
+
+#: ../wprover/GExpert.java:2408
+msgid "Open a file"
+msgstr ""
+
+#: ../wprover/GExpert.java:2412
+msgid "Save to a file"
+msgstr ""
+
+#: ../wprover/GExpert.java:2416
+msgid "Select mode"
+msgstr ""
+
+#: ../wprover/GExpert.java:2430
+msgid "Select two points to construct a line"
+msgstr ""
+
+#: ../wprover/GExpert.java:2434 ../wprover/GExpert.java:856
+msgid "Draw a line which is parallel to another line"
+msgstr ""
+
+#: ../wprover/GExpert.java:2438
+msgid "Draw a line which is perpdicular to another line"
+msgstr ""
+
+#: ../wprover/GExpert.java:2446
+msgid "Select a point and a line to construct the foot"
+msgstr ""
+
+#: ../wprover/GExpert.java:2450
+msgid "Draw two points and a circle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2456
+msgid "Select three points to construct the circle passing through them"
+msgstr ""
+
+#: ../wprover/GExpert.java:2460 ../wprover/GExpert.java:867
+msgid "Draw a circle with center and radius"
+msgstr ""
+
+#: ../wprover/GExpert.java:2465
+msgid "define an polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:2469
+msgid "Select two lines to define their full-angle with a label"
+msgstr ""
+
+#: ../wprover/GExpert.java:2473
+msgid "Add text"
+msgstr ""
+
+#: ../wprover/GExpert.java:2477
+msgid "Take the intersection of two objects (circle or line)"
+msgstr ""
+
+#: ../wprover/GExpert.java:2481
+msgid "Mirror a object by clicking and then click a reflection axis or point"
+msgstr ""
+
+#: ../wprover/GExpert.java:2485
+msgid "Select two points or drag a segment to construct an isosceles triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2493
+msgid "Select two points or drag a segment to construct a square"
+msgstr ""
+
+#: ../wprover/AnimatePanel.java:42
+msgid "Play"
+msgstr ""
+
+#: ../wprover/AnimatePanel.java:45
+msgid "Pause"
+msgstr ""
+
+#: ../wprover/AnimatePanel.java:48
+msgid "stop"
+msgstr ""
+
+#: ../wprover/GExpert.java:857
+msgid "Draw a line which is perpendicular to another line"
+msgstr ""
+
+#: ../wprover/GExpert.java:860
+msgid "Draw a line which is perp-bisect to another line"
+msgstr ""
+
+#: ../wprover/GExpert.java:861
+msgid "Draw line which is tangent to a circle"
+msgstr ""
+
+#: ../wprover/GExpert.java:866
+msgid "Draw a circle by three points"
+msgstr ""
+
+#: ../wprover/GExpert.java:2358
+msgid "Translate"
+msgstr ""
+
+#: ../wprover/GExpert.java:2361
+msgid "Zoom-in"
+msgstr ""
+
+#: ../wprover/GExpert.java:2364
+msgid "Zoom-out"
+msgstr ""
+
+#: ../wprover/GExpert.java:2368
+msgid "snap"
+msgstr ""
+
+#: ../wprover/GExpert.java:2370
+msgid "grid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2372
+msgid "lessGrid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2374
+msgid "moreGrid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2377
+msgid "redo"
+msgstr ""
+
+#: ../wprover/GExpert.java:2382
+msgid "undo"
+msgstr ""
+
+#: ../wprover/GExpert.java:2384
+msgid "ff"
+msgstr ""
+
+#: ../wprover/GExpert.java:2386
+msgid "fr"
+msgstr ""
+
+#: ../wprover/GExpert.java:2389
+msgid "play"
+msgstr ""
+
+#: ../wprover/GExpert.java:2403
+msgid "new"
+msgstr ""
+
+#: ../wprover/GExpert.java:2408
+msgid "open"
+msgstr ""
+
+#: ../wprover/GExpert.java:2412
+msgid "save"
+msgstr ""
+
+#: ../wprover/GExpert.java:2421
+msgid "move"
+msgstr ""
+
+#: ../wprover/GExpert.java:2426
+msgid "point"
+msgstr ""
+
+#: ../wprover/GExpert.java:2430 ../wprover/MProveTree.java:1252
+#: ../wprover/MProveTree.java:1363
+msgid "line"
+msgstr ""
+
+#: ../wprover/GExpert.java:2434
+msgid "parallel"
+msgstr ""
+
+#: ../wprover/GExpert.java:2438
+msgid "perpendicular"
+msgstr ""
+
+#: ../wprover/GExpert.java:2446
+msgid "foot"
+msgstr ""
+
+#: ../wprover/GExpert.java:2450 ../wprover/MProveTree.java:1252
+#: ../wprover/MProveTree.java:1369
+msgid "circle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2456
+msgid "circle3p"
+msgstr ""
+
+#: ../wprover/GExpert.java:2460
+msgid "circler"
+msgstr ""
+
+#: ../wprover/GExpert.java:2465 ../wprover/GExpert.java:2502
+#: ../wprover/GExpert.java:2566
+msgid "polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:2469 ../wprover/MProveTree.java:1252
+#: ../wprover/MProveTree.java:1388
+msgid "angle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2473
+msgid "text"
+msgstr ""
+
+#: ../wprover/GExpert.java:2477
+msgid "intersect"
+msgstr ""
+
+#: ../wprover/GExpert.java:2481
+msgid "reflectr"
+msgstr ""
+
+#: ../wprover/GExpert.java:2485 ../wprover/GExpert.java:2532
+msgid "isosceles triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2489
+msgid "midpoint"
+msgstr ""
+
+#: ../wprover/GExpert.java:2493 ../wprover/GExpert.java:2559
+#: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1372
+msgid "square"
+msgstr ""
+
+#: ../wprover/GExpert.java:2497 ../wprover/GExpert.java:2528
+#: ../wprover/GExpert.java:2540 ../wprover/MProveTree.java:1252
+#: ../wprover/MProveTree.java:1366
+msgid "triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2536
+msgid "equilateral triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2544 ../wprover/MProveTree.java:1253
+#: ../wprover/MProveTree.java:1395
+msgid "quadrangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2547 ../wprover/GExpert.java:2563
+msgid "pentagon"
+msgstr ""
+
+#: ../wprover/GExpert.java:2550 ../wprover/MProveTree.java:1253
+#: ../wprover/MProveTree.java:1399
+msgid "trapezoid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2553
+msgid "right angle trapezoid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2556 ../wprover/MProveTree.java:1253
+#: ../wprover/MProveTree.java:1392
+msgid "rectangle"
+msgstr ""
+
+#: ../wprover/MProveTree.java:761 ../wprover/MProveTree.java:817
+msgid "DTR"
+msgstr ""
+
+#: ../wprover/MProveTree.java:766 ../wprover/MProveTree.java:821
+msgid "AANR"
+msgstr ""
+
+#: ../wprover/MProveTree.java:770 ../wprover/MProveTree.java:819
+msgid "AAT"
+msgstr ""
+
+#: ../wprover/MProveTree.java:774 ../wprover/MProveTree.java:805
+msgid "CSR"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1015
+msgid "hence"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1022 ../wprover/MProveTree.java:1265
+msgid "images/dtree/"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1023 ../wprover/MProveTree.java:1265
+#: ../wprover/MProveTree.java:1025
+msgid "Can not find image : "
+msgstr ""
+
+#: ../wprover/MProveTree.java:1071
+msgid "Given: "
+msgstr ""
+
+#: ../wprover/MProveTree.java:1071
+msgid "To Prove: "
+msgstr ""
+
+#: ../wprover/MProveTree.java:1071
+msgid "In"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1071
+msgid "and"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1072
+msgid "Similarly,"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1072 ../wprover/MProveTree.java:1095
+msgid "????"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1173
+msgid "NULL"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1375
+msgid "area"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1378
+msgid "parallelogram"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1255
+msgid "Please select two points"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1255
+msgid "Please select three non-collinear points"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1256
+msgid "Please select three points"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1256 ../wprover/MProveTree.java:1257
+msgid "Please select four points"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1256
+msgid "Please select N(N >=3) points"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1269
+msgid "Can not find object icon "
+msgstr ""
+
+#: ../wprover/MProveTree.java:1363
+msgid "number"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1366
+msgid "tri"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1369
+msgid "cir"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1382
+msgid "para"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1385
+msgid "perp"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1518
+msgid "Keywords"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1518
+msgid "Symbol"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1518
+msgid "Assertion"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1519
+msgid "Object"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1519
+msgid "Draw"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1519
+msgid "Equation"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1520 ../wprover/MProveTree.java:1689
+msgid "Rule"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1549 ../wprover/MProveTree.java:1554
+#: ../wprover/MProveTree.java:1672
+msgid "Rule1"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "Rule2"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "Rule3"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "SAS"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "AAS"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "SSS"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "ASA"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1682 ../wprover/MProveTree.java:1684
+#: ../wprover/MProveTree.java:1758 ../wprover/MProveTree.java:1759
+#: ../wprover/MProveTree.java:1816
+msgid "Collinear"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1817
+msgid "Eqdistant"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1817
+msgid "Cyclic"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1818
+msgid "Congruent"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1818
+msgid "Similar"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1818
+msgid "Distance Less"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1819
+msgid "Angle Less"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1819
+msgid "Concurrent"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1819
+msgid "Perp-Bisector"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1822
+msgid "Right Triangle"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1823
+msgid "Iso-Right Triangle"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1825
+msgid "Between"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1825
+msgid "Angle Inside"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1825
+msgid "Angle Outside"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1825
+msgid "Triangle Inside"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1826
+msgid "Para Inside"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1826
+msgid "Opposite Inside"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1826
+msgid "Same Side"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1826
+msgid "Convex"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1889 ../wprover/MProveTree.java:2046
+#: ../wprover/MProveTree.java:1893 ../wprover/MProveTree.java:1895
+#: ../wprover/MProveTree.java:1897 ../wprover/MProveTree.java:1899
+#: ../wprover/MProveTree.java:1901 ../wprover/MProveTree.java:1905
+#: ../wprover/MProveTree.java:1907 ../wprover/MProveTree.java:1903
+#: ../wprover/MProveTree.java:1909 ../wprover/MProveTree.java:1911
+#: ../wprover/MProveTree.java:1913 ../wprover/MProveTree.java:2031
+#: ../wprover/MProveTree.java:2037 ../wprover/MProveTree.java:2039
+#: ../wprover/MProveTree.java:2124
+msgid ","
+msgstr ""
+
+#: ../wprover/MProveTree.java:2053 ../wprover/MProveTree.java:2056
+msgid "massertion type:"
+msgstr ""
+
+#: ../wprover/MProveTree.java:2056 ../wprover/MProveTree.java:2066
+#: ../wprover/CProperty.java:27
+msgid "No Selected"
+msgstr ""
+
+#: ../wprover/CProperty.java:58
+msgid "Dialog"
+msgstr ""
+
+#: ../wprover/CProperty.java:179
+msgid "images/"
+msgstr ""
+
+#: ../wprover/CProperty.java:383 ../wprover/CProperty.java:384
+#: ../wprover/CProperty.java:385 ../wprover/CProperty.java:393
+msgid ":   "
+msgstr ""
+
+#: ../wprover/CProperty.java:625
+msgid "No Text"
+msgstr ""
+
+#: ../wprover/CProperty.java:625
+msgid "Value"
+msgstr ""
+
+#: ../wprover/CProperty.java:625
+msgid "Name With Value"
+msgstr ""
+
+#: ../wprover/CProperty.java:999
+msgid "Vertical Line"
+msgstr ""
+
+#: ../wprover/CProperty.java:1000
+msgid "Horizontal Line"
+msgstr ""
+
+#: ../wprover/CProperty.java:1263
+msgid "X1 "
+msgstr ""
+
+#: ../wprover/CProperty.java:1264
+msgid "Y1 "
+msgstr ""
+
+#: ../wprover/CProperty.java:1265
+msgid "X2 "
+msgstr ""
+
+#: ../wprover/CProperty.java:1266
+msgid "Y2"
 msgstr ""
