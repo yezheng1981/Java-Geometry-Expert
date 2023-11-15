@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-15 22:46+0100\n"
+"Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
+"POT-Creation-Date: 2023-11-15 23:44+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -27,6 +27,8 @@ msgstr ""
 #: ../wprover/AboutDialog.java:64
 msgid "Java Geometry Expert is free under GNU General Public License (GPL)."
 msgstr ""
+"Java Geometry Expert ist kostenlos entsprechend der GNU General Public "
+"License (GPL)."
 
 #: ../wprover/AboutDialog.java:65
 msgid "The user may download and distribute it freely.\n"
@@ -38,7 +40,7 @@ msgstr "Autoren"
 
 #: ../wprover/AboutDialog.java:103
 msgid "for more information,please visit:"
-msgstr ""
+msgstr "Für mehr Informationen siehe:"
 
 #: ../wprover/concDialog.java:102
 msgid "True"
@@ -50,15 +52,15 @@ msgstr ""
 
 #: ../wprover/concDialog.java:156
 msgid "Set One"
-msgstr ""
+msgstr "Menge eins"
 
 #: ../wprover/concDialog.java:157
 msgid "Set Two"
-msgstr ""
+msgstr "Menge zwei"
 
 #: ../wprover/concDialog.java:184
 msgid "Please select"
-msgstr ""
+msgstr "Bitte wähle"
 
 #: ../wprover/concDialog.java:186
 msgid "true"
@@ -72,11 +74,11 @@ msgstr ""
 #: ../wprover/TextValueEditor.java:123 ../wprover/Update.java:188
 #: ../wprover/vFontChooser.java:170
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ../wprover/concDialog.java:209 ../wprover/NumCheckDialog.java:88
 msgid "Clear"
-msgstr ""
+msgstr "Löschen"
 
 #: ../wprover/concDialog.java:211 ../wprover/DialogPsProperty.java:36
 #: ../wprover/GIFOptionDialog.java:57 ../wprover/mproveInputPanel.java:284
@@ -85,7 +87,7 @@ msgstr ""
 #: ../wprover/TextFrame.java:122 ../wprover/TextValueEditor.java:124
 #: ../wprover/Update.java:187 ../wprover/vFontChooser.java:182
 msgid "Cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #: ../wprover/concDialog.java:294 ../wprover/concDialog.java:312
 msgid "The number of points to be selected: "
@@ -93,7 +95,7 @@ msgstr ""
 
 #: ../wprover/CProperty.java:238 ../wprover/CProperty.java:179
 msgid "Basic"
-msgstr ""
+msgstr "Grund"
 
 #: ../wprover/CProperty.java:246 ../wprover/CProperty.java:664
 #: ../wprover/CStyleDialog.java:93 ../wprover/CStyleDialog.java:141
@@ -101,7 +103,7 @@ msgstr ""
 #: ../wprover/MiscDialog.java:641 ../wprover/RightClickPopMenu.java:34
 #: ../wprover/vFontChooser.java:149
 msgid "Color"
-msgstr ""
+msgstr "Farbe"
 
 #: ../wprover/CProperty.java:263 ../wprover/CProperty.java:393
 #: ../wprover/CProperty.java:640 ../wprover/CProperty.java:1017
@@ -117,42 +119,42 @@ msgstr ""
 #: ../wprover/GExpert.java:854 ../wprover/GExpert.java:855
 #: ../wprover/HelpMode.java:45
 msgid "Line"
-msgstr ""
+msgstr "Gerade"
 
 #: ../wprover/CProperty.java:494 ../wprover/GExpert.java:864
 #: ../wprover/GExpert.java:865 ../wprover/HelpMode.java:67
 msgid "Circle"
-msgstr ""
+msgstr "Kreis"
 
 #: ../wprover/CProperty.java:551 ../wprover/GExpert.java:842
 #: ../wprover/GExpert.java:843 ../wprover/HelpMode.java:42
 #: ../wprover/LeadVariableDialog.java:425
 msgid "Point"
-msgstr ""
+msgstr "Punkt"
 
 #: ../wprover/CProperty.java:653 ../wprover/MiscDialog.java:249
 msgid "Angle Text"
-msgstr ""
+msgstr "Winkel Text"
 
 #: ../wprover/CProperty.java:672
 msgid "Arc Num"
-msgstr ""
+msgstr "Bogen Nummer"
 
 #: ../wprover/CProperty.java:795 ../wprover/MiscDialog.java:270
 msgid "Label"
-msgstr ""
+msgstr "Beschriftung"
 
 #: ../wprover/CProperty.java:804
 msgid "Show Label"
-msgstr ""
+msgstr "Zeige Beschriftung"
 
 #: ../wprover/CProperty.java:805 ../wprover/MiscDialog.java:228
 msgid "Show Text"
-msgstr ""
+msgstr "Zeige Text"
 
 #: ../wprover/CProperty.java:814
 msgid "Significant Digit"
-msgstr ""
+msgstr "Signifikante Stelle"
 
 #: ../wprover/CProperty.java:905
 msgid "Point number"
@@ -160,7 +162,7 @@ msgstr ""
 
 #: ../wprover/CProperty.java:914
 msgid "Draw Line"
-msgstr ""
+msgstr "Zeichne Gerade"
 
 #: ../wprover/CProperty.java:960
 msgid "Num"
@@ -170,27 +172,30 @@ msgstr ""
 #: ../wprover/LeadVariableDialog.java:244
 #: ../wprover/LeadVariableDialog.java:427 ../wprover/MiscDialog.java:319
 msgid "Length"
-msgstr ""
+msgstr "Länge"
 
-#: ../wprover/CProperty.java:1010 ../wprover/GExpert.java:874
-#: ../wprover/GExpert.java:887 ../wprover/HelpMode.java:86
+#, fuzzy
 msgid "Polygon"
 msgstr ""
+"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
+"Polygon\n"
+"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
+"Vieleck"
 
 #: ../wprover/CProperty.java:1094 ../wprover/MiscDialog.java:375
 msgid "Angle"
-msgstr ""
+msgstr "Winkel"
 
 #: ../wprover/CProperty.java:1217 ../wprover/CProperty.java:1261
 #: ../wprover/CProperty.java:1307 ../wprover/LeadVariableDialog.java:242
 #: ../wprover/CProperty.java:625
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: ../wprover/CProperty.java:1218 ../wprover/CProperty.java:1312
 #: ../wprover/drawProcess.java:10509 ../wprover/RightClickPopMenu.java:93
 msgid "Radius"
-msgstr ""
+msgstr "Radius"
 
 #: ../wprover/CProperty.java:1219 ../wprover/RightClickPopMenu.java:76
 msgid "X Coordinate"
@@ -202,65 +207,65 @@ msgstr ""
 
 #: ../wprover/CProperty.java:1221
 msgid "Freezed"
-msgstr ""
+msgstr "Eingefriert"
 
 #: ../wprover/CProperty.java:1262
 msgid "Point on Line"
-msgstr ""
+msgstr "Punkt auf Gerade"
 
 #: ../wprover/CProperty.java:1308
 msgid "Point on Circle"
-msgstr ""
+msgstr "Punkt am Kreis"
 
 #: ../wprover/CProperty.java:1309
 msgid "Center"
-msgstr ""
+msgstr "Mittelpunkt"
 
 #: ../wprover/CProperty.java:1310
 msgid "Center X"
-msgstr ""
+msgstr "Mittelpunkt X"
 
 #: ../wprover/CProperty.java:1311
 msgid "Center Y"
-msgstr ""
+msgstr "Mittelpunkt Y"
 
 #: ../wprover/CProperty.java:1352
 msgid "Grid Step"
-msgstr ""
+msgstr "Gitterschritt"
 
 #: ../wprover/CProperty.java:1353
 msgid "Slope Angle"
-msgstr ""
+msgstr "Steigungswinkler"
 
 #: ../wprover/DialogPsProperty.java:26 ../wprover/GExpert.java:766
 #: ../wprover/HelpMode.java:35
 msgid "Save as PS"
-msgstr ""
+msgstr "Speichern als PS"
 
 #: ../wprover/DialogPsProperty.java:32 ../wprover/MiscDialog.java:616
 msgid "Gray"
-msgstr ""
+msgstr "Grau"
 
 #: ../wprover/DialogPsProperty.java:34 ../wprover/MiscDialog.java:617
 msgid "Black and White"
-msgstr ""
+msgstr "Schwarz und Weiß"
 
 #: ../wprover/DialogPsProperty.java:56
 msgid "Point filled with background color"
-msgstr ""
+msgstr "Punkt mit Hintergrundfarbe gefüllt"
 
 #: ../wprover/drawbase.java:527
 msgid "Intersection"
-msgstr ""
+msgstr "Schnittpunkt"
 
 #: ../wprover/drawProcess.java:2242
 msgid "Angle Specification must be done before drawing anything"
-msgstr ""
+msgstr "Die Spezifikation des Winkels muss vor der Konstruktion stattfinden."
 
 #: ../wprover/drawProcess.java:2243 ../wprover/drawProcess.java:3038
 #: ../wprover/PanelProve1.java:1087 ../wprover/Update.java:127
 msgid "Warning"
-msgstr ""
+msgstr "Warnung"
 
 #: ../wprover/drawProcess.java:3037
 msgid "The two selected line don'thave any intersected point"
@@ -268,11 +273,11 @@ msgstr ""
 
 #: ../wprover/drawProcess.java:3097
 msgid "The selected two line don't have intersected point"
-msgstr ""
+msgstr "Die ausgewählten beiden Punkte haben keinen Schinttpunkt"
 
 #: ../wprover/drawProcess.java:3098
 msgid "No Intersected point"
-msgstr ""
+msgstr "Kein Schnittpunkt"
 
 #: ../wprover/drawProcess.java:8069
 msgid "The two lines you selected are parallel, don't have any intersection!"
@@ -281,7 +286,7 @@ msgstr ""
 #: ../wprover/drawProcess.java:8071 ../wprover/drawProcess.java:8132
 #: ../wprover/drawProcess.java:8205
 msgid "No intersection"
-msgstr ""
+msgstr "Kein Schnittpunkt"
 
 #: ../wprover/drawProcess.java:8131
 msgid "The line and the circle you selected don't have any intersection"
@@ -294,41 +299,41 @@ msgstr ""
 
 #: ../wprover/drawProcess.java:8148 ../wprover/drawProcess.java:8221
 msgid "intersection already defined"
-msgstr ""
+msgstr "Schnittpunkt bereits definiert"
 
 #: ../wprover/drawProcess.java:8204
 msgid "The circles you selected don't have any intersection"
-msgstr ""
+msgstr "Die ausgewählten Kreise besitzen keinen Schnittpunkt"
 
 #: ../wprover/drawProcess.java:8220
 msgid ""
 "The two circles you selected already have two points as their intersections"
-msgstr ""
+msgstr "Die beiden ausgewählten Kreise haben bereits zwei Schnittpunkte"
 
 #: ../wprover/drawProcess.java:10449 ../wprover/drawProcess.java:10501
 #: ../wprover/RightClickPopMenu.java:87 ../wprover/RightClickPopMenu.java:98
 msgid "Area"
-msgstr ""
+msgstr "Fläche"
 
 #: ../wprover/drawProcess.java:10505 ../wprover/RightClickPopMenu.java:90
 msgid "Girth"
-msgstr ""
+msgstr "Umfang"
 
 #: ../wprover/GExpert.java:353 ../wprover/RightClickPopMenu.java:38
 msgid "Property"
-msgstr ""
+msgstr "Eigenschaft"
 
 #: ../wprover/GExpert.java:744
 msgid "File"
-msgstr ""
+msgstr "Datei"
 
 #: ../wprover/GExpert.java:747 ../wprover/HelpMode.java:31
 msgid "New"
-msgstr ""
+msgstr "Neu"
 
 #: ../wprover/GExpert.java:751 ../wprover/HelpMode.java:32
 msgid "Open"
-msgstr ""
+msgstr "Öffnen"
 
 #: ../wprover/GExpert.java:753
 msgid "Import"
@@ -337,31 +342,31 @@ msgstr ""
 #: ../wprover/GExpert.java:756 ../wprover/GExpert.java:1867
 #: ../wprover/HelpMode.java:33
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 #: ../wprover/GExpert.java:758
 msgid "Save as..."
-msgstr ""
+msgstr "Speichern unter"
 
 #: ../wprover/GExpert.java:763 ../wprover/HelpMode.java:34
 msgid "Save as Text"
-msgstr ""
+msgstr "Speichern als Text"
 
 #: ../wprover/GExpert.java:768 ../wprover/HelpMode.java:36
 msgid "Save as PDF"
-msgstr ""
+msgstr "Speichern als PDF"
 
 #: ../wprover/GExpert.java:771 ../wprover/HelpMode.java:37
 msgid "Save as Image"
-msgstr ""
+msgstr "Speichern als Bild"
 
 #: ../wprover/GExpert.java:773 ../wprover/HelpMode.java:38
 msgid "Save as Animated Image"
-msgstr ""
+msgstr "Speichern als animiertes Bild"
 
 #: ../wprover/GExpert.java:775 ../wprover/HelpMode.java:39
 msgid "Save Proof as Animated Image"
-msgstr ""
+msgstr "Speichere Beweis als animiertes Bild"
 
 #: ../wprover/GExpert.java:777
 msgid "Save GDD Proof as GraphViz File"
@@ -369,39 +374,39 @@ msgstr ""
 
 #: ../wprover/GExpert.java:781 ../wprover/HelpMode.java:40
 msgid "Print"
-msgstr ""
+msgstr "Drucken"
 
 #: ../wprover/GExpert.java:784 ../wprover/HelpMode.java:41
 msgid "Exit"
-msgstr ""
+msgstr "Beenden"
 
 #: ../wprover/GExpert.java:788
 msgid "Examples"
-msgstr ""
+msgstr "Beispiele"
 
 #: ../wprover/GExpert.java:809
 msgid "Construct"
-msgstr ""
+msgstr "Konstruieren"
 
 #: ../wprover/GExpert.java:811 ../wprover/HelpMode.java:49
 msgid "Point by Point and Segment"
-msgstr ""
+msgstr "Punkt durch Punkt und Strecke"
 
 #: ../wprover/GExpert.java:812 ../wprover/HelpMode.java:50
 msgid "Radical of Two Circles"
-msgstr ""
+msgstr "Potenzgerade von zwei Kreisen"
 
 #: ../wprover/GExpert.java:815 ../wprover/HelpMode.java:51
 msgid "Oriented Segment"
-msgstr ""
+msgstr "Vektor"
 
 #: ../wprover/GExpert.java:816 ../wprover/HelpMode.java:52
 msgid "Oriented T Segment"
-msgstr ""
+msgstr "Normalvektor"
 
 #: ../wprover/GExpert.java:818 ../wprover/HelpMode.java:53
 msgid "Oriented Segment * Ratio"
-msgstr ""
+msgstr "Vektor * Skalar"
 
 #: ../wprover/GExpert.java:820 ../wprover/GExpert.java:826
 #: ../wprover/GExpert.java:835 ../wprover/GExpert.java:916
@@ -416,15 +421,15 @@ msgstr ""
 #: ../wprover/GExpert.java:839 ../wprover/GExpert.java:898
 #: ../wprover/GExpert.java:918
 msgid "Other.."
-msgstr ""
+msgstr "Weiter.."
 
 #: ../wprover/GExpert.java:825
 msgid "Oriented T Segment * Ratio"
-msgstr ""
+msgstr "Normalvektor * Skalar"
 
 #: ../wprover/GExpert.java:832 ../wprover/HelpMode.java:54
 msgid "Proportional Segment"
-msgstr ""
+msgstr "Proportionale Strecke"
 
 #: ../wprover/GExpert.java:834 ../wprover/GExpert.java:915
 msgid "1 : 1"
@@ -445,37 +450,37 @@ msgstr ""
 #: ../wprover/GExpert.java:844 ../wprover/HelpMode.java:43
 #: ../wprover/MProveTree.java:1817
 msgid "Midpoint"
-msgstr ""
+msgstr "Mittelpunkt"
 
 #: ../wprover/GExpert.java:846 ../wprover/HelpMode.java:55
 msgid "Circumcenter"
-msgstr ""
+msgstr "Umkreismittelpunkt"
 
 #: ../wprover/GExpert.java:847 ../wprover/HelpMode.java:56
 msgid "Centroid"
-msgstr ""
+msgstr "Schwerpunkt"
 
 #: ../wprover/GExpert.java:848 ../wprover/HelpMode.java:57
 msgid "Orthocenter"
-msgstr ""
+msgstr "Höhenschwerpunkt"
 
 #: ../wprover/GExpert.java:849 ../wprover/HelpMode.java:58
 msgid "Incenter"
-msgstr ""
+msgstr "Inkreismittelpunkt"
 
 #: ../wprover/GExpert.java:851 ../wprover/HelpMode.java:60
 msgid "Foot"
-msgstr ""
+msgstr "Fußpunkt"
 
 #: ../wprover/GExpert.java:856 ../wprover/HelpMode.java:46
 #: ../wprover/MProveTree.java:1816
 msgid "Parallel"
-msgstr ""
+msgstr "Parallel"
 
 #: ../wprover/GExpert.java:857 ../wprover/HelpMode.java:47
 #: ../wprover/MProveTree.java:1816
 msgid "Perpendicular"
-msgstr ""
+msgstr "Normal"
 
 #: ../wprover/GExpert.java:858 ../wprover/HelpMode.java:61
 msgid "Angle Bisector"
@@ -495,7 +500,7 @@ msgstr ""
 
 #: ../wprover/GExpert.java:866 ../wprover/HelpMode.java:68
 msgid "Circle by Three Points"
-msgstr ""
+msgstr "Kreis durch drei Punkte"
 
 #: ../wprover/GExpert.java:867 ../wprover/HelpMode.java:69
 msgid "Circler"
@@ -503,73 +508,73 @@ msgstr ""
 
 #: ../wprover/GExpert.java:870 ../wprover/GExpert.java:922
 msgid "Action"
-msgstr ""
+msgstr "Aktion"
 
 #: ../wprover/GExpert.java:871 ../wprover/HelpMode.java:71
 msgid "Intersect"
-msgstr ""
+msgstr "Schneide"
 
 #: ../wprover/GExpert.java:872 ../wprover/HelpMode.java:72
 msgid "Mirror"
-msgstr ""
+msgstr "Spiegeln"
 
 #: ../wprover/GExpert.java:875 ../wprover/HelpMode.java:74
 msgid "Triangle"
-msgstr ""
+msgstr "Dreieck"
 
 #: ../wprover/GExpert.java:876 ../wprover/HelpMode.java:75
 #: ../wprover/MProveTree.java:1822
 msgid "Isosceles Triangle"
-msgstr ""
+msgstr "Gleichschenkeliges Dreieck"
 
 #: ../wprover/GExpert.java:877 ../wprover/HelpMode.java:76
 #: ../wprover/MProveTree.java:1823
 msgid "Equilateral Triangle"
-msgstr ""
+msgstr "Gleichseitiges Dreieck"
 
 #: ../wprover/GExpert.java:878 ../wprover/HelpMode.java:77
 msgid "Right-angled Triangle"
-msgstr ""
+msgstr "Rechtwinkeliges Dreieck"
 
 #: ../wprover/GExpert.java:879 ../wprover/HelpMode.java:78
 msgid "Isosceles Right-angled Triangle"
-msgstr ""
+msgstr "Gleichschenkelig-rechtwinkeliges Dreieck"
 
 #: ../wprover/GExpert.java:880 ../wprover/HelpMode.java:79
 msgid "Quadrangle"
-msgstr ""
+msgstr "Viereck"
 
 #: ../wprover/GExpert.java:881 ../wprover/HelpMode.java:80
 #: ../wprover/MProveTree.java:1820
 msgid "Parallelogram"
-msgstr ""
+msgstr "Parallelogramm"
 
 #: ../wprover/GExpert.java:882 ../wprover/HelpMode.java:81
 #: ../wprover/MProveTree.java:1823
 msgid "Trapezoid"
-msgstr ""
+msgstr "Trapez"
 
 #: ../wprover/GExpert.java:883 ../wprover/HelpMode.java:82
 msgid "Right-angled Trapezoid"
-msgstr ""
+msgstr "Rechtwinkeliges Trapez"
 
 #: ../wprover/GExpert.java:884 ../wprover/HelpMode.java:83
 #: ../wprover/MProveTree.java:1824
 msgid "Rectangle"
-msgstr ""
+msgstr "Rechteck"
 
 #: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
 #: ../wprover/MProveTree.java:1824
 msgid "Square"
-msgstr ""
+msgstr "Quadrat"
 
 #: ../wprover/GExpert.java:886 ../wprover/HelpMode.java:85
 msgid "Pentagon"
-msgstr ""
+msgstr "Fünfeck"
 
 #: ../wprover/GExpert.java:889
 msgid "Special Angles"
-msgstr ""
+msgstr "Besondere Winkel"
 
 #: ../wprover/GExpert.java:890
 msgid "15"
@@ -605,7 +610,7 @@ msgstr ""
 
 #: ../wprover/GExpert.java:903
 msgid "Constraint"
-msgstr ""
+msgstr "Einschränkung"
 
 #: ../wprover/GExpert.java:904 ../wprover/HelpMode.java:89
 #: ../wprover/MProveTree.java:1818
@@ -619,19 +624,23 @@ msgstr ""
 #: ../wprover/GExpert.java:907 ../wprover/HelpMode.java:91
 #: ../wprover/SpecificAngleDialog.java:32
 msgid "Angle Specification"
-msgstr ""
+msgstr "Winkelspezifikation"
 
 #: ../wprover/GExpert.java:910 ../wprover/HelpMode.java:92
 msgid "Equal Ratio"
-msgstr ""
+msgstr "Gleiches Verhältnis"
 
-#: ../wprover/GExpert.java:912 ../wprover/HelpMode.java:93
+#, fuzzy
 msgid "Equal Distance"
 msgstr ""
+"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
+"Gleiche Distanz\n"
+"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
+"Gleicher Abstand"
 
 #: ../wprover/GExpert.java:914 ../wprover/HelpMode.java:94
 msgid "Ratio Distance"
-msgstr ""
+msgstr "Proportion Abstand"
 
 #: ../wprover/GExpert.java:920 ../wprover/HelpMode.java:95
 msgid "CCtangent"
@@ -640,31 +649,31 @@ msgstr ""
 #: ../wprover/GExpert.java:924 ../wprover/HelpMode.java:98
 #: ../wprover/RightClickPopMenu.java:73
 msgid "Trace"
-msgstr ""
+msgstr "Spur"
 
 #: ../wprover/GExpert.java:925 ../wprover/HelpMode.java:99
 msgid "Locus"
-msgstr ""
+msgstr "Ortslinie"
 
 #: ../wprover/GExpert.java:926 ../wprover/HelpMode.java:100
 msgid "Animation"
-msgstr ""
+msgstr "Animation"
 
 #: ../wprover/GExpert.java:929 ../wprover/HelpMode.java:102
 msgid "Fill Polygon"
-msgstr ""
+msgstr "Fülle Vieleck"
 
 #: ../wprover/GExpert.java:930 ../wprover/HelpMode.java:103
 msgid "Measure Distance"
-msgstr ""
+msgstr "Messe Distanz"
 
 #: ../wprover/GExpert.java:931 ../wprover/HelpMode.java:104
 msgid "Arrow"
-msgstr ""
+msgstr "Pfeil"
 
 #: ../wprover/GExpert.java:934 ../wprover/HelpMode.java:106
 msgid "Equal Mark"
-msgstr ""
+msgstr "Gleichheitszeichen"
 
 #: ../wprover/GExpert.java:935 ../wprover/CProperty.java:905
 #: ../wprover/CProperty.java:960 ../wprover/CProperty.java:961
@@ -686,99 +695,102 @@ msgstr ""
 
 #: ../wprover/GExpert.java:940 ../wprover/HelpMode.java:107
 msgid "Right-angle Mark"
-msgstr ""
+msgstr "Rechter Winkel Zeichen"
 
 #: ../wprover/GExpert.java:941 ../wprover/HelpMode.java:108
 #: ../wprover/TextValueEditor.java:45
 msgid "Calculation"
-msgstr ""
+msgstr "Berechnung"
 
 #: ../wprover/GExpert.java:944 ../wprover/HelpMode.java:110
 msgid "Hide Object"
-msgstr ""
+msgstr "Verstecke Objekt"
 
 #: ../wprover/GExpert.java:945 ../wprover/HelpMode.java:111
 msgid "Show Object"
-msgstr ""
+msgstr "Zeige Objekt"
 
 #: ../wprover/GExpert.java:947 ../wprover/HelpMode.java:112
 msgid "Transform"
-msgstr ""
+msgstr "Transformiere"
 
 #: ../wprover/GExpert.java:948 ../wprover/HelpMode.java:113
 msgid "Equivalence"
-msgstr ""
+msgstr "Äquivalenz"
 
 #: ../wprover/GExpert.java:949 ../wprover/HelpMode.java:114
 msgid "Free Transform"
-msgstr ""
+msgstr "Freie Transformation"
 
 #: ../wprover/GExpert.java:957
 msgid "Lemmas"
-msgstr ""
+msgstr "Lemmata"
 
 #: ../wprover/GExpert.java:959 ../wprover/HelpMode.java:116
 msgid "Rulers for Full Angle"
-msgstr ""
+msgstr "Regeln für Vollwinkel"
 
 #: ../wprover/GExpert.java:960 ../wprover/HelpMode.java:117
 msgid "Rulers for GDD"
-msgstr ""
+msgstr "Regeln für GDD"
 
 #: ../wprover/GExpert.java:963
 msgid "Option"
-msgstr ""
+msgstr "Option"
 
-#: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
-#: ../wprover/MiscDialog.java:32
+#, fuzzy
 msgid "Preference"
 msgstr ""
+"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
+"Einstellung\n"
+"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
+"Einstellungen"
 
 #: ../wprover/GExpert.java:968 ../wprover/HelpMode.java:120
 #: ../wprover/ListTree.java:60 ../wprover/UndoEditDialog.java:20
 msgid "Construct History"
-msgstr ""
+msgstr "Konstruktionsprotokoll"
 
 #: ../wprover/GExpert.java:970 ../wprover/HelpMode.java:121
 msgid "Show Step Bar"
-msgstr ""
+msgstr "Zeige Schrittsfenster"
 
 #: ../wprover/GExpert.java:972 ../wprover/HelpMode.java:122
 msgid "Style Dialog"
-msgstr ""
+msgstr "Stil Dialog"
 
 #: ../wprover/GExpert.java:975 ../wprover/GExpert.java:976
 #: ../wprover/HelpMode.java:125
 msgid "Help"
-msgstr ""
+msgstr "Hilfe"
 
 #: ../wprover/GExpert.java:983 ../wprover/HelpMode.java:127
 msgid "Help on Mode"
-msgstr ""
+msgstr "Hilfe zum Modus"
 
 #: ../wprover/GExpert.java:986 ../wprover/HelpMode.java:128
 msgid "JGEX Homepage"
-msgstr ""
+msgstr "JGEX Homepage"
 
 #: ../wprover/GExpert.java:988 ../wprover/HelpMode.java:129
 msgid "Contact Us"
-msgstr ""
+msgstr "Kontakt"
 
 #: ../wprover/GExpert.java:993 ../wprover/HelpMode.java:131
 msgid "About JGEX"
-msgstr ""
+msgstr "Über JGEX"
 
 #: ../wprover/GExpert.java:1158 ../wprover/GExpert.java:2424
 msgid "Move"
-msgstr ""
+msgstr "Bewegen"
 
 #: ../wprover/GExpert.java:1163 ../wprover/GExpert.java:2419
 msgid "Select"
-msgstr ""
+msgstr "Auswählen"
 
 #: ../wprover/GExpert.java:1661
 msgid "Please input the value of the angle"
-msgstr ""
+msgstr "Den Wert des Winkels eingeben"
 
 #: ../wprover/GExpert.java:1811
 msgid "Nothing to be saved."
@@ -786,7 +798,7 @@ msgstr ""
 
 #: ../wprover/GExpert.java:1866
 msgid "The diagram has been changed, do you want to save it?"
-msgstr ""
+msgstr "Das Diagramm wurde geändert, wollen sie speichern?"
 
 #: ../wprover/GExpert.java:1930
 msgid " already exists, do you want to overwrite it?"
@@ -794,7 +806,7 @@ msgstr ""
 
 #: ../wprover/GExpert.java:1931
 msgid "File exists"
-msgstr ""
+msgstr "Datei existiert"
 
 #: ../wprover/GExpert.java:2008
 msgid "No animation has been defined."
@@ -811,27 +823,27 @@ msgstr ""
 
 #: ../wprover/GIFOptionDialog.java:33
 msgid "Image Quality"
-msgstr ""
+msgstr "Bildqualität"
 
 #: ../wprover/GIFOptionDialog.java:103
 msgid "Best"
-msgstr ""
+msgstr "Best"
 
 #: ../wprover/GIFOptionDialog.java:105
 msgid "Good"
-msgstr ""
+msgstr "Gut"
 
 #: ../wprover/GIFOptionDialog.java:107
 msgid "Medium"
-msgstr ""
+msgstr "Mittel"
 
 #: ../wprover/GIFOptionDialog.java:109
 msgid "Low"
-msgstr ""
+msgstr "Niedrig"
 
 #: ../wprover/GIFOptionDialog.java:110
 msgid "Very Low"
-msgstr ""
+msgstr "Sehr niedrig"
 
 #: ../wprover/HelpMode.java:87
 msgid "sangle"
@@ -839,11 +851,11 @@ msgstr ""
 
 #: ../wprover/HelpMode.java:126
 msgid "Online Help"
-msgstr ""
+msgstr "Online Hilfe"
 
 #: ../wprover/HelpMode.java:130
 msgid "Check for Update"
-msgstr ""
+msgstr "Nach Updates suchen"
 
 #: ../wprover/LeadVariableDialog.java:34
 msgid "Leading Variable"
@@ -851,50 +863,50 @@ msgstr ""
 
 #: ../wprover/LeadVariableDialog.java:58
 msgid "Variables"
-msgstr ""
+msgstr "Variablen"
 
 #: ../wprover/LeadVariableDialog.java:68
 msgid "Reduce"
-msgstr ""
+msgstr "Reduzieren"
 
 #: ../wprover/LeadVariableDialog.java:69
 msgid "Detail"
-msgstr ""
+msgstr "Detail"
 
 #: ../wprover/LeadVariableDialog.java:70
 msgid "Reload"
-msgstr ""
+msgstr "Aktualisieren"
 
 #: ../wprover/LeadVariableDialog.java:71 ../wprover/NumCheckDialog.java:89
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: ../wprover/LeadVariableDialog.java:243
 #: ../wprover/LeadVariableDialog.java:426
 msgid "Variable"
-msgstr ""
+msgstr "Variable"
 
 #: ../wprover/LeadVariableDialog.java:245
 #: ../wprover/LeadVariableDialog.java:333
 msgid "Polynomial"
-msgstr ""
+msgstr "Polynom"
 
 #: ../wprover/LeadVariableDialog.java:376
 msgid "Cut"
-msgstr ""
+msgstr "Auschneiden"
 
 #: ../wprover/LeadVariableDialog.java:377
 msgid "Copy"
-msgstr ""
+msgstr "Kopieren"
 
 #: ../wprover/LeadVariableDialog.java:378
 msgid "Paste"
-msgstr ""
+msgstr "Einfügen"
 
 #: ../wprover/LeadVariableDialog.java:379 ../wprover/MProveTree.java:752
 #: ../wprover/MProveTree.java:756 ../wprover/MProveTree.java:807
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 #: ../wprover/ListTree.java:99
 msgid "Objects"
@@ -902,44 +914,44 @@ msgstr ""
 
 #: ../wprover/MiscDialog.java:40
 msgid "Display"
-msgstr ""
+msgstr "Anzeige"
 
 #: ../wprover/MiscDialog.java:42
 msgid "Mode"
-msgstr ""
+msgstr "Modus"
 
 #: ../wprover/MiscDialog.java:45 ../wprover/MiscDialog.java:287
 #: ../wprover/vFontChooser.java:108
 msgid "Font"
-msgstr ""
+msgstr "Schriftart"
 
 #: ../wprover/MiscDialog.java:46
 msgid "Other"
-msgstr ""
+msgstr "Andere"
 
 #: ../wprover/MiscDialog.java:56
 msgid "Save Preference"
-msgstr ""
+msgstr "Speichere Einstellung"
 
 #: ../wprover/MiscDialog.java:59 ../wprover/CProperty.java:625
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 #: ../wprover/MiscDialog.java:116
 msgid "Can not Save Preference"
-msgstr ""
+msgstr "Einstellung kann nicht gespeichert werden"
 
 #: ../wprover/MiscDialog.java:119
 msgid "Save Preference Successfully"
-msgstr ""
+msgstr "Einstellungen erfolgreich gespeichert"
 
 #: ../wprover/MiscDialog.java:120
 msgid "Please restart the program."
-msgstr ""
+msgstr "Bitte das Programm neu starten."
 
 #: ../wprover/MiscDialog.java:121
 msgid "Saved"
-msgstr ""
+msgstr "Gespeichert"
 
 #: ../wprover/MiscDialog.java:154
 msgid "Polygon Alpha"
@@ -947,72 +959,75 @@ msgstr ""
 
 #: ../wprover/MiscDialog.java:195
 msgid "Radius of Point"
-msgstr ""
+msgstr "Radius des Punktes"
 
 #: ../wprover/MiscDialog.java:212 ../wprover/MiscDialog.java:468
 msgid "Point's Text"
-msgstr ""
+msgstr "Text des Punktes"
 
 #: ../wprover/MiscDialog.java:213
 msgid "Default Font"
-msgstr ""
+msgstr "Standard Schrift"
 
 #: ../wprover/MiscDialog.java:219
 msgid "Choose default foot for point's text"
-msgstr ""
+msgstr "Wähle den Standardfußpunkt für den Text des Punktes"
 
 #: ../wprover/MiscDialog.java:266
 msgid "None"
-msgstr ""
+msgstr "Nichts"
 
 #: ../wprover/MiscDialog.java:273
 msgid "Degrees"
-msgstr ""
+msgstr "Grad"
 
 #: ../wprover/MiscDialog.java:307
 msgid "Foot Mark"
-msgstr ""
+msgstr "Fußmarke"
 
 #: ../wprover/MiscDialog.java:308
 msgid "Show foot mark"
-msgstr ""
+msgstr "Zeige Fußmarke"
 
 #: ../wprover/MiscDialog.java:378 ../wprover/CProperty.java:624
 msgid "Without Arrow"
-msgstr ""
+msgstr "Ohne Pfeil"
 
 #: ../wprover/MiscDialog.java:380 ../wprover/CProperty.java:624
 msgid "With Arrow"
-msgstr ""
+msgstr "Mit Pfeil"
 
 #: ../wprover/MiscDialog.java:382 ../wprover/CProperty.java:624
 msgid "Multiple Arc"
 msgstr ""
 
-#: ../wprover/MiscDialog.java:384 ../wprover/CProperty.java:624
-#: ../wprover/CProperty.java:997
+#, fuzzy
 msgid "Fill"
 msgstr ""
+"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
+"Fülle\n"
+"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
+"Ausfüllen"
 
 #: ../wprover/MiscDialog.java:399
 msgid "Polygon Moving Interval"
-msgstr ""
+msgstr "Polygon Bewegungsintervall"
 
 #: ../wprover/MiscDialog.java:486 ../wprover/MProveTree.java:315
 msgid "Theorem"
-msgstr ""
+msgstr "Satz"
 
 #: ../wprover/MiscDialog.java:522 ../wprover/PanelProve1.java:2368
 msgid "Area Method"
-msgstr ""
+msgstr "Flächeninhalt-Methode"
 
 #: ../wprover/MiscDialog.java:540
 msgid "Manual Method"
-msgstr ""
+msgstr "Händische Methode"
 
 #: ../wprover/MiscDialog.java:558 ../wprover/PanelProve1.java:373
 msgid "Fixpoint"
-msgstr ""
+msgstr "Fixpunkt"
 
 #: ../wprover/MiscDialog.java:576
 msgid "Algebra"
@@ -1020,11 +1035,11 @@ msgstr ""
 
 #: ../wprover/MiscDialog.java:612
 msgid "Color Mode"
-msgstr ""
+msgstr "Farbmodus"
 
 #: ../wprover/MiscDialog.java:615
 msgid "Colorful"
-msgstr ""
+msgstr "Bunt"
 
 #: ../wprover/MiscDialog.java:646
 msgid "BackGroud Color"
@@ -1032,12 +1047,12 @@ msgstr ""
 
 #: ../wprover/MiscDialog.java:652 ../wprover/CProperty.java:998
 msgid "Grid"
-msgstr ""
+msgstr "Gitter"
 
 #: ../wprover/MiscDialog.java:700 ../wprover/MiscDialog.java:711
 #: ../wprover/CProperty.java:318
 msgid "Choose Color"
-msgstr ""
+msgstr "Wähle Farbe"
 
 #: ../wprover/MiscDialog.java:761
 msgid "AntiAlias"
@@ -1049,75 +1064,75 @@ msgstr ""
 
 #: ../wprover/MiscDialog.java:764
 msgid "OFF"
-msgstr ""
+msgstr "Aus"
 
 #: ../wprover/MiscDialog.java:778
 msgid "Language"
-msgstr ""
+msgstr "Sprache"
 
 #: ../wprover/MiscDialog.java:802
 msgid "LookAndFeel"
-msgstr ""
+msgstr "Aussehen"
 
 #: ../wprover/mproveInputPanel.java:237
 msgid "Edit"
-msgstr ""
+msgstr "Bearbeiten"
 
 #: ../wprover/mproveInputPanel.java:260
 msgid "Add"
-msgstr ""
+msgstr "Addieren"
 
 #: ../wprover/mproveInputPanel.java:268
 msgid "Append"
-msgstr ""
+msgstr "Hinzufügen"
 
 #: ../wprover/mproveInputPanel.java:276
 msgid "Child"
-msgstr ""
+msgstr "Kind"
 
 #: ../wprover/mproveInputPanel.java:1138
 msgid "Basic Assertions"
-msgstr ""
+msgstr "Grundannahmen"
 
 #: ../wprover/mproveInputPanel.java:1160
 msgid "Polygon Related"
-msgstr ""
+msgstr "Bezogenes Polygon"
 
 #: ../wprover/mproveInputPanel.java:1169
 msgid "Inequality"
-msgstr ""
+msgstr "Ungleichung"
 
 #: ../wprover/MProveTree.java:758
 msgid "Delete This Row"
-msgstr ""
+msgstr "Löschen diese Zeile"
 
 #: ../wprover/MProveTree.java:763
 msgid "Add A New Row"
-msgstr ""
+msgstr "Eine Zeile addieren"
 
 #: ../wprover/MProveTree.java:767
 msgid "Append A Term"
-msgstr ""
+msgstr "Einen Term hinzufügen"
 
 #: ../wprover/MProveTree.java:771
 msgid "Combine Selected Rows"
-msgstr ""
+msgstr "Kombinieren ausgewählte Zeilen"
 
 #: ../wprover/ndgDialog.java:31 ../wprover/PanelProve1.java:2424
 msgid "Nondegenerate Conditions"
-msgstr ""
+msgstr "Nichtdegenerierte Bedingungen"
 
 #: ../wprover/ndgDialog.java:44
 msgid "The Simplified Nondegenerate Conditions"
-msgstr ""
+msgstr "Die vereinfachten nichtdegenerierten Bedingungen"
 
 #: ../wprover/ndgDialog.java:45
 msgid "The Final Nondegenerate Conditions"
-msgstr ""
+msgstr "Die letzten nichtdegenerierten Bedingungen"
 
 #: ../wprover/ndgDialog.java:258 ../wprover/MProveTree.java:1519
 msgid "Construction"
-msgstr ""
+msgstr "Konstruktion"
 
 #: ../wprover/ndgDialog.java:259
 msgid "Nondegenerate Condition"
@@ -1125,15 +1140,15 @@ msgstr ""
 
 #: ../wprover/NumCheckDialog.java:30 ../wprover/PanelProve1.java:2410
 msgid "Numerical Check"
-msgstr ""
+msgstr "Numerischer Check"
 
 #: ../wprover/NumCheckDialog.java:242
 msgid "TRUE"
-msgstr ""
+msgstr "WAHR"
 
 #: ../wprover/NumCheckDialog.java:246
 msgid "FALSE"
-msgstr ""
+msgstr "FALSCH"
 
 #: ../wprover/panelAlgebric.java:125
 msgid "The Algebraic Form: "
@@ -1141,7 +1156,7 @@ msgstr ""
 
 #: ../wprover/panelGB.java:623
 msgid "The Nondegenerate Conditions"
-msgstr ""
+msgstr "Die nichtdegenerierte Bedingungen"
 
 #: ../wprover/panelGB.java:679 ../wprover/panelWu.java:122
 msgid "The Equational Hypotheses:"
@@ -1149,7 +1164,7 @@ msgstr ""
 
 #: ../wprover/panelGB.java:704
 msgid "The Initial Polynomial Set"
-msgstr ""
+msgstr "Die Menge der Startpolynome"
 
 #: ../wprover/panelGB.java:709
 msgid "The Groebner Basis: "
@@ -1161,7 +1176,7 @@ msgstr ""
 
 #: ../wprover/panelGB.java:726
 msgid "The Conclution After Reduce:"
-msgstr ""
+msgstr "Die Folgerung nach Reduktion"
 
 #: ../wprover/panelGB.java:731 ../wprover/panelWu.java:179
 msgid "The conclution is true"
@@ -1173,11 +1188,11 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:673
 msgid "Search facts"
-msgstr ""
+msgstr "Suche Fakten"
 
 #: ../wprover/PanelProve1.java:889
 msgid "Add Conclution"
-msgstr ""
+msgstr "Füge Schlussfolgerung hinzu"
 
 #: ../wprover/PanelProve1.java:930
 msgid "Time: "
@@ -1189,82 +1204,82 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:993
 msgid "lines"
-msgstr ""
+msgstr "Geraden"
 
 #: ../wprover/PanelProve1.java:999
 msgid "parallel lines"
-msgstr ""
+msgstr "parallele Geraden"
 
 #: ../wprover/PanelProve1.java:1005
 msgid "perpendicular lines"
-msgstr ""
+msgstr "normale Geraden"
 
 #: ../wprover/PanelProve1.java:1011
 msgid "midpoints"
-msgstr ""
+msgstr "Mittelpunkte"
 
 #: ../wprover/PanelProve1.java:1017
 msgid "circles"
-msgstr ""
+msgstr "Kreise"
 
 #: ../wprover/PanelProve1.java:1023
 msgid "congruent segments"
-msgstr ""
+msgstr "Kongruente Strecken"
 
 #: ../wprover/PanelProve1.java:1030
 msgid "congruent angles"
-msgstr ""
+msgstr "Kongruente Winkel"
 
 #: ../wprover/PanelProve1.java:1042
 msgid "similiar triangles"
-msgstr ""
+msgstr "ähnliche Dreiecke"
 
 #: ../wprover/PanelProve1.java:1047
 msgid "congruent triangles"
-msgstr ""
+msgstr "kongruente Dreiecke"
 
 #: ../wprover/PanelProve1.java:1054
 msgid "special angles"
-msgstr ""
+msgstr "spezielle Winkel"
 
 #: ../wprover/PanelProve1.java:1059
 msgid "perp-acong angles"
-msgstr ""
+msgstr "perp-acong Winkel"
 
 #: ../wprover/PanelProve1.java:1067
 msgid "ratio segments"
-msgstr ""
+msgstr "Verhältnisstrecken"
 
 #: ../wprover/PanelProve1.java:1086
 msgid "Can not find any proof!"
-msgstr ""
+msgstr "Kann keinen Beweis finden!"
 
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
 msgid "NO conclution has been set!"
-msgstr ""
+msgstr "Keine Folgerung wurde eingestellt!"
 
 #: ../wprover/PanelProve1.java:1259 ../wprover/PanelProve1.java:1341
 #: ../wprover/PanelProve1.java:1398
 msgid "No conclution"
-msgstr ""
+msgstr "Keine Folgerung"
 
 #: ../wprover/PanelProve1.java:1300 ../wprover/PanelProve1.java:1373
 #: ../wprover/PanelProve1.java:1379
 msgid "Message"
-msgstr ""
+msgstr "Nachricht"
 
 #: ../wprover/PanelProve1.java:1313
 msgid "Please Construct the Diagram First!"
-msgstr ""
+msgstr "Konstruiere das Diagramm zuerst!"
 
 #: ../wprover/PanelProve1.java:1314
 msgid "Diagram Not Completed"
-msgstr ""
+msgstr "Diagramm nicht komplett"
 
 #: ../wprover/PanelProve1.java:1372
 msgid "is trivially true"
-msgstr ""
+msgstr "ist trivial wahr"
 
 #: ../wprover/PanelProve1.java:1378
 msgid " is obviously true  (by hypothesis)"
@@ -1280,32 +1295,33 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:1407
 msgid "Show Detail"
-msgstr ""
+msgstr "Zeige Detail"
 
 #: ../wprover/PanelProve1.java:1410
 msgid "Failed"
-msgstr ""
+msgstr "Fehlgeschlagen"
 
 #: ../wprover/PanelProve1.java:1416
 msgid "The conclusion can not be translated to full-angle expression."
 msgstr ""
+"Die Folgerung kann nicht in einen Vollwinkel-Ausdruck übersetzt werden."
 
 #: ../wprover/PanelProve1.java:1417
 msgid "Not Supported"
-msgstr ""
+msgstr "Nicht unterstützt"
 
 #: ../wprover/PanelProve1.java:2057 ../wprover/PanelProve1.java:2390
 #: ../wprover/PanelProve1.java:2392
 msgid "Prove"
-msgstr ""
+msgstr "Beweise"
 
 #: ../wprover/PanelProve1.java:2060
 msgid "Prove in New Tab"
-msgstr ""
+msgstr "Beweise in neuem Tab"
 
 #: ../wprover/PanelProve1.java:2064
 msgid "Refresh"
-msgstr ""
+msgstr "Aktualisieren"
 
 #: ../wprover/PanelProve1.java:2067
 msgid "Search A Fact"
@@ -1321,15 +1337,15 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:2349
 msgid "Deductive Database Method"
-msgstr ""
+msgstr "Deduktive Datenbank Methode"
 
 #: ../wprover/PanelProve1.java:2355
 msgid "Full Angle Method"
-msgstr ""
+msgstr "Methode mit Vollwinkeln"
 
 #: ../wprover/PanelProve1.java:2361
 msgid "Traditional Method"
-msgstr ""
+msgstr "Traditionale Methode"
 
 #: ../wprover/PanelProve1.java:2375
 msgid "Grobner Basis Method"
@@ -1337,23 +1353,23 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:2383
 msgid "Wu's Method"
-msgstr ""
+msgstr "Methode von Wu"
 
 #: ../wprover/PanelProve1.java:2398
 msgid "To Prove"
-msgstr ""
+msgstr "Zu beweisen"
 
 #: ../wprover/PanelProve1.java:2418
 msgid "Polynomials"
-msgstr ""
+msgstr "Polynome"
 
 #: ../wprover/PanelProve1.java:2431
 msgid "All Solutions"
-msgstr ""
+msgstr "Alle Lösungen"
 
 #: ../wprover/panelWu.java:84 ../wprover/panelWu.java:94
 msgid "Remainder"
-msgstr ""
+msgstr "Rest"
 
 #: ../wprover/panelWu.java:146
 msgid "The Triangulized Hypotheses"
@@ -1361,19 +1377,19 @@ msgstr ""
 
 #: ../wprover/panelWu.java:155
 msgid "The Conclution"
-msgstr ""
+msgstr "Die Folgerung"
 
 #: ../wprover/panelWu.java:159
 msgid "Successive Pseudo Remainder of CONC wrpt TS :"
-msgstr ""
+msgstr "Sukzessive Pseudo Rest von COND im Bezug auf TS :"
 
 #: ../wprover/panelWu.java:168
 msgid "System Run Out Of Memory"
-msgstr ""
+msgstr "System hat keinen Arbeitsspeicher mehr"
 
 #: ../wprover/panelWu.java:169
 msgid "The Theorem Is Not Proved!"
-msgstr ""
+msgstr "Der Satz ist nich bewiesen!"
 
 #: ../wprover/panelWu.java:169
 msgid "System Run Out of Memory"
@@ -1389,11 +1405,11 @@ msgstr ""
 
 #: ../wprover/RatioSelectDialog.java:27
 msgid "Set the ratio"
-msgstr ""
+msgstr "Einstellen der Proportion"
 
 #: ../wprover/RatioSelectDialog.java:32
 msgid "Please input two integers"
-msgstr ""
+msgstr "Bitte gib zwei ganzen Zahlen an"
 
 #: ../wprover/RectChooser.java:36
 msgid " Please Choose The Client Area."
@@ -1401,35 +1417,39 @@ msgstr ""
 
 #: ../wprover/RightClickPopMenu.java:20
 msgid "Cancel Action"
-msgstr ""
+msgstr "Abbrechen"
 
 #: ../wprover/RightClickPopMenu.java:56
 msgid "Edit Text"
-msgstr ""
+msgstr "Bearbeiten Textes"
 
 #: ../wprover/RightClickPopMenu.java:63
 msgid "Freeze"
-msgstr ""
+msgstr "Einfrieren"
 
 #: ../wprover/RightClickPopMenu.java:66
 msgid "Unfreeze"
-msgstr ""
+msgstr "Auftauen"
 
 #: ../wprover/RightClickPopMenu.java:70
 msgid "Stop Trace"
-msgstr ""
+msgstr "Spur aus"
 
 #: ../wprover/RightClickPopMenu.java:196
 msgid "Font Size"
-msgstr ""
+msgstr "Schriftgröße"
 
 #: ../wprover/RightClickPopMenu.java:205
 msgid "Plain"
-msgstr ""
+msgstr "Schlicht"
 
-#: ../wprover/RightClickPopMenu.java:206 ../wprover/vFontChooser.java:96
+#, fuzzy
 msgid "Bold"
 msgstr ""
+"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
+"Fett\n"
+"#-#-#-#-#  de-merged.po  #-#-#-#-#\n"
+"Kursiv"
 
 #: ../wprover/RuleApplicationDialog.java:309 ../wprover/MProveTree.java:1000
 #: ../wprover/MProveTree.java:1001 ../wprover/MProveTree.java:1002
@@ -1440,36 +1460,36 @@ msgstr ""
 #: ../wprover/MProveTree.java:1011 ../wprover/MProveTree.java:1012
 #: ../wprover/MProveTree.java:1013 ../wprover/MProveTree.java:1015
 msgid "because"
-msgstr ""
+msgstr "weil"
 
 #: ../wprover/TextFrame.java:196 ../wprover/TextFrame.java:198
 #: ../wprover/MProveTree.java:1518
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: ../wprover/TextValueEditor.java:107
 msgid "Data"
-msgstr ""
+msgstr "Daten"
 
 #: ../wprover/TextValueEditor.java:108
 msgid "Function"
-msgstr ""
+msgstr "Funktion"
 
 #: ../wprover/TextValueEditor.java:142
 msgid "Coordinates"
-msgstr ""
+msgstr "Koordinaten"
 
 #: ../wprover/Update.java:70 ../wprover/Update.java:120
 msgid "Connection failed: Please check your network connection and try again."
-msgstr ""
+msgstr "Verbindung nicht erfolgreich: Bitte die Netzwerkverbindung überprüfen."
 
 #: ../wprover/Update.java:71 ../wprover/Update.java:121
 msgid "Connection Failed"
-msgstr ""
+msgstr "Verbindung nicht erfolgreich"
 
 #: ../wprover/Update.java:140 ../wprover/Update.java:150
 msgid "Update Information"
-msgstr ""
+msgstr "Inforamtionen zur Aktualisierung"
 
 #: ../wprover/Update.java:146
 msgid ""
@@ -1487,11 +1507,11 @@ msgstr ""
 
 #: ../wprover/Update.java:149
 msgid "Press OK to update."
-msgstr ""
+msgstr "OK klicken zur Aktualisierung"
 
 #: ../wprover/Update.java:168 ../wprover/Update.java:248
 msgid "JGEX Update"
-msgstr ""
+msgstr "JGEX Aktualisierung"
 
 #: ../wprover/Update.java:189
 msgid "Hide"
@@ -1505,47 +1525,47 @@ msgstr ""
 
 #: ../wprover/vcellRender.java:178 ../wprover/vcellRender.java:395
 msgid "by HYP"
-msgstr ""
+msgstr "laut Annahme"
 
 #: ../wprover/vFontChooser.java:94
 msgid "Font Chooser"
-msgstr ""
+msgstr "Schriftart auswählen"
 
 #: ../wprover/vFontChooser.java:97
 msgid "Italic"
-msgstr ""
+msgstr "Kursiv"
 
 #: ../wprover/vFontChooser.java:98
 msgid "Underline"
-msgstr ""
+msgstr "Unterstrichen"
 
 #: ../wprover/vFontChooser.java:99
 msgid "Strikethrough"
-msgstr ""
+msgstr "Durchgestrichen"
 
 #: ../wprover/vFontChooser.java:100
 msgid "Subscript"
-msgstr ""
+msgstr "Tiefgestellt"
 
 #: ../wprover/vFontChooser.java:101
 msgid "Superscript"
-msgstr ""
+msgstr "Hochgestellt"
 
 #: ../wprover/vFontChooser.java:102
 msgid "Preview Font"
-msgstr ""
+msgstr "Vorschau für Schriftart"
 
 #: ../wprover/vFontChooser.java:111
 msgid "Font name"
-msgstr ""
+msgstr "Name Schriftart"
 
 #: ../wprover/vFontChooser.java:115
 msgid "Font size"
-msgstr ""
+msgstr "Größe Schriftart"
 
 #: ../wprover/vFontChooser.java:119
 msgid "Effects"
-msgstr ""
+msgstr "Effekte"
 
 #: ../wprover/vFontChooser.java:155
 msgid "Font color"
@@ -1553,15 +1573,15 @@ msgstr ""
 
 #: ../wprover/vFontChooser.java:162
 msgid "Preview"
-msgstr ""
+msgstr "Vorschau"
 
 #: ../wprover/vFontChooser.java:171
 msgid "Save and exit"
-msgstr ""
+msgstr "Speichern und Beenden"
 
 #: ../wprover/vFontChooser.java:183
 msgid "Exit without save"
-msgstr ""
+msgstr "Beenden ohne zu speichern"
 
 #: ../wprover/AnimatePanel.java:42
 msgid "start the animation"
@@ -1659,11 +1679,11 @@ msgstr ""
 
 #: ../wprover/GExpert.java:856
 msgid "Parallel Line"
-msgstr ""
+msgstr "Parallele Gerade"
 
 #: ../wprover/GExpert.java:857
 msgid "Perpendicular Line"
-msgstr ""
+msgstr "Normale Gerade"
 
 #: ../wprover/GExpert.java:858
 msgid "Draw an angle bisector"
@@ -1679,7 +1699,7 @@ msgstr ""
 
 #: ../wprover/GExpert.java:861
 msgid "Tangent Line"
-msgstr ""
+msgstr "Tangente"
 
 #: ../wprover/GExpert.java:865
 msgid "Draw a circle by a center point and a point on circle"
@@ -1687,7 +1707,7 @@ msgstr ""
 
 #: ../wprover/GExpert.java:867
 msgid "Circle by Radius"
-msgstr ""
+msgstr "Kreis mit Radius"
 
 #: ../wprover/GExpert.java:871
 msgid "Intersect to decide a point"
@@ -2060,15 +2080,15 @@ msgstr ""
 
 #: ../wprover/GExpert.java:2361
 msgid "Translate"
-msgstr ""
+msgstr "Verschieben"
 
 #: ../wprover/GExpert.java:2364
 msgid "Zoom-in"
-msgstr ""
+msgstr "Einzoomen"
 
 #: ../wprover/GExpert.java:2367
 msgid "Zoom-out"
-msgstr ""
+msgstr "Auszoomen"
 
 #: ../wprover/GExpert.java:2371
 msgid "snap"
@@ -2129,7 +2149,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2433 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1363
 msgid "line"
-msgstr ""
+msgstr "Gerade"
 
 #: ../wprover/GExpert.java:2437
 msgid "parallel"
@@ -2146,7 +2166,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2453 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1369
 msgid "circle"
-msgstr ""
+msgstr "Kreis"
 
 #: ../wprover/GExpert.java:2459
 msgid "circle3p"
@@ -2164,7 +2184,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2472 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1388
 msgid "angle"
-msgstr ""
+msgstr "Winkel"
 
 #: ../wprover/GExpert.java:2476
 msgid "text"
@@ -2189,13 +2209,13 @@ msgstr ""
 #: ../wprover/GExpert.java:2496 ../wprover/GExpert.java:2562
 #: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1372
 msgid "square"
-msgstr ""
+msgstr "Quadrat"
 
 #: ../wprover/GExpert.java:2500 ../wprover/GExpert.java:2531
 #: ../wprover/GExpert.java:2543 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1366
 msgid "triangle"
-msgstr ""
+msgstr "Dreieck"
 
 #: ../wprover/GExpert.java:2539
 msgid "equilateral triangle"
@@ -2204,7 +2224,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2547 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1395
 msgid "quadrangle"
-msgstr ""
+msgstr "Viereck"
 
 #: ../wprover/GExpert.java:2550 ../wprover/GExpert.java:2566
 msgid "pentagon"
@@ -2213,7 +2233,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2553 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1399
 msgid "trapezoid"
-msgstr ""
+msgstr "Trapez"
 
 #: ../wprover/GExpert.java:2556
 msgid "right angle trapezoid"
@@ -2222,7 +2242,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2559 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1392
 msgid "rectangle"
-msgstr ""
+msgstr "Rechteck"
 
 #: ../wprover/MProveTree.java:761 ../wprover/MProveTree.java:817
 msgid "DTR"
@@ -2259,15 +2279,15 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1071
 msgid "In"
-msgstr ""
+msgstr "In"
 
 #: ../wprover/MProveTree.java:1071
 msgid "and"
-msgstr ""
+msgstr "und"
 
 #: ../wprover/MProveTree.java:1072
 msgid "Similarly,"
-msgstr ""
+msgstr "Analog,"
 
 #: ../wprover/MProveTree.java:1072 ../wprover/MProveTree.java:1095
 msgid "????"
@@ -2279,11 +2299,11 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1375
 msgid "area"
-msgstr ""
+msgstr "Flächeninhalt"
 
 #: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1378
 msgid "parallelogram"
-msgstr ""
+msgstr "Parallelogram"
 
 #: ../wprover/MProveTree.java:1255
 msgid "Please select two points"
@@ -2331,31 +2351,31 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1518
 msgid "Keywords"
-msgstr ""
+msgstr "Schlusswörter"
 
 #: ../wprover/MProveTree.java:1518
 msgid "Symbol"
-msgstr ""
+msgstr "Symbol"
 
 #: ../wprover/MProveTree.java:1518
 msgid "Assertion"
-msgstr ""
+msgstr "Annahme"
 
 #: ../wprover/MProveTree.java:1519
 msgid "Object"
-msgstr ""
+msgstr "Objekt"
 
 #: ../wprover/MProveTree.java:1519
 msgid "Draw"
-msgstr ""
+msgstr "Zeichnen"
 
 #: ../wprover/MProveTree.java:1519
 msgid "Equation"
-msgstr ""
+msgstr "Gleichung"
 
 #: ../wprover/MProveTree.java:1520 ../wprover/MProveTree.java:1689
 msgid "Rule"
-msgstr ""
+msgstr "Regel"
 
 #: ../wprover/MProveTree.java:1549 ../wprover/MProveTree.java:1554
 #: ../wprover/MProveTree.java:1672
@@ -2390,7 +2410,7 @@ msgstr ""
 #: ../wprover/MProveTree.java:1758 ../wprover/MProveTree.java:1759
 #: ../wprover/MProveTree.java:1816
 msgid "Collinear"
-msgstr ""
+msgstr "Kollinear"
 
 #: ../wprover/MProveTree.java:1817
 msgid "Eqdistant"
@@ -2398,7 +2418,7 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1817
 msgid "Cyclic"
-msgstr ""
+msgstr "Zyklisch"
 
 #: ../wprover/MProveTree.java:1818
 msgid "Congruent"
@@ -2508,11 +2528,11 @@ msgstr ""
 
 #: ../wprover/CProperty.java:999
 msgid "Vertical Line"
-msgstr ""
+msgstr "Senkrechte Gerade"
 
 #: ../wprover/CProperty.java:1000
 msgid "Horizontal Line"
-msgstr ""
+msgstr "Waagerechte Gerade"
 
 #: ../wprover/CProperty.java:1263
 msgid "X1 "
@@ -2531,34 +2551,35 @@ msgid "Y2"
 msgstr ""
 
 msgid "Geometry Expert"
-msgstr ""
+msgstr "Geometry Expert"
 
 msgid "ALine"
 msgstr ""
 
+#, fuzzy
 msgid "ABline"
-msgstr ""
+msgstr "Gerade"
 
 msgid "Hexagon"
-msgstr ""
+msgstr "Sechseck"
 
 msgid "Nteqangle"
 msgstr ""
 
 msgid "Snap"
-msgstr ""
+msgstr "Fang"
 
 msgid "LessGrid"
-msgstr ""
+msgstr "Weniger Gitter"
 
 msgid "MoreGrid"
-msgstr ""
+msgstr "Mehr Gitter"
 
 msgid "Redo"
-msgstr ""
+msgstr "Wiederherstellen"
 
 msgid "Undo"
-msgstr ""
+msgstr "Rückgängig"
 
 msgid "FF"
 msgstr ""
@@ -2570,205 +2591,242 @@ msgid "autoshowstep"
 msgstr ""
 
 msgid "animate_start"
-msgstr ""
+msgstr "Starte Animation"
 
 msgid "Equal Angle"
-msgstr ""
+msgstr "Gleicher Winkel"
 
 msgid "Similiar Triangle"
-msgstr ""
+msgstr "Ähnliches Dreieck"
 
 msgid "Congruent Triangle"
-msgstr ""
+msgstr "Kongruentes Dreieck"
 
 msgid "Equalateral Triangle"
-msgstr ""
+msgstr "Gleichseitiges Dreieck"
 
 msgid "Bisect"
-msgstr ""
+msgstr "Halbieren"
 
 msgid "Tangent"
-msgstr ""
+msgstr "Tangente"
 
 msgid "Equal Product"
-msgstr ""
+msgstr "Gleiches Produkt"
 
 msgid "Ratio"
-msgstr ""
+msgstr "Verhältnis"
 
 msgid "Special Angle"
-msgstr ""
+msgstr "Spezieller Winkel"
 
 msgid "Angles Equation"
-msgstr ""
+msgstr "Gleichung für Winkel"
 
 msgid "Segment Equation"
-msgstr ""
+msgstr "Gleichung für Strecke"
 
 msgid "NDGs"
 msgstr ""
 
 msgid "failed"
-msgstr ""
+msgstr "Fehlgeschalgen"
 
 msgid "Second(s)"
-msgstr ""
+msgstr "Zweite"
 
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 msgid "On"
-msgstr ""
+msgstr "Ein"
 
 msgid "Change.."
-msgstr ""
+msgstr "Ändere.."
 
 msgid "BackGround Color"
-msgstr ""
+msgstr "Hintergrundfarbe"
 
 msgid "Change Color"
-msgstr ""
+msgstr "Ändere Farbe"
 
 msgid "Point Number"
-msgstr ""
+msgstr "Punkt Nummer"
 
 msgid "Font Color"
-msgstr ""
+msgstr "Farbe Schriftart"
 
 msgid "propline"
-msgstr ""
+msgstr "propline"
 
 msgid "type"
-msgstr ""
+msgstr "Typ"
 
 msgid "width"
-msgstr ""
+msgstr "Breite"
 
 msgid "already exists, do you want to overwrite it?"
-msgstr ""
+msgstr "Existiert bereits, wollen sie überschreiben?"
 
 msgid "Time to build fixpoint:"
-msgstr ""
+msgstr "Zeit zum Erstellen des Fixpunktes:"
 
 msgid "Can not prove this theorem with Deductive Database Method"
 msgstr ""
+"Das Theorem konnte mit den deduktiven Methoden in der Datenbank nicht "
+"bewiesen werden"
 
-msgid "is obviously true (by hypothesis)"
-msgstr ""
+msgid "is obviously true  (by hypothesis)"
+msgstr "ist augenscheinlich wahr (nach der Hypothese)"
 
 msgid "Can not prove this theorem."
-msgstr ""
+msgstr "Das Theorem kann nicht bewiesen werden."
 
 msgid "Proof text"
-msgstr ""
+msgstr "Text Beweis"
 
 msgid "Built on"
-msgstr ""
+msgstr "Erstellt auf"
 
 msgid "JDK Version:"
-msgstr ""
+msgstr "JDK Version:"
 
 msgid "The user may download and distribute it freely."
-msgstr ""
+msgstr "Der Nutzer kann es kostenlos herunterladen und weitergeben."
 
 msgid "However, JGEX is an educational tool, not intended for commercial use."
 msgstr ""
+"JGEX ist ein Werkzeug zum Einsatz in der Ausbildung und ist nicht für "
+"kommerzielle Zwecke gedacht."
 
-#, fuzzy
 msgid "Author:"
-msgstr "Autoren"
+msgstr "Autor:"
 
-msgid "The two lines you selected are parallel, n don't have any intersection!"
+msgid ""
+"The two lines you selected are parallel, \n"
+" don't have any intersection!"
 msgstr ""
+"Die beiden ausgewählten Geraden sind parallel, \n"
+" haben keinen Schnittpunkt!"
 
 msgid "The line and the circle you selected don't have any intersection!"
-msgstr ""
+msgstr "Die ausgewählte Gerade und Kreis haben keinen Schnittpunkt!"
 
 msgid ""
 "The two objects you selected already have two points as their intersections!"
-msgstr ""
+msgstr "Die beiden ausgewählten Objekte besitzen bereits zwei"
 
 msgid "Nothing to be saved"
-msgstr ""
+msgstr "Nichts zu speichern"
 
 msgid "File Format Not Supported"
-msgstr ""
+msgstr "Dateiformat nicht unterstützt"
 
 msgid "Free Point"
-msgstr ""
+msgstr "Freier Punkt"
 
 msgid "The Algebraic Form:"
-msgstr ""
+msgstr "Die algebraische Form:"
 
 msgid "The coordinates"
-msgstr ""
+msgstr "Die Koordinaten"
 
 msgid "The equational hypotheses:"
-msgstr ""
+msgstr "Die Gleichheitshypothesen:"
 
 msgid "The Triangulized Hypotheses:"
-msgstr ""
+msgstr "Die triangularisierten Hypothesen:"
 
 msgid "The Conclution is false"
-msgstr ""
+msgstr "Die Folgerung ist falsch"
 
 msgid "The Conclution is true"
-msgstr ""
+msgstr "Die Folgerung ist wahr"
 
 msgid "The Conclution is not proved"
-msgstr ""
+msgstr "Die Folgerung ist nicht bewiesen"
 
 msgid "The Groebner Basis:"
-msgstr ""
+msgstr "Die Gröbnerbasis"
 
 msgid "The theorem is not proved with the Deductive Database Method!"
-msgstr ""
+msgstr "Der Satz ist nich bewiesen mit der deduktiven Datenbankmethode!"
 
 msgid "The theorem is not proved with The Full-Angle Method."
-msgstr ""
+msgstr "Der Satz ist nich bewiesen mit der Vollwinkel-Methode."
 
 msgid "Use the LEFT button to select a position"
-msgstr ""
+msgstr "Nutze die LINKS Taste um eine Position zu wählen"
 
 msgid "Select two points to determine a line"
-msgstr ""
+msgstr "Wähle zwei Punkte um eine Gerade anzugeben"
 
 msgid "Please Choose the Client Area"
-msgstr ""
+msgstr "Bitte wähle Bereich"
 
 msgid "No animation has been defined"
-msgstr ""
+msgstr "Keine Animation wurde definiert"
 
 msgid ""
-"Please use the menu ' Action -> Animation ' to define an animation first"
+"Please use the menu \" Action -> Animation \" to define an animation first"
 msgstr ""
+"Bitte nutze das Menü \" Aktion -> Animation \" um eine Animation erst zu "
+"definieren"
 
 msgid "GIF Opt on"
-msgstr ""
+msgstr "GIF Opt ein"
 
 msgid "Groebner Basis Method"
-msgstr ""
+msgstr "Methode mit Gröbnerbasen"
 
 msgid "Because"
-msgstr ""
+msgstr "Weil"
 
 msgid "Hence"
-msgstr ""
+msgstr "So"
 
 msgid "Given:"
-msgstr ""
+msgstr "Gegeben:"
 
 msgid "To Prove:"
-msgstr ""
+msgstr "Zu zeigen:"
 
 msgid "Q.E.D."
-msgstr ""
+msgstr "Q.E.D."
 
 msgid "The number of points to be selected:"
-msgstr ""
+msgstr "Wähle die Anzahl der Punkte:"
 
 msgid "X coordinate"
-msgstr ""
+msgstr "X-Koordinate"
 
 msgid "Y coordinate"
+msgstr "Y-Koordinate"
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "New version available, do you want to update now?"
+msgstr "Neue Version verfügbar. Möchten sie aktualisieren?"
+
+msgid "Your current JGEX version:"
+msgstr "Aktuelle JGEX Version:"
+
+msgid "Available JGEX version:"
+msgstr "Verfügbare JGEX Version:"
+
+msgid "File Downloaded"
+msgstr "Datei Download"
+
+msgid ""
+"File downloaded! \n"
+"To update JGEX, we will exit the program and start again"
 msgstr ""
+"Datei heruntergeladen! \n"
+"Zum Aktualisieren von JGEX wird das Programm beendet und neu gestartet."
+
+msgid "Algebra Method"
+msgstr "Algebraische Methode"
+
+msgid "Fact"
+msgstr "Tatsache"

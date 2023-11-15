@@ -1,6 +1,24 @@
-#: ../wprover/AboutDialog.java:49
-msgid "Java Geometry Expert"
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
+"POT-Creation-Date: 2023-11-15 23:44+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Java Geometry Expert"
+msgstr "Java Geometry Expert"
 
 #: ../wprover/AboutDialog.java:53
 msgid "Last modified on"
@@ -10,21 +28,20 @@ msgstr ""
 msgid "Java version"
 msgstr ""
 
-#: ../wprover/AboutDialog.java:64
 msgid "Java Geometry Expert is free under GNU General Public License (GPL)."
 msgstr ""
+"Java Geometry Expert je besplatan softver objavljen pod GNU General Public "
+"License (GPL)"
 
 #: ../wprover/AboutDialog.java:65
 msgid "The user may download and distribute it freely.\n"
 msgstr ""
 
-#: ../wprover/AboutDialog.java:78
 msgid "Authors"
-msgstr ""
+msgstr "Autori"
 
-#: ../wprover/AboutDialog.java:103
 msgid "for more information,please visit:"
-msgstr ""
+msgstr "Za više informacija, molimo posetite:"
 
 #: ../wprover/concDialog.java:102
 msgid "True"
@@ -34,60 +51,37 @@ msgstr ""
 msgid "False"
 msgstr ""
 
-#: ../wprover/concDialog.java:156
 msgid "Set One"
-msgstr ""
+msgstr "Podesi jedan"
 
-#: ../wprover/concDialog.java:157
 msgid "Set Two"
-msgstr ""
+msgstr "Podesi dva"
 
-#: ../wprover/concDialog.java:184
 msgid "Please select"
-msgstr ""
+msgstr "Molimo izaberite"
 
 #: ../wprover/concDialog.java:186
 msgid "true"
 msgstr ""
 
-#: ../wprover/concDialog.java:205 ../wprover/GIFOptionDialog.java:56
-#: ../wprover/MiscDialog.java:66 ../wprover/mproveInputPanel.java:252
-#: ../wprover/PanelProve1.java:1407 ../wprover/RatioSelectDialog.java:49
-#: ../wprover/RectChooser1.java:81 ../wprover/RectChooser.java:84
-#: ../wprover/SpecificAngleDialog.java:55 ../wprover/TextFrame.java:121
-#: ../wprover/TextValueEditor.java:123 ../wprover/Update.java:188
-#: ../wprover/vFontChooser.java:170
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
-#: ../wprover/concDialog.java:209 ../wprover/NumCheckDialog.java:88
 msgid "Clear"
-msgstr ""
+msgstr "Očisti"
 
-#: ../wprover/concDialog.java:211 ../wprover/DialogPsProperty.java:36
-#: ../wprover/GIFOptionDialog.java:57 ../wprover/mproveInputPanel.java:284
-#: ../wprover/RatioSelectDialog.java:50 ../wprover/RectChooser1.java:82
-#: ../wprover/RectChooser.java:85 ../wprover/SpecificAngleDialog.java:56
-#: ../wprover/TextFrame.java:122 ../wprover/TextValueEditor.java:124
-#: ../wprover/Update.java:187 ../wprover/vFontChooser.java:182
 msgid "Cancel"
-msgstr ""
+msgstr "Otkaži"
 
 #: ../wprover/concDialog.java:294 ../wprover/concDialog.java:312
 msgid "The number of points to be selected: "
 msgstr ""
 
-#: ../wprover/CProperty.java:238 ../wprover/CProperty.java:179
 msgid "Basic"
-msgstr ""
+msgstr "Bazično"
 
-#: ../wprover/CProperty.java:246 ../wprover/CProperty.java:664
-#: ../wprover/CStyleDialog.java:93 ../wprover/CStyleDialog.java:141
-#: ../wprover/DialogPsProperty.java:30 ../wprover/MiscDialog.java:44
-#: ../wprover/MiscDialog.java:641 ../wprover/RightClickPopMenu.java:34
-#: ../wprover/vFontChooser.java:149
 msgid "Color"
-msgstr ""
+msgstr "Boja"
 
 #: ../wprover/CProperty.java:263 ../wprover/CProperty.java:393
 #: ../wprover/CProperty.java:640 ../wprover/CProperty.java:1017
@@ -99,84 +93,57 @@ msgstr ""
 msgid "Width"
 msgstr ""
 
-#: ../wprover/CProperty.java:374 ../wprover/CProperty.java:632
-#: ../wprover/GExpert.java:854 ../wprover/GExpert.java:855
-#: ../wprover/HelpMode.java:45
 msgid "Line"
-msgstr ""
+msgstr "Prava"
 
-#: ../wprover/CProperty.java:494 ../wprover/GExpert.java:864
-#: ../wprover/GExpert.java:865 ../wprover/HelpMode.java:67
 msgid "Circle"
-msgstr ""
+msgstr "Krug"
 
-#: ../wprover/CProperty.java:551 ../wprover/GExpert.java:842
-#: ../wprover/GExpert.java:843 ../wprover/HelpMode.java:42
-#: ../wprover/LeadVariableDialog.java:425
 msgid "Point"
-msgstr ""
+msgstr "Tačka"
 
-#: ../wprover/CProperty.java:653 ../wprover/MiscDialog.java:249
 msgid "Angle Text"
-msgstr ""
+msgstr "Tekst ugla"
 
-#: ../wprover/CProperty.java:672
 msgid "Arc Num"
-msgstr ""
+msgstr "Broj luka"
 
-#: ../wprover/CProperty.java:795 ../wprover/MiscDialog.java:270
 msgid "Label"
-msgstr ""
+msgstr "Oznaka"
 
-#: ../wprover/CProperty.java:804
 msgid "Show Label"
-msgstr ""
+msgstr "Prikaži natpis"
 
-#: ../wprover/CProperty.java:805 ../wprover/MiscDialog.java:228
 msgid "Show Text"
-msgstr ""
+msgstr "Prikaži tekst"
 
-#: ../wprover/CProperty.java:814
 msgid "Significant Digit"
-msgstr ""
+msgstr "Značajna cifra"
 
 #: ../wprover/CProperty.java:905
 msgid "Point number"
 msgstr ""
 
-#: ../wprover/CProperty.java:914
 msgid "Draw Line"
-msgstr ""
+msgstr "Nacrtaj liniju"
 
-#: ../wprover/CProperty.java:960
 msgid "Num"
-msgstr ""
+msgstr "Broj"
 
-#: ../wprover/CProperty.java:961 ../wprover/CProperty.java:1095
-#: ../wprover/LeadVariableDialog.java:244
-#: ../wprover/LeadVariableDialog.java:427 ../wprover/MiscDialog.java:319
 msgid "Length"
-msgstr ""
+msgstr "Dužina"
 
-#: ../wprover/CProperty.java:1010 ../wprover/GExpert.java:874
-#: ../wprover/GExpert.java:887 ../wprover/HelpMode.java:86
 msgid "Polygon"
-msgstr ""
+msgstr "Mnogougao"
 
-#: ../wprover/CProperty.java:1094 ../wprover/MiscDialog.java:375
 msgid "Angle"
-msgstr ""
+msgstr "Ugao"
 
-#: ../wprover/CProperty.java:1217 ../wprover/CProperty.java:1261
-#: ../wprover/CProperty.java:1307 ../wprover/LeadVariableDialog.java:242
-#: ../wprover/CProperty.java:625
 msgid "Name"
-msgstr ""
+msgstr "Naziv"
 
-#: ../wprover/CProperty.java:1218 ../wprover/CProperty.java:1312
-#: ../wprover/drawProcess.java:10509 ../wprover/RightClickPopMenu.java:93
 msgid "Radius"
-msgstr ""
+msgstr "Poluprečnik"
 
 #: ../wprover/CProperty.java:1219 ../wprover/RightClickPopMenu.java:76
 msgid "X Coordinate"
@@ -186,88 +153,67 @@ msgstr ""
 msgid "Y Coordinate"
 msgstr ""
 
-#: ../wprover/CProperty.java:1221
 msgid "Freezed"
-msgstr ""
+msgstr "Zamrznuto"
 
-#: ../wprover/CProperty.java:1262
 msgid "Point on Line"
-msgstr ""
+msgstr "Tačka na liniji"
 
-#: ../wprover/CProperty.java:1308
 msgid "Point on Circle"
-msgstr ""
+msgstr "Tačka na krugu"
 
-#: ../wprover/CProperty.java:1309
 msgid "Center"
-msgstr ""
+msgstr "Centar"
 
-#: ../wprover/CProperty.java:1310
 msgid "Center X"
-msgstr ""
+msgstr "X koordinata centra"
 
-#: ../wprover/CProperty.java:1311
 msgid "Center Y"
-msgstr ""
+msgstr "Y koordinata centra"
 
-#: ../wprover/CProperty.java:1352
 msgid "Grid Step"
-msgstr ""
+msgstr "Korak mreže"
 
-#: ../wprover/CProperty.java:1353
 msgid "Slope Angle"
-msgstr ""
+msgstr "Ugao nagiba"
 
-#: ../wprover/DialogPsProperty.java:26 ../wprover/GExpert.java:766
-#: ../wprover/HelpMode.java:35
 msgid "Save as PS"
-msgstr ""
+msgstr "Sačuvaj kao PS"
 
-#: ../wprover/DialogPsProperty.java:32 ../wprover/MiscDialog.java:616
 msgid "Gray"
-msgstr ""
+msgstr "Siva"
 
-#: ../wprover/DialogPsProperty.java:34 ../wprover/MiscDialog.java:617
 msgid "Black and White"
-msgstr ""
+msgstr "Crno-belo"
 
-#: ../wprover/DialogPsProperty.java:56
 msgid "Point filled with background color"
-msgstr ""
+msgstr "Tačka sa popunjenom pozadinom"
 
-#: ../wprover/drawbase.java:527
 msgid "Intersection"
-msgstr ""
+msgstr "Presek"
 
-#: ../wprover/drawProcess.java:2242
 msgid "Angle Specification must be done before drawing anything"
-msgstr ""
+msgstr "Specifikacija ugla mora biti izvršena pre crtanja bilo čega."
 
-#: ../wprover/drawProcess.java:2243 ../wprover/drawProcess.java:3038
-#: ../wprover/PanelProve1.java:1087 ../wprover/Update.java:127
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #: ../wprover/drawProcess.java:3037
 msgid "The two selected line don'thave any intersected point"
 msgstr ""
 
-#: ../wprover/drawProcess.java:3097
 msgid "The selected two line don't have intersected point"
-msgstr ""
+msgstr "Dve prave koje ste odabrali se ne seku."
 
-#: ../wprover/drawProcess.java:3098
 msgid "No Intersected point"
-msgstr ""
+msgstr "Nema presečne tačke"
 
 #: ../wprover/drawProcess.java:8069
 msgid "The two lines you selected are parallel, don't have any intersection!"
 msgstr ""
 
-#: ../wprover/drawProcess.java:8071 ../wprover/drawProcess.java:8132
-#: ../wprover/drawProcess.java:8205
 msgid "No intersection"
-msgstr ""
+msgstr "Nema preseka"
 
 #: ../wprover/drawProcess.java:8131
 msgid "The line and the circle you selected don't have any intersection"
@@ -278,116 +224,90 @@ msgid ""
 "The two objects you selected already have two points as their intersections"
 msgstr ""
 
-#: ../wprover/drawProcess.java:8148 ../wprover/drawProcess.java:8221
 msgid "intersection already defined"
-msgstr ""
+msgstr "Presek je već definisan."
 
-#: ../wprover/drawProcess.java:8204
 msgid "The circles you selected don't have any intersection"
-msgstr ""
+msgstr "Krugovi koje ste odabrali se ne seku."
 
-#: ../wprover/drawProcess.java:8220
 msgid ""
 "The two circles you selected already have two points as their intersections"
 msgstr ""
+"Dva kruga koja ste izabrali već imaju dve tačke kao njihova presečišta."
 
-#: ../wprover/drawProcess.java:10449 ../wprover/drawProcess.java:10501
-#: ../wprover/RightClickPopMenu.java:87 ../wprover/RightClickPopMenu.java:98
 msgid "Area"
-msgstr ""
+msgstr "Površina"
 
-#: ../wprover/drawProcess.java:10505 ../wprover/RightClickPopMenu.java:90
 msgid "Girth"
-msgstr ""
+msgstr "Obim"
 
-#: ../wprover/GExpert.java:353 ../wprover/RightClickPopMenu.java:38
 msgid "Property"
-msgstr ""
+msgstr "Svojstva"
 
-#: ../wprover/GExpert.java:744
 msgid "File"
-msgstr ""
+msgstr "Datoteka"
 
-#: ../wprover/GExpert.java:747 ../wprover/HelpMode.java:31
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
-#: ../wprover/GExpert.java:751 ../wprover/HelpMode.java:32
 msgid "Open"
-msgstr ""
+msgstr "Otvori"
 
 #: ../wprover/GExpert.java:753
 msgid "Import"
 msgstr ""
 
-#: ../wprover/GExpert.java:756 ../wprover/GExpert.java:1867
-#: ../wprover/HelpMode.java:33
 msgid "Save"
-msgstr ""
+msgstr "Sačuvaj"
 
-#: ../wprover/GExpert.java:758
 msgid "Save as..."
-msgstr ""
+msgstr "Sačuvaj kao..."
 
-#: ../wprover/GExpert.java:763 ../wprover/HelpMode.java:34
 msgid "Save as Text"
-msgstr ""
+msgstr "Sačuvaj kao tekst"
 
-#: ../wprover/GExpert.java:768 ../wprover/HelpMode.java:36
 msgid "Save as PDF"
-msgstr ""
+msgstr "Sačuvaj kao PDF"
 
-#: ../wprover/GExpert.java:771 ../wprover/HelpMode.java:37
 msgid "Save as Image"
-msgstr ""
+msgstr "Sačuvaj kao sliku"
 
-#: ../wprover/GExpert.java:773 ../wprover/HelpMode.java:38
 msgid "Save as Animated Image"
-msgstr ""
+msgstr "Sačuvaj kao animaciju"
 
-#: ../wprover/GExpert.java:775 ../wprover/HelpMode.java:39
 msgid "Save Proof as Animated Image"
-msgstr ""
+msgstr "Sačuvaj dokaz kao animaciju"
 
 #: ../wprover/GExpert.java:777
 msgid "Save GDD Proof as GraphViz File"
 msgstr ""
 
-#: ../wprover/GExpert.java:781 ../wprover/HelpMode.java:40
 msgid "Print"
-msgstr ""
+msgstr "Štampaj"
 
-#: ../wprover/GExpert.java:784 ../wprover/HelpMode.java:41
 msgid "Exit"
-msgstr ""
+msgstr "Izlaz"
 
-#: ../wprover/GExpert.java:788
 msgid "Examples"
-msgstr ""
+msgstr "Primeri"
 
-#: ../wprover/GExpert.java:809
 msgid "Construct"
-msgstr ""
+msgstr "Konstruiši"
 
-#: ../wprover/GExpert.java:811 ../wprover/HelpMode.java:49
 msgid "Point by Point and Segment"
-msgstr ""
+msgstr "Tačka određena tačkom i duži"
 
-#: ../wprover/GExpert.java:812 ../wprover/HelpMode.java:50
 msgid "Radical of Two Circles"
-msgstr ""
+msgstr "Radikalna osa dva kruga"
 
-#: ../wprover/GExpert.java:815 ../wprover/HelpMode.java:51
 msgid "Oriented Segment"
-msgstr ""
+msgstr "Vektor"
 
-#: ../wprover/GExpert.java:816 ../wprover/HelpMode.java:52
 msgid "Oriented T Segment"
-msgstr ""
+msgstr "Vektor normale"
 
-#: ../wprover/GExpert.java:818 ../wprover/HelpMode.java:53
 msgid "Oriented Segment * Ratio"
-msgstr ""
+msgstr "Vektor * Skalar"
 
 #: ../wprover/GExpert.java:820 ../wprover/GExpert.java:826
 #: ../wprover/GExpert.java:835 ../wprover/GExpert.java:916
@@ -404,13 +324,11 @@ msgstr ""
 msgid "Other.."
 msgstr ""
 
-#: ../wprover/GExpert.java:825
 msgid "Oriented T Segment * Ratio"
-msgstr ""
+msgstr "Vektor normale * Skalar"
 
-#: ../wprover/GExpert.java:832 ../wprover/HelpMode.java:54
 msgid "Proportional Segment"
-msgstr ""
+msgstr "Proporcionalne duži"
 
 #: ../wprover/GExpert.java:834 ../wprover/GExpert.java:915
 msgid "1 : 1"
@@ -428,40 +346,44 @@ msgstr ""
 msgid "1 : 5"
 msgstr ""
 
-#: ../wprover/GExpert.java:844 ../wprover/HelpMode.java:43
-#: ../wprover/MProveTree.java:1817
+#, fuzzy
 msgid "Midpoint"
 msgstr ""
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Središte duži\n"
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Središte"
 
-#: ../wprover/GExpert.java:846 ../wprover/HelpMode.java:55
 msgid "Circumcenter"
-msgstr ""
+msgstr "Središte opisanog kruga"
 
-#: ../wprover/GExpert.java:847 ../wprover/HelpMode.java:56
 msgid "Centroid"
-msgstr ""
+msgstr "Težište"
 
-#: ../wprover/GExpert.java:848 ../wprover/HelpMode.java:57
 msgid "Orthocenter"
-msgstr ""
+msgstr "Ortocentar"
 
-#: ../wprover/GExpert.java:849 ../wprover/HelpMode.java:58
 msgid "Incenter"
-msgstr ""
+msgstr "Središte upisanog kruga"
 
-#: ../wprover/GExpert.java:851 ../wprover/HelpMode.java:60
 msgid "Foot"
-msgstr ""
+msgstr "Podnožje visine"
 
-#: ../wprover/GExpert.java:856 ../wprover/HelpMode.java:46
-#: ../wprover/MProveTree.java:1816
+#, fuzzy
 msgid "Parallel"
 msgstr ""
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Paralelno\n"
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Paralelan"
 
-#: ../wprover/GExpert.java:857 ../wprover/HelpMode.java:47
-#: ../wprover/MProveTree.java:1816
+#, fuzzy
 msgid "Perpendicular"
 msgstr ""
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Normala\n"
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Normalna"
 
 #: ../wprover/GExpert.java:858 ../wprover/HelpMode.java:61
 msgid "Angle Bisector"
@@ -479,83 +401,60 @@ msgstr ""
 msgid "TCline"
 msgstr ""
 
-#: ../wprover/GExpert.java:866 ../wprover/HelpMode.java:68
 msgid "Circle by Three Points"
-msgstr ""
+msgstr "Krug zadat sa tri tačke"
 
 #: ../wprover/GExpert.java:867 ../wprover/HelpMode.java:69
 msgid "Circler"
 msgstr ""
 
-#: ../wprover/GExpert.java:870 ../wprover/GExpert.java:922
 msgid "Action"
-msgstr ""
+msgstr "Akcija"
 
-#: ../wprover/GExpert.java:871 ../wprover/HelpMode.java:71
 msgid "Intersect"
-msgstr ""
+msgstr "Presek"
 
-#: ../wprover/GExpert.java:872 ../wprover/HelpMode.java:72
 msgid "Mirror"
-msgstr ""
+msgstr "Reflektovati"
 
-#: ../wprover/GExpert.java:875 ../wprover/HelpMode.java:74
 msgid "Triangle"
-msgstr ""
+msgstr "Trougao"
 
-#: ../wprover/GExpert.java:876 ../wprover/HelpMode.java:75
-#: ../wprover/MProveTree.java:1822
 msgid "Isosceles Triangle"
-msgstr ""
+msgstr "Jednakokraki trougao"
 
-#: ../wprover/GExpert.java:877 ../wprover/HelpMode.java:76
-#: ../wprover/MProveTree.java:1823
 msgid "Equilateral Triangle"
-msgstr ""
+msgstr "Jednakostranični trougao"
 
-#: ../wprover/GExpert.java:878 ../wprover/HelpMode.java:77
 msgid "Right-angled Triangle"
-msgstr ""
+msgstr "Pravougli trougao"
 
-#: ../wprover/GExpert.java:879 ../wprover/HelpMode.java:78
 msgid "Isosceles Right-angled Triangle"
-msgstr ""
+msgstr "Jednakokraki pravougli trougao"
 
-#: ../wprover/GExpert.java:880 ../wprover/HelpMode.java:79
 msgid "Quadrangle"
-msgstr ""
+msgstr "Četvorougao"
 
-#: ../wprover/GExpert.java:881 ../wprover/HelpMode.java:80
-#: ../wprover/MProveTree.java:1820
 msgid "Parallelogram"
-msgstr ""
+msgstr "Paralelogram"
 
-#: ../wprover/GExpert.java:882 ../wprover/HelpMode.java:81
-#: ../wprover/MProveTree.java:1823
 msgid "Trapezoid"
-msgstr ""
+msgstr "Trapez"
 
-#: ../wprover/GExpert.java:883 ../wprover/HelpMode.java:82
 msgid "Right-angled Trapezoid"
-msgstr ""
+msgstr "Pravougli trapez"
 
-#: ../wprover/GExpert.java:884 ../wprover/HelpMode.java:83
-#: ../wprover/MProveTree.java:1824
 msgid "Rectangle"
-msgstr ""
+msgstr "Pravougaonik"
 
-#: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
-#: ../wprover/MProveTree.java:1824
 msgid "Square"
-msgstr ""
+msgstr "Kvadrat"
 
-#: ../wprover/GExpert.java:886 ../wprover/HelpMode.java:85
 msgid "Pentagon"
-msgstr ""
+msgstr "Petougao"
 
-#: ../wprover/GExpert.java:889
 msgid "Special Angles"
-msgstr ""
+msgstr "Posebni uglovi"
 
 #: ../wprover/GExpert.java:890
 msgid "15"
@@ -589,68 +488,55 @@ msgstr ""
 msgid "120"
 msgstr ""
 
-#: ../wprover/GExpert.java:903
 msgid "Constraint"
-msgstr ""
+msgstr "Ogranicenje"
 
-#: ../wprover/GExpert.java:904 ../wprover/HelpMode.java:89
-#: ../wprover/MProveTree.java:1818
 msgid "Eqangle"
-msgstr ""
+msgstr "Jednak ugao"
 
-#: ../wprover/GExpert.java:906 ../wprover/HelpMode.java:90
 msgid "Eqangle3p"
-msgstr ""
+msgstr "Ugao određen sa tri tačke"
 
-#: ../wprover/GExpert.java:907 ../wprover/HelpMode.java:91
-#: ../wprover/SpecificAngleDialog.java:32
 msgid "Angle Specification"
-msgstr ""
+msgstr "Specifikacija ugla"
 
-#: ../wprover/GExpert.java:910 ../wprover/HelpMode.java:92
 msgid "Equal Ratio"
-msgstr ""
+msgstr "Jednak odnos"
 
-#: ../wprover/GExpert.java:912 ../wprover/HelpMode.java:93
+#, fuzzy
 msgid "Equal Distance"
 msgstr ""
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Jednaka udaljenost\n"
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Jednako rastojanje"
 
-#: ../wprover/GExpert.java:914 ../wprover/HelpMode.java:94
 msgid "Ratio Distance"
-msgstr ""
+msgstr "Odnos udaljenosti"
 
-#: ../wprover/GExpert.java:920 ../wprover/HelpMode.java:95
 msgid "CCtangent"
-msgstr ""
+msgstr "Tangentni krugovi"
 
-#: ../wprover/GExpert.java:924 ../wprover/HelpMode.java:98
-#: ../wprover/RightClickPopMenu.java:73
 msgid "Trace"
-msgstr ""
+msgstr "Trag"
 
-#: ../wprover/GExpert.java:925 ../wprover/HelpMode.java:99
 msgid "Locus"
-msgstr ""
+msgstr "Geometrijsko mesto tačaka"
 
-#: ../wprover/GExpert.java:926 ../wprover/HelpMode.java:100
 msgid "Animation"
-msgstr ""
+msgstr "Animacija"
 
-#: ../wprover/GExpert.java:929 ../wprover/HelpMode.java:102
 msgid "Fill Polygon"
-msgstr ""
+msgstr "Popuni mnogougao"
 
-#: ../wprover/GExpert.java:930 ../wprover/HelpMode.java:103
 msgid "Measure Distance"
-msgstr ""
+msgstr "Izmeri udaljenost"
 
-#: ../wprover/GExpert.java:931 ../wprover/HelpMode.java:104
 msgid "Arrow"
-msgstr ""
+msgstr "Strelica"
 
-#: ../wprover/GExpert.java:934 ../wprover/HelpMode.java:106
 msgid "Equal Mark"
-msgstr ""
+msgstr "Oznaka za jednakost duži"
 
 #: ../wprover/GExpert.java:935 ../wprover/CProperty.java:905
 #: ../wprover/CProperty.java:960 ../wprover/CProperty.java:961
@@ -670,117 +556,98 @@ msgstr ""
 msgid "4"
 msgstr ""
 
-#: ../wprover/GExpert.java:940 ../wprover/HelpMode.java:107
 msgid "Right-angle Mark"
-msgstr ""
+msgstr "Oznaka za prav ugao"
 
-#: ../wprover/GExpert.java:941 ../wprover/HelpMode.java:108
-#: ../wprover/TextValueEditor.java:45
+#, fuzzy
 msgid "Calculation"
 msgstr ""
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Kalkulator\n"
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Izračunavanje"
 
-#: ../wprover/GExpert.java:944 ../wprover/HelpMode.java:110
 msgid "Hide Object"
-msgstr ""
+msgstr "Sakrij objekat"
 
-#: ../wprover/GExpert.java:945 ../wprover/HelpMode.java:111
 msgid "Show Object"
-msgstr ""
+msgstr "Prikaži objekat"
 
-#: ../wprover/GExpert.java:947 ../wprover/HelpMode.java:112
 msgid "Transform"
-msgstr ""
+msgstr "Transformisi"
 
-#: ../wprover/GExpert.java:948 ../wprover/HelpMode.java:113
 msgid "Equivalence"
-msgstr ""
+msgstr "Ekvivalentnost"
 
-#: ../wprover/GExpert.java:949 ../wprover/HelpMode.java:114
 msgid "Free Transform"
-msgstr ""
+msgstr "Slobodna transformacija"
 
-#: ../wprover/GExpert.java:957
 msgid "Lemmas"
-msgstr ""
+msgstr "Leme"
 
-#: ../wprover/GExpert.java:959 ../wprover/HelpMode.java:116
 msgid "Rulers for Full Angle"
-msgstr ""
+msgstr "Pravila izvođenja za metod punih uglova"
 
-#: ../wprover/GExpert.java:960 ../wprover/HelpMode.java:117
 msgid "Rulers for GDD"
-msgstr ""
+msgstr "Pravila izvođenja za metod GDD"
 
-#: ../wprover/GExpert.java:963
 msgid "Option"
-msgstr ""
+msgstr "Opcija"
 
-#: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
-#: ../wprover/MiscDialog.java:32
+#, fuzzy
 msgid "Preference"
 msgstr ""
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Podešavanja\n"
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Preferenca"
 
-#: ../wprover/GExpert.java:968 ../wprover/HelpMode.java:120
-#: ../wprover/ListTree.java:60 ../wprover/UndoEditDialog.java:20
 msgid "Construct History"
-msgstr ""
+msgstr "Istorija konstrukcije"
 
-#: ../wprover/GExpert.java:970 ../wprover/HelpMode.java:121
 msgid "Show Step Bar"
-msgstr ""
+msgstr "Prikaz trake koraka"
 
-#: ../wprover/GExpert.java:972 ../wprover/HelpMode.java:122
 msgid "Style Dialog"
-msgstr ""
+msgstr "Stil Dialog"
 
-#: ../wprover/GExpert.java:975 ../wprover/GExpert.java:976
-#: ../wprover/HelpMode.java:125
 msgid "Help"
-msgstr ""
+msgstr "Pomoć"
 
-#: ../wprover/GExpert.java:983 ../wprover/HelpMode.java:127
 msgid "Help on Mode"
-msgstr ""
+msgstr "Pomoć u vezi moda"
 
-#: ../wprover/GExpert.java:986 ../wprover/HelpMode.java:128
 msgid "JGEX Homepage"
-msgstr ""
+msgstr "JGEX Homepage"
 
-#: ../wprover/GExpert.java:988 ../wprover/HelpMode.java:129
 msgid "Contact Us"
-msgstr ""
+msgstr "Kontakt"
 
-#: ../wprover/GExpert.java:993 ../wprover/HelpMode.java:131
 msgid "About JGEX"
-msgstr ""
+msgstr "O JGEX-u"
 
-#: ../wprover/GExpert.java:1158 ../wprover/GExpert.java:2424
 msgid "Move"
-msgstr ""
+msgstr "Pomeri"
 
-#: ../wprover/GExpert.java:1163 ../wprover/GExpert.java:2419
 msgid "Select"
-msgstr ""
+msgstr "Izaberi"
 
-#: ../wprover/GExpert.java:1661
 msgid "Please input the value of the angle"
-msgstr ""
+msgstr "Unesite vrednost ugla:"
 
 #: ../wprover/GExpert.java:1811
 msgid "Nothing to be saved."
 msgstr ""
 
-#: ../wprover/GExpert.java:1866
 msgid "The diagram has been changed, do you want to save it?"
-msgstr ""
+msgstr "Dijagram je promenjen, želite li da ga sačuvate?"
 
 #: ../wprover/GExpert.java:1930
 msgid " already exists, do you want to overwrite it?"
 msgstr ""
 
-#: ../wprover/GExpert.java:1931
 msgid "File exists"
-msgstr ""
+msgstr "Datoteka postoji"
 
 #: ../wprover/GExpert.java:2008
 msgid "No animation has been defined."
@@ -795,347 +662,271 @@ msgstr ""
 msgid "GIF Option"
 msgstr ""
 
-#: ../wprover/GIFOptionDialog.java:33
 msgid "Image Quality"
-msgstr ""
+msgstr "Kvalitet slike"
 
-#: ../wprover/GIFOptionDialog.java:103
 msgid "Best"
-msgstr ""
+msgstr "Najbolje"
 
-#: ../wprover/GIFOptionDialog.java:105
 msgid "Good"
-msgstr ""
+msgstr "Dobar"
 
-#: ../wprover/GIFOptionDialog.java:107
 msgid "Medium"
-msgstr ""
+msgstr "Srednje"
 
-#: ../wprover/GIFOptionDialog.java:109
 msgid "Low"
-msgstr ""
+msgstr "Slabo"
 
-#: ../wprover/GIFOptionDialog.java:110
 msgid "Very Low"
-msgstr ""
+msgstr "Veoma slabo"
 
 #: ../wprover/HelpMode.java:87
 msgid "sangle"
 msgstr ""
 
-#: ../wprover/HelpMode.java:126
 msgid "Online Help"
-msgstr ""
+msgstr "Onlajn Pomoć"
 
-#: ../wprover/HelpMode.java:130
 msgid "Check for Update"
-msgstr ""
+msgstr "Dostupna ažuriranja"
 
 #: ../wprover/LeadVariableDialog.java:34
 msgid "Leading Variable"
 msgstr ""
 
-#: ../wprover/LeadVariableDialog.java:58
 msgid "Variables"
-msgstr ""
+msgstr "Parametri"
 
-#: ../wprover/LeadVariableDialog.java:68
 msgid "Reduce"
-msgstr ""
+msgstr "Smanji"
 
-#: ../wprover/LeadVariableDialog.java:69
 msgid "Detail"
-msgstr ""
+msgstr "Detalji"
 
-#: ../wprover/LeadVariableDialog.java:70
 msgid "Reload"
-msgstr ""
+msgstr "Učitaj ponovo"
 
-#: ../wprover/LeadVariableDialog.java:71 ../wprover/NumCheckDialog.java:89
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
-#: ../wprover/LeadVariableDialog.java:243
-#: ../wprover/LeadVariableDialog.java:426
 msgid "Variable"
-msgstr ""
+msgstr "Promenljiva"
 
-#: ../wprover/LeadVariableDialog.java:245
-#: ../wprover/LeadVariableDialog.java:333
 msgid "Polynomial"
-msgstr ""
+msgstr "Polinom"
 
-#: ../wprover/LeadVariableDialog.java:376
 msgid "Cut"
-msgstr ""
+msgstr "Iseci"
 
-#: ../wprover/LeadVariableDialog.java:377
 msgid "Copy"
-msgstr ""
+msgstr "Kopiraj"
 
-#: ../wprover/LeadVariableDialog.java:378
 msgid "Paste"
-msgstr ""
+msgstr "Zalepi"
 
-#: ../wprover/LeadVariableDialog.java:379 ../wprover/MProveTree.java:752
-#: ../wprover/MProveTree.java:756 ../wprover/MProveTree.java:807
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: ../wprover/ListTree.java:99
 msgid "Objects"
 msgstr ""
 
-#: ../wprover/MiscDialog.java:40
 msgid "Display"
-msgstr ""
+msgstr "Prikaz"
 
-#: ../wprover/MiscDialog.java:42
 msgid "Mode"
-msgstr ""
+msgstr "Mod"
 
-#: ../wprover/MiscDialog.java:45 ../wprover/MiscDialog.java:287
-#: ../wprover/vFontChooser.java:108
 msgid "Font"
-msgstr ""
+msgstr "Font"
 
-#: ../wprover/MiscDialog.java:46
 msgid "Other"
-msgstr ""
+msgstr "Ostalo"
 
-#: ../wprover/MiscDialog.java:56
 msgid "Save Preference"
-msgstr ""
+msgstr "Sačuvaj postavke"
 
-#: ../wprover/MiscDialog.java:59 ../wprover/CProperty.java:625
 msgid "Default"
-msgstr ""
+msgstr "Zadano"
 
-#: ../wprover/MiscDialog.java:116
 msgid "Can not Save Preference"
-msgstr ""
+msgstr "Nije moguće sačuvati postavke"
 
-#: ../wprover/MiscDialog.java:119
 msgid "Save Preference Successfully"
-msgstr ""
+msgstr "Opcije uspešno sačuvane"
 
-#: ../wprover/MiscDialog.java:120
 msgid "Please restart the program."
-msgstr ""
+msgstr "Molimo restartujte program."
 
-#: ../wprover/MiscDialog.java:121
 msgid "Saved"
-msgstr ""
+msgstr "Sačuvano"
 
-#: ../wprover/MiscDialog.java:154
 msgid "Polygon Alpha"
-msgstr ""
+msgstr "Mnogougao Alfa"
 
-#: ../wprover/MiscDialog.java:195
 msgid "Radius of Point"
-msgstr ""
+msgstr "Poluprečnik tačke"
 
-#: ../wprover/MiscDialog.java:212 ../wprover/MiscDialog.java:468
 msgid "Point's Text"
-msgstr ""
+msgstr "Tekst tačke"
 
-#: ../wprover/MiscDialog.java:213
 msgid "Default Font"
-msgstr ""
+msgstr "Podrazumevani font"
 
-#: ../wprover/MiscDialog.java:219
 msgid "Choose default foot for point's text"
-msgstr ""
+msgstr "Izaberi podrazumevanu tipografiju za tekst tačke."
 
-#: ../wprover/MiscDialog.java:266
 msgid "None"
-msgstr ""
+msgstr "Nijedan"
 
-#: ../wprover/MiscDialog.java:273
 msgid "Degrees"
-msgstr ""
+msgstr "Stepeni"
 
-#: ../wprover/MiscDialog.java:307
 msgid "Foot Mark"
-msgstr ""
+msgstr "fusnota"
 
-#: ../wprover/MiscDialog.java:308
 msgid "Show foot mark"
-msgstr ""
+msgstr "Prikaži fusnote"
 
-#: ../wprover/MiscDialog.java:378 ../wprover/CProperty.java:624
 msgid "Without Arrow"
-msgstr ""
+msgstr "Bez strelice"
 
-#: ../wprover/MiscDialog.java:380 ../wprover/CProperty.java:624
 msgid "With Arrow"
-msgstr ""
+msgstr "Sa strelicom"
 
-#: ../wprover/MiscDialog.java:382 ../wprover/CProperty.java:624
 msgid "Multiple Arc"
-msgstr ""
+msgstr "Višestruki lukovi"
 
-#: ../wprover/MiscDialog.java:384 ../wprover/CProperty.java:624
-#: ../wprover/CProperty.java:997
+#, fuzzy
 msgid "Fill"
 msgstr ""
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Popunjavanje\n"
+"#-#-#-#-#  rs-merged.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Ispuni"
 
-#: ../wprover/MiscDialog.java:399
 msgid "Polygon Moving Interval"
-msgstr ""
+msgstr "Interval kretanja poligona"
 
-#: ../wprover/MiscDialog.java:486 ../wprover/MProveTree.java:315
 msgid "Theorem"
-msgstr ""
+msgstr "Teorema"
 
-#: ../wprover/MiscDialog.java:522 ../wprover/PanelProve1.java:2368
 msgid "Area Method"
-msgstr ""
+msgstr "Metoda površina"
 
-#: ../wprover/MiscDialog.java:540
 msgid "Manual Method"
-msgstr ""
+msgstr "Ručni metod"
 
-#: ../wprover/MiscDialog.java:558 ../wprover/PanelProve1.java:373
 msgid "Fixpoint"
-msgstr ""
+msgstr "Fiksna tačka"
 
 #: ../wprover/MiscDialog.java:576
 msgid "Algebra"
 msgstr ""
 
-#: ../wprover/MiscDialog.java:612
 msgid "Color Mode"
-msgstr ""
+msgstr "Režim boja"
 
-#: ../wprover/MiscDialog.java:615
 msgid "Colorful"
-msgstr ""
+msgstr "Šareno"
 
 #: ../wprover/MiscDialog.java:646
 msgid "BackGroud Color"
 msgstr ""
 
-#: ../wprover/MiscDialog.java:652 ../wprover/CProperty.java:998
 msgid "Grid"
-msgstr ""
+msgstr "Mreža"
 
-#: ../wprover/MiscDialog.java:700 ../wprover/MiscDialog.java:711
-#: ../wprover/CProperty.java:318
 msgid "Choose Color"
-msgstr ""
+msgstr "Odaberite boju"
 
-#: ../wprover/MiscDialog.java:761
 msgid "AntiAlias"
-msgstr ""
+msgstr "Antialijasovanje"
 
 #: ../wprover/MiscDialog.java:763
 msgid "ON"
 msgstr ""
 
-#: ../wprover/MiscDialog.java:764
 msgid "OFF"
-msgstr ""
+msgstr "Isključeno"
 
-#: ../wprover/MiscDialog.java:778
 msgid "Language"
-msgstr ""
+msgstr "Jezik"
 
-#: ../wprover/MiscDialog.java:802
 msgid "LookAndFeel"
-msgstr ""
+msgstr "Izgled"
 
-#: ../wprover/mproveInputPanel.java:237
 msgid "Edit"
-msgstr ""
+msgstr "Izmeni"
 
-#: ../wprover/mproveInputPanel.java:260
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
-#: ../wprover/mproveInputPanel.java:268
 msgid "Append"
-msgstr ""
+msgstr "Dodaj na kraj"
 
-#: ../wprover/mproveInputPanel.java:276
 msgid "Child"
-msgstr ""
+msgstr "Dete"
 
-#: ../wprover/mproveInputPanel.java:1138
 msgid "Basic Assertions"
-msgstr ""
+msgstr "Osnovne tvrdnje"
 
-#: ../wprover/mproveInputPanel.java:1160
 msgid "Polygon Related"
-msgstr ""
+msgstr "Povezano sa mnogouglovima"
 
-#: ../wprover/mproveInputPanel.java:1169
 msgid "Inequality"
-msgstr ""
+msgstr "Nejednakost"
 
-#: ../wprover/MProveTree.java:758
 msgid "Delete This Row"
-msgstr ""
+msgstr "Obriši ovaj red"
 
-#: ../wprover/MProveTree.java:763
 msgid "Add A New Row"
-msgstr ""
+msgstr "Dodaj novi red"
 
-#: ../wprover/MProveTree.java:767
 msgid "Append A Term"
-msgstr ""
+msgstr "Dodaj termin"
 
-#: ../wprover/MProveTree.java:771
 msgid "Combine Selected Rows"
-msgstr ""
+msgstr "Kombinuj izabrane redove"
 
-#: ../wprover/ndgDialog.java:31 ../wprover/PanelProve1.java:2424
 msgid "Nondegenerate Conditions"
-msgstr ""
+msgstr "Uslovi nedegenarisanosti"
 
-#: ../wprover/ndgDialog.java:44
 msgid "The Simplified Nondegenerate Conditions"
-msgstr ""
+msgstr "Pojednostavljeni uslovi nedegenerisanosti"
 
-#: ../wprover/ndgDialog.java:45
 msgid "The Final Nondegenerate Conditions"
-msgstr ""
+msgstr "Konačni uslovi nedegenerisanosti"
 
-#: ../wprover/ndgDialog.java:258 ../wprover/MProveTree.java:1519
 msgid "Construction"
-msgstr ""
+msgstr "Konstrukcija"
 
 #: ../wprover/ndgDialog.java:259
 msgid "Nondegenerate Condition"
 msgstr ""
 
-#: ../wprover/NumCheckDialog.java:30 ../wprover/PanelProve1.java:2410
 msgid "Numerical Check"
-msgstr ""
+msgstr "Numerička provera"
 
-#: ../wprover/NumCheckDialog.java:242
 msgid "TRUE"
-msgstr ""
+msgstr "Tačno"
 
-#: ../wprover/NumCheckDialog.java:246
 msgid "FALSE"
-msgstr ""
+msgstr "Netačno"
 
 #: ../wprover/panelAlgebric.java:125
 msgid "The Algebraic Form: "
 msgstr ""
 
-#: ../wprover/panelGB.java:623
 msgid "The Nondegenerate Conditions"
-msgstr ""
+msgstr "Uslovi nedegenerisanosti"
 
 #: ../wprover/panelGB.java:679 ../wprover/panelWu.java:122
 msgid "The Equational Hypotheses:"
 msgstr ""
 
-#: ../wprover/panelGB.java:704
 msgid "The Initial Polynomial Set"
-msgstr ""
+msgstr "Početni skup polinoma"
 
 #: ../wprover/panelGB.java:709
 msgid "The Groebner Basis: "
@@ -1145,9 +936,8 @@ msgstr ""
 msgid "The Conclution: "
 msgstr ""
 
-#: ../wprover/panelGB.java:726
 msgid "The Conclution After Reduce:"
-msgstr ""
+msgstr "Zaključak nakon redukcije:"
 
 #: ../wprover/panelGB.java:731 ../wprover/panelWu.java:179
 msgid "The conclution is true"
@@ -1157,13 +947,11 @@ msgstr ""
 msgid "The conclution is false"
 msgstr ""
 
-#: ../wprover/PanelProve1.java:673
 msgid "Search facts"
-msgstr ""
+msgstr "Traženje činjenica"
 
-#: ../wprover/PanelProve1.java:889
 msgid "Add Conclution"
-msgstr ""
+msgstr "Dodaj zaključak"
 
 #: ../wprover/PanelProve1.java:930
 msgid "Time: "
@@ -1173,84 +961,62 @@ msgstr ""
 msgid " Second(s)"
 msgstr ""
 
-#: ../wprover/PanelProve1.java:993
 msgid "lines"
-msgstr ""
+msgstr "prave"
 
-#: ../wprover/PanelProve1.java:999
 msgid "parallel lines"
-msgstr ""
+msgstr "paralelne prave"
 
-#: ../wprover/PanelProve1.java:1005
 msgid "perpendicular lines"
-msgstr ""
+msgstr "normalne prave"
 
-#: ../wprover/PanelProve1.java:1011
 msgid "midpoints"
-msgstr ""
+msgstr "Središta"
 
-#: ../wprover/PanelProve1.java:1017
 msgid "circles"
-msgstr ""
+msgstr "krugovi"
 
-#: ../wprover/PanelProve1.java:1023
 msgid "congruent segments"
-msgstr ""
+msgstr "podudarne duži"
 
-#: ../wprover/PanelProve1.java:1030
 msgid "congruent angles"
-msgstr ""
+msgstr "podudarne uglovi"
 
-#: ../wprover/PanelProve1.java:1042
 msgid "similiar triangles"
-msgstr ""
+msgstr "slični trouglovi"
 
-#: ../wprover/PanelProve1.java:1047
 msgid "congruent triangles"
-msgstr ""
+msgstr "podudarni trouglovi"
 
-#: ../wprover/PanelProve1.java:1054
 msgid "special angles"
-msgstr ""
+msgstr "Specijalni uglovi"
 
-#: ../wprover/PanelProve1.java:1059
 msgid "perp-acong angles"
-msgstr ""
+msgstr "Pravolinijski uglovi koji su kongruentni"
 
-#: ../wprover/PanelProve1.java:1067
 msgid "ratio segments"
-msgstr ""
+msgstr "Odnos duži"
 
-#: ../wprover/PanelProve1.java:1086
 msgid "Can not find any proof!"
-msgstr ""
+msgstr "Ne mogu naći nikakav dokaz!"
 
-#: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
-#: ../wprover/PanelProve1.java:1397
 msgid "NO conclution has been set!"
-msgstr ""
+msgstr "Zaključak nije zadat!"
 
-#: ../wprover/PanelProve1.java:1259 ../wprover/PanelProve1.java:1341
-#: ../wprover/PanelProve1.java:1398
 msgid "No conclution"
-msgstr ""
+msgstr "Bez zaključka"
 
-#: ../wprover/PanelProve1.java:1300 ../wprover/PanelProve1.java:1373
-#: ../wprover/PanelProve1.java:1379
 msgid "Message"
-msgstr ""
+msgstr "Poruka"
 
-#: ../wprover/PanelProve1.java:1313
 msgid "Please Construct the Diagram First!"
-msgstr ""
+msgstr "Molim Vas da prvo napravite dijagram!"
 
-#: ../wprover/PanelProve1.java:1314
 msgid "Diagram Not Completed"
-msgstr ""
+msgstr "Dijagram nije završen"
 
-#: ../wprover/PanelProve1.java:1372
 msgid "is trivially true"
-msgstr ""
+msgstr "Je trivijalno tačno"
 
 #: ../wprover/PanelProve1.java:1378
 msgid " is obviously true  (by hypothesis)"
@@ -1264,34 +1030,26 @@ msgstr ""
 msgid "Information"
 msgstr ""
 
-#: ../wprover/PanelProve1.java:1407
 msgid "Show Detail"
-msgstr ""
+msgstr "Pokazi detalje"
 
-#: ../wprover/PanelProve1.java:1410
 msgid "Failed"
-msgstr ""
+msgstr "Neuspešno"
 
-#: ../wprover/PanelProve1.java:1416
 msgid "The conclusion can not be translated to full-angle expression."
-msgstr ""
+msgstr "Zaključak ne može biti preveden u izraz sa punim uglom."
 
-#: ../wprover/PanelProve1.java:1417
 msgid "Not Supported"
-msgstr ""
+msgstr "Nije podržano"
 
-#: ../wprover/PanelProve1.java:2057 ../wprover/PanelProve1.java:2390
-#: ../wprover/PanelProve1.java:2392
 msgid "Prove"
-msgstr ""
+msgstr "Dokaz"
 
-#: ../wprover/PanelProve1.java:2060
 msgid "Prove in New Tab"
-msgstr ""
+msgstr "Otvaranje dokaza u novom tabu"
 
-#: ../wprover/PanelProve1.java:2064
 msgid "Refresh"
-msgstr ""
+msgstr "Obnovi"
 
 #: ../wprover/PanelProve1.java:2067
 msgid "Search A Fact"
@@ -1305,61 +1063,50 @@ msgstr ""
 msgid "Can not open"
 msgstr ""
 
-#: ../wprover/PanelProve1.java:2349
 msgid "Deductive Database Method"
-msgstr ""
+msgstr "Metod deduktivne baze podataka"
 
-#: ../wprover/PanelProve1.java:2355
 msgid "Full Angle Method"
-msgstr ""
+msgstr "Metoda punog ugla"
 
-#: ../wprover/PanelProve1.java:2361
 msgid "Traditional Method"
-msgstr ""
+msgstr "Tradicionalna metoda"
 
 #: ../wprover/PanelProve1.java:2375
 msgid "Grobner Basis Method"
 msgstr ""
 
-#: ../wprover/PanelProve1.java:2383
 msgid "Wu's Method"
-msgstr ""
+msgstr "Wu-ova metoda"
 
-#: ../wprover/PanelProve1.java:2398
 msgid "To Prove"
-msgstr ""
+msgstr "Dokazati"
 
-#: ../wprover/PanelProve1.java:2418
 msgid "Polynomials"
-msgstr ""
+msgstr "Polinomi"
 
 #: ../wprover/PanelProve1.java:2431
 msgid "All Solutions"
 msgstr ""
 
-#: ../wprover/panelWu.java:84 ../wprover/panelWu.java:94
 msgid "Remainder"
-msgstr ""
+msgstr "Ostatak"
 
 #: ../wprover/panelWu.java:146
 msgid "The Triangulized Hypotheses"
 msgstr ""
 
-#: ../wprover/panelWu.java:155
 msgid "The Conclution"
-msgstr ""
+msgstr "Zaključak"
 
-#: ../wprover/panelWu.java:159
 msgid "Successive Pseudo Remainder of CONC wrpt TS :"
-msgstr ""
+msgstr "Sukcesivni pseudo-ostatak deljenja zaključka u odnosu na tezu"
 
-#: ../wprover/panelWu.java:168
 msgid "System Run Out Of Memory"
-msgstr ""
+msgstr "Sistem je ostao bez memorije"
 
-#: ../wprover/panelWu.java:169
 msgid "The Theorem Is Not Proved!"
-msgstr ""
+msgstr "Teorema nije dokazana!"
 
 #: ../wprover/panelWu.java:169
 msgid "System Run Out of Memory"
@@ -1373,49 +1120,39 @@ msgstr ""
 msgid "The conclution is not proved"
 msgstr ""
 
-#: ../wprover/RatioSelectDialog.java:27
 msgid "Set the ratio"
-msgstr ""
+msgstr "Postavi odnos"
 
-#: ../wprover/RatioSelectDialog.java:32
 msgid "Please input two integers"
-msgstr ""
+msgstr "Molim unesite dva cela broja"
 
 #: ../wprover/RectChooser.java:36
 msgid " Please Choose The Client Area."
 msgstr ""
 
-#: ../wprover/RightClickPopMenu.java:20
 msgid "Cancel Action"
-msgstr ""
+msgstr "Prekini"
 
-#: ../wprover/RightClickPopMenu.java:56
 msgid "Edit Text"
-msgstr ""
+msgstr "Uredi tekst"
 
-#: ../wprover/RightClickPopMenu.java:63
 msgid "Freeze"
-msgstr ""
+msgstr "Zamrzni"
 
-#: ../wprover/RightClickPopMenu.java:66
 msgid "Unfreeze"
-msgstr ""
+msgstr "Odmrzni"
 
-#: ../wprover/RightClickPopMenu.java:70
 msgid "Stop Trace"
-msgstr ""
+msgstr "Zaustavi trag"
 
-#: ../wprover/RightClickPopMenu.java:196
 msgid "Font Size"
-msgstr ""
+msgstr "Veličina fonta"
 
-#: ../wprover/RightClickPopMenu.java:205
 msgid "Plain"
-msgstr ""
+msgstr "Obično"
 
-#: ../wprover/RightClickPopMenu.java:206 ../wprover/vFontChooser.java:96
 msgid "Bold"
-msgstr ""
+msgstr "Podebljano"
 
 #: ../wprover/RuleApplicationDialog.java:309 ../wprover/MProveTree.java:1000
 #: ../wprover/MProveTree.java:1001 ../wprover/MProveTree.java:1002
@@ -1428,34 +1165,27 @@ msgstr ""
 msgid "because"
 msgstr ""
 
-#: ../wprover/TextFrame.java:196 ../wprover/TextFrame.java:198
-#: ../wprover/MProveTree.java:1518
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
-#: ../wprover/TextValueEditor.java:107
 msgid "Data"
-msgstr ""
+msgstr "Podaci"
 
-#: ../wprover/TextValueEditor.java:108
 msgid "Function"
-msgstr ""
+msgstr "Funkcija"
 
-#: ../wprover/TextValueEditor.java:142
 msgid "Coordinates"
-msgstr ""
+msgstr "Koordinate"
 
-#: ../wprover/Update.java:70 ../wprover/Update.java:120
 msgid "Connection failed: Please check your network connection and try again."
 msgstr ""
+"Veza nije uspela: Molimo proverite vašu mrežnu vezu i pokušajte ponovo."
 
-#: ../wprover/Update.java:71 ../wprover/Update.java:121
 msgid "Connection Failed"
-msgstr ""
+msgstr "Veza nije uspela"
 
-#: ../wprover/Update.java:140 ../wprover/Update.java:150
 msgid "Update Information"
-msgstr ""
+msgstr "Informacije o ažuriranje"
 
 #: ../wprover/Update.java:146
 msgid ""
@@ -1471,13 +1201,11 @@ msgstr ""
 msgid "Available JGEX version"
 msgstr ""
 
-#: ../wprover/Update.java:149
 msgid "Press OK to update."
-msgstr ""
+msgstr "Kliknite na OK za ažuriranje."
 
-#: ../wprover/Update.java:168 ../wprover/Update.java:248
 msgid "JGEX Update"
-msgstr ""
+msgstr "JGEX ažuriranje"
 
 #: ../wprover/Update.java:189
 msgid "Hide"
@@ -1493,61 +1221,48 @@ msgstr ""
 msgid "by HYP"
 msgstr ""
 
-#: ../wprover/vFontChooser.java:94
 msgid "Font Chooser"
-msgstr ""
+msgstr "Odaberite font"
 
-#: ../wprover/vFontChooser.java:97
 msgid "Italic"
-msgstr ""
+msgstr "Italik"
 
-#: ../wprover/vFontChooser.java:98
 msgid "Underline"
-msgstr ""
+msgstr "Podvučeno"
 
-#: ../wprover/vFontChooser.java:99
 msgid "Strikethrough"
-msgstr ""
+msgstr "Precrtano"
 
-#: ../wprover/vFontChooser.java:100
 msgid "Subscript"
-msgstr ""
+msgstr "Indeks"
 
-#: ../wprover/vFontChooser.java:101
 msgid "Superscript"
-msgstr ""
+msgstr "Eksponent"
 
-#: ../wprover/vFontChooser.java:102
 msgid "Preview Font"
-msgstr ""
+msgstr "Pregled fonta"
 
-#: ../wprover/vFontChooser.java:111
 msgid "Font name"
-msgstr ""
+msgstr "Ime fonta"
 
-#: ../wprover/vFontChooser.java:115
 msgid "Font size"
-msgstr ""
+msgstr "Veličina fonta"
 
-#: ../wprover/vFontChooser.java:119
 msgid "Effects"
-msgstr ""
+msgstr "Efekti"
 
 #: ../wprover/vFontChooser.java:155
 msgid "Font color"
 msgstr ""
 
-#: ../wprover/vFontChooser.java:162
 msgid "Preview"
-msgstr ""
+msgstr "Pregled"
 
-#: ../wprover/vFontChooser.java:171
 msgid "Save and exit"
-msgstr ""
+msgstr "Sačuvaj i izađi"
 
-#: ../wprover/vFontChooser.java:183
 msgid "Exit without save"
-msgstr ""
+msgstr "Izlaz bez čuvanja"
 
 #: ../wprover/AnimatePanel.java:42
 msgid "start the animation"
@@ -1643,13 +1358,11 @@ msgstr ""
 msgid "Draw a lines by connecting two points"
 msgstr ""
 
-#: ../wprover/GExpert.java:856
 msgid "Parallel Line"
-msgstr ""
+msgstr "Paralelna prava"
 
-#: ../wprover/GExpert.java:857
 msgid "Perpendicular Line"
-msgstr ""
+msgstr "Normalna prava"
 
 #: ../wprover/GExpert.java:858
 msgid "Draw an angle bisector"
@@ -1659,21 +1372,18 @@ msgstr ""
 msgid "Draw Aline"
 msgstr ""
 
-#: ../wprover/GExpert.java:860
 msgid "Perp-Bisect Line"
-msgstr ""
+msgstr "Simetrala duži"
 
-#: ../wprover/GExpert.java:861
 msgid "Tangent Line"
-msgstr ""
+msgstr "Tangenta"
 
 #: ../wprover/GExpert.java:865
 msgid "Draw a circle by a center point and a point on circle"
 msgstr ""
 
-#: ../wprover/GExpert.java:867
 msgid "Circle by Radius"
-msgstr ""
+msgstr "Krug zadat poluprečnikom"
 
 #: ../wprover/GExpert.java:871
 msgid "Intersect to decide a point"
@@ -2044,17 +1754,14 @@ msgstr ""
 msgid "Draw a circle by three points"
 msgstr ""
 
-#: ../wprover/GExpert.java:2361
 msgid "Translate"
-msgstr ""
+msgstr "Potez"
 
-#: ../wprover/GExpert.java:2364
 msgid "Zoom-in"
-msgstr ""
+msgstr "Uvećaj"
 
-#: ../wprover/GExpert.java:2367
 msgid "Zoom-out"
-msgstr ""
+msgstr "Smanji"
 
 #: ../wprover/GExpert.java:2371
 msgid "snap"
@@ -2112,10 +1819,8 @@ msgstr ""
 msgid "point"
 msgstr ""
 
-#: ../wprover/GExpert.java:2433 ../wprover/MProveTree.java:1252
-#: ../wprover/MProveTree.java:1363
 msgid "line"
-msgstr ""
+msgstr "Prava"
 
 #: ../wprover/GExpert.java:2437
 msgid "parallel"
@@ -2129,10 +1834,8 @@ msgstr ""
 msgid "foot"
 msgstr ""
 
-#: ../wprover/GExpert.java:2453 ../wprover/MProveTree.java:1252
-#: ../wprover/MProveTree.java:1369
 msgid "circle"
-msgstr ""
+msgstr "Krug"
 
 #: ../wprover/GExpert.java:2459
 msgid "circle3p"
@@ -2147,10 +1850,8 @@ msgstr ""
 msgid "polygon"
 msgstr ""
 
-#: ../wprover/GExpert.java:2472 ../wprover/MProveTree.java:1252
-#: ../wprover/MProveTree.java:1388
 msgid "angle"
-msgstr ""
+msgstr "Ugao"
 
 #: ../wprover/GExpert.java:2476
 msgid "text"
@@ -2172,43 +1873,32 @@ msgstr ""
 msgid "midpoint"
 msgstr ""
 
-#: ../wprover/GExpert.java:2496 ../wprover/GExpert.java:2562
-#: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1372
 msgid "square"
-msgstr ""
+msgstr "Kvadrat"
 
-#: ../wprover/GExpert.java:2500 ../wprover/GExpert.java:2531
-#: ../wprover/GExpert.java:2543 ../wprover/MProveTree.java:1252
-#: ../wprover/MProveTree.java:1366
 msgid "triangle"
-msgstr ""
+msgstr "Trougao"
 
 #: ../wprover/GExpert.java:2539
 msgid "equilateral triangle"
 msgstr ""
 
-#: ../wprover/GExpert.java:2547 ../wprover/MProveTree.java:1253
-#: ../wprover/MProveTree.java:1395
 msgid "quadrangle"
-msgstr ""
+msgstr "Četvorougao"
 
 #: ../wprover/GExpert.java:2550 ../wprover/GExpert.java:2566
 msgid "pentagon"
 msgstr ""
 
-#: ../wprover/GExpert.java:2553 ../wprover/MProveTree.java:1253
-#: ../wprover/MProveTree.java:1399
 msgid "trapezoid"
-msgstr ""
+msgstr "Trapez"
 
 #: ../wprover/GExpert.java:2556
 msgid "right angle trapezoid"
 msgstr ""
 
-#: ../wprover/GExpert.java:2559 ../wprover/MProveTree.java:1253
-#: ../wprover/MProveTree.java:1392
 msgid "rectangle"
-msgstr ""
+msgstr "Pravougaonik"
 
 #: ../wprover/MProveTree.java:761 ../wprover/MProveTree.java:817
 msgid "DTR"
@@ -2243,17 +1933,14 @@ msgstr ""
 msgid "To Prove: "
 msgstr ""
 
-#: ../wprover/MProveTree.java:1071
 msgid "In"
-msgstr ""
+msgstr "U"
 
-#: ../wprover/MProveTree.java:1071
 msgid "and"
-msgstr ""
+msgstr "I"
 
-#: ../wprover/MProveTree.java:1072
 msgid "Similarly,"
-msgstr ""
+msgstr "Slično tome,"
 
 #: ../wprover/MProveTree.java:1072 ../wprover/MProveTree.java:1095
 msgid "????"
@@ -2263,13 +1950,11 @@ msgstr ""
 msgid "NULL"
 msgstr ""
 
-#: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1375
 msgid "area"
-msgstr ""
+msgstr "Površina"
 
-#: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1378
 msgid "parallelogram"
-msgstr ""
+msgstr "Paralelogram"
 
 #: ../wprover/MProveTree.java:1255
 msgid "Please select two points"
@@ -2315,33 +2000,26 @@ msgstr ""
 msgid "perp"
 msgstr ""
 
-#: ../wprover/MProveTree.java:1518
 msgid "Keywords"
-msgstr ""
+msgstr "Ključne reči"
 
-#: ../wprover/MProveTree.java:1518
 msgid "Symbol"
-msgstr ""
+msgstr "Simbol"
 
-#: ../wprover/MProveTree.java:1518
 msgid "Assertion"
-msgstr ""
+msgstr "Tvrdnja"
 
-#: ../wprover/MProveTree.java:1519
 msgid "Object"
-msgstr ""
+msgstr "Objekat"
 
-#: ../wprover/MProveTree.java:1519
 msgid "Draw"
-msgstr ""
+msgstr "Crtati"
 
-#: ../wprover/MProveTree.java:1519
 msgid "Equation"
-msgstr ""
+msgstr "Jednačina"
 
-#: ../wprover/MProveTree.java:1520 ../wprover/MProveTree.java:1689
 msgid "Rule"
-msgstr ""
+msgstr "Pravilo"
 
 #: ../wprover/MProveTree.java:1549 ../wprover/MProveTree.java:1554
 #: ../wprover/MProveTree.java:1672
@@ -2372,19 +2050,15 @@ msgstr ""
 msgid "ASA"
 msgstr ""
 
-#: ../wprover/MProveTree.java:1682 ../wprover/MProveTree.java:1684
-#: ../wprover/MProveTree.java:1758 ../wprover/MProveTree.java:1759
-#: ../wprover/MProveTree.java:1816
 msgid "Collinear"
-msgstr ""
+msgstr "Kolinearno"
 
 #: ../wprover/MProveTree.java:1817
 msgid "Eqdistant"
 msgstr ""
 
-#: ../wprover/MProveTree.java:1817
 msgid "Cyclic"
-msgstr ""
+msgstr "Cikličan"
 
 #: ../wprover/MProveTree.java:1818
 msgid "Congruent"
@@ -2492,13 +2166,11 @@ msgstr ""
 msgid "Name With Value"
 msgstr ""
 
-#: ../wprover/CProperty.java:999
 msgid "Vertical Line"
-msgstr ""
+msgstr "Vertikalna linija"
 
-#: ../wprover/CProperty.java:1000
 msgid "Horizontal Line"
-msgstr ""
+msgstr "Horizontalna linija"
 
 #: ../wprover/CProperty.java:1263
 msgid "X1 "
@@ -2517,243 +2189,283 @@ msgid "Y2"
 msgstr ""
 
 msgid "Geometry Expert"
-msgstr ""
+msgstr "Ekspert za geometriju"
 
 msgid "ALine"
-msgstr ""
+msgstr "A-prava"
 
 msgid "ABline"
 msgstr ""
 
 msgid "Hexagon"
-msgstr ""
+msgstr "Šestougao"
 
 msgid "Nteqangle"
-msgstr ""
+msgstr "Suprotan ugao"
 
 msgid "Snap"
-msgstr ""
+msgstr "Snap"
 
 msgid "LessGrid"
-msgstr ""
+msgstr "Manje mreže"
 
 msgid "MoreGrid"
-msgstr ""
+msgstr "Više mreže"
 
 msgid "Redo"
-msgstr ""
+msgstr "Ponovi"
 
 msgid "Undo"
-msgstr ""
+msgstr "Poništi"
 
 msgid "FF"
-msgstr ""
+msgstr "FF"
 
 msgid "FR"
-msgstr ""
+msgstr "FR"
 
 msgid "autoshowstep"
-msgstr ""
+msgstr "automatsko prikazivanje koraka"
 
 msgid "animate_start"
-msgstr ""
+msgstr "animacija početak"
 
 msgid "Equal Angle"
-msgstr ""
+msgstr "Jednak ugao"
 
 msgid "Similiar Triangle"
-msgstr ""
+msgstr "Sličan trougao"
 
 msgid "Congruent Triangle"
-msgstr ""
+msgstr "Podudaran trougao"
 
 msgid "Equalateral Triangle"
-msgstr ""
+msgstr "Jednakostranični trougao"
 
 msgid "Bisect"
-msgstr ""
+msgstr "Bisektrisa"
 
 msgid "Tangent"
-msgstr ""
+msgstr "Tangenta"
 
 msgid "Equal Product"
-msgstr ""
+msgstr "Jednak proizvod"
 
 msgid "Ratio"
-msgstr ""
+msgstr "Odnos duži"
 
 msgid "Special Angle"
-msgstr ""
+msgstr "Posebni uglovi"
 
 msgid "Angles Equation"
-msgstr ""
+msgstr "Jednakost nad uglovima"
 
 msgid "Segment Equation"
-msgstr ""
+msgstr "Jednakost nad dužima"
 
 msgid "NDGs"
-msgstr ""
+msgstr "Uslovi nedegenerisanosti"
 
 msgid "failed"
-msgstr ""
+msgstr "Neuspelo"
 
 msgid "Second(s)"
-msgstr ""
+msgstr "Druga"
 
 msgid "Version"
-msgstr ""
+msgstr "Verzija"
 
 msgid "On"
-msgstr ""
+msgstr "Uključeno"
 
 msgid "Change.."
 msgstr ""
 
 msgid "BackGround Color"
-msgstr ""
+msgstr "Boja pozadine"
 
 msgid "Change Color"
-msgstr ""
+msgstr "Promeni boju"
 
 msgid "Point Number"
-msgstr ""
+msgstr "Broj tačaka"
 
 msgid "Font Color"
-msgstr ""
+msgstr "Boja fonta"
 
 msgid "propline"
-msgstr ""
+msgstr "Svojstvo linije"
 
 msgid "type"
-msgstr ""
+msgstr "Tip"
 
 msgid "width"
-msgstr ""
+msgstr "Širina"
 
 msgid "already exists, do you want to overwrite it?"
-msgstr ""
+msgstr "Već postoji, želite li da je prepišete?"
 
 msgid "Time to build fixpoint:"
-msgstr ""
+msgstr "Vreme za kreiranje fiksne tačke:"
 
 msgid "Can not prove this theorem with Deductive Database Method"
-msgstr ""
+msgstr "Ne mogu dokazati ovu teoremu primenom metode Deduktivne baze podataka."
 
-msgid "is obviously true (by hypothesis)"
-msgstr ""
+msgid "is obviously true  (by hypothesis)"
+msgstr "Je očigledno tačno (po hipotezi)"
 
 msgid "Can not prove this theorem."
-msgstr ""
+msgstr "Nije moguće dokazati ovu teoremu."
 
 msgid "Proof text"
-msgstr ""
+msgstr "Tekst dokaza"
 
 msgid "Built on"
-msgstr ""
+msgstr "Zasnovana na"
 
 msgid "JDK Version:"
-msgstr ""
+msgstr "JDK verzija:"
 
 msgid "The user may download and distribute it freely."
-msgstr ""
+msgstr "Korisnik može besplatno preuzeti i distribuirati ovaj softver."
 
 msgid "However, JGEX is an educational tool, not intended for commercial use."
-msgstr ""
+msgstr "Međutim, JGEX je edukativni alat namenjen za nekomercijalnu upotrebu."
 
 msgid "Author:"
-msgstr ""
+msgstr "Autor:"
 
-msgid "The two lines you selected are parallel, n don't have any intersection!"
+msgid ""
+"The two lines you selected are parallel, \n"
+" don't have any intersection!"
 msgstr ""
+"Dve linije koje ste izabrali su paralelne, \n"
+" nemaju tačku preseka."
 
 msgid "The line and the circle you selected don't have any intersection!"
-msgstr ""
+msgstr "Prava i krug koje ste odabrali se ne seku."
 
 msgid ""
 "The two objects you selected already have two points as their intersections!"
-msgstr ""
+msgstr "Dva objekta koje ste izabrali već imaju dve tačke preseka!"
 
 msgid "Nothing to be saved"
-msgstr ""
+msgstr "Ništa za sačuvati"
 
 msgid "File Format Not Supported"
-msgstr ""
+msgstr "Format datoteke nije podržan"
 
 msgid "Free Point"
-msgstr ""
+msgstr "Slobodna tačka"
 
 msgid "The Algebraic Form:"
-msgstr ""
+msgstr "Algebarski oblik:"
 
 msgid "The coordinates"
-msgstr ""
+msgstr "Koordinate"
 
 msgid "The equational hypotheses:"
-msgstr ""
+msgstr "Jednakosne pretpostavke:"
 
 msgid "The Triangulized Hypotheses:"
-msgstr ""
+msgstr "Triangulirane hipoteze:"
 
 msgid "The Conclution is false"
-msgstr ""
+msgstr "Zaključak je netačan"
 
 msgid "The Conclution is true"
-msgstr ""
+msgstr "Zaključak je tačan."
 
 msgid "The Conclution is not proved"
-msgstr ""
+msgstr "Zaključak nije dokazan"
 
 msgid "The Groebner Basis:"
-msgstr ""
+msgstr "Grebnerova baza:"
 
 msgid "The theorem is not proved with the Deductive Database Method!"
-msgstr ""
+msgstr "Teorema nije dokazana metodom Deduktivne baze podataka!"
 
 msgid "The theorem is not proved with The Full-Angle Method."
-msgstr ""
+msgstr "Teorema nije dokazana metodom punih uglova."
 
 msgid "Use the LEFT button to select a position"
-msgstr ""
+msgstr "Upotrebite levi taster miša za izbor pozicije"
 
 msgid "Select two points to determine a line"
-msgstr ""
+msgstr "Izaberite dve tačke da biste odredili liniju"
 
 msgid "Please Choose the Client Area"
-msgstr ""
+msgstr "Molimo odaberite područje klijenta"
 
 msgid "No animation has been defined"
-msgstr ""
+msgstr "Nije definisana animacija"
 
 msgid ""
-"Please use the menu ' Action -> Animation ' to define an animation first"
+"Please use the menu \" Action -> Animation \" to define an animation first"
 msgstr ""
+"Molimo koristite meni \"Akcija -> Animacija\" da  najpre definišete "
+"animaciju."
 
 msgid "GIF Opt on"
-msgstr ""
+msgstr "GIF Opcija uključena"
 
 msgid "Groebner Basis Method"
-msgstr ""
+msgstr "Metod Grebnerove baze"
 
 msgid "Because"
-msgstr ""
+msgstr "Zato"
 
 msgid "Hence"
-msgstr ""
+msgstr "Odatle"
 
 msgid "Given:"
-msgstr ""
+msgstr "Date:"
 
 msgid "To Prove:"
-msgstr ""
+msgstr "Potrebno dokazati:"
 
 msgid "Q.E.D."
-msgstr ""
+msgstr "Q.E.D."
 
 msgid "The number of points to be selected:"
-msgstr ""
+msgstr "Broj tačaka koje treba izabrati:"
 
 msgid "X coordinate"
-msgstr ""
+msgstr "X koordinata"
 
 msgid "Y coordinate"
+msgstr "Y koordinata"
+
+msgid "Other..."
+msgstr "Ostalo..."
+
+msgid "Change..."
+msgstr "Izmena..."
+
+msgid "Error"
+msgstr "Greška"
+
+msgid "New version available, do you want to update now?"
+msgstr "Nova verzija je dostupna, želite li ažurirati sada?"
+
+msgid "Your current JGEX version:"
+msgstr "trenutna JGEX verzija:\""
+
+msgid "Available JGEX version:"
+msgstr "raspoloživa JGEX verzija:"
+
+msgid "File Downloaded"
+msgstr "Datoteka je preuzeta!"
+
+msgid ""
+"File downloaded! \n"
+"To update JGEX, we will exit the program and start again"
 msgstr ""
+"Datoteka je preuzeta! \n"
+"Da biste ažurirali JGEX, izlazimo iz programa i ponovo ga pokrećemo."
+
+msgid "Algebra Method"
+msgstr "Metoda površina"
+
+msgid "Fact"
+msgstr "Činjenica"

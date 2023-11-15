@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023 JGEX Contributors
+# Copyright (C) YEAR JGEX Contributors
 # This file is distributed under the same license as the jgex package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jgex 0.80\n"
 "Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
-"POT-Creation-Date: 2023-11-15 22:46+0100\n"
+"POT-Creation-Date: 2023-11-15 23:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2658,7 +2658,7 @@ msgstr ""
 msgid "Can not prove this theorem with Deductive Database Method"
 msgstr ""
 
-msgid "is obviously true (by hypothesis)"
+msgid "is obviously true  (by hypothesis)"
 msgstr ""
 
 msgid "Can not prove this theorem."
@@ -2682,7 +2682,9 @@ msgstr ""
 msgid "Author:"
 msgstr ""
 
-msgid "The two lines you selected are parallel, n don't have any intersection!"
+msgid ""
+"The two lines you selected are parallel, \n"
+" don't have any intersection!"
 msgstr ""
 
 msgid "The line and the circle you selected don't have any intersection!"
@@ -2744,7 +2746,7 @@ msgid "No animation has been defined"
 msgstr ""
 
 msgid ""
-"Please use the menu ' Action -> Animation ' to define an animation first"
+"Please use the menu \" Action -> Animation \" to define an animation first"
 msgstr ""
 
 msgid "GIF Opt on"
