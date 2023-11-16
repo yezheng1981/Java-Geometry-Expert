@@ -10,7 +10,7 @@
     <property name="debug" value="on"/>
 
     <!-- Please override these settings with "ant -Ddate=... <task>" -->
-    <property name="date" value="2023Nov01"/>
+    <property name="date" value="2023Nov16"/>
     <property name="bundled_jdk" value="&quot;c:/Program Files/OpenJDK/jdk-19.0.1/&quot;"/>
 
     <!-- Step 0:  detect OS and set some variables for later use (ZIP package creation) -->
@@ -71,8 +71,14 @@
         </javac>
 
         <!-- FIXME: This works only on Linux/Mac. Consider porting this to Windows. -->
-        <exec executable="/bin/bash" dir="gettext">
+        <exec osfamily="unix" executable="/bin/bash" dir="gettext">
                 <arg value="4-create-resources.sh"/>
+        </exec>
+        <exec osfamily="mac" executable="/bin/bash" dir="gettext">
+                <arg value="4-create-resources.sh"/>
+        </exec>
+        <exec osfamily="windows" executable="cmd.exe" dir="gettext">
+                <arg value="4-create-resources.bat"/>
         </exec>
 
     </target>
