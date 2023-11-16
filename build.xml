@@ -69,6 +69,12 @@
                 <pathelement path="lib/xmlgraphics-commons-2.9.jar"/>
             </classpath>
         </javac>
+
+        <!-- FIXME: This works only on Linux/Mac. Consider porting this to Windows. -->
+        <exec executable="/bin/bash" dir="gettext">
+                <arg value="4-create-resources.sh"/>
+        </exec>
+
     </target>
 
     <!-- Step 4:  copy all images to destination before generating jar file  -->
