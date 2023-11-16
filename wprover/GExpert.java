@@ -215,6 +215,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         }
     }
 
+    // TODO: This is not used. Remove.
     public void setLocal() {
         Locale.setDefault(Locale.ENGLISH);
         if (language != null)
@@ -1106,6 +1107,11 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public static String getLanguage(String s1) {
+        s1 = getTranslationViaGettext(s1);
+        if (s1 != null) {
+            return s1;
+        }
+
         if (language == null)
             return s1;
 
@@ -1116,6 +1122,13 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public static String getLanguageTip(String s1) {
+        s1 = getTranslationViaGettext(s1);
+        if (s1 != null) {
+            return s1;
+        }
+
+        System.err.println("Missing translation for " + s1);
+
         if (language == null)
             return s1;
 
@@ -1124,6 +1137,9 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public static String getLanguage(int n) {
+
+        System.err.println("Missing translation for (" + n + ")");
+
         if (language == null)
             return "";
 
@@ -1131,20 +1147,40 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         return s1;
     }
 
-    public static String getLanguage(int n, String s) {
-        // Try to use gettext:
+    public static String getTranslationViaGettext(String s) {
+        Locale loc = Locale.getDefault();
 
-        /*
+        if (GExpert.lan.equals("Chinese"))
+            loc = Locale.SIMPLIFIED_CHINESE;
+        if (GExpert.lan.equals("German"))
+            loc = Locale.GERMAN;
+        if (GExpert.lan.equals("Italian"))
+            loc = Locale.ITALIAN;
+        if (GExpert.lan.equals("Persian"))
+            loc = new Locale("fa", "");
+        if (GExpert.lan.equals("Portuguese"))
+            loc = new Locale("pt", "");
+        if (GExpert.lan.equals("Serbian"))
+            loc = new Locale("rs", "");
+
         I18n i18n = I18nFactory.getI18n(GExpert.class,
-                Locale.GERMAN, org.xnap.commons.i18n.I18nFactory.FALLBACK);
+                loc, org.xnap.commons.i18n.I18nFactory.FALLBACK);
 
         String gettextTranslation = i18n.tr(s);
         if (gettextTranslation != null && !gettextTranslation.equals(""))
             return gettextTranslation;
+        return null;
+    }
 
-        */
+    public static String getLanguage(int n, String s) {
 
-        // Otherwise use the old method (deprecated):
+        s = getTranslationViaGettext(s);
+        if (s != null) {
+            return s;
+        }
+
+        System.err.println("Missing translation for " + s + " (" + n + ")");
+
         if (language == null)
             return s;
 

@@ -1,20 +1,25 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
 "POT-Creation-Date: 2023-11-15 23:44+0100\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: de\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0.1\n"
 
 #: ../wprover/AboutDialog.java:49
 msgid "Java Geometry Expert"
-msgstr ""
+msgstr "几何专家 Java 版"
 
 #: ../wprover/AboutDialog.java:53
 msgid "Last modified on"
@@ -27,8 +32,6 @@ msgstr ""
 #: ../wprover/AboutDialog.java:64
 msgid "Java Geometry Expert is free under GNU General Public License (GPL)."
 msgstr ""
-"Java Geometry Expert ist kostenlos entsprechend der GNU General Public "
-"License (GPL)."
 
 #: ../wprover/AboutDialog.java:65
 msgid "The user may download and distribute it freely.\n"
@@ -36,11 +39,11 @@ msgstr ""
 
 #: ../wprover/AboutDialog.java:78
 msgid "Authors"
-msgstr "Autoren"
+msgstr "作者"
 
 #: ../wprover/AboutDialog.java:103
 msgid "for more information,please visit:"
-msgstr "Für mehr Informationen siehe:"
+msgstr "为获取更多的信息，请访问："
 
 #: ../wprover/concDialog.java:102
 msgid "True"
@@ -52,15 +55,15 @@ msgstr ""
 
 #: ../wprover/concDialog.java:156
 msgid "Set One"
-msgstr "Menge eins"
+msgstr "集合一"
 
 #: ../wprover/concDialog.java:157
 msgid "Set Two"
-msgstr "Menge zwei"
+msgstr "集合二"
 
 #: ../wprover/concDialog.java:184
 msgid "Please select"
-msgstr "Bitte wähle"
+msgstr "请选择"
 
 #: ../wprover/concDialog.java:186
 msgid "true"
@@ -74,11 +77,11 @@ msgstr ""
 #: ../wprover/TextValueEditor.java:123 ../wprover/Update.java:188
 #: ../wprover/vFontChooser.java:170
 msgid "OK"
-msgstr "OK"
+msgstr "好"
 
 #: ../wprover/concDialog.java:209 ../wprover/NumCheckDialog.java:88
 msgid "Clear"
-msgstr "Löschen"
+msgstr "清除"
 
 #: ../wprover/concDialog.java:211 ../wprover/DialogPsProperty.java:36
 #: ../wprover/GIFOptionDialog.java:57 ../wprover/mproveInputPanel.java:284
@@ -87,7 +90,7 @@ msgstr "Löschen"
 #: ../wprover/TextFrame.java:122 ../wprover/TextValueEditor.java:124
 #: ../wprover/Update.java:187 ../wprover/vFontChooser.java:182
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr "取消"
 
 #: ../wprover/concDialog.java:294 ../wprover/concDialog.java:312
 msgid "The number of points to be selected: "
@@ -95,7 +98,7 @@ msgstr ""
 
 #: ../wprover/CProperty.java:238 ../wprover/CProperty.java:179
 msgid "Basic"
-msgstr "Grund"
+msgstr "基本"
 
 #: ../wprover/CProperty.java:246 ../wprover/CProperty.java:664
 #: ../wprover/CStyleDialog.java:93 ../wprover/CStyleDialog.java:141
@@ -103,7 +106,7 @@ msgstr "Grund"
 #: ../wprover/MiscDialog.java:641 ../wprover/RightClickPopMenu.java:34
 #: ../wprover/vFontChooser.java:149
 msgid "Color"
-msgstr "Farbe"
+msgstr "颜色"
 
 #: ../wprover/CProperty.java:263 ../wprover/CProperty.java:393
 #: ../wprover/CProperty.java:640 ../wprover/CProperty.java:1017
@@ -119,42 +122,42 @@ msgstr ""
 #: ../wprover/GExpert.java:854 ../wprover/GExpert.java:855
 #: ../wprover/HelpMode.java:45
 msgid "Line"
-msgstr "Gerade"
+msgstr "直线"
 
 #: ../wprover/CProperty.java:494 ../wprover/GExpert.java:864
 #: ../wprover/GExpert.java:865 ../wprover/HelpMode.java:67
 msgid "Circle"
-msgstr "Kreis"
+msgstr "园　"
 
 #: ../wprover/CProperty.java:551 ../wprover/GExpert.java:842
 #: ../wprover/GExpert.java:843 ../wprover/HelpMode.java:42
 #: ../wprover/LeadVariableDialog.java:425
 msgid "Point"
-msgstr "Punkt"
+msgstr "点"
 
 #: ../wprover/CProperty.java:653 ../wprover/MiscDialog.java:249
 msgid "Angle Text"
-msgstr "Winkel Text"
+msgstr "角的文本"
 
 #: ../wprover/CProperty.java:672
 msgid "Arc Num"
-msgstr "Bogen Nummer"
+msgstr "弧的条数"
 
 #: ../wprover/CProperty.java:795 ../wprover/MiscDialog.java:270
 msgid "Label"
-msgstr "Beschriftung"
+msgstr "标签"
 
 #: ../wprover/CProperty.java:804
 msgid "Show Label"
-msgstr "Zeige Beschriftung"
+msgstr "显示标签"
 
 #: ../wprover/CProperty.java:805 ../wprover/MiscDialog.java:228
 msgid "Show Text"
-msgstr "Zeige Text"
+msgstr "显示文本"
 
 #: ../wprover/CProperty.java:814
 msgid "Significant Digit"
-msgstr "Signifikante Stelle"
+msgstr "有效数字"
 
 #: ../wprover/CProperty.java:905
 msgid "Point number"
@@ -162,107 +165,107 @@ msgstr ""
 
 #: ../wprover/CProperty.java:914
 msgid "Draw Line"
-msgstr "Zeichne Gerade"
+msgstr "画线"
 
 #: ../wprover/CProperty.java:960
 msgid "Num"
-msgstr ""
+msgstr "数目"
 
 #: ../wprover/CProperty.java:961 ../wprover/CProperty.java:1095
 #: ../wprover/LeadVariableDialog.java:244
 #: ../wprover/LeadVariableDialog.java:427 ../wprover/MiscDialog.java:319
 msgid "Length"
-msgstr "Länge"
+msgstr "长度"
 
 #: ../wprover/CProperty.java:1010 ../wprover/GExpert.java:874
 #: ../wprover/GExpert.java:887 ../wprover/HelpMode.java:86
 msgid "Polygon"
-msgstr "Polygon"
+msgstr "多边形"
 
 #: ../wprover/CProperty.java:1094 ../wprover/MiscDialog.java:375
 msgid "Angle"
-msgstr "Winkel"
+msgstr "角度"
 
 #: ../wprover/CProperty.java:1217 ../wprover/CProperty.java:1261
 #: ../wprover/CProperty.java:1307 ../wprover/LeadVariableDialog.java:242
 #: ../wprover/CProperty.java:625
 msgid "Name"
-msgstr "Name"
+msgstr "名字"
 
 #: ../wprover/CProperty.java:1218 ../wprover/CProperty.java:1312
 #: ../wprover/drawProcess.java:10509 ../wprover/RightClickPopMenu.java:93
 msgid "Radius"
-msgstr "Radius"
+msgstr "半径"
 
 #: ../wprover/CProperty.java:1219 ../wprover/RightClickPopMenu.java:76
 msgid "X Coordinate"
-msgstr ""
+msgstr "X轴坐标"
 
 #: ../wprover/CProperty.java:1220 ../wprover/RightClickPopMenu.java:78
 msgid "Y Coordinate"
-msgstr ""
+msgstr "Y轴坐标"
 
 #: ../wprover/CProperty.java:1221
 msgid "Freezed"
-msgstr "Eingefriert"
+msgstr "固定"
 
 #: ../wprover/CProperty.java:1262
 msgid "Point on Line"
-msgstr "Punkt auf Gerade"
+msgstr "在线上的点"
 
 #: ../wprover/CProperty.java:1308
 msgid "Point on Circle"
-msgstr "Punkt am Kreis"
+msgstr "在园上的点"
 
 #: ../wprover/CProperty.java:1309
 msgid "Center"
-msgstr "Mittelpunkt"
+msgstr "中心"
 
 #: ../wprover/CProperty.java:1310
 msgid "Center X"
-msgstr "Mittelpunkt X"
+msgstr "中点X坐标"
 
 #: ../wprover/CProperty.java:1311
 msgid "Center Y"
-msgstr "Mittelpunkt Y"
+msgstr "中点Y坐标"
 
 #: ../wprover/CProperty.java:1352
 msgid "Grid Step"
-msgstr "Gitterschritt"
+msgstr "网格的疏密"
 
 #: ../wprover/CProperty.java:1353
 msgid "Slope Angle"
-msgstr "Steigungswinkler"
+msgstr "倾斜角度"
 
 #: ../wprover/DialogPsProperty.java:26 ../wprover/GExpert.java:766
 #: ../wprover/HelpMode.java:35
 msgid "Save as PS"
-msgstr "Speichern als PS"
+msgstr "另存为 PS"
 
 #: ../wprover/DialogPsProperty.java:32 ../wprover/MiscDialog.java:616
 msgid "Gray"
-msgstr "Grau"
+msgstr "灰色"
 
 #: ../wprover/DialogPsProperty.java:34 ../wprover/MiscDialog.java:617
 msgid "Black and White"
-msgstr "Schwarz und Weiß"
+msgstr "黑白"
 
 #: ../wprover/DialogPsProperty.java:56
 msgid "Point filled with background color"
-msgstr "Punkt mit Hintergrundfarbe gefüllt"
+msgstr "用背景色来填充点"
 
 #: ../wprover/drawbase.java:527
 msgid "Intersection"
-msgstr "Schnittpunkt"
+msgstr "交点"
 
 #: ../wprover/drawProcess.java:2242
 msgid "Angle Specification must be done before drawing anything"
-msgstr "Die Spezifikation des Winkels muss vor der Konstruktion stattfinden."
+msgstr "请在作图之前定义特殊角"
 
 #: ../wprover/drawProcess.java:2243 ../wprover/drawProcess.java:3038
 #: ../wprover/PanelProve1.java:1087 ../wprover/Update.java:127
 msgid "Warning"
-msgstr "Warnung"
+msgstr "警告"
 
 #: ../wprover/drawProcess.java:3037
 msgid "The two selected line don'thave any intersected point"
@@ -270,11 +273,11 @@ msgstr ""
 
 #: ../wprover/drawProcess.java:3097
 msgid "The selected two line don't have intersected point"
-msgstr "Die ausgewählten beiden Punkte haben keinen Schinttpunkt"
+msgstr "所选择的两条直线没有交点"
 
 #: ../wprover/drawProcess.java:3098
 msgid "No Intersected point"
-msgstr "Kein Schnittpunkt"
+msgstr "没有交点"
 
 #: ../wprover/drawProcess.java:8069
 msgid "The two lines you selected are parallel, don't have any intersection!"
@@ -283,7 +286,7 @@ msgstr ""
 #: ../wprover/drawProcess.java:8071 ../wprover/drawProcess.java:8132
 #: ../wprover/drawProcess.java:8205
 msgid "No intersection"
-msgstr "Kein Schnittpunkt"
+msgstr "不相交"
 
 #: ../wprover/drawProcess.java:8131
 msgid "The line and the circle you selected don't have any intersection"
@@ -296,41 +299,41 @@ msgstr ""
 
 #: ../wprover/drawProcess.java:8148 ../wprover/drawProcess.java:8221
 msgid "intersection already defined"
-msgstr "Schnittpunkt bereits definiert"
+msgstr "交点已定义"
 
 #: ../wprover/drawProcess.java:8204
 msgid "The circles you selected don't have any intersection"
-msgstr "Die ausgewählten Kreise besitzen keinen Schnittpunkt"
+msgstr "你选择的两个园不相交"
 
 #: ../wprover/drawProcess.java:8220
 msgid ""
 "The two circles you selected already have two points as their intersections"
-msgstr "Die beiden ausgewählten Kreise haben bereits zwei Schnittpunkte"
+msgstr "你所选择的两个园已经有两个交点"
 
 #: ../wprover/drawProcess.java:10449 ../wprover/drawProcess.java:10501
 #: ../wprover/RightClickPopMenu.java:87 ../wprover/RightClickPopMenu.java:98
 msgid "Area"
-msgstr "Fläche"
+msgstr "面积"
 
 #: ../wprover/drawProcess.java:10505 ../wprover/RightClickPopMenu.java:90
 msgid "Girth"
-msgstr "Umfang"
+msgstr "周长"
 
 #: ../wprover/GExpert.java:353 ../wprover/RightClickPopMenu.java:38
 msgid "Property"
-msgstr "Eigenschaft"
+msgstr "属性"
 
 #: ../wprover/GExpert.java:744
 msgid "File"
-msgstr "Datei"
+msgstr "文件"
 
 #: ../wprover/GExpert.java:747 ../wprover/HelpMode.java:31
 msgid "New"
-msgstr "Neu"
+msgstr "新建"
 
 #: ../wprover/GExpert.java:751 ../wprover/HelpMode.java:32
 msgid "Open"
-msgstr "Öffnen"
+msgstr "打开"
 
 #: ../wprover/GExpert.java:753
 msgid "Import"
@@ -339,31 +342,31 @@ msgstr ""
 #: ../wprover/GExpert.java:756 ../wprover/GExpert.java:1867
 #: ../wprover/HelpMode.java:33
 msgid "Save"
-msgstr "Speichern"
+msgstr "保存"
 
 #: ../wprover/GExpert.java:758
 msgid "Save as..."
-msgstr "Speichern unter"
+msgstr "另存为.."
 
 #: ../wprover/GExpert.java:763 ../wprover/HelpMode.java:34
 msgid "Save as Text"
-msgstr "Speichern als Text"
+msgstr "另存为文本"
 
 #: ../wprover/GExpert.java:768 ../wprover/HelpMode.java:36
 msgid "Save as PDF"
-msgstr "Speichern als PDF"
+msgstr "另存为 PDF"
 
 #: ../wprover/GExpert.java:771 ../wprover/HelpMode.java:37
 msgid "Save as Image"
-msgstr "Speichern als Bild"
+msgstr "另存为图像"
 
 #: ../wprover/GExpert.java:773 ../wprover/HelpMode.java:38
 msgid "Save as Animated Image"
-msgstr "Speichern als animiertes Bild"
+msgstr "另存为动态图像"
 
 #: ../wprover/GExpert.java:775 ../wprover/HelpMode.java:39
 msgid "Save Proof as Animated Image"
-msgstr "Speichere Beweis als animiertes Bild"
+msgstr "保存证明为动态(gif)图像"
 
 #: ../wprover/GExpert.java:777
 msgid "Save GDD Proof as GraphViz File"
@@ -371,39 +374,39 @@ msgstr ""
 
 #: ../wprover/GExpert.java:781 ../wprover/HelpMode.java:40
 msgid "Print"
-msgstr "Drucken"
+msgstr "打印"
 
 #: ../wprover/GExpert.java:784 ../wprover/HelpMode.java:41
 msgid "Exit"
-msgstr "Beenden"
+msgstr "退出"
 
 #: ../wprover/GExpert.java:788
 msgid "Examples"
-msgstr "Beispiele"
+msgstr "例子"
 
 #: ../wprover/GExpert.java:809
 msgid "Construct"
-msgstr "Konstruieren"
+msgstr "构造"
 
 #: ../wprover/GExpert.java:811 ../wprover/HelpMode.java:49
 msgid "Point by Point and Segment"
-msgstr "Punkt durch Punkt und Strecke"
+msgstr "点和固定线段"
 
 #: ../wprover/GExpert.java:812 ../wprover/HelpMode.java:50
 msgid "Radical of Two Circles"
-msgstr "Potenzgerade von zwei Kreisen"
+msgstr "园的根轴"
 
 #: ../wprover/GExpert.java:815 ../wprover/HelpMode.java:51
 msgid "Oriented Segment"
-msgstr "Vektor"
+msgstr "有向线段"
 
 #: ../wprover/GExpert.java:816 ../wprover/HelpMode.java:52
 msgid "Oriented T Segment"
-msgstr "Normalvektor"
+msgstr "垂直有向线段"
 
 #: ../wprover/GExpert.java:818 ../wprover/HelpMode.java:53
 msgid "Oriented Segment * Ratio"
-msgstr "Vektor * Skalar"
+msgstr "N倍有向线段"
 
 #: ../wprover/GExpert.java:820 ../wprover/GExpert.java:826
 #: ../wprover/GExpert.java:835 ../wprover/GExpert.java:916
@@ -418,15 +421,15 @@ msgstr ""
 #: ../wprover/GExpert.java:839 ../wprover/GExpert.java:898
 #: ../wprover/GExpert.java:918
 msgid "Other.."
-msgstr "Weiter.."
+msgstr "自定义"
 
 #: ../wprover/GExpert.java:825
 msgid "Oriented T Segment * Ratio"
-msgstr "Normalvektor * Skalar"
+msgstr "N倍垂直有向线段"
 
 #: ../wprover/GExpert.java:832 ../wprover/HelpMode.java:54
 msgid "Proportional Segment"
-msgstr "Proportionale Strecke"
+msgstr "比例线段"
 
 #: ../wprover/GExpert.java:834 ../wprover/GExpert.java:915
 msgid "1 : 1"
@@ -447,37 +450,37 @@ msgstr ""
 #: ../wprover/GExpert.java:844 ../wprover/HelpMode.java:43
 #: ../wprover/MProveTree.java:1817
 msgid "Midpoint"
-msgstr "Mittelpunkt"
+msgstr "中点"
 
 #: ../wprover/GExpert.java:846 ../wprover/HelpMode.java:55
 msgid "Circumcenter"
-msgstr "Umkreismittelpunkt"
+msgstr "外心"
 
 #: ../wprover/GExpert.java:847 ../wprover/HelpMode.java:56
 msgid "Centroid"
-msgstr "Schwerpunkt"
+msgstr "重心"
 
 #: ../wprover/GExpert.java:848 ../wprover/HelpMode.java:57
 msgid "Orthocenter"
-msgstr "Höhenschwerpunkt"
+msgstr "垂心"
 
 #: ../wprover/GExpert.java:849 ../wprover/HelpMode.java:58
 msgid "Incenter"
-msgstr "Inkreismittelpunkt"
+msgstr "内心"
 
 #: ../wprover/GExpert.java:851 ../wprover/HelpMode.java:60
 msgid "Foot"
-msgstr "Fußpunkt"
+msgstr "垂足"
 
 #: ../wprover/GExpert.java:856 ../wprover/HelpMode.java:46
 #: ../wprover/MProveTree.java:1816
 msgid "Parallel"
-msgstr "Parallel"
+msgstr "平行线"
 
 #: ../wprover/GExpert.java:857 ../wprover/HelpMode.java:47
 #: ../wprover/MProveTree.java:1816
 msgid "Perpendicular"
-msgstr "Normal"
+msgstr "垂直线"
 
 #: ../wprover/GExpert.java:858 ../wprover/HelpMode.java:61
 msgid "Angle Bisector"
@@ -497,7 +500,7 @@ msgstr ""
 
 #: ../wprover/GExpert.java:866 ../wprover/HelpMode.java:68
 msgid "Circle by Three Points"
-msgstr "Kreis durch drei Punkte"
+msgstr "三点园"
 
 #: ../wprover/GExpert.java:867 ../wprover/HelpMode.java:69
 msgid "Circler"
@@ -505,73 +508,73 @@ msgstr ""
 
 #: ../wprover/GExpert.java:870 ../wprover/GExpert.java:922
 msgid "Action"
-msgstr "Aktion"
+msgstr "操作"
 
 #: ../wprover/GExpert.java:871 ../wprover/HelpMode.java:71
 msgid "Intersect"
-msgstr "Schneide"
+msgstr "相交"
 
 #: ../wprover/GExpert.java:872 ../wprover/HelpMode.java:72
 msgid "Mirror"
-msgstr "Spiegeln"
+msgstr "镜像"
 
 #: ../wprover/GExpert.java:875 ../wprover/HelpMode.java:74
 msgid "Triangle"
-msgstr "Dreieck"
+msgstr "三角形"
 
 #: ../wprover/GExpert.java:876 ../wprover/HelpMode.java:75
 #: ../wprover/MProveTree.java:1822
 msgid "Isosceles Triangle"
-msgstr "Gleichschenkeliges Dreieck"
+msgstr "等腰三角形"
 
 #: ../wprover/GExpert.java:877 ../wprover/HelpMode.java:76
 #: ../wprover/MProveTree.java:1823
 msgid "Equilateral Triangle"
-msgstr "Gleichseitiges Dreieck"
+msgstr "正三角形"
 
 #: ../wprover/GExpert.java:878 ../wprover/HelpMode.java:77
 msgid "Right-angled Triangle"
-msgstr "Rechtwinkeliges Dreieck"
+msgstr "直角三角形"
 
 #: ../wprover/GExpert.java:879 ../wprover/HelpMode.java:78
 msgid "Isosceles Right-angled Triangle"
-msgstr "Gleichschenkelig-rechtwinkeliges Dreieck"
+msgstr "等要直角三角形"
 
 #: ../wprover/GExpert.java:880 ../wprover/HelpMode.java:79
 msgid "Quadrangle"
-msgstr "Viereck"
+msgstr "四边形"
 
 #: ../wprover/GExpert.java:881 ../wprover/HelpMode.java:80
 #: ../wprover/MProveTree.java:1820
 msgid "Parallelogram"
-msgstr "Parallelogramm"
+msgstr "平行四边形"
 
 #: ../wprover/GExpert.java:882 ../wprover/HelpMode.java:81
 #: ../wprover/MProveTree.java:1823
 msgid "Trapezoid"
-msgstr "Trapez"
+msgstr "五边形"
 
 #: ../wprover/GExpert.java:883 ../wprover/HelpMode.java:82
 msgid "Right-angled Trapezoid"
-msgstr "Rechtwinkeliges Trapez"
+msgstr "直角梯形"
 
 #: ../wprover/GExpert.java:884 ../wprover/HelpMode.java:83
 #: ../wprover/MProveTree.java:1824
 msgid "Rectangle"
-msgstr "Rechteck"
+msgstr "矩形"
 
 #: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
 #: ../wprover/MProveTree.java:1824
 msgid "Square"
-msgstr "Quadrat"
+msgstr "正方形"
 
 #: ../wprover/GExpert.java:886 ../wprover/HelpMode.java:85
 msgid "Pentagon"
-msgstr "Fünfeck"
+msgstr "五边形"
 
 #: ../wprover/GExpert.java:889
 msgid "Special Angles"
-msgstr "Besondere Winkel"
+msgstr "特殊角"
 
 #: ../wprover/GExpert.java:890
 msgid "15"
@@ -607,66 +610,66 @@ msgstr ""
 
 #: ../wprover/GExpert.java:903
 msgid "Constraint"
-msgstr "Einschränkung"
+msgstr "约束"
 
 #: ../wprover/GExpert.java:904 ../wprover/HelpMode.java:89
 #: ../wprover/MProveTree.java:1818
 msgid "Eqangle"
-msgstr ""
+msgstr "角相等"
 
 #: ../wprover/GExpert.java:906 ../wprover/HelpMode.java:90
 msgid "Eqangle3p"
-msgstr ""
+msgstr "三角和"
 
 #: ../wprover/GExpert.java:907 ../wprover/HelpMode.java:91
 #: ../wprover/SpecificAngleDialog.java:32
 msgid "Angle Specification"
-msgstr "Winkelspezifikation"
+msgstr "定义特殊角"
 
 #: ../wprover/GExpert.java:910 ../wprover/HelpMode.java:92
 msgid "Equal Ratio"
-msgstr "Gleiches Verhältnis"
+msgstr "比例相等"
 
 #: ../wprover/GExpert.java:912 ../wprover/HelpMode.java:93
 msgid "Equal Distance"
-msgstr "Gleiche Distanz"
+msgstr "距离相等"
 
 #: ../wprover/GExpert.java:914 ../wprover/HelpMode.java:94
 msgid "Ratio Distance"
-msgstr "Proportion Abstand"
+msgstr "设置比例"
 
 #: ../wprover/GExpert.java:920 ../wprover/HelpMode.java:95
 msgid "CCtangent"
-msgstr ""
+msgstr "两园相切"
 
 #: ../wprover/GExpert.java:924 ../wprover/HelpMode.java:98
 #: ../wprover/RightClickPopMenu.java:73
 msgid "Trace"
-msgstr "Spur"
+msgstr "跟踪"
 
 #: ../wprover/GExpert.java:925 ../wprover/HelpMode.java:99
 msgid "Locus"
-msgstr "Ortslinie"
+msgstr "轨迹"
 
 #: ../wprover/GExpert.java:926 ../wprover/HelpMode.java:100
 msgid "Animation"
-msgstr "Animation"
+msgstr "动画"
 
 #: ../wprover/GExpert.java:929 ../wprover/HelpMode.java:102
 msgid "Fill Polygon"
-msgstr "Fülle Vieleck"
+msgstr "填充"
 
 #: ../wprover/GExpert.java:930 ../wprover/HelpMode.java:103
 msgid "Measure Distance"
-msgstr "Messe Distanz"
+msgstr "标注"
 
 #: ../wprover/GExpert.java:931 ../wprover/HelpMode.java:104
 msgid "Arrow"
-msgstr "Pfeil"
+msgstr "箭头"
 
 #: ../wprover/GExpert.java:934 ../wprover/HelpMode.java:106
 msgid "Equal Mark"
-msgstr "Gleichheitszeichen"
+msgstr "距离标记"
 
 #: ../wprover/GExpert.java:935 ../wprover/CProperty.java:905
 #: ../wprover/CProperty.java:960 ../wprover/CProperty.java:961
@@ -688,99 +691,99 @@ msgstr ""
 
 #: ../wprover/GExpert.java:940 ../wprover/HelpMode.java:107
 msgid "Right-angle Mark"
-msgstr "Rechter Winkel Zeichen"
+msgstr "直角标注"
 
 #: ../wprover/GExpert.java:941 ../wprover/HelpMode.java:108
 #: ../wprover/TextValueEditor.java:45
 msgid "Calculation"
-msgstr "Berechnung"
+msgstr "计算"
 
 #: ../wprover/GExpert.java:944 ../wprover/HelpMode.java:110
 msgid "Hide Object"
-msgstr "Verstecke Objekt"
+msgstr "隐藏"
 
 #: ../wprover/GExpert.java:945 ../wprover/HelpMode.java:111
 msgid "Show Object"
-msgstr "Zeige Objekt"
+msgstr "显示"
 
 #: ../wprover/GExpert.java:947 ../wprover/HelpMode.java:112
 msgid "Transform"
-msgstr "Transformiere"
+msgstr "变换"
 
 #: ../wprover/GExpert.java:948 ../wprover/HelpMode.java:113
 msgid "Equivalence"
-msgstr "Äquivalenz"
+msgstr "等积变换"
 
 #: ../wprover/GExpert.java:949 ../wprover/HelpMode.java:114
 msgid "Free Transform"
-msgstr "Freie Transformation"
+msgstr "自由变换"
 
 #: ../wprover/GExpert.java:957
 msgid "Lemmas"
-msgstr "Lemmata"
+msgstr "规则"
 
 #: ../wprover/GExpert.java:959 ../wprover/HelpMode.java:116
 msgid "Rulers for Full Angle"
-msgstr "Regeln für Vollwinkel"
+msgstr "全角规则"
 
 #: ../wprover/GExpert.java:960 ../wprover/HelpMode.java:117
 msgid "Rulers for GDD"
-msgstr "Regeln für GDD"
+msgstr "演绎数据库规则"
 
 #: ../wprover/GExpert.java:963
 msgid "Option"
-msgstr "Option"
+msgstr "选项"
 
 #: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
 #: ../wprover/MiscDialog.java:32
 msgid "Preference"
-msgstr "Einstellung"
+msgstr "参数"
 
 #: ../wprover/GExpert.java:968 ../wprover/HelpMode.java:120
 #: ../wprover/ListTree.java:60 ../wprover/UndoEditDialog.java:20
 msgid "Construct History"
-msgstr "Konstruktionsprotokoll"
+msgstr "构造历史"
 
 #: ../wprover/GExpert.java:970 ../wprover/HelpMode.java:121
 msgid "Show Step Bar"
-msgstr "Zeige Schrittsfenster"
+msgstr "Step 工具栏"
 
 #: ../wprover/GExpert.java:972 ../wprover/HelpMode.java:122
 msgid "Style Dialog"
-msgstr "Stil Dialog"
+msgstr "作图属性页"
 
 #: ../wprover/GExpert.java:975 ../wprover/GExpert.java:976
 #: ../wprover/HelpMode.java:125
 msgid "Help"
-msgstr "Hilfe"
+msgstr "帮助"
 
 #: ../wprover/GExpert.java:983 ../wprover/HelpMode.java:127
 msgid "Help on Mode"
-msgstr "Hilfe zum Modus"
+msgstr "帮助上下文"
 
 #: ../wprover/GExpert.java:986 ../wprover/HelpMode.java:128
 msgid "JGEX Homepage"
-msgstr "JGEX Homepage"
+msgstr "JGEX 主页"
 
 #: ../wprover/GExpert.java:988 ../wprover/HelpMode.java:129
 msgid "Contact Us"
-msgstr "Kontakt"
+msgstr "联系我们"
 
 #: ../wprover/GExpert.java:993 ../wprover/HelpMode.java:131
 msgid "About JGEX"
-msgstr "Über JGEX"
+msgstr "关于 JGEX"
 
 #: ../wprover/GExpert.java:1158 ../wprover/GExpert.java:2424
 msgid "Move"
-msgstr "Bewegen"
+msgstr "移动"
 
 #: ../wprover/GExpert.java:1163 ../wprover/GExpert.java:2419
 msgid "Select"
-msgstr "Auswählen"
+msgstr "选择"
 
 #: ../wprover/GExpert.java:1661
 msgid "Please input the value of the angle"
-msgstr "Den Wert des Winkels eingeben"
+msgstr "请输入角的度数"
 
 #: ../wprover/GExpert.java:1811
 msgid "Nothing to be saved."
@@ -788,7 +791,7 @@ msgstr ""
 
 #: ../wprover/GExpert.java:1866
 msgid "The diagram has been changed, do you want to save it?"
-msgstr "Das Diagramm wurde geändert, wollen sie speichern?"
+msgstr "图形已经被改变，你想保存它么？"
 
 #: ../wprover/GExpert.java:1930
 msgid " already exists, do you want to overwrite it?"
@@ -796,7 +799,7 @@ msgstr ""
 
 #: ../wprover/GExpert.java:1931
 msgid "File exists"
-msgstr "Datei existiert"
+msgstr "文件已经存在"
 
 #: ../wprover/GExpert.java:2008
 msgid "No animation has been defined."
@@ -809,31 +812,31 @@ msgstr ""
 
 #: ../wprover/GExpert.java:2015
 msgid "GIF Option"
-msgstr ""
+msgstr "GIF选项"
 
 #: ../wprover/GIFOptionDialog.java:33
 msgid "Image Quality"
-msgstr "Bildqualität"
+msgstr "图像质量"
 
 #: ../wprover/GIFOptionDialog.java:103
 msgid "Best"
-msgstr "Best"
+msgstr "最好"
 
 #: ../wprover/GIFOptionDialog.java:105
 msgid "Good"
-msgstr "Gut"
+msgstr "好　"
 
 #: ../wprover/GIFOptionDialog.java:107
 msgid "Medium"
-msgstr "Mittel"
+msgstr "一般"
 
 #: ../wprover/GIFOptionDialog.java:109
 msgid "Low"
-msgstr "Niedrig"
+msgstr "低"
 
 #: ../wprover/GIFOptionDialog.java:110
 msgid "Very Low"
-msgstr "Sehr niedrig"
+msgstr "很低"
 
 #: ../wprover/HelpMode.java:87
 msgid "sangle"
@@ -841,11 +844,11 @@ msgstr ""
 
 #: ../wprover/HelpMode.java:126
 msgid "Online Help"
-msgstr "Online Hilfe"
+msgstr "在线帮助"
 
 #: ../wprover/HelpMode.java:130
 msgid "Check for Update"
-msgstr "Nach Updates suchen"
+msgstr "检查更新"
 
 #: ../wprover/LeadVariableDialog.java:34
 msgid "Leading Variable"
@@ -853,50 +856,50 @@ msgstr ""
 
 #: ../wprover/LeadVariableDialog.java:58
 msgid "Variables"
-msgstr "Variablen"
+msgstr "参数"
 
 #: ../wprover/LeadVariableDialog.java:68
 msgid "Reduce"
-msgstr "Reduzieren"
+msgstr "简化"
 
 #: ../wprover/LeadVariableDialog.java:69
 msgid "Detail"
-msgstr "Detail"
+msgstr "详细"
 
 #: ../wprover/LeadVariableDialog.java:70
 msgid "Reload"
-msgstr "Aktualisieren"
+msgstr "重新载入"
 
 #: ../wprover/LeadVariableDialog.java:71 ../wprover/NumCheckDialog.java:89
 msgid "Close"
-msgstr "Schließen"
+msgstr "关闭"
 
 #: ../wprover/LeadVariableDialog.java:243
 #: ../wprover/LeadVariableDialog.java:426
 msgid "Variable"
-msgstr "Variable"
+msgstr "参数"
 
 #: ../wprover/LeadVariableDialog.java:245
 #: ../wprover/LeadVariableDialog.java:333
 msgid "Polynomial"
-msgstr "Polynom"
+msgstr "多项式"
 
 #: ../wprover/LeadVariableDialog.java:376
 msgid "Cut"
-msgstr "Auschneiden"
+msgstr "剪切"
 
 #: ../wprover/LeadVariableDialog.java:377
 msgid "Copy"
-msgstr "Kopieren"
+msgstr "复制"
 
 #: ../wprover/LeadVariableDialog.java:378
 msgid "Paste"
-msgstr "Einfügen"
+msgstr "粘贴"
 
 #: ../wprover/LeadVariableDialog.java:379 ../wprover/MProveTree.java:752
 #: ../wprover/MProveTree.java:756 ../wprover/MProveTree.java:807
 msgid "Delete"
-msgstr "Löschen"
+msgstr "删除"
 
 #: ../wprover/ListTree.java:99
 msgid "Objects"
@@ -904,117 +907,117 @@ msgstr ""
 
 #: ../wprover/MiscDialog.java:40
 msgid "Display"
-msgstr "Anzeige"
+msgstr "显示"
 
 #: ../wprover/MiscDialog.java:42
 msgid "Mode"
-msgstr "Modus"
+msgstr "模式"
 
 #: ../wprover/MiscDialog.java:45 ../wprover/MiscDialog.java:287
 #: ../wprover/vFontChooser.java:108
 msgid "Font"
-msgstr "Schriftart"
+msgstr "字体"
 
 #: ../wprover/MiscDialog.java:46
 msgid "Other"
-msgstr "Andere"
+msgstr "其他"
 
 #: ../wprover/MiscDialog.java:56
 msgid "Save Preference"
-msgstr "Speichere Einstellung"
+msgstr "保存参数"
 
 #: ../wprover/MiscDialog.java:59 ../wprover/CProperty.java:625
 msgid "Default"
-msgstr "Standard"
+msgstr "恢复默认"
 
 #: ../wprover/MiscDialog.java:116
 msgid "Can not Save Preference"
-msgstr "Einstellung kann nicht gespeichert werden"
+msgstr "无法保存参数"
 
 #: ../wprover/MiscDialog.java:119
 msgid "Save Preference Successfully"
-msgstr "Einstellungen erfolgreich gespeichert"
+msgstr "参数被成功保存"
 
 #: ../wprover/MiscDialog.java:120
 msgid "Please restart the program."
-msgstr "Bitte das Programm neu starten."
+msgstr "请重新启动你程序"
 
 #: ../wprover/MiscDialog.java:121
 msgid "Saved"
-msgstr "Gespeichert"
+msgstr "已保存"
 
 #: ../wprover/MiscDialog.java:154
 msgid "Polygon Alpha"
-msgstr ""
+msgstr "填充多边形的透明度"
 
 #: ../wprover/MiscDialog.java:195
 msgid "Radius of Point"
-msgstr "Radius des Punktes"
+msgstr "点的半径"
 
 #: ../wprover/MiscDialog.java:212 ../wprover/MiscDialog.java:468
 msgid "Point's Text"
-msgstr "Text des Punktes"
+msgstr "点的文本"
 
 #: ../wprover/MiscDialog.java:213
 msgid "Default Font"
-msgstr "Standard Schrift"
+msgstr "默认字体"
 
 #: ../wprover/MiscDialog.java:219
 msgid "Choose default foot for point's text"
-msgstr "Wähle den Standardfußpunkt für den Text des Punktes"
+msgstr "为点的文本选择默认的字体"
 
 #: ../wprover/MiscDialog.java:266
 msgid "None"
-msgstr "Nichts"
+msgstr "没有"
 
 #: ../wprover/MiscDialog.java:273
 msgid "Degrees"
-msgstr "Grad"
+msgstr "角度"
 
 #: ../wprover/MiscDialog.java:307
 msgid "Foot Mark"
-msgstr "Fußmarke"
+msgstr "垂足标记"
 
 #: ../wprover/MiscDialog.java:308
 msgid "Show foot mark"
-msgstr "Zeige Fußmarke"
+msgstr "显示垂足标记"
 
 #: ../wprover/MiscDialog.java:378 ../wprover/CProperty.java:624
 msgid "Without Arrow"
-msgstr "Ohne Pfeil"
+msgstr "没有箭头"
 
 #: ../wprover/MiscDialog.java:380 ../wprover/CProperty.java:624
 msgid "With Arrow"
-msgstr "Mit Pfeil"
+msgstr "有箭头"
 
 #: ../wprover/MiscDialog.java:382 ../wprover/CProperty.java:624
 msgid "Multiple Arc"
-msgstr ""
+msgstr "多条弧线"
 
 #: ../wprover/MiscDialog.java:384 ../wprover/CProperty.java:624
 #: ../wprover/CProperty.java:997
 msgid "Fill"
-msgstr "Fülle"
+msgstr "填充角度"
 
 #: ../wprover/MiscDialog.java:399
 msgid "Polygon Moving Interval"
-msgstr "Polygon Bewegungsintervall"
+msgstr "多边形移动速度"
 
 #: ../wprover/MiscDialog.java:486 ../wprover/MProveTree.java:315
 msgid "Theorem"
-msgstr "Satz"
+msgstr "定理"
 
 #: ../wprover/MiscDialog.java:522 ../wprover/PanelProve1.java:2368
 msgid "Area Method"
-msgstr "Flächeninhalt-Methode"
+msgstr "面积法"
 
 #: ../wprover/MiscDialog.java:540
 msgid "Manual Method"
-msgstr "Händische Methode"
+msgstr "手动证明方法"
 
 #: ../wprover/MiscDialog.java:558 ../wprover/PanelProve1.java:373
 msgid "Fixpoint"
-msgstr "Fixpunkt"
+msgstr "不动点"
 
 #: ../wprover/MiscDialog.java:576
 msgid "Algebra"
@@ -1022,11 +1025,11 @@ msgstr ""
 
 #: ../wprover/MiscDialog.java:612
 msgid "Color Mode"
-msgstr "Farbmodus"
+msgstr "颜色模式"
 
 #: ../wprover/MiscDialog.java:615
 msgid "Colorful"
-msgstr "Bunt"
+msgstr "彩色"
 
 #: ../wprover/MiscDialog.java:646
 msgid "BackGroud Color"
@@ -1034,16 +1037,16 @@ msgstr ""
 
 #: ../wprover/MiscDialog.java:652 ../wprover/CProperty.java:998
 msgid "Grid"
-msgstr "Gitter"
+msgstr "网格"
 
 #: ../wprover/MiscDialog.java:700 ../wprover/MiscDialog.java:711
 #: ../wprover/CProperty.java:318
 msgid "Choose Color"
-msgstr "Wähle Farbe"
+msgstr "选择颜色"
 
 #: ../wprover/MiscDialog.java:761
 msgid "AntiAlias"
-msgstr ""
+msgstr "反锯齿"
 
 #: ../wprover/MiscDialog.java:763
 msgid "ON"
@@ -1051,75 +1054,75 @@ msgstr ""
 
 #: ../wprover/MiscDialog.java:764
 msgid "OFF"
-msgstr "Aus"
+msgstr "关"
 
 #: ../wprover/MiscDialog.java:778
 msgid "Language"
-msgstr "Sprache"
+msgstr "语言"
 
 #: ../wprover/MiscDialog.java:802
 msgid "LookAndFeel"
-msgstr "Aussehen"
+msgstr "外观"
 
 #: ../wprover/mproveInputPanel.java:237
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr "编辑"
 
 #: ../wprover/mproveInputPanel.java:260
 msgid "Add"
-msgstr "Addieren"
+msgstr "添加"
 
 #: ../wprover/mproveInputPanel.java:268
 msgid "Append"
-msgstr "Hinzufügen"
+msgstr "附加"
 
 #: ../wprover/mproveInputPanel.java:276
 msgid "Child"
-msgstr "Kind"
+msgstr "子节点"
 
 #: ../wprover/mproveInputPanel.java:1138
 msgid "Basic Assertions"
-msgstr "Grundannahmen"
+msgstr "基本断言"
 
 #: ../wprover/mproveInputPanel.java:1160
 msgid "Polygon Related"
-msgstr "Bezogenes Polygon"
+msgstr "多边形相关"
 
 #: ../wprover/mproveInputPanel.java:1169
 msgid "Inequality"
-msgstr "Ungleichung"
+msgstr "不等式"
 
 #: ../wprover/MProveTree.java:758
 msgid "Delete This Row"
-msgstr "Löschen diese Zeile"
+msgstr "删除整行"
 
 #: ../wprover/MProveTree.java:763
 msgid "Add A New Row"
-msgstr "Eine Zeile addieren"
+msgstr "添加一行"
 
 #: ../wprover/MProveTree.java:767
 msgid "Append A Term"
-msgstr "Einen Term hinzufügen"
+msgstr "尾部添加一项"
 
 #: ../wprover/MProveTree.java:771
 msgid "Combine Selected Rows"
-msgstr "Kombinieren ausgewählte Zeilen"
+msgstr "合并选定的行"
 
 #: ../wprover/ndgDialog.java:31 ../wprover/PanelProve1.java:2424
 msgid "Nondegenerate Conditions"
-msgstr "Nichtdegenerierte Bedingungen"
+msgstr "非退化条件"
 
 #: ../wprover/ndgDialog.java:44
 msgid "The Simplified Nondegenerate Conditions"
-msgstr "Die vereinfachten nichtdegenerierten Bedingungen"
+msgstr "简化后的非退化条件"
 
 #: ../wprover/ndgDialog.java:45
 msgid "The Final Nondegenerate Conditions"
-msgstr "Die letzten nichtdegenerierten Bedingungen"
+msgstr "最终的非退化条件"
 
 #: ../wprover/ndgDialog.java:258 ../wprover/MProveTree.java:1519
 msgid "Construction"
-msgstr "Konstruktion"
+msgstr "构造"
 
 #: ../wprover/ndgDialog.java:259
 msgid "Nondegenerate Condition"
@@ -1127,15 +1130,15 @@ msgstr ""
 
 #: ../wprover/NumCheckDialog.java:30 ../wprover/PanelProve1.java:2410
 msgid "Numerical Check"
-msgstr "Numerischer Check"
+msgstr "数值检测"
 
 #: ../wprover/NumCheckDialog.java:242
 msgid "TRUE"
-msgstr "WAHR"
+msgstr "正确"
 
 #: ../wprover/NumCheckDialog.java:246
 msgid "FALSE"
-msgstr "FALSCH"
+msgstr "错误"
 
 #: ../wprover/panelAlgebric.java:125
 msgid "The Algebraic Form: "
@@ -1143,7 +1146,7 @@ msgstr ""
 
 #: ../wprover/panelGB.java:623
 msgid "The Nondegenerate Conditions"
-msgstr "Die nichtdegenerierte Bedingungen"
+msgstr "非退化条件"
 
 #: ../wprover/panelGB.java:679 ../wprover/panelWu.java:122
 msgid "The Equational Hypotheses:"
@@ -1151,7 +1154,7 @@ msgstr ""
 
 #: ../wprover/panelGB.java:704
 msgid "The Initial Polynomial Set"
-msgstr "Die Menge der Startpolynome"
+msgstr "初始的多项式集合"
 
 #: ../wprover/panelGB.java:709
 msgid "The Groebner Basis: "
@@ -1163,7 +1166,7 @@ msgstr ""
 
 #: ../wprover/panelGB.java:726
 msgid "The Conclution After Reduce:"
-msgstr "Die Folgerung nach Reduktion"
+msgstr "消减以后的结论多项式："
 
 #: ../wprover/panelGB.java:731 ../wprover/panelWu.java:179
 msgid "The conclution is true"
@@ -1175,11 +1178,11 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:673
 msgid "Search facts"
-msgstr "Suche Fakten"
+msgstr ""
 
 #: ../wprover/PanelProve1.java:889
 msgid "Add Conclution"
-msgstr "Füge Schlussfolgerung hinzu"
+msgstr "添加结论"
 
 #: ../wprover/PanelProve1.java:930
 msgid "Time: "
@@ -1191,82 +1194,82 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:993
 msgid "lines"
-msgstr "Geraden"
+msgstr "直线"
 
 #: ../wprover/PanelProve1.java:999
 msgid "parallel lines"
-msgstr "parallele Geraden"
+msgstr "平行线"
 
 #: ../wprover/PanelProve1.java:1005
 msgid "perpendicular lines"
-msgstr "normale Geraden"
+msgstr "垂直线"
 
 #: ../wprover/PanelProve1.java:1011
 msgid "midpoints"
-msgstr "Mittelpunkte"
+msgstr "中点"
 
 #: ../wprover/PanelProve1.java:1017
 msgid "circles"
-msgstr "Kreise"
+msgstr "园"
 
 #: ../wprover/PanelProve1.java:1023
 msgid "congruent segments"
-msgstr "Kongruente Strecken"
+msgstr "线段相等"
 
 #: ../wprover/PanelProve1.java:1030
 msgid "congruent angles"
-msgstr "Kongruente Winkel"
+msgstr "角相等"
 
 #: ../wprover/PanelProve1.java:1042
 msgid "similiar triangles"
-msgstr "ähnliche Dreiecke"
+msgstr "相似三角形"
 
 #: ../wprover/PanelProve1.java:1047
 msgid "congruent triangles"
-msgstr "kongruente Dreiecke"
+msgstr "全等三角形"
 
 #: ../wprover/PanelProve1.java:1054
 msgid "special angles"
-msgstr "spezielle Winkel"
+msgstr "特殊角"
 
 #: ../wprover/PanelProve1.java:1059
 msgid "perp-acong angles"
-msgstr "perp-acong Winkel"
+msgstr "互余角"
 
 #: ../wprover/PanelProve1.java:1067
 msgid "ratio segments"
-msgstr "Verhältnisstrecken"
+msgstr "比例线段"
 
 #: ../wprover/PanelProve1.java:1086
 msgid "Can not find any proof!"
-msgstr "Kann keinen Beweis finden!"
+msgstr "　找不到任何证明"
 
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
 msgid "NO conclution has been set!"
-msgstr "Keine Folgerung wurde eingestellt!"
+msgstr "没有添加结论，无法证明！"
 
 #: ../wprover/PanelProve1.java:1259 ../wprover/PanelProve1.java:1341
 #: ../wprover/PanelProve1.java:1398
 msgid "No conclution"
-msgstr "Keine Folgerung"
+msgstr "　没有结论"
 
 #: ../wprover/PanelProve1.java:1300 ../wprover/PanelProve1.java:1373
 #: ../wprover/PanelProve1.java:1379
 msgid "Message"
-msgstr "Nachricht"
+msgstr "　\t消息"
 
 #: ../wprover/PanelProve1.java:1313
 msgid "Please Construct the Diagram First!"
-msgstr "Konstruiere das Diagramm zuerst!"
+msgstr "需要首先完成作图"
 
 #: ../wprover/PanelProve1.java:1314
 msgid "Diagram Not Completed"
-msgstr "Diagramm nicht komplett"
+msgstr "图形未完成"
 
 #: ../wprover/PanelProve1.java:1372
 msgid "is trivially true"
-msgstr "ist trivial wahr"
+msgstr "显然正确"
 
 #: ../wprover/PanelProve1.java:1378
 msgid " is obviously true  (by hypothesis)"
@@ -1282,37 +1285,36 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:1407
 msgid "Show Detail"
-msgstr "Zeige Detail"
+msgstr "显示细节"
 
 #: ../wprover/PanelProve1.java:1410
 msgid "Failed"
-msgstr "Fehlgeschlagen"
+msgstr "失败"
 
 #: ../wprover/PanelProve1.java:1416
 msgid "The conclusion can not be translated to full-angle expression."
-msgstr ""
-"Die Folgerung kann nicht in einen Vollwinkel-Ausdruck übersetzt werden."
+msgstr "所需要证明的结论无法用全角表示"
 
 #: ../wprover/PanelProve1.java:1417
 msgid "Not Supported"
-msgstr "Nicht unterstützt"
+msgstr "无法证明"
 
 #: ../wprover/PanelProve1.java:2057 ../wprover/PanelProve1.java:2390
 #: ../wprover/PanelProve1.java:2392
 msgid "Prove"
-msgstr "Beweise"
+msgstr "证明"
 
 #: ../wprover/PanelProve1.java:2060
 msgid "Prove in New Tab"
-msgstr "Beweise in neuem Tab"
+msgstr "在新的标签窗口中证明"
 
 #: ../wprover/PanelProve1.java:2064
 msgid "Refresh"
-msgstr "Aktualisieren"
+msgstr "刷新"
 
 #: ../wprover/PanelProve1.java:2067
 msgid "Search A Fact"
-msgstr ""
+msgstr "搜索一个事实"
 
 #: ../wprover/PanelProve1.java:2185
 msgid "File Format Not Supported!"
@@ -1324,15 +1326,15 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:2349
 msgid "Deductive Database Method"
-msgstr "Deduktive Datenbank Methode"
+msgstr "演绎数据库法"
 
 #: ../wprover/PanelProve1.java:2355
 msgid "Full Angle Method"
-msgstr "Methode mit Vollwinkeln"
+msgstr "全角法"
 
 #: ../wprover/PanelProve1.java:2361
 msgid "Traditional Method"
-msgstr "Traditionale Methode"
+msgstr "传统证明方法"
 
 #: ../wprover/PanelProve1.java:2375
 msgid "Grobner Basis Method"
@@ -1340,23 +1342,23 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:2383
 msgid "Wu's Method"
-msgstr "Methode von Wu"
+msgstr "吴方法"
 
 #: ../wprover/PanelProve1.java:2398
 msgid "To Prove"
-msgstr "Zu beweisen"
+msgstr "证明结论"
 
 #: ../wprover/PanelProve1.java:2418
 msgid "Polynomials"
-msgstr "Polynome"
+msgstr "多项式"
 
 #: ../wprover/PanelProve1.java:2431
 msgid "All Solutions"
-msgstr "Alle Lösungen"
+msgstr "所有作图结果"
 
 #: ../wprover/panelWu.java:84 ../wprover/panelWu.java:94
 msgid "Remainder"
-msgstr "Rest"
+msgstr "余项"
 
 #: ../wprover/panelWu.java:146
 msgid "The Triangulized Hypotheses"
@@ -1364,19 +1366,19 @@ msgstr ""
 
 #: ../wprover/panelWu.java:155
 msgid "The Conclution"
-msgstr "Die Folgerung"
+msgstr "结论"
 
 #: ../wprover/panelWu.java:159
 msgid "Successive Pseudo Remainder of CONC wrpt TS :"
-msgstr "Sukzessive Pseudo Rest von COND im Bezug auf TS :"
+msgstr "CONC关于TS依次消减的余项："
 
 #: ../wprover/panelWu.java:168
 msgid "System Run Out Of Memory"
-msgstr "System hat keinen Arbeitsspeicher mehr"
+msgstr "内存不足"
 
 #: ../wprover/panelWu.java:169
 msgid "The Theorem Is Not Proved!"
-msgstr "Der Satz ist nich bewiesen!"
+msgstr "定理未被证明"
 
 #: ../wprover/panelWu.java:169
 msgid "System Run Out of Memory"
@@ -1392,11 +1394,11 @@ msgstr ""
 
 #: ../wprover/RatioSelectDialog.java:27
 msgid "Set the ratio"
-msgstr "Einstellen der Proportion"
+msgstr "设置比例"
 
 #: ../wprover/RatioSelectDialog.java:32
 msgid "Please input two integers"
-msgstr "Bitte gib zwei ganzen Zahlen an"
+msgstr "请输入两个整数"
 
 #: ../wprover/RectChooser.java:36
 msgid " Please Choose The Client Area."
@@ -1404,35 +1406,35 @@ msgstr ""
 
 #: ../wprover/RightClickPopMenu.java:20
 msgid "Cancel Action"
-msgstr "Abbrechen"
+msgstr "取消命令"
 
 #: ../wprover/RightClickPopMenu.java:56
 msgid "Edit Text"
-msgstr "Bearbeiten Textes"
+msgstr "编辑文本"
 
 #: ../wprover/RightClickPopMenu.java:63
 msgid "Freeze"
-msgstr "Einfrieren"
+msgstr "固定点"
 
 #: ../wprover/RightClickPopMenu.java:66
 msgid "Unfreeze"
-msgstr "Auftauen"
+msgstr "解除固定"
 
 #: ../wprover/RightClickPopMenu.java:70
 msgid "Stop Trace"
-msgstr "Spur aus"
+msgstr "停止跟踪"
 
 #: ../wprover/RightClickPopMenu.java:196
 msgid "Font Size"
-msgstr "Schriftgröße"
+msgstr "字体大小"
 
 #: ../wprover/RightClickPopMenu.java:205
 msgid "Plain"
-msgstr "Schlicht"
+msgstr "普通"
 
 #: ../wprover/RightClickPopMenu.java:206 ../wprover/vFontChooser.java:96
 msgid "Bold"
-msgstr "Fett"
+msgstr "粗大"
 
 #: ../wprover/RuleApplicationDialog.java:309 ../wprover/MProveTree.java:1000
 #: ../wprover/MProveTree.java:1001 ../wprover/MProveTree.java:1002
@@ -1443,36 +1445,36 @@ msgstr "Fett"
 #: ../wprover/MProveTree.java:1011 ../wprover/MProveTree.java:1012
 #: ../wprover/MProveTree.java:1013 ../wprover/MProveTree.java:1015
 msgid "because"
-msgstr "weil"
+msgstr ""
 
 #: ../wprover/TextFrame.java:196 ../wprover/TextFrame.java:198
 #: ../wprover/MProveTree.java:1518
 msgid "Text"
-msgstr "Text"
+msgstr "文本"
 
 #: ../wprover/TextValueEditor.java:107
 msgid "Data"
-msgstr "Daten"
+msgstr "数据"
 
 #: ../wprover/TextValueEditor.java:108
 msgid "Function"
-msgstr "Funktion"
+msgstr "函数"
 
 #: ../wprover/TextValueEditor.java:142
 msgid "Coordinates"
-msgstr "Koordinaten"
+msgstr "坐标"
 
 #: ../wprover/Update.java:70 ../wprover/Update.java:120
 msgid "Connection failed: Please check your network connection and try again."
-msgstr "Verbindung nicht erfolgreich: Bitte die Netzwerkverbindung überprüfen."
+msgstr "连接出错：请检查网络然后再尝试连接"
 
 #: ../wprover/Update.java:71 ../wprover/Update.java:121
 msgid "Connection Failed"
-msgstr "Verbindung nicht erfolgreich"
+msgstr "连接出错"
 
 #: ../wprover/Update.java:140 ../wprover/Update.java:150
 msgid "Update Information"
-msgstr "Inforamtionen zur Aktualisierung"
+msgstr "更新信息"
 
 #: ../wprover/Update.java:146
 msgid ""
@@ -1490,11 +1492,11 @@ msgstr ""
 
 #: ../wprover/Update.java:149
 msgid "Press OK to update."
-msgstr "OK klicken zur Aktualisierung"
+msgstr "点击 “确定”开始更新"
 
 #: ../wprover/Update.java:168 ../wprover/Update.java:248
 msgid "JGEX Update"
-msgstr "JGEX Aktualisierung"
+msgstr "JGEX更新"
 
 #: ../wprover/Update.java:189
 msgid "Hide"
@@ -1508,47 +1510,47 @@ msgstr ""
 
 #: ../wprover/vcellRender.java:178 ../wprover/vcellRender.java:395
 msgid "by HYP"
-msgstr "laut Annahme"
+msgstr ""
 
 #: ../wprover/vFontChooser.java:94
 msgid "Font Chooser"
-msgstr "Schriftart auswählen"
+msgstr "选择字体"
 
 #: ../wprover/vFontChooser.java:97
 msgid "Italic"
-msgstr "Kursiv"
+msgstr "意大利"
 
 #: ../wprover/vFontChooser.java:98
 msgid "Underline"
-msgstr "Unterstrichen"
+msgstr "下划线"
 
 #: ../wprover/vFontChooser.java:99
 msgid "Strikethrough"
-msgstr "Durchgestrichen"
+msgstr "删除线"
 
 #: ../wprover/vFontChooser.java:100
 msgid "Subscript"
-msgstr "Tiefgestellt"
+msgstr "下标"
 
 #: ../wprover/vFontChooser.java:101
 msgid "Superscript"
-msgstr "Hochgestellt"
+msgstr "上标"
 
 #: ../wprover/vFontChooser.java:102
 msgid "Preview Font"
-msgstr "Vorschau für Schriftart"
+msgstr "预览字体"
 
 #: ../wprover/vFontChooser.java:111
 msgid "Font name"
-msgstr "Name Schriftart"
+msgstr "字体名称"
 
 #: ../wprover/vFontChooser.java:115
 msgid "Font size"
-msgstr "Größe Schriftart"
+msgstr "字体大小"
 
 #: ../wprover/vFontChooser.java:119
 msgid "Effects"
-msgstr "Effekte"
+msgstr "效果"
 
 #: ../wprover/vFontChooser.java:155
 msgid "Font color"
@@ -1556,15 +1558,15 @@ msgstr ""
 
 #: ../wprover/vFontChooser.java:162
 msgid "Preview"
-msgstr "Vorschau"
+msgstr "预览"
 
 #: ../wprover/vFontChooser.java:171
 msgid "Save and exit"
-msgstr "Speichern und Beenden"
+msgstr "保存并且退出"
 
 #: ../wprover/vFontChooser.java:183
 msgid "Exit without save"
-msgstr "Beenden ohne zu speichern"
+msgstr "不保存退出"
 
 #: ../wprover/AnimatePanel.java:42
 msgid "start the animation"
@@ -1662,11 +1664,11 @@ msgstr ""
 
 #: ../wprover/GExpert.java:856
 msgid "Parallel Line"
-msgstr "Parallele Gerade"
+msgstr "平行线"
 
 #: ../wprover/GExpert.java:857
 msgid "Perpendicular Line"
-msgstr "Normale Gerade"
+msgstr "垂直线"
 
 #: ../wprover/GExpert.java:858
 msgid "Draw an angle bisector"
@@ -1678,11 +1680,11 @@ msgstr ""
 
 #: ../wprover/GExpert.java:860
 msgid "Perp-Bisect Line"
-msgstr ""
+msgstr "中垂线"
 
 #: ../wprover/GExpert.java:861
 msgid "Tangent Line"
-msgstr "Tangente"
+msgstr "切线"
 
 #: ../wprover/GExpert.java:865
 msgid "Draw a circle by a center point and a point on circle"
@@ -1690,7 +1692,7 @@ msgstr ""
 
 #: ../wprover/GExpert.java:867
 msgid "Circle by Radius"
-msgstr "Kreis mit Radius"
+msgstr "固定半径园"
 
 #: ../wprover/GExpert.java:871
 msgid "Intersect to decide a point"
@@ -2063,15 +2065,15 @@ msgstr ""
 
 #: ../wprover/GExpert.java:2361
 msgid "Translate"
-msgstr "Verschieben"
+msgstr "平移"
 
 #: ../wprover/GExpert.java:2364
 msgid "Zoom-in"
-msgstr "Einzoomen"
+msgstr "放大"
 
 #: ../wprover/GExpert.java:2367
 msgid "Zoom-out"
-msgstr "Auszoomen"
+msgstr "缩小"
 
 #: ../wprover/GExpert.java:2371
 msgid "snap"
@@ -2132,7 +2134,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2433 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1363
 msgid "line"
-msgstr "Gerade"
+msgstr "线段"
 
 #: ../wprover/GExpert.java:2437
 msgid "parallel"
@@ -2149,7 +2151,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2453 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1369
 msgid "circle"
-msgstr "Kreis"
+msgstr "园"
 
 #: ../wprover/GExpert.java:2459
 msgid "circle3p"
@@ -2167,7 +2169,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2472 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1388
 msgid "angle"
-msgstr "Winkel"
+msgstr "角"
 
 #: ../wprover/GExpert.java:2476
 msgid "text"
@@ -2192,13 +2194,13 @@ msgstr ""
 #: ../wprover/GExpert.java:2496 ../wprover/GExpert.java:2562
 #: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1372
 msgid "square"
-msgstr "Quadrat"
+msgstr "正方形"
 
 #: ../wprover/GExpert.java:2500 ../wprover/GExpert.java:2531
 #: ../wprover/GExpert.java:2543 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1366
 msgid "triangle"
-msgstr "Dreieck"
+msgstr "三角形"
 
 #: ../wprover/GExpert.java:2539
 msgid "equilateral triangle"
@@ -2207,7 +2209,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2547 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1395
 msgid "quadrangle"
-msgstr "Viereck"
+msgstr "四边形"
 
 #: ../wprover/GExpert.java:2550 ../wprover/GExpert.java:2566
 msgid "pentagon"
@@ -2216,7 +2218,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2553 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1399
 msgid "trapezoid"
-msgstr "Trapez"
+msgstr "五边形"
 
 #: ../wprover/GExpert.java:2556
 msgid "right angle trapezoid"
@@ -2225,7 +2227,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2559 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1392
 msgid "rectangle"
-msgstr "Rechteck"
+msgstr "矩形"
 
 #: ../wprover/MProveTree.java:761 ../wprover/MProveTree.java:817
 msgid "DTR"
@@ -2262,15 +2264,15 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1071
 msgid "In"
-msgstr "In"
+msgstr "在"
 
 #: ../wprover/MProveTree.java:1071
 msgid "and"
-msgstr "und"
+msgstr "并且"
 
 #: ../wprover/MProveTree.java:1072
 msgid "Similarly,"
-msgstr "Analog,"
+msgstr "相似地"
 
 #: ../wprover/MProveTree.java:1072 ../wprover/MProveTree.java:1095
 msgid "????"
@@ -2282,11 +2284,11 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1375
 msgid "area"
-msgstr "Flächeninhalt"
+msgstr "面积"
 
 #: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1378
 msgid "parallelogram"
-msgstr "Parallelogram"
+msgstr "平行四边形"
 
 #: ../wprover/MProveTree.java:1255
 msgid "Please select two points"
@@ -2334,31 +2336,31 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1518
 msgid "Keywords"
-msgstr "Schlusswörter"
+msgstr "关键字"
 
 #: ../wprover/MProveTree.java:1518
 msgid "Symbol"
-msgstr "Symbol"
+msgstr "符号"
 
 #: ../wprover/MProveTree.java:1518
 msgid "Assertion"
-msgstr "Annahme"
+msgstr "断言"
 
 #: ../wprover/MProveTree.java:1519
 msgid "Object"
-msgstr "Objekt"
+msgstr "对象"
 
 #: ../wprover/MProveTree.java:1519
 msgid "Draw"
-msgstr "Zeichnen"
+msgstr "作图"
 
 #: ../wprover/MProveTree.java:1519
 msgid "Equation"
-msgstr "Gleichung"
+msgstr "等式"
 
 #: ../wprover/MProveTree.java:1520 ../wprover/MProveTree.java:1689
 msgid "Rule"
-msgstr "Regel"
+msgstr "规则"
 
 #: ../wprover/MProveTree.java:1549 ../wprover/MProveTree.java:1554
 #: ../wprover/MProveTree.java:1672
@@ -2393,7 +2395,7 @@ msgstr ""
 #: ../wprover/MProveTree.java:1758 ../wprover/MProveTree.java:1759
 #: ../wprover/MProveTree.java:1816
 msgid "Collinear"
-msgstr "Kollinear"
+msgstr "共线"
 
 #: ../wprover/MProveTree.java:1817
 msgid "Eqdistant"
@@ -2401,7 +2403,7 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1817
 msgid "Cyclic"
-msgstr "Zyklisch"
+msgstr "共圆"
 
 #: ../wprover/MProveTree.java:1818
 msgid "Congruent"
@@ -2511,11 +2513,11 @@ msgstr ""
 
 #: ../wprover/CProperty.java:999
 msgid "Vertical Line"
-msgstr "Senkrechte Gerade"
+msgstr "垂直线"
 
 #: ../wprover/CProperty.java:1000
 msgid "Horizontal Line"
-msgstr "Waagerechte Gerade"
+msgstr "水平线"
 
 #: ../wprover/CProperty.java:1263
 msgid "X1 "
@@ -2534,282 +2536,274 @@ msgid "Y2"
 msgstr ""
 
 msgid "Geometry Expert"
-msgstr "Geometry Expert"
+msgstr "几何专家"
 
 msgid "ALine"
-msgstr ""
+msgstr "倍角线"
 
-#, fuzzy
 msgid "ABline"
-msgstr "Gerade"
+msgstr "角平分线"
 
 msgid "Hexagon"
-msgstr "Sechseck"
+msgstr "六边形"
 
 msgid "Nteqangle"
-msgstr ""
+msgstr "Nteqangle"
 
 msgid "Snap"
-msgstr "Fang"
+msgstr "吸附"
 
 msgid "LessGrid"
-msgstr "Weniger Gitter"
+msgstr "网格稀疏"
 
 msgid "MoreGrid"
-msgstr "Mehr Gitter"
+msgstr "网格稠密"
 
 msgid "Redo"
-msgstr "Wiederherstellen"
+msgstr "重复"
 
 msgid "Undo"
-msgstr "Rückgängig"
+msgstr "回退"
 
 msgid "FF"
-msgstr ""
+msgstr "重做至最后"
 
 msgid "FR"
-msgstr ""
+msgstr "回退至最前"
 
 msgid "autoshowstep"
-msgstr ""
+msgstr "自动回放"
 
 msgid "animate_start"
-msgstr "Starte Animation"
+msgstr "播放动画"
 
 msgid "Equal Angle"
-msgstr "Gleicher Winkel"
+msgstr "角相等"
 
 msgid "Similiar Triangle"
-msgstr "Ähnliches Dreieck"
+msgstr "相似三角形"
 
 msgid "Congruent Triangle"
-msgstr "Kongruentes Dreieck"
+msgstr "全等三角形"
 
 msgid "Equalateral Triangle"
-msgstr "Gleichseitiges Dreieck"
+msgstr "正三角形"
 
 msgid "Bisect"
-msgstr "Halbieren"
+msgstr "中垂线"
 
 msgid "Tangent"
-msgstr "Tangente"
+msgstr "相切"
 
 msgid "Equal Product"
-msgstr "Gleiches Produkt"
+msgstr "乘积相等"
 
 msgid "Ratio"
-msgstr "Verhältnis"
+msgstr "比例"
 
 msgid "Special Angle"
-msgstr "Spezieller Winkel"
+msgstr "特殊角"
 
 msgid "Angles Equation"
-msgstr "Gleichung für Winkel"
+msgstr "角度等式"
 
 msgid "Segment Equation"
-msgstr "Gleichung für Strecke"
+msgstr "线段等式"
 
 msgid "NDGs"
-msgstr ""
+msgstr "非退化条件"
 
 msgid "failed"
-msgstr "Fehlgeschalgen"
+msgstr "　\t失败"
 
 msgid "Second(s)"
-msgstr "Zweite"
+msgstr "秒"
 
 msgid "Version"
-msgstr "Version"
+msgstr "版本"
 
 msgid "On"
-msgstr "Ein"
+msgstr "开"
 
 msgid "Change.."
-msgstr "Ändere.."
+msgstr "更改"
 
 msgid "BackGround Color"
-msgstr "Hintergrundfarbe"
+msgstr "背景颜色"
 
 msgid "Change Color"
-msgstr "Ändere Farbe"
+msgstr "改变颜色"
 
 msgid "Point Number"
-msgstr "Punkt Nummer"
+msgstr "点的数目"
 
 msgid "Font Color"
-msgstr "Farbe Schriftart"
+msgstr "字体颜色"
 
 msgid "propline"
-msgstr "propline"
+msgstr "比例点"
 
 msgid "type"
-msgstr "Typ"
+msgstr "类型"
 
 msgid "width"
-msgstr "Breite"
+msgstr "宽度"
 
 msgid "already exists, do you want to overwrite it?"
-msgstr "Existiert bereits, wollen sie überschreiben?"
+msgstr "已经存在，你想覆盖它么？"
 
 msgid "Time to build fixpoint:"
-msgstr "Zeit zum Erstellen des Fixpunktes:"
+msgstr "产生不动点消耗的时间："
 
 msgid "Can not prove this theorem with Deductive Database Method"
-msgstr ""
-"Das Theorem konnte mit den deduktiven Methoden in der Datenbank nicht "
-"bewiesen werden"
+msgstr "无法用演绎数据库方法证明这个定理。"
 
 msgid "is obviously true  (by hypothesis)"
-msgstr "ist augenscheinlich wahr (nach der Hypothese)"
+msgstr "　显然正确（从前提）。"
 
 msgid "Can not prove this theorem."
-msgstr "Das Theorem kann nicht bewiesen werden."
+msgstr "无法证明这个定理。"
 
 msgid "Proof text"
-msgstr "Text Beweis"
+msgstr "显示证明文本"
 
 msgid "Built on"
-msgstr "Erstellt auf"
+msgstr "发布时间"
 
 msgid "JDK Version:"
-msgstr "JDK Version:"
+msgstr "JDK 版本"
 
 msgid "The user may download and distribute it freely."
-msgstr "Der Nutzer kann es kostenlos herunterladen und weitergeben."
+msgstr "用户可以自由地下载和发布它"
 
 msgid "However, JGEX is an educational tool, not intended for commercial use."
-msgstr ""
-"JGEX ist ein Werkzeug zum Einsatz in der Ausbildung und ist nicht für "
-"kommerzielle Zwecke gedacht."
+msgstr "然而，几何专家软件是一个教育软件，不能用作商业用途。"
 
 msgid "Author:"
-msgstr "Autor:"
+msgstr "作者"
 
 msgid ""
 "The two lines you selected are parallel, \n"
 " don't have any intersection!"
-msgstr ""
-"Die beiden ausgewählten Geraden sind parallel, \n"
-" haben keinen Schnittpunkt!"
+msgstr "你选择的两条线是平行的，没有任何交点"
 
 msgid "The line and the circle you selected don't have any intersection!"
-msgstr "Die ausgewählte Gerade und Kreis haben keinen Schnittpunkt!"
+msgstr "你选择的直线和圆没有交点"
 
 msgid ""
 "The two objects you selected already have two points as their intersections!"
-msgstr "Die beiden ausgewählten Objekte besitzen bereits zwei"
+msgstr "你所选择的两个元素已近有两个交点已经定义"
 
 msgid "Nothing to be saved"
-msgstr "Nichts zu speichern"
+msgstr "无需存盘"
 
 msgid "File Format Not Supported"
-msgstr "Dateiformat nicht unterstützt"
+msgstr "文件格式不支持!"
 
 msgid "Free Point"
-msgstr "Freier Punkt"
+msgstr "自由点"
 
 msgid "The Algebraic Form:"
-msgstr "Die algebraische Form:"
+msgstr "代数形式"
 
 msgid "The coordinates"
-msgstr "Die Koordinaten"
+msgstr "坐标"
 
 msgid "The equational hypotheses:"
-msgstr "Die Gleichheitshypothesen:"
+msgstr "等价的多项式"
 
 msgid "The Triangulized Hypotheses:"
-msgstr "Die triangularisierten Hypothesen:"
+msgstr "三角化之后的多项式"
 
 msgid "The Conclution is false"
-msgstr "Die Folgerung ist falsch"
+msgstr "结论是不对的"
 
 msgid "The Conclution is true"
-msgstr "Die Folgerung ist wahr"
+msgstr "结论是正确的"
 
 msgid "The Conclution is not proved"
-msgstr "Die Folgerung ist nicht bewiesen"
+msgstr "结论没有被证明"
 
 msgid "The Groebner Basis:"
-msgstr "Die Gröbnerbasis"
+msgstr "Groebner基："
 
 msgid "The theorem is not proved with the Deductive Database Method!"
-msgstr "Der Satz ist nich bewiesen mit der deduktiven Datenbankmethode!"
+msgstr "定理没有被证明！"
 
 msgid "The theorem is not proved with The Full-Angle Method."
-msgstr "Der Satz ist nich bewiesen mit der Vollwinkel-Methode."
+msgstr "定理没有被证明！"
 
 msgid "Use the LEFT button to select a position"
-msgstr "Nutze die LINKS Taste um eine Position zu wählen"
+msgstr "左键选择一个位置"
 
 msgid "Select two points to determine a line"
-msgstr "Wähle zwei Punkte um eine Gerade anzugeben"
+msgstr "选择两个点来确定一条直线"
 
 msgid "Please Choose the Client Area"
-msgstr "Bitte wähle Bereich"
+msgstr "请选择客户区"
 
 msgid "No animation has been defined"
-msgstr "Keine Animation wurde definiert"
+msgstr "你还没有定义动画"
 
 msgid ""
 "Please use the menu \" Action -> Animation \" to define an animation first"
-msgstr ""
-"Bitte nutze das Menü \" Aktion -> Animation \" um eine Animation erst zu "
-"definieren"
+msgstr "请使用菜单“操作 -> 动画”先定义一个动画！"
 
 msgid "GIF Opt on"
-msgstr "GIF Opt ein"
+msgstr ""
 
 msgid "Groebner Basis Method"
-msgstr "Methode mit Gröbnerbasen"
+msgstr "Groebner基方法"
 
 msgid "Because"
-msgstr "Weil"
+msgstr "因为"
 
 msgid "Hence"
-msgstr "So"
+msgstr "所以"
 
 msgid "Given:"
-msgstr "Gegeben:"
+msgstr "给定"
 
 msgid "To Prove:"
-msgstr "Zu zeigen:"
+msgstr "证明"
 
 msgid "Q.E.D."
-msgstr "Q.E.D."
+msgstr "证明毕"
 
 msgid "The number of points to be selected:"
-msgstr "Wähle die Anzahl der Punkte:"
+msgstr "需要选择的点的数目："
 
 msgid "X coordinate"
-msgstr "X-Koordinate"
+msgstr ""
 
 msgid "Y coordinate"
-msgstr "Y-Koordinate"
-
-msgid "Error"
-msgstr "Fehler"
-
-msgid "New version available, do you want to update now?"
-msgstr "Neue Version verfügbar. Möchten sie aktualisieren?"
-
-msgid "Your current JGEX version:"
-msgstr "Aktuelle JGEX Version:"
-
-msgid "Available JGEX version:"
-msgstr "Verfügbare JGEX Version:"
-
-msgid "File Downloaded"
-msgstr "Datei Download"
-
-msgid ""
-"File downloaded! \n"
-"To update JGEX, we will exit the program and start again"
 msgstr ""
-"Datei heruntergeladen! \n"
-"Zum Aktualisieren von JGEX wird das Programm beendet und neu gestartet."
 
-msgid "Algebra Method"
-msgstr "Algebraische Methode"
+#~ msgid "Error"
+#~ msgstr "错误"
 
-msgid "Fact"
-msgstr "Tatsache"
+#~ msgid "Java Geometry Expert is free under GNU General Public License(GPL)."
+#~ msgstr "几何专家软件使用 GNU 通用公共授权，是一款免费软件。"
+
+#~ msgid "New version available, do you want to update now?"
+#~ msgstr "服务器上有新版本可用，你想现在就更新么？"
+
+#~ msgid "Your current JGEX version:"
+#~ msgstr "当前的版本是"
+
+#~ msgid "Available JGEX version:"
+#~ msgstr "最新版本是"
+
+#~ msgid "File Downloaded"
+#~ msgstr "文件已下载"
+
+#~ msgid ""
+#~ "File downloaded! \n"
+#~ "To update JGEX, we will exit the program and start again"
+#~ msgstr "文件已经下载，更新JGEX需要重新启动当前程序"
+
+#~ msgid "Algebra Method"
+#~ msgstr "代数方法"
+
+#~ msgid "Fact"
+#~ msgstr "事实"

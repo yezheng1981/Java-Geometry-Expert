@@ -22,6 +22,7 @@ public class Language {
         return "English".equalsIgnoreCase(stype);
     }
 
+    // TODO: This is not used. Remove.
     public void setLocal() {
         if (stype.equalsIgnoreCase("Chinese"))
             Locale.setDefault(Locale.SIMPLIFIED_CHINESE);

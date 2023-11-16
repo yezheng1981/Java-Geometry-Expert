@@ -356,7 +356,7 @@ Font: Dialog # 0 # 14
 1025 #	The selected two line don't have intersected point # As duas linhas selecionadas não têm ponto de interseção
 1026 #	No Intersected point # Nenhum ponto de interseção
 1027 #	Angle Specification must be done before drawing anything # Você deve especificar o ângulo antes de desenhar qualquer coisa
-1028 #	The two lines you selected are parallel, \n don't have any intersection! # As duas linhas que você selecionou são paralelas, \ n não têm interseção!
+1028 #	The two lines you selected are parallel, \n don't have any intersection! # As duas linhas que você selecionou são paralelas, \n não têm interseção!
 1029 #	No intersection # Nenhuma interseção
 1030 #	The line and the circle you selected don't have any intersection! # A linha e o círculo que você selecionou não têm interseção!
 1031 #	The two objects you selected already have two points as their intersections! # Os dois objetos que você selecionou já têm dois pontos como interseções!
@@ -376,7 +376,7 @@ Font: Dialog # 0 # 14
 1060 # Update Information			# Atualizar informações 
 1061 # JGEX Update				# Atualização JGEX
 1062 # File Downloaded				# Arquivo baixado
-1063 # File downloaded! \nTo update JGEX, we will exit the program and start again # Arquivo baixado! \ n Para atualizar o JGEX, sairemos do programa e reiniciaremos
+1063 # File downloaded! \nTo update JGEX, we will exit the program and start again # Arquivo baixado! \n Para atualizar o JGEX, sairemos do programa e reiniciaremos
 1070 # Authors # Autores
 
 	* End of Tips

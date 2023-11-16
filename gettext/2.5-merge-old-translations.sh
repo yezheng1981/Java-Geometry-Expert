@@ -2,6 +2,8 @@
 
 # Extract old translations for all configured languages, use JGEX's *.lan files and take the third column.
 
+set -e
+
 . settings.conf
 
 for i in $SUPPORTED_LANGUAGES; do
@@ -12,6 +14,18 @@ for i in $SUPPORTED_LANGUAGES; do
    ;;
   rs)
    l=Serbian
+   ;;
+  pt)
+   l=Portuguese
+   ;;
+  zh_CN)
+   l=Chinese
+   ;;
+  it)
+   l=Italian
+   ;;
+  fa)
+   l=Persian
    ;;
  esac
 
