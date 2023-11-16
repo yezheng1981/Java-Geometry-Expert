@@ -32,6 +32,7 @@ apps:
 
 parts:
   jgex:
+    build-packages: [gettext]
     source: https://github.com/kovzol/Java-Geometry-Expert.git
     plugin: ant
     ant-build-targets: [init, build, copy-resources]
