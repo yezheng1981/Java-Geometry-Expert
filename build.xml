@@ -70,7 +70,6 @@
             </classpath>
         </javac>
 
-        <!-- FIXME: This works only on Linux/Mac. Consider porting this to Windows. -->
         <exec osfamily="unix" executable="/bin/bash" dir="gettext">
                 <arg value="4-create-resources.sh"/>
         </exec>
