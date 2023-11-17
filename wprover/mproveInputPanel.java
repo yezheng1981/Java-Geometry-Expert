@@ -98,7 +98,7 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
     public String getLanguage(int n, String s) {
         String s1 = "";
         if (gxInstance != null)
-            s1 = GExpert.getLanguage(n);
+            s1 = GExpert.getLanguage(s); // avoid using the number n, instead, use the string
         if (s1 != null && s1.length() > 0)
             return s1;
         return s;

@@ -331,7 +331,7 @@ public class MProveTree extends JTree implements ActionListener {
     public String getLanguage(int n, String s) {
         String s1 = "";
         if (gxInstance != null)
-            s1 = gxInstance.getLanguage(n);
+            s1 = gxInstance.getLanguage(s); // avoid using the number n, instead, use the string
         if (s1 != null && s1.length() > 0)
             return s1;
         return s;

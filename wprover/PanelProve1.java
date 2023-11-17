@@ -1224,7 +1224,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
     public String getLanguage(int n, String s) {
         String s1 = "";
         if (gxInstance != null)
-            s1 = gxInstance.getLanguage(n);
+            s1 = gxInstance.getLanguage(s); // avoid using number n, instead, always use the string
         if (s1 != null && s1.length() > 0)
             return s1;
         return s;
