@@ -68,11 +68,17 @@
   </tr>
 </table>
 
-<p><strong>How to install & develop</strong></p>
-It is suggested to use Netbeans or IntelliJ IDEA to open Java Geometry Expert. The main class is in wprover. GExpert.
-The build.xml contains all the scripts to build the jar file. If you choose to run "all", this will do the compile,
-copy resources, generate jar file. You can also choose to generate applet for web use (unfortunately it's not supported
-anymore by the browser).
+<p><strong>How to install and develop</strong></p>
+<p>It is suggested using IntelliJ IDEA to open Java Geometry Expert. The main class is in wprover.GExpert.
+The build.xml file (an Ant script) contains all the scripts to build the jar file. If you choose to run "all", this will do the compile,
+copy resources, generate jar file. (Alternatively, you can run <code>ant all</code> on command line.)
+You can also choose to generate an applet for web use (unfortunately this technology is not supported
+anymore by most browsers).</p>
+<p>The newest versions of JGEX use the gettext internationalization system for translating the texts.
+You need to install the gettext utility before starting a build. The msgfmt utility must be available in the system path.</p>
+<p>JGEX uses a couple of additional third-party libraries, including graph-support (which requires slf4j and logback) and
+batik (which uses xml-apis and xmlgraphics). A binary version of these libraries are included in the lib folder.
+</p>
 </div>
 
 <p><strong>About this fork</strong></p>
