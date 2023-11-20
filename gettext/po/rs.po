@@ -796,10 +796,6 @@ msgstr ""
 msgid "The diagram has been changed, do you want to save it?"
 msgstr "Dijagram je promenjen, želite li da ga sačuvate?"
 
-#: ../wprover/GExpert.java:1930
-msgid " already exists, do you want to overwrite it?"
-msgstr ""
-
 #: ../wprover/GExpert.java:1931
 msgid "File exists"
 msgstr "Datoteka postoji"
@@ -2653,7 +2649,9 @@ msgstr "Tip"
 msgid "width"
 msgstr "Širina"
 
-msgid "already exists, do you want to overwrite it?"
+#: ../wprover/GExpert.java:1930
+#, fuzzy
+msgid "{0} already exists, do you want to overwrite it?"
 msgstr "Već postoji, želite li da je prepišete?"
 
 msgid "Time to build fixpoint:"
@@ -2787,36 +2785,36 @@ msgstr "X koordinata"
 msgid "Y coordinate"
 msgstr "Y koordinata"
 
-msgid "Other..."
-msgstr "Ostalo..."
+#~ msgid "Other..."
+#~ msgstr "Ostalo..."
 
-msgid "Change..."
-msgstr "Izmena..."
+#~ msgid "Change..."
+#~ msgstr "Izmena..."
 
-msgid "Error"
-msgstr "Greška"
+#~ msgid "Error"
+#~ msgstr "Greška"
 
-msgid "New version available, do you want to update now?"
-msgstr "Nova verzija je dostupna, želite li ažurirati sada?"
+#~ msgid "New version available, do you want to update now?"
+#~ msgstr "Nova verzija je dostupna, želite li ažurirati sada?"
 
-msgid "Your current JGEX version:"
-msgstr "trenutna JGEX verzija:\""
+#~ msgid "Your current JGEX version:"
+#~ msgstr "trenutna JGEX verzija:\""
 
-msgid "Available JGEX version:"
-msgstr "raspoloživa JGEX verzija:"
+#~ msgid "Available JGEX version:"
+#~ msgstr "raspoloživa JGEX verzija:"
 
-msgid "File Downloaded"
-msgstr "Datoteka je preuzeta!"
+#~ msgid "File Downloaded"
+#~ msgstr "Datoteka je preuzeta!"
 
-msgid ""
-"File downloaded! \n"
-"To update JGEX, we will exit the program and start again"
-msgstr ""
-"Datoteka je preuzeta! \n"
-"Da biste ažurirali JGEX, izlazimo iz programa i ponovo ga pokrećemo."
+#~ msgid ""
+#~ "File downloaded! \n"
+#~ "To update JGEX, we will exit the program and start again"
+#~ msgstr ""
+#~ "Datoteka je preuzeta! \n"
+#~ "Da biste ažurirali JGEX, izlazimo iz programa i ponovo ga pokrećemo."
 
-msgid "Algebra Method"
-msgstr "Metoda površina"
+#~ msgid "Algebra Method"
+#~ msgstr "Metoda površina"
 
-msgid "Fact"
-msgstr "Činjenica"
+#~ msgid "Fact"
+#~ msgstr "Činjenica"

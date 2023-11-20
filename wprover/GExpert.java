@@ -1148,6 +1148,10 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public static String getTranslationViaGettext(String s) {
+        return getTranslationViaGettext(s, null);
+    }
+
+    public static String getTranslationViaGettext(String s, String p) {
         Locale loc = Locale.getDefault();
 
         if (GExpert.lan.equals("Chinese"))
@@ -1166,7 +1170,12 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         I18n i18n = I18nFactory.getI18n(GExpert.class,
                 loc, org.xnap.commons.i18n.I18nFactory.FALLBACK);
 
-        String gettextTranslation = i18n.tr(s);
+        String gettextTranslation;
+        if (p == null) {
+            gettextTranslation = i18n.tr(s);}
+        else {
+            gettextTranslation = i18n.tr(s, p);
+        }
         if (gettextTranslation != null && !gettextTranslation.equals(""))
             return gettextTranslation;
         return null;
@@ -1963,7 +1972,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
     public boolean get_User_Overwrite_Option(String name) {
         if (JOptionPane.OK_OPTION != JOptionPane.showConfirmDialog(this,
-                name + getLanguage(1002, " already exists, do you want to overwrite it?"),
+                getTranslationViaGettext("{0} already exists, do you want to overwrite it?", name),
                 getLanguage(1001, "File exists"), JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE)) {
             return true;
         }
@@ -3156,8 +3165,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                 file = new File(path + ".pdf");
             }
             if (file.exists()) {
-                int n2 = JOptionPane.showConfirmDialog(this, file.getName()
-                                + " already exists, do you want to overwrite?",
+                int n2 = JOptionPane.showConfirmDialog(this,
+                                getTranslationViaGettext("{0} already exists, do you want to overwrite it?", file.getName()),
                         "File Exists", JOptionPane.YES_NO_CANCEL_OPTION);
                 if (n2 != JOptionPane.YES_OPTION) {
                     return;

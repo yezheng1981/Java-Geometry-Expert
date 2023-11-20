@@ -793,10 +793,6 @@ msgstr ""
 msgid "The diagram has been changed, do you want to save it?"
 msgstr ""
 
-#: ../wprover/GExpert.java:1930
-msgid " already exists, do you want to overwrite it?"
-msgstr ""
-
 #: ../wprover/GExpert.java:1931
 msgid "File exists"
 msgstr ""
@@ -2649,7 +2645,8 @@ msgstr ""
 msgid "width"
 msgstr ""
 
-msgid "already exists, do you want to overwrite it?"
+#: ../wprover/GExpert.java:1930
+msgid "{0} already exists, do you want to overwrite it?"
 msgstr ""
 
 msgid "Time to build fixpoint:"

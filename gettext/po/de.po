@@ -790,10 +790,6 @@ msgstr ""
 msgid "The diagram has been changed, do you want to save it?"
 msgstr "Das Diagramm wurde geändert, wollen sie speichern?"
 
-#: ../wprover/GExpert.java:1930
-msgid " already exists, do you want to overwrite it?"
-msgstr ""
-
 #: ../wprover/GExpert.java:1931
 msgid "File exists"
 msgstr "Datei existiert"
@@ -2648,8 +2644,9 @@ msgstr "Typ"
 msgid "width"
 msgstr "Breite"
 
-msgid "already exists, do you want to overwrite it?"
-msgstr "Existiert bereits, wollen sie überschreiben?"
+#: ../wprover/GExpert.java:1930
+msgid "{0} already exists, do you want to overwrite it?"
+msgstr "{0} existiert bereits, wollen Sie sie überschreiben?"
 
 msgid "Time to build fixpoint:"
 msgstr "Zeit zum Erstellen des Fixpunktes:"
@@ -2786,30 +2783,30 @@ msgstr "X-Koordinate"
 msgid "Y coordinate"
 msgstr "Y-Koordinate"
 
-msgid "Error"
-msgstr "Fehler"
+#~ msgid "Error"
+#~ msgstr "Fehler"
 
-msgid "New version available, do you want to update now?"
-msgstr "Neue Version verfügbar. Möchten sie aktualisieren?"
+#~ msgid "New version available, do you want to update now?"
+#~ msgstr "Neue Version verfügbar. Möchten sie aktualisieren?"
 
-msgid "Your current JGEX version:"
-msgstr "Aktuelle JGEX Version:"
+#~ msgid "Your current JGEX version:"
+#~ msgstr "Aktuelle JGEX Version:"
 
-msgid "Available JGEX version:"
-msgstr "Verfügbare JGEX Version:"
+#~ msgid "Available JGEX version:"
+#~ msgstr "Verfügbare JGEX Version:"
 
-msgid "File Downloaded"
-msgstr "Datei Download"
+#~ msgid "File Downloaded"
+#~ msgstr "Datei Download"
 
-msgid ""
-"File downloaded! \n"
-"To update JGEX, we will exit the program and start again"
-msgstr ""
-"Datei heruntergeladen! \n"
-"Zum Aktualisieren von JGEX wird das Programm beendet und neu gestartet."
+#~ msgid ""
+#~ "File downloaded! \n"
+#~ "To update JGEX, we will exit the program and start again"
+#~ msgstr ""
+#~ "Datei heruntergeladen! \n"
+#~ "Zum Aktualisieren von JGEX wird das Programm beendet und neu gestartet."
 
-msgid "Algebra Method"
-msgstr "Algebraische Methode"
+#~ msgid "Algebra Method"
+#~ msgstr "Algebraische Methode"
 
-msgid "Fact"
-msgstr "Tatsache"
+#~ msgid "Fact"
+#~ msgstr "Tatsache"

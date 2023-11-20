@@ -4,6 +4,9 @@
 
 set -e
 
+echo "This script is obsoleted. Don't use the *.lan files anymore: they are already collected."
+exit 2
+
 . settings.conf
 
 for i in $SUPPORTED_LANGUAGES; do
