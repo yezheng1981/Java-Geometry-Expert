@@ -7,8 +7,8 @@
 set -e
 
 test -r po/keys.pot && {
- echo "The file po/keys.pot already exists. Remove it if you want to recreate it."
- exit 1
+ echo "The file po/keys.pot already exists. Remove it if you want to recreate it, but this script is obsoleted, anyway."
+ exit 2
  }
 
 . package-version.sh

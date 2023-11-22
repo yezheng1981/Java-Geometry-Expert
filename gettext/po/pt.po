@@ -408,15 +408,6 @@ msgstr "Transporte de segmento ortogonal"
 msgid "Oriented Segment * Ratio"
 msgstr "Transporte de segmento paralelo * proporção"
 
-#: ../wprover/GExpert.java:820 ../wprover/GExpert.java:826
-#: ../wprover/GExpert.java:835 ../wprover/GExpert.java:916
-msgid "1 : 2"
-msgstr ""
-
-#: ../wprover/GExpert.java:821 ../wprover/GExpert.java:827
-msgid "2 : 1"
-msgstr ""
-
 #: ../wprover/GExpert.java:822 ../wprover/GExpert.java:828
 #: ../wprover/GExpert.java:839 ../wprover/GExpert.java:898
 #: ../wprover/GExpert.java:918
@@ -430,22 +421,6 @@ msgstr "Transporte de segmento ortogonal* proporção"
 #: ../wprover/GExpert.java:832 ../wprover/HelpMode.java:54
 msgid "Proportional Segment"
 msgstr "Segmento proporcional"
-
-#: ../wprover/GExpert.java:834 ../wprover/GExpert.java:915
-msgid "1 : 1"
-msgstr ""
-
-#: ../wprover/GExpert.java:836 ../wprover/GExpert.java:917
-msgid "1 : 3"
-msgstr ""
-
-#: ../wprover/GExpert.java:837
-msgid "1 : 4"
-msgstr ""
-
-#: ../wprover/GExpert.java:838
-msgid "1 : 5"
-msgstr ""
 
 #: ../wprover/GExpert.java:844 ../wprover/HelpMode.java:43
 #: ../wprover/MProveTree.java:1817
@@ -576,38 +551,6 @@ msgstr "Pentágono"
 msgid "Special Angles"
 msgstr "Ângulos Especiais"
 
-#: ../wprover/GExpert.java:890
-msgid "15"
-msgstr ""
-
-#: ../wprover/GExpert.java:891 ../wprover/CProperty.java:1094
-msgid "30"
-msgstr ""
-
-#: ../wprover/GExpert.java:892
-msgid "45"
-msgstr ""
-
-#: ../wprover/GExpert.java:893
-msgid "60"
-msgstr ""
-
-#: ../wprover/GExpert.java:894
-msgid "75"
-msgstr ""
-
-#: ../wprover/GExpert.java:895
-msgid "90"
-msgstr ""
-
-#: ../wprover/GExpert.java:896
-msgid "115"
-msgstr ""
-
-#: ../wprover/GExpert.java:897
-msgid "120"
-msgstr ""
-
 #: ../wprover/GExpert.java:903
 msgid "Constraint"
 msgstr "Restrições"
@@ -670,24 +613,6 @@ msgstr "Vetor"
 #: ../wprover/GExpert.java:934 ../wprover/HelpMode.java:106
 msgid "Equal Mark"
 msgstr "Marca Igual"
-
-#: ../wprover/GExpert.java:935 ../wprover/CProperty.java:905
-#: ../wprover/CProperty.java:960 ../wprover/CProperty.java:961
-#: ../wprover/CProperty.java:1095
-msgid "1"
-msgstr ""
-
-#: ../wprover/GExpert.java:936
-msgid "2"
-msgstr ""
-
-#: ../wprover/GExpert.java:937
-msgid "3"
-msgstr ""
-
-#: ../wprover/GExpert.java:938
-msgid "4"
-msgstr ""
 
 #: ../wprover/GExpert.java:940 ../wprover/HelpMode.java:107
 msgid "Right-angle Mark"
@@ -2270,14 +2195,6 @@ msgstr "e"
 msgid "Similarly,"
 msgstr "Similarmente"
 
-#: ../wprover/MProveTree.java:1072 ../wprover/MProveTree.java:1095
-msgid "????"
-msgstr ""
-
-#: ../wprover/MProveTree.java:1173
-msgid "NULL"
-msgstr ""
-
 #: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1375
 msgid "area"
 msgstr "área"
@@ -2465,18 +2382,6 @@ msgstr ""
 msgid "Convex"
 msgstr ""
 
-#: ../wprover/MProveTree.java:1889 ../wprover/MProveTree.java:2046
-#: ../wprover/MProveTree.java:1893 ../wprover/MProveTree.java:1895
-#: ../wprover/MProveTree.java:1897 ../wprover/MProveTree.java:1899
-#: ../wprover/MProveTree.java:1901 ../wprover/MProveTree.java:1905
-#: ../wprover/MProveTree.java:1907 ../wprover/MProveTree.java:1903
-#: ../wprover/MProveTree.java:1909 ../wprover/MProveTree.java:1911
-#: ../wprover/MProveTree.java:1913 ../wprover/MProveTree.java:2031
-#: ../wprover/MProveTree.java:2037 ../wprover/MProveTree.java:2039
-#: ../wprover/MProveTree.java:2124
-msgid ","
-msgstr ""
-
 #: ../wprover/MProveTree.java:2053 ../wprover/MProveTree.java:2056
 msgid "massertion type:"
 msgstr ""
@@ -2488,11 +2393,6 @@ msgstr ""
 
 #: ../wprover/CProperty.java:58
 msgid "Dialog"
-msgstr ""
-
-#: ../wprover/CProperty.java:383 ../wprover/CProperty.java:384
-#: ../wprover/CProperty.java:385 ../wprover/CProperty.java:393
-msgid ":   "
 msgstr ""
 
 #: ../wprover/CProperty.java:625
