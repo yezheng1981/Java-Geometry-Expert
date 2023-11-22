@@ -8,6 +8,7 @@ set -e
 
 test -r po/keys.pot && {
  echo "The file po/keys.pot already exists. Remove it if you want to recreate it, but this script is obsoleted, anyway."
+ # FIXME: Check -kshowMessageDialog:2 and -kshowMessageDialog:3
  exit 2
  }
 

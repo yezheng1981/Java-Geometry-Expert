@@ -706,7 +706,7 @@ public class panelGB extends panelAlgebric implements MouseListener {
 
         String s1 = poly.printSPoly(mc);
 
-        addString2(getLanguage(1115, "The Groebner Basis: ") + "GB = ");
+        addString2(getLanguage(1115, "The Groebner basis:") + "GB = ");
 //        addString2("GB = ");
         Vector v = dp.getPBMono();
 
@@ -720,10 +720,10 @@ public class panelGB extends panelAlgebric implements MouseListener {
         pp = v;
 
         String s2 = poly.printSPoly(mc);
-        addString2(getLanguage(1105, "The Conclution: "));
+        addString2(getLanguage(1105, "The conclution:"));
         addString1(sc + "\n");
         addString(s1);
-        addString2(getLanguage(1117, "The Conclution After Reduce:"));
+        addString2(getLanguage(1117, "The conclution after reduce:"));
         addString(s2);
 
         if (mc == null) {

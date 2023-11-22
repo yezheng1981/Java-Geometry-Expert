@@ -68,11 +68,11 @@ public class GProver implements Runnable {
                 ee.printStackTrace();
             CMisc.print(ee.getMessage());
             if (gxInstance != null)
-                gxInstance.setTextLabel2("System run out of memory!", -1);
+                gxInstance.setTextLabel2("System run out of memory", -1);
             Prover.reset();
             isRunning = false;
             JOptionPane.showMessageDialog(gxInstance,
-                    "System run out of memory!\n The theorem is not proved.",
+                    "System run out of memory!\nThe theorem is not proved.",
                     "Not Proved", JOptionPane.WARNING_MESSAGE);
 
         } catch (Error ee) {

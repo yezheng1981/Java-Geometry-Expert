@@ -194,8 +194,8 @@ final public class Cm {
     final public static String P_I_AA = "INTERSECTION_AA";
     final public static String P_SQUARE = "SQUARE";
 
-    final public static String P_SHOW = "Show:  ";
-    final public static String P_SHOWD = "To Prove:  ";
+    final public static String P_SHOW = "Show: ";
+    final public static String P_SHOWD = "To Prove: ";
 
 
     final public static String DR_WPT = "WPT";

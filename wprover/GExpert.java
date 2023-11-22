@@ -86,6 +86,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     public String _command;
     public static String lan = null;
 
+    public static I18n i18n;
+
     public GExpert() {
         super();  //GAPPLET.
         if (CMisc.isApplication())
@@ -197,6 +199,26 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         Language.setLanugage(language);
         System.out.println("Language loaded: "+CMisc.lan);
         lan = CMisc.lan; //setting lan to current language so RuleList can read it.
+
+        // Set gettext based internationalization:
+        Locale loc = Locale.getDefault();
+
+        if (GExpert.lan.equals("Chinese"))
+            loc = Locale.SIMPLIFIED_CHINESE;
+        if (GExpert.lan.equals("German"))
+            loc = Locale.GERMAN;
+        if (GExpert.lan.equals("Italian"))
+            loc = Locale.ITALIAN;
+        if (GExpert.lan.equals("Persian"))
+            loc = new Locale("fa", "");
+        if (GExpert.lan.equals("Portuguese"))
+            loc = new Locale("pt", "");
+        if (GExpert.lan.equals("Serbian"))
+            loc = new Locale("rs", "");
+
+        i18n = I18nFactory.getI18n(GExpert.class,
+                loc, org.xnap.commons.i18n.I18nFactory.FALLBACK);
+        JOptionPane.setDefaultLocale(loc);
     }
 
     public void initAttribute() {
@@ -779,7 +801,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         addImageToItem(item);
 
         menu.addSeparator();
-        item = addAMenu(menu, "Print", "Print the client Aream", 'P', this);
+        item = addAMenu(menu, "Print", "Print the client area", 'P', this);
         addImageToItem(item, "print");
         menu.addSeparator();
         item = addAMenu(menu, "Exit", "Exit", 'X', this);
@@ -820,24 +842,25 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
         addRadioButtonMenuItem(s1, "1 : 2", null, this, "Oriented Segment");
         addRadioButtonMenuItem(s1, "2 : 1", null, this, "Oriented Segment");
-        addRadioButtonMenuItem(s1, "Other..", "Input your own ratio", this, "Oriented Segment");
+        addRadioButtonMenuItem(s1, "Other...", "Input your own ratio", this, "Oriented Segment");
         menu.add(s1);
 
         JMenu s2 = new JMenu(getLanguage("Oriented T Segment * Ratio"));
         addRadioButtonMenuItem(s2, "1 : 2", null, this, "o_t_segment");
         addRadioButtonMenuItem(s2, "2 : 1", null, this, "o_t_segment");
-        addRadioButtonMenuItem(s2, "Other..", "Input your own ratio", this, "o_t_segment");
+        addRadioButtonMenuItem(s2, "Other...", "Input your own ratio", this, "o_t_segment");
         menu.add(s2);
 
         menu.addSeparator();
         JMenu sub = new JMenu(getLanguage("Proportional Segment"));
 //        addRadioButtonMenuItem(sub, "1 : -1", "Click two points to get a point with ratio 1:1", this, "propline");
-        addRadioButtonMenuItem(sub, "1 : 1", "Click two points to get a point with ratio 1:1", this, "propline");
-        addRadioButtonMenuItem(sub, "1 : 2", "Click two points to get a point with ratio 1:2", this, "propline");
-        addRadioButtonMenuItem(sub, "1 : 3", "Click two points to get a point with ratio 1:3", this, "propline");
-        addRadioButtonMenuItem(sub, "1 : 4", "Click two points to get a point with ratio 1:4", this, "propline");
-        addRadioButtonMenuItem(sub, "1 : 5", "Click two points to get a point with ratio 1:5", this, "propline");
-        addRadioButtonMenuItem(sub, "Other..", "Input your own ratio", this, "propline");
+        addRadioButtonMenuItem(sub, "1 : 1", getTranslationViaGettext("Click two points to get a point with ratio {0}", "1:1"), this, "propline");
+        addRadioButtonMenuItem(sub, "1 : 2", getTranslationViaGettext("Click two points to get a point with ratio {0}", "1:2"), this, "propline");
+        addRadioButtonMenuItem(sub, "1 : 3", getTranslationViaGettext("Click two points to get a point with ratio {0}", "1:3"), this, "propline");
+        addRadioButtonMenuItem(sub, "1 : 4", getTranslationViaGettext("Click two points to get a point with ratio {0}", "1:4"), this, "propline");
+        addRadioButtonMenuItem(sub, "1 : 5", getTranslationViaGettext("Click two points to get a point with ratio {0}", "1:5"), this, "propline");
+        // addRadioButtonMenuItem(sub, "1 : 2", "Click two points to get a point with ratio 1:2", this, "propline");
+        addRadioButtonMenuItem(sub, "Other...", "Input your own ratio", this, "propline");
         menu.add(sub);
         menu.addSeparator();
         sub = new JMenu(getLanguage("Point"));
@@ -874,11 +897,11 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         menu.add(sub);
         sub = new JMenu(getLanguage("Polygon"));
         addRadioButtonMenuItem(sub, "Triangle", "Draw a triangle", this, "triangle");
-        addRadioButtonMenuItem(sub, "Isosceles Triangle", "Draw a isosceles triangl", this, "isosceles triangle");
-        addRadioButtonMenuItem(sub, "Equilateral Triangle", "Draw a equilateral triangle", this, "equilateral triangle");
+        addRadioButtonMenuItem(sub, "Isosceles Triangle", "Draw an isosceles triangle", this, "isosceles triangle");
+        addRadioButtonMenuItem(sub, "Equilateral Triangle", "Draw an equilateral triangle", this, "equilateral triangle");
         addRadioButtonMenuItem(sub, "Right-angled Triangle", "Draw a right-angled triangle", this, "Tri_perp");
-        addRadioButtonMenuItem(sub, "Isosceles Right-angled Triangle", "Draw a isosceles right-angled triangle", this, "Tri_sq_iso");
-        addRadioButtonMenuItem(sub, "Quadrangle", "Draw a  quadrangle", this, "quadrangle");
+        addRadioButtonMenuItem(sub, "Isosceles Right-angled Triangle", "Draw an isosceles right-angled triangle", this, "Tri_sq_iso");
+        addRadioButtonMenuItem(sub, "Quadrangle", "Draw a quadrangle", this, "quadrangle");
         addRadioButtonMenuItem(sub, "Parallelogram", "Draw a parallelogram", this, "parallelogram");
         addRadioButtonMenuItem(sub, "Trapezoid", "Draw a trapezoid", this, "trapezoid");
         addRadioButtonMenuItem(sub, "Right-angled Trapezoid", "Draw a right angle trapezoid", this, "ra_trapezoid");
@@ -888,15 +911,13 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         addRadioButtonMenuItem(sub, "Polygon", "Draw a polygon", this, "polygon");
         menu.add(sub);
         sub = new JMenu(getLanguage("Special Angles"));
-        addRadioButtonMenuItem(sub, "15", "Draw an angle of 15 degree", this, "sangle");
-        addRadioButtonMenuItem(sub, "30", "Draw an angle of 30 degree", this, "sangle");
-        addRadioButtonMenuItem(sub, "45", "Draw an angle of 45 degree", this, "sangle");
-        addRadioButtonMenuItem(sub, "60", "Draw an angle of 60 degree", this, "sangle");
-        addRadioButtonMenuItem(sub, "75", "Draw an angle of 75 degree", this, "sangle");
-        addRadioButtonMenuItem(sub, "90", "Draw an angle of 90 degree", this, "sangle");
-        addRadioButtonMenuItem(sub, "115", "Draw an angle of 115 degree", this, "sangle");
-        addRadioButtonMenuItem(sub, "120", "Draw an angle of 120 degree", this, "sangle");
-        addRadioButtonMenuItem(sub, "Other..", "Draw an angle of 120 degree", this, "sangle");
+        String[] angles = {"15", "30", "45", "60", "75", "90", "115", "120"};
+        for (String angle : angles) {
+            addRadioButtonMenuItem(sub, angle, getTranslationViaGettext("Draw an angle of {0} degrees", angle), this, "sangle");
+        }
+
+        // addRadioButtonMenuItem(sub, "30", "Draw an angle of 30 degree", this, "sangle");
+        addRadioButtonMenuItem(sub, "Other...", "Draw an angle of other degrees", this, "sangle");
         menu.add(sub);
 //        menu.addSeparator();
 
@@ -913,10 +934,12 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         addRadioButtonMenuItem(menu, "Equal Distance", "Set two segments to be equal", this, "Equal Distance");
 
         JMenu sub2 = new JMenu(getLanguage(getLanguage("Ratio Distance")));
-        addRadioButtonMenuItem(sub2, "1 : 1", "Set two segments to have ratio: 1 : 1", this, "ra_side");
-        addRadioButtonMenuItem(sub2, "1 : 2", "Set two segments to have ratio: 1 : 2", this, "ra_side");
-        addRadioButtonMenuItem(sub2, "1 : 3", "Set two segments to have ratio: 1 : 3", this, "ra_side");
-        addRadioButtonMenuItem(sub2, "Other..", "Set two segments to have specified ratio", this, "ra_side");
+
+        // addRadioButtonMenuItem(sub2, "1 : 1", "Set two segments to have ratio: 1 : 1", this, "ra_side");
+        addRadioButtonMenuItem(sub2, "1 : 1", GExpert.getTranslationViaGettext("Set two segments to have ratio: {0}",  "1 : 1"), this, "ra_side");
+        addRadioButtonMenuItem(sub2, "1 : 2", GExpert.getTranslationViaGettext("Set two segments to have ratio: {0}",  "1 : 2"), this, "ra_side");
+        addRadioButtonMenuItem(sub2, "1 : 3", GExpert.getTranslationViaGettext("Set two segments to have ratio: {0}",  "1 : 3"), this, "ra_side");
+        addRadioButtonMenuItem(sub2, "Other...", "Set two segments to have specified ratio", this, "ra_side");
         menu.add(sub2);
         addRadioButtonMenuItem(menu, "CCtangent", "Set two circle to be tangent", this);
         menuBar.add(menu);
@@ -934,11 +957,11 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
         JMenu sub1 = new JMenu(getLanguage("Equal Mark"));
         addRadioButtonMenuItem(sub1, "1", "Mark for equal with one line", this, "eqmark");
-        addRadioButtonMenuItem(sub1, "2", "Mark for equal with two line", this, "eqmark");
-        addRadioButtonMenuItem(sub1, "3", "Mark for equal with three line", this, "eqmark");
-        addRadioButtonMenuItem(sub1, "4", "Mark for equal with four line", this, "eqmark");
+        addRadioButtonMenuItem(sub1, "2", "Mark for equal with two lines", this, "eqmark");
+        addRadioButtonMenuItem(sub1, "3", "Mark for equal with three lines", this, "eqmark");
+        addRadioButtonMenuItem(sub1, "4", "Mark for equal with four lines", this, "eqmark");
         menu.add(sub1);
-        addRadioButtonMenuItem(menu, "Right-angle Mark", "Draw an right angle mark", this, "RAMark");
+        addRadioButtonMenuItem(menu, "Right-angle Mark", "Draw a right angle mark", this, "RAMark");
         addRadioButtonMenuItem(menu, "Calculation", "Calculation", this, "Calculation");
         menuBar.add(menu);
         menu.addSeparator();
@@ -957,8 +980,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
         menu = new JMenu(getLanguage("Lemmas"));
         menuBar.add(menu);
-        addAMenu(menu, "Rulers for Full Angle", "Rulers for Full Angle", this);
-        addAMenu(menu, "Rulers for GDD", "Rulers for GDD", this);
+        addAMenu(menu, "Rules for Full Angle", "Rules for Full Angle", this);
+        addAMenu(menu, "Rules for GDD", "Rules for GDD", this);
 
 
         menu = new JMenu(getLanguage("Option"));
@@ -1152,24 +1175,6 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public static String getTranslationViaGettext(String s, String p) {
-        Locale loc = Locale.getDefault();
-
-        if (GExpert.lan.equals("Chinese"))
-            loc = Locale.SIMPLIFIED_CHINESE;
-        if (GExpert.lan.equals("German"))
-            loc = Locale.GERMAN;
-        if (GExpert.lan.equals("Italian"))
-            loc = Locale.ITALIAN;
-        if (GExpert.lan.equals("Persian"))
-            loc = new Locale("fa", "");
-        if (GExpert.lan.equals("Portuguese"))
-            loc = new Locale("pt", "");
-        if (GExpert.lan.equals("Serbian"))
-            loc = new Locale("rs", "");
-
-        I18n i18n = I18nFactory.getI18n(GExpert.class,
-                loc, org.xnap.commons.i18n.I18nFactory.FALLBACK);
-
         String gettextTranslation;
         if (p == null) {
             gettextTranslation = i18n.tr(s);}
@@ -1505,7 +1510,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                 int n1 = 1;
                 int n2 = 1;
                 ps = language.getEnglish(ps);
-                if (ps.equalsIgnoreCase("Other..")) {
+                if (ps.equalsIgnoreCase("Other...")) {
                     RatioSelectDialog dlg = new RatioSelectDialog(this);
                     dlg.setVisible(true);
                     dp.setParameter(dlg.getValue1(), dlg.getValue2());
@@ -1567,7 +1572,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                 dp.SetCurrentAction(drawProcess.SETEQSIDE);
                 dp.setcurrentStatus(0);
                 ps = language.getEnglish(ps);
-                if (ps.equalsIgnoreCase("Other..")) {
+                if (ps.equalsIgnoreCase("Other...")) {
                     RatioSelectDialog dlg = new RatioSelectDialog(this);
                     dlg.setVisible(true);
                     dp.setParameter(dlg.getValue1(), dlg.getValue2());
@@ -1610,7 +1615,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
             } else if (command.equalsIgnoreCase("propline")) {
                 String s = ((JMenuItem) src).getText();
                 ps = language.getEnglish(ps);
-                if (ps.equalsIgnoreCase("Other..")) {
+                if (ps.equalsIgnoreCase("Other...")) {
                     dp.SetCurrentAction(drawProcess.LRATIO);
                     RatioSelectDialog dlg = new RatioSelectDialog(this);
                     dlg.setVisible(true);
@@ -1638,7 +1643,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                 dp.SetCurrentAction(drawProcess.D_TRATIO);
                 String s = ((JMenuItem) src).getText();
                 ps = language.getEnglish(ps);
-                if (ps.equalsIgnoreCase("Other..")) {
+                if (ps.equalsIgnoreCase("Other...")) {
                     RatioSelectDialog dlg = new RatioSelectDialog(this);
                     dlg.setVisible(true);
                     dp.setParameter(dlg.getValue1(), dlg.getValue2());
@@ -1693,16 +1698,16 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                 dp.SetCurrentAction(drawProcess.HIDEOBJECT);
             } else if (command.equalsIgnoreCase("show object")) {
                 dp.SetCurrentAction(drawProcess.SHOWOBJECT);
-            } else if (command.equalsIgnoreCase("Rulers for Full Angle")) {
+            } else if (command.equalsIgnoreCase("Rules for Full Angle")) {
                 getRulerDialog(1).setVisible(true);
-            } else if (command.equalsIgnoreCase("Rulers for GDD")) {
+            } else if (command.equalsIgnoreCase("Rules for GDD")) {
                 getRulerDialog(0).setVisible(true);
             } else if (command.equalsIgnoreCase("sangle")) {
                 dp.SetCurrentAction(drawProcess.SANGLE);
                 try {
                     int n = 0;
                     ps = language.getEnglish(ps);
-                    if (ps.equalsIgnoreCase("Other..")) {
+                    if (ps.equalsIgnoreCase("Other...")) {
                         String s = JOptionPane.showInputDialog(this, this.getLanguage(1053, "Please input the value of the angle"));
                         if (s == null)
                             s = "0";
@@ -1838,8 +1843,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
     public boolean saveBeforeExit() {
         if (dp.need_save() && CMisc.needSave()) {
-            int n = JOptionPane.showConfirmDialog(this, "The diagram has been changed, do you want to save?",
-                    "Save", JOptionPane.YES_NO_CANCEL_OPTION);
+            int n = JOptionPane.showConfirmDialog(this, getLanguage("The diagram has been changed, do you want to save it?"),
+                    getLanguage("Save"), JOptionPane.YES_NO_CANCEL_OPTION);
             if (n == JOptionPane.OK_OPTION) {
                 boolean r = saveAFile(false);
                 return r;
@@ -2051,7 +2056,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         AnimateC am = dp.getAnimateC();
         if (am == null) {
             JOptionPane.showMessageDialog(this, getLanguage(2301, "No animation has been defined.") + "\n"
-                    + getLanguage(2302, "Please use the menu \" Action -> Animation \" to define an animation first."), "GIF", JOptionPane.WARNING_MESSAGE);
+                    + getLanguage(2302, "Please use the menu \"Action -> Animation\" to define an animation first."), "GIF", JOptionPane.WARNING_MESSAGE);
             return;
         }
         am = new AnimateC(am);
@@ -2510,7 +2515,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         toolBar.add(button);
         group.add(button);
 
-        button = makeAButton("fillpolygon", "Fill Polygon", "define an polygon", "polygon");
+        button = makeAButton("fillpolygon", "Fill Polygon", "define a polygon", "polygon");
         toolBar.add(button);
         group.add(button);
 
@@ -3089,7 +3094,6 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public static void main(String[] args) {
-//        args[0] = "AAAAAAAAAAAAA";
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 createAndShowGUI();

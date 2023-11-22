@@ -1022,7 +1022,7 @@ class msymbol extends mobject {
             ImageIcon icon = GExpert.createImageIcon("images/dtree/" +
                     cSprefix[i] + ".gif");
             if (icon == null) {
-                CMisc.print("Can not find image : " + cSprefix[i]);
+                CMisc.print(GExpert.getTranslationViaGettext("Can not find image: {0}", cSprefix[i]));
             } else {
                 vlist.add(icon);
             }
@@ -2053,7 +2053,7 @@ class massertion extends mobject {
                         " is the " + s1 + " of " +
                         objlist.get(2).toString() + objlist.get(3).toString();
             default:
-                CMisc.print("massertion type:" + s1 + " not defined.");
+                CMisc.print(GExpert.getTranslationViaGettext("assertion type: {0} not defined.", s1));
                 return s1;
         }
 

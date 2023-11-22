@@ -32,12 +32,12 @@ public class RulerDialog extends JBaseDialog implements ChangeListener, ActionLi
         int i = 0;
         Vector vrule = RuleList.getAllGDDRules();
 
-        rootNodes[0] = createNameVector("Rulers related to Parallel line", vrule, i, i += 3);
-        rootNodes[1] = createNameVector("Rulers related to Perpendicular line", vrule, ++i, i += 3);
-        rootNodes[2] = createNameVector("Rulers related to Circle", vrule, ++i, i += 6);
-        rootNodes[3] = createNameVector("Rulers related to Angles", vrule, ++i, i += 6);
-        rootNodes[4] = createNameVector("Rulers related to Triangle", vrule, ++i, i += 14);
-        rootNodes[5] = createNameVector("Other rulers", vrule, ++i, i += 5);
+        rootNodes[0] = createNameVector("Rules related to Parallel line", vrule, i, i += 3);
+        rootNodes[1] = createNameVector("Rules related to Perpendicular line", vrule, ++i, i += 3);
+        rootNodes[2] = createNameVector("Rules related to Circle", vrule, ++i, i += 6);
+        rootNodes[3] = createNameVector("Rules related to Angles", vrule, ++i, i += 6);
+        rootNodes[4] = createNameVector("Rules related to Triangle", vrule, ++i, i += 14);
+        rootNodes[5] = createNameVector("Other rules", vrule, ++i, i += 5);
 
         Vector rootVector = new NamedVector("Root", rootNodes);
         tree = new JTree(rootVector);

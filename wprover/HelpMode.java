@@ -113,8 +113,8 @@ public class HelpMode {
         addItem("Equivalence", "Equivalance.html");
         addItem("Free Transform", "free_transform.html");
 
-        addItem("Rulers for Full Angle", "lemmas.html#full");
-        addItem("Rulers for GDD", "lemmas.html#gdd");
+        addItem("Rules for Full Angle", "lemmas.html#full");
+        addItem("Rules for GDD", "lemmas.html#gdd");
 
         addItem("Preference", "preference.html");
         addItem("Construct History", "history.html");

@@ -152,11 +152,11 @@ public class panelWu extends panelAlgebric implements Runnable, MouseListener {
         }
 
 
-        addString2(getLanguage(1105, "The Conclution") + " (CONC): ");
+        addString2(getLanguage(1105, "The conclution") + " (CONC): ");
         addString1(sc + "\n");
         addString(poly.printSPoly(mc));
 
-        addString2(getLanguage(1106, "Successive Pseudo Remainder of CONC wrpt TS :"));
+        addString2(getLanguage(1106, "Successive Pseudo Remainder of CONC wrt TS:"));
         int r = 0;
 
         try {
@@ -167,7 +167,7 @@ public class panelWu extends panelAlgebric implements Runnable, MouseListener {
             running = false;
             JOptionPane.showMessageDialog(panelWu.this, getLanguage(1130, "System Run Out Of Memory") + "\n" +
                     getLanguage(1131, "The Theorem Is Not Proved!"), getLanguage(1130, "System Run Out of Memory"), JOptionPane.WARNING_MESSAGE);
-            addString("\n" + getLanguage(1130, "System Run Out of Memory!"));
+            addString("\n" + getLanguage(1130, "System Run Out of Memory"));
             addString("icon3", "icon3");
             addString1(getLanguage(1109, "The conclution is not proved"));
             return;

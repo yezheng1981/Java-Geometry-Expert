@@ -143,7 +143,7 @@ public class Update implements ActionListener, Runnable {
             return false;
 
         int n = JOptionPane.showConfirmDialog(gxInstance,
-                GExpert.getLanguage(1056, "A New version is available on the server, \ndo you want to update?") + "\n\n" +
+                GExpert.getLanguage(1056, "A new version is available on the server, \ndo you want to update?") + "\n\n" +
                         GExpert.getLanguage(1057, "Your current JGEX version") + ":  " + Version.getVersionf() + "\n"
                         + GExpert.getLanguage(1058, "Available JGEX version") + ":    " + version + "\n\n"
                         + GExpert.getLanguage(1059, "Press OK to update."),
@@ -244,7 +244,7 @@ public class Update implements ActionListener, Runnable {
             dlg.setVisible(false);
             dlg.setStart();
             int n = JOptionPane.showConfirmDialog(gxInstance, GExpert.getLanguage(1063, "File downloaded! \nTo update JGEX, " +
-                    "the program will be exited and restarted"),
+                    "the program will exit and restart"),
                     GExpert.getLanguage(1061, "JGEX Update"), JOptionPane.OK_CANCEL_OPTION);
             if (n == JOptionPane.OK_OPTION) {
 

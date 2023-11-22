@@ -135,7 +135,7 @@ public class CST {
                     "Bisect",
                     "Tangent",
                     "Harmonic Pair",
-                    "Equalateral Triangle",
+                    "Equilateral Triangle",
                     "Similiar Triangle",
                     "Congruent Triangle",
                     "Equal product",

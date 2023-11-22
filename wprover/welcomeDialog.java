@@ -58,7 +58,7 @@ public class welcomeDialog extends JPanel implements MouseListener {
         JPanel panel3 = new JPanel(new FlowLayout());
         panel3.addMouseListener(this);
 
-        JLabel b1 = new JLabel("for more information,p lease visit:");
+        JLabel b1 = new JLabel(GExpert.getTranslationViaGettext("for more information, please visit:"));
         b1.addMouseListener(this);
         b2 = new JLabel("https://github.com/kovzol/Java-Geometry-Expert");
         b2.addMouseListener(this);

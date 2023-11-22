@@ -122,7 +122,7 @@ public abstract class panelAlgebric extends JScrollPane implements Runnable, Act
 
 
     protected void addAlgebraicForm() {
-        addString2s(getLanguage(1101, "The Algebraic Form: "));
+        addString2s(getLanguage(1101, "The Algebraic Form:"));
         Vector vp = dp.getPointList();
         int n = vp.size();
         if (n == 0)

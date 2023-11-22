@@ -54,7 +54,7 @@ public class cond {
     }
 
     public void setCondToBeProveHead() {
-        sd = "To Prove:  " + sd;
+        sd = "To Prove: " + sd;
     }
 
     public cond(int t) {

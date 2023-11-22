@@ -3556,7 +3556,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                             this.addPointToList(pp);
                             this.addConstraintToList(cs);
                             this.UndoAdded(pp.TypeString() + " is reflection of " +
-                                    p1.TypeString() + " wrpt " +
+                                    p1.TypeString() + " wrt " +
                                     p2.TypeString());
 
                         } else {
@@ -3574,7 +3574,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                             this.addPointToList(pp);
                             this.addConstraintToList(cs);
                             this.UndoAdded(pp.TypeString() + " is reflection of " +
-                                    p1.TypeString() + " wrpt " +
+                                    p1.TypeString() + " wrt " +
                                     line.getDiscription());
 
                         } else {
@@ -3634,7 +3634,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                                 this.addLineToList(line2);
                                 this.UndoAdded(line2.TypeString() +
                                         " is reflection of " +
-                                        line.getDiscription() + " wrpt " +
+                                        line.getDiscription() + " wrt " +
                                         p1.TypeString());
                             }
 
@@ -3661,7 +3661,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                                 this.addLineToList(line2);
                                 this.UndoAdded(line2.getDiscription() +
                                         " is reflection of " +
-                                        line.getDiscription() + " wrpt " +
+                                        line.getDiscription() + " wrt " +
                                         p1.TypeString());
 
                             } else
@@ -3708,7 +3708,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
 
                             this.UndoAdded(line3.getDiscription() +
                                     " is reflection of " +
-                                    line.getDiscription() + " wrpt " +
+                                    line.getDiscription() + " wrt " +
                                     line2.getDiscription());
 
                         } else {
@@ -3724,7 +3724,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                                 this.addLineToList(line3);
                                 this.UndoAdded(line3.getDiscription() +
                                         " is reflection of " +
-                                        line.getDiscription() + " wrpt " +
+                                        line.getDiscription() + " wrt " +
                                         line2.getDiscription());
                             }
                         }
@@ -3778,7 +3778,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                             this.addCircleToList(c);
                             this.UndoAdded(c.getDescription() +
                                     " is reflection of " + c1.getDescription() +
-                                    " wrpt " + p1.TypeString());
+                                    " wrt " + p1.TypeString());
                         }
 
                     } else if (obj1 instanceof Circle && obj2 instanceof CLine) {
@@ -3829,7 +3829,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                             this.addCircleToList(c);
                             this.UndoAdded(c.getDescription() +
                                     " is reflection of " + c1.getDescription() +
-                                    " wrpt " + line.getDescription());
+                                    " wrt " + line.getDescription());
                         }
                     } else {
                         CMisc.print("can not mirror by a circle");

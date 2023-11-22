@@ -115,7 +115,7 @@ public class LeadVariableDialog extends JBaseDialog implements MouseListener, Ac
         try {
             loadAllPoints(s, r);
         } catch (OutOfMemoryError ee) {
-            JOptionPane.showMessageDialog(gxInstance, ee.getMessage() + "\nOut of Memory");
+            JOptionPane.showMessageDialog(gxInstance, ee.getMessage() + "\n" + "Out of Memory");
             return;
         }
 

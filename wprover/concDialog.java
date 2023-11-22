@@ -23,7 +23,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
 
             "Similiar Triangle",
             "Congruent Triangle",
-            "Equalateral Triangle",
+            "Equilateral Triangle",
 
             "Bisect",
             "Tangent",
@@ -291,7 +291,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
                 resetAllItem();
                 setItemChanged(id);
                 if (id != -1)
-                    ltext.setText(getLanguage(3300, "The number of points to be selected: ") + this.getStatePointsCount());
+                    ltext.setText(getLanguage(3300, "The number of points to be selected:") + " " + this.getStatePointsCount());
             }
         } else {
 
@@ -309,7 +309,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
                 if (v)
                     bt.setEnabled(true);
             } else {
-                ltext.setText(getLanguage(3300, "The number of points to be selected: ") + this.getStatePointsCount());
+                ltext.setText(getLanguage(3300, "The number of points to be selected:") + " " + this.getStatePointsCount());
                 setLtext1Value(0);
             }
         }
@@ -594,7 +594,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
             case 8:  //Congruent Triangle
                 return drawbase.check_congtri(vspt(0, 0), vspt(0, 1), vspt(0, 2), vspt(1, 0), vspt(1, 1), vspt(1, 2));
 
-            case 9:  //Equalateral Triangle
+            case 9:  //Equilateral Triangle
                 return drawbase.check_eqdistance(vspt(0, 0), vspt(0, 1), vspt(0, 1), vspt(0, 2)) &&
                         drawbase.check_eqdistance(vspt(0, 0), vspt(0, 1), vspt(0, 0), vspt(0, 2));
             case 10:

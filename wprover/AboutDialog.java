@@ -62,7 +62,7 @@ public class AboutDialog extends JPopupMenu implements MouseListener {
 //        String s = "\n" +
         addString("\n", "regular");
         addString(GExpert.getLanguage(1019, "Java Geometry Expert is free under GNU General Public License (GPL).") + "\n", "regular");
-        addString(GExpert.getLanguage(1020, "The user may download and distribute it freely.\n") + "\n", "regular");
+        addString(GExpert.getLanguage(1020, "The user may download and distribute it freely.") + "\n\n", "regular");
 //        addString("The software Geometry Expert (GEX) was originally developed around 1994.\n", "regualr");
 //        addString("The Java Version of Geometry Expert ", "regular");
 //        addString("(JGEX)", "bold");
@@ -100,7 +100,7 @@ public class AboutDialog extends JPopupMenu implements MouseListener {
         JPanel panel3 = new JPanel(new FlowLayout());
         panel3.addMouseListener(this);
 
-        JLabel b1 = new JLabel(GExpert.getLanguage(1023, "for more information,please visit:"));
+        JLabel b1 = new JLabel(GExpert.getLanguage(1023, "for more information, please visit:"));
         b1.addMouseListener(this);
         b2 = new JLabel("https://github.com/kovzol/Java-Geometry-Expert");
         b2.setBorder(BorderFactory.createEmptyBorder(1, 1, 1, 1));

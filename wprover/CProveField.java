@@ -76,14 +76,14 @@ public class CProveField {
         for (i = 0; i < vnlist.size(); i++) {
             UndoStruct un = (UndoStruct) vnlist.get(i);
             if (un.m_type == UndoStruct.T_TO_PROVE_NODE) {
-                CProveText cp = new CProveText(un, "To Prove:  ");
+                CProveText cp = new CProveText(un, GExpert.getTranslationViaGettext("To Prove:") + " ");
                 vlist.add(cp);
                 break;
             }
 
             CProveText cp;
             if (i == 0)
-                cp = new CProveText(un, "Given:  ");
+                cp = new CProveText(un, GExpert.getTranslationViaGettext("Given:") + " ");
             else
                 cp = new CProveText(un);
             clist.add(cp);
@@ -147,7 +147,7 @@ public class CProveField {
         int size = v.size();
         if (size == 0) return;
         if (head) {
-            ct = new CProveText((cond) v.get(size - 1), "To Prove:  ");
+            ct = new CProveText((cond) v.get(size - 1), "To Prove: ");
             vlist.add(ct);
             for (int i = 0; i < size; i++) {
                 cond co = (cond) v.get(i);
@@ -185,7 +185,7 @@ public class CProveField {
         CProveText ct = null;
         while (co != null) {
             if (head && i == -1)
-                ct = new CProveText(co, "To Prove:  ");
+                ct = new CProveText(co, "To Prove: ");
             else
                 ct = new CProveText(null, co, i, true);
             i++;

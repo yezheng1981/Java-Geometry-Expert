@@ -1,7 +1,8 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR JGEX Contributors
+# Internationalizable keys for the Java Geomety Experts.
+# Constructed via automatic collection and manual edit.
+# Copyright (C) 2023 JGEX Contributors
 # This file is distributed under the same license as the jgex package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Zoltan Kovacs <zoltan@geogebra.org>, 2023.
 #
 #, fuzzy
 msgid ""
@@ -34,7 +35,7 @@ msgid "Java Geometry Expert is free under GNU General Public License (GPL)."
 msgstr ""
 
 #: ../wprover/AboutDialog.java:65
-msgid "The user may download and distribute it freely.\n"
+msgid "The user may download and distribute it freely."
 msgstr ""
 
 #: ../wprover/AboutDialog.java:78
@@ -42,7 +43,7 @@ msgid "Authors"
 msgstr ""
 
 #: ../wprover/AboutDialog.java:103
-msgid "for more information,please visit:"
+msgid "for more information, please visit:"
 msgstr ""
 
 #: ../wprover/concDialog.java:102
@@ -93,7 +94,7 @@ msgid "Cancel"
 msgstr ""
 
 #: ../wprover/concDialog.java:294 ../wprover/concDialog.java:312
-msgid "The number of points to be selected: "
+msgid "The number of points to be selected:"
 msgstr ""
 
 #: ../wprover/CProperty.java:238 ../wprover/CProperty.java:179
@@ -305,11 +306,6 @@ msgstr ""
 msgid "The circles you selected don't have any intersection"
 msgstr ""
 
-#: ../wprover/drawProcess.java:8220
-msgid ""
-"The two circles you selected already have two points as their intersections"
-msgstr ""
-
 #: ../wprover/drawProcess.java:10449 ../wprover/drawProcess.java:10501
 #: ../wprover/RightClickPopMenu.java:87 ../wprover/RightClickPopMenu.java:98
 msgid "Area"
@@ -411,7 +407,7 @@ msgstr ""
 #: ../wprover/GExpert.java:822 ../wprover/GExpert.java:828
 #: ../wprover/GExpert.java:839 ../wprover/GExpert.java:898
 #: ../wprover/GExpert.java:918
-msgid "Other.."
+msgid "Other..."
 msgstr ""
 
 #: ../wprover/GExpert.java:825
@@ -648,11 +644,11 @@ msgid "Lemmas"
 msgstr ""
 
 #: ../wprover/GExpert.java:959 ../wprover/HelpMode.java:116
-msgid "Rulers for Full Angle"
+msgid "Rules for Full Angle"
 msgstr ""
 
 #: ../wprover/GExpert.java:960 ../wprover/HelpMode.java:117
-msgid "Rulers for GDD"
+msgid "Rules for GDD"
 msgstr ""
 
 #: ../wprover/GExpert.java:963
@@ -724,11 +720,6 @@ msgstr ""
 
 #: ../wprover/GExpert.java:2008
 msgid "No animation has been defined."
-msgstr ""
-
-#: ../wprover/GExpert.java:2009
-msgid ""
-"Please use the menu \" Action -> Animation \" to define an animation first."
 msgstr ""
 
 #: ../wprover/GExpert.java:2015
@@ -1062,7 +1053,7 @@ msgid "FALSE"
 msgstr ""
 
 #: ../wprover/panelAlgebric.java:125
-msgid "The Algebraic Form: "
+msgid "The Algebraic Form:"
 msgstr ""
 
 #: ../wprover/panelGB.java:623
@@ -1078,15 +1069,15 @@ msgid "The Initial Polynomial Set"
 msgstr ""
 
 #: ../wprover/panelGB.java:709
-msgid "The Groebner Basis: "
+msgid "The Groebner basis:"
 msgstr ""
 
 #: ../wprover/panelGB.java:723
-msgid "The Conclution: "
+msgid "The conclution:"
 msgstr ""
 
 #: ../wprover/panelGB.java:726
-msgid "The Conclution After Reduce:"
+msgid "The conclution after reduce:"
 msgstr ""
 
 #: ../wprover/panelGB.java:731 ../wprover/panelWu.java:179
@@ -1106,11 +1097,11 @@ msgid "Add Conclution"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:930
-msgid "Time: "
+msgid "Time:"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:930
-msgid " Second(s)"
+msgid "Second(s)"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:993
@@ -1167,7 +1158,7 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
-msgid "NO conclution has been set!"
+msgid "No conclution has been set!"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:1259 ../wprover/PanelProve1.java:1341
@@ -1181,19 +1172,19 @@ msgid "Message"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:1313
-msgid "Please Construct the Diagram First!"
+msgid "Please construct the diagram first!"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:1314
-msgid "Diagram Not Completed"
+msgid "Diagram not completed"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:1372
-msgid "is trivially true"
+msgid "{0} is trivially true"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:1378
-msgid " is obviously true  (by hypothesis)"
+msgid "{0} is obviously true (by hypothesis)"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:1385 ../wprover/PanelProve1.java:1409
@@ -1257,10 +1248,6 @@ msgstr ""
 msgid "Traditional Method"
 msgstr ""
 
-#: ../wprover/PanelProve1.java:2375
-msgid "Grobner Basis Method"
-msgstr ""
-
 #: ../wprover/PanelProve1.java:2383
 msgid "Wu's Method"
 msgstr ""
@@ -1285,12 +1272,8 @@ msgstr ""
 msgid "The Triangulized Hypotheses"
 msgstr ""
 
-#: ../wprover/panelWu.java:155
-msgid "The Conclution"
-msgstr ""
-
 #: ../wprover/panelWu.java:159
-msgid "Successive Pseudo Remainder of CONC wrpt TS :"
+msgid "Successive Pseudo Remainder of CONC wrt TS:"
 msgstr ""
 
 #: ../wprover/panelWu.java:168
@@ -1299,14 +1282,6 @@ msgstr ""
 
 #: ../wprover/panelWu.java:169
 msgid "The Theorem Is Not Proved!"
-msgstr ""
-
-#: ../wprover/panelWu.java:169
-msgid "System Run Out of Memory"
-msgstr ""
-
-#: ../wprover/panelWu.java:170
-msgid "System Run Out of Memory!"
 msgstr ""
 
 #: ../wprover/panelWu.java:172
@@ -1322,7 +1297,7 @@ msgid "Please input two integers"
 msgstr ""
 
 #: ../wprover/RectChooser.java:36
-msgid " Please Choose The Client Area."
+msgid "Please choose the client area"
 msgstr ""
 
 #: ../wprover/RightClickPopMenu.java:20
@@ -1399,7 +1374,7 @@ msgstr ""
 
 #: ../wprover/Update.java:146
 msgid ""
-"A New version is available on the server, \n"
+"A new version is available on the server, \n"
 "do you want to update?"
 msgstr ""
 
@@ -1426,7 +1401,7 @@ msgstr ""
 #: ../wprover/Update.java:246
 msgid ""
 "File downloaded! \n"
-"To update JGEX, the program will be exited and restarted"
+"To update JGEX, the program will exit and restart"
 msgstr ""
 
 #: ../wprover/vcellRender.java:178 ../wprover/vcellRender.java:395
@@ -1501,12 +1476,8 @@ msgstr ""
 msgid "stop the animation"
 msgstr ""
 
-#: ../wprover/GExpert.java:758
-msgid "null"
-msgstr ""
-
 #: ../wprover/GExpert.java:781
-msgid "Print the client Aream"
+msgid "Print the client area"
 msgstr ""
 
 #: ../wprover/GExpert.java:811
@@ -1532,23 +1503,7 @@ msgid "Input your own ratio"
 msgstr ""
 
 #: ../wprover/GExpert.java:834
-msgid "Click two points to get a point with ratio 1:1"
-msgstr ""
-
-#: ../wprover/GExpert.java:835
-msgid "Click two points to get a point with ratio 1:2"
-msgstr ""
-
-#: ../wprover/GExpert.java:836
-msgid "Click two points to get a point with ratio 1:3"
-msgstr ""
-
-#: ../wprover/GExpert.java:837
-msgid "Click two points to get a point with ratio 1:4"
-msgstr ""
-
-#: ../wprover/GExpert.java:838
-msgid "Click two points to get a point with ratio 1:5"
+msgid "Click two points to get a point with ratio {0}"
 msgstr ""
 
 #: ../wprover/GExpert.java:843 ../wprover/GExpert.java:2429
@@ -1628,11 +1583,11 @@ msgid "Draw a triangle"
 msgstr ""
 
 #: ../wprover/GExpert.java:876
-msgid "Draw a isosceles triangl"
+msgid "Draw an isosceles triangle"
 msgstr ""
 
 #: ../wprover/GExpert.java:877
-msgid "Draw a equilateral triangle"
+msgid "Draw an equilateral triangle"
 msgstr ""
 
 #: ../wprover/GExpert.java:878
@@ -1640,11 +1595,11 @@ msgid "Draw a right-angled triangle"
 msgstr ""
 
 #: ../wprover/GExpert.java:879
-msgid "Draw a isosceles right-angled triangle"
+msgid "Draw an isosceles right-angled triangle"
 msgstr ""
 
 #: ../wprover/GExpert.java:880
-msgid "Draw a  quadrangle"
+msgid "Draw a quadrangle"
 msgstr ""
 
 #: ../wprover/GExpert.java:881
@@ -1676,35 +1631,11 @@ msgid "Draw a polygon"
 msgstr ""
 
 #: ../wprover/GExpert.java:890
-msgid "Draw an angle of 15 degree"
+msgid "Draw an angle of {0} degrees"
 msgstr ""
 
 #: ../wprover/GExpert.java:891
-msgid "Draw an angle of 30 degree"
-msgstr ""
-
-#: ../wprover/GExpert.java:892
-msgid "Draw an angle of 45 degree"
-msgstr ""
-
-#: ../wprover/GExpert.java:893
-msgid "Draw an angle of 60 degree"
-msgstr ""
-
-#: ../wprover/GExpert.java:894
-msgid "Draw an angle of 75 degree"
-msgstr ""
-
-#: ../wprover/GExpert.java:895
-msgid "Draw an angle of 90 degree"
-msgstr ""
-
-#: ../wprover/GExpert.java:896
-msgid "Draw an angle of 115 degree"
-msgstr ""
-
-#: ../wprover/GExpert.java:897 ../wprover/GExpert.java:898
-msgid "Draw an angle of 120 degree"
+msgid "Draw an angle of other degrees"
 msgstr ""
 
 #: ../wprover/GExpert.java:904
@@ -1728,15 +1659,7 @@ msgid "Set two segments to be equal"
 msgstr ""
 
 #: ../wprover/GExpert.java:915
-msgid "Set two segments to have ratio: 1 : 1"
-msgstr ""
-
-#: ../wprover/GExpert.java:916
-msgid "Set two segments to have ratio: 1 : 2"
-msgstr ""
-
-#: ../wprover/GExpert.java:917
-msgid "Set two segments to have ratio: 1 : 3"
+msgid "Set two segments to have ratio: {0}"
 msgstr ""
 
 #: ../wprover/GExpert.java:918
@@ -1777,19 +1700,19 @@ msgid "Mark for equal with one line"
 msgstr ""
 
 #: ../wprover/GExpert.java:936
-msgid "Mark for equal with two line"
+msgid "Mark for equal with two lines"
 msgstr ""
 
 #: ../wprover/GExpert.java:937
-msgid "Mark for equal with three line"
+msgid "Mark for equal with three lines"
 msgstr ""
 
 #: ../wprover/GExpert.java:938
-msgid "Mark for equal with four line"
+msgid "Mark for equal with four lines"
 msgstr ""
 
 #: ../wprover/GExpert.java:940
-msgid "Draw an right angle mark"
+msgid "Draw a right angle mark"
 msgstr ""
 
 #: ../wprover/GExpert.java:944
@@ -1929,7 +1852,7 @@ msgid "Draw a circle with center and radius"
 msgstr ""
 
 #: ../wprover/GExpert.java:2468
-msgid "define an polygon"
+msgid "define a polygon"
 msgstr ""
 
 #: ../wprover/GExpert.java:2472
@@ -2150,37 +2073,21 @@ msgstr ""
 msgid "rectangle"
 msgstr ""
 
-#: ../wprover/MProveTree.java:761 ../wprover/MProveTree.java:817
-msgid "DTR"
-msgstr ""
-
-#: ../wprover/MProveTree.java:766 ../wprover/MProveTree.java:821
-msgid "AANR"
-msgstr ""
-
-#: ../wprover/MProveTree.java:770 ../wprover/MProveTree.java:819
-msgid "AAT"
-msgstr ""
-
-#: ../wprover/MProveTree.java:774 ../wprover/MProveTree.java:805
-msgid "CSR"
-msgstr ""
-
 #: ../wprover/MProveTree.java:1015
 msgid "hence"
 msgstr ""
 
 #: ../wprover/MProveTree.java:1022 ../wprover/MProveTree.java:1265
 #: ../wprover/MProveTree.java:1023 ../wprover/MProveTree.java:1025
-msgid "Can not find image : "
+msgid "Can not find image: {0}"
 msgstr ""
 
 #: ../wprover/MProveTree.java:1071
-msgid "Given: "
+msgid "Given:"
 msgstr ""
 
 #: ../wprover/MProveTree.java:1071
-msgid "To Prove: "
+msgid "To Prove:"
 msgstr ""
 
 #: ../wprover/MProveTree.java:1071
@@ -2383,7 +2290,7 @@ msgid "Convex"
 msgstr ""
 
 #: ../wprover/MProveTree.java:2053 ../wprover/MProveTree.java:2056
-msgid "massertion type:"
+msgid "assertion type: {0} not defined."
 msgstr ""
 
 #: ../wprover/MProveTree.java:2056 ../wprover/MProveTree.java:2066
@@ -2482,9 +2389,6 @@ msgstr ""
 msgid "Congruent Triangle"
 msgstr ""
 
-msgid "Equalateral Triangle"
-msgstr ""
-
 msgid "Bisect"
 msgstr ""
 
@@ -2512,25 +2416,16 @@ msgstr ""
 msgid "failed"
 msgstr ""
 
-msgid "Second(s)"
-msgstr ""
-
 msgid "Version"
 msgstr ""
 
 msgid "On"
 msgstr ""
 
-msgid "Change.."
-msgstr ""
-
 msgid "BackGround Color"
 msgstr ""
 
 msgid "Change Color"
-msgstr ""
-
-msgid "Point Number"
 msgstr ""
 
 msgid "Font Color"
@@ -2555,9 +2450,6 @@ msgstr ""
 msgid "Can not prove this theorem with Deductive Database Method"
 msgstr ""
 
-msgid "is obviously true  (by hypothesis)"
-msgstr ""
-
 msgid "Can not prove this theorem."
 msgstr ""
 
@@ -2570,58 +2462,16 @@ msgstr ""
 msgid "JDK Version:"
 msgstr ""
 
-msgid "The user may download and distribute it freely."
-msgstr ""
-
-msgid "However, JGEX is an educational tool, not intended for commercial use."
-msgstr ""
-
 msgid "Author:"
 msgstr ""
 
-msgid ""
-"The two lines you selected are parallel, \n"
-" don't have any intersection!"
-msgstr ""
-
-msgid "The line and the circle you selected don't have any intersection!"
-msgstr ""
-
-msgid ""
-"The two objects you selected already have two points as their intersections!"
-msgstr ""
-
-msgid "Nothing to be saved"
-msgstr ""
-
-msgid "File Format Not Supported"
-msgstr ""
-
 msgid "Free Point"
-msgstr ""
-
-msgid "The Algebraic Form:"
 msgstr ""
 
 msgid "The coordinates"
 msgstr ""
 
 msgid "The equational hypotheses:"
-msgstr ""
-
-msgid "The Triangulized Hypotheses:"
-msgstr ""
-
-msgid "The Conclution is false"
-msgstr ""
-
-msgid "The Conclution is true"
-msgstr ""
-
-msgid "The Conclution is not proved"
-msgstr ""
-
-msgid "The Groebner Basis:"
 msgstr ""
 
 msgid "The theorem is not proved with the Deductive Database Method!"
@@ -2636,17 +2486,8 @@ msgstr ""
 msgid "Select two points to determine a line"
 msgstr ""
 
-msgid "Please Choose the Client Area"
-msgstr ""
-
-msgid "No animation has been defined"
-msgstr ""
-
 msgid ""
-"Please use the menu \" Action -> Animation \" to define an animation first"
-msgstr ""
-
-msgid "GIF Opt on"
+"Please use the menu \"Action -> Animation\" to define an animation first"
 msgstr ""
 
 msgid "Groebner Basis Method"
@@ -2658,20 +2499,5 @@ msgstr ""
 msgid "Hence"
 msgstr ""
 
-msgid "Given:"
-msgstr ""
-
-msgid "To Prove:"
-msgstr ""
-
 msgid "Q.E.D."
-msgstr ""
-
-msgid "The number of points to be selected:"
-msgstr ""
-
-msgid "X coordinate"
-msgstr ""
-
-msgid "Y coordinate"
 msgstr ""
