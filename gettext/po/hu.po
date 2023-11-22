@@ -1,22 +1,21 @@
-# Internationalizable keys for the Java Geomety Expert.
-# Constructed via automatic collection and manual edit.
-# Copyright (C) 2023 JGEX Contributors
-# This file is distributed under the same license as the jgex package.
-# Zoltan Kovacs <zoltan@geogebra.org>, 2023.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: jgex 0.80\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
 "POT-Creation-Date: 2023-11-15 23:44+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-11-22 22:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: ../wprover/AboutDialog.java:49
 msgid "Java Geometry Expert"
@@ -24,35 +23,35 @@ msgstr ""
 
 #: ../wprover/AboutDialog.java:53
 msgid "Last modified on"
-msgstr ""
+msgstr "Utolsó módosítása dátuma:"
 
 #: ../wprover/AboutDialog.java:57
 msgid "Java version"
-msgstr ""
+msgstr "Java verzió"
 
 #: ../wprover/AboutDialog.java:64
 msgid "Java Geometry Expert is free under GNU General Public License (GPL)."
-msgstr ""
+msgstr "A Java Geometry Expert a GNU GPL szerint szabad szoftver."
 
 #: ../wprover/AboutDialog.java:65
 msgid "The user may download and distribute it freely."
-msgstr ""
+msgstr "A felhasználó szabadon letöltheti és továbbadhatja."
 
 #: ../wprover/AboutDialog.java:78
 msgid "Authors"
-msgstr ""
+msgstr "Szerzők"
 
 #: ../wprover/AboutDialog.java:103
 msgid "for more information, please visit:"
-msgstr ""
+msgstr "további információk a következő címen találhatók:"
 
 #: ../wprover/concDialog.java:102
 msgid "True"
-msgstr ""
+msgstr "Igaz"
 
 #: ../wprover/concDialog.java:106
 msgid "False"
-msgstr ""
+msgstr "Hamis"
 
 #: ../wprover/concDialog.java:156
 msgid "Set One"
@@ -64,11 +63,11 @@ msgstr ""
 
 #: ../wprover/concDialog.java:184
 msgid "Please select"
-msgstr ""
+msgstr "Válassz"
 
 #: ../wprover/concDialog.java:186
 msgid "true"
-msgstr ""
+msgstr "igaz"
 
 #: ../wprover/concDialog.java:205 ../wprover/GIFOptionDialog.java:56
 #: ../wprover/MiscDialog.java:66 ../wprover/mproveInputPanel.java:252
@@ -82,7 +81,7 @@ msgstr ""
 
 #: ../wprover/concDialog.java:209 ../wprover/NumCheckDialog.java:88
 msgid "Clear"
-msgstr ""
+msgstr "Törlés"
 
 #: ../wprover/concDialog.java:211 ../wprover/DialogPsProperty.java:36
 #: ../wprover/GIFOptionDialog.java:57 ../wprover/mproveInputPanel.java:284
@@ -91,7 +90,7 @@ msgstr ""
 #: ../wprover/TextFrame.java:122 ../wprover/TextValueEditor.java:124
 #: ../wprover/Update.java:187 ../wprover/vFontChooser.java:182
 msgid "Cancel"
-msgstr ""
+msgstr "Mégsem"
 
 #: ../wprover/concDialog.java:294 ../wprover/concDialog.java:312
 msgid "The number of points to be selected:"
@@ -294,8 +293,7 @@ msgid "The line and the circle you selected don't have any intersection"
 msgstr ""
 
 #: ../wprover/drawProcess.java:8147
-msgid ""
-"The two objects you selected already have two points as their intersections"
+msgid "The two objects you selected already have two points as their intersections"
 msgstr ""
 
 #: ../wprover/drawProcess.java:8148 ../wprover/drawProcess.java:8221
@@ -1493,8 +1491,7 @@ msgid "Click two points A B then  a point C to get AB //= CD"
 msgstr ""
 
 #: ../wprover/GExpert.java:816
-msgid ""
-"Click two points A B then point C to get CD equal and perpendicular to +- AB"
+msgid "Click two points A B then point C to get CD equal and perpendicular to +- AB"
 msgstr ""
 
 #: ../wprover/GExpert.java:822 ../wprover/GExpert.java:828
@@ -1671,8 +1668,7 @@ msgid "Set two circle to be tangent"
 msgstr ""
 
 #: ../wprover/GExpert.java:924
-msgid ""
-"Select a point to trace its locus (in combination with move or animation)"
+msgid "Select a point to trace its locus (in combination with move or animation)"
 msgstr ""
 
 #: ../wprover/GExpert.java:925
@@ -2486,8 +2482,7 @@ msgstr ""
 msgid "Select two points to determine a line"
 msgstr ""
 
-msgid ""
-"Please use the menu \"Action -> Animation\" to define an animation first"
+msgid "Please use the menu \"Action -> Animation\" to define an animation first"
 msgstr ""
 
 msgid "Groebner Basis Method"

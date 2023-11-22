@@ -782,6 +782,7 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
                     // "Japanese",
                     // "French",
                     "German",
+                    "Hungarian",
                     "Italian",
                     // "Spanish",
                     "Persian",
