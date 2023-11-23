@@ -755,20 +755,20 @@ public class MProveTree extends JTree implements ActionListener {
             add(item);
             item.setActionCommand("Delete");
             item.addActionListener(this);
-            bd1 = item = new JMenuItem(getLanguage(3102, "Delete This Row"));
+            bd1 = item = new JMenuItem(getLanguage(3102, "Delete this row"));
             item.addActionListener(this);
             add(item);
             item.setActionCommand("DTR");
             addSeparator();
-            ba = item = new JMenuItem(getLanguage(3103, "Add A New Row"));
+            ba = item = new JMenuItem(getLanguage(3103, "Add a new row"));
             item.addActionListener(this);
             add(item);
             item.setActionCommand("AANR");
-            ba1 = item = new JMenuItem(getLanguage(3104, "Append A Term"));
+            ba1 = item = new JMenuItem(getLanguage(3104, "Append a term"));
             item.addActionListener(this);
             add(item);
             item.setActionCommand("AAT");
-            bc = item = new JMenuItem(getLanguage(3105, "Combine Selected Rows"));
+            bc = item = new JMenuItem(getLanguage(3105, "Combine selected rows"));
             item.addActionListener(this);
             add(item);
             item.setActionCommand("CSR");
@@ -1253,7 +1253,7 @@ class mdrobj extends mobject {
             "rectangle", "quadrangle", "trapezoid"};
 
     final static String[] tipStrings = {"Please select two points", "Please select three non-collinear points",
-            "Please select three points", "Please select four points", "Please select N(N >=3) points", "Please select three points",
+            "Please select three points", "Please select four points", "Please select N(>=3) points", "Please select three points",
             "Please select four points", "Please select four points", "Please select four points"};
 
     static Vector vlist = new Vector();
@@ -1266,7 +1266,7 @@ class mdrobj extends mobject {
             if (icon != null) {
                 vlist.add(icon);
             } else {
-                CMisc.print("Can not find object icon " + pStrings[i]);
+                CMisc.print(GExpert.getTranslationViaGettext("Can not find object icon {0}", pStrings[i]));
             }
         }
     }

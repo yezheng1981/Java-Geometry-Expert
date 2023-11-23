@@ -290,7 +290,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
                 layout.show(cardPane, "1");
                 resetAllItem();
                 setItemChanged(id);
-                if (id != -1)
+                if (id != -1) // FIXME, improve translation pattern
                     ltext.setText(getLanguage(3300, "The number of points to be selected:") + " " + this.getStatePointsCount());
             }
         } else {
@@ -308,7 +308,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
                     setLtext1Value(-1);
                 if (v)
                     bt.setEnabled(true);
-            } else {
+            } else { // FIXME, improve translation pattern
                 ltext.setText(getLanguage(3300, "The number of points to be selected:") + " " + this.getStatePointsCount());
                 setLtext1Value(0);
             }

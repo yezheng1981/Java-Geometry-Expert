@@ -3034,8 +3034,9 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     if (n == 1) {
                         CLine ln1 = (CLine) SelectList.get(0);
                         if (CLine.commonPoint(ln1, line) == null) {
-                            JOptionPane.showMessageDialog(gxInstance, this.getLanguage(1025, "The two selected line don't" +
-                                    "have any intersected point"), this.getLanguage(302, "Warning"), JOptionPane.WARNING_MESSAGE);
+                            JOptionPane.showMessageDialog(gxInstance, this.getLanguage(1025,
+                                    "The selected two lines don't have intersected point"),
+                                    this.getLanguage(302, "Warning"), JOptionPane.WARNING_MESSAGE);
                             break;
                         }
                     }
@@ -3094,8 +3095,8 @@ drawProcess extends drawbase implements Printable, ActionListener {
                             if (CLine.commonPoint(ln0, ln) != null)
                                 addToSelectList(ln);
                             else
-                                JOptionPane.showMessageDialog(gxInstance, gxInstance.getLanguage(1025, "The selected two line don't have intersected point")
-                                        , gxInstance.getLanguage(1026, "No Intersected point"), JOptionPane.WARNING_MESSAGE);
+                                JOptionPane.showMessageDialog(gxInstance, gxInstance.getLanguage(1025, "The selected two lines don't have intersected point")
+                                        , gxInstance.getLanguage(1026, "No intersected point"), JOptionPane.WARNING_MESSAGE);
                         }
                     }
                     n = SelectList.size();

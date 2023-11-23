@@ -676,7 +676,7 @@ public class panelGB extends panelAlgebric implements MouseListener {
 
 
         addAlgebraicForm();
-        addString2(getLanguage(1103, "The Equational Hypotheses:"));
+        addString2(getLanguage(1103, "The equational hypotheses:"));
 
         Vector vc = dp.getAllConstraint();
         int n = 1;

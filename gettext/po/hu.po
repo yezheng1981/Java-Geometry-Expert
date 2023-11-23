@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
 "POT-Creation-Date: 2023-11-15 23:44+0100\n"
-"PO-Revision-Date: 2023-11-22 22:24+0100\n"
+"PO-Revision-Date: 2023-11-23 13:42+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -55,11 +55,11 @@ msgstr "Hamis"
 
 #: ../wprover/concDialog.java:156
 msgid "Set One"
-msgstr ""
+msgstr "1. halmaz"
 
 #: ../wprover/concDialog.java:157
 msgid "Set Two"
-msgstr ""
+msgstr "2. halmaz"
 
 #: ../wprover/concDialog.java:184
 msgid "Please select"
@@ -77,7 +77,7 @@ msgstr "igaz"
 #: ../wprover/TextValueEditor.java:123 ../wprover/Update.java:188
 #: ../wprover/vFontChooser.java:170
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ../wprover/concDialog.java:209 ../wprover/NumCheckDialog.java:88
 msgid "Clear"
@@ -94,11 +94,11 @@ msgstr "Mégsem"
 
 #: ../wprover/concDialog.java:294 ../wprover/concDialog.java:312
 msgid "The number of points to be selected:"
-msgstr ""
+msgstr "A kiválasztandó pontok száma:"
 
 #: ../wprover/CProperty.java:238 ../wprover/CProperty.java:179
 msgid "Basic"
-msgstr ""
+msgstr "Alapbeállítások"
 
 #: ../wprover/CProperty.java:246 ../wprover/CProperty.java:664
 #: ../wprover/CStyleDialog.java:93 ../wprover/CStyleDialog.java:141
@@ -106,354 +106,351 @@ msgstr ""
 #: ../wprover/MiscDialog.java:641 ../wprover/RightClickPopMenu.java:34
 #: ../wprover/vFontChooser.java:149
 msgid "Color"
-msgstr ""
+msgstr "Szín"
 
 #: ../wprover/CProperty.java:263 ../wprover/CProperty.java:393
 #: ../wprover/CProperty.java:640 ../wprover/CProperty.java:1017
 #: ../wprover/CStyleDialog.java:149
 msgid "Type"
-msgstr ""
+msgstr "Típus"
 
 #: ../wprover/CProperty.java:283 ../wprover/CStyleDialog.java:157
 msgid "Width"
-msgstr ""
+msgstr "Szélesség"
 
 #: ../wprover/CProperty.java:374 ../wprover/CProperty.java:632
 #: ../wprover/GExpert.java:854 ../wprover/GExpert.java:855
 #: ../wprover/HelpMode.java:45
 msgid "Line"
-msgstr ""
+msgstr "Egyenes"
 
 #: ../wprover/CProperty.java:494 ../wprover/GExpert.java:864
 #: ../wprover/GExpert.java:865 ../wprover/HelpMode.java:67
 msgid "Circle"
-msgstr ""
+msgstr "Kör"
 
 #: ../wprover/CProperty.java:551 ../wprover/GExpert.java:842
 #: ../wprover/GExpert.java:843 ../wprover/HelpMode.java:42
 #: ../wprover/LeadVariableDialog.java:425
 msgid "Point"
-msgstr ""
+msgstr "Pont"
 
 #: ../wprover/CProperty.java:653 ../wprover/MiscDialog.java:249
 msgid "Angle Text"
-msgstr ""
+msgstr "Szög szövege"
 
 #: ../wprover/CProperty.java:672
 msgid "Arc Num"
-msgstr ""
+msgstr "Ív száma"
 
 #: ../wprover/CProperty.java:795 ../wprover/MiscDialog.java:270
 msgid "Label"
-msgstr ""
+msgstr "Címke"
 
 #: ../wprover/CProperty.java:804
 msgid "Show Label"
-msgstr ""
+msgstr "Címke mutatása"
 
 #: ../wprover/CProperty.java:805 ../wprover/MiscDialog.java:228
 msgid "Show Text"
-msgstr ""
+msgstr "Szöveg mutatása"
 
 #: ../wprover/CProperty.java:814
-msgid "Significant Digit"
-msgstr ""
+msgid "Significant Digits"
+msgstr "Tizedesjegyek pontossága"
 
 #: ../wprover/CProperty.java:905
 msgid "Point number"
-msgstr ""
+msgstr "Pont-szám"
 
 #: ../wprover/CProperty.java:914
 msgid "Draw Line"
-msgstr ""
+msgstr "Egyenes rajzolása"
 
 #: ../wprover/CProperty.java:960
 msgid "Num"
-msgstr ""
+msgstr "Szám"
 
 #: ../wprover/CProperty.java:961 ../wprover/CProperty.java:1095
 #: ../wprover/LeadVariableDialog.java:244
 #: ../wprover/LeadVariableDialog.java:427 ../wprover/MiscDialog.java:319
 msgid "Length"
-msgstr ""
+msgstr "Hosszúság"
 
 #: ../wprover/CProperty.java:1010 ../wprover/GExpert.java:874
 #: ../wprover/GExpert.java:887 ../wprover/HelpMode.java:86
 msgid "Polygon"
-msgstr ""
+msgstr "Sokszög"
 
 #: ../wprover/CProperty.java:1094 ../wprover/MiscDialog.java:375
 msgid "Angle"
-msgstr ""
+msgstr "Szög"
 
 #: ../wprover/CProperty.java:1217 ../wprover/CProperty.java:1261
 #: ../wprover/CProperty.java:1307 ../wprover/LeadVariableDialog.java:242
 #: ../wprover/CProperty.java:625
 msgid "Name"
-msgstr ""
+msgstr "Név"
 
 #: ../wprover/CProperty.java:1218 ../wprover/CProperty.java:1312
 #: ../wprover/drawProcess.java:10509 ../wprover/RightClickPopMenu.java:93
 msgid "Radius"
-msgstr ""
+msgstr "Sugár"
 
 #: ../wprover/CProperty.java:1219 ../wprover/RightClickPopMenu.java:76
 msgid "X Coordinate"
-msgstr ""
+msgstr "X-koordináta"
 
 #: ../wprover/CProperty.java:1220 ../wprover/RightClickPopMenu.java:78
 msgid "Y Coordinate"
-msgstr ""
+msgstr "Y-koordináta"
 
 #: ../wprover/CProperty.java:1221
 msgid "Freezed"
-msgstr ""
+msgstr "Fagyasztva"
 
 #: ../wprover/CProperty.java:1262
 msgid "Point on Line"
-msgstr ""
+msgstr "Pont az egyenesen"
 
 #: ../wprover/CProperty.java:1308
 msgid "Point on Circle"
-msgstr ""
+msgstr "Pont a körön"
 
 #: ../wprover/CProperty.java:1309
 msgid "Center"
-msgstr ""
+msgstr "Középpont"
 
 #: ../wprover/CProperty.java:1310
 msgid "Center X"
-msgstr ""
+msgstr "Középpont X"
 
 #: ../wprover/CProperty.java:1311
 msgid "Center Y"
-msgstr ""
+msgstr "Középpont Y"
 
 #: ../wprover/CProperty.java:1352
 msgid "Grid Step"
-msgstr ""
+msgstr "Rács lépésköz"
 
 #: ../wprover/CProperty.java:1353
 msgid "Slope Angle"
-msgstr ""
+msgstr "Meredekség szöge"
 
 #: ../wprover/DialogPsProperty.java:26 ../wprover/GExpert.java:766
 #: ../wprover/HelpMode.java:35
 msgid "Save as PS"
-msgstr ""
+msgstr "Mentés PS-ként"
 
 #: ../wprover/DialogPsProperty.java:32 ../wprover/MiscDialog.java:616
 msgid "Gray"
-msgstr ""
+msgstr "Szürke"
 
 #: ../wprover/DialogPsProperty.java:34 ../wprover/MiscDialog.java:617
 msgid "Black and White"
-msgstr ""
+msgstr "Fekete-fehér"
 
 #: ../wprover/DialogPsProperty.java:56
 msgid "Point filled with background color"
-msgstr ""
+msgstr "Pont háttérszínnel színezve"
 
 #: ../wprover/drawbase.java:527
 msgid "Intersection"
-msgstr ""
+msgstr "Metszet"
 
 #: ../wprover/drawProcess.java:2242
 msgid "Angle Specification must be done before drawing anything"
-msgstr ""
+msgstr "A szög-specifikációt a rajzolás kezdete előtt meg kell adni"
 
 #: ../wprover/drawProcess.java:2243 ../wprover/drawProcess.java:3038
 #: ../wprover/PanelProve1.java:1087 ../wprover/Update.java:127
 msgid "Warning"
-msgstr ""
-
-#: ../wprover/drawProcess.java:3037
-msgid "The two selected line don'thave any intersected point"
-msgstr ""
+msgstr "Figyelmeztetés"
 
 #: ../wprover/drawProcess.java:3097
-msgid "The selected two line don't have intersected point"
-msgstr ""
+msgid "The selected two lines don't have intersected point"
+msgstr "A két kiválasztott egyenes nem metszi egymást"
 
 #: ../wprover/drawProcess.java:3098
-msgid "No Intersected point"
-msgstr ""
+msgid "No intersected point"
+msgstr "Nincs metszéspont"
 
 #: ../wprover/drawProcess.java:8069
 msgid "The two lines you selected are parallel, don't have any intersection!"
-msgstr ""
+msgstr "A két kiválasztott egyenes párhuzamos, nem metszik egymást!"
 
 #: ../wprover/drawProcess.java:8071 ../wprover/drawProcess.java:8132
 #: ../wprover/drawProcess.java:8205
 msgid "No intersection"
-msgstr ""
+msgstr "Nincs metszéspont"
 
 #: ../wprover/drawProcess.java:8131
 msgid "The line and the circle you selected don't have any intersection"
-msgstr ""
+msgstr "A kiválasztott egyenes és kör nem metszik egymást"
 
 #: ../wprover/drawProcess.java:8147
-msgid "The two objects you selected already have two points as their intersections"
-msgstr ""
+msgid ""
+"The two objects you selected already have two points as their intersections"
+msgstr "A két kiválasztott alakzatnak már van két metszéspontja"
 
 #: ../wprover/drawProcess.java:8148 ../wprover/drawProcess.java:8221
 msgid "intersection already defined"
-msgstr ""
+msgstr "a metszet már definiálva van"
 
 #: ../wprover/drawProcess.java:8204
 msgid "The circles you selected don't have any intersection"
-msgstr ""
+msgstr "A kiválasztott körök nem metszik egymást"
 
 #: ../wprover/drawProcess.java:10449 ../wprover/drawProcess.java:10501
 #: ../wprover/RightClickPopMenu.java:87 ../wprover/RightClickPopMenu.java:98
 msgid "Area"
-msgstr ""
+msgstr "Terület"
 
 #: ../wprover/drawProcess.java:10505 ../wprover/RightClickPopMenu.java:90
 msgid "Girth"
-msgstr ""
+msgstr "Átmérő"
 
 #: ../wprover/GExpert.java:353 ../wprover/RightClickPopMenu.java:38
 msgid "Property"
-msgstr ""
+msgstr "Tulajdonság"
 
 #: ../wprover/GExpert.java:744
 msgid "File"
-msgstr ""
+msgstr "Fájl"
 
 #: ../wprover/GExpert.java:747 ../wprover/HelpMode.java:31
 msgid "New"
-msgstr ""
+msgstr "Új"
 
 #: ../wprover/GExpert.java:751 ../wprover/HelpMode.java:32
 msgid "Open"
-msgstr ""
+msgstr "Megnyitás"
 
 #: ../wprover/GExpert.java:753
 msgid "Import"
-msgstr ""
+msgstr "Importálás"
 
 #: ../wprover/GExpert.java:756 ../wprover/GExpert.java:1867
 #: ../wprover/HelpMode.java:33
 msgid "Save"
-msgstr ""
+msgstr "Mentés"
 
 #: ../wprover/GExpert.java:758
 msgid "Save as..."
-msgstr ""
+msgstr "Mentés mint..."
 
 #: ../wprover/GExpert.java:763 ../wprover/HelpMode.java:34
 msgid "Save as Text"
-msgstr ""
+msgstr "Mentés szövegként"
 
 #: ../wprover/GExpert.java:768 ../wprover/HelpMode.java:36
 msgid "Save as PDF"
-msgstr ""
+msgstr "Mentés PDF-ként"
 
 #: ../wprover/GExpert.java:771 ../wprover/HelpMode.java:37
 msgid "Save as Image"
-msgstr ""
+msgstr "Mentés képként"
 
 #: ../wprover/GExpert.java:773 ../wprover/HelpMode.java:38
 msgid "Save as Animated Image"
-msgstr ""
+msgstr "Mentés animációként"
 
 #: ../wprover/GExpert.java:775 ../wprover/HelpMode.java:39
 msgid "Save Proof as Animated Image"
-msgstr ""
+msgstr "A bizonyítás mentése animációként"
 
 #: ../wprover/GExpert.java:777
 msgid "Save GDD Proof as GraphViz File"
-msgstr ""
+msgstr "A GDD-bizonyítás mentés GraphViz fájlként"
 
 #: ../wprover/GExpert.java:781 ../wprover/HelpMode.java:40
 msgid "Print"
-msgstr ""
+msgstr "Nyomtatás"
 
 #: ../wprover/GExpert.java:784 ../wprover/HelpMode.java:41
 msgid "Exit"
-msgstr ""
+msgstr "Kilépés"
 
 #: ../wprover/GExpert.java:788
 msgid "Examples"
-msgstr ""
+msgstr "Példák"
 
 #: ../wprover/GExpert.java:809
 msgid "Construct"
-msgstr ""
+msgstr "Szerkesztés"
 
 #: ../wprover/GExpert.java:811 ../wprover/HelpMode.java:49
 msgid "Point by Point and Segment"
-msgstr ""
+msgstr "Pont pont és szakasz segítségével"
 
 #: ../wprover/GExpert.java:812 ../wprover/HelpMode.java:50
 msgid "Radical of Two Circles"
-msgstr ""
+msgstr "Két kör hatványvonala"
 
 #: ../wprover/GExpert.java:815 ../wprover/HelpMode.java:51
 msgid "Oriented Segment"
-msgstr ""
+msgstr "Irányított szakasz"
 
 #: ../wprover/GExpert.java:816 ../wprover/HelpMode.java:52
 msgid "Oriented T Segment"
-msgstr ""
+msgstr "Irányított t-szakasz"
 
 #: ../wprover/GExpert.java:818 ../wprover/HelpMode.java:53
 msgid "Oriented Segment * Ratio"
-msgstr ""
+msgstr "Irányított szakasz * arány"
 
 #: ../wprover/GExpert.java:822 ../wprover/GExpert.java:828
 #: ../wprover/GExpert.java:839 ../wprover/GExpert.java:898
 #: ../wprover/GExpert.java:918
 msgid "Other..."
-msgstr ""
+msgstr "Más..."
 
 #: ../wprover/GExpert.java:825
 msgid "Oriented T Segment * Ratio"
-msgstr ""
+msgstr "Irányított t-szakasz * arány"
 
 #: ../wprover/GExpert.java:832 ../wprover/HelpMode.java:54
 msgid "Proportional Segment"
-msgstr ""
+msgstr "Arányos szakasz"
 
 #: ../wprover/GExpert.java:844 ../wprover/HelpMode.java:43
 #: ../wprover/MProveTree.java:1817
 msgid "Midpoint"
-msgstr ""
+msgstr "Felezőpont"
 
 #: ../wprover/GExpert.java:846 ../wprover/HelpMode.java:55
 msgid "Circumcenter"
-msgstr ""
+msgstr "Körülírható kör középpontja"
 
 #: ../wprover/GExpert.java:847 ../wprover/HelpMode.java:56
 msgid "Centroid"
-msgstr ""
+msgstr "Súlypont"
 
 #: ../wprover/GExpert.java:848 ../wprover/HelpMode.java:57
 msgid "Orthocenter"
-msgstr ""
+msgstr "Magasságpont"
 
 #: ../wprover/GExpert.java:849 ../wprover/HelpMode.java:58
 msgid "Incenter"
-msgstr ""
+msgstr "Beírható kör középpontja"
 
 #: ../wprover/GExpert.java:851 ../wprover/HelpMode.java:60
 msgid "Foot"
-msgstr ""
+msgstr "Talppont"
 
 #: ../wprover/GExpert.java:856 ../wprover/HelpMode.java:46
 #: ../wprover/MProveTree.java:1816
 msgid "Parallel"
-msgstr ""
+msgstr "Párhuzamos"
 
 #: ../wprover/GExpert.java:857 ../wprover/HelpMode.java:47
 #: ../wprover/MProveTree.java:1816
 msgid "Perpendicular"
-msgstr ""
+msgstr "Merőleges"
 
 #: ../wprover/GExpert.java:858 ../wprover/HelpMode.java:61
 msgid "Angle Bisector"
-msgstr ""
+msgstr "Szögfelező"
 
 #: ../wprover/GExpert.java:859 ../wprover/HelpMode.java:63
 msgid "Aline"
@@ -469,284 +466,292 @@ msgstr ""
 
 #: ../wprover/GExpert.java:866 ../wprover/HelpMode.java:68
 msgid "Circle by Three Points"
-msgstr ""
+msgstr "Kör három ponttal"
 
 #: ../wprover/GExpert.java:867 ../wprover/HelpMode.java:69
-msgid "Circler"
-msgstr ""
+msgid "Compass"
+msgstr "Körző"
 
 #: ../wprover/GExpert.java:870 ../wprover/GExpert.java:922
 msgid "Action"
-msgstr ""
+msgstr "Tevékenység"
 
 #: ../wprover/GExpert.java:871 ../wprover/HelpMode.java:71
 msgid "Intersect"
-msgstr ""
+msgstr "Metszet"
 
 #: ../wprover/GExpert.java:872 ../wprover/HelpMode.java:72
 msgid "Mirror"
-msgstr ""
+msgstr "Tükrözés"
 
 #: ../wprover/GExpert.java:875 ../wprover/HelpMode.java:74
 msgid "Triangle"
-msgstr ""
+msgstr "Háromszög"
 
 #: ../wprover/GExpert.java:876 ../wprover/HelpMode.java:75
 #: ../wprover/MProveTree.java:1822
 msgid "Isosceles Triangle"
-msgstr ""
+msgstr "Egyenlő szárú háromszög"
 
 #: ../wprover/GExpert.java:877 ../wprover/HelpMode.java:76
 #: ../wprover/MProveTree.java:1823
 msgid "Equilateral Triangle"
-msgstr ""
+msgstr "Egyenlő oldalú háromszög"
 
 #: ../wprover/GExpert.java:878 ../wprover/HelpMode.java:77
 msgid "Right-angled Triangle"
-msgstr ""
+msgstr "Derékszögű háromszög"
 
 #: ../wprover/GExpert.java:879 ../wprover/HelpMode.java:78
 msgid "Isosceles Right-angled Triangle"
-msgstr ""
+msgstr "Derékszögű egyenlő szárú háromszög"
 
 #: ../wprover/GExpert.java:880 ../wprover/HelpMode.java:79
 msgid "Quadrangle"
-msgstr ""
+msgstr "Négyszög"
 
 #: ../wprover/GExpert.java:881 ../wprover/HelpMode.java:80
 #: ../wprover/MProveTree.java:1820
 msgid "Parallelogram"
-msgstr ""
+msgstr "Paralelogramma"
 
 #: ../wprover/GExpert.java:882 ../wprover/HelpMode.java:81
 #: ../wprover/MProveTree.java:1823
 msgid "Trapezoid"
-msgstr ""
+msgstr "Trapéz"
 
 #: ../wprover/GExpert.java:883 ../wprover/HelpMode.java:82
 msgid "Right-angled Trapezoid"
-msgstr ""
+msgstr "Derékszögű trapéz"
 
 #: ../wprover/GExpert.java:884 ../wprover/HelpMode.java:83
 #: ../wprover/MProveTree.java:1824
 msgid "Rectangle"
-msgstr ""
+msgstr "Téglalap"
 
 #: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
 #: ../wprover/MProveTree.java:1824
 msgid "Square"
-msgstr ""
+msgstr "Négyzet"
 
 #: ../wprover/GExpert.java:886 ../wprover/HelpMode.java:85
 msgid "Pentagon"
-msgstr ""
+msgstr "Ötszög"
 
 #: ../wprover/GExpert.java:889
 msgid "Special Angles"
-msgstr ""
+msgstr "Adott szögek"
 
 #: ../wprover/GExpert.java:903
 msgid "Constraint"
-msgstr ""
+msgstr "Kényszerfeltétel"
 
 #: ../wprover/GExpert.java:904 ../wprover/HelpMode.java:89
 #: ../wprover/MProveTree.java:1818
 msgid "Eqangle"
-msgstr ""
+msgstr "Egyenlő szögek"
 
 #: ../wprover/GExpert.java:906 ../wprover/HelpMode.java:90
 msgid "Eqangle3p"
-msgstr ""
+msgstr "Három szög összege egy"
 
 #: ../wprover/GExpert.java:907 ../wprover/HelpMode.java:91
 #: ../wprover/SpecificAngleDialog.java:32
 msgid "Angle Specification"
-msgstr ""
+msgstr "Szög-specifikáció"
 
 #: ../wprover/GExpert.java:910 ../wprover/HelpMode.java:92
 msgid "Equal Ratio"
-msgstr ""
+msgstr "Egyenlő arány"
 
 #: ../wprover/GExpert.java:912 ../wprover/HelpMode.java:93
 msgid "Equal Distance"
-msgstr ""
+msgstr "Egyenlő távolság"
 
 #: ../wprover/GExpert.java:914 ../wprover/HelpMode.java:94
 msgid "Ratio Distance"
-msgstr ""
+msgstr "Arányos távolság"
 
 #: ../wprover/GExpert.java:920 ../wprover/HelpMode.java:95
 msgid "CCtangent"
-msgstr ""
+msgstr "Érintő körök"
 
 #: ../wprover/GExpert.java:924 ../wprover/HelpMode.java:98
 #: ../wprover/RightClickPopMenu.java:73
 msgid "Trace"
-msgstr ""
+msgstr "Nyomvonal"
 
 #: ../wprover/GExpert.java:925 ../wprover/HelpMode.java:99
 msgid "Locus"
-msgstr ""
+msgstr "Mértani hely"
 
 #: ../wprover/GExpert.java:926 ../wprover/HelpMode.java:100
 msgid "Animation"
-msgstr ""
+msgstr "Animáció"
 
 #: ../wprover/GExpert.java:929 ../wprover/HelpMode.java:102
 msgid "Fill Polygon"
-msgstr ""
+msgstr "Sokszög kitöltése"
 
 #: ../wprover/GExpert.java:930 ../wprover/HelpMode.java:103
 msgid "Measure Distance"
-msgstr ""
+msgstr "Távolságmérés"
 
 #: ../wprover/GExpert.java:931 ../wprover/HelpMode.java:104
 msgid "Arrow"
-msgstr ""
+msgstr "Nyíl"
 
 #: ../wprover/GExpert.java:934 ../wprover/HelpMode.java:106
 msgid "Equal Mark"
-msgstr ""
+msgstr "Egyenlőségjel"
 
 #: ../wprover/GExpert.java:940 ../wprover/HelpMode.java:107
 msgid "Right-angle Mark"
-msgstr ""
+msgstr "Derékszög jelzése"
 
 #: ../wprover/GExpert.java:941 ../wprover/HelpMode.java:108
 #: ../wprover/TextValueEditor.java:45
 msgid "Calculation"
-msgstr ""
+msgstr "Számítás"
 
 #: ../wprover/GExpert.java:944 ../wprover/HelpMode.java:110
 msgid "Hide Object"
-msgstr ""
+msgstr "Alakzat elrejtése"
 
 #: ../wprover/GExpert.java:945 ../wprover/HelpMode.java:111
 msgid "Show Object"
-msgstr ""
+msgstr "Alakzat megjelenítése"
 
 #: ../wprover/GExpert.java:947 ../wprover/HelpMode.java:112
 msgid "Transform"
-msgstr ""
+msgstr "Átalakítás"
 
 #: ../wprover/GExpert.java:948 ../wprover/HelpMode.java:113
 msgid "Equivalence"
-msgstr ""
+msgstr "Azonosság"
 
 #: ../wprover/GExpert.java:949 ../wprover/HelpMode.java:114
 msgid "Free Transform"
-msgstr ""
+msgstr "Szabad transzformáció"
 
 #: ../wprover/GExpert.java:957
 msgid "Lemmas"
-msgstr ""
+msgstr "Lemmák"
 
 #: ../wprover/GExpert.java:959 ../wprover/HelpMode.java:116
 msgid "Rules for Full Angle"
-msgstr ""
+msgstr "A teljes szög módszer szabályai"
 
 #: ../wprover/GExpert.java:960 ../wprover/HelpMode.java:117
 msgid "Rules for GDD"
-msgstr ""
+msgstr "A GDD-módszer szabályai"
+
+#: ../wprover/GExpert.java:959 ../wprover/HelpMode.java:116
+msgid "Rules for the Full Angle Method"
+msgstr "A teljes szög módszer szabályai"
+
+#: ../wprover/GExpert.java:960 ../wprover/HelpMode.java:117
+msgid "Rules for the GDD Method"
+msgstr "A GDD-módszer szabályai"
 
 #: ../wprover/GExpert.java:963
 msgid "Option"
-msgstr ""
+msgstr "Opció"
 
 #: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
 #: ../wprover/MiscDialog.java:32
-msgid "Preference"
-msgstr ""
+msgid "Preferences"
+msgstr "Beállítások"
 
 #: ../wprover/GExpert.java:968 ../wprover/HelpMode.java:120
 #: ../wprover/ListTree.java:60 ../wprover/UndoEditDialog.java:20
 msgid "Construct History"
-msgstr ""
+msgstr "A szerkesztés menete"
 
 #: ../wprover/GExpert.java:970 ../wprover/HelpMode.java:121
 msgid "Show Step Bar"
-msgstr ""
+msgstr "Lépések mutatása"
 
 #: ../wprover/GExpert.java:972 ../wprover/HelpMode.java:122
 msgid "Style Dialog"
-msgstr ""
+msgstr "Stílus párbeszédablak"
 
 #: ../wprover/GExpert.java:975 ../wprover/GExpert.java:976
 #: ../wprover/HelpMode.java:125
 msgid "Help"
-msgstr ""
+msgstr "Segítség"
 
 #: ../wprover/GExpert.java:983 ../wprover/HelpMode.java:127
 msgid "Help on Mode"
-msgstr ""
+msgstr "Segítség a kiválasztott eszközhöz"
 
 #: ../wprover/GExpert.java:986 ../wprover/HelpMode.java:128
 msgid "JGEX Homepage"
-msgstr ""
+msgstr "A JGEX honlapja"
 
 #: ../wprover/GExpert.java:988 ../wprover/HelpMode.java:129
 msgid "Contact Us"
-msgstr ""
+msgstr "Kapcsolatfelvétel a szerzőkkel"
 
 #: ../wprover/GExpert.java:993 ../wprover/HelpMode.java:131
 msgid "About JGEX"
-msgstr ""
+msgstr "A JGEX-ről"
 
 #: ../wprover/GExpert.java:1158 ../wprover/GExpert.java:2424
 msgid "Move"
-msgstr ""
+msgstr "Mozgatás"
 
 #: ../wprover/GExpert.java:1163 ../wprover/GExpert.java:2419
 msgid "Select"
-msgstr ""
+msgstr "Válassz"
 
 #: ../wprover/GExpert.java:1661
 msgid "Please input the value of the angle"
-msgstr ""
+msgstr "Add meg a szög értéket"
 
 #: ../wprover/GExpert.java:1811
 msgid "Nothing to be saved."
-msgstr ""
+msgstr "Nincs menthető adat."
 
 #: ../wprover/GExpert.java:1866
 msgid "The diagram has been changed, do you want to save it?"
-msgstr ""
+msgstr "Megváltozott a rajz, szeretnéd elmenteni?"
 
 #: ../wprover/GExpert.java:1931
 msgid "File exists"
-msgstr ""
+msgstr "A fájl létezik"
 
 #: ../wprover/GExpert.java:2008
 msgid "No animation has been defined."
-msgstr ""
+msgstr "Nincs animáció definiálva."
 
 #: ../wprover/GExpert.java:2015
 msgid "GIF Option"
-msgstr ""
+msgstr "GIF opció"
 
 #: ../wprover/GIFOptionDialog.java:33
 msgid "Image Quality"
-msgstr ""
+msgstr "Képminőség"
 
 #: ../wprover/GIFOptionDialog.java:103
 msgid "Best"
-msgstr ""
+msgstr "Legjobb"
 
 #: ../wprover/GIFOptionDialog.java:105
 msgid "Good"
-msgstr ""
+msgstr "Jó"
 
 #: ../wprover/GIFOptionDialog.java:107
 msgid "Medium"
-msgstr ""
+msgstr "Közepes"
 
 #: ../wprover/GIFOptionDialog.java:109
 msgid "Low"
-msgstr ""
+msgstr "Alacsony"
 
 #: ../wprover/GIFOptionDialog.java:110
 msgid "Very Low"
-msgstr ""
+msgstr "Nagyon alacsony"
 
 #: ../wprover/HelpMode.java:87
 msgid "sangle"
@@ -754,393 +759,385 @@ msgstr ""
 
 #: ../wprover/HelpMode.java:126
 msgid "Online Help"
-msgstr ""
+msgstr "Online segítség"
 
 #: ../wprover/HelpMode.java:130
 msgid "Check for Update"
-msgstr ""
+msgstr "Szoftverfrissítés"
 
 #: ../wprover/LeadVariableDialog.java:34
 msgid "Leading Variable"
-msgstr ""
+msgstr "Sorrendben első változó"
 
 #: ../wprover/LeadVariableDialog.java:58
 msgid "Variables"
-msgstr ""
+msgstr "Változók"
 
 #: ../wprover/LeadVariableDialog.java:68
 msgid "Reduce"
-msgstr ""
+msgstr "Redukció"
 
 #: ../wprover/LeadVariableDialog.java:69
 msgid "Detail"
-msgstr ""
+msgstr "Részlet"
 
 #: ../wprover/LeadVariableDialog.java:70
 msgid "Reload"
-msgstr ""
+msgstr "Újratöltés"
 
 #: ../wprover/LeadVariableDialog.java:71 ../wprover/NumCheckDialog.java:89
 msgid "Close"
-msgstr ""
+msgstr "Bezár"
 
 #: ../wprover/LeadVariableDialog.java:243
 #: ../wprover/LeadVariableDialog.java:426
 msgid "Variable"
-msgstr ""
+msgstr "Változó"
 
 #: ../wprover/LeadVariableDialog.java:245
 #: ../wprover/LeadVariableDialog.java:333
 msgid "Polynomial"
-msgstr ""
+msgstr "Polinom"
 
 #: ../wprover/LeadVariableDialog.java:376
 msgid "Cut"
-msgstr ""
+msgstr "Kivágás"
 
 #: ../wprover/LeadVariableDialog.java:377
 msgid "Copy"
-msgstr ""
+msgstr "Másolás"
 
 #: ../wprover/LeadVariableDialog.java:378
 msgid "Paste"
-msgstr ""
+msgstr "Beszúrás"
 
 #: ../wprover/LeadVariableDialog.java:379 ../wprover/MProveTree.java:752
 #: ../wprover/MProveTree.java:756 ../wprover/MProveTree.java:807
 msgid "Delete"
-msgstr ""
+msgstr "Törlés"
 
 #: ../wprover/ListTree.java:99
 msgid "Objects"
-msgstr ""
+msgstr "Alakzatok"
 
 #: ../wprover/MiscDialog.java:40
 msgid "Display"
-msgstr ""
+msgstr "Megjelenítés"
 
 #: ../wprover/MiscDialog.java:42
 msgid "Mode"
-msgstr ""
+msgstr "Eszköz"
 
 #: ../wprover/MiscDialog.java:45 ../wprover/MiscDialog.java:287
 #: ../wprover/vFontChooser.java:108
 msgid "Font"
-msgstr ""
+msgstr "Betűtípus"
 
 #: ../wprover/MiscDialog.java:46
 msgid "Other"
-msgstr ""
+msgstr "Más"
 
 #: ../wprover/MiscDialog.java:56
-msgid "Save Preference"
-msgstr ""
+msgid "Save Preferences"
+msgstr "A beállítások mentése"
 
 #: ../wprover/MiscDialog.java:59 ../wprover/CProperty.java:625
 msgid "Default"
-msgstr ""
+msgstr "Alapértelmezés"
 
 #: ../wprover/MiscDialog.java:116
-msgid "Can not Save Preference"
-msgstr ""
+msgid "Can not save Preferences"
+msgstr "A beállítások nem menthetők el"
 
 #: ../wprover/MiscDialog.java:119
-msgid "Save Preference Successfully"
-msgstr ""
+msgid "Preferences have been successfully saved"
+msgstr "A beállításokat sikeresen elmentettem"
 
 #: ../wprover/MiscDialog.java:120
 msgid "Please restart the program."
-msgstr ""
+msgstr "Indítsd újra a programot!"
 
 #: ../wprover/MiscDialog.java:121
 msgid "Saved"
-msgstr ""
+msgstr "Elmentve"
 
 #: ../wprover/MiscDialog.java:154
 msgid "Polygon Alpha"
-msgstr ""
+msgstr "Sokszög átlátszósága"
 
 #: ../wprover/MiscDialog.java:195
 msgid "Radius of Point"
-msgstr ""
+msgstr "Pont sugara"
 
 #: ../wprover/MiscDialog.java:212 ../wprover/MiscDialog.java:468
 msgid "Point's Text"
-msgstr ""
+msgstr "A pont szövege"
 
 #: ../wprover/MiscDialog.java:213
 msgid "Default Font"
-msgstr ""
+msgstr "Alapértelmezett betűtípus"
 
 #: ../wprover/MiscDialog.java:219
 msgid "Choose default foot for point's text"
-msgstr ""
+msgstr "Válassz alapértelmezett tartópontot a pont szövegéhez"
 
 #: ../wprover/MiscDialog.java:266
 msgid "None"
-msgstr ""
+msgstr "Semmi"
 
 #: ../wprover/MiscDialog.java:273
 msgid "Degrees"
-msgstr ""
+msgstr "Szögek"
 
 #: ../wprover/MiscDialog.java:307
 msgid "Foot Mark"
-msgstr ""
+msgstr "Talppont jelzése"
 
 #: ../wprover/MiscDialog.java:308
 msgid "Show foot mark"
-msgstr ""
+msgstr "Talppontjelölő mutatása"
 
 #: ../wprover/MiscDialog.java:378 ../wprover/CProperty.java:624
 msgid "Without Arrow"
-msgstr ""
+msgstr "Nyíl nélkül"
 
 #: ../wprover/MiscDialog.java:380 ../wprover/CProperty.java:624
 msgid "With Arrow"
-msgstr ""
+msgstr "Nyíllal"
 
 #: ../wprover/MiscDialog.java:382 ../wprover/CProperty.java:624
 msgid "Multiple Arc"
-msgstr ""
+msgstr "Többszörös ív"
 
 #: ../wprover/MiscDialog.java:384 ../wprover/CProperty.java:624
 #: ../wprover/CProperty.java:997
 msgid "Fill"
-msgstr ""
+msgstr "Kitöltés"
 
 #: ../wprover/MiscDialog.java:399
 msgid "Polygon Moving Interval"
-msgstr ""
+msgstr "Sokszög mozgatási intervalluma"
 
 #: ../wprover/MiscDialog.java:486 ../wprover/MProveTree.java:315
 msgid "Theorem"
-msgstr ""
+msgstr "Tétel"
 
 #: ../wprover/MiscDialog.java:522 ../wprover/PanelProve1.java:2368
 msgid "Area Method"
-msgstr ""
+msgstr "Terület-módszer"
 
 #: ../wprover/MiscDialog.java:540
 msgid "Manual Method"
-msgstr ""
+msgstr "Kézi módszer"
 
 #: ../wprover/MiscDialog.java:558 ../wprover/PanelProve1.java:373
 msgid "Fixpoint"
-msgstr ""
+msgstr "Fixpont"
 
 #: ../wprover/MiscDialog.java:576
 msgid "Algebra"
-msgstr ""
+msgstr "Algebra"
 
 #: ../wprover/MiscDialog.java:612
 msgid "Color Mode"
-msgstr ""
+msgstr "Színmód"
 
 #: ../wprover/MiscDialog.java:615
 msgid "Colorful"
-msgstr ""
-
-#: ../wprover/MiscDialog.java:646
-msgid "BackGroud Color"
-msgstr ""
+msgstr "Színes"
 
 #: ../wprover/MiscDialog.java:652 ../wprover/CProperty.java:998
 msgid "Grid"
-msgstr ""
+msgstr "Rács"
 
 #: ../wprover/MiscDialog.java:700 ../wprover/MiscDialog.java:711
 #: ../wprover/CProperty.java:318
 msgid "Choose Color"
-msgstr ""
+msgstr "Válassz színt"
 
 #: ../wprover/MiscDialog.java:761
 msgid "AntiAlias"
-msgstr ""
+msgstr "Élsimítás"
 
 #: ../wprover/MiscDialog.java:763
 msgid "ON"
-msgstr ""
+msgstr "BE"
 
 #: ../wprover/MiscDialog.java:764
 msgid "OFF"
-msgstr ""
+msgstr "KI"
 
 #: ../wprover/MiscDialog.java:778
 msgid "Language"
-msgstr ""
+msgstr "Nyelv"
 
 #: ../wprover/MiscDialog.java:802
 msgid "LookAndFeel"
-msgstr ""
+msgstr "Kinézet"
 
 #: ../wprover/mproveInputPanel.java:237
 msgid "Edit"
-msgstr ""
+msgstr "Szerkesztés"
 
 #: ../wprover/mproveInputPanel.java:260
 msgid "Add"
-msgstr ""
+msgstr "Hozzáad"
 
 #: ../wprover/mproveInputPanel.java:268
 msgid "Append"
-msgstr ""
+msgstr "Hozzáfűz"
 
 #: ../wprover/mproveInputPanel.java:276
 msgid "Child"
-msgstr ""
+msgstr "Gyerek"
 
 #: ../wprover/mproveInputPanel.java:1138
 msgid "Basic Assertions"
-msgstr ""
+msgstr "Alapkijelentések"
 
 #: ../wprover/mproveInputPanel.java:1160
 msgid "Polygon Related"
-msgstr ""
+msgstr "Kapcsolódó sokszög"
 
 #: ../wprover/mproveInputPanel.java:1169
 msgid "Inequality"
-msgstr ""
+msgstr "Egyenlőtlenség"
 
 #: ../wprover/MProveTree.java:758
-msgid "Delete This Row"
-msgstr ""
+msgid "Delete this row"
+msgstr "Töröld ezt a sort"
 
 #: ../wprover/MProveTree.java:763
-msgid "Add A New Row"
-msgstr ""
+msgid "Add a new row"
+msgstr "Új sor hozzáadása"
 
 #: ../wprover/MProveTree.java:767
-msgid "Append A Term"
-msgstr ""
+msgid "Append a term"
+msgstr "Tag hozzáfűzése"
 
 #: ../wprover/MProveTree.java:771
-msgid "Combine Selected Rows"
-msgstr ""
+msgid "Combine selected rows"
+msgstr "A kiválasztott sorok összekapcsolása"
 
 #: ../wprover/ndgDialog.java:31 ../wprover/PanelProve1.java:2424
 msgid "Nondegenerate Conditions"
-msgstr ""
+msgstr "Nem-elfajulási feltételek"
 
 #: ../wprover/ndgDialog.java:44
 msgid "The Simplified Nondegenerate Conditions"
-msgstr ""
+msgstr "Az egyszerűsített nem-elfajulási feltételek"
 
 #: ../wprover/ndgDialog.java:45
 msgid "The Final Nondegenerate Conditions"
-msgstr ""
+msgstr "A végső nem-elfajulási feltételek"
 
 #: ../wprover/ndgDialog.java:258 ../wprover/MProveTree.java:1519
 msgid "Construction"
-msgstr ""
+msgstr "Szerkesztés"
 
 #: ../wprover/ndgDialog.java:259
 msgid "Nondegenerate Condition"
-msgstr ""
+msgstr "Nem-elfajulási feltétel"
 
 #: ../wprover/NumCheckDialog.java:30 ../wprover/PanelProve1.java:2410
 msgid "Numerical Check"
-msgstr ""
+msgstr "Numerikus ellenőrzés"
 
 #: ../wprover/NumCheckDialog.java:242
 msgid "TRUE"
-msgstr ""
+msgstr "IGAZ"
 
 #: ../wprover/NumCheckDialog.java:246
 msgid "FALSE"
-msgstr ""
+msgstr "HAMIS"
 
 #: ../wprover/panelAlgebric.java:125
 msgid "The Algebraic Form:"
-msgstr ""
+msgstr "Az algebrai alak:"
 
 #: ../wprover/panelGB.java:623
 msgid "The Nondegenerate Conditions"
-msgstr ""
-
-#: ../wprover/panelGB.java:679 ../wprover/panelWu.java:122
-msgid "The Equational Hypotheses:"
-msgstr ""
+msgstr "A nem-elfajulási feltételek"
 
 #: ../wprover/panelGB.java:704
 msgid "The Initial Polynomial Set"
-msgstr ""
+msgstr "A kezdeti polinomhalmaz"
 
 #: ../wprover/panelGB.java:709
 msgid "The Groebner basis:"
-msgstr ""
+msgstr "A Gröbner bázis:"
 
 #: ../wprover/panelGB.java:723
 msgid "The conclution:"
-msgstr ""
+msgstr "A következmény:"
 
 #: ../wprover/panelGB.java:726
 msgid "The conclution after reduce:"
-msgstr ""
+msgstr "A következmény egyszerűsítés után:"
 
 #: ../wprover/panelGB.java:731 ../wprover/panelWu.java:179
 msgid "The conclution is true"
-msgstr ""
+msgstr "A következmény igaz"
 
 #: ../wprover/panelGB.java:734 ../wprover/panelWu.java:182
 msgid "The conclution is false"
-msgstr ""
+msgstr "A következmény hamis"
 
 #: ../wprover/PanelProve1.java:673
 msgid "Search facts"
-msgstr ""
+msgstr "Tulajdonságok keresése"
 
 #: ../wprover/PanelProve1.java:889
 msgid "Add Conclution"
-msgstr ""
+msgstr "Következmény hozzáadása"
 
 #: ../wprover/PanelProve1.java:930
 msgid "Time:"
-msgstr ""
+msgstr "Idő:"
 
 #: ../wprover/PanelProve1.java:930
 msgid "Second(s)"
-msgstr ""
+msgstr "másodperc"
 
 #: ../wprover/PanelProve1.java:993
 msgid "lines"
-msgstr ""
+msgstr "egyenesek"
 
 #: ../wprover/PanelProve1.java:999
 msgid "parallel lines"
-msgstr ""
+msgstr "párhuzamos egyenesek"
 
 #: ../wprover/PanelProve1.java:1005
 msgid "perpendicular lines"
-msgstr ""
+msgstr "merőleges egyenesek"
 
 #: ../wprover/PanelProve1.java:1011
 msgid "midpoints"
-msgstr ""
+msgstr "felezőpontok"
 
 #: ../wprover/PanelProve1.java:1017
 msgid "circles"
-msgstr ""
+msgstr "körök"
 
 #: ../wprover/PanelProve1.java:1023
 msgid "congruent segments"
-msgstr ""
+msgstr "egyenlő szakaszok"
 
 #: ../wprover/PanelProve1.java:1030
 msgid "congruent angles"
-msgstr ""
+msgstr "egyenlő szögek"
 
 #: ../wprover/PanelProve1.java:1042
 msgid "similiar triangles"
-msgstr ""
+msgstr "hasonló háromszögek"
 
 #: ../wprover/PanelProve1.java:1047
 msgid "congruent triangles"
-msgstr ""
+msgstr "egybevágó háromszögek"
 
 #: ../wprover/PanelProve1.java:1054
 msgid "special angles"
-msgstr ""
+msgstr "adott szögek"
 
 #: ../wprover/PanelProve1.java:1059
 msgid "perp-acong angles"
@@ -1148,187 +1145,183 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:1067
 msgid "ratio segments"
-msgstr ""
+msgstr "arányos szakaszok"
 
 #: ../wprover/PanelProve1.java:1086
 msgid "Can not find any proof!"
-msgstr ""
+msgstr "Nem található bizonyítás!"
 
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
 msgid "No conclution has been set!"
-msgstr ""
+msgstr "Nincs következmény beállítva!"
 
 #: ../wprover/PanelProve1.java:1259 ../wprover/PanelProve1.java:1341
 #: ../wprover/PanelProve1.java:1398
 msgid "No conclution"
-msgstr ""
+msgstr "Nincs következmény"
 
 #: ../wprover/PanelProve1.java:1300 ../wprover/PanelProve1.java:1373
 #: ../wprover/PanelProve1.java:1379
 msgid "Message"
-msgstr ""
+msgstr "Üzenet"
 
 #: ../wprover/PanelProve1.java:1313
 msgid "Please construct the diagram first!"
-msgstr ""
+msgstr "Először szerkeszd meg a feladatot!"
 
 #: ../wprover/PanelProve1.java:1314
 msgid "Diagram not completed"
-msgstr ""
+msgstr "A rajz nincs befejezve"
 
 #: ../wprover/PanelProve1.java:1372
 msgid "{0} is trivially true"
-msgstr ""
+msgstr "{0} triviálisan igaz"
 
 #: ../wprover/PanelProve1.java:1378
 msgid "{0} is obviously true (by hypothesis)"
-msgstr ""
+msgstr "{0} nyilvánvalóan igaz (a feladatkiírás szerint)"
 
 #: ../wprover/PanelProve1.java:1385 ../wprover/PanelProve1.java:1409
 msgid "Can not prove this theorem"
-msgstr ""
+msgstr "Nem bizonyítható a tétel"
 
 #: ../wprover/PanelProve1.java:1386
 msgid "Information"
-msgstr ""
+msgstr "Információ"
 
 #: ../wprover/PanelProve1.java:1407
 msgid "Show Detail"
-msgstr ""
+msgstr "Részletek mutatása"
 
 #: ../wprover/PanelProve1.java:1410
 msgid "Failed"
-msgstr ""
+msgstr "Sikertelen"
 
 #: ../wprover/PanelProve1.java:1416
 msgid "The conclusion can not be translated to full-angle expression."
-msgstr ""
+msgstr "A következmény nem adható meg teljes-szög kifejezéssel."
 
 #: ../wprover/PanelProve1.java:1417
 msgid "Not Supported"
-msgstr ""
+msgstr "Nem támogatott"
 
 #: ../wprover/PanelProve1.java:2057 ../wprover/PanelProve1.java:2390
 #: ../wprover/PanelProve1.java:2392
 msgid "Prove"
-msgstr ""
+msgstr "Bizonyítás"
 
 #: ../wprover/PanelProve1.java:2060
-msgid "Prove in New Tab"
-msgstr ""
+msgid "Prove in a new tab"
+msgstr "Bizonyítás új lapon"
 
 #: ../wprover/PanelProve1.java:2064
 msgid "Refresh"
-msgstr ""
+msgstr "Frissítés"
 
 #: ../wprover/PanelProve1.java:2067
-msgid "Search A Fact"
-msgstr ""
+msgid "Search a fact"
+msgstr "Tulajdonság keresése"
 
 #: ../wprover/PanelProve1.java:2185
-msgid "File Format Not Supported!"
-msgstr ""
+msgid "File format not supported!"
+msgstr "Nem támogatott fájlformátum!"
 
 #: ../wprover/PanelProve1.java:2186
 msgid "Can not open"
-msgstr ""
+msgstr "Nem nyitható meg"
 
 #: ../wprover/PanelProve1.java:2349
 msgid "Deductive Database Method"
-msgstr ""
+msgstr "Deduktív adatbázis (GGD) módszer"
 
 #: ../wprover/PanelProve1.java:2355
 msgid "Full Angle Method"
-msgstr ""
+msgstr "Teljes szög módszer"
 
 #: ../wprover/PanelProve1.java:2361
 msgid "Traditional Method"
-msgstr ""
+msgstr "Hagyományos módszer"
 
 #: ../wprover/PanelProve1.java:2383
 msgid "Wu's Method"
-msgstr ""
+msgstr "Wu módszere"
 
 #: ../wprover/PanelProve1.java:2398
 msgid "To Prove"
-msgstr ""
+msgstr "Bizonyítandó:"
 
 #: ../wprover/PanelProve1.java:2418
 msgid "Polynomials"
-msgstr ""
+msgstr "Polinomok"
 
 #: ../wprover/PanelProve1.java:2431
-msgid "All Solutions"
-msgstr ""
+msgid "All solutions"
+msgstr "Minden megoldás"
 
 #: ../wprover/panelWu.java:84 ../wprover/panelWu.java:94
 msgid "Remainder"
-msgstr ""
+msgstr "Maradék"
 
 #: ../wprover/panelWu.java:146
 msgid "The Triangulized Hypotheses"
-msgstr ""
+msgstr "A triangularizált feladatkiírás"
 
 #: ../wprover/panelWu.java:159
 msgid "Successive Pseudo Remainder of CONC wrt TS:"
-msgstr ""
+msgstr "A CONC szukcesszív pszeudo-maradéka a TS szerint:"
 
 #: ../wprover/panelWu.java:168
 msgid "System Run Out Of Memory"
-msgstr ""
+msgstr "Elfogyott a memória"
 
 #: ../wprover/panelWu.java:169
 msgid "The Theorem Is Not Proved!"
-msgstr ""
+msgstr "A tétel nincs bizonyítva!"
 
 #: ../wprover/panelWu.java:172
 msgid "The conclution is not proved"
-msgstr ""
+msgstr "A következmény nem bizonyított"
 
 #: ../wprover/RatioSelectDialog.java:27
 msgid "Set the ratio"
-msgstr ""
+msgstr "Arány megadása"
 
 #: ../wprover/RatioSelectDialog.java:32
 msgid "Please input two integers"
-msgstr ""
+msgstr "Adj meg két egész számot"
 
 #: ../wprover/RectChooser.java:36
 msgid "Please choose the client area"
-msgstr ""
+msgstr "Választ ki a kívánt területet"
 
 #: ../wprover/RightClickPopMenu.java:20
 msgid "Cancel Action"
-msgstr ""
+msgstr "Tevékenység visszavonása"
 
 #: ../wprover/RightClickPopMenu.java:56
 msgid "Edit Text"
-msgstr ""
+msgstr "Szöveg szerkesztése"
 
 #: ../wprover/RightClickPopMenu.java:63
 msgid "Freeze"
-msgstr ""
+msgstr "Fagyasztás"
 
 #: ../wprover/RightClickPopMenu.java:66
 msgid "Unfreeze"
-msgstr ""
+msgstr "Fagyasztás kikapcsolva"
 
 #: ../wprover/RightClickPopMenu.java:70
 msgid "Stop Trace"
-msgstr ""
-
-#: ../wprover/RightClickPopMenu.java:196
-msgid "Font Size"
-msgstr ""
+msgstr "Nyomvonal leállítása"
 
 #: ../wprover/RightClickPopMenu.java:205
 msgid "Plain"
-msgstr ""
+msgstr "Sima"
 
 #: ../wprover/RightClickPopMenu.java:206 ../wprover/vFontChooser.java:96
 msgid "Bold"
-msgstr ""
+msgstr "Félkövér"
 
 #: ../wprover/RuleApplicationDialog.java:309 ../wprover/MProveTree.java:1000
 #: ../wprover/MProveTree.java:1001 ../wprover/MProveTree.java:1002
@@ -1339,213 +1332,225 @@ msgstr ""
 #: ../wprover/MProveTree.java:1011 ../wprover/MProveTree.java:1012
 #: ../wprover/MProveTree.java:1013 ../wprover/MProveTree.java:1015
 msgid "because"
-msgstr ""
+msgstr "mert"
 
 #: ../wprover/TextFrame.java:196 ../wprover/TextFrame.java:198
 #: ../wprover/MProveTree.java:1518
 msgid "Text"
-msgstr ""
+msgstr "Szöveg"
 
 #: ../wprover/TextValueEditor.java:107
 msgid "Data"
-msgstr ""
+msgstr "Adatok"
 
 #: ../wprover/TextValueEditor.java:108
 msgid "Function"
-msgstr ""
+msgstr "Függvény"
 
 #: ../wprover/TextValueEditor.java:142
 msgid "Coordinates"
-msgstr ""
+msgstr "Koordináták"
 
 #: ../wprover/Update.java:70 ../wprover/Update.java:120
 msgid "Connection failed: Please check your network connection and try again."
 msgstr ""
+"Sikertelen kapcsolat: Ellenőrizd a hálózati kapcsolatot és próbáld újra!"
 
 #: ../wprover/Update.java:71 ../wprover/Update.java:121
-msgid "Connection Failed"
-msgstr ""
+msgid "Connection failed"
+msgstr "Sikertelen kapcsolat"
 
 #: ../wprover/Update.java:140 ../wprover/Update.java:150
 msgid "Update Information"
-msgstr ""
+msgstr "Frissítési információ"
 
 #: ../wprover/Update.java:146
 msgid ""
 "A new version is available on the server, \n"
 "do you want to update?"
 msgstr ""
+"Új verzió tölthető le a szerverről, \n"
+"frissíted a programot?"
 
 #: ../wprover/Update.java:147
 msgid "Your current JGEX version"
-msgstr ""
+msgstr "Az aktuális JGEX verzió"
 
 #: ../wprover/Update.java:148
 msgid "Available JGEX version"
-msgstr ""
+msgstr "Rendelkezésre álló JGEX verzió"
 
 #: ../wprover/Update.java:149
 msgid "Press OK to update."
-msgstr ""
+msgstr "Az OK-ra kattintva indul a frissítés."
 
 #: ../wprover/Update.java:168 ../wprover/Update.java:248
 msgid "JGEX Update"
-msgstr ""
+msgstr "A JGEX frissítése"
 
 #: ../wprover/Update.java:189
 msgid "Hide"
-msgstr ""
+msgstr "Elrejt"
 
 #: ../wprover/Update.java:246
 msgid ""
 "File downloaded! \n"
 "To update JGEX, the program will exit and restart"
 msgstr ""
+"A fájl letöltve! \n"
+"A JGEX frissítéséhez a program kilép majd újraindul"
 
 #: ../wprover/vcellRender.java:178 ../wprover/vcellRender.java:395
 msgid "by HYP"
-msgstr ""
+msgstr "feladatkiírás szerint"
 
 #: ../wprover/vFontChooser.java:94
 msgid "Font Chooser"
-msgstr ""
+msgstr "Betűtípus-választó"
 
 #: ../wprover/vFontChooser.java:97
 msgid "Italic"
-msgstr ""
+msgstr "Dőlt"
 
 #: ../wprover/vFontChooser.java:98
 msgid "Underline"
-msgstr ""
+msgstr "Aláhúzás"
 
 #: ../wprover/vFontChooser.java:99
 msgid "Strikethrough"
-msgstr ""
+msgstr "Áthúzás"
 
 #: ../wprover/vFontChooser.java:100
 msgid "Subscript"
-msgstr ""
+msgstr "Alsó index"
 
 #: ../wprover/vFontChooser.java:101
 msgid "Superscript"
-msgstr ""
+msgstr "Felső index"
 
 #: ../wprover/vFontChooser.java:102
 msgid "Preview Font"
-msgstr ""
+msgstr "Betűtípus előnézete"
 
 #: ../wprover/vFontChooser.java:111
 msgid "Font name"
-msgstr ""
+msgstr "Betűtípus neve"
 
 #: ../wprover/vFontChooser.java:115
 msgid "Font size"
-msgstr ""
+msgstr "Betűméret"
 
 #: ../wprover/vFontChooser.java:119
 msgid "Effects"
-msgstr ""
+msgstr "Hatások"
 
 #: ../wprover/vFontChooser.java:155
 msgid "Font color"
-msgstr ""
+msgstr "Betűszín"
 
 #: ../wprover/vFontChooser.java:162
 msgid "Preview"
-msgstr ""
+msgstr "Előnézet"
 
 #: ../wprover/vFontChooser.java:171
 msgid "Save and exit"
-msgstr ""
+msgstr "Mentés és kilépés"
 
 #: ../wprover/vFontChooser.java:183
 msgid "Exit without save"
-msgstr ""
+msgstr "Kilépés mentés nélkül"
 
 #: ../wprover/AnimatePanel.java:42
 msgid "start the animation"
-msgstr ""
+msgstr "animáció indítása"
 
 #: ../wprover/AnimatePanel.java:45
 msgid "pause the animation"
-msgstr ""
+msgstr "az animáció szüneteltetése"
 
 #: ../wprover/AnimatePanel.java:48
 msgid "stop the animation"
-msgstr ""
+msgstr "animáció megállítása"
 
 #: ../wprover/GExpert.java:781
 msgid "Print the client area"
-msgstr ""
+msgstr "A kiválasztott terület nyomtatása"
 
 #: ../wprover/GExpert.java:811
-msgid "Click three points A B C, then click a point D on an object AB = CD"
+msgid ""
+"Click three points A, B, C, then click a point D on an object to get AB = CD"
 msgstr ""
+"Kattints az A, B, C pontokra, majd egy alakzaton lévő D pontra az AB = CD "
+"egyenlőséghez"
 
 #: ../wprover/GExpert.java:812
 msgid "Click two circles to construct their radical axis"
-msgstr ""
+msgstr "Kattints a két körre a hatványvonalukhoz"
 
 #: ../wprover/GExpert.java:815
-msgid "Click two points A B then  a point C to get AB //= CD"
-msgstr ""
+msgid "Click two points A, B, then a point C to get AB //= CD"
+msgstr "Kattints az A, B pontokra, majd C-re az AB //= CD összefüggéshez"
 
 #: ../wprover/GExpert.java:816
-msgid "Click two points A B then point C to get CD equal and perpendicular to +- AB"
+msgid ""
+"Click two points A, B, then point C to get CD equal and perpendicular to +- "
+"AB"
 msgstr ""
+"Kattints az A, B pontokra, majd C-re, hogy CD egyenlő és merőleges legyen +- "
+"AB-re"
 
 #: ../wprover/GExpert.java:822 ../wprover/GExpert.java:828
 #: ../wprover/GExpert.java:839
 msgid "Input your own ratio"
-msgstr ""
+msgstr "Add meg az arányt"
 
 #: ../wprover/GExpert.java:834
 msgid "Click two points to get a point with ratio {0}"
-msgstr ""
+msgstr "Kattints a két pontra, hogy a(z) {0} arányt definiáld"
 
 #: ../wprover/GExpert.java:843 ../wprover/GExpert.java:2429
 msgid "Add a single point"
-msgstr ""
+msgstr "Egy pont hozzáadása"
 
 #: ../wprover/GExpert.java:844 ../wprover/GExpert.java:2492
 msgid "Click two points to get their midpoint"
-msgstr ""
+msgstr "Kattints a két pontra a súlypontjukhoz"
 
 #: ../wprover/GExpert.java:846
-msgid "Construct the circumcenter by select three points"
-msgstr ""
+msgid "Construct the circumcenter by selecting three points"
+msgstr "Hozd létre a körülírt kör középpontját három pont kiválasztásával"
 
 #: ../wprover/GExpert.java:847
 msgid "Construct the centroid by clicking three points"
-msgstr ""
+msgstr "Hozd létre a súlypontot a három pontra kattintással"
 
 #: ../wprover/GExpert.java:848
 msgid "Construct the orthocenter by clicking three points"
-msgstr ""
+msgstr "Hozd létre a magasságpontot a három pontra kattintással"
 
 #: ../wprover/GExpert.java:849
 msgid "Construct the incenter by clicking three points"
-msgstr ""
+msgstr "Hozd létre a beírható kör középpontját a három pontra kattintással"
 
 #: ../wprover/GExpert.java:851
 msgid "Click a point then drag to a line to construct the foot"
-msgstr ""
+msgstr "Kattints egy pontra és húzd egy egyenesre a talppont létrehozásához"
 
 #: ../wprover/GExpert.java:855
-msgid "Draw a lines by connecting two points"
-msgstr ""
+msgid "Draw a line by connecting two points"
+msgstr "Egyenes rajzolása két pontra"
 
 #: ../wprover/GExpert.java:856
 msgid "Parallel Line"
-msgstr ""
+msgstr "Párhuzamos egyenes"
 
 #: ../wprover/GExpert.java:857
 msgid "Perpendicular Line"
-msgstr ""
+msgstr "Merőleges egyenes"
 
 #: ../wprover/GExpert.java:858
 msgid "Draw an angle bisector"
-msgstr ""
+msgstr "Szögfelező rajzolása"
 
 #: ../wprover/GExpert.java:859
 msgid "Draw Aline"
@@ -1553,95 +1558,95 @@ msgstr ""
 
 #: ../wprover/GExpert.java:860
 msgid "Perp-Bisect Line"
-msgstr ""
+msgstr "Felezőmerőleges"
 
 #: ../wprover/GExpert.java:861
 msgid "Tangent Line"
-msgstr ""
+msgstr "Érintő egyenes"
 
 #: ../wprover/GExpert.java:865
 msgid "Draw a circle by a center point and a point on circle"
-msgstr ""
+msgstr "Kör rajzolása a középpontjával és egy kerületi pontjával"
 
 #: ../wprover/GExpert.java:867
 msgid "Circle by Radius"
-msgstr ""
+msgstr "Kör sugárral"
 
 #: ../wprover/GExpert.java:871
 msgid "Intersect to decide a point"
-msgstr ""
+msgstr "Add meg a metszetet a pont kijelöléséhez"
 
 #: ../wprover/GExpert.java:872
 msgid "Mirror an element with respect to a line or a point"
-msgstr ""
+msgstr "Alakzat tükrözése egyenesre vagy pontra"
 
 #: ../wprover/GExpert.java:875
 msgid "Draw a triangle"
-msgstr ""
+msgstr "Háromszög rajzolása"
 
 #: ../wprover/GExpert.java:876
 msgid "Draw an isosceles triangle"
-msgstr ""
+msgstr "Egyenlő szárú háromszög rajzolása"
 
 #: ../wprover/GExpert.java:877
 msgid "Draw an equilateral triangle"
-msgstr ""
+msgstr "Egyenlő oldalú háromszög rajzolása"
 
 #: ../wprover/GExpert.java:878
 msgid "Draw a right-angled triangle"
-msgstr ""
+msgstr "Derékszögű háromszög rajzolása"
 
 #: ../wprover/GExpert.java:879
 msgid "Draw an isosceles right-angled triangle"
-msgstr ""
+msgstr "Derékszögű egyenlő szárú háromszög rajzolása"
 
 #: ../wprover/GExpert.java:880
 msgid "Draw a quadrangle"
-msgstr ""
+msgstr "Négyszög rajzolása"
 
 #: ../wprover/GExpert.java:881
 msgid "Draw a parallelogram"
-msgstr ""
+msgstr "Paralelogramma rajzolása"
 
 #: ../wprover/GExpert.java:882
 msgid "Draw a trapezoid"
-msgstr ""
+msgstr "Trapéz rajzolása"
 
 #: ../wprover/GExpert.java:883
 msgid "Draw a right angle trapezoid"
-msgstr ""
+msgstr "Derékszögű trapéz rajzolása"
 
 #: ../wprover/GExpert.java:884
 msgid "Draw a rectangle"
-msgstr ""
+msgstr "Téglalap rajzolása"
 
 #: ../wprover/GExpert.java:885
 msgid "Draw a square"
-msgstr ""
+msgstr "Négyzet rajzolása"
 
 #: ../wprover/GExpert.java:886
 msgid "Draw a pentagon"
-msgstr ""
+msgstr "Ötszög rajzolása"
 
 #: ../wprover/GExpert.java:887
 msgid "Draw a polygon"
-msgstr ""
+msgstr "Sokszög rajzolása"
 
 #: ../wprover/GExpert.java:890
 msgid "Draw an angle of {0} degrees"
-msgstr ""
+msgstr "{0} fokos szög rajzolása"
 
 #: ../wprover/GExpert.java:891
 msgid "Draw an angle of other degrees"
-msgstr ""
+msgstr "Más szög megadása"
 
 #: ../wprover/GExpert.java:904
 msgid "Set two angles equal"
-msgstr ""
+msgstr "Két szög egyenlőségének megadása"
 
 #: ../wprover/GExpert.java:906
 msgid "Set the sum of three angles equal to one"
-msgstr ""
+msgstr "Annak definiálása, hogy három szög összege egyet ad"
 
 #: ../wprover/GExpert.java:907
 msgid "Set specific angles of system"
@@ -1649,75 +1654,78 @@ msgstr ""
 
 #: ../wprover/GExpert.java:910
 msgid "Select four segments to set their equal ratio"
-msgstr ""
+msgstr "Válassz 4 szakaszt az egyenlő arányok megadásához"
 
 #: ../wprover/GExpert.java:912
 msgid "Set two segments to be equal"
-msgstr ""
+msgstr "Két szakasz egyenlőségének előírása"
 
 #: ../wprover/GExpert.java:915
 msgid "Set two segments to have ratio: {0}"
-msgstr ""
+msgstr "Annak megadása, hogy két szakasz aránya {0}"
 
 #: ../wprover/GExpert.java:918
 msgid "Set two segments to have specified ratio"
-msgstr ""
+msgstr "Két szakasz arányának konkrét megadása"
 
 #: ../wprover/GExpert.java:920
-msgid "Set two circle to be tangent"
-msgstr ""
+msgid "Set two circles to be tangent"
+msgstr "Két kör érintésének előírása"
 
 #: ../wprover/GExpert.java:924
-msgid "Select a point to trace its locus (in combination with move or animation)"
+msgid ""
+"Select a point to trace its locus (in combination with move or animation)"
 msgstr ""
+"Válassz egy pontot a mértani hely lekövetéséhez (a mozgással vagy az "
+"animációval egyidőben)"
 
 #: ../wprover/GExpert.java:925
 msgid "The locus of a point"
-msgstr ""
+msgstr "Egy pont mértani helye"
 
 #: ../wprover/GExpert.java:926
 msgid "Click a point then an object to animate"
-msgstr ""
+msgstr "Kattints egy pontra majd egy alakzatra az animációhoz"
 
 #: ../wprover/GExpert.java:929
-msgid "select a close segment path to fill the polygon"
-msgstr ""
+msgid "select a closed segment path to fill the polygon"
+msgstr "válassz egy zárt töröttvonalat a sokszög kitöltéséhez"
 
 #: ../wprover/GExpert.java:930
 msgid "Select two angle to set equal"
-msgstr ""
+msgstr "Válassz két szöget az egyenlőség kijelöléséhez"
 
 #: ../wprover/GExpert.java:931
 msgid "Select two points to construct an arrow"
-msgstr ""
+msgstr "Válassz két pontot a nyíl létrehozásához"
 
 #: ../wprover/GExpert.java:935
 msgid "Mark for equal with one line"
-msgstr ""
+msgstr "Az egyenlőséget 1 vonallal jelölje"
 
 #: ../wprover/GExpert.java:936
 msgid "Mark for equal with two lines"
-msgstr ""
+msgstr "Az egyenlőséget 2 vonallal jelölje"
 
 #: ../wprover/GExpert.java:937
 msgid "Mark for equal with three lines"
-msgstr ""
+msgstr "Az egyenlőséget 3 vonallal jelölje"
 
 #: ../wprover/GExpert.java:938
 msgid "Mark for equal with four lines"
-msgstr ""
+msgstr "Az egyenlőséget 4 vonallal jelölje"
 
 #: ../wprover/GExpert.java:940
 msgid "Draw a right angle mark"
-msgstr ""
+msgstr "Derékszög kijelölése"
 
 #: ../wprover/GExpert.java:944
 msgid "Hide objects"
-msgstr ""
+msgstr "Alakzatok elrejtése"
 
 #: ../wprover/GExpert.java:945
 msgid "Show objects that is hiden"
-msgstr ""
+msgstr "Rejtett alakzatok megjelenítése"
 
 #: ../wprover/GExpert.java:947
 msgid "Transform polygon"
@@ -1732,292 +1740,292 @@ msgid "Transform polygon freely"
 msgstr ""
 
 #: ../wprover/GExpert.java:965
-msgid "Set the default Property"
-msgstr ""
+msgid "Set the default property"
+msgstr "Alapértelmezett tulajdonság megadása"
 
 #: ../wprover/GExpert.java:968
 msgid "Edit construct history"
-msgstr ""
+msgstr "A szerkesztés menetének szerkesztése"
 
 #: ../wprover/GExpert.java:970
-msgid "Show Step Bar for prove "
-msgstr ""
+msgid "Show Step Bar for prove"
+msgstr "Lépések mutatása bizonyításoknál"
 
 #: ../wprover/GExpert.java:972
 msgid "Show Draw Style Dialog"
-msgstr ""
+msgstr "A rajzolás stílusa párbeszédablak mutatása"
 
 #: ../wprover/GExpert.java:993
 msgid "About Java Geometry Expert"
-msgstr ""
+msgstr "A Java Geometry Expert-ről"
 
 #: ../wprover/GExpert.java:2358
 msgid "construct history"
-msgstr ""
+msgstr "a szerkesztés menete"
 
 #: ../wprover/GExpert.java:2361
 msgid "translate view"
-msgstr ""
+msgstr "nézet eltolása"
 
 #: ../wprover/GExpert.java:2364
 msgid "Zoom in view"
-msgstr ""
+msgstr "Nézet nagyítása"
 
 #: ../wprover/GExpert.java:2367
 msgid "Zoom out view"
-msgstr ""
+msgstr "Nézet kicsinyítése"
 
 #: ../wprover/GExpert.java:2371
 msgid "snap to grid"
-msgstr ""
+msgstr "rácshoz illesztés"
 
 #: ../wprover/GExpert.java:2373
 msgid "draw the rectangle grid"
-msgstr ""
+msgstr "derékszögű rács rajzolása"
 
 #: ../wprover/GExpert.java:2375
 msgid "make the grid less dense"
-msgstr ""
+msgstr "a rács legyen ritkább"
 
 #: ../wprover/GExpert.java:2377
 msgid "make the grid more dense"
-msgstr ""
+msgstr "a rács legyen sűrűbb"
 
 #: ../wprover/GExpert.java:2380
 msgid "redo a step"
-msgstr ""
+msgstr "lépés újra"
 
 #: ../wprover/GExpert.java:2385
 msgid "undo a step"
-msgstr ""
+msgstr "lépés visszavonása"
 
 #: ../wprover/GExpert.java:2387
 msgid "forward to end"
-msgstr ""
+msgstr "előre a végéig"
 
 #: ../wprover/GExpert.java:2389
 msgid "back to start"
-msgstr ""
+msgstr "vissza az elejére"
 
 #: ../wprover/GExpert.java:2392
 msgid "auto show draw step by step"
-msgstr ""
+msgstr "automatikus lépésenkénti rajzolás"
 
 #: ../wprover/GExpert.java:2406
 msgid "create a new view"
-msgstr ""
+msgstr "új nézet létrehozása"
 
 #: ../wprover/GExpert.java:2411
 msgid "Open a file"
-msgstr ""
+msgstr "Fájl megnyitása"
 
 #: ../wprover/GExpert.java:2415
 msgid "Save to a file"
-msgstr ""
+msgstr "Mentés fájlba"
 
 #: ../wprover/GExpert.java:2419
 msgid "Select mode"
-msgstr ""
+msgstr "Válassz eszközt"
 
 #: ../wprover/GExpert.java:2433
 msgid "Select two points to construct a line"
-msgstr ""
+msgstr "Válassz két pontot az egyenes létrehozásához"
 
 #: ../wprover/GExpert.java:2437 ../wprover/GExpert.java:856
 msgid "Draw a line which is parallel to another line"
-msgstr ""
-
-#: ../wprover/GExpert.java:2441
-msgid "Draw a line which is perpdicular to another line"
-msgstr ""
+msgstr "Párhuzamos egyenes rajzolása"
 
 #: ../wprover/GExpert.java:2449
 msgid "Select a point and a line to construct the foot"
-msgstr ""
+msgstr "Válassz egy pontot és egy egyenest a talppont létrehozásához"
 
 #: ../wprover/GExpert.java:2453
 msgid "Draw two points and a circle"
-msgstr ""
+msgstr "Kör megadása két ponttal"
 
 #: ../wprover/GExpert.java:2459
 msgid "Select three points to construct the circle passing through them"
-msgstr ""
+msgstr "Válassz 3 pontot a rájuk illeszkedő kör kijelöléséhez"
 
 #: ../wprover/GExpert.java:2463 ../wprover/GExpert.java:867
 msgid "Draw a circle with center and radius"
-msgstr ""
+msgstr "Kör rajzolása középponttal és sugárral"
 
 #: ../wprover/GExpert.java:2468
 msgid "define a polygon"
-msgstr ""
+msgstr "add meg a sokszöget"
 
 #: ../wprover/GExpert.java:2472
 msgid "Select two lines to define their full-angle with a label"
-msgstr ""
+msgstr "Válassz két egyenest teljes-szög tulajdonságuk címkézéséhez"
 
 #: ../wprover/GExpert.java:2476
 msgid "Add text"
-msgstr ""
+msgstr "Szöveg hozzáadása"
 
 #: ../wprover/GExpert.java:2480
 msgid "Take the intersection of two objects (circle or line)"
-msgstr ""
+msgstr "Két alakzat (kör vagy egyenes) metszete"
 
 #: ../wprover/GExpert.java:2484
 msgid "Mirror a object by clicking and then click a reflection axis or point"
 msgstr ""
+"Alakzat tükrözése rákattintással, majd a tükörtengelyre vagy a centrumra "
+"kattintással"
 
 #: ../wprover/GExpert.java:2488
 msgid "Select two points or drag a segment to construct an isosceles triangle"
 msgstr ""
+"Válassz két pontot vagy húzz egy a szakaszt az egyenlő szárú háromszög "
+"létrehozásához"
 
 #: ../wprover/GExpert.java:2496
 msgid "Select two points or drag a segment to construct a square"
-msgstr ""
+msgstr "Válassz két pontot vagy húzz egy a szakaszt a négyzet létrehozásához"
 
 #: ../wprover/AnimatePanel.java:42
 msgid "Play"
-msgstr ""
+msgstr "Lejátszás"
 
 #: ../wprover/AnimatePanel.java:45
 msgid "Pause"
-msgstr ""
+msgstr "Szünet"
 
 #: ../wprover/AnimatePanel.java:48
 msgid "stop"
-msgstr ""
+msgstr "megállítás"
 
 #: ../wprover/GExpert.java:857
 msgid "Draw a line which is perpendicular to another line"
-msgstr ""
+msgstr "Merőleges egyenes rajzolása"
 
 #: ../wprover/GExpert.java:860
 msgid "Draw a line which is perp-bisect to another line"
-msgstr ""
+msgstr "Felezőmerőleges rajzolása"
 
 #: ../wprover/GExpert.java:861
 msgid "Draw line which is tangent to a circle"
-msgstr ""
+msgstr "Érintő húzása körhöz"
 
 #: ../wprover/GExpert.java:866
 msgid "Draw a circle by three points"
-msgstr ""
+msgstr "Kör rajzolása 3 pontjával"
 
 #: ../wprover/GExpert.java:2361
 msgid "Translate"
-msgstr ""
+msgstr "Eltolás"
 
 #: ../wprover/GExpert.java:2364
 msgid "Zoom-in"
-msgstr ""
+msgstr "Nagyítás"
 
 #: ../wprover/GExpert.java:2367
 msgid "Zoom-out"
-msgstr ""
+msgstr "Kicsinyítés"
 
 #: ../wprover/GExpert.java:2371
 msgid "snap"
-msgstr ""
+msgstr "illesztés"
 
 #: ../wprover/GExpert.java:2373
 msgid "grid"
-msgstr ""
+msgstr "rács"
 
 #: ../wprover/GExpert.java:2375
 msgid "lessGrid"
-msgstr ""
+msgstr "ritkább rács"
 
 #: ../wprover/GExpert.java:2377
 msgid "moreGrid"
-msgstr ""
+msgstr "sűrűbb rács"
 
 #: ../wprover/GExpert.java:2380
 msgid "redo"
-msgstr ""
+msgstr "újra"
 
 #: ../wprover/GExpert.java:2385
 msgid "undo"
-msgstr ""
+msgstr "mégse"
 
 #: ../wprover/GExpert.java:2387
 msgid "ff"
-msgstr ""
+msgstr "gyorsan előre"
 
 #: ../wprover/GExpert.java:2389
 msgid "fr"
-msgstr ""
+msgstr "gyorsan vissza"
 
 #: ../wprover/GExpert.java:2392
 msgid "play"
-msgstr ""
+msgstr "lejátszás"
 
 #: ../wprover/GExpert.java:2406
 msgid "new"
-msgstr ""
+msgstr "új"
 
 #: ../wprover/GExpert.java:2411
 msgid "open"
-msgstr ""
+msgstr "megnyit"
 
 #: ../wprover/GExpert.java:2415
 msgid "save"
-msgstr ""
+msgstr "mentés"
 
 #: ../wprover/GExpert.java:2424
 msgid "move"
-msgstr ""
+msgstr "mozgatás"
 
 #: ../wprover/GExpert.java:2429
 msgid "point"
-msgstr ""
+msgstr "pont"
 
 #: ../wprover/GExpert.java:2433 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1363
 msgid "line"
-msgstr ""
+msgstr "egyenes"
 
 #: ../wprover/GExpert.java:2437
 msgid "parallel"
-msgstr ""
+msgstr "párhuzamos"
 
 #: ../wprover/GExpert.java:2441
 msgid "perpendicular"
-msgstr ""
+msgstr "merőleges"
 
 #: ../wprover/GExpert.java:2449
 msgid "foot"
-msgstr ""
+msgstr "talppont"
 
 #: ../wprover/GExpert.java:2453 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1369
 msgid "circle"
-msgstr ""
+msgstr "kör"
 
 #: ../wprover/GExpert.java:2459
 msgid "circle3p"
 msgstr ""
 
 #: ../wprover/GExpert.java:2463
-msgid "circler"
-msgstr ""
+msgid "compass"
+msgstr "körző"
 
 #: ../wprover/GExpert.java:2468 ../wprover/GExpert.java:2505
 #: ../wprover/GExpert.java:2569
 msgid "polygon"
-msgstr ""
+msgstr "sokszög"
 
 #: ../wprover/GExpert.java:2472 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1388
 msgid "angle"
-msgstr ""
+msgstr "szög"
 
 #: ../wprover/GExpert.java:2476
 msgid "text"
-msgstr ""
+msgstr "szöveg"
 
 #: ../wprover/GExpert.java:2480
 msgid "intersect"
-msgstr ""
+msgstr "metszet"
 
 #: ../wprover/GExpert.java:2484
 msgid "reflectr"
@@ -2025,114 +2033,114 @@ msgstr ""
 
 #: ../wprover/GExpert.java:2488 ../wprover/GExpert.java:2535
 msgid "isosceles triangle"
-msgstr ""
+msgstr "egyenlő szárú háromszög"
 
 #: ../wprover/GExpert.java:2492
 msgid "midpoint"
-msgstr ""
+msgstr "felezőpont"
 
 #: ../wprover/GExpert.java:2496 ../wprover/GExpert.java:2562
 #: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1372
 msgid "square"
-msgstr ""
+msgstr "négyzet"
 
 #: ../wprover/GExpert.java:2500 ../wprover/GExpert.java:2531
 #: ../wprover/GExpert.java:2543 ../wprover/MProveTree.java:1252
 #: ../wprover/MProveTree.java:1366
 msgid "triangle"
-msgstr ""
+msgstr "háromszög"
 
 #: ../wprover/GExpert.java:2539
 msgid "equilateral triangle"
-msgstr ""
+msgstr "egyenlő oldalú háromszög"
 
 #: ../wprover/GExpert.java:2547 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1395
 msgid "quadrangle"
-msgstr ""
+msgstr "négyszög"
 
 #: ../wprover/GExpert.java:2550 ../wprover/GExpert.java:2566
 msgid "pentagon"
-msgstr ""
+msgstr "ötszög"
 
 #: ../wprover/GExpert.java:2553 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1399
 msgid "trapezoid"
-msgstr ""
+msgstr "trapéz"
 
 #: ../wprover/GExpert.java:2556
 msgid "right angle trapezoid"
-msgstr ""
+msgstr "derékszögű trapéz"
 
 #: ../wprover/GExpert.java:2559 ../wprover/MProveTree.java:1253
 #: ../wprover/MProveTree.java:1392
 msgid "rectangle"
-msgstr ""
+msgstr "téglalap"
 
 #: ../wprover/MProveTree.java:1015
 msgid "hence"
-msgstr ""
+msgstr "ezért"
 
 #: ../wprover/MProveTree.java:1022 ../wprover/MProveTree.java:1265
 #: ../wprover/MProveTree.java:1023 ../wprover/MProveTree.java:1025
 msgid "Can not find image: {0}"
-msgstr ""
+msgstr "A(z) {0} kép nem található"
 
 #: ../wprover/MProveTree.java:1071
 msgid "Given:"
-msgstr ""
+msgstr "Adott:"
 
 #: ../wprover/MProveTree.java:1071
 msgid "To Prove:"
-msgstr ""
+msgstr "Bizonyítandó:"
 
 #: ../wprover/MProveTree.java:1071
 msgid "In"
-msgstr ""
+msgstr "Belül"
 
 #: ../wprover/MProveTree.java:1071
 msgid "and"
-msgstr ""
+msgstr "és"
 
 #: ../wprover/MProveTree.java:1072
 msgid "Similarly,"
-msgstr ""
+msgstr "Hasonlóan,"
 
 #: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1375
 msgid "area"
-msgstr ""
+msgstr "terület"
 
 #: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1378
 msgid "parallelogram"
-msgstr ""
+msgstr "paralelogramma"
 
 #: ../wprover/MProveTree.java:1255
 msgid "Please select two points"
-msgstr ""
+msgstr "Válassz 2 pontot"
 
 #: ../wprover/MProveTree.java:1255
 msgid "Please select three non-collinear points"
-msgstr ""
+msgstr "Válassz 3 pontot, amelyek nem esnek egy egyenesre"
 
 #: ../wprover/MProveTree.java:1256
 msgid "Please select three points"
-msgstr ""
+msgstr "Válassz 3 pontot"
 
 #: ../wprover/MProveTree.java:1256 ../wprover/MProveTree.java:1257
 msgid "Please select four points"
-msgstr ""
+msgstr "Válassz 4 pontot"
 
 #: ../wprover/MProveTree.java:1256
-msgid "Please select N(N >=3) points"
-msgstr ""
+msgid "Please select N(>=3) points"
+msgstr "Válassz N(>=3) pontot"
 
 #: ../wprover/MProveTree.java:1269
-msgid "Can not find object icon "
-msgstr ""
+msgid "Can not find object icon {0}"
+msgstr "A(z) {0} kép objektum nem található"
 
 #: ../wprover/MProveTree.java:1363
 msgid "number"
-msgstr ""
+msgstr "szám"
 
 #: ../wprover/MProveTree.java:1366
 msgid "tri"
@@ -2152,86 +2160,86 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1518
 msgid "Keywords"
-msgstr ""
+msgstr "Kulcsszavak"
 
 #: ../wprover/MProveTree.java:1518
 msgid "Symbol"
-msgstr ""
+msgstr "Szimbólum"
 
 #: ../wprover/MProveTree.java:1518
 msgid "Assertion"
-msgstr ""
+msgstr "Kijelentés"
 
 #: ../wprover/MProveTree.java:1519
 msgid "Object"
-msgstr ""
+msgstr "Alakzat"
 
 #: ../wprover/MProveTree.java:1519
 msgid "Draw"
-msgstr ""
+msgstr "Rajz"
 
 #: ../wprover/MProveTree.java:1519
 msgid "Equation"
-msgstr ""
+msgstr "Egyenlet"
 
 #: ../wprover/MProveTree.java:1520 ../wprover/MProveTree.java:1689
 msgid "Rule"
-msgstr ""
+msgstr "Szabály"
 
 #: ../wprover/MProveTree.java:1549 ../wprover/MProveTree.java:1554
 #: ../wprover/MProveTree.java:1672
 msgid "Rule1"
-msgstr ""
+msgstr "1. szabály"
 
 #: ../wprover/MProveTree.java:1672
 msgid "Rule2"
-msgstr ""
+msgstr "2. szabály"
 
 #: ../wprover/MProveTree.java:1672
 msgid "Rule3"
-msgstr ""
+msgstr "3. szabály"
 
 #: ../wprover/MProveTree.java:1672
 msgid "SAS"
-msgstr ""
+msgstr "OSO"
 
 #: ../wprover/MProveTree.java:1672
 msgid "AAS"
-msgstr ""
+msgstr "SSO"
 
 #: ../wprover/MProveTree.java:1672
 msgid "SSS"
-msgstr ""
+msgstr "OOO"
 
 #: ../wprover/MProveTree.java:1672
 msgid "ASA"
-msgstr ""
+msgstr "SOS"
 
 #: ../wprover/MProveTree.java:1682 ../wprover/MProveTree.java:1684
 #: ../wprover/MProveTree.java:1758 ../wprover/MProveTree.java:1759
 #: ../wprover/MProveTree.java:1816
 msgid "Collinear"
-msgstr ""
+msgstr "Egy egyenesre illeszkedés"
 
 #: ../wprover/MProveTree.java:1817
 msgid "Eqdistant"
-msgstr ""
+msgstr "Ekvidisztáns"
 
 #: ../wprover/MProveTree.java:1817
 msgid "Cyclic"
-msgstr ""
+msgstr "Húrsokszög"
 
 #: ../wprover/MProveTree.java:1818
 msgid "Congruent"
-msgstr ""
+msgstr "Egybevágó"
 
 #: ../wprover/MProveTree.java:1818
 msgid "Similar"
-msgstr ""
+msgstr "Hasonló"
 
 #: ../wprover/MProveTree.java:1818
 msgid "Distance Less"
-msgstr ""
+msgstr "A távolság kevesebb mint"
 
 #: ../wprover/MProveTree.java:1819
 msgid "Angle Less"
@@ -2239,31 +2247,31 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1819
 msgid "Concurrent"
-msgstr ""
+msgstr "Egy pontra illeszkedés"
 
 #: ../wprover/MProveTree.java:1819
 msgid "Perp-Bisector"
-msgstr ""
+msgstr "Felezőmerőleges"
 
 #: ../wprover/MProveTree.java:1822
 msgid "Right Triangle"
-msgstr ""
+msgstr "Derékszögű háromszög"
 
 #: ../wprover/MProveTree.java:1823
 msgid "Iso-Right Triangle"
-msgstr ""
+msgstr "Derékszögű egyenlő szárú háromszög"
 
 #: ../wprover/MProveTree.java:1825
 msgid "Between"
-msgstr ""
+msgstr "Között"
 
 #: ../wprover/MProveTree.java:1825
 msgid "Angle Inside"
-msgstr ""
+msgstr "Belső szög"
 
 #: ../wprover/MProveTree.java:1825
 msgid "Angle Outside"
-msgstr ""
+msgstr "Külső szög"
 
 #: ../wprover/MProveTree.java:1825
 msgid "Triangle Inside"
@@ -2279,60 +2287,44 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1826
 msgid "Same Side"
-msgstr ""
+msgstr "Azonos oldal"
 
 #: ../wprover/MProveTree.java:1826
 msgid "Convex"
-msgstr ""
+msgstr "Konvex"
 
 #: ../wprover/MProveTree.java:2053 ../wprover/MProveTree.java:2056
 msgid "assertion type: {0} not defined."
-msgstr ""
+msgstr "kijelentés típusa: {0} nincs definiálva."
 
 #: ../wprover/MProveTree.java:2056 ../wprover/MProveTree.java:2066
 #: ../wprover/CProperty.java:27
 msgid "No Selected"
-msgstr ""
+msgstr "Nincs kiválasztás"
 
 #: ../wprover/CProperty.java:58
 msgid "Dialog"
-msgstr ""
+msgstr "Párbeszédablak"
 
 #: ../wprover/CProperty.java:625
 msgid "No Text"
-msgstr ""
+msgstr "Nincs szöveg"
 
 #: ../wprover/CProperty.java:625
 msgid "Value"
-msgstr ""
+msgstr "Érték"
 
 #: ../wprover/CProperty.java:625
 msgid "Name With Value"
-msgstr ""
+msgstr "Név értékkel"
 
 #: ../wprover/CProperty.java:999
 msgid "Vertical Line"
-msgstr ""
+msgstr "Függőleges egyenes"
 
 #: ../wprover/CProperty.java:1000
 msgid "Horizontal Line"
-msgstr ""
-
-#: ../wprover/CProperty.java:1263
-msgid "X1 "
-msgstr ""
-
-#: ../wprover/CProperty.java:1264
-msgid "Y1 "
-msgstr ""
-
-#: ../wprover/CProperty.java:1265
-msgid "X2 "
-msgstr ""
-
-#: ../wprover/CProperty.java:1266
-msgid "Y2"
-msgstr ""
+msgstr "Vízszintes egyenes"
 
 msgid "Geometry Expert"
 msgstr ""
@@ -2344,30 +2336,9 @@ msgid "ABline"
 msgstr ""
 
 msgid "Hexagon"
-msgstr ""
+msgstr "Hatszög"
 
 msgid "Nteqangle"
-msgstr ""
-
-msgid "Snap"
-msgstr ""
-
-msgid "LessGrid"
-msgstr ""
-
-msgid "MoreGrid"
-msgstr ""
-
-msgid "Redo"
-msgstr ""
-
-msgid "Undo"
-msgstr ""
-
-msgid "FF"
-msgstr ""
-
-msgid "FR"
 msgstr ""
 
 msgid "autoshowstep"
@@ -2377,122 +2348,146 @@ msgid "animate_start"
 msgstr ""
 
 msgid "Equal Angle"
-msgstr ""
+msgstr "Egyenlő szög"
 
 msgid "Similiar Triangle"
-msgstr ""
+msgstr "Hasonló háromszög"
 
 msgid "Congruent Triangle"
-msgstr ""
+msgstr "Egybevágó háromszög"
 
 msgid "Bisect"
-msgstr ""
+msgstr "Felező"
 
 msgid "Tangent"
-msgstr ""
+msgstr "Érintő"
 
 msgid "Equal Product"
-msgstr ""
+msgstr "Egyező szorzat"
 
 msgid "Ratio"
-msgstr ""
+msgstr "Arány"
 
 msgid "Special Angle"
-msgstr ""
+msgstr "Adott szög"
 
 msgid "Angles Equation"
-msgstr ""
+msgstr "Szög-egyenlőség"
 
 msgid "Segment Equation"
-msgstr ""
+msgstr "Szakasz egyenlete"
 
 msgid "NDGs"
-msgstr ""
+msgstr "Előfeltételek (a nem-elfajuláshoz)"
 
 msgid "failed"
-msgstr ""
+msgstr "sikertelen"
 
 msgid "Version"
-msgstr ""
+msgstr "Verzió"
 
 msgid "On"
-msgstr ""
+msgstr "Be"
 
-msgid "BackGround Color"
-msgstr ""
+msgid "Background color"
+msgstr "Háttérszín"
 
 msgid "Change Color"
-msgstr ""
-
-msgid "Font Color"
-msgstr ""
+msgstr "Szín megváltoztatása"
 
 msgid "propline"
 msgstr ""
 
 msgid "type"
-msgstr ""
+msgstr "típus"
 
 msgid "width"
-msgstr ""
+msgstr "szélesség"
 
 #: ../wprover/GExpert.java:1930
 msgid "{0} already exists, do you want to overwrite it?"
-msgstr ""
-
-msgid "Time to build fixpoint:"
-msgstr ""
+msgstr "Már létezik {0}, felülírod?"
 
 msgid "Can not prove this theorem with Deductive Database Method"
-msgstr ""
+msgstr "A tétel a deduktív adatbázis (GDD) módszerrel nem bizonítható"
 
 msgid "Can not prove this theorem."
-msgstr ""
+msgstr "Nem bizonyítható a tétel."
 
 msgid "Proof text"
-msgstr ""
-
-msgid "Built on"
-msgstr ""
-
-msgid "JDK Version:"
-msgstr ""
+msgstr "A bizonyítás szövege"
 
 msgid "Author:"
-msgstr ""
+msgstr "Szerző:"
 
 msgid "Free Point"
-msgstr ""
+msgstr "Szabad pont"
 
 msgid "The coordinates"
-msgstr ""
+msgstr "A koordináták"
 
 msgid "The equational hypotheses:"
-msgstr ""
+msgstr "Az egyenlőségeken alapuló feladatkiírás:"
 
 msgid "The theorem is not proved with the Deductive Database Method!"
-msgstr ""
+msgstr "A tételt a deduktív adatbázis módszer nem bizonyítja be!"
 
 msgid "The theorem is not proved with The Full-Angle Method."
-msgstr ""
+msgstr "A tételt a teljes-szög módszer nem bizonyítja be."
 
 msgid "Use the LEFT button to select a position"
-msgstr ""
+msgstr "Válassz pozíciót a BAL gombbal"
 
 msgid "Select two points to determine a line"
-msgstr ""
+msgstr "Válassz két pontot az egyenes megadásához"
 
-msgid "Please use the menu \"Action -> Animation\" to define an animation first"
+msgid ""
+"Please use the menu \"Action -> Animation\" to define an animation first"
 msgstr ""
+"Előbb használd a \"Tevékenység -> Animáció\" menüpontot az animáció "
+"megadásához"
 
 msgid "Groebner Basis Method"
-msgstr ""
+msgstr "Gröbner bázis módszer"
 
 msgid "Because"
-msgstr ""
+msgstr "Mert"
 
 msgid "Hence"
-msgstr ""
+msgstr "Ezért"
 
 msgid "Q.E.D."
+msgstr "Q.E.D."
+
+msgid "Total solutions:"
+msgstr "Az összes megoldás:"
+
+msgid "Please select 3 points (0 points selected)"
+msgstr "Válassz ki 3 pontot (nincs pont kiválasztva)"
+
+msgid "Can not open link {0}"
+msgstr "Nem nyitható meg a(z) {0} link"
+
+msgid ""
+"Construct a circle by clicking two points as radius and another point as "
+"center"
 msgstr ""
+"Kör szerkesztése: két pont a sugarat jelöli ki, egy harmadik a középpontot"
+
+#~ msgid "The Equational Hypotheses:"
+#~ msgstr "Az egyenlőségeken alapuló feladatkiírás:"
+
+#~ msgid "Font Size"
+#~ msgstr "Betűméret"
+
+#~ msgid "Draw a line which is perpdicular to another line"
+#~ msgstr "Merőleges egyenes rajzolása"
+
+#~ msgid "Font Color"
+#~ msgstr "Betűszín"
+
+#~ msgid "BackGroud Color"
+#~ msgstr "Háttérszín"
+
+#~ msgid "The two selected line don'thave any intersected point"
+#~ msgstr "A két kiválasztott egyenes nem metszi egymást"

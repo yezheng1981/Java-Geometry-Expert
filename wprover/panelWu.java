@@ -119,7 +119,7 @@ public class panelWu extends panelAlgebric implements Runnable, MouseListener {
         }
 
         addAlgebraicForm();
-        addString2(getLanguage(1103, "The Equational Hypotheses:"));
+        addString2(getLanguage(1103, "The equational hypotheses:"));
 
         TPoly pp = null;
         Vector vc = dp.getAllConstraint();

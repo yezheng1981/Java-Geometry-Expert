@@ -180,8 +180,8 @@
 
     <!-- Run the jar file for debugging without building it. -->
     <target name="run_debug" description="Run JGEX for Debugging">
-        <java jar="${out}/${jgex_jar}"
-              fork="true"
+        <java fork="true"
+              dir="${out}"
               failonerror="true"
               maxmemory="128m"
               classname="wprover.GExpert"

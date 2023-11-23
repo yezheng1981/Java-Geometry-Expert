@@ -19,6 +19,7 @@ public class welcomeDialog extends JPanel implements MouseListener {
     GExpert gx;
 
 
+    /* REMOVE THIS, NEVER USED.
     public welcomeDialog(GExpert f) {
 
         gx = f;
@@ -74,6 +75,7 @@ public class welcomeDialog extends JPanel implements MouseListener {
         panex.add(panel);
         this.add(panex);
     }
+     */
 
     public void mouseClicked(MouseEvent e) {
 

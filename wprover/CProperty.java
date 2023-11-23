@@ -811,7 +811,7 @@ public class CProperty extends JPanel implements ActionListener {
 
             Object[][] obj2 =
                     {
-                            {getLanguage(347, "Significant Digit"), new Integer(0)}
+                            {getLanguage(347, "Significant Digits"), new Integer(0)}
 
                     };
 
@@ -902,7 +902,7 @@ public class CProperty extends JPanel implements ActionListener {
 
             Object[][] obj =
                     {
-                            {getLanguage(450, "Point number"), new Integer("1")},
+                            {getLanguage(450, "Point number"), new Integer("1")}, // FIXME: what is this?
                     };
 
 

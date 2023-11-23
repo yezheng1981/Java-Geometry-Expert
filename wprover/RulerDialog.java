@@ -26,7 +26,7 @@ public class RulerDialog extends JBaseDialog implements ChangeListener, ActionLi
 //        if (gxInstance != null)
 //            gxInstance.addDependentDialog(this);
 
-        this.setTitle("Rules for GDD method");
+        this.setTitle(GExpert.getLanguage("Rules for the GDD Method"));
 
         Object rootNodes[] = new Object[6];
         int i = 0;
@@ -51,7 +51,7 @@ public class RulerDialog extends JBaseDialog implements ChangeListener, ActionLi
 
         JScrollPane scrollPane = new JScrollPane(tree);
         pane = new JTabbedPane(JTabbedPane.BOTTOM);
-        pane.addTab("Rules for GDD Method", scrollPane);
+        pane.addTab(GExpert.getLanguage("Rules for the GDD Method"), scrollPane);
         pane.addChangeListener(this);
 
         Vector vfull = RuleList.getAllFullRules();
@@ -62,7 +62,7 @@ public class RulerDialog extends JBaseDialog implements ChangeListener, ActionLi
         treef.addMouseListener(this);
 
         JScrollPane scrollPane1 = new JScrollPane(treef);
-        pane.addTab("Rules for Full Angle Method", scrollPane1);
+        pane.addTab(GExpert.getLanguage("Rules for the Full Angle Method"), scrollPane1);
 
 
         this.getContentPane().add(pane, BorderLayout.CENTER);

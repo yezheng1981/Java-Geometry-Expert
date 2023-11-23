@@ -2059,14 +2059,14 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             JMenuItem item = new JMenuItem(GExpert.getLanguage("Prove"));
             add(item);
             item.addActionListener(this);
-            item = new JMenuItem(GExpert.getLanguage(311, "Prove in New Tab"));
+            item = new JMenuItem(GExpert.getLanguage(311, "Prove in a new tab"));
             item.setEnabled(false);
             add(item);
             item.addActionListener(this);
             item = new JMenuItem(GExpert.getLanguage(310, "Refresh"));
             item.addActionListener(this);
             add(item);
-            item = new JMenuItem(GExpert.getLanguage(305, "Search A Fact"));
+            item = new JMenuItem(GExpert.getLanguage(305, "Search a fact"));
             item.setActionCommand("FACT");
             item.addActionListener(this);
             add(item);
@@ -2131,7 +2131,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 if (value instanceof cond) {
                     if (command.equals("Prove")) {
                         PanelProve1.this.proveCond((cond) value, false);
-                    } else if (command.equals("Prove in New Tab")) {
+                    } else if (command.equals("Prove in a new tab")) {
                     }
                 }
             } else if (obj == tree_db) {
@@ -2184,7 +2184,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             if (v.size() == 0) {
                 JOptionPane.showMessageDialog(gxInstance,
                         file.getName() +
-                                "\n" + GExpert.getLanguage(1051, "File Format Not Supported!"),
+                                "\n" + GExpert.getLanguage(1051, "File format not supported!"),
                         GExpert.getLanguage(509, "Can not open"),
                         JOptionPane.WARNING_MESSAGE);
                 return false;
@@ -2430,8 +2430,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 item.addActionListener(this);
                 pmenu.add(item);
 
-                item = new JMenuItem(getLanguage("All Solutions"));
-                item.setActionCommand("All Solutions");
+                item = new JMenuItem(getLanguage("All solutions"));
+                item.setActionCommand("All solutions");
                 addImageToItem(item);
                 item.setSelected(true);
                 item.addActionListener(this);
@@ -2523,7 +2523,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 dp.popLeadingVariableDialog();
             } else if (s.equals("NDG"))
                 PanelProve1.this.showNDGs();
-            else if (s.equalsIgnoreCase("All Solutions")) {
+            else if (s.equalsIgnoreCase("All solutions")) {
                 Vector v = dp.calculate_allResults();
                 AllSolutionDialog dlg = new AllSolutionDialog(gxInstance);
                 dlg.setVlist(v);

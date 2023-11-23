@@ -115,7 +115,7 @@ public class PanelManualInput extends JPanel implements ActionListener {
             }
         });
 
-        JLabel label = new JLabel(" Please select 3 points( 0 points selected)");
+        JLabel label = new JLabel("Please select 3 points (0 points selected)");
         label.setAlignmentX(Component.LEFT_ALIGNMENT);
         panel.add(label);
 

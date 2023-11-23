@@ -68,7 +68,7 @@ public class Update implements ActionListener, Runnable {
         } catch (Exception exception) {
             JOptionPane.showMessageDialog(gxInstance,
                     GExpert.getLanguage(1055, "Connection failed: Please check your network connection and try again."),
-                    GExpert.getLanguage(1054, "Connection Failed"),
+                    GExpert.getLanguage(1054, "Connection failed"),
                     JOptionPane.WARNING_MESSAGE);
             return false;
         } finally {
@@ -118,7 +118,7 @@ public class Update implements ActionListener, Runnable {
         } catch (IOException ee) {
             JOptionPane.showMessageDialog(gxInstance,
                     GExpert.getLanguage(1055, "Connection failed: Please check your network connection and try again."),
-                    GExpert.getLanguage(1054, "Connection Failed"),
+                    GExpert.getLanguage(1054, "Connection failed"),
                     JOptionPane.WARNING_MESSAGE);
             return -1;
 

@@ -37,13 +37,13 @@ public class AllSolutionDialog extends JBaseDialog implements ActionListener, Wi
     public AllSolutionDialog(GExpert gx) {
         super(gx.getFrame());
         gxInstance = gx;
-        this.setTitle("All Solutions");
+        this.setTitle(GExpert.getLanguage("All solutions"));
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         JPanel p1 = new JPanel();
         p1.setBorder(BorderFactory.createEmptyBorder(2, 2, 2, 2));
         p1.setLayout(new GridLayout(1, 3));
-        JLabel l1 = new JLabel("Total Solutions:");
+        JLabel l1 = new JLabel(GExpert.getLanguage("Total solutions:"));
         p1.add(l1);
         p1.add(Box.createHorizontalBox());
         field1 = new JTextField();

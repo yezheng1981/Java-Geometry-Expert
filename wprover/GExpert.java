@@ -833,12 +833,12 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
         menu = new JMenu(getLanguage("Construct"));
         menuBar.add(menu);
-        addRadioButtonMenuItem(menu, "Point by Point and Segment", "Click three points A B C, then click a point D on an object AB = CD", this);
+        addRadioButtonMenuItem(menu, "Point by Point and Segment", "Click three points A, B, C, then click a point D on an object to get AB = CD", this);
         addRadioButtonMenuItem(menu, "Radical of Two Circles", "Click two circles to construct their radical axis", this);
         menu.addSeparator();
 
-        addRadioButtonMenuItem(menu, "Oriented Segment", "Click two points A B then  a point C to get AB //= CD", this);
-        JRadioButtonMenuItem it = addRadioButtonMenuItem(menu, "Oriented T Segment", "Click two points A B then point C to get CD equal and perpendicular to +- AB", this, "o_t_segment");
+        addRadioButtonMenuItem(menu, "Oriented Segment", "Click two points A, B, then a point C to get AB //= CD", this);
+        JRadioButtonMenuItem it = addRadioButtonMenuItem(menu, "Oriented T Segment", "Click two points A, B, then point C to get CD equal and perpendicular to +- AB", this, "o_t_segment");
 
         JMenu s1 = new JMenu(getLanguage("Oriented Segment * Ratio"));
 
@@ -869,7 +869,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         addRadioButtonMenuItem(sub, "Point", "Add a single point", this);
         addRadioButtonMenuItem(sub, "Midpoint", "Click two points to get their midpoint", this);
         sub.addSeparator();
-        addRadioButtonMenuItem(sub, "Circumcenter", "Construct the circumcenter by select three points", this);
+        addRadioButtonMenuItem(sub, "Circumcenter", "Construct the circumcenter by selecting three points", this);
         addRadioButtonMenuItem(sub, "Centroid", "Construct the centroid by clicking three points", this);
         addRadioButtonMenuItem(sub, "Orthocenter", "Construct the orthocenter by clicking three points", this);
         addRadioButtonMenuItem(sub, "Incenter", "Construct the incenter by clicking three points", this);
@@ -878,7 +878,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         menu.add(sub);
 
         sub = new JMenu(getLanguage("Line"));
-        addRadioButtonMenuItem(sub, "Line", "Draw a lines by connecting two points", this);
+        addRadioButtonMenuItem(sub, "Line", "Draw a line by connecting two points", this);
         addRadioButtonMenuItem(sub, "Parallel", "Parallel Line", "Draw a line which is parallel to another line", this);
         addRadioButtonMenuItem(sub, "Perpendicular", "Perpendicular Line", "Draw a line which is perpendicular to another line", this);
         addRadioButtonMenuItem(sub, "Angle Bisector", "Draw an angle bisector", this);
@@ -890,7 +890,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         sub = new JMenu(getLanguage("Circle"));
         addRadioButtonMenuItem(sub, "Circle", "Draw a circle by a center point and a point on circle", this);
         addRadioButtonMenuItem(sub, "Circle by Three Points", "Circle by Three Points", "Draw a circle by three points", this);
-        addRadioButtonMenuItem(sub, "Circler", "Circle by Radius", "Draw a circle with center and radius", this);
+        addRadioButtonMenuItem(sub, "Compass", "Circle by Radius", "Draw a circle with center and radius", this);
         menu.add(sub);
 
         sub = new JMenu(getLanguage("Action"));
@@ -943,7 +943,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         addRadioButtonMenuItem(sub2, "1 : 3", GExpert.getTranslationViaGettext("Set two segments to have ratio: {0}",  "1 : 3"), this, "ra_side");
         addRadioButtonMenuItem(sub2, "Other...", "Set two segments to have specified ratio", this, "ra_side");
         menu.add(sub2);
-        addRadioButtonMenuItem(menu, "CCtangent", "Set two circle to be tangent", this);
+        addRadioButtonMenuItem(menu, "CCtangent", "Set two circles to be tangent", this);
         menuBar.add(menu);
         menu = new JMenu(getLanguage("Action"));
         menuBar.add(menu);
@@ -952,7 +952,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         addRadioButtonMenuItem(menu, "Animation", "Click a point then an object to animate", this);
         menu.addSeparator();
 
-        addRadioButtonMenuItem(menu, "Fill Polygon", "select a close segment path to fill the polygon", this);
+        addRadioButtonMenuItem(menu, "Fill Polygon", "select a closed segment path to fill the polygon", this);
         addRadioButtonMenuItem(menu, "Measure Distance", "Select two angle to set equal", this);
         addRadioButtonMenuItem(menu, "Arrow", "Select two points to construct an arrow", this);
 
@@ -988,12 +988,12 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
         menu = new JMenu(getLanguage("Option"));
         menuBar.add(menu);
-        item = addAMenu(menu, "Preference", "Set the default Property", this);
+        item = addAMenu(menu, "Preferences", "Set the default property", this);
         addImageToItem(item, "preference");
 
         item = addAMenu(menu, "Construct History", "Edit construct history", this);
         addImageToItem(item);
-        item = addAMenu(menu, "Show Step Bar", "Show Step Bar for prove ", this);
+        item = addAMenu(menu, "Show Step Bar", "Show Step Bar for prove", this);
         addImageToItem(item, "step");
         item = addAMenu(menu, "Style Dialog", "Show Draw Style Dialog", this);
         addImageToItem(item);
@@ -1118,7 +1118,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         JMenuItem miten;
         miten = new JMenuItem(name);
         if (tooltip != null) {
-            miten.setToolTipText(tooltip);
+            miten.setToolTipText(this.getLanguage(tooltip));
+            // System.out.println("Tooltip set for " + tooltip);
         }
         miten.setActionCommand(name);
         miten.setText(this.getLanguage(name));
@@ -1136,9 +1137,6 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         if (s1 != null) {
             return s1;
         }
-
-        if (language == null)
-            return s1;
 
         String s2 = language.getString(s1);
         if (s2 == null || s2.length() == 0)
@@ -1420,7 +1418,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
         } else if (command.equals("autoshowstep")) {
             dp.autoShowstep();
-        } else if (command.equals("Preference")) {
+        } else if (command.equals("Preferences")) {
             JDialog dlg = new MiscDialog(this);
             this.centerDialog(dlg);
             dlg.setVisible(true);
@@ -1521,7 +1519,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                     int[] t = this.parse2Int(s1);
                     dp.setParameter(t[0], t[1]);
                 }
-            } else if (command.equalsIgnoreCase("circler")) {
+            } else if (command.equalsIgnoreCase("compass")) {
                 dp.SetCurrentAction(drawProcess.D_CIRCLEBYRADIUS);
             } else if (command.equalsIgnoreCase("parallel")) {
                 dp.SetCurrentAction(drawProcess.D_PARELINE);
@@ -2490,7 +2488,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         toolBar.add(button);
         group.add(button);
 
-        button = makeAButton("perp", "Perpendicular", "Draw a line which is perpdicular to another line", "perpendicular");
+        button = makeAButton("perp", "Perpendicular", "Draw a line which is perpendicular to another line", "perpendicular");
         toolBar.add(button);
         group.add(button);
 //        button = makeAButton("abline", "Abline", "Select two lines to construct the bisector of an angle", "abline");
@@ -2502,8 +2500,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         toolBar.add(button);
         group.add(button);
 
-        button = makeAButton("circle", "Circle", "Draw two points and a circle", "circle");
-        button.setToolTipText("Click a point then drag to construct a circle");
+        button = makeAButton("circle", "Circle", "Click a point then drag to construct a circle", "circle");
+        // button.setToolTipText("Click a point then drag to construct a circle");
         toolBar.add(button);
         group.add(button);
 
@@ -2512,8 +2510,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         toolBar.add(button);
         group.add(button);
 
-        button = makeAButton("circler", "Circler", "Draw a circle with center and radius", "circler");
-        button.setToolTipText("Construct a circle by clicking two points as radius and another point as center");
+        button = makeAButton("circler", "Compass", "Construct a circle by clicking two points as radius and another point as center", "compass");
+        // button.setToolTipText("Construct a circle by clicking two points as radius and another point as center");
         toolBar.add(button);
         group.add(button);
 
@@ -2660,14 +2658,23 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         button.setActionCommand(actionCommand);
         button.setToolTipText(toolTipText);
 
-
-        String s2 = getLanguageTip(actionCommand);
+        String s2 = null;
+        if (toolTipText != null) {
+            s2 = getLanguageTip(toolTipText);
+        }
         if (s2 != null && s2.length() != 0)
             button.setToolTipText(s2);
         else {
-            String s1 = getLanguage(actionCommand);
-            if (toolTipText == null && s1 != null && s1.length() != 0)
-                button.setToolTipText(s1);
+            if (altText != null) {
+                String s3 = getLanguage(altText);
+                if (s3 != null && s3.length() != 0) {
+                    button.setToolTipText(s3);
+                } else {
+                    String s1 = getLanguage(actionCommand);
+                    if (toolTipText == null && s1 != null && s1.length() != 0)
+                        button.setToolTipText(s1);
+                }
+            }
         }
         button.addActionListener(this);
 
@@ -3132,7 +3139,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                 }
             }
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Can not open Link " + url + "\n" +
+            JOptionPane.showMessageDialog(null, GExpert.getTranslationViaGettext("Can not open link {0}", url) + "\n" +
                     e.getMessage());
         }
     }

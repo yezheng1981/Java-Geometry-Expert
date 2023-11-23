@@ -24,12 +24,12 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
 
 
     public MiscDialog(GExpert gx) {
-        super(gx.getFrame(), ("Preference"), false);
+        super(gx.getFrame(), ("Preferences"), false);
         gxInstance = gx;
         lan = CMisc.lan;
 
 
-        String s = GExpert.getLanguage("Preference");
+        String s = GExpert.getLanguage("Preferences");
         this.setTitle(s);
 
         gxInstance = gx;
@@ -52,15 +52,15 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
         panel.add(pane);
 
         JPanel p2 = new JPanel(new FlowLayout());
-        JButton b1 = new JButton("Save Preference");
-        b1.setText(GExpert.getLanguage(501, "Save Preference"));
+        JButton b1 = new JButton("Save Preferences");
+        b1.setText(GExpert.getLanguage(501, "Save Preferences"));
 
         JButton b3 = new JButton("Default");
         b3.setText(GExpert.getLanguage(505, "Default"));
         b3.setActionCommand("Default");
         b3.addActionListener(this);
 
-        b1.setActionCommand("Save Preference");
+        b1.setActionCommand("Save Preferences");
 
         JButton b2 = new JButton("OK");
         b2.setText(GExpert.getLanguage(3204, "OK"));
@@ -102,7 +102,7 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
             CMisc.Reset();
             init();
             onSetting = false;
-        } else if (command.equals("Save Preference")) {
+        } else if (command.equals("Save Preferences")) {
 
             String s1 = GExpert.getUserDir();
             String s2 = GExpert.getFileSeparator();
@@ -113,10 +113,11 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
 
                 CMisc.SaveProperty(writer);
             } catch (IOException ee) {
-                JOptionPane.showMessageDialog(gxInstance, GExpert.getLanguage(502, "Can not Save Preference"), "Fail", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(gxInstance, GExpert.getLanguage(502, "Can not save Preferences"),
+                        GExpert.getLanguage("Fail"), JOptionPane.WARNING_MESSAGE);
             }
             JOptionPane.showMessageDialog(gxInstance, GExpert.getLanguage(503,
-                    "Save Preference Successfully") + "\n" +
+                    "Preferences have been successfully saved") + "\n" +
                     GExpert.getLanguage(506, "Please restart the program."),
                     GExpert.getLanguage("Saved"), JOptionPane.WARNING_MESSAGE);
 
@@ -643,7 +644,7 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
             pbk = new ColorPane(100, 30);
             pbk.addMouseListener(this);
             JPanel p31 = new JPanel(new FlowLayout(FlowLayout.LEFT));
-            p31.add(new JLabel(GExpert.getLanguage(377, "BackGroud Color")));
+            p31.add(new JLabel(GExpert.getLanguage(377, "Background color")));
             p31.add(pbk);
 
             pgrid = new ColorPane(100, 30);
@@ -779,12 +780,9 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
             String[] lan = {
                     "English",
                     "Chinese",
-                    // "Japanese",
-                    // "French",
                     "German",
                     "Hungarian",
                     "Italian",
-                    // "Spanish",
                     "Persian",
                     "Portuguese",
                     "Serbian"

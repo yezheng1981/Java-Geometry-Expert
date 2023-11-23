@@ -193,7 +193,7 @@ public class RightClickPopMenu extends JPopupMenu implements ActionListener {
             }
         };
 
-        JMenu m = new JMenu(getLanguage(4027, "Font Size"));
+        JMenu m = new JMenu(getLanguage(4027, "Font size"));
         for (int i = 0; i < n; i++) {
             JMenuItem item = new JMenuItem(" " + fz[i] + " ");
             item.addActionListener(ls);

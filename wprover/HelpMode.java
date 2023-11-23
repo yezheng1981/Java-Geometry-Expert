@@ -66,7 +66,7 @@ public class HelpMode {
 
         addItem("Circle", "circle.html");
         addItem("Circle by Three Points", "circle_by_three_points.html");
-        addItem("Circler", "circle_by_radius.html");
+        addItem("Compass", "circle_by_radius.html");
 
         addItem("Intersect", "intersect.html");
         addItem("Mirror", "mirror.html");
@@ -116,7 +116,7 @@ public class HelpMode {
         addItem("Rules for Full Angle", "lemmas.html#full");
         addItem("Rules for GDD", "lemmas.html#gdd");
 
-        addItem("Preference", "preference.html");
+        addItem("Preferences", "preference.html");
         addItem("Construct History", "history.html");
         addItem("Show Step Bar", "index.html");
         addItem("Style Dialog", "index.html");

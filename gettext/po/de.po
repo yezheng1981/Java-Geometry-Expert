@@ -153,7 +153,8 @@ msgid "Show Text"
 msgstr "Zeige Text"
 
 #: ../wprover/CProperty.java:814
-msgid "Significant Digit"
+#, fuzzy
+msgid "Significant Digits"
 msgstr "Signifikante Stelle"
 
 #: ../wprover/CProperty.java:905
@@ -264,16 +265,14 @@ msgstr "Die Spezifikation des Winkels muss vor der Konstruktion stattfinden"
 msgid "Warning"
 msgstr "Warnung"
 
-#: ../wprover/drawProcess.java:3037
-msgid "The two selected line don'thave any intersected point"
-msgstr ""
-
 #: ../wprover/drawProcess.java:3097
-msgid "The selected two line don't have intersected point"
+#, fuzzy
+msgid "The selected two lines don't have intersected point"
 msgstr "Die ausgewählten beiden Punkte haben keinen Schinttpunkt"
 
 #: ../wprover/drawProcess.java:3098
-msgid "No Intersected point"
+#, fuzzy
+msgid "No intersected point"
 msgstr "Kein Schnittpunkt"
 
 #: ../wprover/drawProcess.java:8069
@@ -470,7 +469,7 @@ msgid "Circle by Three Points"
 msgstr "Kreis durch drei Punkte"
 
 #: ../wprover/GExpert.java:867 ../wprover/HelpMode.java:69
-msgid "Circler"
+msgid "Compass"
 msgstr ""
 
 #: ../wprover/GExpert.java:870 ../wprover/GExpert.java:922
@@ -647,13 +646,24 @@ msgstr "Regeln für Vollwinkel"
 msgid "Rules for GDD"
 msgstr "Regeln für GDD"
 
+#: ../wprover/GExpert.java:959 ../wprover/HelpMode.java:116
+#, fuzzy
+msgid "Rules for the Full Angle Method"
+msgstr "Regeln für Vollwinkel"
+
+#: ../wprover/GExpert.java:960 ../wprover/HelpMode.java:117
+#, fuzzy
+msgid "Rules for the GDD Method"
+msgstr "Regeln für GDD"
+
 #: ../wprover/GExpert.java:963
 msgid "Option"
 msgstr "Option"
 
 #: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
 #: ../wprover/MiscDialog.java:32
-msgid "Preference"
+#, fuzzy
+msgid "Preferences"
 msgstr "Einstellung"
 
 #: ../wprover/GExpert.java:968 ../wprover/HelpMode.java:120
@@ -831,7 +841,8 @@ msgid "Other"
 msgstr "Andere"
 
 #: ../wprover/MiscDialog.java:56
-msgid "Save Preference"
+#, fuzzy
+msgid "Save Preferences"
 msgstr "Speichere Einstellung"
 
 #: ../wprover/MiscDialog.java:59 ../wprover/CProperty.java:625
@@ -839,11 +850,13 @@ msgid "Default"
 msgstr "Standard"
 
 #: ../wprover/MiscDialog.java:116
-msgid "Can not Save Preference"
+#, fuzzy
+msgid "Can not save Preferences"
 msgstr "Einstellung kann nicht gespeichert werden"
 
 #: ../wprover/MiscDialog.java:119
-msgid "Save Preference Successfully"
+#, fuzzy
+msgid "Preferences have been successfully saved"
 msgstr "Einstellungen erfolgreich gespeichert"
 
 #: ../wprover/MiscDialog.java:120
@@ -939,10 +952,6 @@ msgstr "Farbmodus"
 msgid "Colorful"
 msgstr "Bunt"
 
-#: ../wprover/MiscDialog.java:646
-msgid "BackGroud Color"
-msgstr ""
-
 #: ../wprover/MiscDialog.java:652 ../wprover/CProperty.java:998
 msgid "Grid"
 msgstr "Gitter"
@@ -1001,19 +1010,23 @@ msgid "Inequality"
 msgstr "Ungleichung"
 
 #: ../wprover/MProveTree.java:758
-msgid "Delete This Row"
+#, fuzzy
+msgid "Delete this row"
 msgstr "Löschen diese Zeile"
 
 #: ../wprover/MProveTree.java:763
-msgid "Add A New Row"
+#, fuzzy
+msgid "Add a new row"
 msgstr "Eine Zeile addieren"
 
 #: ../wprover/MProveTree.java:767
-msgid "Append A Term"
+#, fuzzy
+msgid "Append a term"
 msgstr "Einen Term hinzufügen"
 
 #: ../wprover/MProveTree.java:771
-msgid "Combine Selected Rows"
+#, fuzzy
+msgid "Combine selected rows"
 msgstr "Kombinieren ausgewählte Zeilen"
 
 #: ../wprover/ndgDialog.java:31 ../wprover/PanelProve1.java:2424
@@ -1055,10 +1068,6 @@ msgstr "Die algebraische Form:"
 #: ../wprover/panelGB.java:623
 msgid "The Nondegenerate Conditions"
 msgstr "Die nichtdegenerierte Bedingungen"
-
-#: ../wprover/panelGB.java:679 ../wprover/panelWu.java:122
-msgid "The Equational Hypotheses:"
-msgstr ""
 
 #: ../wprover/panelGB.java:704
 msgid "The Initial Polynomial Set"
@@ -1214,7 +1223,8 @@ msgid "Prove"
 msgstr "Beweise"
 
 #: ../wprover/PanelProve1.java:2060
-msgid "Prove in New Tab"
+#, fuzzy
+msgid "Prove in a new tab"
 msgstr "Beweise in neuem Tab"
 
 #: ../wprover/PanelProve1.java:2064
@@ -1222,12 +1232,14 @@ msgid "Refresh"
 msgstr "Aktualisieren"
 
 #: ../wprover/PanelProve1.java:2067
-msgid "Search A Fact"
-msgstr ""
+#, fuzzy
+msgid "Search a fact"
+msgstr "Suche Fakten"
 
 #: ../wprover/PanelProve1.java:2185
-msgid "File Format Not Supported!"
-msgstr ""
+#, fuzzy
+msgid "File format not supported!"
+msgstr "Dateiformat nicht unterstützt"
 
 #: ../wprover/PanelProve1.java:2186
 msgid "Can not open"
@@ -1258,7 +1270,8 @@ msgid "Polynomials"
 msgstr "Polynome"
 
 #: ../wprover/PanelProve1.java:2431
-msgid "All Solutions"
+#, fuzzy
+msgid "All solutions"
 msgstr "Alle Lösungen"
 
 #: ../wprover/panelWu.java:84 ../wprover/panelWu.java:94
@@ -1317,10 +1330,6 @@ msgstr "Auftauen"
 msgid "Stop Trace"
 msgstr "Spur aus"
 
-#: ../wprover/RightClickPopMenu.java:196
-msgid "Font Size"
-msgstr "Schriftgröße"
-
 #: ../wprover/RightClickPopMenu.java:205
 msgid "Plain"
 msgstr "Schlicht"
@@ -1362,7 +1371,8 @@ msgid "Connection failed: Please check your network connection and try again."
 msgstr "Verbindung nicht erfolgreich: Bitte die Netzwerkverbindung überprüfen."
 
 #: ../wprover/Update.java:71 ../wprover/Update.java:121
-msgid "Connection Failed"
+#, fuzzy
+msgid "Connection failed"
 msgstr "Verbindung nicht erfolgreich"
 
 #: ../wprover/Update.java:140 ../wprover/Update.java:150
@@ -1480,7 +1490,8 @@ msgid "Print the client area"
 msgstr "Bereich drucken"
 
 #: ../wprover/GExpert.java:811
-msgid "Click three points A B C, then click a point D on an object AB = CD"
+msgid ""
+"Click three points A, B, C, then click a point D on an object to get AB = CD"
 msgstr ""
 
 #: ../wprover/GExpert.java:812
@@ -1488,12 +1499,13 @@ msgid "Click two circles to construct their radical axis"
 msgstr ""
 
 #: ../wprover/GExpert.java:815
-msgid "Click two points A B then  a point C to get AB //= CD"
+msgid "Click two points A, B, then a point C to get AB //= CD"
 msgstr ""
 
 #: ../wprover/GExpert.java:816
 msgid ""
-"Click two points A B then point C to get CD equal and perpendicular to +- AB"
+"Click two points A, B, then point C to get CD equal and perpendicular to +- "
+"AB"
 msgstr ""
 
 #: ../wprover/GExpert.java:822 ../wprover/GExpert.java:828
@@ -1514,7 +1526,7 @@ msgid "Click two points to get their midpoint"
 msgstr ""
 
 #: ../wprover/GExpert.java:846
-msgid "Construct the circumcenter by select three points"
+msgid "Construct the circumcenter by selecting three points"
 msgstr ""
 
 #: ../wprover/GExpert.java:847
@@ -1534,7 +1546,7 @@ msgid "Click a point then drag to a line to construct the foot"
 msgstr ""
 
 #: ../wprover/GExpert.java:855
-msgid "Draw a lines by connecting two points"
+msgid "Draw a line by connecting two points"
 msgstr ""
 
 #: ../wprover/GExpert.java:856
@@ -1666,7 +1678,7 @@ msgid "Set two segments to have specified ratio"
 msgstr ""
 
 #: ../wprover/GExpert.java:920
-msgid "Set two circle to be tangent"
+msgid "Set two circles to be tangent"
 msgstr ""
 
 #: ../wprover/GExpert.java:924
@@ -1683,7 +1695,7 @@ msgid "Click a point then an object to animate"
 msgstr ""
 
 #: ../wprover/GExpert.java:929
-msgid "select a close segment path to fill the polygon"
+msgid "select a closed segment path to fill the polygon"
 msgstr ""
 
 #: ../wprover/GExpert.java:930
@@ -1735,7 +1747,7 @@ msgid "Transform polygon freely"
 msgstr ""
 
 #: ../wprover/GExpert.java:965
-msgid "Set the default Property"
+msgid "Set the default property"
 msgstr ""
 
 #: ../wprover/GExpert.java:968
@@ -1743,8 +1755,9 @@ msgid "Edit construct history"
 msgstr ""
 
 #: ../wprover/GExpert.java:970
-msgid "Show Step Bar for prove "
-msgstr ""
+#, fuzzy
+msgid "Show Step Bar for prove"
+msgstr "Zeige Schrittsfenster"
 
 #: ../wprover/GExpert.java:972
 msgid "Show Draw Style Dialog"
@@ -1828,10 +1841,6 @@ msgstr ""
 
 #: ../wprover/GExpert.java:2437 ../wprover/GExpert.java:856
 msgid "Draw a line which is parallel to another line"
-msgstr ""
-
-#: ../wprover/GExpert.java:2441
-msgid "Draw a line which is perpdicular to another line"
 msgstr ""
 
 #: ../wprover/GExpert.java:2449
@@ -2001,7 +2010,7 @@ msgid "circle3p"
 msgstr ""
 
 #: ../wprover/GExpert.java:2463
-msgid "circler"
+msgid "compass"
 msgstr ""
 
 #: ../wprover/GExpert.java:2468 ../wprover/GExpert.java:2505
@@ -2126,12 +2135,14 @@ msgid "Please select four points"
 msgstr ""
 
 #: ../wprover/MProveTree.java:1256
-msgid "Please select N(N >=3) points"
-msgstr ""
+#, fuzzy
+msgid "Please select N(>=3) points"
+msgstr "Bitte wähle"
 
 #: ../wprover/MProveTree.java:1269
-msgid "Can not find object icon "
-msgstr ""
+#, fuzzy
+msgid "Can not find object icon {0}"
+msgstr "Bild {0} kann nicht gefunden werden"
 
 #: ../wprover/MProveTree.java:1363
 msgid "number"
@@ -2321,22 +2332,6 @@ msgstr "Senkrechte Gerade"
 msgid "Horizontal Line"
 msgstr "Waagerechte Gerade"
 
-#: ../wprover/CProperty.java:1263
-msgid "X1 "
-msgstr ""
-
-#: ../wprover/CProperty.java:1264
-msgid "Y1 "
-msgstr ""
-
-#: ../wprover/CProperty.java:1265
-msgid "X2 "
-msgstr ""
-
-#: ../wprover/CProperty.java:1266
-msgid "Y2"
-msgstr ""
-
 msgid "Geometry Expert"
 msgstr "Geometry Expert"
 
@@ -2351,27 +2346,6 @@ msgid "Hexagon"
 msgstr "Sechseck"
 
 msgid "Nteqangle"
-msgstr ""
-
-msgid "Snap"
-msgstr "Fang"
-
-msgid "LessGrid"
-msgstr "Weniger Gitter"
-
-msgid "MoreGrid"
-msgstr "Mehr Gitter"
-
-msgid "Redo"
-msgstr "Wiederherstellen"
-
-msgid "Undo"
-msgstr "Rückgängig"
-
-msgid "FF"
-msgstr ""
-
-msgid "FR"
 msgstr ""
 
 msgid "autoshowstep"
@@ -2422,14 +2396,12 @@ msgstr "Version"
 msgid "On"
 msgstr "Ein"
 
-msgid "BackGround Color"
+#, fuzzy
+msgid "Background color"
 msgstr "Hintergrundfarbe"
 
 msgid "Change Color"
 msgstr "Ändere Farbe"
-
-msgid "Font Color"
-msgstr "Farbe Schriftart"
 
 msgid "propline"
 msgstr "propline"
@@ -2444,9 +2416,6 @@ msgstr "Breite"
 msgid "{0} already exists, do you want to overwrite it?"
 msgstr "{0} existiert bereits, wollen Sie sie überschreiben?"
 
-msgid "Time to build fixpoint:"
-msgstr "Zeit zum Erstellen des Fixpunktes:"
-
 msgid "Can not prove this theorem with Deductive Database Method"
 msgstr ""
 "Das Theorem konnte mit den deduktiven Methoden in der Datenbank nicht "
@@ -2457,12 +2426,6 @@ msgstr "Das Theorem kann nicht bewiesen werden."
 
 msgid "Proof text"
 msgstr "Text Beweis"
-
-msgid "Built on"
-msgstr "Erstellt auf"
-
-msgid "JDK Version:"
-msgstr "JDK Version:"
 
 msgid "Author:"
 msgstr "Autor:"
@@ -2505,6 +2468,52 @@ msgstr "So"
 
 msgid "Q.E.D."
 msgstr "Q.E.D."
+
+#, fuzzy
+msgid "Total solutions:"
+msgstr "Alle Lösungen"
+
+msgid "Please select 3 points (0 points selected)"
+msgstr ""
+
+#, fuzzy
+msgid "Can not open link {0}"
+msgstr "Bild {0} kann nicht gefunden werden"
+
+msgid ""
+"Construct a circle by clicking two points as radius and another point as "
+"center"
+msgstr ""
+
+#~ msgid "Snap"
+#~ msgstr "Fang"
+
+#~ msgid "Time to build fixpoint:"
+#~ msgstr "Zeit zum Erstellen des Fixpunktes:"
+
+#~ msgid "LessGrid"
+#~ msgstr "Weniger Gitter"
+
+#~ msgid "MoreGrid"
+#~ msgstr "Mehr Gitter"
+
+#~ msgid "Redo"
+#~ msgstr "Wiederherstellen"
+
+#~ msgid "Undo"
+#~ msgstr "Rückgängig"
+
+#~ msgid "Font Size"
+#~ msgstr "Schriftgröße"
+
+#~ msgid "Font Color"
+#~ msgstr "Farbe Schriftart"
+
+#~ msgid "Built on"
+#~ msgstr "Erstellt auf"
+
+#~ msgid "JDK Version:"
+#~ msgstr "JDK Version:"
 
 #~ msgid "X coordinate"
 #~ msgstr "X-Koordinate"
@@ -2568,9 +2577,6 @@ msgstr "Q.E.D."
 
 #~ msgid "Equalateral Triangle"
 #~ msgstr "Gleichseitiges Dreieck"
-
-#~ msgid "File Format Not Supported"
-#~ msgstr "Dateiformat nicht unterstützt"
 
 #~ msgid "GIF Opt on"
 #~ msgstr "GIF Opt ein"
