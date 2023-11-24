@@ -1464,7 +1464,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
             _command = command;
             String sx1 = GExpert.getLanguage(command);
             String sx2 = GExpert.getLanguageTip(command);
-            if (sx2 == null && tip != null)
+            if (tip != null)
                 sx2 = tip;
 
             setActionTip(sx1, sx2);
