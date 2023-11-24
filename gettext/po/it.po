@@ -664,7 +664,8 @@ msgid "Rules for the GDD Method"
 msgstr "Regole per GDD"
 
 #: ../wprover/GExpert.java:963
-msgid "Option"
+#, fuzzy
+msgid "Options"
 msgstr "Opzioni"
 
 #: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
@@ -2508,6 +2509,9 @@ msgstr "Impossibile trovare una dimostrazione!"
 msgid ""
 "Construct a circle by clicking two points as radius and another point as "
 "center"
+msgstr ""
+
+msgid "Click a point then drag to construct a circle"
 msgstr ""
 
 #~ msgid "Time to build fixpoint:"

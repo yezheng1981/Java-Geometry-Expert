@@ -454,15 +454,15 @@ msgstr "Szögfelező"
 
 #: ../wprover/GExpert.java:859 ../wprover/HelpMode.java:63
 msgid "Aline"
-msgstr ""
+msgstr "Forgatott szakasz"
 
 #: ../wprover/GExpert.java:860 ../wprover/HelpMode.java:64
 msgid "Bline"
-msgstr ""
+msgstr "Felezőmerőleges"
 
 #: ../wprover/GExpert.java:861 ../wprover/HelpMode.java:65
 msgid "TCline"
-msgstr ""
+msgstr "Körhöz pontban húzott érintő"
 
 #: ../wprover/GExpert.java:866 ../wprover/HelpMode.java:68
 msgid "Circle by Three Points"
@@ -655,8 +655,8 @@ msgid "Rules for the GDD Method"
 msgstr "A GDD-módszer szabályai"
 
 #: ../wprover/GExpert.java:963
-msgid "Option"
-msgstr "Opció"
+msgid "Options"
+msgstr "Opciók"
 
 #: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
 #: ../wprover/MiscDialog.java:32
@@ -826,7 +826,7 @@ msgstr "Megjelenítés"
 
 #: ../wprover/MiscDialog.java:42
 msgid "Mode"
-msgstr "Eszköz"
+msgstr "Működés"
 
 #: ../wprover/MiscDialog.java:45 ../wprover/MiscDialog.java:287
 #: ../wprover/vFontChooser.java:108
@@ -835,7 +835,7 @@ msgstr "Betűtípus"
 
 #: ../wprover/MiscDialog.java:46
 msgid "Other"
-msgstr "Más"
+msgstr "Egyéb"
 
 #: ../wprover/MiscDialog.java:56
 msgid "Save Preferences"
@@ -1554,7 +1554,7 @@ msgstr "Szögfelező rajzolása"
 
 #: ../wprover/GExpert.java:859
 msgid "Draw Aline"
-msgstr ""
+msgstr "Forgatott szakasz rajzolása"
 
 #: ../wprover/GExpert.java:860
 msgid "Perp-Bisect Line"
@@ -2330,10 +2330,10 @@ msgid "Geometry Expert"
 msgstr ""
 
 msgid "ALine"
-msgstr ""
+msgstr "Forgatott szakasz"
 
 msgid "ABline"
-msgstr ""
+msgstr "Szögfelező"
 
 msgid "Hexagon"
 msgstr "Hatszög"
@@ -2357,10 +2357,10 @@ msgid "Congruent Triangle"
 msgstr "Egybevágó háromszög"
 
 msgid "Bisect"
-msgstr "Felező"
+msgstr "Felezés"
 
 msgid "Tangent"
-msgstr "Érintő"
+msgstr "Érintés"
 
 msgid "Equal Product"
 msgstr "Egyező szorzat"
@@ -2473,6 +2473,10 @@ msgid ""
 "center"
 msgstr ""
 "Kör szerkesztése: két pont a sugarat jelöli ki, egy harmadik a középpontot"
+
+#, fuzzy
+msgid "Click a point then drag to construct a circle"
+msgstr "Kattints egy pontra és húzd egy egyenesre a talppont létrehozásához"
 
 #~ msgid "The Equational Hypotheses:"
 #~ msgstr "Az egyenlőségeken alapuló feladatkiírás:"

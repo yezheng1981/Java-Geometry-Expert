@@ -665,7 +665,8 @@ msgid "Rules for the GDD Method"
 msgstr "Pravila izvođenja za metod GDD"
 
 #: ../wprover/GExpert.java:963
-msgid "Option"
+#, fuzzy
+msgid "Options"
 msgstr "Opcija"
 
 #: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
@@ -2509,6 +2510,9 @@ msgstr "Ne mogu naći nikakav dokaz!"
 msgid ""
 "Construct a circle by clicking two points as radius and another point as "
 "center"
+msgstr ""
+
+msgid "Click a point then drag to construct a circle"
 msgstr ""
 
 #~ msgid "Snap"

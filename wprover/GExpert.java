@@ -986,7 +986,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         addAMenu(menu, "Rules for GDD", "Rules for GDD", this);
 
 
-        menu = new JMenu(getLanguage("Option"));
+        menu = new JMenu(getLanguage("Options"));
         menuBar.add(menu);
         item = addAMenu(menu, "Preferences", "Set the default property", this);
         addImageToItem(item, "preference");

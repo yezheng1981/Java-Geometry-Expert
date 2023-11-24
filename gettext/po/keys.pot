@@ -656,7 +656,7 @@ msgid "Rules for the GDD Method"
 msgstr ""
 
 #: ../wprover/GExpert.java:963
-msgid "Option"
+msgid "Options"
 msgstr ""
 
 #: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
