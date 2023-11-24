@@ -1312,7 +1312,6 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
         } else if (command.equalsIgnoreCase("Save GDD Proof as GraphViz File")) {
             this.saveGDDProofAsGraphViz();
-            System.out.println("This feature is not yet fully implemented. Coming soon. Stay tuned!");
         }
 
         else if (command.equals("Save as Text")) {
