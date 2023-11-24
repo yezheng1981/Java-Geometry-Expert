@@ -864,7 +864,7 @@ msgstr "无法保存参数"
 
 #: ../wprover/MiscDialog.java:119
 #, fuzzy
-msgid "Preferences have been successfully saved"
+msgid "Preferences have been successfully saved."
 msgstr "参数被成功保存"
 
 #: ../wprover/MiscDialog.java:120
@@ -1491,16 +1491,19 @@ msgid "Exit without save"
 msgstr "不保存退出"
 
 #: ../wprover/AnimatePanel.java:42
-msgid "start the animation"
-msgstr ""
+#, fuzzy
+msgid "Start the animation"
+msgstr "设置比例"
 
 #: ../wprover/AnimatePanel.java:45
-msgid "pause the animation"
-msgstr ""
+#, fuzzy
+msgid "Pause the animation"
+msgstr "设置比例"
 
 #: ../wprover/AnimatePanel.java:48
-msgid "stop the animation"
-msgstr ""
+#, fuzzy
+msgid "Stop the animation"
+msgstr "设置比例"
 
 #: ../wprover/GExpert.java:781
 #, fuzzy
@@ -1799,11 +1802,11 @@ msgid "translate view"
 msgstr ""
 
 #: ../wprover/GExpert.java:2364
-msgid "Zoom in view"
+msgid "zoom in view"
 msgstr ""
 
 #: ../wprover/GExpert.java:2367
-msgid "Zoom out view"
+msgid "zoom out view"
 msgstr ""
 
 #: ../wprover/GExpert.java:2371
@@ -1843,7 +1846,7 @@ msgid "auto show draw step by step"
 msgstr ""
 
 #: ../wprover/GExpert.java:2406
-msgid "create a new view"
+msgid "Create a new view"
 msgstr ""
 
 #: ../wprover/GExpert.java:2411
@@ -1883,7 +1886,7 @@ msgid "Draw a circle with center and radius"
 msgstr ""
 
 #: ../wprover/GExpert.java:2468
-msgid "define a polygon"
+msgid "Define a polygon"
 msgstr ""
 
 #: ../wprover/GExpert.java:2472
@@ -2374,8 +2377,8 @@ msgstr "Nteqangle"
 msgid "autoshowstep"
 msgstr "自动回放"
 
-msgid "animate_start"
-msgstr "播放动画"
+msgid "start to animate"
+msgstr ""
 
 msgid "Equal Angle"
 msgstr "角相等"
@@ -2508,6 +2511,25 @@ msgstr ""
 
 msgid "Click a point then drag to construct a circle"
 msgstr ""
+
+msgid "Adjust the speed of animation"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+#, fuzzy
+msgid "Start animation step by step"
+msgstr "设置比例"
+
+msgid "Go to the end of the proof"
+msgstr ""
+
+msgid "Go to the next step of the proof"
+msgstr ""
+
+#~ msgid "animate_start"
+#~ msgstr "播放动画"
 
 #~ msgid "Snap"
 #~ msgstr "吸附"

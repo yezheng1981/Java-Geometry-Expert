@@ -179,7 +179,7 @@ class ProveBar extends JToolBar implements ActionListener, ChangeListener {
 
         slider = new JSlider(40, 300, 300 - n);
         slider.addChangeListener(this);
-        slider.setToolTipText("Ajust the speed of animation");
+        slider.setToolTipText(GExpert.getLanguage("Adjust the speed of animation"));
 
         MouseMotionListener ls1 = new MouseMotionListener() {
             public void mouseDragged(MouseEvent e) {
@@ -351,7 +351,7 @@ class ProveBar extends JToolBar implements ActionListener, ChangeListener {
 
         JToggleButton button = new JToggleButton();
         button.setActionCommand(command);
-        button.setToolTipText(tip);
+        button.setToolTipText(GExpert.getLanguage(tip));
         button.addActionListener(this);
 
         if (imageURL != null) {

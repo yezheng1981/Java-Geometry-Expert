@@ -39,13 +39,13 @@ public class AnimatePanel extends JToolBar implements ActionListener, ChangeList
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
 
-        bx1 = makeAButton("play", "play", "start the animation", "Play");
+        bx1 = makeAButton("play", "play", "Start the animation", "Play");
         panel.add(bx1);
 
-        bx3 = makeAButton("pause", "pause", "pause the animation", "Pause");
+        bx3 = makeAButton("pause", "pause", "Pause the animation", "Pause");
         panel.add(bx3);
 
-        bx2 = makeAButton("stop", "stop", "stop the animation", "stop");
+        bx2 = makeAButton("stop", "stop", "Stop the animation", "Stop");
         panel.add(bx2);
 
         framesPerSecond = new JSlider(JSlider.HORIZONTAL, 5, 30, 15);

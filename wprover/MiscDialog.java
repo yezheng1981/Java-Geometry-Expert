@@ -117,7 +117,7 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
                         GExpert.getLanguage("Fail"), JOptionPane.WARNING_MESSAGE);
             }
             JOptionPane.showMessageDialog(gxInstance, GExpert.getLanguage(503,
-                    "Preferences have been successfully saved") + "\n" +
+                    "Preferences have been successfully saved.") + "\n" +
                     GExpert.getLanguage(506, "Please restart the program."),
                     GExpert.getLanguage("Saved"), JOptionPane.WARNING_MESSAGE);
 

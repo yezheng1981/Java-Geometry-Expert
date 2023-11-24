@@ -864,7 +864,7 @@ msgstr "Impossibile salvare preferenze"
 
 #: ../wprover/MiscDialog.java:119
 #, fuzzy
-msgid "Preferences have been successfully saved"
+msgid "Preferences have been successfully saved."
 msgstr "Preferenze salvate con successo"
 
 #: ../wprover/MiscDialog.java:120
@@ -1493,16 +1493,19 @@ msgid "Exit without save"
 msgstr "Esci senza salvare"
 
 #: ../wprover/AnimatePanel.java:42
-msgid "start the animation"
-msgstr ""
+#, fuzzy
+msgid "Start the animation"
+msgstr "Fissa il rapporto"
 
 #: ../wprover/AnimatePanel.java:45
-msgid "pause the animation"
-msgstr ""
+#, fuzzy
+msgid "Pause the animation"
+msgstr "Fissa il rapporto"
 
 #: ../wprover/AnimatePanel.java:48
-msgid "stop the animation"
-msgstr ""
+#, fuzzy
+msgid "Stop the animation"
+msgstr "Fissa il rapporto"
 
 #: ../wprover/GExpert.java:781
 #, fuzzy
@@ -1801,11 +1804,11 @@ msgid "translate view"
 msgstr ""
 
 #: ../wprover/GExpert.java:2364
-msgid "Zoom in view"
+msgid "zoom in view"
 msgstr ""
 
 #: ../wprover/GExpert.java:2367
-msgid "Zoom out view"
+msgid "zoom out view"
 msgstr ""
 
 #: ../wprover/GExpert.java:2371
@@ -1845,7 +1848,7 @@ msgid "auto show draw step by step"
 msgstr ""
 
 #: ../wprover/GExpert.java:2406
-msgid "create a new view"
+msgid "Create a new view"
 msgstr ""
 
 #: ../wprover/GExpert.java:2411
@@ -1885,7 +1888,7 @@ msgid "Draw a circle with center and radius"
 msgstr ""
 
 #: ../wprover/GExpert.java:2468
-msgid "define a polygon"
+msgid "Define a polygon"
 msgstr ""
 
 #: ../wprover/GExpert.java:2472
@@ -2376,8 +2379,8 @@ msgstr "Non equiangolo"
 msgid "autoshowstep"
 msgstr "mostra automaticamente passi"
 
-msgid "animate_start"
-msgstr "avvia animazione"
+msgid "start to animate"
+msgstr ""
 
 msgid "Equal Angle"
 msgstr "Uguale angolo"
@@ -2513,6 +2516,25 @@ msgstr ""
 
 msgid "Click a point then drag to construct a circle"
 msgstr ""
+
+msgid "Adjust the speed of animation"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+#, fuzzy
+msgid "Start animation step by step"
+msgstr "Fissa il rapporto"
+
+msgid "Go to the end of the proof"
+msgstr ""
+
+msgid "Go to the next step of the proof"
+msgstr ""
+
+#~ msgid "animate_start"
+#~ msgstr "avvia animazione"
 
 #~ msgid "Time to build fixpoint:"
 #~ msgstr "Tempo per costruire il punto fisso"

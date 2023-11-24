@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
 "POT-Creation-Date: 2023-11-15 23:44+0100\n"
-"PO-Revision-Date: 2023-11-23 13:42+0100\n"
+"PO-Revision-Date: 2023-11-24 13:33+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -850,8 +850,8 @@ msgid "Can not save Preferences"
 msgstr "A beállítások nem menthetők el"
 
 #: ../wprover/MiscDialog.java:119
-msgid "Preferences have been successfully saved"
-msgstr "A beállításokat sikeresen elmentettem"
+msgid "Preferences have been successfully saved."
+msgstr "A beállításokat sikeresen elmentettem."
 
 #: ../wprover/MiscDialog.java:120
 msgid "Please restart the program."
@@ -1249,7 +1249,7 @@ msgstr "Wu módszere"
 
 #: ../wprover/PanelProve1.java:2398
 msgid "To Prove"
-msgstr "Bizonyítandó:"
+msgstr "Bizonyítandó"
 
 #: ../wprover/PanelProve1.java:2418
 msgid "Polynomials"
@@ -1461,16 +1461,16 @@ msgid "Exit without save"
 msgstr "Kilépés mentés nélkül"
 
 #: ../wprover/AnimatePanel.java:42
-msgid "start the animation"
-msgstr "animáció indítása"
+msgid "Start the animation"
+msgstr "Az animáció indítása"
 
 #: ../wprover/AnimatePanel.java:45
-msgid "pause the animation"
-msgstr "az animáció szüneteltetése"
+msgid "Pause the animation"
+msgstr "Az animáció szüneteltetése"
 
 #: ../wprover/AnimatePanel.java:48
-msgid "stop the animation"
-msgstr "animáció megállítása"
+msgid "Stop the animation"
+msgstr "Az animáció megállítása"
 
 #: ../wprover/GExpert.java:781
 msgid "Print the client area"
@@ -1768,12 +1768,12 @@ msgid "translate view"
 msgstr "nézet eltolása"
 
 #: ../wprover/GExpert.java:2364
-msgid "Zoom in view"
-msgstr "Nézet nagyítása"
+msgid "zoom in view"
+msgstr "nézet nagyítása"
 
 #: ../wprover/GExpert.java:2367
-msgid "Zoom out view"
-msgstr "Nézet kicsinyítése"
+msgid "zoom out view"
+msgstr "nézet kicsinyítése"
 
 #: ../wprover/GExpert.java:2371
 msgid "snap to grid"
@@ -1812,8 +1812,8 @@ msgid "auto show draw step by step"
 msgstr "automatikus lépésenkénti rajzolás"
 
 #: ../wprover/GExpert.java:2406
-msgid "create a new view"
-msgstr "új nézet létrehozása"
+msgid "Create a new view"
+msgstr "Új nézet létrehozása"
 
 #: ../wprover/GExpert.java:2411
 msgid "Open a file"
@@ -1852,8 +1852,8 @@ msgid "Draw a circle with center and radius"
 msgstr "Kör rajzolása középponttal és sugárral"
 
 #: ../wprover/GExpert.java:2468
-msgid "define a polygon"
-msgstr "add meg a sokszöget"
+msgid "Define a polygon"
+msgstr "Add meg a sokszöget"
 
 #: ../wprover/GExpert.java:2472
 msgid "Select two lines to define their full-angle with a label"
@@ -1876,7 +1876,7 @@ msgstr ""
 #: ../wprover/GExpert.java:2488
 msgid "Select two points or drag a segment to construct an isosceles triangle"
 msgstr ""
-"Válassz két pontot vagy húzz egy a szakaszt az egyenlő szárú háromszög "
+"Válassz két pontot vagy húzz egy szakaszt az egyenlő szárú háromszög "
 "létrehozásához"
 
 #: ../wprover/GExpert.java:2496
@@ -2144,7 +2144,7 @@ msgstr "szám"
 
 #: ../wprover/MProveTree.java:1366
 msgid "tri"
-msgstr ""
+msgstr "háromszög"
 
 #: ../wprover/MProveTree.java:1369
 msgid "cir"
@@ -2344,8 +2344,8 @@ msgstr ""
 msgid "autoshowstep"
 msgstr ""
 
-msgid "animate_start"
-msgstr ""
+msgid "start to animate"
+msgstr "animáció indítása"
 
 msgid "Equal Angle"
 msgstr "Egyenlő szög"
@@ -2474,9 +2474,26 @@ msgid ""
 msgstr ""
 "Kör szerkesztése: két pont a sugarat jelöli ki, egy harmadik a középpontot"
 
-#, fuzzy
 msgid "Click a point then drag to construct a circle"
-msgstr "Kattints egy pontra és húzd egy egyenesre a talppont létrehozásához"
+msgstr "Kattints egy pontra és húzd el kör létrehozásához"
+
+msgid "Adjust the speed of animation"
+msgstr "Animáció sebességének beállítása"
+
+msgid "Reset"
+msgstr ""
+
+msgid "Start animation step by step"
+msgstr "Az animáció indítása lépésenként"
+
+msgid "Go to the end of the proof"
+msgstr "Ugrás a bizonyítás végére"
+
+msgid "Go to the next step of the proof"
+msgstr "Ugrás a bizonyítás következő lépésére"
+
+#~ msgid "animate_start"
+#~ msgstr "animáció indítása"
 
 #~ msgid "The Equational Hypotheses:"
 #~ msgstr "Az egyenlőségeken alapuló feladatkiírás:"

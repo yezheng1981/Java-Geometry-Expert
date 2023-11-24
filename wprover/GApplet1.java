@@ -310,7 +310,7 @@ public class GApplet1 extends JApplet {
             this.setFloatable(false);
             this.setBorder(null);
             JButton b = new JButton(GExpert.createImageIcon("images/other/reset.gif"));
-            b.setToolTipText("Reset");
+            b.setToolTipText(GExpert.getLanguage("Reset"));
             b.setUI(new EntityButtonUI());
             b.addActionListener(this);
             this.add(b);

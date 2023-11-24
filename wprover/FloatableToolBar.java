@@ -51,7 +51,7 @@ public class FloatableToolBar extends JPopupMenu {
         button.setBorder(null);
         button.setActionCommand("Close");
         button.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-        button.setToolTipText("Close");
+        button.setToolTipText(GExpert.getLanguage("Close"));
         button.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 FloatableToolBar.this.setVisible(false);

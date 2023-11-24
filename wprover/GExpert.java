@@ -2410,10 +2410,10 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         button = makeAButton("translate", "translate", "translate view", "Translate");
         toolBar.add(button);
         group.add(button);
-        button = makeAButton("zoom-in", "zoom-in", "Zoom in view", "Zoom-in");
+        button = makeAButton("zoom-in", "zoom-in", "zoom in view", "Zoom-in");
         toolBar.add(button);
         group.add(button);
-        button = makeAButton("zoom-out", "zoom-out", "Zoom out view", "Zoom-out");
+        button = makeAButton("zoom-out", "zoom-out", "zoom out view", "Zoom-out");
         toolBar.add(button);
         group.add(button);
 
@@ -2443,7 +2443,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
         anButton = button =
                 makeAButtonWith2ICon("animate_start", "animate_stop", "autoanimate", "start to animate", "play");
-        anButton.setToolTipText(this.getLanguageTip("animate_start"));
+        // anButton.setToolTipText(this.getLanguageTip("start animation"));
         toolBar.add(button);
         button.setEnabled(false);
     }
@@ -2452,7 +2452,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         JToggleButton button = null;
         //ButtonGroup group = new ButtonGroup();
 
-        button = makeAButton("new", "New", "create a new view", "new", true);
+        button = makeAButton("new", "New", "Create a new view", "new", true);
         toolBar.add(button);
         //group.add(button);
         toolBar.add(Box.createHorizontalStrut(1));
@@ -2514,7 +2514,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         toolBar.add(button);
         group.add(button);
 
-        button = makeAButton("fillpolygon", "Fill Polygon", "define a polygon", "polygon");
+        button = makeAButton("fillpolygon", "Fill Polygon", "Define a polygon", "polygon");
         toolBar.add(button);
         group.add(button);
 
@@ -2709,7 +2709,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         DActionButton button = new DActionButton(icon1);
         button.set2StatusIcons(icon1, icon2);
         button.setActionCommand(actionCommand);
-        button.setToolTipText(toolTipText);
+        button.setToolTipText(getLanguage(toolTipText));
         button.addActionListener(this);
         return button;
     }
