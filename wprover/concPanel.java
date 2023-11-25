@@ -52,7 +52,13 @@ public class concPanel extends JPanel implements ActionListener, ItemListener {
         contentPane = new JPanel();
         contentPane.setLayout(new BoxLayout(contentPane, BoxLayout.Y_AXIS));
 
-        bt = new JComboBox(massertion.cStrings) {
+        String[] cStringsT = new String[massertion.cStrings.length];
+        // Create the translations first:
+        for (int i = 0; i < massertion.cStrings.length; i++) {
+            cStringsT[i] = GExpert.getLanguage(massertion.cStrings[i]);
+        }
+        // Use the translations:
+        bt = new JComboBox(cStringsT) {
             public Dimension getMaximumSize() {
                 return bt.getPreferredSize();
             }
@@ -96,7 +102,7 @@ public class concPanel extends JPanel implements ActionListener, ItemListener {
         contentPane.add(textPane);
 
         bpanel = new JPanel();
-        bpanel.setBorder(BorderFactory.createTitledBorder("Do you mean...."));
+        bpanel.setBorder(BorderFactory.createTitledBorder(GExpert.getLanguage("Do you mean...")));
         bpanel.setLayout(new BoxLayout(bpanel, BoxLayout.Y_AXIS));
 
         asspane_temp = new TreeCellAssertPanel();

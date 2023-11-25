@@ -212,7 +212,7 @@ public class CProveField {
         for (int i = 0; i < v.size(); i++) {
             String s = (String) v.get(i);
             if (i == 0)
-                ct = new CProveText("Given: ", s);
+                ct = new CProveText(GExpert.getLanguage("Given:") + " ", s);
             else
                 ct = new CProveText(s);
             clist.add(ct);

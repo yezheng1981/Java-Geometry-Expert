@@ -492,11 +492,17 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
 
         public prefixPanel() {
             this.setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
-            box = new JComboBox(mprefix.cSprefix);
+            String[] cSprefixT = new String[mprefix.cSprefix.length];
+            // Create the translations first:
+            for (int i = 0; i < mprefix.cSprefix.length; i++) {
+                cSprefixT[i] = getLanguage(mprefix.cSprefix[i]);
+            }
+            // Use the translations:
+            box = new JComboBox(cSprefixT);
             box.setAlignmentX(Component.LEFT_ALIGNMENT);
             this.add(box);
             this.add(Box.createHorizontalStrut(15));
-            this.add(new JLabel("Please select"));
+            this.add(new JLabel(getLanguage("Please select")));
 
         }
 
@@ -1080,14 +1086,14 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
 
         public popSelectMenu1() {
             {
-                JMenuItem item = new popSelectMenuItem(mobject.pStrings[0], 0, -1);
+                JMenuItem item = new popSelectMenuItem(getLanguage(mobject.pStrings[0]), 0, -1);
                 this.add(item);
                 item.addActionListener(this);
             }
 
-            JMenu menu = new JMenu(mobject.pStrings[1]);
+            JMenu menu = new JMenu(getLanguage(mobject.pStrings[1]));
             for (int i = 0; i < mprefix.cSprefix.length; i++) {
-                JMenuItem item = new popSelectMenuItem(mprefix.cSprefix[i], 1, i);
+                JMenuItem item = new popSelectMenuItem(getLanguage(mprefix.cSprefix[i]), 1, i);
                 menu.add(item);
                 item.addActionListener(this);
             }
@@ -1095,36 +1101,36 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
 //            this.addSeparator();
             menu.addSeparator();
             for (int i = 0; i < msymbol.cSprefix.length; i++) {
-                JMenuItem item = new popSelectMenuItem("(" + msymbol.cSprefix[i] + ")", msymbol.getSymbolIcon(i), 2, i);
+                JMenuItem item = new popSelectMenuItem("(" + getLanguage(msymbol.cSprefix[i]) + ")", msymbol.getSymbolIcon(i), 2, i);
                 menu.add(item);
                 item.addActionListener(this);
             }
             this.add(menu);
 
-            menu = new JMenu(mobject.pStrings[3]); // assertion
+            menu = new JMenu(getLanguage(mobject.pStrings[3])); // assertion
             addAssertion(menu);
             this.add(menu);
 
-            menu = new JMenu(mobject.pStrings[4]); // object
+            menu = new JMenu(getLanguage(mobject.pStrings[4])); // object
             for (int i = 0; i < mdrobj.pStrings.length; i++) {
-                JMenuItem item = new popSelectMenuItem("(" + mdrobj.pStrings[i] + ")", mdrobj.getImageIcon(i), 4, i);
+                JMenuItem item = new popSelectMenuItem("(" + getLanguage(mdrobj.pStrings[i]) + ")", mdrobj.getImageIcon(i), 4, i);
                 menu.add(item);
                 item.addActionListener(this);
             }
             this.add(menu);
-            JMenuItem item = new popSelectMenuItem(mobject.pStrings[5], 5, -1); // draw
+            JMenuItem item = new popSelectMenuItem(getLanguage(mobject.pStrings[5]), 5, -1); // draw
             this.add(item);
             item.addActionListener(this);
 
-            item = new popSelectMenuItem(mobject.pStrings[6], 6, -1); // object
+            item = new popSelectMenuItem(getLanguage(mobject.pStrings[6]), 6, -1); // object
             this.add(item);
             item.addActionListener(this);
             item.setEnabled(false);
 
-            item = new popSelectMenuItem(mobject.pStrings[7], 7, -1); // object
+            item = new popSelectMenuItem(getLanguage(mobject.pStrings[7]), 7, -1); // object
             this.add(item);
             item.addActionListener(this);
-            item = new popSelectMenuItem(mobject.pStrings[8], 8, -1); // object
+            item = new popSelectMenuItem(getLanguage(mobject.pStrings[8]), 8, -1); // object
             this.add(item);
             item.addActionListener(this);
         }
@@ -1145,11 +1151,11 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
                 JMenuItem item = null;
 
                 if (s.equalsIgnoreCase("Eqangle")) {
-                    item = new popSelectMenuItem("", GExpert.createImageIcon("images/symbol/sym_eqangle.gif"), 3, i);
+                    item = new popSelectMenuItem(getLanguage(s), GExpert.createImageIcon("images/symbol/sym_eqangle.gif"), 3, i);
                 } else if (s.equalsIgnoreCase("Congruent")) {
-                    item = new popSelectMenuItem("", GExpert.createImageIcon("images/symbol/sym_congruent.gif"), 3, i);
+                    item = new popSelectMenuItem(getLanguage(s), GExpert.createImageIcon("images/symbol/sym_congruent.gif"), 3, i);
                 } else
-                    item = new popSelectMenuItem(s, 3, i);
+                    item = new popSelectMenuItem(getLanguage(s), 3, i);
                 menu1.add(item);
                 item.addActionListener(this);
             }
@@ -1161,7 +1167,7 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
 
             for (int i = 13; i < 20; i++) {
                 String s = massertion.cStrings[i];
-                JMenuItem item = new popSelectMenuItem(s, 3, i);
+                JMenuItem item = new popSelectMenuItem(getLanguage(s), 3, i);
                 menu2.add(item);
                 item.addActionListener(this);
             }
@@ -1170,7 +1176,7 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
 
             for (int i = 9; i <= 10; i++) {
                 String s = massertion.cStrings[i];
-                JMenuItem item = new popSelectMenuItem(s, 3, i);
+                JMenuItem item = new popSelectMenuItem(getLanguage(s), 3, i);
                 menu3.add(item);
                 item.addActionListener(this);
             }
@@ -1178,7 +1184,7 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
 
             for (int i = 21; i < massertion.cStrings.length; i++) {
                 String s = massertion.cStrings[i];
-                JMenuItem item = new popSelectMenuItem(s, 3, i);
+                JMenuItem item = new popSelectMenuItem(getLanguage(s), 3, i);
                 menu3.add(item);
                 item.addActionListener(this);
             }

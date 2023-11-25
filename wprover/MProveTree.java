@@ -1068,8 +1068,8 @@ class mprefix extends mobject {
     public static int GIVEN = 0;
     public static int TOPROVE = 1;
 
-    public static String[] cSprefix = {"Given: ", "To Prove: ", "In", "and",
-            "Similarly,", " Q.E.D."};
+    public static String[] cSprefix = {"Given:", "To Prove:", "In", "and",
+            "Similarly,", "Q.E.D."};
     private int type1;
 
     public mprefix(int type) {
@@ -1090,7 +1090,7 @@ class mprefix extends mobject {
 
     public String toString() {
         if (type1 < cSprefix.length)
-            return cSprefix[type1];
+            return GExpert.getLanguage(cSprefix[type1]);
         else
             return "????";
     }

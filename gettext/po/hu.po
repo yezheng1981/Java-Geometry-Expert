@@ -997,7 +997,7 @@ msgstr "Alapkijelentések"
 
 #: ../wprover/mproveInputPanel.java:1160
 msgid "Polygon Related"
-msgstr "Kapcsolódó sokszög"
+msgstr "Sokszöghöz kapcsolódó"
 
 #: ../wprover/mproveInputPanel.java:1169
 msgid "Inequality"
@@ -1096,7 +1096,7 @@ msgid "Time:"
 msgstr "Idő:"
 
 #: ../wprover/PanelProve1.java:930
-msgid "Second(s)"
+msgid "second(s)"
 msgstr "másodperc"
 
 #: ../wprover/PanelProve1.java:993
@@ -1309,11 +1309,11 @@ msgstr "Fagyasztás"
 
 #: ../wprover/RightClickPopMenu.java:66
 msgid "Unfreeze"
-msgstr "Fagyasztás kikapcsolva"
+msgstr "Fagyasztás kikapcsolása"
 
 #: ../wprover/RightClickPopMenu.java:70
 msgid "Stop Trace"
-msgstr "Nyomvonal leállítása"
+msgstr "Nyomvonal kikapcsolása"
 
 #: ../wprover/RightClickPopMenu.java:205
 msgid "Plain"
@@ -2096,7 +2096,7 @@ msgstr "Bizonyítandó:"
 
 #: ../wprover/MProveTree.java:1071
 msgid "In"
-msgstr "Belül"
+msgstr "Mivel"
 
 #: ../wprover/MProveTree.java:1071
 msgid "and"
@@ -2239,11 +2239,11 @@ msgstr "Hasonló"
 
 #: ../wprover/MProveTree.java:1818
 msgid "Distance Less"
-msgstr "A távolság kevesebb mint"
+msgstr "A távolság kisebb mint"
 
 #: ../wprover/MProveTree.java:1819
 msgid "Angle Less"
-msgstr ""
+msgstr "A szög kisebb mint"
 
 #: ../wprover/MProveTree.java:1819
 msgid "Concurrent"
@@ -2275,19 +2275,19 @@ msgstr "Külső szög"
 
 #: ../wprover/MProveTree.java:1825
 msgid "Triangle Inside"
-msgstr ""
+msgstr "Háromszögön belül"
 
 #: ../wprover/MProveTree.java:1826
 msgid "Para Inside"
-msgstr ""
+msgstr "Paralelogrammán belül"
 
 #: ../wprover/MProveTree.java:1826
 msgid "Opposite Inside"
-msgstr ""
+msgstr "Meghosszabbítás belsejében"
 
 #: ../wprover/MProveTree.java:1826
 msgid "Same Side"
-msgstr "Azonos oldal"
+msgstr "Azonos oldalon"
 
 #: ../wprover/MProveTree.java:1826
 msgid "Convex"

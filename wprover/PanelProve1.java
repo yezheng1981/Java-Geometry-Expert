@@ -927,8 +927,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
     public void showTime(long n) {
         float t = (float) (n / 1000.0);
         if (gxInstance != null)
-            gxInstance.setTextLabel2(getLanguage(1003, "Time:") + " " + new Float(t) + " " + getLanguage(308, "second(s)")
-                    + ";" );//+ getLanguage(10001, "  Facts") + ": " + Prover.getNumberofProperties());
+            gxInstance.setTextLabel2(getLanguage(1003, "Time:") + " " + new Float(t) + " " + getLanguage(308, "second(s)"));
+             //       + ";" );//+ getLanguage(10001, "  Facts") + ": " + Prover.getNumberofProperties());
     }
 
     public void showDatabase() {

@@ -1097,7 +1097,7 @@ msgid "Time:"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:930
-msgid "Second(s)"
+msgid "second(s)"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:993
@@ -2470,3 +2470,10 @@ msgstr ""
 
 msgid "Go to the next step of the proof"
 msgstr ""
+
+msgid "Unfreeze All Points"
+msgstr ""
+
+msgid "Do you mean..."
+msgstr ""
+

@@ -139,14 +139,14 @@ class BookCellRenderer extends vcellRender implements TreeCellRenderer {
                 if (v.size() == 1) {
                     xterm x = (xterm) v.get(0);
                     if (x.getPV() == 0)
-                        setLabelObject(k++, 0, "   Q.E.D. ");
+                        setLabelObject(k++, 0, "   " + getLanguage("Q.E.D."));
                 }
             } else if (userObject instanceof el_term) {
                 el_term el = (el_term) userObject;
                 Vector v = el.getAllxterm();
                 int k = 0;
                 if (node.getParent() != null) {
-                    setLabelObject1(k++, 0, "because");
+                    setLabelObject1(k++, 0, getLanguage("because"));
                 }
                 setLabelObject1(k++, 1, v.get(0));
                 setLabelObject1(k++, 0, " = ");
@@ -355,14 +355,14 @@ class BasicCellEditor extends AbstractCellEditor implements TreeCellEditor {
                 if (v.size() == 1) {
                     xterm x = (xterm) v.get(0);
                     if (x.getPV() == 0)
-                        setLabelObject(k++, 0, "   Q.E.D. ");
+                        setLabelObject(k++, 0, "   " + getLanguage("Q.E.D."));
                 }
             } else if (userObject instanceof el_term) {
                 el_term el = (el_term) userObject;
                 Vector v = el.getAllxterm();
                 int k = 0;
                 if (node.getParent() != null) {
-                    setLabelObject1(k++, 0, "because");
+                    setLabelObject1(k++, 0, getLanguage("because"));
                 }
                 setLabelObject1(k++, 1, v.get(0));
                 setLabelObject1(k++, 0, " = ");
