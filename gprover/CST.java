@@ -1,5 +1,7 @@
 package gprover;
 
+import wprover.GExpert;
+
 public class CST {
 
     final public static String[] cst =
@@ -247,10 +249,12 @@ public class CST {
                     else
                         s += pss[i];
 
-                return "Point: " + s;
+                // return "Point: " + s;
+                return GExpert.getTranslationViaGettext("Point {0}", s);
             }
             case gib.C_LINE:
-                return "Line " + pss[0] + pss[1];
+                // return "Line " + pss[0] + pss[1];
+                return GExpert.getTranslationViaGettext("Line {0}", pss[0] + "" + pss[1]);
             case gib.C_O_L:
                 if (d)
                     return pss[0] + " : on line " + pss[1] + pss[2];

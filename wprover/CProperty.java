@@ -548,7 +548,7 @@ public class CProperty extends JPanel implements ActionListener {
 
 
             this.setLayout(new BoxLayout(this, BoxLayout.PAGE_AXIS));
-            border = new TitledBorder(getLanguage(33, "Point"));
+            border = new TitledBorder(getLanguage(33, "Point") + " a");
 
             this.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createCompoundBorder(border,
                     BorderFactory.createEmptyBorder(2, 2, 2, 2)),

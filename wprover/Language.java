@@ -243,12 +243,16 @@ public class Language {
     }
 
     public static String getLs(int m, String s) {
+        return GExpert.getLanguage(s);
+        /*
         if (laninstance == null)
             return s;
         return laninstance.getString(m, s);
+         */
     }
 
     public static String getLs(int n) {
+        System.err.println("Translation wants to use getLs(" + n +")");
         if (laninstance == null)
             return "";
         return laninstance.getString(n);

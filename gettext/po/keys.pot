@@ -2103,6 +2103,22 @@ msgid "Please select two points"
 msgstr ""
 
 #: ../wprover/MProveTree.java:1255
+msgid "Please select two segments"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1255
+msgid "Please select two lines"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1255
+msgid "Please select two angles"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1255
+msgid "Please select two triangles"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1255
 msgid "Please select three non-collinear points"
 msgstr ""
 
@@ -2475,5 +2491,20 @@ msgid "Unfreeze All Points"
 msgstr ""
 
 msgid "Do you mean..."
+msgstr ""
+
+msgid "Point {0}"
+msgstr ""
+
+msgid "Line {0}"
+msgstr ""
+
+msgid "Circle {0}"
+msgstr ""
+
+msgid "Please draw..."
+msgstr ""
+
+msgid "{0} points left"
 msgstr ""
 

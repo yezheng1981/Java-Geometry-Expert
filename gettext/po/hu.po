@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
 "POT-Creation-Date: 2023-11-15 23:44+0100\n"
-"PO-Revision-Date: 2023-11-24 13:33+0100\n"
+"PO-Revision-Date: 2023-11-25 17:12+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -2119,6 +2119,22 @@ msgid "Please select two points"
 msgstr "Válassz 2 pontot"
 
 #: ../wprover/MProveTree.java:1255
+msgid "Please select two segments"
+msgstr "Válassz két szakaszt"
+
+#: ../wprover/MProveTree.java:1255
+msgid "Please select two lines"
+msgstr "Válassz két egyenest"
+
+#: ../wprover/MProveTree.java:1255
+msgid "Please select two angles"
+msgstr "Válassz két szöget"
+
+#: ../wprover/MProveTree.java:1255
+msgid "Please select two triangles"
+msgstr "Válassz két háromszöget"
+
+#: ../wprover/MProveTree.java:1255
 msgid "Please select three non-collinear points"
 msgstr "Válassz 3 pontot, amelyek nem esnek egy egyenesre"
 
@@ -2481,7 +2497,7 @@ msgid "Adjust the speed of animation"
 msgstr "Animáció sebességének beállítása"
 
 msgid "Reset"
-msgstr ""
+msgstr "Visszaállítás"
 
 msgid "Start animation step by step"
 msgstr "Az animáció indítása lépésenként"
@@ -2491,6 +2507,27 @@ msgstr "Ugrás a bizonyítás végére"
 
 msgid "Go to the next step of the proof"
 msgstr "Ugrás a bizonyítás következő lépésére"
+
+msgid "Unfreeze All Points"
+msgstr "Minden fagyasztás kikapcsolása"
+
+msgid "Do you mean..."
+msgstr "Úgy érted..."
+
+msgid "Point {0}"
+msgstr "{0} pont"
+
+msgid "Line {0}"
+msgstr "{0} egyenes"
+
+msgid "Circle {0}"
+msgstr "{0} kör"
+
+msgid "Please draw..."
+msgstr "Rajzolj..."
+
+msgid "{0} points left"
+msgstr "{0} pont van hátra"
 
 #~ msgid "animate_start"
 #~ msgstr "animáció indítása"

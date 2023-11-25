@@ -89,9 +89,10 @@ public class CLine extends CClass {
     }
 
     public String TypeString() {
-        String st = Language.getLs(40, "line");
-        if (m_name == null) return st;
-        return st + " " + m_name;
+        if (m_name == null) return GExpert.getLanguage("Line");
+        // String st = Language.getLs(40, "line");
+        // if (m_name == null) return st;
+        return GExpert.getTranslationViaGettext("Line {0}", m_name);
     }
 
     public String getSimpleName() {
@@ -113,8 +114,9 @@ public class CLine extends CClass {
 
     public String getDescription() {
         String s = this.getSimpleName();
-        String st = Language.getLs(40, "line ");
-        return st + s;
+        // String st = Language.getLs(40, "line ");
+        return GExpert.getTranslationViaGettext("Line {0}", s);
+        // return st + s;
     }
 
     public void setExtent(int n) {

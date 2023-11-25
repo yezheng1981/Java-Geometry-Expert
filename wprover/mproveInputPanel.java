@@ -608,7 +608,7 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
             this.add(field);
             field.setAlignmentX(Component.LEFT_ALIGNMENT);
             this.add(Box.createHorizontalStrut(3));
-            this.add((label = new JLabel("Please draw...")));
+            this.add((label = new JLabel(getLanguage("Please draw..."))));
         }
 
         public void setUserObject(Object obj) {
@@ -619,10 +619,10 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
 
             if (obj != null) {
                 field.setText(obj.toString());
-                label.setText("(" + draw.getdrawCount() + ") please draw...");
+                label.setText("(" + draw.getdrawCount() + ") " + getLanguage("Please draw..."));
             } else {
                 field.setText("");
-                label.setText("Please draw...");
+                label.setText(getLanguage("Please draw..."));
             }
         }
 
@@ -636,7 +636,7 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
             }
             draw.adddrawStruct(un);
             field.setText(un.toString());
-            label.setText("(" + draw.getdrawCount() + ") please draw...");
+            label.setText("(" + draw.getdrawCount() + ") " + getLanguage("Please draw..."));
         }
 
         public Object getUserObject() {
@@ -652,7 +652,7 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
             nnode = false;
             draw = null;
             field.setText("");
-            label.setText("Please draw...");
+            label.setText(getLanguage("Please draw..."));
         }
 
     }

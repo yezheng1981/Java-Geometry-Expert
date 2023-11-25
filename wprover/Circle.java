@@ -94,30 +94,35 @@ public class Circle extends CClass {
     }
 
     public String TypeString() {
-        if (m_name == null) return Language.getLs(50, "circle ");
-        return Language.getLs(50, "circle ") + m_name;
+        // if (m_name == null) return Language.getLs(50, "circle ");
+        if (m_name == null) return GExpert.getLanguage("Circle");
+        return GExpert.getTranslationViaGettext("Circle {0}" , m_name);
+        // return Language.getLs(50, "circle ") + m_name;
     }
 
     public String getDescription() {
-        String st =  Language.getLs(50, "circle ");
+        // String st =  Language.getLs(50, "circle ");
 
         if (type == PCircle)
-            return st + "(" + o.m_name + "," + o.m_name + this.getSidePoint().getname() + ")";
+            return GExpert.getTranslationViaGettext("Circle {0}", "(" + o.m_name + "," + o.m_name + this.getSidePoint().getname() + ")");
+            // return st + "(" + o.m_name + "," + o.m_name + this.getSidePoint().getname() + ")";
         else if (type == SCircle) {
             CPoint p1, p2, p3;
             p1 = p2 = p3 = null;
-            if (points.size() < 3) return st;
+            if (points.size() < 3) return GExpert.getLanguage("Circle"); // st;
 
             p1 = (CPoint) points.get(0);
             p2 = (CPoint) points.get(1);
             p3 = (CPoint) points.get(2);
-            return st + "(" + o.getname() + "," + p1.getname() + p2.getname() + p3.getname() + ")";
+            return GExpert.getTranslationViaGettext("Circle {0}", "(" + o.getname() + "," + p1.getname() + p2.getname() + p3.getname() + ")");
+            // return st + "(" + o.getname() + "," + p1.getname() + p2.getname() + p3.getname() + ")";
         } else if (type == RCircle) {
             constraint cs = (constraint) cons.get(0);
             if (cs.GetConstraintType() == constraint.RCIRCLE) {
                 CClass p1 = (CClass) cs.getelement(0);
                 CClass p2 = (CClass) cs.getelement(1);
-                return st + "(" + o.m_name + "," + p1.getname() + p2.getname() + ")";
+                return GExpert.getTranslationViaGettext("Circle {0}","(" + o.m_name + "," + p1.getname() + p2.getname() + ")");
+                        // return st + "(" + o.m_name + "," + p1.getname() + p2.getname() + ")";
             }
         }
         return this.TypeString();

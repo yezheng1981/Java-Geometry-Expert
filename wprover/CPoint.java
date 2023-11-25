@@ -232,9 +232,10 @@ public class CPoint extends CClass {
         String s1 = Language.getLs(33, "Point");
 
         if (m_name == null) {
-            return s1;
+            return GExpert.getLanguage("Point");
         }
-        return s1 + " " + m_name;
+
+        return GExpert.getTranslationViaGettext("Point {0}", m_name);
     }
 
     public String getDescription() {

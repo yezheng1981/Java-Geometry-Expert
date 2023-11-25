@@ -27,7 +27,7 @@ public class AttrToCondDialog extends JBaseDialog {
 
 
     public AttrToCondDialog(GExpert gx, String s) {
-        super(gx.getFrame(), s, true);
+        super(gx.getFrame(), GExpert.getLanguage(s), true);
         if (CMisc.isApplication())
             this.setAlwaysOnTop(true);
 //        if (gx != null)
@@ -73,7 +73,7 @@ public class AttrToCondDialog extends JBaseDialog {
     }
 
     public AttrToCondDialog(GExpert gx, angst st) {
-        this(gx, "please select two angles");
+        this(gx, "Please select two angles");
 
         topPane = new JScrollPane(new AnglePane(st)) {
             //, JScrollPane.j, JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS) {
@@ -88,7 +88,7 @@ public class AttrToCondDialog extends JBaseDialog {
     }
 
     public AttrToCondDialog(GExpert gx, s_tris st) {
-        this(gx, "please select two triangles");
+        this(gx, "Please select two triangles");
 
         topPane = new JScrollPane(new StriPane(st)) {//, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS) {
 
@@ -102,7 +102,7 @@ public class AttrToCondDialog extends JBaseDialog {
     }
 
     public AttrToCondDialog(GExpert gx, c_segs cg) {
-        this(gx, "please select two segments");
+        this(gx, "Please select two segments");
 
         topPane = new JScrollPane(new CongPane(cg)) {//, JScrollPane.VERTICAL_SCROLLBAR_ALWAYS, JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS) {
 
@@ -116,7 +116,7 @@ public class AttrToCondDialog extends JBaseDialog {
     }
 
     public AttrToCondDialog(GExpert gx, p_line pn) {
-        this(gx, "please select two two lines");
+        this(gx, "Please select two lines");
 
         topPane = new JScrollPane(new PnPane(pn)) {
             public Dimension getPreferredSize() {
@@ -142,9 +142,9 @@ public class AttrToCondDialog extends JBaseDialog {
 
         public ButtonPane() {
             this.add(Box.createHorizontalGlue());
-            bok = new JButton("OK");
+            bok = new JButton(GExpert.getLanguage("OK"));
             bok.setEnabled(false);
-            bcancel = new JButton("Cancel");
+            bcancel = new JButton(GExpert.getLanguage("Cancel"));
             bok.addActionListener(this);
             bcancel.addActionListener(this);
             this.add(bok);

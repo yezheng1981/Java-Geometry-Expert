@@ -319,9 +319,9 @@ public class concPanel extends JPanel implements ActionListener, ItemListener {
         if (n == 0) {
         } else {
             if (n > 0)
-                asspane.setText("(" + n + " points left)");
+                asspane.setText("(" + GExpert.getTranslationViaGettext("{0} points left", n + "") + ")");
             else
-                asspane.setText("please select");
+                asspane.setText(GExpert.getLanguage("Please select"));
             asspane.repaint();
         }
     }

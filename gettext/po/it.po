@@ -1117,7 +1117,8 @@ msgid "Time:"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:930
-msgid "Second(s)"
+#, fuzzy
+msgid "second(s)"
 msgstr "Secondi"
 
 #: ../wprover/PanelProve1.java:993
@@ -2152,6 +2153,26 @@ msgid "Please select two points"
 msgstr ""
 
 #: ../wprover/MProveTree.java:1255
+#, fuzzy
+msgid "Please select two segments"
+msgstr "Scegli"
+
+#: ../wprover/MProveTree.java:1255
+#, fuzzy
+msgid "Please select two lines"
+msgstr "Scegli"
+
+#: ../wprover/MProveTree.java:1255
+#, fuzzy
+msgid "Please select two angles"
+msgstr "Scegli"
+
+#: ../wprover/MProveTree.java:1255
+#, fuzzy
+msgid "Please select two triangles"
+msgstr "Inserisci due numeri interi"
+
+#: ../wprover/MProveTree.java:1255
 msgid "Please select three non-collinear points"
 msgstr ""
 
@@ -2531,6 +2552,31 @@ msgid "Go to the end of the proof"
 msgstr ""
 
 msgid "Go to the next step of the proof"
+msgstr ""
+
+#, fuzzy
+msgid "Unfreeze All Points"
+msgstr "Punto libero"
+
+msgid "Do you mean..."
+msgstr ""
+
+#, fuzzy
+msgid "Point {0}"
+msgstr "Punto"
+
+#, fuzzy
+msgid "Line {0}"
+msgstr "Retta"
+
+#, fuzzy
+msgid "Circle {0}"
+msgstr "Cerchio"
+
+msgid "Please draw..."
+msgstr ""
+
+msgid "{0} points left"
 msgstr ""
 
 #~ msgid "animate_start"
