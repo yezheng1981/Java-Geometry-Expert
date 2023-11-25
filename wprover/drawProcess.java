@@ -3560,9 +3560,11 @@ drawProcess extends drawbase implements Printable, ActionListener {
                         if (pu == null) {
                             this.addPointToList(pp);
                             this.addConstraintToList(cs);
-                            this.UndoAdded(pp.TypeString() + " is reflection of " +
-                                    p1.TypeString() + " wrt " +
-                                    p2.TypeString());
+                            // this.UndoAdded(pp.TypeString() + " is reflection of " +
+                            //        p1.TypeString() + " wrt " +
+                            //        p2.TypeString());
+                            this.UndoAdded(GExpert.getTranslationViaGettext("{0} is the reflection of {1} wrt {2}", pp.TypeString(),
+                                    p1.TypeString(),p2.TypeString()));
 
                         } else {
                             pp = pu;
@@ -3578,9 +3580,11 @@ drawProcess extends drawbase implements Printable, ActionListener {
                         if (pu == null) {
                             this.addPointToList(pp);
                             this.addConstraintToList(cs);
-                            this.UndoAdded(pp.TypeString() + " is reflection of " +
-                                    p1.TypeString() + " wrt " +
-                                    line.getDiscription());
+                            // this.UndoAdded(pp.TypeString() + " is reflection of " +
+                            //        p1.TypeString() + " wrt " +
+                            //        line.getDiscription());
+                            this.UndoAdded(GExpert.getTranslationViaGettext("{0} is the reflection of {1} wrt {2}", pp.TypeString(),
+                                    p1.TypeString(), line.getDiscription()));
 
                         } else {
                             pp = pu;
@@ -3637,10 +3641,14 @@ drawProcess extends drawbase implements Printable, ActionListener {
                                 constraint cs = new constraint(constraint.LINE, vp);
                                 this.addConstraintToList(cs);
                                 this.addLineToList(line2);
-                                this.UndoAdded(line2.TypeString() +
-                                        " is reflection of " +
-                                        line.getDiscription() + " wrt " +
-                                        p1.TypeString());
+                                // this.UndoAdded(line2.TypeString() +
+                                //        " is reflection of " +
+                                //        line.getDiscription() + " wrt " +
+                                //        p1.TypeString());
+                                this.UndoAdded(GExpert.getTranslationViaGettext("{0} is the reflection of {1} wrt {2}", line2.TypeString(),
+                                        line.getDiscription(),p1.TypeString()));
+
+
                             }
 
                         } else {
@@ -3664,10 +3672,13 @@ drawProcess extends drawbase implements Printable, ActionListener {
                                 constraint cs = new constraint(constraint.LINE, vp);
                                 this.addConstraintToList(cs);
                                 this.addLineToList(line2);
-                                this.UndoAdded(line2.getDiscription() +
-                                        " is reflection of " +
-                                        line.getDiscription() + " wrt " +
-                                        p1.TypeString());
+                                // this.UndoAdded(line2.getDiscription() +
+                                //        " is reflection of " +
+                                //        line.getDiscription() + " wrt " +
+                                //        p1.TypeString());
+                                this.UndoAdded(GExpert.getTranslationViaGettext("{0} is the reflection of {1} wrt {2}", line2.getDiscription(),
+                                        line.getDescription(),p1.TypeString()));
+
 
                             } else
                                 this.UndoAdded("reflection");
@@ -3711,10 +3722,13 @@ drawProcess extends drawbase implements Printable, ActionListener {
                         if (exist_point_number < line.points.size()) {
                             this.addLineToList(line3);
 
-                            this.UndoAdded(line3.getDiscription() +
-                                    " is reflection of " +
-                                    line.getDiscription() + " wrt " +
-                                    line2.getDiscription());
+                            // this.UndoAdded(line3.getDiscription() +
+                            //        " is reflection of " +
+                            //        line.getDiscription() + " wrt " +
+                            //        line2.getDiscription());
+                            this.UndoAdded(GExpert.getTranslationViaGettext("{0} is the reflection of {1} wrt {2}", line3.getDiscription(),
+                                    line.getDiscription(), line2.getDiscription()));
+
 
                         } else {
                             boolean exists = false;
@@ -3727,10 +3741,13 @@ drawProcess extends drawbase implements Printable, ActionListener {
                             }
                             if (exists == false) {
                                 this.addLineToList(line3);
-                                this.UndoAdded(line3.getDiscription() +
-                                        " is reflection of " +
-                                        line.getDiscription() + " wrt " +
-                                        line2.getDiscription());
+                                // this.UndoAdded(line3.getDiscription() +
+                                //        " is reflection of " +
+                                //        line.getDiscription() + " wrt " +
+                                //        line2.getDiscription());
+                                this.UndoAdded(GExpert.getTranslationViaGettext("{0} is the reflection of {1} wrt {2}", line3.getDiscription(),
+                                        line.getDiscription(),line2.getDiscription()));
+
                             }
                         }
 
@@ -3781,9 +3798,12 @@ drawProcess extends drawbase implements Printable, ActionListener {
 
                         if (exist_point_number < c1.points.size() + 1) {
                             this.addCircleToList(c);
-                            this.UndoAdded(c.getDescription() +
-                                    " is reflection of " + c1.getDescription() +
-                                    " wrt " + p1.TypeString());
+                            // this.UndoAdded(c.getDescription() +
+                            //         " is reflection of " + c1.getDescription() +
+                            //         " wrt " + p1.TypeString());
+                            this.UndoAdded(GExpert.getTranslationViaGettext("{0} is the reflection of {1} wrt {2}", c.getDescription(),
+                                    c1.getDescription(),p1.TypeString()));
+
                         }
 
                     } else if (obj1 instanceof Circle && obj2 instanceof CLine) {
@@ -3832,9 +3852,12 @@ drawProcess extends drawbase implements Printable, ActionListener {
                         addConstraintToList(cs);
                         if (exist_point_number < c1.points.size() + 1) {
                             this.addCircleToList(c);
-                            this.UndoAdded(c.getDescription() +
-                                    " is reflection of " + c1.getDescription() +
-                                    " wrt " + line.getDescription());
+                            // this.UndoAdded(c.getDescription() +
+                            //         " is reflection of " + c1.getDescription() +
+                            //         " wrt " + line.getDescription());
+                            this.UndoAdded(GExpert.getTranslationViaGettext("{0} is the reflection of {1} wrt {2}", c.getDescription(),
+                                    c1.getDescription(), line.getDescription()));
+
                         }
                     } else {
                         CMisc.print("can not mirror by a circle");

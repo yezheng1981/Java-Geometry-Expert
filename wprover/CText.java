@@ -420,14 +420,14 @@ public class CText extends CClass {
 
         if (type == NORMAL_TEXT) {
             String st = Language.getLs(355, "text");
-            return st + "(\"" + str.substring(0, n) + "..\")";
+            return st + "(\"" + str.substring(0, n) + "...\")";
         } else if (type == NAME_TEXT || type == CNAME_TEXT) {
             String st = Language.getLs(245, "name");
-            return st + "(\"" + str.substring(0, n) + "..\")";
+            return st + "(\"" + str.substring(0, n) + "...\")";
         } else if (type == VALUE_TEXT) {
             if (m_name == null) {
                 String st = Language.getLs(355, "text");
-                return st + "(\"" + str.substring(0, n) + "..\")";
+                return st + "(\"" + str.substring(0, n) + "...\")";
             } else
                 return m_name;
         }

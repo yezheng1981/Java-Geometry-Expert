@@ -35,8 +35,8 @@ public class RightClickPopMenu extends JPopupMenu implements ActionListener {
 
         addSpecificMenu(c);
         this.addSeparator();
-        item = addAMenuItem(getLanguage(309, "Property"), c != null);
-        item.setActionCommand("Property");
+        item = addAMenuItem(getLanguage(309, "Properties"), c != null);
+        item.setActionCommand("Properties");
     }
 
     public String getLanguage(int n, String s) {
@@ -103,7 +103,7 @@ public class RightClickPopMenu extends JPopupMenu implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         String command = e.getActionCommand();
-        if (command.equals("Property"))
+        if (command.equals("Properties"))
             gxInstance.dp.viewElement(cc);
         else if (command.equals("Edit Text")) {
             CText t = (CText) cc;

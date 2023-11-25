@@ -315,7 +315,8 @@ msgid "Girth"
 msgstr "周长"
 
 #: ../wprover/GExpert.java:353 ../wprover/RightClickPopMenu.java:38
-msgid "Property"
+#, fuzzy
+msgid "Properties"
 msgstr "属性"
 
 #: ../wprover/GExpert.java:744
@@ -2586,6 +2587,29 @@ msgid "passing {0}"
 msgstr "直线"
 
 msgid "with foot {0}"
+msgstr ""
+
+#, fuzzy
+msgid "Triangle {0}"
+msgstr "三角形"
+
+#, fuzzy
+msgid "Quadrangle {0}"
+msgstr "四边形"
+
+#, fuzzy
+msgid "Pentagon {0}"
+msgstr "五边形"
+
+#, fuzzy
+msgid "Hexagon {0}"
+msgstr "六边形"
+
+#, fuzzy
+msgid "Polygon {0}"
+msgstr "多边形"
+
+msgid "{0} is the reflection of {1} wrt {2}"
 msgstr ""
 
 #~ msgid "animate_start"

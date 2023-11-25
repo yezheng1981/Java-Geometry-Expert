@@ -15,7 +15,7 @@ public class DialogProperty extends JBaseDialog
       public DialogProperty(GExpert owner,JPanel panel)
       {
           super(owner.getFrame(),false);
-          this.setTitle("Property");
+          this.setTitle(GExpert.getLanguage("Properties"));
           this.setSize(370,310);
           getContentPane().add(panel);
           this.setBackground(Color.white);

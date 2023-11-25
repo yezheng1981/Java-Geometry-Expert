@@ -283,6 +283,7 @@ public class CPolygon extends CClass {
         return vlist;
     }
 
+    @Deprecated
     public String getPolygonTypeString() {
         String ds;
 
@@ -305,8 +306,35 @@ public class CPolygon extends CClass {
 
     }
 
+    public String getPolygonTypeString(String s) {
+        String ds;
+
+        int size = pointlist.size() - 1;
+        if (ftype == 0) {
+            if (size == 3)
+                ds = GExpert.getTranslationViaGettext("Triangle {0}", s);
+            else if (size == 4)
+                ds = GExpert.getTranslationViaGettext("Quadrangle {0}", s);
+            else if (size == 5)
+                ds = GExpert.getTranslationViaGettext("Pentagon {0}", s);
+            else if (size == 6)
+                ds = GExpert.getTranslationViaGettext("Hexagon {0}", s);
+            else
+                ds = GExpert.getTranslationViaGettext("Polygon {0}", s);
+            return ds;
+        } else {
+            return GExpert.getTranslationViaGettext("Circle {0}", s);
+        }
+
+    }
+
+    @Deprecated
     public String TypeString() {
         return getPolygonTypeString();
+    }
+
+    public String TypeString(String s) {
+        return getPolygonTypeString(s);
     }
 
     public boolean containPnt(CPoint p) {
@@ -517,8 +545,8 @@ public class CPolygon extends CClass {
             s += cc.m_name;
         }
         if (ftype == 0)
-            return TypeString() + s;
-        else return TypeString() + "(" + s + ")";
+            return TypeString(s);
+        else return TypeString("(" + s + ")");
     }
 
 

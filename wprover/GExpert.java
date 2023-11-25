@@ -375,7 +375,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
             propt = new DialogProperty(this, cp);
             propt.getContentPane().add(cp);
             propt.setVisible(false);
-            propt.setTitle(getLanguage("Property"));
+            propt.setTitle(getLanguage("Properties"));
             centerDialog(propt);
         }
         return propt;
@@ -1159,6 +1159,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         return s2;
     }
 
+    @Deprecated
     public static String getLanguage(int n) {
 
         System.err.println("Missing translation for (" + n + ")");
@@ -1183,12 +1184,16 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                 gettextTranslation = i18n.tr(s, p[0]);
             if (p.length == 2)
                 gettextTranslation = i18n.tr(s, p[0], p[1]);
+            if (p.length == 3)
+                gettextTranslation = i18n.tr(s, p[0], p[1], p[2]);
         }
         if (gettextTranslation != null && !gettextTranslation.equals(""))
             return gettextTranslation;
-        return null;
+        System.err.println("Missing translation: " + s + ", " + p);
+        return "";
     }
 
+    @Deprecated
     public static String getLanguage(int n, String s) {
 
         s = getTranslationViaGettext(s);

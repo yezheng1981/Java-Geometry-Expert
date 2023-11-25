@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
 "POT-Creation-Date: 2023-11-15 23:44+0100\n"
-"PO-Revision-Date: 2023-11-25 18:26+0100\n"
+"PO-Revision-Date: 2023-11-25 23:09+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -311,8 +311,8 @@ msgid "Girth"
 msgstr "Átmérő"
 
 #: ../wprover/GExpert.java:353 ../wprover/RightClickPopMenu.java:38
-msgid "Property"
-msgstr "Tulajdonság"
+msgid "Properties"
+msgstr "Tulajdonságok"
 
 #: ../wprover/GExpert.java:744
 msgid "File"
@@ -2540,6 +2540,24 @@ msgstr "{0}-n keresztül"
 
 msgid "with foot {0}"
 msgstr "{0} talpponttal"
+
+msgid "Triangle {0}"
+msgstr "{0} háromszög"
+
+msgid "Quadrangle {0}"
+msgstr "{0} négyszög"
+
+msgid "Pentagon {0}"
+msgstr "{0} ötszög"
+
+msgid "Hexagon {0}"
+msgstr "{0} hatszög"
+
+msgid "Polygon {0}"
+msgstr "{0} sokszög"
+
+msgid "{0} is the reflection of {1} wrt {2}"
+msgstr "{0} a(z) {1} tükörképe {2}-re vonatkozólag"
 
 #~ msgid "animate_start"
 #~ msgstr "animáció indítása"
