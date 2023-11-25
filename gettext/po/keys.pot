@@ -2508,3 +2508,14 @@ msgstr ""
 msgid "{0} points left"
 msgstr ""
 
+msgid "midpoint of {0}"
+msgstr ""
+
+msgid "parallel to {0} passing {1}"
+msgstr ""
+
+msgid "passing {0}"
+msgstr ""
+
+msgid "with foot {0}"
+msgstr ""

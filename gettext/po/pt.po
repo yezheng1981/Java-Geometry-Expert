@@ -2577,6 +2577,20 @@ msgstr ""
 msgid "{0} points left"
 msgstr ""
 
+#, fuzzy
+msgid "midpoint of {0}"
+msgstr "pontos médios"
+
+msgid "parallel to {0} passing {1}"
+msgstr ""
+
+#, fuzzy
+msgid "passing {0}"
+msgstr "Segmento"
+
+msgid "with foot {0}"
+msgstr ""
+
 #~ msgid "animate_start"
 #~ msgstr "iniciar animação"
 

@@ -2549,6 +2549,20 @@ msgstr ""
 msgid "{0} points left"
 msgstr ""
 
+#, fuzzy
+msgid "midpoint of {0}"
+msgstr "نقاط میانی"
+
+msgid "parallel to {0} passing {1}"
+msgstr ""
+
+#, fuzzy
+msgid "passing {0}"
+msgstr "خط"
+
+msgid "with foot {0}"
+msgstr ""
+
 #~ msgid "FF"
 #~ msgstr "بعدی"
 

@@ -1174,12 +1174,15 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         return getTranslationViaGettext(s, null);
     }
 
-    public static String getTranslationViaGettext(String s, String p) {
-        String gettextTranslation;
+    public static String getTranslationViaGettext(String s, String... p) {
+        String gettextTranslation = null;
         if (p == null) {
             gettextTranslation = i18n.tr(s);}
         else {
-            gettextTranslation = i18n.tr(s, p);
+            if (p.length == 1)
+                gettextTranslation = i18n.tr(s, p[0]);
+            if (p.length == 2)
+                gettextTranslation = i18n.tr(s, p[0], p[1]);
         }
         if (gettextTranslation != null && !gettextTranslation.equals(""))
             return gettextTranslation;

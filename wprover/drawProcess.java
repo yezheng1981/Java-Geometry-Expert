@@ -2976,9 +2976,11 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     line1.addconstraint(cs);
                     clearSelection();
                     this.addLineToList(line1);
-                    UndoStruct u = this.UndoAdded(line1.TypeString() + " parallel " +
-                            line.getDiscription() + " passing " +
-                            pt.getname());
+                    // UndoStruct u = this.UndoAdded(line1.TypeString() + " parallel " +
+                    //         line.getDiscription() + " passing " +
+                    //         pt.getname());
+                    UndoStruct u = this.UndoAdded(line1.TypeString() + " " + GExpert.getTranslationViaGettext("parallel to {0} passing {1}",
+                            line.getDiscription(), pt.getname()));
                     u.adddOjbect(line1);
                     u.adddOjbect(line);
                     u.adddOjbect(pt);
@@ -3014,9 +3016,11 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     addCTMark(line, line1);
                     // this.otherlist.add(m);
                     UndoStruct u = this.UndoAdded(line1.TypeString() + " perp " +
-                            line.getDiscription() + " passing " +
-                            pt.getname());
-                    u.adddOjbect(line1);
+                            // line.getDiscription() + " passing " +
+                            // pt.getname());
+                            line.getDescription() + " " +
+                            GExpert.getTranslationViaGettext("passing {0}", pt.getname()));
+                            u.adddOjbect(line1);
                     u.adddOjbect(line);
                     u.adddOjbect(pt);
                     STATUS = 0;
@@ -3859,7 +3863,8 @@ drawProcess extends drawbase implements Printable, ActionListener {
                                 this.addConstraintToList(cs2);
 
                             }
-                            this.UndoAdded(po.getname() + ": the midpoint of " + tp1.m_name + tp.m_name);
+                            // this.UndoAdded(po.getname() + ": the midpoint YYY of " + tp1.m_name + tp.m_name);
+                            this.UndoAdded(po.getname() + ": " + GExpert.getTranslationViaGettext("midpoint of {0}", tp1.m_name + tp.m_name));
 
                         } else {
                             po = pu;
@@ -6021,7 +6026,9 @@ drawProcess extends drawbase implements Printable, ActionListener {
                 // this.addObjectToList(m, otherlist);
                 line1.addconstraint(cs);
                 this.UndoAdded(line1.getSimpleName() + " perp " +
-                        line.getSimpleName() + " with foot " + p.m_name);
+                        line.getSimpleName() +
+                        // " with foot " + p.m_name);
+                        " " + GExpert.getTranslationViaGettext("with foot {0}", p.m_name));
 
             } else {
                 p = pu;
@@ -6041,7 +6048,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                 this.addConstraintToList(cs);
                 line1.addconstraint(cs);
                 this.UndoAdded(line1.getSimpleName() + " perp " +
-                        line.getSimpleName() + " with foot " + p.m_name);
+                        line.getSimpleName() + " with footy " + p.m_name);
             }
         }
 

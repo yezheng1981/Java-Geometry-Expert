@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
 "POT-Creation-Date: 2023-11-15 23:44+0100\n"
-"PO-Revision-Date: 2023-11-25 17:12+0100\n"
+"PO-Revision-Date: 2023-11-25 18:26+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: hu\n"
@@ -2528,6 +2528,18 @@ msgstr "Rajzolj..."
 
 msgid "{0} points left"
 msgstr "{0} pont van hátra"
+
+msgid "midpoint of {0}"
+msgstr "{0} felezőpontja"
+
+msgid "parallel to {0} passing {1}"
+msgstr "párhuzamos {0}-val {1}-n keresztül"
+
+msgid "passing {0}"
+msgstr "{0}-n keresztül"
+
+msgid "with foot {0}"
+msgstr "{0} talpponttal"
 
 #~ msgid "animate_start"
 #~ msgstr "animáció indítása"
