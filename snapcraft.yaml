@@ -34,7 +34,7 @@ parts:
   jgex:
     build-packages: [gettext, openjdk-11-jdk]
     source: https://github.com/kovzol/Java-Geometry-Expert.git
-    plugin: dump
+    plugin: gradle
     source-type: git
     override-build: |
       ./gradlew installDist
