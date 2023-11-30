@@ -1,15 +1,15 @@
 /*
- * This is how you should build JGEX:
- *
- * ./gradlew distZip      # build and package the software as a .zip via the application plugin
- * ./gradlew package      # build and package the software via the javapackager plugin
- *
- * Prerequisites: You need the msgfmt utility (in your PATH) to have internationalized texts.
- *
- * To run JGEX without the help and examples, just use
+ * To run JGEX, just use
  *
  * ./gradlew run
  *
+ * This is how you should create installer packages for JGEX:
+ *
+ * ./gradlew package      # build and package the software via the javapackager plugin
+ * ./gradlew distZip      # build and package the software as a .zip via the application plugin
+ *
+ * Prerequisites: You need the msgfmt utility (in your PATH) to have internationalized texts.
+ * (It is part of the gettext system.)
  */
 
 
@@ -68,7 +68,7 @@ tasks.addRule("Pattern: msgFmt_<FILE>Po: Compile <FILE>.po into <FILE>.class.") 
     }
 }
 
-task msgFmtAll {
+tasks.register("msgFmtAll") {
     description "Creates the .class files from the .po translations."
     group "build"
     def list = []
@@ -117,18 +117,16 @@ dependencies {
             'org.apache.xmlgraphics:xmlgraphics-commons:2.9',
             'com.googlecode.gettext-commons:gettext-commons:0.9.8',
             'org.graphper:graph-support:1.1.5',
-            'ch.qos.logback:logback-core:1.0.0',
+            'ch.qos.logback:logback-core:1.2.9',
             'org.slf4j:slf4j-simple:2.0.7',
             'xml-apis:xml-apis:1.4.01',
             'xml-apis:xml-apis-ext:1.3.04'
 }
 
-// It seems, both settings are required, one for running inside IntelliJ IDEA...
 application {
     mainClass = applicationMainClass
 }
 
-// ...and one for the packaging:
 jar {
     manifest {
         attributes(
@@ -138,9 +136,10 @@ jar {
     mustRunAfter "msgFmtAll"
 }
 
-// FIXME: When running directly, help and examples are not available.
 run {
     mustRunAfter "msgFmtAll"
+    File runningDir = new File('src/docs')
+    workingDir = runningDir
 }
 
 javapackager {
@@ -156,7 +155,7 @@ javapackager {
 
     winConfig.generateMsi = false
     winConfig.setupLanguages.english = "compiler:Default.isl"
-    winConfig.setupLanguages.spanish = "compiler:Languages\\Spanish.isl"
+    // winConfig.setupLanguages.spanish = "compiler:Languages\\Spanish.isl" // TODO: Create the Spanish translation.
     winConfig.setupLanguages.german = "compiler:Languages\\German.isl"
     winConfig.setupLanguages.italian = "compiler:Languages\\Italian.isl"
     winConfig.setupLanguages.portuguese = "compiler:Languages\\Portuguese.isl"
