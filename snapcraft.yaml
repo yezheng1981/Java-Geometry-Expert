@@ -37,6 +37,7 @@ parts:
     plugin: gradle
     source-type: git
     override-build: |
+      snapcraftctl build
       ./gradlew installDist
       mkdir -p $SNAPCRAFT_PART_INSTALL/usr/share/jgex
       cp -a build/install/jgex/lib/*.jar $SNAPCRAFT_PART_INSTALL/usr/share/jgex
