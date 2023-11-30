@@ -1,4 +1,4 @@
-<h1><a class="pagetitle" title="refresh" accesskey="2" href="http:http://www.cs.wichita.edu/~ye/">What Is JGEX?</a></h1>
+<h1><a class="pagetitle" title="refresh" accesskey="2" href="http://www.cs.wichita.edu/~ye/">What Is JGEX?</a></h1>
 
 <div class="wikitopline"></div>
 

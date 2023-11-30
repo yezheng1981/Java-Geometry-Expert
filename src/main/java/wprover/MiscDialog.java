@@ -104,12 +104,12 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
             onSetting = false;
         } else if (command.equals("Save Preferences")) {
 
-            String s1 = GExpert.getUserDir();
+            String s1 = GExpert.getUserHome();
             String s2 = GExpert.getFileSeparator();
 
             try {
                 OutputStreamWriter writer = new OutputStreamWriter(
-                        new FileOutputStream(new File(s1 + s2 + "Property.x")), "UTF-8");
+                        new FileOutputStream(new File(s1 + s2 + "jgex.cfg")), "UTF-8");
 
                 CMisc.SaveProperty(writer);
             } catch (IOException ee) {

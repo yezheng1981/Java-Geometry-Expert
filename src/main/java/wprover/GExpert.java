@@ -177,9 +177,9 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         if (CMisc.isApplet())
             return;
 
-        String u = getUserDir();
+        String u = getUserHome();
         try {
-            InputStreamReader read = new InputStreamReader(new FileInputStream(u + "/Property.x"), "UTF-8");//
+            InputStreamReader read = new InputStreamReader(new FileInputStream(u + "/jgex.cfg"), "UTF-8");//
             BufferedReader reader = new BufferedReader(read);
             CMisc.LoadProperty(reader);
         } catch (IOException ee) {
@@ -458,6 +458,10 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
     public static String getUserDir() {
         return System.getProperty("user.dir");
+    }
+
+    public static String getUserHome() {
+        return System.getProperty("user.home");
     }
 
     public static String getFileSeparator() {
