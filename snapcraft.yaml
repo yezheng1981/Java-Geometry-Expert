@@ -42,8 +42,8 @@ parts:
       mkdir -p $SNAPCRAFT_PART_INSTALL/usr/share/jgex
       cp -a build/install/jgex/lib/*.jar $SNAPCRAFT_PART_INSTALL/usr/share/jgex
       mkdir -p $SNAPCRAFT_PART_INSTALL/root
-      cp -a build/install/bin/examples $SNAPCRAFT_PART_INSTALL/root
-      cp -a build/install/bin/help $SNAPCRAFT_PART_INSTALL/root
+      cp -a build/install/jgex/bin/examples $SNAPCRAFT_PART_INSTALL/root
+      cp -a build/install/jgex/bin/help $SNAPCRAFT_PART_INSTALL/root
       echo "#!/bin/bash" > $SNAPCRAFT_PART_INSTALL/bin/jgex
       echo "JGEX_WD=~/.jgex # working directory" >> $SNAPCRAFT_PART_INSTALL/bin/jgex
       echo "test -d \$JGEX_WD || (mkdir -p \$JGEX_WD; cd \$SNAP/root; cp -a * \$JGEX_WD)" >> $SNAPCRAFT_PART_INSTALL/bin/jgex
