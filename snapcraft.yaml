@@ -34,25 +34,20 @@ parts:
   jgex:
     build-packages: [gettext]
     source: https://github.com/kovzol/Java-Geometry-Expert.git
-    plugin: ant
-    ant-build-targets: [init, build, copy-resources]
+    plugin: dump
     source-type: git
     override-build: |
-      snapcraftctl build
-      # rm ...
+      ./gradlew installDist
       mkdir -p $SNAPCRAFT_PART_INSTALL/usr/share/jgex
-      cp -a output/jgex.jar $SNAPCRAFT_PART_INSTALL/usr/share/jgex
+      cp -a build/install/jgex/lib/*.jar $SNAPCRAFT_PART_INSTALL/usr/share/jgex
       mkdir -p $SNAPCRAFT_PART_INSTALL/root
-      cp -a output/examples $SNAPCRAFT_PART_INSTALL/root
-      cp -a output/help $SNAPCRAFT_PART_INSTALL/root
-      cp -a output/language $SNAPCRAFT_PART_INSTALL/root
-      cp -a output/rules $SNAPCRAFT_PART_INSTALL/root
-      cp -a output/lib $SNAPCRAFT_PART_INSTALL/root
+      cp -a build/install/bin/examples $SNAPCRAFT_PART_INSTALL/root
+      cp -a build/install/bin/help $SNAPCRAFT_PART_INSTALL/root
       echo "#!/bin/bash" > $SNAPCRAFT_PART_INSTALL/bin/jgex
       echo "JGEX_WD=~/.jgex # working directory" >> $SNAPCRAFT_PART_INSTALL/bin/jgex
       echo "test -d \$JGEX_WD || (mkdir -p \$JGEX_WD; cd \$SNAP/root; cp -a * \$JGEX_WD)" >> $SNAPCRAFT_PART_INSTALL/bin/jgex
       echo "cd \$JGEX_WD" >> $SNAPCRAFT_PART_INSTALL/bin/jgex
-      echo "java -cp \$SNAP/usr/share/jgex/jgex.jar:\$SNAP/root/lib/* wprover.GExpert" >> $SNAPCRAFT_PART_INSTALL/bin/jgex
+      echo "java -cp \$SNAP/usr/share/jgex/*.jar wprover.GExpert" >> $SNAPCRAFT_PART_INSTALL/bin/jgex
       chmod 755 $SNAPCRAFT_PART_INSTALL/bin/jgex
 
     stage-packages:
