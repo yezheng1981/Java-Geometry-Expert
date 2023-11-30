@@ -7850,7 +7850,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                 this.addLineToList(lp);
             }
             this.charsetAndAddPoly(false);
-            this.UndoAdded("isoceles triangle " + p1.m_name + p2.m_name + pt.m_name);
+            this.UndoAdded(GExpert.getLanguage("Isosceles") + " triangle " + p1.m_name + p2.m_name + pt.m_name);
         }
 
         return true;

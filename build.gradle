@@ -44,7 +44,6 @@ ext.classesDir = 'build/classes/java/main'
 ext.applicationMainClass = 'wprover.GExpert'
 version = softwareVersion
 
-
 tasks.addRule("Pattern: msgFmt_<FILE>Po: Compile <FILE>.po into <FILE>.class.") { String taskName ->
     if (taskName.startsWith('msgFmt_') && taskName.endsWith('Po')) {
         def language = (taskName - 'Po').substring('msgFmt_'.length())
@@ -82,6 +81,44 @@ tasks.register("msgFmtAll") {
     dependsOn list
 }
 tasks.named("classes") { finalizedBy("msgFmtAll") }
+
+tasks.addRule("Pattern: msgMerge_<FILE>Po: Merge the file keys.pot into <FILE>.po.") { String taskName ->
+    if (taskName.startsWith('msgMerge_') && taskName.endsWith('Po')) {
+        def language = (taskName - 'Po').substring('msgMerge_'.length())
+        task(taskName) {
+            def input = "${poDir}/keys.pot"
+            inputs.file input
+            def output = "${poDir}/${language}.po"
+            outputs.file output
+            doLast {
+                def msgFmtCmd = "msgmerge -U ${output} ${input}"
+                exec {
+                    ignoreExitValue true
+                    if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+                        commandLine 'cmd', '/c', msgFmtCmd
+                    } else {
+                        commandLine 'bash', '-c', msgFmtCmd
+                    }
+                }
+            }
+        }
+    }
+}
+
+tasks.register("msgMergeAll") {
+    description "Updates the .po files from the .pot template."
+    group "translation"
+    def list = []
+    FileTree files = fileTree(dir: poDir)
+    files.visit { f ->
+        if (f.name.endsWith('.po')) {
+            def msgMergeAllTask = 'msgMerge_' + f.name - '.po' + 'Po'
+            list << msgMergeAllTask
+        }
+    }
+    dependsOn list
+}
+
 
 distributions {
     main {

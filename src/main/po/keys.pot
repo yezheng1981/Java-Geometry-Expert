@@ -2537,3 +2537,6 @@ msgstr ""
 
 msgid "{0} is the reflection of {1} wrt {2}"
 msgstr ""
+
+msgid "Isosceles"
+msgstr ""

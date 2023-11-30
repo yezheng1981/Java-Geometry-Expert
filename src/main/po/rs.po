@@ -2618,6 +2618,10 @@ msgstr "Mnogougao"
 msgid "{0} is the reflection of {1} wrt {2}"
 msgstr ""
 
+#, fuzzy
+msgid "Isosceles"
+msgstr "Jednakokraki trougao"
+
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"
 

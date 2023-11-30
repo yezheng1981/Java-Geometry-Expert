@@ -2559,6 +2559,9 @@ msgstr "{0} sokszög"
 msgid "{0} is the reflection of {1} wrt {2}"
 msgstr "{0} a(z) {1} tükörképe {2}-re vonatkozólag"
 
+msgid "Isosceles"
+msgstr "Egyenlő szárú"
+
 #~ msgid "animate_start"
 #~ msgstr "animáció indítása"
 

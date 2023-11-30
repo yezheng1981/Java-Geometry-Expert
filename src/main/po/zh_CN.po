@@ -2612,6 +2612,10 @@ msgstr "多边形"
 msgid "{0} is the reflection of {1} wrt {2}"
 msgstr ""
 
+#, fuzzy
+msgid "Isosceles"
+msgstr "等腰三角形"
+
 #~ msgid "animate_start"
 #~ msgstr "播放动画"
 

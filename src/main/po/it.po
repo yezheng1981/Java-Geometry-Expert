@@ -2617,6 +2617,10 @@ msgstr "Poligono"
 msgid "{0} is the reflection of {1} wrt {2}"
 msgstr ""
 
+#, fuzzy
+msgid "Isosceles"
+msgstr "Triangolo isoscele"
+
 #~ msgid "animate_start"
 #~ msgstr "avvia animazione"
 
