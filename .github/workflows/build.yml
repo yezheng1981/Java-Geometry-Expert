@@ -10,6 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: prerequisites
-      run: sudo apt install gettext openjdk-11-jdk
+      run: >-
+        sudo apt --allow-unauthenticated --allow-insecure-repositories &&
+        sudo apt install gettext openjdk-11-jdk
     - name: build
       run: ./gradlew package
