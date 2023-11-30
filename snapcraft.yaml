@@ -32,7 +32,7 @@ apps:
 
 parts:
   jgex:
-    build-packages: [gettext]
+    build-packages: [gettext openjdk-11-jdk]
     source: https://github.com/kovzol/Java-Geometry-Expert.git
     plugin: dump
     source-type: git
