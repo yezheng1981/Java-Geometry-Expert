@@ -31,9 +31,9 @@ public class TransformConfirmDialog extends JBaseDialog implements ActionListene
         JPanel p = new JPanel();
         p.setLayout(new BoxLayout(p, BoxLayout.X_AXIS));
         p.add(Box.createHorizontalGlue());
-        JButton b1 = new JButton("Yes");
-        JButton b2 = new JButton("NO");
-        JButton b3 = new JButton("Cancel");
+        JButton b1 = new JButton(GExpert.getLanguage("Yes"));
+        JButton b2 = new JButton(GExpert.getLanguage("No"));
+        JButton b3 = new JButton(GExpert.getLanguage("Cancel"));
         p.add(b1);
         p.add(Box.createHorizontalStrut(5));
         p.add(b2);

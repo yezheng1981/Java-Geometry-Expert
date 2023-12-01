@@ -177,15 +177,15 @@ class ProvePane extends JPanel
         jbar.add(mrule);
         prule.add(jbar);
 
-        b_select = new JButton("clear");
+        b_select = new JButton(GExpert.getLanguage("Clear"));
         b_select.addActionListener(this);
 
         panel.add(b_select);
-        b_ok = new JButton("OK");
+        b_ok = new JButton(GExpert.getLanguage("OK"));
         b_ok.addActionListener(this);
         panel.add(b_ok);
 
-        b_cancel = new JButton("Cancel");
+        b_cancel = new JButton(GExpert.getLanguage("Clear"));
         b_cancel.addActionListener(this);
         panel.add(b_cancel);
 

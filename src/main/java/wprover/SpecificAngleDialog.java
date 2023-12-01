@@ -52,8 +52,8 @@ public class SpecificAngleDialog extends JBaseDialog implements ActionListener, 
 
         JPanel panel2 = new JPanel();
         panel2.setLayout(new BoxLayout(panel2, BoxLayout.X_AXIS));
-        bok = new JButton(gxInstance.getLanguage("OK"));
-        bca = new JButton(gxInstance.getLanguage("Cancel"));
+        bok = new JButton(gxInstance.getLanguage(GExpert.getLanguage("OK")));
+        bca = new JButton(gxInstance.getLanguage(GExpert.getLanguage("Cancel")));
         bok.setActionCommand("OK");
         bca.setActionCommand("Cancel");
         panel2.add(Box.createHorizontalStrut(80));

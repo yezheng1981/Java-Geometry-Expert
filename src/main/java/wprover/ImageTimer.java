@@ -116,8 +116,8 @@ public class ImageTimer extends JBaseDialog implements ActionListener, ChangeLis
         JPanel p3 = new JPanel();
         p3.setLayout(new BoxLayout(p3, BoxLayout.X_AXIS));
         p3.add(Box.createHorizontalGlue());
-        JButton bok = new JButton("Start");
-        JButton bcancel = new JButton("Cancel");
+        JButton bok = new JButton(GExpert.getLanguage("Start"));
+        JButton bcancel = new JButton(GExpert.getLanguage("Cancel"));
         bok.addActionListener(this);
         bcancel.addActionListener(this);
         p3.add(bok);

@@ -107,9 +107,9 @@ public class concPanel extends JPanel implements ActionListener, ItemListener {
 
         asspane_temp = new TreeCellAssertPanel();
         bpanel.add(asspane_temp);
-        bbok = new JButton("Yes");
+        bbok = new JButton(GExpert.getLanguage("Yes"));
         bbok.addActionListener(this);
-        bbcancel = new JButton("Cancel");
+        bbcancel = new JButton(GExpert.getLanguage("Cancel"));
         bbcancel.addActionListener(this);
         JPanel pt = new JPanel();
         pt.setLayout(new BoxLayout(pt, BoxLayout.X_AXIS));

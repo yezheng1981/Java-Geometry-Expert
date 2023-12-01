@@ -25,13 +25,13 @@ public class RightTransformPopupMenu extends JPopupMenu implements ItemListener,
         dp = d;
 
         ButtonGroup g = new ButtonGroup();
-        m1 = new JRadioButtonMenuItem("Translate");
+        m1 = new JRadioButtonMenuItem(GExpert.getLanguage("Translate"));
         g.add(m1);
-        m2 = new JRadioButtonMenuItem("Rotate");
+        m2 = new JRadioButtonMenuItem(GExpert.getLanguage("Rotate"));
         g.add(m2);
-        m3 = new JRadioButtonMenuItem("Flap");
+        m3 = new JRadioButtonMenuItem(GExpert.getLanguage("Flap"));
         g.add(m3);
-        m = new JMenuItem("Cancel");
+        m = new JMenuItem(GExpert.getLanguage("Cancel"));
 
         int t = d.getStatus();
         if (t == 1)

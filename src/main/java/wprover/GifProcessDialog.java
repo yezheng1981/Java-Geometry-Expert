@@ -32,12 +32,12 @@ public class GifProcessDialog extends JBaseDialog implements ActionListener {
 
     public GifProcessDialog(Frame f) {
         super(f, false);
-        this.setTitle("Building GIF File");
+        this.setTitle(GExpert.getLanguage("Building GIF File"));
         progress = new JProgressBar(JProgressBar.HORIZONTAL, 0, 100);
         progress.setBorder(BorderFactory.createEmptyBorder(3, 3, 3, 3));
         progress.setBorderPainted(true);
         progress.setStringPainted(true);
-        label = new JLabel("0 frame(s) added");
+        label = new JLabel(GExpert.getLanguage("0 frame(s) added"));
         JPanel pp = new JPanel();
         pp.setLayout(new FlowLayout());
         pp.add(Box.createHorizontalStrut(150));

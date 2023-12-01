@@ -2406,9 +2406,9 @@ drawProcess extends drawbase implements Printable, ActionListener {
                             }
                         }
                     };
-                    JMenuItem item1 = new JMenuItem("OK");
+                    JMenuItem item1 = new JMenuItem(GExpert.getLanguage("OK"));
                     item1.addActionListener(ls);
-                    JMenuItem item2 = new JMenuItem("Cancel");
+                    JMenuItem item2 = new JMenuItem(GExpert.getLanguage("Cancel"));
                     item2.addActionListener(ls);
                     m.add(item1);
                     m.add(item2);
@@ -2943,11 +2943,11 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     } else if (size == 5) {
                         constraint cs = new constraint(constraint.PENTAGON, SelectList);
                         this.addConstraintToList(cs);
-                        this.UndoAdded("pentagon  " + s);
+                        this.UndoAdded(GExpert.getTranslationViaGettext("Pentagon {0}", s));
                     } else {
                         constraint cs = new constraint(constraint.POLYGON, SelectList);
                         this.addConstraintToList(cs);
-                        this.UndoAdded("polygon  " + s);
+                        this.UndoAdded(GExpert.getTranslationViaGettext("Polygon {0}", s));
                     }
                     clearSelection();
                 }
@@ -3201,7 +3201,8 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     STATUS = 0;
                     addCTMark(ln1, ln2);
                     //this.otherlist.add(m);
-                    this.UndoAdded("right triangle " + p1.getname() + p2.getname() + p.getname());
+                    // FIXME: use better keys
+                    this.UndoAdded(GExpert.getLanguage("Right") + " triangle " + p1.getname() + p2.getname() + p.getname());
                 }
             }
             break;
@@ -4304,7 +4305,8 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     addALine(CLine.LLine, pt, p2);
                     clearSelection();
                     STATUS = 0;
-                    UndoAdded("equilateral triangle " + pt.m_name + p1.m_name + p2.m_name);
+                    // FIXME: use a translation key for triangle and substitute the image later for all translations
+                    UndoAdded(GExpert.getLanguage("Equilateral") + " triangle " + pt.m_name + p1.m_name + p2.m_name);
                 }
             }
             break;
@@ -4340,8 +4342,8 @@ drawProcess extends drawbase implements Printable, ActionListener {
                         this.charsetAndAddPoly(false);
                     } else
                         p4 = pu;
-
-                    this.UndoAdded("right trapezoid " + p1.m_name + p2.m_name + p3.m_name + p4.m_name);
+                    // FIXME: use better keys
+                    this.UndoAdded(GExpert.getLanguage("Right") + " trapezoid " + p1.m_name + p2.m_name + p3.m_name + p4.m_name);
                     STATUS = 0;
                     clearSelection();
                 }

@@ -2621,6 +2621,35 @@ msgstr ""
 msgid "Isosceles"
 msgstr "Triangolo isoscele"
 
+#, fuzzy
+msgid "Equilateral"
+msgstr "Trinagolo equilatero"
+
+msgid "Right"
+msgstr ""
+
+msgid "Building GIF File"
+msgstr ""
+
+msgid "0 frame(s) added"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Rotate"
+msgstr ""
+
+msgid "Flap"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+msgid "No"
+msgstr "Nessuno"
+
 #~ msgid "animate_start"
 #~ msgstr "avvia animazione"
 

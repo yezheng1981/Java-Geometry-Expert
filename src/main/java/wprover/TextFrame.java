@@ -112,10 +112,10 @@ public class TextFrame extends JBaseDialog implements ItemListener,
         topPanel.add(color);
         topPanel.add(Box.createHorizontalStrut(5));
 
-        bok = new JButton("OK");
+        bok = new JButton(GExpert.getLanguage("OK"));
         bok.addActionListener(this);
         topPanel.add(bok);
-        bcancel = new JButton("Cancel");
+        bcancel = new JButton(GExpert.getLanguage("Cancel"));
         bcancel.addActionListener(this);
         topPanel.add(bcancel);
         bok.setText(GExpert.getLanguage(3204, "OK"));

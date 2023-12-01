@@ -2622,6 +2622,35 @@ msgstr ""
 msgid "Isosceles"
 msgstr "Jednakokraki trougao"
 
+#, fuzzy
+msgid "Equilateral"
+msgstr "Jednakostranični trougao"
+
+msgid "Right"
+msgstr ""
+
+msgid "Building GIF File"
+msgstr ""
+
+msgid "0 frame(s) added"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Rotate"
+msgstr ""
+
+msgid "Flap"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+msgid "No"
+msgstr "Nijedan"
+
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"
 

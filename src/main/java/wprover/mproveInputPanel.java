@@ -906,13 +906,13 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
             pbottom = new JPanel();
             pbottom.setLayout(new BoxLayout(pbottom, BoxLayout.X_AXIS));
             pbottom.add(Box.createHorizontalGlue());
-            JButton b = new JButton("OK");
+            JButton b = new JButton(GExpert.getLanguage("OK"));
             b.addActionListener(this);
             pbottom.add(b);
-            b = new JButton("Add");
+            b = new JButton(GExpert.getLanguage("Add"));
             b.addActionListener(this);
             pbottom.add(b);
-            b = new JButton("Cancel");
+            b = new JButton(GExpert.getLanguage("Cancel"));
             b.addActionListener(this);
             pbottom.add(b);
             this.add(pbottom);

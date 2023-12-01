@@ -62,7 +62,7 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
 
         b1.setActionCommand("Save Preferences");
 
-        JButton b2 = new JButton("OK");
+        JButton b2 = new JButton(GExpert.getLanguage(3204, "OK"));
         b2.setText(GExpert.getLanguage(3204, "OK"));
         b2.setActionCommand("OK");
         b1.addActionListener(this);

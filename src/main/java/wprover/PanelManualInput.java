@@ -126,11 +126,11 @@ public class PanelManualInput extends JPanel implements ActionListener {
 
         panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
-        BOK = new JButton("Ok");
+        BOK = new JButton(GExpert.getLanguage("OK"));
         BEDIT = new JButton("Edit");
-        BCANCEL = new JButton("Cancel");
-        BADD = new JButton("Add");
-        BNEXT = new JButton("Next");
+        BCANCEL = new JButton(GExpert.getLanguage("Cancel"));
+        BADD = new JButton(GExpert.getLanguage("Add"));
+        BNEXT = new JButton(GExpert.getLanguage("Next"));
         BOK.addActionListener(this);
         BEDIT.addActionListener(this);
         BADD.addActionListener(this);

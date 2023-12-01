@@ -2540,3 +2540,30 @@ msgstr ""
 
 msgid "Isosceles"
 msgstr ""
+
+msgid "Equilateral"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Building GIF File"
+msgstr ""
+
+msgid "0 frame(s) added"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Rotate"
+msgstr ""
+
+msgid "Flap"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""

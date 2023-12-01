@@ -2591,6 +2591,35 @@ msgstr ""
 msgid "Isosceles"
 msgstr "مثلث متساوی الساقین"
 
+#, fuzzy
+msgid "Equilateral"
+msgstr "مثلث متساوی الاضلاع"
+
+msgid "Right"
+msgstr ""
+
+msgid "Building GIF File"
+msgstr ""
+
+msgid "0 frame(s) added"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Rotate"
+msgstr ""
+
+msgid "Flap"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+msgid "No"
+msgstr "هیچ"
+
 #~ msgid "FF"
 #~ msgstr "بعدی"
 

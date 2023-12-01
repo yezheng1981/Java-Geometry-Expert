@@ -718,7 +718,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
 
         JComboBox[] bx = new JComboBox[3];
         JTextField field = new JTextField(1);
-        JButton badd = new JButton("Add");
+        JButton badd = new JButton(GExpert.getLanguage("Add"));
         int status = 0; //0: segment 1:angle.
         JButton b1, b2, b3, b4, b5;
         JLabel label;

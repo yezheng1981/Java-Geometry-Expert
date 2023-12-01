@@ -2562,6 +2562,34 @@ msgstr "{0} a(z) {1} tükörképe {2}-re vonatkozólag"
 msgid "Isosceles"
 msgstr "Egyenlő szárú"
 
+msgid "Equilateral"
+msgstr "Egyenlő oldalú"
+
+msgid "Right"
+msgstr "Derékszögű"
+
+msgid "Building GIF File"
+msgstr "GIF fájl készítése"
+
+msgid "0 frame(s) added"
+msgstr "0 képkocka készült el"
+
+msgid "Next"
+msgstr "Következő"
+
+msgid "Rotate"
+msgstr "Forgatás"
+
+msgid "Flap"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+msgid "No"
+msgstr "Semmi"
+
 #~ msgid "animate_start"
 #~ msgstr "animáció indítása"
 

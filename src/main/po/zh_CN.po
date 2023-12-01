@@ -2616,6 +2616,35 @@ msgstr ""
 msgid "Isosceles"
 msgstr "等腰三角形"
 
+#, fuzzy
+msgid "Equilateral"
+msgstr "正三角形"
+
+msgid "Right"
+msgstr ""
+
+msgid "Building GIF File"
+msgstr ""
+
+msgid "0 frame(s) added"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Rotate"
+msgstr ""
+
+msgid "Flap"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+msgid "No"
+msgstr "没有"
+
 #~ msgid "animate_start"
 #~ msgstr "播放动画"
 
