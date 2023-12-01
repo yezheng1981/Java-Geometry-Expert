@@ -411,7 +411,7 @@ msgstr "Irányított t-szakasz * arány"
 
 #: ../wprover/GExpert.java:832 ../wprover/HelpMode.java:54
 msgid "Proportional Segment"
-msgstr "Arányos szakasz"
+msgstr "Osztópont"
 
 #: ../wprover/GExpert.java:844 ../wprover/HelpMode.java:43
 #: ../wprover/MProveTree.java:1817

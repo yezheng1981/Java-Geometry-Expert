@@ -1520,8 +1520,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                 String s = ((JMenuItem) src).getText();
                 int n1 = 1;
                 int n2 = 1;
-                ps = language.getEnglish(ps);
-                if (ps.equalsIgnoreCase("Other...")) {
+                // ps = language.getEnglish(ps);
+                if (ps.equalsIgnoreCase(getLanguage("Other..."))) {
                     RatioSelectDialog dlg = new RatioSelectDialog(this);
                     dlg.setVisible(true);
                     dp.setParameter(dlg.getValue1(), dlg.getValue2());
@@ -1582,8 +1582,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
             } else if (command.equalsIgnoreCase("ra_side")) {
                 dp.SetCurrentAction(drawProcess.SETEQSIDE);
                 dp.setcurrentStatus(0);
-                ps = language.getEnglish(ps);
-                if (ps.equalsIgnoreCase("Other...")) {
+                // ps = language.getEnglish(ps);
+                if (ps.equalsIgnoreCase(getLanguage("Other..."))) {
                     RatioSelectDialog dlg = new RatioSelectDialog(this);
                     dlg.setVisible(true);
                     dp.setParameter(dlg.getValue1(), dlg.getValue2());
@@ -1625,8 +1625,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                 dp.SetCurrentAction(drawProcess.D_PTDISTANCE);
             } else if (command.equalsIgnoreCase("propline")) {
                 String s = ((JMenuItem) src).getText();
-                ps = language.getEnglish(ps);
-                if (ps.equalsIgnoreCase("Other...")) {
+                // ps = language.getEnglish(ps);
+                if (ps.equalsIgnoreCase(getLanguage("Other..."))) {
                     dp.SetCurrentAction(drawProcess.LRATIO);
                     RatioSelectDialog dlg = new RatioSelectDialog(this);
                     dlg.setVisible(true);
@@ -1653,8 +1653,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
             } else if (command.equalsIgnoreCase("o_t_segment")) {
                 dp.SetCurrentAction(drawProcess.D_TRATIO);
                 String s = ((JMenuItem) src).getText();
-                ps = language.getEnglish(ps);
-                if (ps.equalsIgnoreCase("Other...")) {
+                // ps = language.getEnglish(ps);
+                if (ps.equalsIgnoreCase(getLanguage("Other..."))) {
                     RatioSelectDialog dlg = new RatioSelectDialog(this);
                     dlg.setVisible(true);
                     dp.setParameter(dlg.getValue1(), dlg.getValue2());
@@ -1718,7 +1718,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
                 try {
                     int n = 0;
                     ps = language.getEnglish(ps);
-                    if (ps.equalsIgnoreCase("Other...")) {
+                    // Here we need to check the translated string:
+                    if (ps.equalsIgnoreCase(getLanguage("Other..."))) {
                         String s = JOptionPane.showInputDialog(this, this.getLanguage(1053, "Please input the value of the angle"));
                         if (s == null)
                             s = "0";

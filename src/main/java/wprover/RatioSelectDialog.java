@@ -105,6 +105,8 @@ public class RatioSelectDialog extends JBaseDialog implements ActionListener {
                 return true;
             } catch (NumberFormatException e) {
                 return false;
+            } catch (NullPointerException e) {
+                return false;
             }
         }
 

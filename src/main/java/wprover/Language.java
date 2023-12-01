@@ -222,6 +222,8 @@ public class Language {
     }
 
     public String getEnglish(String s) {
+        if (stype == null)
+            return GExpert.getLanguage(s);
         if (stype.equalsIgnoreCase("English"))
             return s;
         for (int i = 0; i < MAX_LEN; i++) {
