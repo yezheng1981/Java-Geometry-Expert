@@ -32,12 +32,6 @@ apply plugin: 'io.github.fvarrui.javapackager.plugin'
 group = 'io.github.kovzol'
 ext.softwareVersion = '0.80'
 
-tasks.withType(JavaCompile).configureEach {
-    // The original sources of JGEX use the keyword "var" which is a reserved word in later Java versions.
-    // As a workaround, we set compatibility to source = 8
-    sourceCompatibility = 1.8
-}
-
 // These are default settings based on Gradle's standard layout:
 ext.poDir = 'src/main/po'
 ext.classesDir = 'build/classes/java/main'
