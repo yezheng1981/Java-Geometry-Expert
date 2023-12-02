@@ -530,6 +530,10 @@ msgstr "Rechtwinkeliges Trapez"
 msgid "Rectangle"
 msgstr "Rechteck"
 
+#, fuzzy
+msgid "Rectangle {0}"
+msgstr "Rechteck"
+
 #: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
 #: ../wprover/MProveTree.java:1824
 msgid "Square"
@@ -2559,6 +2563,10 @@ msgstr ""
 msgid "midpoint of {0}"
 msgstr "Mittelpunkte"
 
+#, fuzzy
+msgid "{0} is the midpoint of {1}"
+msgstr "Mittelpunkte"
+
 msgid "parallel to {0} passing {1}"
 msgstr ""
 
@@ -2588,6 +2596,37 @@ msgstr "Sechseck"
 #, fuzzy
 msgid "Polygon {0}"
 msgstr "Polygon"
+
+msgid "Rhombus {0}"
+msgstr ""
+
+#, fuzzy
+msgid "Isosceles triangle {0}"
+msgstr "Gleichschenkeliges Dreieck"
+
+#, fuzzy
+msgid "Right triangle {0}"
+msgstr "Dreieck"
+
+#, fuzzy
+msgid "Parallelogram {0}"
+msgstr "Parallelogramm"
+
+#, fuzzy
+msgid "Square {0}"
+msgstr "Quadrat"
+
+#, fuzzy
+msgid "Trapezoid {0}"
+msgstr "Trapez"
+
+#, fuzzy
+msgid "Right trapezoid {0}"
+msgstr "Rechtwinkeliges Trapez"
+
+#, fuzzy
+msgid "Equilateral triangle {0}"
+msgstr "Gleichseitiges Dreieck"
 
 msgid "{0} is the reflection of {1} wrt {2}"
 msgstr ""
@@ -2624,6 +2663,94 @@ msgstr ""
 #, fuzzy
 msgid "No"
 msgstr "Nichts"
+
+msgid "Take a point {0} on line {1} such that {2}"
+msgstr ""
+
+msgid "Take a point {0} on circle {1} such that {2}"
+msgstr ""
+
+msgid "Radical of {0} and {1}"
+msgstr ""
+
+msgid "LRatio of {0} and {1}"
+msgstr ""
+
+msgid "NRatio of {0} and {1}"
+msgstr ""
+
+msgid "PRatio of {0} and {1}"
+msgstr ""
+
+msgid "TRatio of {0} and {1}"
+msgstr ""
+
+#, fuzzy
+msgid "on line {0}"
+msgstr "Gerade"
+
+msgid "{0} is on line {1}"
+msgstr ""
+
+#, fuzzy
+msgid "{0} is parallel to {1}"
+msgstr "{0} ist trivial wahr"
+
+#, fuzzy
+msgid "{0} is perpendicular to {1}"
+msgstr "normale Geraden"
+
+msgid "{0} is on the perpendicular bisector of {1}"
+msgstr ""
+
+msgid "on the perpendicular bisector of {0}"
+msgstr ""
+
+#, fuzzy
+msgid "on circle {0}"
+msgstr "Kreis"
+
+msgid "{0} is on circle {1}"
+msgstr ""
+
+#, fuzzy
+msgid "circumcenter of {0}"
+msgstr "Umkreismittelpunkt"
+
+msgid "{0} is the circumcenter of {1}"
+msgstr ""
+
+#, fuzzy
+msgid "incenter of {0}"
+msgstr "Umkreismittelpunkt"
+
+#, fuzzy
+msgid "{0} is the incenter of {1}"
+msgstr "normale Geraden"
+
+#, fuzzy
+msgid "orthocenter of {0}"
+msgstr "Umkreismittelpunkt"
+
+#, fuzzy
+msgid "{0} is the orthocenter of {1}"
+msgstr "normale Geraden"
+
+#, fuzzy
+msgid "centroid of {0}"
+msgstr "Umkreismittelpunkt"
+
+#, fuzzy
+msgid "{0} is the centroid of {1}"
+msgstr "normale Geraden"
+
+#, fuzzy
+msgid "barycenter of {0}"
+msgstr "Umkreismittelpunkt"
+
+#, fuzzy
+msgid "{0} is the barycenter of {1}"
+msgstr "normale Geraden"
 
 #~ msgid "animate_start"
 #~ msgstr "Starte Animation"

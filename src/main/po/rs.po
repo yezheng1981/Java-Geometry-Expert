@@ -536,6 +536,10 @@ msgstr "Pravougli trapez"
 msgid "Rectangle"
 msgstr "Pravougaonik"
 
+#, fuzzy
+msgid "Rectangle {0}"
+msgstr "Pravougaonik"
+
 #: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
 #: ../wprover/MProveTree.java:1824
 msgid "Square"
@@ -2585,6 +2589,10 @@ msgstr ""
 msgid "midpoint of {0}"
 msgstr "Središta"
 
+#, fuzzy
+msgid "{0} is the midpoint of {1}"
+msgstr "Središta"
+
 msgid "parallel to {0} passing {1}"
 msgstr ""
 
@@ -2614,6 +2622,37 @@ msgstr "Šestougao"
 #, fuzzy
 msgid "Polygon {0}"
 msgstr "Mnogougao"
+
+msgid "Rhombus {0}"
+msgstr ""
+
+#, fuzzy
+msgid "Isosceles triangle {0}"
+msgstr "Jednakokraki trougao"
+
+#, fuzzy
+msgid "Right triangle {0}"
+msgstr "Trougao"
+
+#, fuzzy
+msgid "Parallelogram {0}"
+msgstr "Paralelogram"
+
+#, fuzzy
+msgid "Square {0}"
+msgstr "Kvadrat"
+
+#, fuzzy
+msgid "Trapezoid {0}"
+msgstr "Trapez"
+
+#, fuzzy
+msgid "Right trapezoid {0}"
+msgstr "Pravougli trapez"
+
+#, fuzzy
+msgid "Equilateral triangle {0}"
+msgstr "Jednakostranični trougao"
 
 msgid "{0} is the reflection of {1} wrt {2}"
 msgstr ""
@@ -2650,6 +2689,94 @@ msgstr ""
 #, fuzzy
 msgid "No"
 msgstr "Nijedan"
+
+msgid "Take a point {0} on line {1} such that {2}"
+msgstr ""
+
+msgid "Take a point {0} on circle {1} such that {2}"
+msgstr ""
+
+msgid "Radical of {0} and {1}"
+msgstr ""
+
+msgid "LRatio of {0} and {1}"
+msgstr ""
+
+msgid "NRatio of {0} and {1}"
+msgstr ""
+
+msgid "PRatio of {0} and {1}"
+msgstr ""
+
+msgid "TRatio of {0} and {1}"
+msgstr ""
+
+#, fuzzy
+msgid "on line {0}"
+msgstr "Prava"
+
+msgid "{0} is on line {1}"
+msgstr ""
+
+#, fuzzy
+msgid "{0} is parallel to {1}"
+msgstr "Je trivijalno tačno"
+
+#, fuzzy
+msgid "{0} is perpendicular to {1}"
+msgstr "normalne prave"
+
+msgid "{0} is on the perpendicular bisector of {1}"
+msgstr ""
+
+msgid "on the perpendicular bisector of {0}"
+msgstr ""
+
+#, fuzzy
+msgid "on circle {0}"
+msgstr "Krug"
+
+msgid "{0} is on circle {1}"
+msgstr ""
+
+#, fuzzy
+msgid "circumcenter of {0}"
+msgstr "Središte opisanog kruga"
+
+msgid "{0} is the circumcenter of {1}"
+msgstr ""
+
+#, fuzzy
+msgid "incenter of {0}"
+msgstr "Središte opisanog kruga"
+
+#, fuzzy
+msgid "{0} is the incenter of {1}"
+msgstr "normalne prave"
+
+#, fuzzy
+msgid "orthocenter of {0}"
+msgstr "Središte opisanog kruga"
+
+#, fuzzy
+msgid "{0} is the orthocenter of {1}"
+msgstr "normalne prave"
+
+#, fuzzy
+msgid "centroid of {0}"
+msgstr "Središte opisanog kruga"
+
+#, fuzzy
+msgid "{0} is the centroid of {1}"
+msgstr "normalne prave"
+
+#, fuzzy
+msgid "barycenter of {0}"
+msgstr "Središte opisanog kruga"
+
+#, fuzzy
+msgid "{0} is the barycenter of {1}"
+msgstr "normalne prave"
 
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"

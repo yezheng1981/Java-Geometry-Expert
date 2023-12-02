@@ -3413,10 +3413,16 @@ drawProcess extends drawbase implements Printable, ActionListener {
                             if (true || this.mulSolutionSelect(pt)) {
                                 this.addConstraintToList(cs);
                                 this.addPointToList(pt);
+                                /*
                                 this.UndoAdded("Take a point "
                                         + pt.m_name + " on " + ln.getDescription() +
                                         " st " + p1.m_name + p2.m_name + " = " +
                                         p3.m_name + pt.m_name);
+                                 */
+                                this.UndoAdded(GExpert.getTranslationViaGettext(
+                                        "Take a point {0} on line {1} such that {2}",pt.m_name,
+                                        ln.getSimpleName(), p1.m_name + p2.m_name + " = " +
+                                        p3.m_name + pt.m_name));
 
                             } else {
                                 this.ErasedADecidedPoint(pt);
@@ -3444,10 +3450,16 @@ drawProcess extends drawbase implements Printable, ActionListener {
                                 this.addConstraintToList(cs1);
                                 this.addPointToList(pt);
                                 c.addPoint(pt);
+                                /*
                                 this.UndoAdded("Take a point "
                                         + pt.m_name + "on " + c.getDescription() +
                                         " st " + p1.m_name + p2.m_name + " = " +
                                         p3.m_name + pt.m_name);
+                                 */
+                                this.UndoAdded(GExpert.getTranslationViaGettext(
+                                        "Take a point {0} on circle {1} such that {2}",
+                                        pt.m_name, c.getname(), p1.m_name + p2.m_name + " = " +
+                                        p3.m_name + pt.m_name));
                             } else {
                                 this.ErasedADecidedPoint(pt);
                                 gxInstance.setTipText("Failed: can not find a point(P) on Circle " +
@@ -3504,8 +3516,8 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     this.charsetAndAddPoly(false);
                     clearSelection();
                     this.UndoAdded(pp.TypeString() + ":  " + p1.m_name +
-                            pp.m_name + " / " + pp.m_name + p.m_name + " = " + 1 + "/" +
-                            this.proportion);
+                            pp.m_name + " / " + pp.m_name + p.m_name + " = " + t1 + "/" +
+                            t2);
                 }
             }
             break;
@@ -4234,9 +4246,8 @@ drawProcess extends drawbase implements Printable, ActionListener {
                         this.addConstraintToList(cs);
                         line.addconstraint(cs);
                         clearSelection();
-                        this.UndoAdded(line.TypeString() + ":  radical of " +
-                                c0.getDescription() + " and " +
-                                c.getDescription());
+                        this.UndoAdded(line.TypeString() + ": " + GExpert.getTranslationViaGettext(
+                                "Radical of {0} and {1}",c0.getDescription(), c.getDescription()));
                     }
                 }
 
@@ -4681,7 +4692,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                         s = "barycenter";
                     } else if (CurrentAction == CIRCUMCENTER) {
                         cs = new constraint(constraint.CIRCUMCENTER, pp, p1, p2, p3);
-                        s = " circumcenter";
+                        s = "circumcenter";
                     } else if (CurrentAction == ORTHOCENTER) {
                         cs = new constraint(constraint.ORTHOCENTER, pp, p1, p2, p3);
                         s = "orthocenter";
@@ -4697,9 +4708,9 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     if (pu == null) {
                         this.addPointToList(pp);
                         this.addConstraintToList(cs);
-                        this.UndoAdded(pp.TypeString() + ":  the " + s + " of " +
-                                p1.m_name + " " + p2.m_name + " " +
-                                p3.m_name);
+                        // Here we construct the translation key from s:
+                        this.UndoAdded(pp.TypeString() + ": " + GExpert.getTranslationViaGettext(
+                                s + " of {0}", p1.m_name + p2.m_name + p3.m_name));
 
                     } else {
                         p = pu;

@@ -358,7 +358,8 @@ public class constraint {
             case LRATIO:
                 return "";
             case CIRCUMCENTER:
-                return e1.TypeString() + "is the circumcenter of " + e2.getname() + e3.getname() + e4.getname();
+                return GExpert.getTranslationViaGettext("{0} is the circumcenter of {1}",
+                        e1.getname(), e2.getname() + e3.getname() + e4.getname());
             case BARYCENTER:
                 return e1.TypeString() + " is the barycenter" + e2.getname() + e3.getname() + e4.getname();
             case LCTANGENT:

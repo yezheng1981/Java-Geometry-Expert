@@ -530,6 +530,9 @@ msgstr ""
 msgid "Rectangle"
 msgstr ""
 
+msgid "Rectangle {0}"
+msgstr ""
+
 #: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
 #: ../wprover/MProveTree.java:1824
 msgid "Square"
@@ -2511,6 +2514,9 @@ msgstr ""
 msgid "midpoint of {0}"
 msgstr ""
 
+msgid "{0} is the midpoint of {1}"
+msgstr ""
+
 msgid "parallel to {0} passing {1}"
 msgstr ""
 
@@ -2533,6 +2539,30 @@ msgid "Hexagon {0}"
 msgstr ""
 
 msgid "Polygon {0}"
+msgstr ""
+
+msgid "Rhombus {0}"
+msgstr ""
+
+msgid "Isosceles triangle {0}"
+msgstr ""
+
+msgid "Right triangle {0}"
+msgstr ""
+
+msgid "Parallelogram {0}"
+msgstr ""
+
+msgid "Square {0}"
+msgstr ""
+
+msgid "Trapezoid {0}"
+msgstr ""
+
+msgid "Right trapezoid {0}"
+msgstr ""
+
+msgid "Equilateral triangle {0}"
 msgstr ""
 
 msgid "{0} is the reflection of {1} wrt {2}"
@@ -2567,3 +2597,79 @@ msgstr ""
 
 msgid "No"
 msgstr ""
+
+msgid "Take a point {0} on line {1} such that {2}"
+msgstr ""
+
+msgid "Take a point {0} on circle {1} such that {2}"
+msgstr ""
+
+msgid "Radical of {0} and {1}"
+msgstr ""
+
+msgid "LRatio of {0} and {1}"
+msgstr ""
+
+msgid "NRatio of {0} and {1}"
+msgstr ""
+
+msgid "PRatio of {0} and {1}"
+msgstr ""
+
+msgid "TRatio of {0} and {1}"
+msgstr ""
+
+msgid "on line {0}"
+msgstr ""
+
+msgid "{0} is on line {1}"
+msgstr ""
+
+msgid "{0} is parallel to {1}"
+msgstr ""
+
+msgid "{0} is perpendicular to {1}"
+msgstr ""
+
+msgid "{0} is on the perpendicular bisector of {1}"
+msgstr ""
+
+msgid "on the perpendicular bisector of {0}"
+msgstr ""
+
+msgid "on circle {0}"
+msgstr ""
+
+msgid "{0} is on circle {1}"
+msgstr ""
+
+msgid "circumcenter of {0}"
+msgstr ""
+
+msgid "{0} is the circumcenter of {1}"
+msgstr ""
+
+msgid "incenter of {0}"
+msgstr ""
+
+msgid "{0} is the incenter of {1}"
+msgstr ""
+
+msgid "orthocenter of {0}"
+msgstr ""
+
+msgid "{0} is the orthocenter of {1}"
+msgstr ""
+
+msgid "centroid of {0}"
+msgstr ""
+
+msgid "{0} is the centroid of {1}"
+msgstr ""
+
+msgid "barycenter of {0}"
+msgstr ""
+
+msgid "{0} is the barycenter of {1}"
+msgstr ""
+

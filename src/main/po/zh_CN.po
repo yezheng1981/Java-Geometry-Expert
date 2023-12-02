@@ -535,6 +535,10 @@ msgstr "直角梯形"
 msgid "Rectangle"
 msgstr "矩形"
 
+#, fuzzy
+msgid "Rectangle {0}"
+msgstr "矩形"
+
 #: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
 #: ../wprover/MProveTree.java:1824
 msgid "Square"
@@ -2579,6 +2583,10 @@ msgstr ""
 msgid "midpoint of {0}"
 msgstr "中点"
 
+#, fuzzy
+msgid "{0} is the midpoint of {1}"
+msgstr "中点"
+
 msgid "parallel to {0} passing {1}"
 msgstr ""
 
@@ -2608,6 +2616,37 @@ msgstr "六边形"
 #, fuzzy
 msgid "Polygon {0}"
 msgstr "多边形"
+
+msgid "Rhombus {0}"
+msgstr ""
+
+#, fuzzy
+msgid "Isosceles triangle {0}"
+msgstr "等腰三角形"
+
+#, fuzzy
+msgid "Right triangle {0}"
+msgstr "三角形"
+
+#, fuzzy
+msgid "Parallelogram {0}"
+msgstr "平行四边形"
+
+#, fuzzy
+msgid "Square {0}"
+msgstr "正方形"
+
+#, fuzzy
+msgid "Trapezoid {0}"
+msgstr "五边形"
+
+#, fuzzy
+msgid "Right trapezoid {0}"
+msgstr "直角梯形"
+
+#, fuzzy
+msgid "Equilateral triangle {0}"
+msgstr "正三角形"
 
 msgid "{0} is the reflection of {1} wrt {2}"
 msgstr ""
@@ -2644,6 +2683,94 @@ msgstr ""
 #, fuzzy
 msgid "No"
 msgstr "没有"
+
+msgid "Take a point {0} on line {1} such that {2}"
+msgstr ""
+
+msgid "Take a point {0} on circle {1} such that {2}"
+msgstr ""
+
+msgid "Radical of {0} and {1}"
+msgstr ""
+
+msgid "LRatio of {0} and {1}"
+msgstr ""
+
+msgid "NRatio of {0} and {1}"
+msgstr ""
+
+msgid "PRatio of {0} and {1}"
+msgstr ""
+
+msgid "TRatio of {0} and {1}"
+msgstr ""
+
+#, fuzzy
+msgid "on line {0}"
+msgstr "直线"
+
+msgid "{0} is on line {1}"
+msgstr ""
+
+#, fuzzy
+msgid "{0} is parallel to {1}"
+msgstr "显然正确"
+
+#, fuzzy
+msgid "{0} is perpendicular to {1}"
+msgstr "垂直线"
+
+msgid "{0} is on the perpendicular bisector of {1}"
+msgstr ""
+
+msgid "on the perpendicular bisector of {0}"
+msgstr ""
+
+#, fuzzy
+msgid "on circle {0}"
+msgstr "园　"
+
+msgid "{0} is on circle {1}"
+msgstr ""
+
+#, fuzzy
+msgid "circumcenter of {0}"
+msgstr "外心"
+
+msgid "{0} is the circumcenter of {1}"
+msgstr ""
+
+#, fuzzy
+msgid "incenter of {0}"
+msgstr "外心"
+
+#, fuzzy
+msgid "{0} is the incenter of {1}"
+msgstr "垂直线"
+
+#, fuzzy
+msgid "orthocenter of {0}"
+msgstr "外心"
+
+#, fuzzy
+msgid "{0} is the orthocenter of {1}"
+msgstr "垂直线"
+
+#, fuzzy
+msgid "centroid of {0}"
+msgstr "外心"
+
+#, fuzzy
+msgid "{0} is the centroid of {1}"
+msgstr "垂直线"
+
+#, fuzzy
+msgid "barycenter of {0}"
+msgstr "外心"
+
+#, fuzzy
+msgid "{0} is the barycenter of {1}"
+msgstr "垂直线"
 
 #~ msgid "animate_start"
 #~ msgstr "播放动画"

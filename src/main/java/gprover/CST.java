@@ -257,25 +257,30 @@ public class CST {
                 return GExpert.getTranslationViaGettext("Line {0}", pss[0] + "" + pss[1]);
             case gib.C_O_L:
                 if (d)
-                    return pss[0] + " : on line " + pss[1] + pss[2];
+                    return pss[0] + ": " + GExpert.getTranslationViaGettext("on line {0}", "" + pss[1] + pss[2]);
                 else
-                    return pss[0] + " is on line " + pss[1] + pss[2];
+                    return GExpert.getTranslationViaGettext("{0} is on line {1}",
+                            "" + pss[0], "" + pss[1] + pss[2]);
 
             case gib.C_O_P:
                 if (d)
                     return pss[0] + "" + pss[1] + Cm.s2079 + pss[2] + "" + pss[3];
                 else
-                    return pss[0] + "" + pss[1] + " is parallel to " + pss[2] + pss[3];
+                    return GExpert.getTranslationViaGettext("{0} is parallel to {1}",
+                            pss[0] + "" + pss[1], "" + pss[2] + pss[3]);
             case gib.C_O_T:
                 if (d)
-                    return pss[0] + "" + pss[1] + Cm.s2077 + pss[2] + "" + pss[3]; //??
+                    return pss[0] + "" + pss[1] + Cm.s2077 + pss[2] + "" + pss[3];
                 else
-                    return pss[0] + "" + pss[1] + " is perpendicular to " + pss[2] + pss[3];
+                    return GExpert.getTranslationViaGettext("{0} is perpendicular to {1}",
+                            pss[0] + "" + pss[1], "" + pss[2] + pss[3]);
             case gib.C_O_B:
                 if (d)
-                    return pss[0] + ": on Bline(" + pss[1] + pss[2] + ")";
+                    return pss[0] + ": " + GExpert.getTranslationViaGettext("on the perpendicular bisector of",
+                            "" + pss[1] + pss[2]);
                 else
-                    return pss[0] + " is on the perp-bisector of " + pss[1] + pss[2];
+                    return GExpert.getTranslationViaGettext("{0} is on the perpendicular bisector of {1}",
+                        pss[0] + "", "" + pss[1] + pss[2]);
             case gib.C_O_A:
             case gib.C_EQANGLE: {
                 if (pss[6] != null && pss[7] != null)
@@ -284,35 +289,45 @@ public class CST {
                     return Cm.s2078 + "[" + pss[0] + pss[1] + pss[2] + "] = " + Cm.s2078 + "[" + pss[3] + pss[4] + pss[5] + "]";
             }
             case gib.C_FOOT:
-                return pss[0] + "" + pss[1] + Cm.s2077 + pss[2] + "" + pss[3] + " with foot " + pss[0];
+                return pss[0] + "" + pss[1] + Cm.s2077 + pss[2] + "" + pss[3] + " " + GExpert.getTranslationViaGettext("with foot {0}",
+                        "" + pss[0]);
             case gib.C_CIRCLE: {
-                String st = "circle(" + pss[0] + ",";
+                String st = "(" + pss[0] + ",";
                 for (int i = 1; i < pss.length && pss[i] != null; i++)
                     st += pss[i];
-                return st + ")";
+                st += ")";
+                return GExpert.getTranslationViaGettext("Circle {0}", st);
             }
             case gib.C_O_C:
                 if (d)
-                    return pss[0] + " :  on circle(" + pss[1] + "," + pss[2] + ")";
+                    return pss[0] + ": " + GExpert.getTranslationViaGettext("on circle {0}",
+                           "(" + pss[1] + "," + pss[2] + ")");
                 else
-                    return pss[0] + " is on circle(" + pss[1] + "," + pss[2] + ")";
+                    return GExpert.getTranslationViaGettext("{0} on circle {1}",
+                        pss[0] + "", "(" + pss[1] + "," + pss[2] + ")");
 
             case gib.C_CIRCUM:
                 if (d)
-                    return pss[0] + " : circumcenter of " + pss[1] + pss[2] + pss[3];
+                    return pss[0] + ": " + GExpert.getTranslationViaGettext("circumcenter of {0}",
+                            "" + pss[1] + pss[2] + pss[3]);
                 else
-                    return pss[0] + " is the circumcenter of " + pss[1] + pss[2] + pss[3];
+                    return GExpert.getTranslationViaGettext("{0} is the circumcenter of {1}",
+                            "" + pss[0], "" + pss[1] + pss[2] + pss[3]);
+
             case gib.C_O_R:
                 if (d)
-                    return pss[0] + " : on circle(" + pss[1] + "," + pss[2] + pss[3] + ")";
+                    return pss[0] + ": " + GExpert.getTranslationViaGettext("on circle {0}",
+                            "(" + pss[1] + "," + pss[2] + pss[3] + ")");
                 else
-                    return pss[0] + " is on circle(" + pss[1] + "," + pss[2] + pss[3] + ")";
+                    return GExpert.getTranslationViaGettext("{0} on circle {1}",
+                            pss[0] + "", "(" + pss[1] + "," + pss[2] + pss[3] + ")");
 
             case gib.C_MIDPOINT:
                 if (d)
-                    return pss[0] + " : midpoint( " + pss[1] + pss[2] + ")";
+                    return pss[0] + ": " + GExpert.getTranslationViaGettext("midpoint of {0}", "" + pss[1] + pss[2]);
                 else
-                    return pss[0] + " is midpoint of " + pss[1] + pss[2] + "";
+                    return GExpert.getTranslationViaGettext("{0} is the midpoint of {1}",
+                            "" + pss[0], "" + pss[1] + pss[2]);
             case gib.C_EQDISTANCE: {
                 String st = "";
                 for (int i = 0; i < pss.length / 2; i++) {
@@ -325,55 +340,65 @@ public class CST {
                 return st;
             }
             case 16:
-                return "TRatio " + pss[0] + pss[1] + " and " + pss[2] + pss[3];
+                return GExpert.getTranslationViaGettext("TRatio of {0} and {1}", pss[0] + "" + pss[1],
+                        pss[2] + "" + pss[3]);
             case 17:
-                return "PRtio " + pss[0] + pss[1] + " and " + pss[2] + pss[3];
+                return GExpert.getTranslationViaGettext("PRatio of {0} and {1}", pss[0] + "" + pss[1],
+                        pss[2] + "" + pss[3]);
             case 18:
-                return "NRatio " + pss[0] + pss[1] + " and " + pss[2] + pss[3];
+                return GExpert.getTranslationViaGettext("NRatio of {0} and {1}", pss[0] + "" + pss[1],
+                        pss[2] + "" + pss[3]);
             case 19:
-                return "LRatio " + pss[0] + pss[1] + " and " + pss[2] + pss[3];
+                return GExpert.getTranslationViaGettext("LRatio of {0} and {1}", pss[0] + "" + pss[1],
+                        pss[2] + "" + pss[3]);
             case 20:
-                return "????";
+                return "????"; // FIXME: What's this?
             case gib.C_TRIANGLE:
-                return "triangle " + pss[0] + pss[1] + pss[2];
+                return GExpert.getTranslationViaGettext("Triangle {0}", "" + pss[0] + pss[1] + pss[2]);
             case gib.C_QUADRANGLE:
-                return "quadrangle " + pss[0] + pss[1] + pss[2] + pss[3];
+                return GExpert.getTranslationViaGettext("Quadrangle {0}", "" + pss[0] + pss[1] + pss[2] + pss[3]);
             case gib.C_PENTAGON:
-                return "pentagon " + pss[0] + pss[1] + pss[2] + pss[3] + pss[4];
+                return GExpert.getTranslationViaGettext("Pentagon {0}", "" + pss[0] + pss[1] + pss[2] + pss[3] + pss[4]);
             case 27:
-                return "Isoceless triangle " + pss[0] + pss[1] + pss[2];
+                return GExpert.getTranslationViaGettext("Isosceles triangle {0}", "" + pss[0] + pss[1] + pss[2]);
             case 28:
-                return "Right triangle " + pss[0] + pss[1] + pss[2];
+                return GExpert.getTranslationViaGettext("Right triangle {0}", "" + pss[0] + pss[1] + pss[2]);
             case 29:
-                return "Equilateral triangle " + pss[0] + pss[1] + pss[2];
+                return GExpert.getTranslationViaGettext("Equilateral triangle {0}", "" + pss[0] + pss[1] + pss[2]);
             case 30:
-                return "Trapezoid " + pss[0] + pss[1] + pss[2] + pss[3];
+                return GExpert.getTranslationViaGettext("Trapezoid {0}", "" + pss[0] + pss[1] + pss[2] + pss[3]);
             case 31:
-                return "Right Trapezoid " + pss[0] + pss[1] + pss[2] + pss[3];
+                return GExpert.getTranslationViaGettext("Right trapezoid {0}", "" + pss[0] + pss[1] + pss[2] + pss[3]);
             case 32:
-                return "Parallelogram " + pss[0] + pss[1] + pss[2] + pss[3];
+                return GExpert.getTranslationViaGettext("Parallelogram {0}", "" + pss[0] + pss[1] + pss[2] + pss[3]);
             case 33:
-                return "Lozenge " + pss[0] + pss[1] + pss[2] + pss[3];
+                return GExpert.getTranslationViaGettext("Rhombus {0}", "" + pss[0] + pss[1] + pss[2] + pss[3]);
             case 34:
-                return "Rectangle " + pss[0] + pss[1] + pss[2] + pss[3];
+                return GExpert.getTranslationViaGettext("Rectangle {0}", "" + pss[0] + pss[1] + pss[2] + pss[3]);
             case 35:
-                return "Square " + pss[0] + pss[1] + pss[2] + pss[3];
+                return GExpert.getTranslationViaGettext("Square {0}", "" + pss[0] + pss[1] + pss[2] + pss[3]);
 
             case 36:
                 if (d)
-                    return pss[0] + " : incenter of " + pss[1] + pss[2] + pss[3];
+                    return pss[0] + ": " + GExpert.getTranslationViaGettext("incenter of {0}",
+                            "" + pss[1] + pss[2] + pss[3]);
                 else
-                    return pss[0] + " is the incenter of " + pss[1] + pss[2] + pss[3];
+                    return GExpert.getTranslationViaGettext("{0} is the incenter of {1}",
+                            "" + pss[0], "" + pss[1] + pss[2] + pss[3]);
             case 37:
                 if (d)
-                    return pss[0] + " : orthocenter of " + pss[1] + pss[2] + pss[3];
+                    return pss[0] + ": " + GExpert.getTranslationViaGettext("orthocenter of {0}",
+                            "" + pss[1] + pss[2] + pss[3]);
                 else
-                    return pss[0] + " is the orthocenter of " + pss[1] + pss[2] + pss[3];
+                    return GExpert.getTranslationViaGettext("{0} is the orthocenter of {1}",
+                            "" + pss[0], "" + pss[1] + pss[2] + pss[3]);
             case 38:
                 if (d)
-                    return pss[0] + " : centroid of " + pss[1] + pss[2] + pss[3];
+                    return pss[0] + ": " + GExpert.getTranslationViaGettext("centroid of {0}",
+                            "" + pss[1] + pss[2] + pss[3]);
                 else
-                    return pss[0] + " is the centroid of " + pss[1] + pss[2] + pss[3];
+                    return GExpert.getTranslationViaGettext("{0} is the centroid of {1}",
+                            "" + pss[0], "" + pss[1] + pss[2] + pss[3]);
             case 46:
                 return "circle(" + pss[0] + "," + pss[1] + ") tangent to circle(" + pss[2] + "," + pss[3] + ")";
 

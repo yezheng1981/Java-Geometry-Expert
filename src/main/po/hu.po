@@ -529,6 +529,9 @@ msgstr "Derékszögű trapéz"
 msgid "Rectangle"
 msgstr "Téglalap"
 
+msgid "Rectangle {0}"
+msgstr "{0} téglalap"
+
 #: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
 #: ../wprover/MProveTree.java:1824
 msgid "Square"
@@ -2532,6 +2535,9 @@ msgstr "{0} pont van hátra"
 msgid "midpoint of {0}"
 msgstr "{0} felezőpontja"
 
+msgid "{0} is the midpoint of {1}"
+msgstr "{0} a(z) {1} felezőpontja"
+
 msgid "parallel to {0} passing {1}"
 msgstr "párhuzamos {0}-val {1}-n keresztül"
 
@@ -2555,6 +2561,30 @@ msgstr "{0} hatszög"
 
 msgid "Polygon {0}"
 msgstr "{0} sokszög"
+
+msgid "Rhombus {0}"
+msgstr ""
+
+msgid "Isosceles triangle {0}"
+msgstr "{0} egyenlő szárú háromszög"
+
+msgid "Right triangle {0}"
+msgstr "{0} derékszögű háromszög"
+
+msgid "Parallelogram {0}"
+msgstr "{0} paralelogramma"
+
+msgid "Square {0}"
+msgstr "{0} négyzet"
+
+msgid "Trapezoid {0}"
+msgstr "{0} trapéz"
+
+msgid "Right trapezoid {0}"
+msgstr "{0} derékszögű trapéz"
+
+msgid "Equilateral triangle {0}"
+msgstr "{0} egyenlő oldalú háromszög"
 
 msgid "{0} is the reflection of {1} wrt {2}"
 msgstr "{0} a(z) {1} tükörképe {2}-re vonatkozólag"
@@ -2584,29 +2614,86 @@ msgid "Flap"
 msgstr ""
 
 msgid "Yes"
-msgstr ""
+msgstr "Igen"
+
+msgid "No"
+msgstr "Nem"
+
+msgid "Take a point {0} on line {1} such that {2}"
+msgstr "Legyen a(z) {0} pont a(z) {1} egyenesen, melyre {2}"
+
+msgid "Take a point {0} on circle {1} such that {2}"
+msgstr "Legyen a(z) {0} pont a(z) {1} körön, melyre {2}"
+
+msgid "Radical of {0} and {1}"
+msgstr "A(z) {0} és {1} hatványvonala"
 
 #, fuzzy
-msgid "No"
-msgstr "Semmi"
+msgid "LRatio of {0} and {1}"
+msgstr "A(z) {0} és {1} hatványvonala"
 
-#~ msgid "animate_start"
-#~ msgstr "animáció indítása"
+#, fuzzy
+msgid "NRatio of {0} and {1}"
+msgstr "A(z) {0} és {1} hatványvonala"
 
-#~ msgid "The Equational Hypotheses:"
-#~ msgstr "Az egyenlőségeken alapuló feladatkiírás:"
+#, fuzzy
+msgid "PRatio of {0} and {1}"
+msgstr "A(z) {0} és {1} hatványvonala"
 
-#~ msgid "Font Size"
-#~ msgstr "Betűméret"
+#, fuzzy
+msgid "TRatio of {0} and {1}"
+msgstr "A(z) {0} és {1} hatványvonala"
 
-#~ msgid "Draw a line which is perpdicular to another line"
-#~ msgstr "Merőleges egyenes rajzolása"
+msgid "on line {0}"
+msgstr "{0} egyenesen"
 
-#~ msgid "Font Color"
-#~ msgstr "Betűszín"
+msgid "{0} is on line {1}"
+msgstr "{0} a(z) {1} egyenesen"
 
-#~ msgid "BackGroud Color"
-#~ msgstr "Háttérszín"
+msgid "{0} is parallel to {1}"
+msgstr "{0} párhuzamos {1}-vel"
 
-#~ msgid "The two selected line don'thave any intersected point"
-#~ msgstr "A két kiválasztott egyenes nem metszi egymást"
+msgid "{0} is perpendicular to {1}"
+msgstr "{0} merőleges {1}-re"
+
+msgid "{0} is on the perpendicular bisector of {1}"
+msgstr "{0} a(z) {1} felezőmerőlegesén"
+
+msgid "on the perpendicular bisector of {0}"
+msgstr "{0} felezőmerőlegesén"
+
+msgid "on circle {0}"
+msgstr "{0} körön"
+
+msgid "{0} is on circle {1}"
+msgstr "{0} a(z) {1} körön"
+
+msgid "circumcenter of {0}"
+msgstr "{0} körülírható körének középpontja"
+
+msgid "{0} is the circumcenter of {1}"
+msgstr "{0} a(z) {1} körülírható körének középpontja"
+
+msgid "incenter of {0}"
+msgstr "{0} beírható körének középpontja"
+
+msgid "{0} is the incenter of {1}"
+msgstr "{0} a(z) {1} beírható körének középpontja"
+
+msgid "orthocenter of {0}"
+msgstr "{0} magasságpontja"
+
+msgid "{0} is the orthocenter of {1}"
+msgstr "{0} a(z) {1} magasságpontja"
+
+msgid "centroid of {0}"
+msgstr "{0} súlypontja"
+
+msgid "{0} is the centroid of {1}"
+msgstr "{0} a(z) {1} súlypontja"
+
+msgid "barycenter of {0}"
+msgstr "{0} súlypontja"
+
+msgid "{0} is the barycenter of {1}"
+msgstr "{0} a(z) {1} súlypontja"
