@@ -220,7 +220,11 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
         i18n = I18nFactory.getI18n(GExpert.class,
                 loc, org.xnap.commons.i18n.I18nFactory.FALLBACK);
-        JOptionPane.setDefaultLocale(loc);
+        JOptionPane.setDefaultLocale(loc); // this is not required if the next lines are present
+        // Some languages may be not supported in the current JDK/JRE, so we use this workaround:
+        UIManager.put("OptionPane.yesButtonText", getTranslationViaGettext("Yes"));
+        UIManager.put("OptionPane.noButtonText", getTranslationViaGettext("No"));
+        UIManager.put("OptionPane.cancelButtonText", getTranslationViaGettext("Cancel"));
     }
 
     public void initAttribute() {
