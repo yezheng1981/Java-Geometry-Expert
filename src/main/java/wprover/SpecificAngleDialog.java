@@ -173,20 +173,20 @@ public class SpecificAngleDialog extends JBaseDialog implements ActionListener, 
     }
 
 
-    public Vector getSpecifcAngle() {
+    public Vector getSpecificAngle() {
         Vector v = new Vector();
         if (cb1.isSelected())
-            v.add(new Integer(30));
+            v.add(30);
         if (cb2.isSelected())
-            v.add(new Integer(45));
+            v.add(45);
         if (cb3.isSelected())
-            v.add(new Integer(60));
+            v.add(60);
         if (cb4.isSelected())
-            v.add(new Integer(750));
+            v.add(75);
         if (cb5.isSelected())
-            v.add(new Integer(120));
+            v.add(120);
         if (cb6.isSelected())
-            v.add(new Integer(0));
+            v.add(0);
 
         return v;
     }

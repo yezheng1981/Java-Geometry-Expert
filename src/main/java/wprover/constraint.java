@@ -348,13 +348,13 @@ public class constraint {
             case CCLine:
                 return e1.TypeString() + " is the axes of " + e2.TypeString() + " and " + e3.TypeString();
             case TRATIO:
-                return "T(" + e4.m_name + e3.m_name + ") / " + "T(" + e1.m_name + e2.m_name + ") = 1 : " + new Integer(this.proportion).toString();
+                return "T(" + e4.m_name + e3.m_name + ") / " + "T(" + e1.m_name + e2.m_name + ") = 1 : " + this.proportion;
             case PERPBISECT:
                 return e1.TypeString() + " is on the perpendicular bisector of " + e2.m_name + " " + e3.TypeString();
             case MIRROR:
 
             case PRATIO:
-                return "o(" + e1.m_name + e2.m_name + ") / " + "o(" + e3.m_name + e4.m_name + ") = 1 : " + new Integer(this.proportion).toString();
+                return "o(" + e1.m_name + e2.m_name + ") / " + "o(" + e3.m_name + e4.m_name + ") = 1 : " + this.proportion;
             case LRATIO:
                 return "";
             case CIRCUMCENTER:
@@ -1054,8 +1054,8 @@ public class constraint {
             I = (Integer) elementlist.get(4);
             I1 = (Integer) elementlist.get(5);
         } else {
-            I = new Integer(1);
-            I1 = new Integer(1);
+            I = 1;
+            I1 = 1;
         }
         add_des(gib.C_TRATIO, p1, p2, p3, p4, I, I1);
         int t1 = I.intValue();
@@ -1135,7 +1135,7 @@ public class constraint {
         CPoint lp = ln1.get_Lpt1(p);
         CPoint lp1 = ln2.get_Lpt1(p);
         if (p != null && lp != null && lp1 != null) {
-            add_des(gib.C_SANGLE, lp, p, lp1, new Integer(Math.abs(I.intValue())));
+            add_des(gib.C_SANGLE, lp, p, lp1, Math.abs(I.intValue()));
             return poly.sangle(lp.x1.xindex, lp.y1.xindex, p.x1.xindex, p.y1.xindex, lp1.x1.xindex, lp1.y1.xindex, this.proportion);
         } else
             return null;
@@ -1987,7 +1987,7 @@ public class constraint {
                     elementlist.add(dp.getOjbectById(d));
                     break;
                 case 20:
-                    elementlist.add(new Integer(d));
+                    elementlist.add(d);
                     break;
                 default:
                     elementlist.add(dp.getOjbectById(d));

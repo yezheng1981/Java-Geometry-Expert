@@ -2775,6 +2775,10 @@ msgstr "Circuncentro"
 msgid "{0} is the barycenter of {1}"
 msgstr "retas perpendiculares"
 
+#, fuzzy
+msgid "Segment"
+msgstr "Transporte de segmento paralelo"
+
 #~ msgid "animate_start"
 #~ msgstr "iniciar animação"
 

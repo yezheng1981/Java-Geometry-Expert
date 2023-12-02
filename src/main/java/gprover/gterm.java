@@ -1023,7 +1023,7 @@ public class gterm {
             if (isStringTypeInt(s)) {
                 int v = Integer.parseInt(s);
                 pt.setPS(v, index++);
-                c.add_pt(new Integer(v), i - 1);
+                c.add_pt(v, i - 1);
                 c.add_pt(v, i - 1);
             } else {
                 pt.setPS(findPt(s), index++);

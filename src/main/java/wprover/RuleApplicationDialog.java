@@ -3,13 +3,8 @@ package wprover;
 import gprover.*;
 
 import javax.swing.*;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.tree.DefaultTreeModel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.Border;
-import javax.swing.border.BevelBorder;
 import javax.swing.border.SoftBevelBorder;
 import java.awt.event.*;
 import java.awt.*;
@@ -19,15 +14,12 @@ import java.net.URL;
 import java.io.IOException;
 
 import UI.EntityButtonUI;
-import UI.BlueishButtonUI;
-import UI.SolidBorder;
 
 import static wprover.GExpert.getLanguage;
 
 public class RuleApplicationDialog extends JBaseDialog implements ComponentListener, ActionListener, WindowListener {
 
     private GExpert gxInstance;
-    private GApplet1 app1;
     private DPanel dpane;
     private drawTextProcess dpp;
 
@@ -55,9 +47,7 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
         init();
     }
 
-    public RuleApplicationDialog(GApplet1 gx, DPanel d, drawTextProcess dp) {
-        super(gx.getFrame());
-        this.app1 = gx;
+    public RuleApplicationDialog(DPanel d, drawTextProcess dp) {
         this.dpane = d;
         this.dpp = dp;
         gxInstance = null;
@@ -746,7 +736,7 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
 
             for (int i = 0; i < aglist.size(); i++) {
                 xterm x = (xterm) aglist.get(i);
-                var v = x.var;
+                Var v = x.var;
                 if (v == null) continue;
                 CPoint p1 = dp.fd_point(v.pt[0]);
                 CPoint p2 = dp.fd_point(v.pt[1]);
@@ -799,7 +789,7 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
 
             for (int i = 0; i < aglist.size(); i++) {
                 xterm x = (xterm) aglist.get(i);
-                var v = x.var;
+                Var v = x.var;
                 if (v == null) {
                     continue;
                 }
@@ -958,7 +948,7 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
 
             if (gxInstance != null)
                 dlg = new RuleListDialog(gxInstance);
-            else dlg = new RuleListDialog(app1);
+            else dlg = new RuleListDialog();
 
             if (dlg.loadRule(type, RULE))
                 dlg.setVisible(true);

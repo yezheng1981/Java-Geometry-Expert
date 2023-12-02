@@ -138,8 +138,8 @@ public class LeadVariableDialog extends JBaseDialog implements MouseListener, Ac
 
                 o1.add(p1);
                 o2.add(p2);
-                o1.add(new Integer(poly.plength(p1.m)).toString());
-                o2.add(new Integer(poly.plength(p2.m)).toString());
+                o1.add(poly.plength(p1.m));
+                o2.add(poly.plength(p2.m));
 
                 if (!r) {
                     if (p1.m != null)
@@ -563,7 +563,7 @@ public class LeadVariableDialog extends JBaseDialog implements MouseListener, Ac
 
         public Object getValueAt(int row, int col) {
             if (col == 0)
-                return new Integer(row + 1);
+                return row + 1;
             else
                 return vlist.get(row);
         }

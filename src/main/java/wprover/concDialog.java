@@ -434,18 +434,10 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
 
     public void setSAngle() {
         bx1.removeAllItems();
-        bx1.addItem(new Integer("0"));
-        bx1.addItem(new Integer("15"));
-        bx1.addItem(new Integer("30"));
-        bx1.addItem(new Integer("36"));
-        bx1.addItem(new Integer("45"));
-        bx1.addItem(new Integer("72"));
-        bx1.addItem(new Integer("75"));
-        bx1.addItem(new Integer("90"));
-        bx1.addItem(new Integer("120"));
-        bx1.addItem(new Integer("135"));
-        bx1.addItem(new Integer("150"));
-        bx1.addItem(new Integer("180"));
+        int[] angles = {0, 15, 30, 36, 45, 72, 75, 90, 120, 135, 150, 180};
+        for (int i: angles) {
+            bx1.addItem(i);
+        }
         bx1.setVisible(true);
         bx2.setVisible(false);
     }
@@ -454,7 +446,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
         bx1.removeAllItems();
         bx2.removeAllItems();
         for (int i = 1; i <= 9; i++) {
-            Object obj = new Integer(i);
+            Object obj = i;
             bx1.addItem(obj);
             bx2.addItem(obj);
         }
@@ -739,7 +731,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
             b3.setFont(font);
             b4 = new JButton("=");
             b4.setFont(font);
-            b5 = new JButton("Number");
+            b5 = new JButton(GExpert.getLanguage("Number"));
             b5.setFont(font);
             p1.add(b1);
             p1.add(b2);
@@ -766,7 +758,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
             badd.addActionListener(this);
             mint = new JPopupMenu();
             for (int i = 0; i <= 10; i++) {
-                JMenuItem item = new JMenuItem(new Integer(i).toString());
+                JMenuItem item = new JMenuItem(i + "");
                 mint.add(item);
                 item.addActionListener(this);
             }
@@ -787,11 +779,11 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
             if (s == 0) {
                 bx[2].setVisible(false);
                 bx[2].setEnabled(false);
-                label.setText("(Segment) ");
+                label.setText("(" + GExpert.getLanguage("Segment") + " ");
             } else {
                 bx[2].setVisible(true);
                 bx[2].setEnabled(true);
-                label.setText("(Angle) ");
+                label.setText("(" + GExpert.getLanguage("Angle") + " ");
             }
             field.setText("");
             bx[0].setSelectedIndex(-1);

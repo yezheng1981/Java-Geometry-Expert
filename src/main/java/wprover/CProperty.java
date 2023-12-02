@@ -252,7 +252,7 @@ public class CProperty extends JPanel implements ActionListener {
 
             Integer[] array1 = new Integer[drawData.getDashCounter()];
             for (int i = 0; i < drawData.getDashCounter(); i++)
-                array1[i] = new Integer(i);
+                array1[i] = i;
             line_type = new JComboBox(array1);
             line_type.setMaximumRowCount(20);
             ColorComboRender render1 = new ColorComboRender(2, 100, 20);
@@ -270,7 +270,7 @@ public class CProperty extends JPanel implements ActionListener {
 
             Integer[] array2 = new Integer[20];
             for (int i = 0; i < 20; i++)
-                array2[i] = new Integer(i);
+                array2[i] = i;
 
             line_width = new JComboBox(array2);
             line_width.setMaximumRowCount(20);
@@ -460,10 +460,10 @@ public class CProperty extends JPanel implements ActionListener {
             CPoint[] pl = line.getMaxMinPoint();
             table.setValueAt(line.getAllPointName(), 1, 1);
             if (pl != null) {
-                table.setValueAt(new Double(round(pl[0].getx())), 2, 1);
-                table.setValueAt(new Double(round(pl[0].gety())), 3, 1);
-                table.setValueAt(new Double(round(pl[1].getx())), 4, 1);
-                table.setValueAt(new Double(round(pl[1].gety())), 5, 1);
+                table.setValueAt(round(pl[0].getx()), 2, 1);
+                table.setValueAt(round(pl[0].gety()), 3, 1);
+                table.setValueAt(round(pl[1].getx()), 4, 1);
+                table.setValueAt(round(pl[1].gety()), 5, 1);
             }
             ClearButtonBackGround();
             if (line.ext_type == 0)
@@ -528,9 +528,9 @@ public class CProperty extends JPanel implements ActionListener {
             table.setValueAt(circle.getAllPointName(), 1, 1);
             table.setValueAt(circle.o.m_name, 2, 1);
 
-            table.setValueAt(new Double(round(circle.o.getx())), 3, 1);
-            table.setValueAt(new Double(round(circle.o.gety())), 4, 1);
-            table.setValueAt(new Double(round(circle.getRadius())), 5, 1);
+            table.setValueAt(round(circle.o.getx()), 3, 1);
+            table.setValueAt(round(circle.o.gety()), 4, 1);
+            table.setValueAt(round(circle.getRadius()), 5, 1);
         }
 
     }
@@ -582,13 +582,13 @@ public class CProperty extends JPanel implements ActionListener {
             if (row == 0)
                 pt.m_name = data.toString();
             else if (row == 1) {
-                Integer r = new Integer(data.toString());
+                Integer r = Integer.parseInt(data.toString());
                 pt.setRadius(r.intValue());
             } else if (row == 2) {
-                Double d = new Double(data.toString());
+                Double d = Double.parseDouble(data.toString());
                 pt.setXY(d.doubleValue(), pt.gety());
             } else if (row == 3) {
-                Double d = new Double(data.toString());
+                Double d = Double.parseDouble(data.toString());
                 pt.setXY(pt.getx(), d.doubleValue());
             } else if (row == 4) {
                 pt.setFreezed(Boolean.parseBoolean(data.toString()));
@@ -601,9 +601,9 @@ public class CProperty extends JPanel implements ActionListener {
         public void setVariable(CPoint p) {
             pt = p;
             table.setValueAt(p.m_name, 0, 1);
-            table.setValueAt(new Integer(p.getRadiusValue()), 1, 1);
-            table.setValueAt(new Double(round(p.getx())), 2, 1);
-            table.setValueAt(new Double(round(p.gety())), 3, 1);
+            table.setValueAt(p.getRadiusValue(), 1, 1);
+            table.setValueAt(round(p.getx()), 2, 1);
+            table.setValueAt(round(p.gety()), 3, 1);
             table.setValueAt(pt.isFreezed(), 4, 1);
             border.setTitle(p.TypeString());
 
@@ -811,7 +811,7 @@ public class CProperty extends JPanel implements ActionListener {
 
             Object[][] obj2 =
                     {
-                            {getLanguage(347, "Significant Digits"), new Integer(0)}
+                            {getLanguage(347, "Significant Digits"), 0}
 
                     };
 
@@ -902,7 +902,7 @@ public class CProperty extends JPanel implements ActionListener {
 
             Object[][] obj =
                     {
-                            {getLanguage(450, "Point number"), new Integer("1")}, // FIXME: what is this?
+                            {getLanguage(450, "Point number"), 1}, // FIXME: what is this?
                     };
 
 
@@ -957,8 +957,8 @@ public class CProperty extends JPanel implements ActionListener {
 
             Object[][] obj =
                     {
-                            {getLanguage(452, "Num"), new Integer("1")},
-                            {getLanguage(247, "Length"), new Integer("1")}
+                            {getLanguage(452, "Num"), 1},
+                            {getLanguage(247, "Length"), 1}
                     };
 
             table = new JTable(new propertyTableModel(obj));
@@ -1063,7 +1063,7 @@ public class CProperty extends JPanel implements ActionListener {
             } else if (row == 0 && model == table.getModel()) {
                 polygon.setGrid(((Integer) data).intValue());
             } else if (row == 1 && model == table.getModel()) {
-                Integer d = new Integer(data.toString());
+                Integer d = Integer.parseInt(data.toString());
                 polygon.setSlope(d.intValue());
             }
             d.repaint();
@@ -1076,8 +1076,8 @@ public class CProperty extends JPanel implements ActionListener {
 
             table1.setValueAt(type[polygon.getType()], 0, 1);
 
-            table.setValueAt(new Integer(polygon.grid), 0, 1);
-            table.setValueAt(new Integer(polygon.slope), 1, 1);
+            table.setValueAt(polygon.grid, 0, 1);
+            table.setValueAt(polygon.slope, 1, 1);
         }
 
     }
@@ -1091,8 +1091,8 @@ public class CProperty extends JPanel implements ActionListener {
 
             Object[][] obj =
                     {
-                            {getLanguage(452, "Angle"), new Integer("30")},
-                            {getLanguage(247, "Length"), new Integer("1")}
+                            {getLanguage(452, "Angle"), 30},
+                            {getLanguage(247, "Length"), 1}
                     };
 
             table = new JTable(new propertyTableModel(obj));
@@ -1215,10 +1215,10 @@ public class CProperty extends JPanel implements ActionListener {
         private String[] names = {"", ""};
         private Object[][] data = {
                 {getLanguage(245, "Name"), new String()},
-                {getLanguage(4004, "Radius"), new Integer(-1)},
-                {getLanguage(4005, "X Coordinate"), new Double(0)},
-                {getLanguage(4006, "Y Coordinate"), new Double(0)},
-                {getLanguage(4007, "Freezed"), new Boolean(false)}
+                {getLanguage(4004, "Radius"), -1},
+                {getLanguage(4005, "X Coordinate"), 0},
+                {getLanguage(4006, "Y Coordinate"), 0},
+                {getLanguage(4007, "Freezed"), false}
         };
 
         public int getColumnCount() {
@@ -1260,10 +1260,10 @@ public class CProperty extends JPanel implements ActionListener {
         private Object[][] data = {
                 {getLanguage(245, "Name"), new String()},
                 {getLanguage(4008, "Point on Line"), new String()},
-                {"X1 ", new Double(0)},
-                {"Y1 ", new Double(0)},
-                {"X2 ", new Double(0)},
-                {"Y2", new Double(0)}
+                {"X1 ", 0},
+                {"Y1 ", 0},
+                {"X2 ", 0},
+                {"Y2", 0}
         };
 
         public int getColumnCount() {
@@ -1307,9 +1307,9 @@ public class CProperty extends JPanel implements ActionListener {
                 {getLanguage(245, "Name"), new String()},
                 {getLanguage(4009, "Point on Circle"), new String()},
                 {getLanguage(4012, "Center"), new String()},
-                {getLanguage(4010, "Center X"), new Double(0)},
-                {getLanguage(4011, "Center Y"), new Double(0)},
-                {getLanguage(4004, "Radius"), new Double(0)}
+                {getLanguage(4010, "Center X"), 0},
+                {getLanguage(4011, "Center Y"), 0},
+                {getLanguage(4004, "Radius"), 0}
         };
 
         public int getColumnCount() {
@@ -1349,8 +1349,8 @@ public class CProperty extends JPanel implements ActionListener {
     class PolygonTableModel extends AbstractTableModel {
         private String[] names = {"", ""};
         private Object[][] data = {
-                {getLanguage(4013, "Grid Step"), new Integer(0)},
-                {getLanguage(4014, "Slope Angle"), new Integer(0)},
+                {getLanguage(4013, "Grid Step"), 0},
+                {getLanguage(4014, "Slope Angle"), 0},
         };
 
         public int getColumnCount() {

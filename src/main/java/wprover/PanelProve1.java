@@ -5,7 +5,6 @@ import UI.*;
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
-import javax.swing.border.SoftBevelBorder;
 import javax.swing.event.*;
 import javax.swing.tree.*;
 import java.awt.*;
@@ -31,7 +30,6 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
     private GExpert gxInstance;
     private DPanel dpane;
     private drawTextProcess dp;
-    private GApplet1 app1 = null;
 
     private Conspanel condPane; //  construction;
 
@@ -112,10 +110,6 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 //                tree_db.setFont(f);
 //            }
 //        }
-    }
-
-    public void setApplet1(GApplet1 app1) {
-        this.app1 = app1;
     }
 
     public void setSelectedIndex(int index) {
@@ -261,7 +255,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
                                 if (gxInstance != null)
                                     dialog = new RuleApplicationDialog(gxInstance, dpane, dp);
-                                else dialog = new RuleApplicationDialog(app1, dpane, dp);
+                                else dialog = new RuleApplicationDialog(dpane, dp);
 
                                 if (lstDrawDialog != null)
                                     lstDrawDialog.setVisible(false);
@@ -281,7 +275,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
                         if (gxInstance != null)
                             dlg = new RuleListDialog(gxInstance);
-                        else dlg = new RuleListDialog(app1);
+                        else dlg = new RuleListDialog();
 
                         if (lstRuleDialog != null)
                             lstRuleDialog.setVisible(false);
@@ -290,7 +284,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                         if (dlg.loadRule(0, c.getRule()))
                             dlg.setVisible(true);
                     } else if (t == 1) {
-                        var v = ((xterm) selectLabel.getUserObject()).var;
+                        Var v = ((xterm) selectLabel.getUserObject()).var;
                         if (null != v) {
                             {
                                 dp.addFlashAngle(v.pt[0], v.pt[1], v.pt[2], v.pt[3]);
@@ -454,7 +448,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
                                 if (gxInstance != null)
                                     dialog = new RuleApplicationDialog(gxInstance, dpane, dp);
-                                else dialog = new RuleApplicationDialog(app1, dpane, dp);
+                                else dialog = new RuleApplicationDialog(dpane, dp);
 
                                 dialog.LoadRule(el);
                                 if (objx != null)
@@ -468,7 +462,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
                                 if (gxInstance != null)
                                     dialog = new RuleApplicationDialog(gxInstance, dpane, dp);
-                                else dialog = new RuleApplicationDialog(app1, dpane, dp);
+                                else dialog = new RuleApplicationDialog(dpane, dp);
 
                                 dialog.LoadRule(c);
                                 if (objx != null)
@@ -484,7 +478,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
                         if (gxInstance != null)
                             dlg = new RuleListDialog(gxInstance);
-                        else dlg = new RuleListDialog(app1);
+                        else dlg = new RuleListDialog();
 
                         if (dlg.loadRule(1, el.getEType()))
                             dlg.setVisible(true);
@@ -927,7 +921,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
     public void showTime(long n) {
         float t = (float) (n / 1000.0);
         if (gxInstance != null)
-            gxInstance.setTextLabel2(getLanguage(1003, "Time:") + " " + new Float(t) + " " + getLanguage(308, "second(s)"));
+            gxInstance.setTextLabel2(getLanguage(1003, "Time:") + " " + t + " " + getLanguage(308, "second(s)"));
              //       + ";" );//+ getLanguage(10001, "  Facts") + ": " + Prover.getNumberofProperties());
     }
 
@@ -1105,7 +1099,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 gr_term g = (gr_term) obj;
                 Vector v1 = g.getAllvars();
                 for (int i = 0; i < v1.size(); i++) {
-                    var vr = (var) v1.get(i);
+                    Var vr = (Var) v1.get(i);
                     CLine ln1 = dp.addLn(vr.pt[0], vr.pt[1]);
                     CLine ln2 = dp.addLn(vr.pt[2], vr.pt[3]);
                     CPoint p1 = dp.fd_point(vr.pt[0]);
@@ -1123,7 +1117,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 Vector v1 = el.getAllxterm();
                 for (int i = 0; i < v1.size(); i++) {
                     xterm x = (xterm) v1.get(i);
-                    var vr = x.var;
+                    Var vr = x.var;
                     if (vr == null) {
                         continue;
                     }

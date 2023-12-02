@@ -9,10 +9,10 @@ package gprover;
  */
 public class term
 {
-      var v;
+      Var v;
       long t1, t2;
 
-      public term(var v, int t1, int t2)
+      public term(Var v, int t1, int t2)
       {
             this.v = v;
             this.t1 = t1;

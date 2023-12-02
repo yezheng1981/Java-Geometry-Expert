@@ -2772,6 +2772,10 @@ msgstr "外心"
 msgid "{0} is the barycenter of {1}"
 msgstr "垂直线"
 
+#, fuzzy
+msgid "Segment"
+msgstr "有向线段"
+
 #~ msgid "animate_start"
 #~ msgstr "播放动画"
 

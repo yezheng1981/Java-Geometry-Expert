@@ -259,7 +259,7 @@ public class TreeCellOpaqueRender extends JPanel implements TreeCellRenderer, Mo
             int t = node.getIndex();
             if (t >= 0) {
                 TreeCellOpaqueLabel label = this.getLabelByIndex(k++);
-                label.setUserObject(new Integer(t));
+                label.setUserObject(t);
                 this.add(label);
             }
 

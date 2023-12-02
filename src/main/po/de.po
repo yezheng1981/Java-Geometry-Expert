@@ -2752,6 +2752,10 @@ msgstr "Umkreismittelpunkt"
 msgid "{0} is the barycenter of {1}"
 msgstr "normale Geraden"
 
+#, fuzzy
+msgid "Segment"
+msgstr "Vektor"
+
 #~ msgid "animate_start"
 #~ msgstr "Starte Animation"
 

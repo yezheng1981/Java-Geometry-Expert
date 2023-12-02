@@ -2745,6 +2745,9 @@ msgstr "نقاط میانی"
 msgid "{0} is the barycenter of {1}"
 msgstr "خطوط عمود"
 
+msgid "Segment"
+msgstr ""
+
 #~ msgid "FF"
 #~ msgstr "بعدی"
 

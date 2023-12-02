@@ -43,12 +43,8 @@ public class CMisc {
         return DEBUG;
     }
 
-    final public static boolean isApplet() {
-        return APPLET;
-    }
-
     final public static boolean isApplication() {
-        return !APPLET;
+        return true;
     }
 
     final public static void print(String s) {

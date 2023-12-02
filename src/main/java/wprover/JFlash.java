@@ -315,7 +315,7 @@ public abstract class JFlash {
             } else {
                 k = k * 100 - 50;
             }
-            g2.drawString(new Float((int) ((k) / 100)).toString(), (int) cx, (int) cy);
+            g2.drawString(((int) ((k) / 100)) + "", (int) cx, (int) cy);
         }
 
     }

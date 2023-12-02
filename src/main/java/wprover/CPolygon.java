@@ -753,7 +753,7 @@ public class CPolygon extends CClass {
             }
             s += "closepath";
             if (stype != 2)
-                s += " Color" + new Integer(m_color).toString() + " ";
+                s += " Color" + m_color + " ";
             else {
                 Color c = super.getColor();
                 double gray = (int) ((0.11 * c.getRed() + 0.59 * c.getGreen() + 0.3 * c.getBlue()) / 2.55) / 100.0;

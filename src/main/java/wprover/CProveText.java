@@ -154,7 +154,7 @@ public class CProveText {
         rpath = "";
         font = new Font("Dialog", Font.PLAIN, 14);
         if (index >= 0)
-            head = new Integer(index + 1).toString();
+            head = (index + 1) + "";
         else
             head = "";
 
@@ -224,7 +224,7 @@ public class CProveText {
         rule = "";
         rpath = "";
         font = new Font("Dialog", Font.PLAIN, 14);
-        head = new Integer(index + 1).toString() + ":  ";
+        head = (index + 1) + ":  ";
         msg = un.msg;
         if (un.m_type == UndoStruct.T_COMBINED_NODE || (un.m_type == UndoStruct.T_PROVE_NODE) && un.childundolist.size() > 0) {
 
@@ -242,7 +242,7 @@ public class CProveText {
 
 
     public void setIndex(int index) {
-        head = new Integer(index + 1).toString() + ":  ";
+        head = (index + 1) + ":  ";
         if (cpfield != null)
             cpfield.reGenerateIndex();
     }
@@ -692,7 +692,7 @@ public class CProveText {
             double r = ((double) (100 * c.getRed() / 255)) / 100;
             double g = ((double) (100 * c.getGreen() / 255)) / 100;
             double b = ((double) (100 * c.getBlue() / 255)) / 100;
-            String s = new Double(r).toString() + " " + new Double(g).toString() + " " + new Double(b).toString();
+            String s = r + " " + r + " " + r;
             s += " setrgbcolor ";
             fp.write(s.getBytes());
         } else if (stype == 1)  //gray

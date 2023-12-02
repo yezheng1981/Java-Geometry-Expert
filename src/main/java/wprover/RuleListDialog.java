@@ -24,8 +24,7 @@ public class RuleListDialog extends JBaseDialog {
         init();
     }
 
-    public RuleListDialog(GApplet1 gx) {
-        super(gx.getFrame());
+    public RuleListDialog() {
         gxInstance = null;
         init();
     }
@@ -208,7 +207,7 @@ public class RuleListDialog extends JBaseDialog {
         }
 
         public boolean loadRule(int t, int n) {
-            String s = new Integer(n).toString();
+            String s = n + "";
 
             try {
                 GeoPoly.clearZeroN();

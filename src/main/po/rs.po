@@ -2778,6 +2778,10 @@ msgstr "Središte opisanog kruga"
 msgid "{0} is the barycenter of {1}"
 msgstr "normalne prave"
 
+#, fuzzy
+msgid "Segment"
+msgstr "Vektor"
+
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"
 

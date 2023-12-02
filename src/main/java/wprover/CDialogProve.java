@@ -140,7 +140,7 @@ class ProvePane extends JPanel
         Font f = cptext.getFont();
 
         bfonts.setSelectedItem(f.getName());
-        bsize.setSelectedItem(new Integer(f.getSize()));
+        bsize.setSelectedItem(f.getSize());
 
         Color c1 = cptext.getCaptainColor();
         color_captain.setForeground(c1);
@@ -329,12 +329,8 @@ class ProvePane extends JPanel
         lbpanel.add(bfonts);
         lbpanel.add(Box.createHorizontalStrut(5));
 
-        bsize = new JComboBox(new Object[]{new Integer(10), new Integer(11), new Integer(12),
-                new Integer(13), new Integer(14), new Integer(15),
-                new Integer(16), new Integer(18), new Integer(20),
-                new Integer(22), new Integer(24), new Integer(26),
-                new Integer(27), new Integer(28), new Integer(29),
-                new Integer(30), new Integer(36), new Integer(72)});
+        bsize = new JComboBox(new Object[]{10, 11, 12, 13, 14, 15, 16, 18, 20, 22, 24, 26, 27, 28, 29, 30, 36, 72});
+
         bsize.setMaximumRowCount(9);
         bsize.addItemListener(this);
         lbpanel.add(bsize);

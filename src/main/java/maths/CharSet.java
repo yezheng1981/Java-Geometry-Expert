@@ -151,7 +151,7 @@ public class CharSet {
         int i = 0;
         while (pp != null) {
             if (pp.getPoly() != null) {
-                Integer s = new Integer(i);
+                Integer s = i;
                 System.out.print("f" + s.toString() + "= ");
                 basic.print(pp.getPoly());
                 i++;

@@ -2697,3 +2697,6 @@ msgstr "{0} súlypontja"
 
 msgid "{0} is the barycenter of {1}"
 msgstr "{0} a(z) {1} súlypontja"
+
+msgid "Segment"
+msgstr "Szakasz"

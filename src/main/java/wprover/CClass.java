@@ -257,14 +257,14 @@ abstract public class CClass {
     public abstract void SavePS(FileOutputStream fp, int stype) throws IOException;
 
     public void saveSuperColor(FileOutputStream fp) throws IOException {
-        String s = " Color" + new Integer(m_color).toString() + " ";
+        String s = " Color" + m_color + " ";
         fp.write(s.getBytes());
     }
 
     public void saveSuper(FileOutputStream fp) throws IOException {
-        String s = " Color" + new Integer(m_color).toString() + " ";
-        s += "Dash" + new Integer(m_dash).toString() + " ";
-        s += "Width" + new Integer(m_width).toString() + " ";
+        String s = " Color" + m_color + " ";
+        s += "Dash" + m_dash + " ";
+        s += "Width" + m_width + " ";
         s += "stroke \n";
         fp.write(s.getBytes());
     }

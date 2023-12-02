@@ -83,7 +83,7 @@ public class TextFrame extends JBaseDialog implements ItemListener,
         int n = fz.length;
         Object[] o = new Object[n];
         for (int i = 0; i < n; i++)
-            o[i] = new Integer(fz[i]);
+            o[i] = fz[i];
 
         sizes = new JComboBox(o);
 

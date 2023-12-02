@@ -364,9 +364,9 @@ public class CPoint extends CClass {
         float x1 = (float) (((int) (this.x1.value * 100)) / 100.0);
         float y1 = (float) (((int) (this.y1.value * 100)) / 100.0);
 
-        fp.write((new Float(x1).toString() + ' ').getBytes());
+        fp.write(((x1) + " ").getBytes());
 
-        fp.write((new Float(-y1).toString() +
+        fp.write(((-y1) +
                 "} def \n").getBytes());
 
     }

@@ -18,7 +18,7 @@ public class CCoBox extends JComboBox {
     public static CCoBox CreateAInstance() {
         Integer[] intArray = new Integer[drawData.getColorCounter() + 1];
         for (int i = 0; i <= drawData.getColorCounter(); i++) {
-            intArray[i] = new Integer(i);
+            intArray[i] = i;
         }
         CCoBox cb = new CCoBox(intArray);
 
@@ -52,7 +52,7 @@ public class CCoBox extends JComboBox {
 
             if (co >= n)
                 for (int j = n; j <= co; j++) {
-                    cb.addItem(new Integer(j));
+                    cb.addItem(j);
                 }
         }
     }

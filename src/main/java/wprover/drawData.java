@@ -67,10 +67,10 @@ public class drawData {
         }
 
 
-        dashlist.add(new Double(0));
+        dashlist.add(0);
         for (int i = 1; i < 10; i++) {
-            dashlist.add(new Double(i));
-            dashlist.add(new Double(i + 0.5));
+            dashlist.add(i);
+            dashlist.add(i + 0.5);
         }
 
         double[] wid =
@@ -78,10 +78,10 @@ public class drawData {
                     0.5, 0.8, 1.0, 1.3, 1.5, 1.8
                 };
         for (int i = 0; i < wid.length; i++)
-            widthlist.add(new Double(wid[i]));
+            widthlist.add(wid[i]);
         for (int i = 2; i < 20; i++) {
-            widthlist.add(new Double(i));
-            widthlist.add(new Double(i + 0.5));
+            widthlist.add(i);
+            widthlist.add(i + 0.5);
         }
     }
 
@@ -217,9 +217,9 @@ public class drawData {
             int index = In.intValue();
             Color c = (Color) dd.colorlist.get(index);
             if (stype == 0) {
-                String rs = new Double(((double) ((1000 * c.getRed()) / 255)) / 1000.0).toString();
-                String rg = new Double(((double) ((1000 * c.getGreen()) / 255)) / 1000.0).toString();
-                String rb = new Double(((double) ((1000 * c.getBlue()) / 255)) / 1000.0).toString();
+                String rs = (((1000 * c.getRed()) / 255)) / 1000.0 + "";
+                String rg = (((1000 * c.getGreen()) / 255)) / 1000.0 + "";
+                String rb = (((1000 * c.getBlue()) / 255)) / 1000.0 + "";
                 String s = "/Color" + In.toString() + "{" + rs
                         + " " + rg + " " + rb
                         + " " + "setrgbcolor" + "} " + " def " + "\n";

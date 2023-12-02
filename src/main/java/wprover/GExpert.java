@@ -174,8 +174,6 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public void loadPreference() {
-        if (CMisc.isApplet())
-            return;
 
         String u = getUserHome();
         try {
@@ -189,8 +187,6 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public void loadLanguage() {
-        if (CMisc.isApplet())
-            return;
 
         language = new Language();
         String user_directory = getUserDir();
@@ -228,8 +224,6 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public void initAttribute() {
-        if (CMisc.isApplet())
-            return;
 
         if (language != null && !language.isEnglish()) {
             Font f = language.getFont();
@@ -629,37 +623,6 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         this.addDirectory(dir, menu, dr);
     }
 
-//    public URL getDocumentBase() {
-//        if (CMisc.isApplet()) {
-//            Object o = (Object)this;
-//            JApplet a = (JApplet)o;
-//            return a.getDocumentBase();
-//        }
-//        return null;
-//    }
-
-    void addAllOnLineExamples(JMenu menu) {     // APPLICATION ONLY
-
-        if (!CMisc.isApplet())
-            return;
-
-        try {
-            Object o = (Object) this;
-            JApplet a = (JApplet) o;
-            URL base = a.getDocumentBase();
-
-            URL ul = new URL(base, "example_list.txt");
-            URLConnection urlc = ul.openConnection();
-            urlc.connect();
-            InputStream instream = urlc.getInputStream();
-            BufferedReader br = new BufferedReader(new InputStreamReader(instream));
-            br.readLine();
-            this.addDirectory(br, menu, new String(""));
-        } catch (IOException e) {
-            CMisc.eprint(this, "Error in read example list.");
-        }
-    }
-
     void addDirectory(File f, JMenu menu, String path) {
 
         String sp = GExpert.getFileSeparator();
@@ -821,23 +784,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         menu = new JMenu(getLanguage("Examples"));
         menuBar.add(menu);
 
-        if (CMisc.isApplet())
-            addAllOnLineExamples(menu); // APPLET ONLY.
-        else
-            addAllExamples(menu);
-
-//        menu = new JMenu("Edit");
-//        menuBar.add(menu);
-//        addAMenu(menu,"Redo","Redo a step",this);
-//        addAMenu(menu,"Uedo","Undo a step",this);
-//        addAMenu(menu,"Forward to End","Undo a step",this);
-//        addAMenu(menu,"Back to Begin","Undo a step",this);
-//        menu.addSeparator();
-//        addAMenu(menu,"Translate","Translate View",this);
-//        addAMenu(menu,"Zoom-in","Zoom in",this);
-//        addAMenu(menu,"Zoom-out","Zoom out",this);
-//        
-
+        addAllExamples(menu);
 
         menu = new JMenu(getLanguage("Construct"));
         menuBar.add(menu);
@@ -1180,7 +1127,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public static String getTranslationViaGettext(String s) {
-        return getTranslationViaGettext(s, null);
+        return getTranslationViaGettext(s, (String) null);
     }
 
     public static String getTranslationViaGettext(String s, String... p) {
@@ -1263,12 +1210,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         d.setCursor(Cursor.getDefaultCursor());
 
         if (command.equals("example")) {
-//            try {
-            if (!CMisc.isApplet())
-                this.openAFile(new File(pname + "/" + tip));
-            else
-                openAOnlineFile(pname, ps);
-
+            this.openAFile(new File(pname + "/" + tip));
         } else if (command.equals("Save as PS")) {
             if (!need_save())
                 return;
@@ -2273,87 +2215,6 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         return image;
     }
 
-
-    public boolean openAOnlineFile(String path, String pname) {
-
-        if (2 == this.Clear()) return false;  // cancel option.
-
-        if (CMisc.isApplication())
-            return false;
-
-        Object o = (Object) this;
-        JApplet a = (JApplet) o;
-
-        URL uc = a.getDocumentBase();
-
-        URL ul;
-        try {
-            if (pname.length() == 0)
-                ul = new URL(uc, "examples/" + path + ".gex");
-            else
-                ul = new URL(uc, "examples/" + path + '/' + pname + ".gex");//s + pname + System.getProperty("file.separator") + ps) ;
-
-            URLConnection urlc = ul.openConnection();
-            urlc.connect();
-            InputStream instream = urlc.getInputStream();
-            DataInputStream in = (new DataInputStream(instream));
-            dp.Load(in);
-
-            if (CMisc.version_load_now < 0.035) {
-                this.showppanel(true);
-            } else if (CMisc.version_load_now == 0.035) {
-                mnode n = new mnode();
-                n.Load(in, dp);
-                pprove.loadMTree(n);
-                this.showppanel(false);
-            } else if (CMisc.version_load_now >= 0.036) {
-                pprove.LoadProve(in);
-            }
-            in.close();
-            dp.stopUndoFlash();
-        } catch (IOException ee) {
-            //CMisc.eprint(this, ee.toString() + "\n" + ee.getStackTrace());
-            StackTraceElement[] tt = ee.getStackTrace();
-
-            String s = ee.toString();
-            for (int i = 0; i < tt.length; i++) {
-                if (tt[i] != null)
-                    s += tt[i].toString() + "\n";
-            }
-            JOptionPane.showMessageDialog(this, s);
-            System.out.println(s);
-        }
-        return false;
-    }
-
-
-    public DataOutputStream openOutputFile(String s) {
-
-        String s1 = getUserDir();
-        String s2 = getFileSeparator();
-
-        try {
-            FileOutputStream fp;
-            File f = new File(s1 + s2 + s);
-
-            if (f.exists()) {
-                f.delete();
-                fp = new FileOutputStream(f, true);
-
-            } else {
-                f.createNewFile();
-                fp = new FileOutputStream(f, false);
-            }
-            if (fp == null) {
-                return null;
-            }
-            DataOutputStream out = new DataOutputStream(fp);
-            return out;
-        } catch (IOException e) {
-        }
-        return null;
-    }
-
     public boolean openAFile(File file) {
         String path = file.getPath();
         File f = new File(path);
@@ -2756,15 +2617,6 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         BK4.setEnabled(true);
     }
 
-//    public void setTitle(String title) {
-//        if (CMisc.isApplet()) {
-//        } else {
-//            JFrame f = (JFrame) (Object) this;
-//            f.setTitle(title);
-//        }
-//    }
-
-
     public void updateTitle() { // APPLET ONLY.
         if (!CMisc.isApplication())
             return;
@@ -3080,7 +2932,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         Locale.setDefault(Locale.ENGLISH);
 
         GExpert exp = new GExpert();
-        if (!CMisc.isApplet()) {
+        if (true) {
 
 
             JFrame frame = (JFrame) (Object) exp;
@@ -3098,9 +2950,6 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     }
 
     public static void setLookAndFeel() {
-
-        if (CMisc.isApplet())
-            return;
 
         try {
             String f = CMisc.lookAndFeel;

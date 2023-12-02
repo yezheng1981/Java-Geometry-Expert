@@ -132,13 +132,13 @@ public class drawTextProcess extends drawProcess {
                 if (tx >= 0) {
                     out.write("+".getBytes());
                 }
-                out.write((new Integer(tx).toString() + "," +
-                        new Integer(y).toString()).getBytes());
+                out.write((tx + "," +
+                        y).getBytes());
                 int ty = p1.y;
                 if (ty >= 0) {
                     out.write("+".getBytes());
                 }
-                out.write((new Integer(ty).toString() + ")  ").getBytes());
+                out.write((ty + ")  ").getBytes());
             }
             if (i != n - 1 && i > 0 && i % 4 == 0) {
                 out.write("\n".getBytes());
@@ -1086,7 +1086,7 @@ public class drawTextProcess extends drawProcess {
             case gib.C_TRATIO: {
                 if (!addGTPt(pt)) {
                     constraint cs = new constraint(constraint.TRATIO, fd_point(pp[0]), fd_point(pp[1]), fd_point(pp[2]), fd_point(pp[3]),
-                            new Integer(pp[4]), new Integer(pp[5]));
+                            pp[4], pp[5]);
                     this.addConstraintToList(cs);
                     this.charsetAndAddPoly(cc);
                     addLn(pp[0], pp[1]);
@@ -1097,7 +1097,7 @@ public class drawTextProcess extends drawProcess {
             case gib.C_PRATIO: {
                 if (!addGTPt(pt)) {
                     constraint cs = new constraint(constraint.PRATIO, fd_point(pp[0]), fd_point(pp[1]),
-                            fd_point(pp[2]), fd_point(pp[3]), new Integer(pp[4]), new Integer(pp[5]));
+                            fd_point(pp[2]), fd_point(pp[3]), pp[4], pp[5]);
                     this.addConstraintToList(cs);
                     this.charsetAndAddPoly(cc);
                     addLn(pp[0], pp[1]);
@@ -1107,7 +1107,10 @@ public class drawTextProcess extends drawProcess {
             }
             case gib.C_LRATIO: {
                 if (!addGTPt(pt)) {
-                    constraint cs = new constraint(constraint.LRATIO, fd_point(pp[0]), fd_point(pp[1]), fd_point(pp[3]), new Integer(pp[4]), new Integer(pp[5]));
+                    // constraint cs = new constraint(constraint.LRATIO, fd_point(pp[0]), fd_point(pp[1]), fd_point(pp[3]),
+                    //         new Integer(pp[4]), new Integer(pp[5]));
+                    constraint cs = new constraint(constraint.LRATIO, fd_point(pp[0]), fd_point(pp[1]), fd_point(pp[3]),
+                            (Object) (pp[4]), pp[5]);
                     this.addConstraintToList(cs);
                     this.charsetAndAddPoly(cc);
                     addLn(pp[1], pp[3]);
@@ -2477,7 +2480,7 @@ public class drawTextProcess extends drawProcess {
         if (x == null) {
             return null;
         }
-        var v = x.var;
+        Var v = x.var;
         if (v == null) {
             return null;
         }

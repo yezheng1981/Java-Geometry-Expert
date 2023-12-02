@@ -398,9 +398,9 @@ public class drawbase {
     }
 
     final public void drawPointNameLocation(CPoint p, Graphics2D g2) {
-        g2.drawString("(x: " + new Integer((int) p.getx()).toString() + ", y: " +
-                new Integer((int) p.gety()).toString() + ")",
-                (int) p.getx() + 23, (int) p.gety() - 5);
+        g2.drawString("(x: " + ((int) p.getx()) + ", y: " +
+                (int) p.gety() + ")",
+                (int) p.getx() + 23, (int) p.gety() - 5); // FIXME: 23 and 5 seem hardcoded
     }
 
     final public void setCurrentDrawEnvironment(Graphics2D g2) {
@@ -631,8 +631,6 @@ public class drawbase {
         if (p1 == null || p2 == null) return;
 
         if (CMisc.isApplication() && !CMisc.isFootMarkShown()) return;
-
-        if (CMisc.isApplet() && !footMarkShown) return; //APPLET ONLY.
 
         if (!isLineDrawn(pc, p1) || !isLineDrawn(pc, p2))
             return;

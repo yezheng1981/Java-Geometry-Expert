@@ -172,14 +172,14 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
                     int n = slider.getValue();
                     float f = (100 - n) / 100.0f;
                     CMisc.setFillCompositeAlpha(f);
-                    text.setText(new Integer(n).toString());
+                    text.setText(n + "");
                     gxInstance.d.repaint();
                 }
             });
 
             p1.add((text = new JLabel()));
             //   p1.add(Box.createHorizontalGlue());
-            text.setText(new Integer(n).toString());
+            text.setText(n + "");
 
             p1.add(Box.createHorizontalGlue());
             this.add(p1);

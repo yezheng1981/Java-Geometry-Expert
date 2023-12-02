@@ -6,7 +6,6 @@ import javax.swing.*;
 import javax.swing.Timer;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.awt.List;
 import java.util.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
@@ -15,7 +14,6 @@ import java.awt.print.*;
 import java.io.*;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
-import java.util.zip.ZipInputStream;
 
 import maths.TPoly;
 import maths.TMono;
@@ -2253,7 +2251,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
         if (!dlg.isOkPressed()) {
             return;
         }
-        Vector v = dlg.getSpecifcAngle();
+        Vector v = dlg.getSpecificAngle();
 
         for (int i = 0; i < v.size(); i++) {
             Integer in = (Integer) v.get(i);
@@ -2299,7 +2297,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
         for (int i = 0; i < constraintlist.size(); i++) {
             constraint cs = (constraint) constraintlist.get(i);
             if (cs.GetConstraintType() == constraint.SPECIFIC_ANGEL) {
-                v.add(new Integer(cs.proportion));
+                v.add(cs.proportion);
             }
         }
         return v;
@@ -3294,7 +3292,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                         CPoint p2 = (CPoint) SelectList.get(1);
 
                         p = this.CreateANewPoint(x, y);
-                        constraint cs = new constraint(constraint.PRATIO, p, px, p1, p2, new Integer(v1), new Integer(v2));
+                        constraint cs = new constraint(constraint.PRATIO, p, px, p1, p2, v1, v2);
                         CPoint pu = this.addADecidedPointWithUnite(p);
                         if (pu == null) {
                             this.addConstraintToList(cs);
@@ -3341,7 +3339,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     double dx = p2.getx() - p1.getx();
                     double dy = p2.gety() - p1.gety();
 
-                    constraint cs = new constraint(constraint.TRATIO, p, px, p1, p2, new Integer(v1), new Integer(v2));
+                    constraint cs = new constraint(constraint.TRATIO, p, px, p1, p2, v1, v2);
                     CPoint pu = this.addADecidedPointWithUnite(p);
                     if (pu == null) {
                         addConstraintToList(cs);
@@ -3488,8 +3486,8 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     }
                     CPoint p1 = (CPoint) SelectList.get(0);
                     CPoint pp = this.CreateANewPoint(x, y);
-                    Integer t1 = new Integer(v1);
-                    Integer t2 = new Integer(v2);
+                    Integer t1 = v1;
+                    Integer t2 = v2;
                     constraint cs = new constraint(constraint.LRATIO, pp, p1, p, t1, t2);
                     CPoint pu = this.addADecidedPointWithUnite(pp);
                     if (pu == null) {
@@ -4083,7 +4081,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                         this.UndoAdded(pt1.m_name + pt2.m_name + " = " + pt3.m_name +
                                 pt.m_name);
                     } else {
-                        constraint cs = new constraint(constraint.NRATIO, pt1, pt2, pt3, pt, new Integer(v1), new Integer(v2));
+                        constraint cs = new constraint(constraint.NRATIO, pt1, pt2, pt3, pt, v1, v2);
                         this.addConstraintToList(cs);
                         this.charsetAndAddPoly(false);
                         clearSelection();
@@ -4148,7 +4146,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     dlg.setTitle("Please select an specific angle");
                     dlg.setVisible(true);
 
-                    Vector v = dlg.getSpecifcAngle();
+                    Vector v = dlg.getSpecificAngle();
                     if (v.size() == 1) {
                         Integer in = (Integer) v.get(0);
                         int va = in.intValue();
@@ -4911,10 +4909,10 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     int id = 0;
 
                     if (r1 <= r2) {
-                        I = new Integer(-STATUS);
+                        I = -STATUS;
                         id = add_sp_angle_value(-STATUS);
                     } else {
-                        I = new Integer(STATUS);
+                        I = STATUS;
                         id = add_sp_angle_value(STATUS);
                     }
                     CLine ln = new CLine(CLine.SALine);
@@ -5602,7 +5600,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
 //            line.m_name = new String(c);
 //        }
         String str = new String("l");
-        str += new Integer(this.plineCounter).toString();
+        str += this.plineCounter;
 //        plineCounter++;
         line.m_name = str;
         this.plineCounter++;
@@ -5651,7 +5649,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
             return;
         }
         String str = new String("c");
-        str += new Integer(this.pcircleCounter).toString();
+        str += this.pcircleCounter;
         pcircleCounter++;
         c.m_name = str;
         circlelist.add(c);
@@ -9320,11 +9318,11 @@ drawProcess extends drawbase implements Printable, ActionListener {
             if (In.intValue() == atrr) {
                 return;
             } else if (In.intValue() > atrr) {
-                v.add(i, new Integer(atrr));
+                v.add(i, atrr);
                 return;
             }
         }
-        v.add(i, new Integer(atrr));
+        v.add(i, atrr);
 
     }
 
@@ -10257,7 +10255,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
         if (n >= 10) {
             sn = new String(ch);
         } else {
-            sn = new Integer(n).toString();
+            sn = n + "";
         }
         return sn;
     }
@@ -10805,7 +10803,7 @@ drawProcess extends drawbase implements Printable, ActionListener {
     public void addOrientedSegment(CPoint p1, CPoint p2, CPoint px, double x, double y) {
         CPoint p = this.CreateANewPoint(x, y);
 
-        constraint cs = new constraint(constraint.PRATIO, p, px, p1, p2, new Integer(1), new Integer(1));
+        constraint cs = new constraint(constraint.PRATIO, p, px, p1, p2, 1, 1);
         CPoint pu = this.addADecidedPointWithUnite(p);
         if (pu == null) {
             this.addConstraintToList(cs);

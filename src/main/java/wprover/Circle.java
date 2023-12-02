@@ -359,7 +359,7 @@ public class Circle extends CClass {
 
         float r = (float) (((int) (getRadius() * 100)) / 100.0);
         String s = "newpath " + o.m_name + " " +
-                new Float(r).toString() + " circle";
+                r + " circle";
         fp.write(s.getBytes());
         this.saveSuper(fp);
     }

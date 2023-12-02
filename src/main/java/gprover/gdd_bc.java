@@ -2044,7 +2044,7 @@ public class gdd_bc extends gdd_aux {
 
 
     public void show_ast(angst ast) {
-        gprint(new Integer(ast.no).toString() + ".");
+        gprint(ast.no + ".");
         if (ast.no < 10) gprint("  ");
         for (int j = 0; j < ast.no; j++) {
             show_agll(ast.ln1[j], ast.ln2[j]);

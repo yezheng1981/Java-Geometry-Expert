@@ -2673,3 +2673,5 @@ msgstr ""
 msgid "{0} is the barycenter of {1}"
 msgstr ""
 
+msgid "Segment"
+msgstr ""

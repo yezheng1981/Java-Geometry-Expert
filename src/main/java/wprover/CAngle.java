@@ -705,7 +705,7 @@ public class CAngle extends CClass {
         if (ftype == 1) {
             String s = "";
             s += xp[0] + " " + yp[0] + " moveto " + xp[1] + " " + yp[1] + " lineto " + xp[2] + " " + yp[2] + " lineto "
-                    + xp[3] + " " + yp[3] + " lineto " + "closepath " + " Color" + new Integer(m_color).toString() + " "
+                    + xp[3] + " " + yp[3] + " lineto " + "closepath " + " Color" + m_color + " "
                     + "fill stroke\n";
             fp.write(s.getBytes());
         } else if (ftype == 2) {
