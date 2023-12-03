@@ -1582,9 +1582,17 @@ msgstr ""
 msgid "Parallel Line"
 msgstr "Retta parallela"
 
+#, fuzzy
+msgid "parallel line"
+msgstr "rette parallele"
+
 #: ../wprover/GExpert.java:857
 msgid "Perpendicular Line"
 msgstr "Retta Perpendicolare"
+
+#, fuzzy
+msgid "perpendicular line"
+msgstr "rette perpendicolari"
 
 #: ../wprover/GExpert.java:858
 msgid "Draw an angle bisector"
@@ -2072,6 +2080,10 @@ msgstr ""
 #: ../wprover/GExpert.java:2488 ../wprover/GExpert.java:2535
 msgid "isosceles triangle"
 msgstr ""
+
+#, fuzzy
+msgid "segment"
+msgstr "Trasporto parallelo di segmento"
 
 #: ../wprover/GExpert.java:2492
 msgid "midpoint"
@@ -2791,6 +2803,20 @@ msgstr ""
 #, fuzzy
 msgid "Manual"
 msgstr "Metodo manuale"
+
+#, fuzzy
+msgid "Search"
+msgstr "Cerca fatti"
+
+#, fuzzy
+msgid "Please choose"
+msgstr "Scegli"
+
+msgid "We could not find anything!"
+msgstr ""
+
+msgid "No result"
+msgstr ""
 
 #~ msgid "animate_start"
 #~ msgstr "avvia animazione"

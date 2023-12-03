@@ -1584,9 +1584,17 @@ msgstr ""
 msgid "Parallel Line"
 msgstr "Paralelna prava"
 
+#, fuzzy
+msgid "parallel line"
+msgstr "paralelne prave"
+
 #: ../wprover/GExpert.java:857
 msgid "Perpendicular Line"
 msgstr "Normalna prava"
+
+#, fuzzy
+msgid "perpendicular line"
+msgstr "normalne prave"
 
 #: ../wprover/GExpert.java:858
 msgid "Draw an angle bisector"
@@ -2074,6 +2082,10 @@ msgstr ""
 #: ../wprover/GExpert.java:2488 ../wprover/GExpert.java:2535
 msgid "isosceles triangle"
 msgstr ""
+
+#, fuzzy
+msgid "segment"
+msgstr "Vektor"
 
 #: ../wprover/GExpert.java:2492
 msgid "midpoint"
@@ -2792,6 +2804,20 @@ msgstr ""
 #, fuzzy
 msgid "Manual"
 msgstr "Ručni metod"
+
+#, fuzzy
+msgid "Search"
+msgstr "Traženje činjenica"
+
+#, fuzzy
+msgid "Please choose"
+msgstr "Molimo izaberite"
+
+msgid "We could not find anything!"
+msgstr ""
+
+msgid "No result"
+msgstr ""
 
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"

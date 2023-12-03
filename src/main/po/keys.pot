@@ -1,4 +1,4 @@
-# Internationalizable keys for the Java Geomety Expert.
+# Internationalizable keys for the Java Geometry Expert.
 # Constructed via automatic collection and manual edit.
 # Copyright (C) 2023 JGEX Contributors
 # This file is distributed under the same license as the jgex package.
@@ -1537,8 +1537,14 @@ msgstr ""
 msgid "Parallel Line"
 msgstr ""
 
+msgid "parallel line"
+msgstr ""
+
 #: ../wprover/GExpert.java:857
 msgid "Perpendicular Line"
+msgstr ""
+
+msgid "perpendicular line"
 msgstr ""
 
 #: ../wprover/GExpert.java:858
@@ -2020,6 +2026,9 @@ msgstr ""
 
 #: ../wprover/GExpert.java:2488 ../wprover/GExpert.java:2535
 msgid "isosceles triangle"
+msgstr ""
+
+msgid "segment"
 msgstr ""
 
 #: ../wprover/GExpert.java:2492
@@ -2683,4 +2692,16 @@ msgid "Full"
 msgstr ""
 
 msgid "Manual"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Please choose"
+msgstr ""
+
+msgid "We could not find anything!"
+msgstr ""
+
+msgid "No result"
 msgstr ""

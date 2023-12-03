@@ -1,8 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Hungarian translation for the Java Geometry Expert.
+# Copyright (C) 2023 JGEX Contributors
+# This file is distributed under the same license as the jgex package.
+# Zoltan Kovacs <zoltan@geogebra.org>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -1547,9 +1546,15 @@ msgstr "Egyenes rajzolása két pontra"
 msgid "Parallel Line"
 msgstr "Párhuzamos egyenes"
 
+msgid "parallel line"
+msgstr "párhuzamos egyenes"
+
 #: ../wprover/GExpert.java:857
 msgid "Perpendicular Line"
 msgstr "Merőleges egyenes"
+
+msgid "perpendicular line"
+msgstr "merőleges egyenes"
 
 #: ../wprover/GExpert.java:858
 msgid "Draw an angle bisector"
@@ -2038,6 +2043,9 @@ msgstr ""
 msgid "isosceles triangle"
 msgstr "egyenlő szárú háromszög"
 
+msgid "segment"
+msgstr "szakasz"
+
 #: ../wprover/GExpert.java:2492
 msgid "midpoint"
 msgstr "felezőpont"
@@ -2500,7 +2508,7 @@ msgid "Adjust the speed of animation"
 msgstr "Animáció sebességének beállítása"
 
 msgid "Reset"
-msgstr "Visszaállítás"
+msgstr "Visszaállít"
 
 msgid "Start animation step by step"
 msgstr "Az animáció indítása lépésenként"
@@ -2709,3 +2717,15 @@ msgstr "Teljes"
 
 msgid "Manual"
 msgstr "Kézi"
+
+msgid "Search"
+msgstr "Keres"
+
+msgid "Please choose"
+msgstr "Válassz"
+
+msgid "We could not find anything!"
+msgstr "Nem találtunk semmit!"
+
+msgid "No result"
+msgstr "Nincs eredmény"

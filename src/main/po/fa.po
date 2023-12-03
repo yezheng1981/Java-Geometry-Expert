@@ -1558,9 +1558,17 @@ msgstr ""
 msgid "Parallel Line"
 msgstr "خط موازی"
 
+#, fuzzy
+msgid "parallel line"
+msgstr "خطوط موازی"
+
 #: ../wprover/GExpert.java:857
 msgid "Perpendicular Line"
 msgstr "خط عمودی"
+
+#, fuzzy
+msgid "perpendicular line"
+msgstr "خطوط عمود"
 
 #: ../wprover/GExpert.java:858
 msgid "Draw an angle bisector"
@@ -2047,6 +2055,9 @@ msgstr ""
 
 #: ../wprover/GExpert.java:2488 ../wprover/GExpert.java:2535
 msgid "isosceles triangle"
+msgstr ""
+
+msgid "segment"
 msgstr ""
 
 #: ../wprover/GExpert.java:2492
@@ -2756,6 +2767,20 @@ msgid "Full"
 msgstr ""
 
 msgid "Manual"
+msgstr ""
+
+#, fuzzy
+msgid "Search"
+msgstr "واقعیات جستجو"
+
+#, fuzzy
+msgid "Please choose"
+msgstr "لطفا انتخاب کنید"
+
+msgid "We could not find anything!"
+msgstr ""
+
+msgid "No result"
 msgstr ""
 
 #~ msgid "FF"

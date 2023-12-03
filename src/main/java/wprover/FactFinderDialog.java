@@ -14,7 +14,8 @@ import java.util.Vector;
 public class FactFinderDialog extends JBaseDialog implements ActionListener, ItemListener {
 
     final private static String[] S =
-            {"segment", "midpt", "circle", "parallel line", "perpendicular line", "angle", "tirangle"};
+            {"segment", "midpoint", "circle", "parallel line", "perpendicular line", "angle", "triangle"};
+    // TODO. This part could be improved by adding other sets in case.
 
     private GExpert gxInstance;
     private JLabel label;
@@ -33,11 +34,17 @@ public class FactFinderDialog extends JBaseDialog implements ActionListener, Ite
 
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        bs = new JComboBox(S);
+
+        String[] S_T = new String[S.length];
+        for (int i = 0; i < S.length; i++) {
+            S_T[i] = GExpert.getLanguage(S[i]);
+        }
+
+        bs = new JComboBox(S_T);
         bs.addItemListener(this);
 
         JPanel p1 = new JPanel(new FlowLayout(FlowLayout.CENTER));
-        p1.add(new JLabel("type "));
+        p1.add(new JLabel(GExpert.getLanguage("Type") + " "));
         p1.add(bs);
         panel.add(p1);
         JPanel p2 = new JPanel(new FlowLayout(FlowLayout.LEFT));
@@ -50,20 +57,20 @@ public class FactFinderDialog extends JBaseDialog implements ActionListener, Ite
         p2.add(b1);
         p2.add(b2);
         p2.add(b3);
-        p2.setBorder(BorderFactory.createTitledBorder("Please choose"));
+        p2.setBorder(BorderFactory.createTitledBorder(GExpert.getLanguage("Please choose")));
         panel.add(p2);
         label = new JLabel();
         panel.add(label);
         JPanel p3 = new JPanel(new FlowLayout(FlowLayout.RIGHT));
-        bsearch = new JButton("Search");
+        bsearch = new JButton(GExpert.getLanguage("Search"));
         bsearch.addActionListener(this);
-        bcancel = new JButton("Close");
+        bcancel = new JButton(GExpert.getLanguage("Close"));
         bcancel.addActionListener(this);
-        breset = new JButton("Reset");
+        breset = new JButton(GExpert.getLanguage("Reset"));
         breset.addActionListener(this);
 
         p3.add(bsearch);
-        p3.add(breset);
+        // p3.add(breset); // This seems unimplemented yet. TODO.
         p3.add(bcancel);
         panel.add(p3);
         model = new DefaultListModel();
@@ -145,8 +152,8 @@ public class FactFinderDialog extends JBaseDialog implements ActionListener, Ite
         if (src == bsearch) {
             v = Prover.search_a_fact(find_type, s1, s2, s3);
             if (v.size() == 0) {
-                JOptionPane.showConfirmDialog(gxInstance, "We can not find anything!",
-                        "Can not find", JOptionPane.OK_CANCEL_OPTION, JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(gxInstance, GExpert.getLanguage("We could not find anything!"),
+                        GExpert.getLanguage("No result"), JOptionPane.WARNING_MESSAGE);
             } else {
 
                 model.clear();

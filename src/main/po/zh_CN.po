@@ -1580,8 +1580,16 @@ msgstr ""
 msgid "Parallel Line"
 msgstr "平行线"
 
+#, fuzzy
+msgid "parallel line"
+msgstr "平行线"
+
 #: ../wprover/GExpert.java:857
 msgid "Perpendicular Line"
+msgstr "垂直线"
+
+#, fuzzy
+msgid "perpendicular line"
 msgstr "垂直线"
 
 #: ../wprover/GExpert.java:858
@@ -2070,6 +2078,10 @@ msgstr ""
 #: ../wprover/GExpert.java:2488 ../wprover/GExpert.java:2535
 msgid "isosceles triangle"
 msgstr ""
+
+#, fuzzy
+msgid "segment"
+msgstr "有向线段"
 
 #: ../wprover/GExpert.java:2492
 msgid "midpoint"
@@ -2786,6 +2798,20 @@ msgstr ""
 #, fuzzy
 msgid "Manual"
 msgstr "手动证明方法"
+
+#, fuzzy
+msgid "Search"
+msgstr "搜索一个事实"
+
+#, fuzzy
+msgid "Please choose"
+msgstr "请选择"
+
+msgid "We could not find anything!"
+msgstr ""
+
+msgid "No result"
+msgstr ""
 
 #~ msgid "animate_start"
 #~ msgstr "播放动画"
