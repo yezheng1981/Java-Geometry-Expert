@@ -2748,6 +2748,16 @@ msgstr "خطوط عمود"
 msgid "Segment"
 msgstr ""
 
+#, fuzzy
+msgid "{0} are collinear"
+msgstr "روی یک خط بودن"
+
+msgid "Full"
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
 #~ msgid "FF"
 #~ msgstr "بعدی"
 

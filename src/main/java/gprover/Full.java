@@ -1779,7 +1779,7 @@ public class Full extends elim {
                     gprint(" + ");
                 if (p1.c < 0)
                     gprint(" - ");
-                gprint(Cm.s2078 + "[");
+                gprint(Cm.ANGLE_SIGN + "[");
                 num_show(Math.abs(p1.c));
                 gprint("]");
                 dp2 = null;
@@ -2798,7 +2798,7 @@ public class Full extends elim {
             case NDG_TRIPLEPI: {
                 int n = d.getRedundentPt();
                 if (n == 0) {
-                    sd = Cm.sangle + "[" + ANAME(d.p[0]) + ANAME(d.p[1]) + ", " + ANAME(d.p[2]) + ANAME(d.p[3])
+                    sd = Cm.ANGLE_SIGN + "[" + ANAME(d.p[0]) + ANAME(d.p[1]) + ", " + ANAME(d.p[2]) + ANAME(d.p[3])
                             + "] != (n*PI) / 3 (n = 0, 1, 2, 3 ..)";
                 } else {
                     int a, b;
@@ -2809,7 +2809,7 @@ public class Full extends elim {
                         b = d.p[3];
                     else b = d.p[2];
 
-                    sd = Cm.sangle + "[" + ANAME(a) + ANAME(n) + ANAME(b)
+                    sd = Cm.ANGLE_SIGN + "[" + ANAME(a) + ANAME(n) + ANAME(b)
                             + "] != (n*PI) / 3 (n = 0, 1, 2, 3 ..)";
                 }
             }

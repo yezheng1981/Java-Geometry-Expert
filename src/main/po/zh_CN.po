@@ -2776,6 +2776,17 @@ msgstr "垂直线"
 msgid "Segment"
 msgstr "有向线段"
 
+#, fuzzy
+msgid "{0} are collinear"
+msgstr "共线"
+
+msgid "Full"
+msgstr ""
+
+#, fuzzy
+msgid "Manual"
+msgstr "手动证明方法"
+
 #~ msgid "animate_start"
 #~ msgstr "播放动画"
 

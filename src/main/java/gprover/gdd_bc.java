@@ -7,6 +7,8 @@
  */
 package gprover;
 
+import wprover.GExpert;
+
 import java.util.Vector;
                                 
 public class gdd_bc extends gdd_aux {
@@ -1298,7 +1300,8 @@ public class gdd_bc extends gdd_aux {
                             if (i != k) st += (",");
                         }
                     }
-                    co.sd = st + (" " + Cm.s2760);
+                    co.sd = GExpert.getTranslationViaGettext("{0} are collinear", st);
+                    // co.sd = st + (" " + Cm.s2760);
                 } else {
                     this.setPrintToString();
                     this.show_ln(co.u.ln, true);
@@ -1309,7 +1312,7 @@ public class gdd_bc extends gdd_aux {
             case CO_PARA: {
                 if (co.p[0] != 0) {
 
-                    String str = ANAME(co.p[0]) + ANAME(co.p[1]) + Cm.s2079 +
+                    String str = ANAME(co.p[0]) + ANAME(co.p[1]) + Cm.PARALLEL_SIGN +
                             ANAME(co.p[2]) + ANAME(co.p[3]);
                     gprint(str);
                     co.sd = str;
@@ -1323,7 +1326,7 @@ public class gdd_bc extends gdd_aux {
 
             case CO_PERP: {
                 if (co.p[0] != 0) {
-                    String str = ANAME(co.p[0]) + ANAME(co.p[1]) + " " + Cm.s2077 + " "
+                    String str = ANAME(co.p[0]) + ANAME(co.p[1]) + " " + Cm.PERPENDICULAR_SIGN + " "
                             + ANAME(co.p[2]) + ANAME(co.p[3]);
                     co.sd = str;
                 } else {
@@ -1497,7 +1500,7 @@ public class gdd_bc extends gdd_aux {
                 break;
             case CO_STRI: {
                 if (co.p[0] != 0) {
-                    String st = Cm.PC_TRI + " " + ANAME(co.p[0]) + ANAME(co.p[1]) + ANAME(co.p[2]) + Cm.s2083 +//" ~ " +
+                    String st = Cm.PC_TRI + " " + ANAME(co.p[0]) + ANAME(co.p[1]) + ANAME(co.p[2]) + Cm.SIMILAR_SIGN +//" ~ " +
                             Cm.PC_TRI + " " + ANAME(co.p[3]) + ANAME(co.p[4]) + ANAME(co.p[5]);
                     co.sd = st;
                 } else {
@@ -1509,7 +1512,7 @@ public class gdd_bc extends gdd_aux {
             break;
             case CO_CTRI: {
                 if (co.p[0] != 0) {
-                    String st = Cm.PC_TRI + " " + ANAME(co.p[0]) + ANAME(co.p[1]) + ANAME(co.p[2]) + Cm.s2082 +//" = " +
+                    String st = Cm.PC_TRI + " " + ANAME(co.p[0]) + ANAME(co.p[1]) + ANAME(co.p[2]) + Cm.EQUAL_SIGN +//" = " +
                             Cm.PC_TRI + " " + ANAME(co.p[3]) + ANAME(co.p[4]) + ANAME(co.p[5]);
                     co.sd = st;
                 } else {

@@ -1,6 +1,8 @@
 package gprover;
 
 
+import wprover.GExpert;
+
 import java.util.Vector;
 
 
@@ -813,12 +815,16 @@ public class gib {
         if (ln == null)
             gprint(Cm.s2713);
         else {
-
+            String s = "";
             for (i = 0; i <= ln.no; i++) {
-                gprint(ANAME(ln.pt[i]));
-                if (i != ln.no) gprint(",");
+                s += ANAME(ln.pt[i]);
+                if (i != ln.no) s += ",";
+                // gprint(ANAME(ln.pt[i]));
+                // if (i != ln.no) gprint(",");
             }
-            if (nk) gprint(" " + Cm.s2760);
+            // if (nk) gprint(" " + Cm.s2760);
+            if (nk) s = GExpert.getTranslationViaGettext("{0} are collinear", s);
+            gprint(s);
         }
     }
 
@@ -930,9 +936,9 @@ public class gib {
             p3 = p0;
         }
         if (p1 != p3)
-            return Cm.s2078 + "[" + pt_name(p1) + pt_name(p2) + "," + pt_name(p3) + pt_name(p4) + "]";
+            return Cm.ANGLE_SIGN + "[" + pt_name(p1) + pt_name(p2) + "," + pt_name(p3) + pt_name(p4) + "]";
         else
-            return Cm.s2078 + "[" + pt_name(p2) + pt_name(p3) + pt_name(p4) + "]";
+            return Cm.ANGLE_SIGN + "[" + pt_name(p2) + pt_name(p3) + pt_name(p4) + "]";
 
     }
 

@@ -2779,6 +2779,17 @@ msgstr "retas perpendiculares"
 msgid "Segment"
 msgstr "Transporte de segmento paralelo"
 
+#, fuzzy
+msgid "{0} are collinear"
+msgstr "Colinear"
+
+msgid "Full"
+msgstr ""
+
+#, fuzzy
+msgid "Manual"
+msgstr "Método manual"
+
 #~ msgid "animate_start"
 #~ msgstr "iniciar animação"
 

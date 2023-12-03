@@ -305,7 +305,7 @@ public class NumCheckDialog extends JBaseDialog implements DiagramUpdater, ItemL
 
         public String getLex() {
             if (check_filled())
-                return (getPt(0) + "" + getPt(1) + Cm.s2079 + getPt(2) + "" + getPt(3));
+                return (getPt(0) + "" + getPt(1) + Cm.PARALLEL_SIGN + getPt(2) + "" + getPt(3));
             else
                 return ("");
         }
@@ -322,7 +322,7 @@ public class NumCheckDialog extends JBaseDialog implements DiagramUpdater, ItemL
 
         public String getLex() {
             if (check_filled())
-                return (getPt(0) + "" + getPt(1) + Cm.s2077 + getPt(2) + "" + getPt(3));
+                return (getPt(0) + "" + getPt(1) + Cm.PERPENDICULAR_SIGN + getPt(2) + "" + getPt(3));
             else
                 return ("");
         }
@@ -373,7 +373,7 @@ public class NumCheckDialog extends JBaseDialog implements DiagramUpdater, ItemL
 
         public String getLex() {
             if (check_filled())
-                return (Cm.sangle + getPt(0) + "" + getPt(1) + "" + getPt(2) + " = " + Cm.sangle + getPt(3) + "" + getPt(4) + "" + getPt(5));
+                return (Cm.ANGLE_SIGN + getPt(0) + "" + getPt(1) + "" + getPt(2) + " = " + Cm.ANGLE_SIGN + getPt(3) + "" + getPt(4) + "" + getPt(5));
             else
                 return ("");
         }

@@ -467,7 +467,7 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
 
             JPanel p1 = new JPanel();
             p1.setBorder(BorderFactory.createTitledBorder(GExpert.getLanguage(360, "Point's Text")));
-            JButton button = new JButton("PTEXT");
+            JButton button = new JButton("PTEXT"); // FIXME
             button.setText(CMisc.nameFont.getName() + " " + CMisc.nameFont.getSize());
             button.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -484,8 +484,9 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
 
 
             p1 = new JPanel();
-            p1.setBorder(BorderFactory.createTitledBorder("THM - " + GExpert.getLanguage(3100, "Theorem")));
-            button = new JButton("THM");
+            p1.setBorder(BorderFactory.createTitledBorder(GExpert.getLanguage("THM") + " - " +
+                    GExpert.getLanguage(3100, "Theorem")));
+            button = new JButton(GExpert.getLanguage("THM"));
             button.setText(CMisc.thmFont.getName() + " " + CMisc.thmFont.getSize());
             button.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -501,10 +502,10 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
             this.add(p1);
 
             p1 = new JPanel();
-            p1.setBorder(BorderFactory.createTitledBorder("F - D"));// + GExpert.getLanguage(3002, "Full Angle Method")
+            p1.setBorder(BorderFactory.createTitledBorder(GExpert.getLanguage("F-D")));// + GExpert.getLanguage(3002, "Full Angle Method")
 //                    + "-" + GExpert.getLanguage(3001, "Deductive Datab?ase Method")));
             // p1.setLayout(new FlowLayout(FlowLayout.LEFT));
-            button = new JButton("Full");
+            button = new JButton(GExpert.getLanguage("Full"));
             button.setText(CMisc.fullFont.getName() + " " + CMisc.fullFont.getSize());
             button.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -520,9 +521,9 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
             this.add(p1);
 
             p1 = new JPanel();
-            p1.setBorder(BorderFactory.createTitledBorder("Area - " + GExpert.getLanguage(3004, "Area Method")));
+            p1.setBorder(BorderFactory.createTitledBorder(GExpert.getLanguage("Area") + " - " + GExpert.getLanguage(3004, "Area Method")));
             // p1.setLayout(new FlowLayout(FlowLayout.LEFT));
-            button = new JButton("Area");
+            button = new JButton(GExpert.getLanguage("Area"));
             button.setText(CMisc.areaFont.getName() + " " + CMisc.areaFont.getSize());
             button.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -538,9 +539,10 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
             this.add(p1);
 
             p1 = new JPanel();
-            p1.setBorder(BorderFactory.createTitledBorder("Manual - " + GExpert.getLanguage(3007, "Manual Method")));
+            p1.setBorder(BorderFactory.createTitledBorder(GExpert.getLanguage("Manual") + " - " +
+                    GExpert.getLanguage(3007, "Manual Method")));
             // p1.setLayout(new FlowLayout(FlowLayout.LEFT));
-            button = new JButton("Manual");
+            button = new JButton(GExpert.getLanguage("Manual"));
             button.setText(CMisc.manualFont.getName() + " " + CMisc.manualFont.getSize());
             button.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -556,9 +558,9 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
             this.add(p1);
 
             p1 = new JPanel();
-            p1.setBorder(BorderFactory.createTitledBorder("Fix - " + GExpert.getLanguage(307, "Fixpoint")));
+            p1.setBorder(BorderFactory.createTitledBorder(GExpert.getLanguage("Fix") + " - " + GExpert.getLanguage(307, "Fixpoint")));
             // p1.setLayout(new FlowLayout(FlowLayout.LEFT));
-            button = new JButton("Fixpoint");
+            button = new JButton(GExpert.getLanguage("Fixpoint"));
             button.setText(CMisc.fixFont.getName() + " " + CMisc.fixFont.getSize());
             button.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -574,10 +576,10 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
             this.add(p1);
 
             p1 = new JPanel();
-            p1.setBorder(BorderFactory.createTitledBorder("Algebra - " + GExpert.getLanguage(1111, "Algebra")));
+            p1.setBorder(BorderFactory.createTitledBorder(GExpert.getLanguage("Algebra") + " - " + GExpert.getLanguage(1111, "Algebra")));
             //
             //  p1.setLayout(new FlowLayout(FlowLayout.LEFT));
-            button = new JButton("Algebra");
+            button = new JButton(GExpert.getLanguage("Algebra"));
             button.setText(CMisc.algebraFont.getName() + " " + CMisc.algebraFont.getSize());
             button.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent e) {

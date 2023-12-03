@@ -2756,6 +2756,17 @@ msgstr "normale Geraden"
 msgid "Segment"
 msgstr "Vektor"
 
+#, fuzzy
+msgid "{0} are collinear"
+msgstr "Kollinear"
+
+msgid "Full"
+msgstr ""
+
+#, fuzzy
+msgid "Manual"
+msgstr "Händische Methode"
+
 #~ msgid "animate_start"
 #~ msgstr "Starte Animation"
 

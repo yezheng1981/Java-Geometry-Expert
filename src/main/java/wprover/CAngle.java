@@ -1,9 +1,6 @@
 package wprover;
 
-import wprover.CClass;
-
 import java.awt.*;
-import java.awt.geom.AffineTransform;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.DataInputStream;
@@ -145,17 +142,17 @@ public class CAngle extends CClass {
                 p3 = p0;
             }
             if (p1 != p3)
-                return Cm.sangle + "[" + (p1) + (p2) + "," + (p3) + (p4) + "]";
+                return Cm.ANGLE_SIGN + "[" + (p1) + (p2) + "," + (p3) + (p4) + "]";
             else
-                return Cm.sangle + "[" + (p2) + (p3) + (p4) + "]";
+                return Cm.ANGLE_SIGN + "[" + (p2) + (p3) + (p4) + "]";
         } else {
             CPoint pt = CLine.commonPoint(lstart, lend);
             if (pt != null)
-                return Cm.sangle + "[" + (pstart) + (pt) + (pend) + "]";
+                return Cm.ANGLE_SIGN + "[" + (pstart) + (pt) + (pend) + "]";
             else {
                 CPoint p1 = lstart.getAPointBut(pstart);
                 CPoint p2 = lend.getAPointBut(pend);
-                return Cm.sangle + "[" + (p1) + (pstart) + "," + (p2) + (pend) + "]";
+                return Cm.ANGLE_SIGN + "[" + (p1) + (pstart) + "," + (p2) + (pend) + "]";
             }
         }
     }

@@ -264,13 +264,13 @@ public class CST {
 
             case gib.C_O_P:
                 if (d)
-                    return pss[0] + "" + pss[1] + Cm.s2079 + pss[2] + "" + pss[3];
+                    return pss[0] + "" + pss[1] + Cm.PARALLEL_SIGN + pss[2] + "" + pss[3];
                 else
                     return GExpert.getTranslationViaGettext("{0} is parallel to {1}",
                             pss[0] + "" + pss[1], "" + pss[2] + pss[3]);
             case gib.C_O_T:
                 if (d)
-                    return pss[0] + "" + pss[1] + Cm.s2077 + pss[2] + "" + pss[3];
+                    return pss[0] + "" + pss[1] + Cm.PERPENDICULAR_SIGN + pss[2] + "" + pss[3];
                 else
                     return GExpert.getTranslationViaGettext("{0} is perpendicular to {1}",
                             pss[0] + "" + pss[1], "" + pss[2] + pss[3]);
@@ -284,12 +284,12 @@ public class CST {
             case gib.C_O_A:
             case gib.C_EQANGLE: {
                 if (pss[6] != null && pss[7] != null)
-                    return Cm.s2078 + "[" + pss[0] + pss[1] + ", " + pss[2] + pss[3] + "] = " + Cm.s2078 + "[" + pss[4] + pss[5] + ", " + pss[6] + pss[7] + "]";
+                    return Cm.ANGLE_SIGN + "[" + pss[0] + pss[1] + ", " + pss[2] + pss[3] + "] = " + Cm.ANGLE_SIGN + "[" + pss[4] + pss[5] + ", " + pss[6] + pss[7] + "]";
                 else
-                    return Cm.s2078 + "[" + pss[0] + pss[1] + pss[2] + "] = " + Cm.s2078 + "[" + pss[3] + pss[4] + pss[5] + "]";
+                    return Cm.ANGLE_SIGN + "[" + pss[0] + pss[1] + pss[2] + "] = " + Cm.ANGLE_SIGN + "[" + pss[3] + pss[4] + pss[5] + "]";
             }
             case gib.C_FOOT:
-                return pss[0] + "" + pss[1] + Cm.s2077 + pss[2] + "" + pss[3] + " " + GExpert.getTranslationViaGettext("with foot {0}",
+                return pss[0] + "" + pss[1] + Cm.PERPENDICULAR_SIGN + pss[2] + "" + pss[3] + " " + GExpert.getTranslationViaGettext("with foot {0}",
                         "" + pss[0]);
             case gib.C_CIRCLE: {
                 String st = "(" + pss[0] + ",";
@@ -404,116 +404,116 @@ public class CST {
 
             case gib.C_I_LL:
                 if (d)
-                    return pss[0] + " = " + pss[1] + pss[2] + Cm.s2084 + pss[3] + pss[4];
+                    return pss[0] + " = " + pss[1] + pss[2] + Cm.INTERSECT_SIGN + pss[3] + pss[4];
                 else
                     return pss[0] + " is the intersection of " + pss[1] + pss[2] + " and " + pss[3] + pss[4];
             case gib.C_I_LP:
                 if (d)
-                    return pss[0] + " = " + pss[1] + pss[2] + Cm.s2084 + "P(" + pss[3] + ", " + pss[4] + pss[5] + ")";
+                    return pss[0] + " = " + pss[1] + pss[2] + Cm.INTERSECT_SIGN + "P(" + pss[3] + ", " + pss[4] + pss[5] + ")";
                 else
                     return pss[0] + " is on " + pss[1] + pss[2] + " and " + pss[0] + pss[3] + " is parallel to " + pss[4] + pss[5] + ")";
             case gib.C_I_LC:
                 if (d)
-                    return pss[0] + " = " + pss[1] + pss[2] + Cm.s2084 + "C(" + pss[3] + pss[4] + ")";
+                    return pss[0] + " = " + pss[1] + pss[2] + Cm.INTERSECT_SIGN + "C(" + pss[3] + pss[4] + ")";
                 else
                     return pss[0] + " is the intersection of line " + pss[1] + pss[2] + " and circle(" + pss[3] + pss[4] + ")";
 
             case gib.C_I_LB:
                 if (d)
-                    return pss[0] + " = " + pss[1] + pss[2] + Cm.s2084 + "B(" + pss[3] + pss[4] + ")";
+                    return pss[0] + " = " + pss[1] + pss[2] + Cm.INTERSECT_SIGN + "B(" + pss[3] + pss[4] + ")";
                 else
                     return pss[0] + " is the intersection of " + pss[1] + pss[2] + " and perp-bisector of " + pss[3] + pss[4] + "";
 
             case gib.C_I_LT:
                 if (d)
-                    return pss[0] + " = " + pss[1] + pss[2] + Cm.s2084 + "T(" + pss[3] + ", " + pss[4] + pss[5] + ")";
+                    return pss[0] + " = " + pss[1] + pss[2] + Cm.INTERSECT_SIGN + "T(" + pss[3] + ", " + pss[4] + pss[5] + ")";
                 else
                     return pss[0] + " is on line " + pss[1] + pss[2] + " and " + pss[0] + pss[3] + " is parallel to " + pss[4] + pss[5];
             case gib.C_I_LR:
                 if (d)
-                    return pss[0] + " = " + pss[1] + pss[2] + Cm.s2084 + "R(" + pss[3] + ", " + pss[4] + pss[5] + ")";
+                    return pss[0] + " = " + pss[1] + pss[2] + Cm.INTERSECT_SIGN + "R(" + pss[3] + ", " + pss[4] + pss[5] + ")";
                 else
                     return pss[0] + " is the intersection of " + pss[1] + pss[2] + " and circle(" + pss[3] + "," + pss[4] + pss[5] + ")";
             case gib.C_I_LS:
                 return null;
             case gib.C_I_LA:
-                return pss[0] + " = " + pss[1] + pss[2] + Cm.s2084 + "A(" + vprint(3, 9, pss) + ")";
+                return pss[0] + " = " + pss[1] + pss[2] + Cm.INTERSECT_SIGN + "A(" + vprint(3, 9, pss) + ")";
             case gib.C_I_PP:
                 if (d)
-                    return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "P(" + pss[4] + "," + pss[5] + pss[6] + ")";
+                    return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "P(" + pss[4] + "," + pss[5] + pss[6] + ")";
                 else
                     return pss[0] + "" + pss[1] + " is parallel to " + pss[2] + pss[3] + " and " + pss[0] + pss[4] + " is parallel to " + pss[5] + pss[6];
             case gib.C_I_PC:
                 if (d)
-                    return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "C(" + pss[4] + pss[5] + ")";
+                    return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "C(" + pss[4] + pss[5] + ")";
                 else
                     return pss[0] + "" + pss[1] + " is parallel to " + pss[2] + pss[3] + " and " + pss[0] + " is on circle(" + pss[4] + pss[5] + ")";
             case gib.C_I_PR:
                 if (d)
-                    return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "R(" + pss[4] + "," + pss[5] + pss[6] + ")";
+                    return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "R(" + pss[4] + "," + pss[5] + pss[6] + ")";
                 else
                     return pss[0] + "" + pss[1] + " is parallel to " + pss[2] + pss[3] + " and " + pss[0] + " is on circle(" + pss[4] + "," + pss[5] + pss[6] + ")";
             case gib.C_I_PT:
                 if (d)
-                    return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "T(" + pss[4] + "," + pss[5] + pss[6] + ")";
+                    return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "T(" + pss[4] + "," + pss[5] + pss[6] + ")";
                 else
                     return pss[0] + "" + pss[1] + " is parallel to " + pss[2] + pss[3] + " and " + pss[0] + pss[4] + " is perpendicular to" + pss[5] + pss[6];
             case gib.C_I_PB:
                 if (d)
-                    return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "B(" + pss[4] + "," + pss[5] + pss[6] + ")";
+                    return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "B(" + pss[4] + "," + pss[5] + pss[6] + ")";
                 else
                     return pss[0] + "" + pss[1] + " is parallel to " + pss[2] + pss[3] + " and " + pss[0] + " is on the perep-bisector of" + pss[4] + pss[5];
             case gib.C_I_PA:
-                return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "A(" + vprint(3, 9, pss) + ")";
+                return pss[0] + " = P(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "A(" + vprint(3, 9, pss) + ")";
 
             case gib.C_I_TT:
                 if (d)
-                    return pss[0] + " = T(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "T(" + pss[4] + "," + pss[5] + pss[6] + ")";
+                    return pss[0] + " = T(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "T(" + pss[4] + "," + pss[5] + pss[6] + ")";
                 else
                     return pss[0] + "" + pss[1] + " is perpendicular to " + pss[2] + pss[3] + " and " + pss[0] + pss[4] + " is perependicular to " + pss[5] + pss[6];
 
             case gib.C_I_TC:
                 if (d)
-                    return pss[0] + " = T(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "C(" + pss[4] + pss[5] + ")";
+                    return pss[0] + " = T(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "C(" + pss[4] + pss[5] + ")";
                 else
                     return pss[0] + "" + pss[1] + " is perpendicular to " + pss[2] + pss[3] + " and " + pss[0] + " is on circle(" + pss[4] + pss[5] + ")";
 
             case gib.C_I_TR:
                 if (d)
-                    return pss[0] + " = T(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "R(" + pss[4] + "," + pss[5] + pss[6] + ")";
+                    return pss[0] + " = T(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "R(" + pss[4] + "," + pss[5] + pss[6] + ")";
                 else
                     return pss[0] + "" + pss[1] + " is perpendicular to " + pss[2] + pss[3] + " and " + pss[0] + " is on circle(" + pss[4] + "," + pss[5] + pss[6] + ")";
             case gib.C_I_TB:
                 if (d)
-                    return pss[0] + " = T(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "B(" + pss[4] + "," + pss[5] + pss[6] + ")";
+                    return pss[0] + " = T(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "B(" + pss[4] + "," + pss[5] + pss[6] + ")";
                 else
                     return pss[0] + "" + pss[1] + " is perpendicular to " + pss[2] + pss[3] + " and " + pss[0] + " is on the perp-bisecotr of " + pss[4] + pss[5];
             case gib.C_I_TA:
-                return pss[0] + " = T(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "A(" + vprint(3, 9, pss) + ")";
+                return pss[0] + " = T(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "A(" + vprint(3, 9, pss) + ")";
 
             case gib.C_I_BB:
                 if (d)
-                    return pss[0] + " = B(" + pss[1] + pss[2] + ")" + Cm.s2084 + "B(" + pss[3] + pss[4] + ")";
+                    return pss[0] + " = B(" + pss[1] + pss[2] + ")" + Cm.INTERSECT_SIGN + "B(" + pss[3] + pss[4] + ")";
                 else
                     return pss[0] + " is the intersection of perp-bisector of " + pss[1] + pss[2] + " and " + "perp-bisector of " + pss[3] + pss[4];
             case gib.C_I_BC:
                 if (d)
-                    return pss[0] + " = B(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "C(" + pss[4] + pss[5] + ")";
+                    return pss[0] + " = B(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "C(" + pss[4] + pss[5] + ")";
                 else
                     return pss[0] + " is the intersection of perp-bisector of " + pss[1] + pss[2] + " and circle(" + pss[3] + pss[4] + ")";
             case gib.C_I_BR:
                 if (d)
-                    return pss[0] + " = B(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.s2084 + "R(" + pss[4] + "," + pss[5] + pss[6] + ")";
+                    return pss[0] + " = B(" + pss[1] + "," + pss[2] + pss[3] + ")" + Cm.INTERSECT_SIGN + "R(" + pss[4] + "," + pss[5] + pss[6] + ")";
                 else
                     return pss[0] + " is the intersection of perp-bisector of " + pss[1] + pss[2] + " and circle(" + pss[3] + "," + pss[4] + pss[5] + ")";
             case gib.C_I_CC:
                 if (d)
-                    return pss[0] + " = C(" + pss[1] + pss[2] + ")" + Cm.s2084 + "C(" + pss[3] + pss[4] + ")";
+                    return pss[0] + " = C(" + pss[1] + pss[2] + ")" + Cm.INTERSECT_SIGN + "C(" + pss[3] + pss[4] + ")";
                 else
                     return pss[0] + " is the intersection of circle(" + pss[1] + pss[2] + ") and circle(" + pss[3] + pss[4] + ")";
             case gib.C_I_CR:
                 if (d)
-                    return pss[0] + " = C(" + pss[1] + pss[2] + ")" + Cm.s2084 + "R(" + pss[3] + ", " + pss[4] + pss[5] + ")";
+                    return pss[0] + " = C(" + pss[1] + pss[2] + ")" + Cm.INTERSECT_SIGN + "R(" + pss[3] + ", " + pss[4] + pss[5] + ")";
                 else
                     return pss[0] + " is the intersection of circle(" + pss[1] + pss[2] + ") and circle(" + pss[3] + "," + pss[4] + pss[5] + ")";
 
@@ -521,12 +521,12 @@ public class CST {
                 return pss[0] + ", " + pss[1] + ", " + pss[2] + " are collinear";
             case gib.CO_PARA:
                 if (d)
-                    return pss[0] + "" + pss[1] + Cm.s2079 + pss[2] + "" + pss[3];
+                    return pss[0] + "" + pss[1] + Cm.PARALLEL_SIGN + pss[2] + "" + pss[3];
                 else
                     return pss[0] + "" + pss[1] + " is parallel to " + pss[2] + "" + pss[3];
             case gib.CO_PERP:
                 if (d)
-                    return pss[0] + "" + pss[1] + Cm.s2077 + pss[2] + "" + pss[3];
+                    return pss[0] + "" + pss[1] + Cm.PERPENDICULAR_SIGN + pss[2] + "" + pss[3];
                 else
                     return pss[0] + "" + pss[1] + " is perpendicular to " + pss[2] + "" + pss[3];
             case gib.CO_MIDP:
@@ -543,16 +543,16 @@ public class CST {
                 return "|" + pss[0] + pss[1] + "| = |" + pss[2] + pss[3] + "|";
             case gib.CO_ACONG: {
                 if (pss[6] != null && pss[7] != null)
-                    return Cm.s2078 + "[" + pss[0] + pss[1] + ", " + pss[2] + pss[3] + "] = " + Cm.s2078 + "[" + pss[4] + pss[5] + ", " + pss[6] + pss[7] + "]";
+                    return Cm.ANGLE_SIGN + "[" + pss[0] + pss[1] + ", " + pss[2] + pss[3] + "] = " + Cm.ANGLE_SIGN + "[" + pss[4] + pss[5] + ", " + pss[6] + pss[7] + "]";
                 else
-                    return Cm.s2078 + "[" + pss[0] + pss[1] + pss[2] + "] = " + Cm.s2078 + "[" + pss[3] + pss[4] + pss[5] + "]";
+                    return Cm.ANGLE_SIGN + "[" + pss[0] + pss[1] + pss[2] + "] = " + Cm.ANGLE_SIGN + "[" + pss[3] + pss[4] + pss[5] + "]";
             }
             case gib.CO_PBISECT:
                 return Cm.P_SHOWD + "??";
             case gib.CO_STRI:
-                return Cm.s2080 + pss[0] + pss[1] + pss[2] + Cm.s2083 + Cm.s2080 + pss[3] + pss[4] + pss[5];
+                return Cm.TRIANGLE_SIGN + pss[0] + pss[1] + pss[2] + Cm.SIMILAR_SIGN + Cm.TRIANGLE_SIGN + pss[3] + pss[4] + pss[5];
             case gib.CO_CTRI:
-                return Cm.s2080 + pss[0] + pss[1] + pss[2] + Cm.s2082 + Cm.s2080 + pss[3] + pss[4] + pss[5];
+                return Cm.TRIANGLE_SIGN + pss[0] + pss[1] + pss[2] + Cm.EQUAL_SIGN + Cm.TRIANGLE_SIGN + pss[3] + pss[4] + pss[5];
 
 
             case gib.NDG_NEQ:
@@ -569,16 +569,16 @@ public class CST {
                 return pss[0] + "" + pss[1] + " is non-isotropic";
             case gib.NDG_ACONG: {
                 if (pss[6] != null && pss[7] != null)
-                    return Cm.s2078 + "[" + pss[0] + pss[1] + ", " + pss[2] + pss[3] + "] != " + Cm.s2078 + "[" + pss[4] + pss[5] + ", " + pss[6] + pss[7] + "]";
+                    return Cm.ANGLE_SIGN + "[" + pss[0] + pss[1] + ", " + pss[2] + pss[3] + "] != " + Cm.ANGLE_SIGN + "[" + pss[4] + pss[5] + ", " + pss[6] + pss[7] + "]";
                 else
-                    return Cm.s2078 + "[" + pss[0] + pss[1] + pss[2] + "] != " + Cm.s2078 + "[" + pss[3] + pss[4] + pss[5] + "]";
+                    return Cm.ANGLE_SIGN + "[" + pss[0] + pss[1] + pss[2] + "] != " + Cm.ANGLE_SIGN + "[" + pss[3] + pss[4] + pss[5] + "]";
             }
             case gib.NDG_CYCLIC:
                 return pss[0] + "" + pss[1] + "" + pss[2] + "" + pss[3] + " is not cyclic";
             case gib.IN_AG_INSIDE:
-                return pss[0] + " is inside " + Cm.s2078 + pss[1] + pss[2] + pss[3];
+                return pss[0] + " is inside " + Cm.ANGLE_SIGN + pss[1] + pss[2] + pss[3];
             case gib.IN_AG_OUTSIDE:
-                return pss[0] + " is outside " + Cm.s2078 + pss[1] + pss[2] + pss[3];
+                return pss[0] + " is outside " + Cm.ANGLE_SIGN + pss[1] + pss[2] + pss[3];
             case gib.IN_BETWEEN:
                 return pss[0] + " is between " + pss[1] + pss[2];
             case gib.IN_OPP_SIDE:
@@ -601,7 +601,7 @@ public class CST {
             case gib.C_O_S:
                 return pss[0] + " is on circle(" + pss[1] + pss[2] + pss[3] + ")";
             case gib.C_O_AB:
-                return pss[0] + " is on the bisector of " + Cm.s2078 + "[" + pss[1] + pss[2] + pss[3] + "]";
+                return pss[0] + " is on the bisector of " + Cm.ANGLE_SIGN + "[" + pss[1] + pss[2] + pss[3] + "]";
             case gib.C_O_D:
                 return pss[0] + " is on the circle D(" + pss[1] + pss[2] + ")";
 

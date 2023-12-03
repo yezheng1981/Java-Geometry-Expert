@@ -2675,3 +2675,12 @@ msgstr ""
 
 msgid "Segment"
 msgstr ""
+
+msgid "{0} are collinear"
+msgstr ""
+
+msgid "Full"
+msgstr ""
+
+msgid "Manual"
+msgstr ""

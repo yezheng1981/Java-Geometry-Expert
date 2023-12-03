@@ -2782,6 +2782,17 @@ msgstr "normalne prave"
 msgid "Segment"
 msgstr "Vektor"
 
+#, fuzzy
+msgid "{0} are collinear"
+msgstr "Kolinearno"
+
+msgid "Full"
+msgstr ""
+
+#, fuzzy
+msgid "Manual"
+msgstr "Ručni metod"
+
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"
 

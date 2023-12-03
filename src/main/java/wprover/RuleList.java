@@ -97,12 +97,12 @@ public class RuleList {
         while (t != null) {
             t = t.trim();
             // Fix encoding issues, TODO: This should be done in a different way!
-            t = t.replaceAll(" ⊥ ", Cm.s2077);
-            t = t.replaceAll("∠", Cm.s2078);
-            t = t.replaceAll(" ∥ ", Cm.s2079);
-            t = t.replaceAll("∆", Cm.s2080);
-            t = t.replaceAll(" ∽ ", Cm.s2083);
-            t = t.replaceAll(" ∩ ", Cm.s2084);
+            t = t.replaceAll(" ⊥ ", Cm.PERPENDICULAR_SIGN);
+            t = t.replaceAll("∠", Cm.ANGLE_SIGN);
+            t = t.replaceAll(" ∥ ", Cm.PARALLEL_SIGN);
+            t = t.replaceAll("∆", Cm.TRIANGLE_SIGN);
+            t = t.replaceAll(" ∽ ", Cm.SIMILAR_SIGN);
+            t = t.replaceAll(" ∩ ", Cm.INTERSECT_SIGN);
             // Fix German characters:
             if (Cm.isWindows()) {
                 t = t.replaceAll("ä", "ae");

@@ -19,15 +19,14 @@ final public class Cm {
 
     final public static String s2072 = "The Machine Proof";
 
-    final public static String s2077 = isWindows() ? "_|_" : " ⊥ ";
-    final public static String s2078 = isWindows() ? "<)" : "∠";
-    final public static String s2079 = isWindows() ? "||" : " ∥ ";
-    final public static String s2080 = isWindows() ? "<|" : "∆";
+    final public static String PERPENDICULAR_SIGN = isWindows() ? "_|_" : " ⊥ ";
+    final public static String PARALLEL_SIGN = isWindows() ? "||" : " ∥ ";
+    final public static String TRIANGLE_SIGN = isWindows() ? "<|" : "∆";
 
-    final public static String sangle = isWindows() ? "<)" : "∠";
-    final public static String s2082 = " = ";
-    final public static String s2083 = isWindows() ? "~" : " ∽ ";
-    final public static String s2084 = isWindows() ? " intersect " : " ∩ ";
+    final public static String ANGLE_SIGN = isWindows() ? "<)" : "∠";
+    final public static String EQUAL_SIGN = " = ";
+    final public static String SIMILAR_SIGN = isWindows() ? "~" : " ∽ ";
+    final public static String INTERSECT_SIGN = isWindows() ? " intersect " : " ∩ ";
 
 
     final public static String s2705 = "midpoints\r\n";
@@ -49,8 +48,6 @@ final public class Cm {
     final public static String s2729 = "midp";
 
     final public static String s2732 = "cyclic";
-
-    final public static String s2760 = "are collinear";
 
     final public static String PC_COLL = "COLLINEAR";
     final public static String PC_PARA = "PARALLEL";

@@ -2700,3 +2700,12 @@ msgstr "{0} a(z) {1} súlypontja"
 
 msgid "Segment"
 msgstr "Szakasz"
+
+msgid "{0} are collinear"
+msgstr "{0} egy egyenesre illeszkednek"
+
+msgid "Full"
+msgstr "Teljes"
+
+msgid "Manual"
+msgstr "Kézi"

@@ -736,7 +736,7 @@ public class concPanel extends JPanel implements ActionListener, ItemListener {
             case massertion.EQDIS:
                 return vs(0, 0) + " " + vs(0, 1) + " equals to " + vs(1, 0) + " " + vs(1, 1) + ";";
             case massertion.EQANGLE:
-                return Cm.s2078 + vs(0, 0) + vs(0, 1) + vs(0, 2) + " = " + Cm.s2078 + vs(1, 0) + vs(1, 1) + vs(1, 2);
+                return Cm.ANGLE_SIGN + vs(0, 0) + vs(0, 1) + vs(0, 2) + " = " + Cm.ANGLE_SIGN + vs(1, 0) + vs(1, 1) + vs(1, 2);
 
             case massertion.SIM:
                 return "tri " + vs(0, 0) + vs(0, 1) + vs(0, 2) + " is similiar to " + "tri " + vs(1, 0) + vs(1, 1) + vs(1, 2);
