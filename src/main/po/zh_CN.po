@@ -2792,6 +2792,14 @@ msgstr "有向线段"
 msgid "{0} are collinear"
 msgstr "共线"
 
+#, fuzzy
+msgid "{0} are parallel"
+msgstr "显然正确"
+
+#, fuzzy
+msgid "{0} are perpendicular"
+msgstr "垂直线"
+
 msgid "Full"
 msgstr ""
 
@@ -2811,6 +2819,11 @@ msgid "We could not find anything!"
 msgstr ""
 
 msgid "No result"
+msgstr ""
+
+msgid ""
+"Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag "
+"with left mouseclick to move"
 msgstr ""
 
 #~ msgid "animate_start"

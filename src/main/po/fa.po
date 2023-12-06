@@ -2763,6 +2763,14 @@ msgstr ""
 msgid "{0} are collinear"
 msgstr "روی یک خط بودن"
 
+#, fuzzy
+msgid "{0} are parallel"
+msgstr "روی یک خط بودن"
+
+#, fuzzy
+msgid "{0} are perpendicular"
+msgstr "خطوط عمود"
+
 msgid "Full"
 msgstr ""
 
@@ -2781,6 +2789,11 @@ msgid "We could not find anything!"
 msgstr ""
 
 msgid "No result"
+msgstr ""
+
+msgid ""
+"Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag "
+"with left mouseclick to move"
 msgstr ""
 
 #~ msgid "FF"

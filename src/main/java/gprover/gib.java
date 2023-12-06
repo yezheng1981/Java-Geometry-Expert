@@ -800,44 +800,52 @@ public class gib {
     }
 
     void show_pn(p_line pn) {
-        gprint(Cm.s2709);
+        gprint(pn_string(pn));
+    }
 
-        gprint("[");
+    String pn_string(p_line pn) {
+        String s = "";
         for (int i = 0; i <= pn.no; i++) {
-            show_ln(pn.ln[i], false);
-            if (i != pn.no) gprint(";  ");
+            s += ln_string(pn.ln[i], false);
+            if (i != pn.no) s += "; ";
         }
-        gprint("]");
+        s = GExpert.getTranslationViaGettext("{0} are parallel", s);
+        return s;
     }
 
     void show_ln(l_line ln, boolean nk) {
+        gprint(ln_string(ln, nk));
+    }
+
+    String ln_string(l_line ln, boolean nk) {
         int i;
         if (ln == null)
-            gprint(Cm.s2713);
+            return Cm.s2713;
         else {
             String s = "";
             for (i = 0; i <= ln.no; i++) {
                 s += ANAME(ln.pt[i]);
                 if (i != ln.no) s += ",";
-                // gprint(ANAME(ln.pt[i]));
-                // if (i != ln.no) gprint(",");
             }
-            // if (nk) gprint(" " + Cm.s2760);
             if (nk) s = GExpert.getTranslationViaGettext("{0} are collinear", s);
-            gprint(s);
+            return s;
         }
     }
 
-    void show_tn(t_line tn) {
+    String tn_string(t_line tn) {
         l_line l1, l2;
 
         l1 = tn.l1;
         l2 = tn.l2;
-        gprint(Cm.s2715);
-        show_ln(l1, false);
-        gprint("; ");
-        show_ln(l2, false);
-        gprint("]");
+
+        String s = "";
+        s = ln_string(l1, false) + "; " + ln_string(l2, false);
+        s = GExpert.getTranslationViaGettext("{0} are perpendicular", s);
+        return s;
+    }
+
+    void show_tn(t_line tn) {
+        gprint(tn_string(tn));
     }
 
     void show_atn(angtn atn) {
@@ -965,10 +973,14 @@ public class gib {
         show_agll(as.l3, as.l4);
     }
 
+    final String md_print(midpt md) {
+        String st = GExpert.getTranslationViaGettext("{0} is the midpoint of {1}",
+                ANAME(md.m), ANAME(md.a) + ANAME(md.b));
+        return st;
+    }
+
     final void show_md(midpt md) {
-        String st = Cm.s2705 +
-                "[" + ANAME(md.m) + ", " + ANAME(md.a) + ANAME(md.b) + "]";
-        gprint(st);
+        gprint(md_print(md));
     }
 
     final void show_ra(ratio_seg ra) {
@@ -976,30 +988,35 @@ public class gib {
             gprint("[" + ra.type + "]:");
         }
         String str =
-                ANAME(ra.r[1]) + ANAME(ra.r[2]) + "*" + ANAME(ra.r[7]) + ANAME(ra.r[8]) +
-                        " = " + ANAME(ra.r[3]) + ANAME(ra.r[4]) + "*" + ANAME(ra.r[5]) + ANAME(ra.r[6]);
+                ANAME(ra.r[1]) + ANAME(ra.r[2]) + "·" + ANAME(ra.r[7]) + ANAME(ra.r[8]) +
+                        " = " + ANAME(ra.r[3]) + ANAME(ra.r[4]) + "·" + ANAME(ra.r[5]) + ANAME(ra.r[6]);
         gprint(str);
     }
 
-    final void show_cr(a_cir cr) {
+    final String cr_string(a_cir cr) {
         char i;
         if (cr == null) {
             Cm.print("a_cir == null");
-            return;
+            return "";
         }
+        String s = "";
         if (show_dtype != 0) {
-            gprint("[" + cr.type + "]");
+            s = "[" + cr.type + "]";
+            return s;
         }
-        gprint(Cm.s2716);
         if (cr.o > 0) {
-            String st = st = "[" + ANAME(cr.o) + ", ";
-            gprint(st);
+            s += "[" + ANAME(cr.o) + ", ";
         } else {
-            gprint("[");
+            s += "[";
         }
         for (i = 0; i <= cr.no; i++)
-            gprint(ANAME(cr.pt[i]));
-        gprint("]");
+            s += ANAME(cr.pt[i]);
+        s += "]";
+        return GExpert.getTranslationViaGettext("Circle {0}", s);
+    }
+
+    final void show_cr(a_cir cr) {
+        gprint(cr_string(cr));
     }
 
     final void show_ct(sim_tri st) {

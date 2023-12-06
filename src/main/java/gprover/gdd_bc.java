@@ -1450,7 +1450,9 @@ public class gdd_bc extends gdd_aux {
                 break;
             case CO_MIDP: {
                 if (co.p[0] != 0) {
-                    String str = Cm.s2729 + "(" + ANAME(co.p[0]) + "," + ANAME(co.p[1]) + ANAME(co.p[2]) + ")";
+                    // String str = Cm.s2729 + "(" + ANAME(co.p[0]) + "," + ANAME(co.p[1]) + ANAME(co.p[2]) + ")";
+                    String str = GExpert.getTranslationViaGettext("{0} is the midpoint of {1}",
+                            ANAME(co.p[0]), ANAME(co.p[1]) + ANAME(co.p[2]));
                     co.sd = str;
                 } else {
                     this.setPrintToString();
@@ -1463,9 +1465,9 @@ public class gdd_bc extends gdd_aux {
 
             {
                 if (co.p[0] != 0) {
-                    String st = ANAME(co.p[0]) + ANAME(co.p[1]) + "*" +
+                    String st = ANAME(co.p[0]) + ANAME(co.p[1]) + "·" +
                             ANAME(co.p[6]) + ANAME(co.p[7]) + " = " +
-                            ANAME(co.p[2]) + ANAME(co.p[3]) + "*" +
+                            ANAME(co.p[2]) + ANAME(co.p[3]) + "·" +
                             ANAME(co.p[4]) + ANAME(co.p[5]);
                     co.sd = st;
                 } else {
@@ -1482,13 +1484,12 @@ public class gdd_bc extends gdd_aux {
                             ANAME(co.p[0]) + ANAME(co.p[2]);
                     co.sd = st;
                 } else if (co.p[1] != 0) {
-                    String st = (Cm.s2732);
-                    st += ("(");
+                    String st = "";
                     if (co.p[0] != 0) {
                         st += ("(" + ANAME(co.p[0]) + ")");
                     }
                     st += show_pts(co, 1);
-                    st += (")");
+                    st = GExpert.getTranslationViaGettext("{0} are concyclic", st);
                     co.sd = st;
 
                 } else {
@@ -1500,8 +1501,12 @@ public class gdd_bc extends gdd_aux {
                 break;
             case CO_STRI: {
                 if (co.p[0] != 0) {
-                    String st = Cm.PC_TRI + " " + ANAME(co.p[0]) + ANAME(co.p[1]) + ANAME(co.p[2]) + Cm.SIMILAR_SIGN +//" ~ " +
-                            Cm.PC_TRI + " " + ANAME(co.p[3]) + ANAME(co.p[4]) + ANAME(co.p[5]);
+                    // String st = Cm.PC_TRI + " " + ANAME(co.p[0]) + ANAME(co.p[1]) + ANAME(co.p[2]) + Cm.SIMILAR_SIGN +//" ~ " +
+                    //         Cm.PC_TRI + " " + ANAME(co.p[3]) + ANAME(co.p[4]) + ANAME(co.p[5]);
+                    String st = GExpert.getTranslationViaGettext("△{0}", ANAME(co.p[0]) + ANAME(co.p[1]) + ANAME(co.p[2]))
+                            + "~"
+                            + GExpert.getTranslationViaGettext("△{0}", ANAME(co.p[3]) + ANAME(co.p[4]) + ANAME(co.p[5]));
+
                     co.sd = st;
                 } else {
                     this.setPrintToString();
@@ -1512,8 +1517,9 @@ public class gdd_bc extends gdd_aux {
             break;
             case CO_CTRI: {
                 if (co.p[0] != 0) {
-                    String st = Cm.PC_TRI + " " + ANAME(co.p[0]) + ANAME(co.p[1]) + ANAME(co.p[2]) + Cm.EQUAL_SIGN +//" = " +
-                            Cm.PC_TRI + " " + ANAME(co.p[3]) + ANAME(co.p[4]) + ANAME(co.p[5]);
+                    String st = GExpert.getTranslationViaGettext("△{0}", ANAME(co.p[0]) + ANAME(co.p[1]) + ANAME(co.p[2]))
+                            + "≅" +
+                            GExpert.getTranslationViaGettext("△{0}", ANAME(co.p[3]) + ANAME(co.p[4]) + ANAME(co.p[5]));
                     co.sd = st;
                 } else {
                     this.setPrintToString();

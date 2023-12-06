@@ -2797,6 +2797,14 @@ msgstr "Trasporto parallelo di segmento"
 msgid "{0} are collinear"
 msgstr "Collineari"
 
+#, fuzzy
+msgid "{0} are parallel"
+msgstr "è banalmente vero"
+
+#, fuzzy
+msgid "{0} are perpendicular"
+msgstr "rette perpendicolari"
+
 msgid "Full"
 msgstr ""
 
@@ -2816,6 +2824,11 @@ msgid "We could not find anything!"
 msgstr ""
 
 msgid "No result"
+msgstr ""
+
+msgid ""
+"Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag "
+"with left mouseclick to move"
 msgstr ""
 
 #~ msgid "animate_start"

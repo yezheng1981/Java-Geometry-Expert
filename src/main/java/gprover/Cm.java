@@ -29,15 +29,9 @@ final public class Cm {
     final public static String INTERSECT_SIGN = isWindows() ? " intersect " : " ∩ ";
 
 
-    final public static String s2705 = "midpoints\r\n";
-
     final public static String s2707 = "lines";
 
-    final public static String s2709 = "plines";
     final public static String s2713 = "circles in the database.";
-
-    final public static String s2715 = "perp[";
-    final public static String s2716 = "circle";
 
     final public static String s2720 = "similar triangles";
 
@@ -45,9 +39,6 @@ final public class Cm {
 
     final public static String s2727 = "       because ";
     final public static String s2728 = " and ";
-    final public static String s2729 = "midp";
-
-    final public static String s2732 = "cyclic";
 
     final public static String PC_COLL = "COLLINEAR";
     final public static String PC_PARA = "PARALLEL";
@@ -59,8 +50,6 @@ final public class Cm {
     final public static String PC_STRI = "SIM_TRIANGLE";
     final public static String PC_CTRI = "CON_TRIANGLE";
     final public static String PC_MIDP = "MIDPOINT";
-
-    final public static String PC_TRI = "tri";
 
     //  predicate.
 

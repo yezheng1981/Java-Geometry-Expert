@@ -1815,7 +1815,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 String info = "GDD proof visualization";
                 // TODO: Put this piece of information to some other place of the program:
                 info = "Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag with left mouseclick to move";
-                JFrame frame = new JFrame(info);
+                JFrame frame = new JFrame(GExpert.getLanguage(info));
                 frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 frame.getContentPane().add(panel);
                 frame.pack();

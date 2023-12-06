@@ -2712,6 +2712,12 @@ msgstr "Szakasz"
 msgid "{0} are collinear"
 msgstr "{0} egy egyenesre illeszkednek"
 
+msgid "{0} are parallel"
+msgstr "{0} párhuzamosak"
+
+msgid "{0} are perpendicular"
+msgstr "{0} merőlegesek"
+
 msgid "Full"
 msgstr "Teljes"
 
@@ -2729,3 +2735,15 @@ msgstr "Nem találtunk semmit!"
 
 msgid "No result"
 msgstr "Nincs eredmény"
+
+msgid ""
+"Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag "
+"with left mouseclick to move"
+msgstr "A SHIFT és vonszolás jobb egérgombbal belenagyít, a SHIFT és vonszolás bal egérgombbal mozgatja a képet"
+
+msgid "△{0}"
+msgstr "{0}△"
+
+msgid "{0} are concyclic"
+msgstr "{0} egy körre illeszkednek"
+

@@ -2688,6 +2688,15 @@ msgstr ""
 msgid "{0} are collinear"
 msgstr ""
 
+msgid "{0} are parallel"
+msgstr ""
+
+msgid "{0} are perpendicular"
+msgstr ""
+
+msgid "{0} are concyclic"
+msgstr ""
+
 msgid "Full"
 msgstr ""
 
@@ -2704,4 +2713,10 @@ msgid "We could not find anything!"
 msgstr ""
 
 msgid "No result"
+msgstr ""
+
+msgid "Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag with left mouseclick to move"
+msgstr ""
+
+msgid "△{0}"
 msgstr ""
