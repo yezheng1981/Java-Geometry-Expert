@@ -94,7 +94,13 @@ public class drawData {
     }
 
     public static double getWidth(int index) {
-        return ((Double) dd.widthlist.get(index)).doubleValue();
+        double d;
+        try {
+            d = (double) dd.dashlist.get(index);
+        } catch (ClassCastException cce) {
+            d = (int) dd.dashlist.get(index);
+        }
+        return d;
     }
 
     public static int getDashCounter() {
