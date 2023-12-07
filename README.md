@@ -43,12 +43,12 @@
   <h3>4. How to use <a name="vpp" id="vpp"></a></h3>
   
   <p>
-  Download JGEX for your platform and just start it.
+  <a href="https://github.com/kovzol/Java-Geometry-Expert/releases">Download JGEX</a> for your platform and just start it.
   In case you want to contribute to the development,
   you need to have some experience in the Java language.
   JGEX is written in Java, so you need a JDK in order to compile the code.
-  The preferred IDE for development is IntelliJ IDEA:
-  <a>https://www.jetbrains.com/idea</a>. Alternatively, you can use <a href="https://gradle.org/">Gradle</a> on command line
+  The preferred IDE for development is
+  <a href="https://www.jetbrains.com/idea">IntelliJ IDEA</a>. Alternatively, you can use <a href="https://gradle.org/">Gradle</a> on command line
   to compile and run the application: you need to type <b>gradlew run</b> in the root folder of JGEX.
   </p>
   
