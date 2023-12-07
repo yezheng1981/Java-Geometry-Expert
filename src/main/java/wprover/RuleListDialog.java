@@ -123,11 +123,12 @@ public class RuleListDialog extends JBaseDialog {
             sh = GExpert.getTranslationViaGettext("Rule {0}", r.type + "");
 
             label1.setText(sh);
-            label2.setText(r.name);
+            if (r.name != null)
+                label2.setText(GExpert.getLanguage(r.name));
             label1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-            String s = r.discription;
+            String s = GExpert.getLanguage(r.discription);
             if (r.exstring != null)
-                s += '\n' + r.exstring;
+                s += '\n' + GExpert.getLanguage(r.exstring);
             epane.setText(s);
         }
 

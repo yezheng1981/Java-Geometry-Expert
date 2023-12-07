@@ -2875,6 +2875,339 @@ msgstr "Equazione"
 msgid "rule {0}"
 msgstr "Rettangolo"
 
+# GDD 1
+msgid "If AB ∥ BC, then A, B and C are collinear."
+msgstr ""
+
+# GDD 2/1
+msgid ""
+"For two angles ∠[l1,l2], ∠[l3,l4]. If l1 = l3 and l2 ∥ l4, then ∠[l1,l2] = "
+"∠[l3,l4]."
+msgstr ""
+
+# GDD 2/2
+msgid ""
+"For example, in parallelogram ABCD, AD ∥ BC and AC = CA, hence ∠[CAD] = "
+"∠[ACB]."
+msgstr ""
+
+# GDD 3/1
+msgid ""
+"If AB ∥ CD and E is the intersection of AC and BD, then EA / EC = EB / ED."
+msgstr ""
+
+# GDD 4 /1
+msgid "If AB ∥ CD and CD ⊥ EF, then AB ⊥ EF."
+msgstr ""
+
+# GDD 5/1
+msgid "If AB ⊥ CD, then ∠[AB,CD] = [1] (or 90 degrees)."
+msgstr ""
+
+# GDD 6/1
+msgid ""
+"In a right triangle ACB, ∠C = [1], if the E  is the midpoint of AB, then E "
+"is the circumcenter of ABC with EA = EB = EC."
+msgstr ""
+
+# GDD 7/1
+msgid "If AB ⊥ CD and CD ⊥ EF, then AB ∥ EF."
+msgstr ""
+
+# GDD 8/1
+msgid ""
+"For four points A,B,C,D, if AC ⊥ BC and AD ⊥ BD, then A,B,C,D are concyclic."
+msgstr ""
+
+# GDD 9/1
+msgid ""
+"For a circle c(O,AB) and a point C on circle c, if A,B,O are collinear, then "
+"AC ⊥ BC and ∠ACB = [1]."
+msgstr ""
+
+# GDD 10/1
+msgid ""
+"If AB is the diameter of a circle and point C is on the circle, then AC ⊥ BC"
+msgstr ""
+
+# GDD 11/1
+msgid "Angle of circumference equals to half of the angle at the center"
+msgstr ""
+
+# GDD 12/1
+msgid "If AB ∥ CD and A,B,C,D are concyclic, then ∠ABC = ∠DAB."
+msgstr ""
+
+# GDD 13/1
+msgid "If A,B,C,D are concyclic, then ∠ADB = ∠ACB and vice versa."
+msgstr ""
+
+# GDD 14/1
+msgid "Chord tangent angle theorem."
+msgstr ""
+
+# GDD 15 /1
+msgid ""
+"A line passing the centers of two circles is perpendicular to the common "
+"chord of two circles."
+msgstr ""
+
+# GDD 15 /2
+msgid ""
+"For example, given two circles C1(O,AB) and C2(O1,AB), A and B are two "
+"common points, then OO1 ⊥ AB."
+msgstr ""
+
+#, fuzzy
+msgid "The Addition for Full Angle."
+msgstr "Regole per Angolo Completo"
+
+# GDD 16/2
+msgid ""
+"If ∠[l1,l2] = ∠[l3,l4] and ∠[l5,l6] = ∠[l7,l8], and l2 = l6 and l4 = l7, "
+"then ∠[l1,l4] = ∠[l5,l8]."
+msgstr ""
+
+# GDD 17/1
+msgid "ASPP12."
+msgstr ""
+
+# GDD 17/2
+msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ∥ l2, then l3 ∥ l4."
+msgstr ""
+
+# GDD 17/3
+msgid "Because if l1 ∥ l2, then ∠[l1,l2] = [0]. Hence ∠[l3,l4] = [0]."
+msgstr ""
+
+# GDD 18/1
+msgid "ASPP13."
+msgstr ""
+
+# GDD 18/2
+msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ∥ l3, then l2 ∥ l4."
+msgstr ""
+
+# GDD 19/1
+msgid "ASTT12."
+msgstr ""
+
+# GDD 19/2
+msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l2, then l3 ⊥ l4."
+msgstr ""
+
+# GDD 20/1
+msgid "ASTT13."
+msgstr ""
+
+# GDD 20/2
+msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l3, then l2 ⊥ l4."
+msgstr ""
+
+#, fuzzy
+msgid "Special Angles."
+msgstr "Angoli speciali"
+
+#, fuzzy
+msgid "Supplementary Angle."
+msgstr "Angolo speciale"
+
+#, fuzzy
+msgid "Isosceles Triangle."
+msgstr "Triangolo isoscele"
+
+#, fuzzy
+msgid "Isosceles Triangle Theorem."
+msgstr "Triangolo isoscele"
+
+# GDD 24/2
+msgid ""
+"For an isosceles triangle ABC and a point D on line BC, if one of the "
+"following statements is true, the other two are also true:"
+msgstr ""
+
+# GDD 24/3
+msgid "1. AD ⊥ BC, 2. D is the midpoint of BC, 3. ∠BAD = ∠DAC."
+msgstr ""
+
+#, fuzzy
+msgid "Congruent Triangles."
+msgstr "Triangoli congruenti"
+
+# GDD 25/2
+msgid ""
+"Triangles are called congruent if they have the same size and shape. That "
+"is, corresponding angles have the same measure, and corresponding sides have "
+"the same length."
+msgstr ""
+
+# GDD 26 #ASA/1
+msgid "ASA (angle-side-angle) congruence:"
+msgstr ""
+
+# GDD 26 #ASA/2
+msgid ""
+"Two triangles are congruent if a pair of corresponding angles and the "
+"included side are equal."
+msgstr ""
+
+# GDD 27 #SAS/1
+msgid "SAS (side-angle-side) congruence:"
+msgstr ""
+
+# GDD 27 #SAS/2
+msgid ""
+"Two triangles are congruent if a pair of corresponding sides and the "
+"included angle are equal."
+msgstr ""
+
+# GDD 28 #SSS/1
+msgid "SSS (side-side-side) congruence:"
+msgstr ""
+
+# GDD 28 #SSS/2
+msgid "Two triangles are congruent if their corresponding sides are equal."
+msgstr ""
+
+# GDD 29 #SAS/1
+msgid "SAS (side-angle-side) congruence for right triangles:"
+msgstr ""
+
+# GDD 29 #SAS/2
+msgid ""
+"Two right triangles are congruent if their two corresponding sides are equal."
+msgstr ""
+
+#, fuzzy
+msgid "Similar triangles."
+msgstr "triangoli simili"
+
+# GDD 30/2
+msgid ""
+"Similar triangles are triangles that have the same shape but possibly "
+"different size. In particular, corresponding angles are congruent, and "
+"corresponding sides are in proportion."
+msgstr ""
+
+# GDD 31 #AAA/1
+msgid "AAA (angle-angle-angle) similarity."
+msgstr ""
+
+# GDD 31 #AAA/2
+msgid ""
+"If two triangles have two corresponding angles that are congruent, then the "
+"triangles are similar. Because the sum of the angles in a triangle must be "
+"π, we really only need to know that two pairs of corresponding angles are "
+"congruent to know that the triangles are similar."
+msgstr ""
+
+# GDD 32 #SAS/1
+msgid "SAS (side-angle-side) similarity."
+msgstr ""
+
+# GDD 32 #SAS/2
+msgid ""
+"The side-angle-side (SAS) similarity test says that if two triangles have "
+"two pairs of sides that are proportional and the included angles are "
+"congruent, then the triangles are similar."
+msgstr ""
+
+# GDD 33 #SSS/1
+msgid "SSS (side-side-side) similarity."
+msgstr ""
+
+# GDD 33 #SSS/2
+msgid ""
+"If two triangles have all three pairs of sides in proportion, the triangles "
+"are similar."
+msgstr ""
+
+# GDD 34/1
+msgid "Ratio by similarity."
+msgstr ""
+
+# GDD 35/1
+msgid "Middle Connection Theorem for Triangles."
+msgstr ""
+
+# GDD 35/2
+msgid ""
+"The line connects the midpoints of two sides of a triangle is parallel to "
+"the third side of the triangle."
+msgstr ""
+
+# GDD 36/1
+msgid ""
+"The hypotenuse of a right triangle is the diameter of the circumscribed "
+"circle of the triangle, and the midpoint of the hypotenuse is the center of "
+"the circle."
+msgstr ""
+
+# GDD 36/2
+msgid ""
+"For a right triangle ACB, if AC ⊥ BC and D is the midpoint of AB, then DC = "
+"DA = DB, D is the center of circle ABC."
+msgstr ""
+
+#, fuzzy
+msgid "Equilateral Triangles."
+msgstr "Trinagolo equilatero"
+
+# GDD 37/2
+msgid ""
+"An equilateral triangle is a triangle in which all three sides have equal "
+"lengths."
+msgstr ""
+
+# GDD 38/1
+msgid "Pythagorean Theorem."
+msgstr ""
+
+# GDD 38/2
+msgid ""
+"In any right triangle, the area of the square whose side is the hypotenuse "
+"(the side of a right triangle opposite the right angle) is equal to the sum "
+"of areas of the squares whose sides are the two legs (i.e. the two sides "
+"other than the hypotenuse)."
+msgstr ""
+
+# GDD 39/1
+msgid ""
+"The sum of three interior angles of a triangle is [0] (or 180 degree for "
+"traditional angles)."
+msgstr ""
+
+#, fuzzy
+msgid "Parallelogram."
+msgstr "Parallelogramma"
+
+# GDD 40/2
+msgid ""
+"A parallelogram is a quadrilateral with two sets of opposite parallel sides."
+msgstr ""
+
+# GDD 41/1
+msgid "Middle Connection Theorem for Trapezoid."
+msgstr ""
+
+#, fuzzy
+msgid "Ratio."
+msgstr "Rapporto"
+
+#, fuzzy
+msgid "Use Ratio in Deductive Database Method."
+msgstr "Metodo del database deduttivo"
+
+# GDD 43/1
+msgid "Ratio by angle bisector."
+msgstr ""
+
+# GDD 43/2
+msgid ""
+"In triangle ABC, if AD is the bisector of angle A, and D is on line BC, then "
+"AB/BD = AC/DC."
+msgstr ""
+
 #~ msgid "animate_start"
 #~ msgstr "avvia animazione"
 

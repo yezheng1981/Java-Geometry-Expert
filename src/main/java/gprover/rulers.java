@@ -4,159 +4,154 @@ public class rulers { // This should be "rules". FIXME.
 
     final public static String[] GDD_English = {
             "* 1",
-            "If AB ∥ BC, then Collinear(A,B,C).",
+            "If AB ∥ BC, then A, B and C are collinear.",
 
             "* 2",
             "For two angles ∠[l1,l2], ∠[l3,l4]. If l1 = l3 and l2 ∥ l4, then ∠[l1,l2] = ∠[l3,l4].",
             "For example, in parallelogram ABCD, AD ∥ BC and AC = CA, hence ∠[CAD] = ∠[ACB].",
 
             "* 3",
-            "if AB ∥ CD and E is the intersection of AC and BD, then EA / EC = EB / ED.",
+            "If AB ∥ CD and E is the intersection of AC and BD, then EA / EC = EB / ED.",
 
             "* 4 ",
-            "If AB ∥ CD and CD ⊥ EF, then AB ⊥ EF.",
+            "If AB ∥ EF and CD ⊥ EF, then CD ⊥ EF.",
 
             "* 5",
             "If AB ⊥ CD, then ∠[AB,CD] = [1] (or 90 degrees).",
 
             "* 6",
-            "In right triangle ACB, ∠C = [1], if  midpoint(E, A B), then Circumcenter(E,A B C) and EA = EB = EC.",
+            "In a right triangle ACB, ∠C = [1], if E is the midpoint of AB, then E is the circumcenter of ABC with EA = EB = EC.",
 
             "* 7",
             "If AB ⊥ CD and CD ⊥ EF, then AB ∥ EF.",
 
             "* 8",
-            "For four points A,B,C,D, if AC ⊥ BC and AD ⊥ BD, then Cyclic(A,B,C,D).",
+            "For four points A,B,C,D, if AC ⊥ BC and AD ⊥ BD, then A,B,C,D are concyclic.",
 
             "* 9",
-            "For a circle c(O,AB) and a point C on Circle c, if Collinear(A,B,O), then AC ⊥ BC and ∠ACB = [1].",
+            "For a circle c(O,AB) and a point C on circle c, if A,B,O are collinear, then AC ⊥ BC and ∠ACB = [1].",
 
             "* 10",
-            "If AB is the Diameter of a circle and point C is on the circle, then AC ⊥ BC",
+            "If AB is the diameter of a circle and point D is on the circle, then AD ⊥ BD." ,
 
             "* 11",
-            "Angle of circumference equals to half of angle of center",
+            "Angle of circumference equals to half of the angle at the center.",
 
             "* 12",
-            "If AB ∥ CD and Cyclic(A,B,C,D), then ∠ABC = ∠DAB.",
+            "If AB ∥ CD and A,B,C,D are concyclic, then ∠ABC = ∠DAB.",
 
             "* 13",
-            "If Cyclic(A,B,C,D), then ∠ADB = ∠ACB and vice verse.",
+            "If A,B,C,D are concyclic, then ∠ADB = ∠ACB and vice versa.",
 
             "* 14",
-            "Chord tangent angle ***** ",
+            "Chord tangent angle theorem.",
 
-            "* 15 ",
-            "Line passing the centers of two circles is perpendicular to the common chord of two circles.  ",
-            "For example, two circles C1(O,AB) and C2(O1,AB), AB are two common points, then OO1 ⊥ AB.",
+            "* 15",
+            "A line passing the centers of two circles is perpendicular to the common chord of two circles.",
+            "For example, given two circles C1(O,AB) and C2(O1,AB), A and B are two common points, then OO1 ⊥ AB.",
 
             "* 16",
             "The Addition for Full Angle.",
-            "If ∠[l1,l2] = ∠[l3,l4] and ∠[l5,l6] = ∠[l7,l8], and l2 = l6 and l4 = l7, then ∠[l1,l4] = ∠[l5,l8] ",
+            "If ∠[l1,l2] = ∠[l3,l4] and ∠[l5,l6] = ∠[l7,l8], and l2 = l6 and l4 = l7, then ∠[l1,l4] = ∠[l5,l8].",
 
-            "* 17",
-            "ASPP12.",
+            "* 17 #ASPP12",
             "If ∠[l1,l2] = ∠[l3,l4] and l1 ∥ l2, then l3 ∥ l4.",
-            "Because if l1 ∥ l2, ∠[l1,l2] = [0]. Hence ∠[l3,l4] = [0].",
+            "Because if l1 ∥ l2, then ∠[l1,l2] = [0]. Hence ∠[l3,l4] = [0].",
 
-            "* 18",
-            "ASPP13",
+            "* 18 #ASPP13",
             "If ∠[l1,l2] = ∠[l3,l4] and l1 ∥ l3, then l2 ∥ l4.",
-            " ",
 
-            "* 19",
-            "ASTT12",
+            "* 19 #ASTT12",
             "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l2, then l3 ⊥ l4.",
 
-            "* 20",
-            "ASTT13",
+            "* 20 #ASTT13",
             "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l3, then l2 ⊥ l4.",
 
             "* 21",
-            "Special Angles",
+            "Special Angles.",
 
             "* 22",
-            "Supplementary Angle",
+            "Supplementary Angle.",
 
             "* 23",
             "Isosceles Triangle.",
 
-            "* 24 Isosceles Triangle Theorem.",
-            "For a isosceles triangle ABC and a point D on line BC, if any one of following statement is true, the other two are also true .",
-            "1. AD ⊥ BC     2. D is the midpoint of BC   3. ∠BAD = ∠DAC",
+            "* 24 #Isosceles Triangle Theorem",
+            "For an isosceles triangle ABC and a point D on line BC, if one of the following statements is true, the other two are also true:",
+            "1. AD ⊥ BC, 2. D is the midpoint of BC, 3. ∠BAD = ∠DAC.",
 
-            "* 25 ",
-            "Congruent Triangle. ",
+            "* 25",
+            "Congruent Triangles.",
             "Triangles are called congruent if they have the same size and shape. That is, corresponding angles have the same measure, and corresponding sides have the same length.",
 
-            "* 26  #ASA",
-            "ASA (angle-side-angle) congruence: ",
-            "Two triangles are congruent if a pair of corresponding angles and the included side are equal. ",
+            "* 26 #ASA",
+            "ASA (angle-side-angle) congruence.",
+            "Two triangles are congruent if a pair of corresponding angles and the included side are equal.",
 
             "* 27 #SAS",
-            "SAS(side-angle-side) congruence",
+            "SAS (side-angle-side) congruence.",
             "Two triangles are congruent if a pair of corresponding sides and the included angle are equal.",
 
             "* 28 #SSS",
-            "SSS (side-side-side) congruence",
+            "SSS (side-side-side) congruence.",
             "Two triangles are congruent if their corresponding sides are equal.",
 
             "* 29 #SAS",
             "SAS (side-angle-side) congruence for right triangles.",
-            "Two right triangle are congruent if their two corresponding cartesian edges are equal. ",
+            "Two right triangles are congruent if their two corresponding sides are equal.",
 
             "* 30",
-            "Similar triangles",
+            "Similar triangles.",
             "Similar triangles are triangles that have the same shape but possibly different size. In particular, corresponding angles are congruent, and corresponding sides are in proportion.",
 
             "* 31 #AAA",
-            "AAA (angle-angle-angle) similarity",
-            "If two triangles have two corresponding angles that are congruent, then the triangles are similar. Because the sum of the angles in a triangle must be PI, we really only need to know that two pairs of corresponding angles are congruent to know the triangles are similar.",
+            "AAA (angle-angle-angle) similarity.",
+            "If two triangles have two corresponding angles that are congruent, then the triangles are similar. Because the sum of the angles in a triangle must be π, we really only need to know that two pairs of corresponding angles are congruent to know that the triangles are similar.",
 
             "* 32 #SAS",
-            "SAS (side-angle-side) similarity",
-            "The side-angle-side (SAS) similarity test says that if two triangles have two pairs of sides that are proportional and the included angles are congruent, then the triangles are similar. ",
+            "SAS (side-angle-side) similarity.",
+            "The side-angle-side (SAS) similarity test says that if two triangles have two pairs of sides that are proportional and the included angles are congruent, then the triangles are similar.",
 
             "* 33 #SSS",
-            "SSS (side-side-side) similarity",
+            "SSS (side-side-side) similarity.",
             "If two triangles have all three pairs of sides in proportion, the triangles are similar.",
 
             "* 34",
-            "Ratio by similarity",
+            "Ratio by similarity.",
 
             "* 35",
-            "Middle Connection Theorem for Triangles",
-            "The line connects the midpoints of two sides of triangle is parallel to the third side of the triangle.",
+            "Middle Connection Theorem for Triangles.",
+            "The line connects the midpoints of two sides of a triangle is parallel to the third side of the triangle.",
 
             "* 36",
             "The hypotenuse of a right triangle is the diameter of the circumscribed circle of the triangle, and the midpoint of the hypotenuse is the center of the circle.",
-            "For a right triangle ACB, if AC ⊥ BC and D is the midpoint of AB,  then DC = DA = DB, D is the center of circle ABC.",
+            "For a right triangle ACB, if AC ⊥ BC and D is the midpoint of AB, then DC = DA = DB, D is the center of circle ABC.",
 
             "* 37",
-            "Equilateral Triangles",
+            "Equilateral Triangles.",
             "An equilateral triangle is a triangle in which all three sides have equal lengths.",
 
             "* 38",
-            "Pythagorean Theorem",
-            "In any right triangle, the area of the square whose side is the hypotenuse (the side of a right triangle opposite the right angle) is equal to the sum of areas of the squares whose sides are the two legs (i.e. the two sides other than the hypotenuse). ",
+            "Pythagorean Theorem.",
+            "In any right triangle, the area of the square whose side is the hypotenuse (the side of a right triangle opposite the right angle) is equal to the sum of areas of the squares whose sides are the two legs (i.e. the two sides other than the hypotenuse).",
 
             "* 39",
-            "The sum of three interior angles of a triangle is [0]. (or 180 degree for traditional angle).",
+            "The sum of three interior angles of a triangle is [0] (or 180 degree for traditional angles).",
 
             "* 40",
-            "Parallelogram ",
+            "Parallelogram.",
             "A parallelogram is a quadrilateral with two sets of opposite parallel sides.",
 
             "* 41",
-            "Middle Connection Theorem for Trapezoid",
+            "Middle Connection Theorem for Trapezoid.",
 
             "* 42",
-            "Ratio ",
-            "Use Ratio in Deductive Database Method. ",
+            "Ratio.",
+            "Use Ratio in Deductive Database Method.",
 
             "* 43",
-            "Ratio by angle bisector",
-            "In triangle ABC, if AD is the bisector of angle A, and D is on line BC, then AB/BD = AC/DC. ",
+            "Ratio by angle bisector.",
+            "In triangle ABC, if AD is the bisector of angle A, and D is on line BC, then AB/BD = AC/DC.",
             "*END",
     };
 
