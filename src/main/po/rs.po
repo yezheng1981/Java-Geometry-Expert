@@ -2898,7 +2898,7 @@ msgid ""
 msgstr ""
 
 # GDD 4 /1
-msgid "If AB ∥ CD and CD ⊥ EF, then AB ⊥ EF."
+msgid "If AB ∥ EF and CD ⊥ EF, then CD ⊥ EF."
 msgstr ""
 
 # GDD 5/1
@@ -2907,8 +2907,8 @@ msgstr ""
 
 # GDD 6/1
 msgid ""
-"In a right triangle ACB, ∠C = [1], if the E  is the midpoint of AB, then E "
-"is the circumcenter of ABC with EA = EB = EC."
+"In a right triangle ACB, ∠C = [1], if E is the midpoint of AB, then E is the "
+"circumcenter of ABC with EA = EB = EC."
 msgstr ""
 
 # GDD 7/1
@@ -2928,11 +2928,11 @@ msgstr ""
 
 # GDD 10/1
 msgid ""
-"If AB is the diameter of a circle and point C is on the circle, then AC ⊥ BC"
+"If AB is the diameter of a circle and point D is on the circle, then AD ⊥ BD."
 msgstr ""
 
 # GDD 11/1
-msgid "Angle of circumference equals to half of the angle at the center"
+msgid "Angle of circumference equals to half of the angle at the center."
 msgstr ""
 
 # GDD 12/1
@@ -2970,7 +2970,7 @@ msgid ""
 msgstr ""
 
 # GDD 17/1
-msgid "ASPP12."
+msgid "ASPP12"
 msgstr ""
 
 # GDD 17/2
@@ -2982,7 +2982,7 @@ msgid "Because if l1 ∥ l2, then ∠[l1,l2] = [0]. Hence ∠[l3,l4] = [0]."
 msgstr ""
 
 # GDD 18/1
-msgid "ASPP13."
+msgid "ASPP13"
 msgstr ""
 
 # GDD 18/2
@@ -2990,7 +2990,7 @@ msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ∥ l3, then l2 ∥ l4."
 msgstr ""
 
 # GDD 19/1
-msgid "ASTT12."
+msgid "ASTT12"
 msgstr ""
 
 # GDD 19/2
@@ -2998,7 +2998,7 @@ msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l2, then l3 ⊥ l4."
 msgstr ""
 
 # GDD 20/1
-msgid "ASTT13."
+msgid "ASTT13"
 msgstr ""
 
 # GDD 20/2
@@ -3018,7 +3018,7 @@ msgid "Isosceles Triangle."
 msgstr "Jednakokraki trougao"
 
 #, fuzzy
-msgid "Isosceles Triangle Theorem."
+msgid "Isosceles Triangle Theorem"
 msgstr "Jednakokraki trougao"
 
 # GDD 24/2
@@ -3043,7 +3043,7 @@ msgid ""
 msgstr ""
 
 # GDD 26 #ASA/1
-msgid "ASA (angle-side-angle) congruence:"
+msgid "ASA (angle-side-angle) congruence."
 msgstr ""
 
 # GDD 26 #ASA/2
@@ -3053,7 +3053,7 @@ msgid ""
 msgstr ""
 
 # GDD 27 #SAS/1
-msgid "SAS (side-angle-side) congruence:"
+msgid "SAS (side-angle-side) congruence."
 msgstr ""
 
 # GDD 27 #SAS/2
@@ -3063,7 +3063,7 @@ msgid ""
 msgstr ""
 
 # GDD 28 #SSS/1
-msgid "SSS (side-side-side) congruence:"
+msgid "SSS (side-side-side) congruence."
 msgstr ""
 
 # GDD 28 #SSS/2
@@ -3071,7 +3071,7 @@ msgid "Two triangles are congruent if their corresponding sides are equal."
 msgstr ""
 
 # GDD 29 #SAS/1
-msgid "SAS (side-angle-side) congruence for right triangles:"
+msgid "SAS (side-angle-side) congruence for right triangles."
 msgstr ""
 
 # GDD 29 #SAS/2
@@ -3208,6 +3208,29 @@ msgid ""
 "In triangle ABC, if AD is the bisector of angle A, and D is on line BC, then "
 "AB/BD = AC/DC."
 msgstr ""
+
+#, fuzzy
+msgid "Rules related to parallel lines"
+msgstr "paralelne prave"
+
+#, fuzzy
+msgid "Rules related to perpendicular lines"
+msgstr "normalne prave"
+
+msgid "Rules related to circles"
+msgstr ""
+
+#, fuzzy
+msgid "Rules related to angles"
+msgstr "Molimo izaberite"
+
+#, fuzzy
+msgid "Rules related to triangles"
+msgstr "Molim unesite dva cela broja"
+
+#, fuzzy
+msgid "Other rules"
+msgstr "Ostalo"
 
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"

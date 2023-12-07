@@ -2168,9 +2168,8 @@ msgstr "Válassz N(>=3) pontot"
 msgid "Can not find object icon {0}"
 msgstr "A(z) {0} kép objektum nem található"
 
-#, fuzzy
 msgid "Can not find file {0}"
-msgstr "A(z) {0} kép nem található"
+msgstr "A(z) {0} fájl nem található"
 
 #: ../wprover/MProveTree.java:1363
 msgid "number"
@@ -2788,14 +2787,16 @@ msgstr "Ha AB ∥ BC, akkor A, B és C egy egyenesre esnek."
 msgid ""
 "For two angles ∠[l1,l2], ∠[l3,l4]. If l1 = l3 and l2 ∥ l4, then ∠[l1,l2] = "
 "∠[l3,l4]."
-msgstr "Adott két szög: ∠[l1,l2], ∠[l3,l4]. Ha l1 = l3 és l2 ∥ l4, akkor ∠[l1,l2] = "
+msgstr ""
+"Adott két szög: ∠[l1,l2], ∠[l3,l4]. Ha l1 = l3 és l2 ∥ l4, akkor ∠[l1,l2] = "
 "∠[l3,l4]."
 
 # GDD 2/2
-msgid "For example, in parallelogram ABCD, AD ∥ BC and AC = CA, hence ∠[CAD] = ∠[ACB]."
-msgstr ""
-"Például az ABCD paralelogrammában AD ∥ BC és AC = CA, ezért ∠[CAD] = "
+msgid ""
+"For example, in parallelogram ABCD, AD ∥ BC and AC = CA, hence ∠[CAD] = "
 "∠[ACB]."
+msgstr ""
+"Például az ABCD paralelogrammában AD ∥ BC és AC = CA, ezért ∠[CAD] = ∠[ACB]."
 
 # GDD 3/1
 msgid ""
@@ -2812,10 +2813,11 @@ msgstr "Ha AB ⊥ CD, akkor ∠[AB,CD] = [1] (vagy 90 fok)."
 
 # GDD 6/1
 msgid ""
-"In a right triangle ACB, ∠C = [1], if E is the midpoint of AB, then E "
-"is the circumcenter of ABC with EA = EB = EC."
-msgstr "Ha az ACB derékszögű háromszögben, ahol ∠C = [1], ha E az AB felezőpontja, akkor E "
-"az ABC körülírható körének középpontja, melyre EA = EB = EC."
+"In a right triangle ACB, ∠C = [1], if E is the midpoint of AB, then E is the "
+"circumcenter of ABC with EA = EB = EC."
+msgstr ""
+"Ha az ACB derékszögű háromszögben, ahol ∠C = [1], ha E az AB felezőpontja, "
+"akkor E az ABC körülírható körének középpontja, melyre EA = EB = EC."
 
 # GDD 7/1
 msgid "If AB ⊥ CD and CD ⊥ EF, then AB ∥ EF."
@@ -2824,15 +2826,17 @@ msgstr "Ha AB ⊥ CD és CD ⊥ EF, akkor AB ∥ EF."
 # GDD 8/1
 msgid ""
 "For four points A,B,C,D, if AC ⊥ BC and AD ⊥ BD, then A,B,C,D are concyclic."
-msgstr "Ha az A,B,C,D pontokra AC ⊥ BC és AD ⊥ BD, akkor A,B,C,D egy körre illeszkednek."
+msgstr ""
+"Ha az A,B,C,D pontokra AC ⊥ BC és AD ⊥ BD, akkor A,B,C,D egy körre "
+"illeszkednek."
 
 # GDD 9/1
 msgid ""
 "For a circle c(O,AB) and a point C on circle c, if A,B,O are collinear, then "
 "AC ⊥ BC and ∠ACB = [1]."
 msgstr ""
-"Ha a c(O,AB) körre és a rá eső C pontra teljesül, hogy A,B,O egy egyenesre esnek, akkor "
-"AC ⊥ BC és ∠ACB = [1]."
+"Ha a c(O,AB) körre és a rá eső C pontra teljesül, hogy A,B,O egy egyenesre "
+"esnek, akkor AC ⊥ BC és ∠ACB = [1]."
 
 # GDD 10/1
 msgid ""
@@ -2841,7 +2845,8 @@ msgstr "Ha AB egy kör átmérője, és D a körre illeszkedik, akkor AD ⊥ BD.
 
 # GDD 11/1
 msgid "Angle of circumference equals to half of the angle at the center."
-msgstr "Egy kerületi szög mindig feleakkora, mint a hozzá tartozó középponti szög."
+msgstr ""
+"Egy kerületi szög mindig feleakkora, mint a hozzá tartozó középponti szög."
 
 # GDD 12/1
 msgid "If AB ∥ CD and A,B,C,D are concyclic, then ∠ABC = ∠DAB."
@@ -2859,13 +2864,17 @@ msgstr "Az érintő szárú kerületi szögek tétele."
 msgid ""
 "A line passing the centers of two circles is perpendicular to the common "
 "chord of two circles."
-msgstr "Ha egy egyenes két kör középpontján keresztül halad, akkor merőleges a körök metszéspontjait összekötő egyenesre."
+msgstr ""
+"Ha egy egyenes két kör középpontján keresztül halad, akkor merőleges a körök "
+"metszéspontjait összekötő egyenesre."
 
 # GDD 15/2
 msgid ""
 "For example, given two circles C1(O,AB) and C2(O1,AB), A and B are two "
 "common points, then OO1 ⊥ AB."
-msgstr "Például ha adott a C1(O,AB) és a C2(O1,AB) kör, ahol A és B a két kör közös pontjai, akkor OO1 ⊥ AB."
+msgstr ""
+"Például ha adott a C1(O,AB) és a C2(O1,AB) kör, ahol A és B a két kör közös "
+"pontjai, akkor OO1 ⊥ AB."
 
 # GDD 16/1
 msgid "The Addition for Full Angle."
@@ -2875,7 +2884,8 @@ msgstr "Teljes szög összeadása."
 msgid ""
 "If ∠[l1,l2] = ∠[l3,l4] and ∠[l5,l6] = ∠[l7,l8], and l2 = l6 and l4 = l7, "
 "then ∠[l1,l4] = ∠[l5,l8]."
-msgstr "Ha ∠[l1,l2] = ∠[l3,l4] és ∠[l5,l6] = ∠[l7,l8], valamint l2 = l6 és l4 = l7, "
+msgstr ""
+"Ha ∠[l1,l2] = ∠[l3,l4] és ∠[l5,l6] = ∠[l7,l8], valamint l2 = l6 és l4 = l7, "
 "akkor ∠[l1,l4] = ∠[l5,l8]."
 
 # GDD 17/1
@@ -2934,8 +2944,9 @@ msgstr "Egyenlő szárú háromszögek tétele"
 msgid ""
 "For an isosceles triangle ABC and a point D on line BC, if one of the "
 "following statements is true, the other two are also true:"
-msgstr "Ha az ABC háromszög egyenlő szárú és a D pont a BC egyenesen fekszik, akkor ha a következő "
-"állítások valamelyike igaz, akkor a másik kettő is igaz:"
+msgstr ""
+"Ha az ABC háromszög egyenlő szárú és a D pont a BC egyenesen fekszik, akkor "
+"ha a következő állítások valamelyike igaz, akkor a másik kettő is igaz:"
 
 # GDD 24/3
 msgid "1. AD ⊥ BC, 2. D is the midpoint of BC, 3. ∠BAD = ∠DAC."
@@ -2950,8 +2961,10 @@ msgid ""
 "Triangles are called congruent if they have the same size and shape. That "
 "is, corresponding angles have the same measure, and corresponding sides have "
 "the same length."
-msgstr "Egybevágónak nevezünk két háromszöget, ha ugyanakkorák és ugyanolyan alakúak. "
-"Azaz a megfelelő szögek ugyanakkorák és a megfelelő oldalak ugyanolyan hosszúak."
+msgstr ""
+"Egybevágónak nevezünk két háromszöget, ha ugyanakkorák és ugyanolyan "
+"alakúak. Azaz a megfelelő szögek ugyanakkorák és a megfelelő oldalak "
+"ugyanolyan hosszúak."
 
 # GDD 26 #ASA/1
 msgid "ASA (angle-side-angle) congruence."
@@ -2961,7 +2974,9 @@ msgstr "SzOSz (szög-oldal-szög) egybevágóság."
 msgid ""
 "Two triangles are congruent if a pair of corresponding angles and the "
 "included side are equal."
-msgstr "Két háromszög egybevágó, ha egy-egy megfelelő szögük és a közbezárt oldal egyenlőek."
+msgstr ""
+"Két háromszög egybevágó, ha egy-egy megfelelő szögük és a közbezárt oldal "
+"egyenlőek."
 
 # GDD 27 #SAS/1
 msgid "SAS (side-angle-side) congruence."
@@ -2971,7 +2986,9 @@ msgstr "OSzO (oldal-szög-oldal) egybevágóság."
 msgid ""
 "Two triangles are congruent if a pair of corresponding sides and the "
 "included angle are equal."
-msgstr "Kég háromszög egybevágó, ha egy-egy megfelelő oldaluk és a közbezárt szög egyenlőek."
+msgstr ""
+"Kég háromszög egybevágó, ha egy-egy megfelelő oldaluk és a közbezárt szög "
+"egyenlőek."
 
 # GDD 28 #SSS/1
 msgid "SSS (side-side-side) congruence."
@@ -2998,8 +3015,10 @@ msgid ""
 "Similar triangles are triangles that have the same shape but possibly "
 "different size. In particular, corresponding angles are congruent, and "
 "corresponding sides are in proportion."
-msgstr "Hasonló háromszögeknek olyan háromszögeket nevezünk, amelyek ugyanolyan alakúak, de esetleg "
-"különböző méretűek. A megfelelő szögek azonban megegyeznek, és a megfelelő oldalak arányosak."
+msgstr ""
+"Hasonló háromszögeknek olyan háromszögeket nevezünk, amelyek ugyanolyan "
+"alakúak, de esetleg különböző méretűek. A megfelelő szögek azonban "
+"megegyeznek, és a megfelelő oldalak arányosak."
 
 # GDD 31 #AAA/1
 msgid "AAA (angle-angle-angle) similarity."
@@ -3011,9 +3030,11 @@ msgid ""
 "triangles are similar. Because the sum of the angles in a triangle must be "
 "π, we really only need to know that two pairs of corresponding angles are "
 "congruent to know that the triangles are similar."
-msgstr "Ha két háromszög megfelelő szögei ugyanakkorák, akkor a háromszögek hasonlóak. "
-"Mivel a háromszög belső szögeinek összege π, csak két pár megfelelő szögről kell tudnunk, "
-"hogy egyenlőek, ahhoz, hogy hasonlóságról legyen szó."
+msgstr ""
+"Ha két háromszög megfelelő szögei ugyanakkorák, akkor a háromszögek "
+"hasonlóak. Mivel a háromszög belső szögeinek összege π, csak két pár "
+"megfelelő szögről kell tudnunk, hogy egyenlőek, ahhoz, hogy hasonlóságról "
+"legyen szó."
 
 # GDD 32 #SAS/1
 msgid "SAS (side-angle-side) similarity."
@@ -3024,8 +3045,10 @@ msgid ""
 "The side-angle-side (SAS) similarity test says that if two triangles have "
 "two pairs of sides that are proportional and the included angles are "
 "congruent, then the triangles are similar."
-msgstr "Az oldal-szög-oldal (OSzO) hasonlósági feltétel kimondja, hogy ha két háromszög "
-"két-két megfelelő oldala arányos, valamint a közbezárt szögek ugyanakkorák, akkor a háromszögek hasonlóak."
+msgstr ""
+"Az oldal-szög-oldal (OSzO) hasonlósági feltétel kimondja, hogy ha két "
+"háromszög két-két megfelelő oldala arányos, valamint a közbezárt szögek "
+"ugyanakkorák, akkor a háromszögek hasonlóak."
 
 # GDD 33 #SSS/1
 msgid "SSS (side-side-side) similarity."
@@ -3035,7 +3058,8 @@ msgstr "OOO (oldal-oldal-oldal) hasonlóság."
 msgid ""
 "If two triangles have all three pairs of sides in proportion, the triangles "
 "are similar."
-msgstr "Ha két háromszög mindhárom oldalpárja arányos, akkor a háromszögek hasonlóak."
+msgstr ""
+"Ha két háromszög mindhárom oldalpárja arányos, akkor a háromszögek hasonlóak."
 
 # GDD 34/1
 msgid "Ratio by similarity."
@@ -3049,21 +3073,26 @@ msgstr "Tétel a háromszög középvonaláról."
 msgid ""
 "The line connects the midpoints of two sides of a triangle is parallel to "
 "the third side of the triangle."
-msgstr "A háromszög két oldalának egy-egy felezőpontját összekötő egyenes párhuzamos a harmadik oldallal."
+msgstr ""
+"A háromszög két oldalának egy-egy felezőpontját összekötő egyenes párhuzamos "
+"a harmadik oldallal."
 
 # GDD 36/1
 msgid ""
 "The hypotenuse of a right triangle is the diameter of the circumscribed "
 "circle of the triangle, and the midpoint of the hypotenuse is the center of "
 "the circle."
-msgstr "A derékszögű háromszög átfogója a háromszög körülírható körének átmérője, és az átfogó "
-"felezőpontja ezen kör középpontja."
+msgstr ""
+"A derékszögű háromszög átfogója a háromszög körülírható körének átmérője, és "
+"az átfogó felezőpontja ezen kör középpontja."
 
 # GDD 36/2
 msgid ""
 "For a right triangle ACB, if AC ⊥ BC and D is the midpoint of AB, then DC = "
 "DA = DB, D is the center of circle ABC."
-msgstr "A derékszögű ACB háromszögben ha AC ⊥ BC és D az AB felezőpontja, akkor DC = DA = DB, valamint D az ABC háromszög köré írt kör középpontja."
+msgstr ""
+"A derékszögű ACB háromszögben ha AC ⊥ BC és D az AB felezőpontja, akkor DC = "
+"DA = DB, valamint D az ABC háromszög köré írt kör középpontja."
 
 msgid "Equilateral Triangles."
 msgstr "Egyenlő oldalú háromszögek."
@@ -3084,7 +3113,8 @@ msgid ""
 "(the side of a right triangle opposite the right angle) is equal to the sum "
 "of areas of the squares whose sides are the two legs (i.e. the two sides "
 "other than the hypotenuse)."
-msgstr "Bármely derékszögű háromszögben az átfogóra rajzolt négyzet területe "
+msgstr ""
+"Bármely derékszögű háromszögben az átfogóra rajzolt négyzet területe "
 "megegyezik a befogókra rajzolt négyzetek területének összegével."
 
 # GDD 39/1
@@ -3099,7 +3129,8 @@ msgstr "Paralelogramma."
 # GDD 40/2
 msgid ""
 "A parallelogram is a quadrilateral with two sets of opposite parallel sides."
-msgstr "Paralelogrammáról van szó, ha egy négyszög szemközti oldalai párhuzamosak."
+msgstr ""
+"Paralelogrammáról van szó, ha egy négyszög szemközti oldalai párhuzamosak."
 
 # GDD 41/1
 msgid "Middle Connection Theorem for Trapezoid."
@@ -3121,5 +3152,24 @@ msgstr "Arány szögfelezővel."
 msgid ""
 "In triangle ABC, if AD is the bisector of angle A, and D is on line BC, then "
 "AB/BD = AC/DC."
-msgstr "Az ABC háromszögben ha AD az A-nál lévő szög felezője, és D a BC oldalra esik, "
-"akkor AB/BD = AC/DC."
+msgstr ""
+"Az ABC háromszögben ha AD az A-nál lévő szög felezője, és D a BC oldalra "
+"esik, akkor AB/BD = AC/DC."
+
+msgid "Rules related to parallel lines"
+msgstr "Párhuzamos egyenesekkel kapcsolatos szabályok"
+
+msgid "Rules related to perpendicular lines"
+msgstr "Merőleges egyenesekkel kapcsolatos szabályok"
+
+msgid "Rules related to circles"
+msgstr "Körökkel kapcsolatos szabályok"
+
+msgid "Rules related to angles"
+msgstr "Szögekkel kapcsolatos szabályok"
+
+msgid "Rules related to triangles"
+msgstr "Háromszögekkel kapcsolatos szabályok"
+
+msgid "Other rules"
+msgstr "Egyéb szabályok"
