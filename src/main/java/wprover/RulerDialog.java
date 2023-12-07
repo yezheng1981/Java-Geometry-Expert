@@ -56,7 +56,7 @@ public class RulerDialog extends JBaseDialog implements ChangeListener, ActionLi
 
         Vector vfull = RuleList.getAllFullRules();
         Object rNodes[] = new Object[1];
-        rNodes[0] = createNameVector("Full Rules", vfull, 0, 28);
+        rNodes[0] = createNameVector(GExpert.getLanguage("Full Rules"), vfull, 0, 28);
         treef = new JTree(new NamedVector("Root", rNodes));
         treef.setCellRenderer(renderer);
         treef.addMouseListener(this);

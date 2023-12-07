@@ -157,7 +157,7 @@ public class rulers { // This should be "rules". FIXME.
 
     final public static String[] FULL_English =
             {
-                    "* 1 # The Definition of Full Angle.",
+                    "* 1 #The Definition of Full Angle",
                     "A full angle is defined as an ordered pair of two lines u and v denoted by ∠[u,v].",
 
                     "* 2",
@@ -169,9 +169,9 @@ public class rulers { // This should be "rules". FIXME.
                     "* 4",
                     "∠[u,v] = ∠[1] if and only if u ⊥ v.",
 
-                    "* 5 # Addition of Full Angles.",
+                    "* 5 #Addition of Full Angles",
                     "∠[u,s] + ∠[s,v] = ∠[u,v]. This rule is to split an angle into two or more angles.",
-                    "For example, for any line m, we have ∠[u,v] = ∠[u,m] + ∠[m,v]",
+                    "For example, for any line m, we have ∠[u,v] = ∠[u,m] + ∠[m,v].",
 
                     "* 6",
                     "If l ⊥ v or ∠[l,v] = ∠[1], then ∠[u,v] = ∠[u,l] + ∠[l,v] = ∠[u,l] + ∠[1].",
@@ -186,34 +186,34 @@ public class rulers { // This should be "rules". FIXME.
                     "Points A,B,C and D are concyclic if and only if ∠[ACB] = ∠[ADB].",
 
                     "* 9",
-                    "If A,B,M,N are concyclic, then ∠[AB, AM] = ∠[BN,NM]. Hence we have ∠[AB, CD] = ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM]] + ∠[AM, CD].",
+                    "If A,B,M,N are concyclic, then ∠[AB, AM] = ∠[BN,NM]. Hence we have ∠[AB, CD] = ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM] + ∠[AM, CD].",
 
                     "* 10",
                     "Rule 10.",
 
                     "* 11",
-                    "If AB is the diameter of the circumcircle of triangle ABC and D is on the circumcircle, then for any line FG, we have ∠[CD,FG] = ∠[DBA] + ∠[ACB] + ∠[BC, FG]].",
+                    "If AB is the diameter of the circumcircle of triangle ABC and D is on the circumcircle, then for any line FG, we have ∠[CD,FG] = ∠[DBA] + ∠[ACB] + ∠[BC, FG].",
 
                     "* 12",
-                    "If O is the intersection of Circle(O1,OP1P3I) and Circle(O2,OP2P4J) and O,I,J are collinear, then ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4].",
+                    "If O is the intersection of circle (O1,OP1P3I) and circle (O2,OP2P4J) and O,I,J are collinear, then ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4].",
 
                     "* 13",
                     "If O is the circumcenter of triangle ABC, then ∠[BOC] = 2 · ∠[BAC].",
 
                     "* 14",
-                    "For a circle(O,ABCD), if O is the intersection of AD and BC, then ∠[AOB] = 2 · ∠[CDA].",
+                    "For a circle (O,ABCD), if O is the intersection of AD and BC, then ∠[AOB] = 2 · ∠[CDA].",
 
                     "* 15",
-                    "For a circle(O,AB), O is the center of circle, we have ∠[OAB] = ∠[ABO].",
+                    "For a circle (O,AB), O is the center of circle, we have ∠[OAB] = ∠[ABO].",
 
                     "* 16",
-                    "If triangle ABE is a right triangle and O is the midpoint of the hypotenuse (i.e. AB), then for any line CD, we have ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, CD]",
+                    "If triangle ABE is a right triangle and O is the midpoint of the hypotenuse (i.e. AB), then for any line CD, we have ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, CD].",
 
                     "* 17",
-                    "For a circle(O, ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + ∠[AC,EF].",
+                    "For a circle (O, ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + ∠[AC, EF].",
 
                     "* 18",
-                    "For a circle(O,ABF), if E is the midpoint of AF, we have ∠[AB, CD] = ∠[EOA] + ∠[BF, CD].",
+                    "For a circle (O,ABF), if E is the midpoint of AF, we have ∠[AB, CD] = ∠[EOA] + ∠[BF, CD].",
 
                     "* 19",
                     "If G is the orthocenter of ABC, ∠[AE, HI] = ∠[AE, BE] + ∠[BE, HI] = ∠[1] + ∠[BE, HI].",
@@ -234,13 +234,13 @@ public class rulers { // This should be "rules". FIXME.
                     "If OB // DE and A is on the circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB].",
 
                     "* 25",
-                    "A is on Circle(O,B), then 2 * ∠[AB, DE] = ∠[OA,OB] + 2 · ∠[OA,DE].",
+                    "A is on circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB] + 2 · ∠[OA,DE].",
 
                     "* 26",
-                    "CD is the diameter of a circle (A,BCD), AB ⊥ CD, then  2 · ∠[DB,BA]  = ∠[0].",
+                    "CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA]  = ∠[1].",
 
                     "* 27",
-                    "A, B, C, D, E are concyclic and AC = AB, then 2 · ∠[AB, BC] = ∠[CE, ED].",
+                    "A, B, C, D, E are concyclic and AC = AD, then 2 · ∠[AB, BC] = ∠[CE, ED].",
 
                     "* 28",
                     "If A, B, E, F, G are concyclic and AE = AF, then 2 · ∠[AB, CD] = 2 · ∠[BE, CD] + ∠[EG, GF].",
