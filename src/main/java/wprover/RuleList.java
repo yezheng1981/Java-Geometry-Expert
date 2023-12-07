@@ -96,23 +96,6 @@ public class RuleList {
 
         while (t != null) {
             t = t.trim();
-            // Fix encoding issues, TODO: This should be done in a different way!
-            t = t.replaceAll(" ⊥ ", Cm.PERPENDICULAR_SIGN);
-            t = t.replaceAll("∠", Cm.ANGLE_SIGN);
-            t = t.replaceAll(" ∥ ", Cm.PARALLEL_SIGN);
-            t = t.replaceAll("∆", Cm.TRIANGLE_SIGN);
-            t = t.replaceAll(" ∽ ", Cm.SIMILAR_SIGN);
-            t = t.replaceAll(" ∩ ", Cm.INTERSECT_SIGN);
-            // Fix German characters:
-            if (Cm.isWindows()) {
-                t = t.replaceAll("ä", "ae");
-                t = t.replaceAll("ö", "oe");
-                t = t.replaceAll("ü", "ue");
-                t = t.replaceAll("ß", "ss");
-                t = t.replaceAll("Ä", "AE");
-                t = t.replaceAll("Ö", "OE");
-                t = t.replaceAll("Ü", "UE");
-            }
 
             if (t.length() != 0) {
                 if (s != null && t.startsWith("*")) {

@@ -19,15 +19,14 @@ final public class Cm {
 
     final public static String s2072 = "The Machine Proof";
 
-    final public static String PERPENDICULAR_SIGN = isWindows() ? "_|_" : " ⊥ ";
-    final public static String PARALLEL_SIGN = isWindows() ? "||" : " ∥ ";
-    final public static String TRIANGLE_SIGN = isWindows() ? "<|" : "∆";
+    final public static String PERPENDICULAR_SIGN = " ⊥ ";
+    final public static String PARALLEL_SIGN = " ∥ ";
+    final public static String TRIANGLE_SIGN = "∆";
 
-    final public static String ANGLE_SIGN = isWindows() ? "<)" : "∠";
+    final public static String ANGLE_SIGN = "∠";
     final public static String EQUAL_SIGN = " = ";
-    final public static String SIMILAR_SIGN = isWindows() ? "~" : " ∽ ";
-    final public static String INTERSECT_SIGN = isWindows() ? " intersect " : " ∩ ";
-
+    final public static String SIMILAR_SIGN = " ~ ";
+    final public static String INTERSECT_SIGN = " ∩ ";
 
     final public static String s2707 = "lines";
 
