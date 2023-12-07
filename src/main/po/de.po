@@ -39,7 +39,8 @@ msgid "Authors"
 msgstr "Autoren"
 
 #: ../wprover/AboutDialog.java:103
-msgid "for more information, please visit:"
+#, fuzzy
+msgid "For more information, please visit:"
 msgstr "Für mehr Informationen siehe:"
 
 #: ../wprover/concDialog.java:102
@@ -2833,6 +2834,21 @@ msgstr "Regeln für Vollwinkel"
 
 #, fuzzy
 msgid "Rule {0}"
+msgstr "Rechteck"
+
+#, fuzzy
+msgid "RULE {0}"
+msgstr "Gerade"
+
+msgid "r{0}"
+msgstr ""
+
+#, fuzzy
+msgid "addition"
+msgstr "Gleichung"
+
+#, fuzzy
+msgid "rule {0}"
 msgstr "Rechteck"
 
 #~ msgid "animate_start"

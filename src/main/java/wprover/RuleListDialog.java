@@ -38,7 +38,7 @@ public class RuleListDialog extends JBaseDialog {
 //            gxInstance.addDependentDialog(this);
 
 
-        this.setTitle("Rule");
+        this.setTitle(GExpert.getLanguage("Rule"));
         this.setModal(false);
 
         scroll = new JScrollPane((rpane = new RuleViewPane(gxInstance)));

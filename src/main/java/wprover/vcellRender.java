@@ -533,9 +533,9 @@ class itemLabel extends JLabel {
                     this.setForeground(Color.black);
                 }
                 if (e.etype != 5) {
-                    this.setText("  (rule" + e.etype + ")");
+                    this.setText(" (" + GExpert.getTranslationViaGettext("rule {0}", e.etype + "") + ")");
                 } else {
-                    this.setText("  (addition)");
+                    this.setText(" (" + GExpert.getLanguage("addition") + ")");
                 }
             } else if (obj instanceof cond) {
                 cond c = (cond) obj;
@@ -543,7 +543,7 @@ class itemLabel extends JLabel {
                     this.setForeground(Color.black);
                 }
                 int r = c.getRule();
-                setText("  (r" + r + ")");
+                setText(" (" + GExpert.getTranslationViaGettext("r{0}", r + "") + ")");
             }
             this.setIcon(null);
         } else if (type == 5) {

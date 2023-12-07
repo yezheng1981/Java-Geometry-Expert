@@ -2478,7 +2478,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         public void actionPerformed(ActionEvent e) {
             String s = (e.getActionCommand());
             if (s.equals("GDD") || s.equals("Full") || s.equals("Area") || s.equals("Wu") || s.equals("GB")) {
-                label.setText(s);
+                label.setText(GExpert.getLanguage(s));
                 JMenuItem item = (JMenuItem) e.getSource();
                 label.setToolTipText(item.getText());
             } else if (s.equals("CONC")) {

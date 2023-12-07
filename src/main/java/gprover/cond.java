@@ -7,6 +7,8 @@
  */
 package gprover;
 
+import wprover.GExpert;
+
 import java.util.Vector;
 
 public class cond {
@@ -54,7 +56,7 @@ public class cond {
     }
 
     public void setCondToBeProveHead() {
-        sd = "To Prove: " + sd;
+        sd = GExpert.getLanguage("To Prove:") + " " + sd;
     }
 
     public cond(int t) {

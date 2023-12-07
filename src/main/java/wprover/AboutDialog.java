@@ -100,9 +100,9 @@ public class AboutDialog extends JPopupMenu implements MouseListener {
         JPanel panel3 = new JPanel(new FlowLayout());
         panel3.addMouseListener(this);
 
-        JLabel b1 = new JLabel(GExpert.getLanguage(1023, "for more information, please visit:"));
+        JLabel b1 = new JLabel(GExpert.getLanguage(1023, "For more information, please visit:"));
         b1.addMouseListener(this);
-        b2 = new JLabel("https://github.com/kovzol/Java-Geometry-Expert");
+        b2 = new JLabel("https://github.com/kovzol/Java-Geometry-Expert"); // TODO: Put this in a top-level file.
         b2.setBorder(BorderFactory.createEmptyBorder(1, 1, 1, 1));
         b2.addMouseListener(this);
         panel3.add(b1);

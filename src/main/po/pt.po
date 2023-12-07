@@ -43,7 +43,7 @@ msgstr "Autores"
 
 #: ../wprover/AboutDialog.java:103
 #, fuzzy
-msgid "for more information, please visit:"
+msgid "For more information, please visit:"
 msgstr "para obter mais informações, visite:"
 
 #: ../wprover/concDialog.java:102
@@ -2856,6 +2856,21 @@ msgstr "Regras para Ângulo Completo"
 
 #, fuzzy
 msgid "Rule {0}"
+msgstr "Retângulo"
+
+#, fuzzy
+msgid "RULE {0}"
+msgstr "Segmento"
+
+msgid "r{0}"
+msgstr ""
+
+#, fuzzy
+msgid "addition"
+msgstr "Equação"
+
+#, fuzzy
+msgid "rule {0}"
 msgstr "Retângulo"
 
 #~ msgid "animate_start"

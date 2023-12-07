@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../wprover/AboutDialog.java:103
 #, fuzzy
-msgid "for more information, please visit:"
+msgid "For more information, please visit:"
 msgstr "برای کسب اطلاعات بیشتر ، ببینید :"
 
 #: ../wprover/concDialog.java:102
@@ -2821,6 +2821,21 @@ msgstr ""
 
 #, fuzzy
 msgid "Rule {0}"
+msgstr "مستطیل"
+
+#, fuzzy
+msgid "RULE {0}"
+msgstr "خط"
+
+msgid "r{0}"
+msgstr ""
+
+#, fuzzy
+msgid "addition"
+msgstr "معادله"
+
+#, fuzzy
+msgid "rule {0}"
 msgstr "مستطیل"
 
 #~ msgid "FF"

@@ -41,8 +41,8 @@ msgid "Authors"
 msgstr "Szerzők"
 
 #: ../wprover/AboutDialog.java:103
-msgid "for more information, please visit:"
-msgstr "további információk a következő címen találhatók:"
+msgid "For more information, please visit:"
+msgstr "További információk a következő címen találhatók:"
 
 #: ../wprover/concDialog.java:102
 msgid "True"
@@ -2751,7 +2751,7 @@ msgid ""
 "with left mouseclick to move"
 msgstr ""
 "A SHIFT és vonszolás jobb egérgombbal belenagyít, a SHIFT és vonszolás bal "
-"egérgombbal mozgatja a képet"
+"egérgombbal mozgatja az ábrát"
 
 msgid "△{0}"
 msgstr "{0}△"
@@ -2770,3 +2770,12 @@ msgstr "{0}. szabály"
 
 msgid "RULE {0}"
 msgstr "{0}. SZABÁLY"
+
+msgid "r{0}"
+msgstr "{0}. sz."
+
+msgid "addition"
+msgstr "összeadás"
+
+msgid "rule {0}"
+msgstr "{0}. szabály"

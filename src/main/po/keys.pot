@@ -43,7 +43,7 @@ msgid "Authors"
 msgstr ""
 
 #: ../wprover/AboutDialog.java:103
-msgid "for more information, please visit:"
+msgid "For more information, please visit:"
 msgstr ""
 
 #: ../wprover/concDialog.java:102
@@ -2741,3 +2741,13 @@ msgstr ""
 
 msgid "RULE {0}"
 msgstr ""
+
+msgid "r{0}"
+msgstr ""
+
+msgid "addition"
+msgstr ""
+
+msgid "rule {0}"
+msgstr ""
+

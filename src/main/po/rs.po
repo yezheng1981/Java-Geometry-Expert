@@ -45,7 +45,7 @@ msgstr "Autori"
 
 #: ../wprover/AboutDialog.java:103
 #, fuzzy
-msgid "for more information, please visit:"
+msgid "For more information, please visit:"
 msgstr "Za više informacija, molimo posetite:"
 
 #: ../wprover/concDialog.java:102
@@ -2859,6 +2859,21 @@ msgstr "Pravila izvođenja za metod punih uglova"
 
 #, fuzzy
 msgid "Rule {0}"
+msgstr "Pravougaonik"
+
+#, fuzzy
+msgid "RULE {0}"
+msgstr "Prava"
+
+msgid "r{0}"
+msgstr ""
+
+#, fuzzy
+msgid "addition"
+msgstr "Jednačina"
+
+#, fuzzy
+msgid "rule {0}"
 msgstr "Pravougaonik"
 
 #~ msgid "animate_start"
