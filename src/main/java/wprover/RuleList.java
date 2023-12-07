@@ -1,8 +1,7 @@
 package wprover;
 
-import gprover.Cm;
 import gprover.gib;
-import gprover.rulers;
+import gprover.rules;
 
 import java.io.*;
 import java.util.Vector;
@@ -56,32 +55,9 @@ public class RuleList {
         return (grule) FULLLIST.get(n);
     }
 
-    final private static void loadRulersURL(URL base) {
-//        try {
-//            DataInputStream in = getStream(base, "fullrule");
-//
-//
-//
-//        } catch (IOException e) {
-//        }
-    }
-
-    private static DataInputStream getStream(URL base, String file) {
-        try {
-            URL ul = new URL(base, file);
-            URLConnection urlc = ul.openConnection();
-            urlc.connect();
-
-            InputStream instream = urlc.getInputStream();
-            DataInputStream in = new DataInputStream(instream);
-            return in;
-        } catch (IOException e) {
-        }
-        return null;
-    }
 
 
-    final private static void loadRulers(String[] src, Vector vs, int type) {
+    final private static void loadRules(String[] src, Vector vs, int type) {
 
 
         String s, s1, s2;
@@ -119,49 +95,20 @@ public class RuleList {
         }
     }
 
-    final public static void loadRulers() {
+    final public static void loadRules() {
 
         if(GExpert.lan.equals("German")) {
-            loadRulers(rulers.GDD_German, GDDLIST, 0);
-            loadRulers(rulers.FULL_German, FULLLIST, 1);
+            loadRules(rules.GDD_German, GDDLIST, 0);
+            loadRules(rules.FULL_German, FULLLIST, 1);
         }
         else if(GExpert.lan.equals("Serbian")) {
-            loadRulers(rulers.GDD_Serbian, GDDLIST, 0);
-            loadRulers(rulers.FULL_Serbian, FULLLIST, 1);
+            loadRules(rules.GDD_Serbian, GDDLIST, 0);
+            loadRules(rules.FULL_Serbian, FULLLIST, 1);
         } else { // use English by default
-            loadRulers(rulers.GDD_English, GDDLIST, 0);
-            loadRulers(rulers.FULL_English, FULLLIST, 1);
+            loadRules(rules.GDD_English, GDDLIST, 0);
+            loadRules(rules.FULL_English, FULLLIST, 1);
         }
     }
-
-    final public static void writeRulers(File file, File file2) {
-        try {
-            file2.createNewFile();
-
-            BufferedReader reader = new BufferedReader(new FileReader(file));
-
-            BufferedWriter writer = new BufferedWriter(new FileWriter(file2));
-
-            String t = reader.readLine();
-            writer.write("package gprover\n");
-            writer.write("public class fullrule{\n");
-
-            while (t != null) {
-                if (t.length() != 0)
-                    writer.write('"' + t + '"' + ",\n");
-
-                t = reader.readLine();
-            }
-            writer.write("}");
-            writer.flush();
-            writer.close();
-            reader.close();
-
-        } catch (IOException ee) {
-        }
-
-    }
-
 
     final public static boolean getValue(int n) {
         return gib.RValue[n - 1];

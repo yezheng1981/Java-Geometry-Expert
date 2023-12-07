@@ -368,7 +368,7 @@ public class gib {
 
     //*****************************end of othres***********************
 
-    public static void initRulers() {
+    public static void initRules() {
         for (int i = 0; i < RValue.length; i++)
             RValue[i] = true;
 

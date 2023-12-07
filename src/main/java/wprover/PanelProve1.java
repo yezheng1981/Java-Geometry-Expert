@@ -2510,8 +2510,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                         "There are " + r + "rows and " + (r / 2 - 1) + " steps");
             } else if (s.equals("Prove")) {
                 prove();
-            } else if (s.equals("Rulers")) {
-                RulerDialog dlg = new RulerDialog(gxInstance);
+            } else if (s.equals("Rules")) {
+                RuleDialog dlg = new RuleDialog(gxInstance);
                 dlg.setVisible(true);
             } else if (s.equals("LV")) {
                 dp.popLeadingVariableDialog();

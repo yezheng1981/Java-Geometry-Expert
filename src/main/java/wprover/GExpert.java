@@ -27,7 +27,6 @@ import java.awt.dnd.*;
 import java.awt.datatransfer.*;
 import java.lang.reflect.Method;
 import java.net.URL;
-import java.net.URLConnection;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Locale;
@@ -64,7 +63,7 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
     private UndoEditDialog udialog;
     private CDialogProve pdialog;
     private concDialog cdialog;
-    private RulerDialog rdialog;
+    private RuleDialog rdialog;
     private NumCheckDialog ndialog;
     private AboutDialog adialog;
 
@@ -147,8 +146,8 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
 
 
     public void loadRules() {
-        RuleList.loadRulers();
-        gib.initRulers();
+        RuleList.loadRules();
+        gib.initRules();
     }
 
     public JComponent getContent() {
@@ -345,9 +344,9 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
         aframe.repaint();
     }
 
-    public RulerDialog getRulerDialog(int n) {
+    public RuleDialog getRuleDialog(int n) {
         if (rdialog == null) {
-            rdialog = new RulerDialog(this);
+            rdialog = new RuleDialog(this);
             int w = rdialog.getWidth();
             int x = getX() - w;
             if (x < 0) x = 0;
@@ -1656,9 +1655,9 @@ public class GExpert extends JFrame implements ActionListener, KeyListener, Drop
             } else if (command.equalsIgnoreCase("show object")) {
                 dp.SetCurrentAction(drawProcess.SHOWOBJECT);
             } else if (command.equalsIgnoreCase("Rules for Full Angle")) {
-                getRulerDialog(1).setVisible(true);
+                getRuleDialog(1).setVisible(true);
             } else if (command.equalsIgnoreCase("Rules for GDD")) {
-                getRulerDialog(0).setVisible(true);
+                getRuleDialog(0).setVisible(true);
             } else if (command.equalsIgnoreCase("sangle")) {
                 dp.SetCurrentAction(drawProcess.SANGLE);
                 try {

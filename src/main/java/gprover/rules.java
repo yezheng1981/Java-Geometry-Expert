@@ -1,6 +1,6 @@
 package gprover;
 
-public class rulers { // This should be "rules". FIXME.
+public class rules {
 
     final public static String[] GDD_English = {
             "* 1",

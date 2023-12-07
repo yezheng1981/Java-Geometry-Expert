@@ -222,9 +222,8 @@ public class RuleListDialog extends JBaseDialog {
 
                 String sh;
                 if (t == 0)
-                    sh = "examples/Rulers/GDD/" + s + ".gex";
-                else sh = "examples/Rulers/FULL/" + s + ".gex";
-                // FIXME: change "ruler" to "rule" in the whole program, it's a typo!
+                    sh = "examples/Rules/GDD/" + s + ".gex";
+                else sh = "examples/Rules/FULL/" + s + ".gex";
                 dx.Load(sh);
 
                 return true;
