@@ -3291,17 +3291,15 @@ msgstr "Ha az ABE háromszög derékszögű és O az AB átfogó felezőpontja,"
 "CD]."
 
 # Full 17/1
-msgid ""
-"For a circle (O, ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + "
-"∠[AC,EF]."
-msgstr "Az (O, ABC) körre és a BC szakasz D felezőpontjára teljesül, hogy ∠[AB, EF] = ∠[BOD] + "
+msgid "For a circle (O,ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + ∠[AC, EF]."
+msgstr "Az (O,ABC) körre és a BC szakasz D felezőpontjára teljesül, hogy ∠[AB, EF] = ∠[BOD] + "
 "∠[AC,EF]."
 
 # Full 18/1
 msgid ""
 "For a circle (O,ABF), if E is the midpoint of AF, we have ∠[AB, CD] = ∠[EOA] "
 "+ ∠[BF, CD]."
-msgstr "Az (O,ABF) körre és az AF szakasz E felezőpontjaára teljesül, hogy ∠[AB, CD] = ∠[EOA] "
+msgstr "Az (O,ABF) körre és az AF szakasz E felezőpontjára teljesül, hogy ∠[AB, CD] = ∠[EOA] "
 "+ ∠[BF, CD]."
 
 # Full 19/1

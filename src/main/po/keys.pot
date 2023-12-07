@@ -3134,7 +3134,7 @@ msgid "If triangle ABE is a right triangle and O is the midpoint of the hypotenu
 msgstr ""
 
 # Full 17/1
-msgid "For a circle (O, ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + ∠[AC, EF]."
+msgid "For a circle (O,ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + ∠[AC, EF]."
 msgstr ""
 
 # Full 18/1

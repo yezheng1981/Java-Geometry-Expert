@@ -210,7 +210,7 @@ public class rulers { // This should be "rules". FIXME.
                     "If triangle ABE is a right triangle and O is the midpoint of the hypotenuse (i.e. AB), then for any line CD, we have ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, CD].",
 
                     "* 17",
-                    "For a circle (O, ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + ∠[AC, EF].",
+                    "For a circle (O,ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + ∠[AC, EF].",
 
                     "* 18",
                     "For a circle (O,ABF), if E is the midpoint of AF, we have ∠[AB, CD] = ∠[EOA] + ∠[BF, CD].",
