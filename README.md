@@ -43,12 +43,16 @@
   <h3>4. How to use <a name="vpp" id="vpp"></a></h3>
   
   <p>
-  The JGEX is written in Java, so you need a JDK in order to compile the code. The prefered IDE for development is NetBeans:
-  <a>https://netbeans.org/</a>. Alternatively, you can use <a href="https://ant.apache.org/">Apache ANT</a> on command line
-  to compile and run the application: you need to type <b>ant</b> in the root folder of JGEX.
+  Download JGEX for your platform and just start it.
+  In case you want to contribute to the development,
+  you need to have some experience in the Java language.
+  JGEX is written in Java, so you need a JDK in order to compile the code.
+  The preferred IDE for development is IntelliJ IDEA:
+  <a>https://www.jetbrains.com/idea</a>. Alternatively, you can use <a href="https://gradle.org/">Gradle</a> on command line
+  to compile and run the application: you need to type <b>gradlew run</b> in the root folder of JGEX.
   </p>
   
-  <h3>5. the interface of JGEX <a name="vpp" id="vpp"></a></h3>
+  <h3>5. The interface of JGEX <a name="vpp" id="vpp"></a></h3>
   <p><img src="src/docs/help/images3/jgex.gif" width="802" height="645" border="1" /><br />
   </p>
   
