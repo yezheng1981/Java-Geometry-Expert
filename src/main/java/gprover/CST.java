@@ -518,7 +518,7 @@ public class CST {
                     return pss[0] + " is the intersection of circle(" + pss[1] + pss[2] + ") and circle(" + pss[3] + "," + pss[4] + pss[5] + ")";
 
             case gib.CO_COLL:
-                return pss[0] + ", " + pss[1] + ", " + pss[2] + " are collinear";
+                return GExpert.getTranslationViaGettext("{0} are collinear", pss[0] + ", " + pss[1] + ", " + pss[2]);
             case gib.CO_PARA:
                 if (d)
                     return pss[0] + "" + pss[1] + Cm.PARALLEL_SIGN + pss[2] + "" + pss[3];
@@ -535,10 +535,10 @@ public class CST {
                 else
                     return pss[0] + " is the midpoint of " + pss[1] + pss[2];
             case gib.CO_CYCLIC:
-                if (d)
-                    return "Cyclic(" + pss[0] + "," + pss[1] + "," + pss[2] + "," + pss[3] + ")";
-                else
-                    return pss[0] + ", " + pss[1] + ", " + pss[2] + ", " + pss[3] + " are cyclic";
+                // if (d)
+                    return GExpert.getTranslationViaGettext("{0} are concyclic", pss[0] + "," + pss[1] + "," + pss[2] + "," + pss[3]);
+                // else
+                //    return pss[0] + ", " + pss[1] + ", " + pss[2] + ", " + pss[3] + " are cyclic";
             case gib.CO_CONG:
                 return "|" + pss[0] + pss[1] + "| = |" + pss[2] + pss[3] + "|";
             case gib.CO_ACONG: {

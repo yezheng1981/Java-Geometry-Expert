@@ -203,7 +203,7 @@ public class AnimatePanel extends JToolBar implements ActionListener, ChangeList
 
         JToggleButton button = new JToggleButton();
         button.setActionCommand(actionCommand);
-        button.setToolTipText(toolTipText);
+        button.setToolTipText(GExpert.getLanguage(toolTipText));
         button.addActionListener(this);
 
         if (imageURL != null) {                      //image found

@@ -4636,15 +4636,16 @@ drawProcess extends drawbase implements Printable, ActionListener {
                     CPoint pt = this.SelectAPoint(x, y);
                     if (pt != null) {
                         if (n == 0 && !pt.isAFixedPoint()) {
-                            JOptionPane.showMessageDialog(gxInstance, "The point should be a fix point", "Warning",
+                            JOptionPane.showMessageDialog(gxInstance, GExpert.getLanguage("The point should be a fix point."),
+                                    GExpert.getLanguage("Warning"),
                                     JOptionPane.WARNING_MESSAGE);
                         } else
                             this.addObjectToList(pt, SelectList);
                         int k = SelectList.size();
                         if (k == 1)
-                            gxInstance.setTipText("Please select the second point");
+                            gxInstance.setTipText(GExpert.getLanguage("Please select the second point."));
                         else if (k == 2)
-                            gxInstance.setTipText("Please select a line or a circle");
+                            gxInstance.setTipText(GExpert.getLanguage("Please select a line or a circle."));
                     }
                 } else {
                     CPoint pt = (CPoint) SelectList.get(0);

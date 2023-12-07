@@ -59,7 +59,10 @@ public class CProperty extends JPanel implements ActionListener {
         this.add(label);
     }
 
+    @Deprecated
     public String getLanguage(int n, String s) {
+        return GExpert.getLanguage(s);
+        /*
         if (lan == null)
             return s;
 
@@ -67,6 +70,7 @@ public class CProperty extends JPanel implements ActionListener {
         if (s1 != null && s1.length() > 0)
             return s1;
         return s;
+         */
     }
 
 

@@ -25,12 +25,16 @@ public abstract class panelAlgebric extends JScrollPane implements Runnable, Act
     protected TMono _mremainder = null;
     protected RunningDialog rund;
 
-
+    @Deprecated
     public String getLanguage(int n, String s) {
+        return GExpert.getLanguage(s);
+
+        /*
         if (lan == null)
             return s;
 
         return lan.getString(n, s);
+         */
     }
 
     public boolean isRunning() {

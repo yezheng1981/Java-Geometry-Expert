@@ -238,6 +238,9 @@ msgstr ""
 msgid "Slope Angle"
 msgstr ""
 
+msgid "Slope"
+msgstr ""
+
 #: ../wprover/DialogPsProperty.java:26 ../wprover/GExpert.java:766
 #: ../wprover/HelpMode.java:35
 msgid "Save as PS"
@@ -1060,11 +1063,11 @@ msgid "The Algebraic Form:"
 msgstr ""
 
 #: ../wprover/panelGB.java:623
-msgid "The Nondegenerate Conditions"
+msgid "The Nondegenerate Conditions:"
 msgstr ""
 
 #: ../wprover/panelGB.java:704
-msgid "The Initial Polynomial Set"
+msgid "The Initial Polynomial Set:"
 msgstr ""
 
 #: ../wprover/panelGB.java:709
@@ -1271,11 +1274,11 @@ msgid "Remainder"
 msgstr ""
 
 #: ../wprover/panelWu.java:146
-msgid "The Triangulized Hypotheses"
+msgid "The Triangulized Hypotheses:"
 msgstr ""
 
 #: ../wprover/panelWu.java:159
-msgid "Successive Pseudo Remainder of CONC wrt TS:"
+msgid "Successive Pseudo Remainder of Conclution wrt Triangulized Hypotheses:"
 msgstr ""
 
 #: ../wprover/panelWu.java:168
@@ -3186,4 +3189,16 @@ msgid "If AB = AC = BC, i.e., triangle ABC is an equilateral triangle, then 3 ·
 msgstr ""
 
 msgid "Full Rules"
+msgstr ""
+
+msgid "Save as Maple Format"
+msgstr ""
+
+msgid "The point should be a fix point."
+msgstr ""
+
+msgid "Please select the second point."
+msgstr ""
+
+msgid "Please select a line or a circle."
 msgstr ""

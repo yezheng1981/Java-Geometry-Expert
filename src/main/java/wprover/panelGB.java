@@ -28,7 +28,7 @@ public class panelGB extends panelAlgebric implements MouseListener {
     public panelGB(drawProcess dp, wuTextPane tpane) {
         super(dp, tpane);
         menu = new JPopupMenu();
-        JMenuItem it = new JMenuItem("Save as Maple Format");
+        JMenuItem it = new JMenuItem(GExpert.getLanguage("Save as Maple Format"));
         menu.add(it);
         it.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -620,7 +620,7 @@ public class panelGB extends panelAlgebric implements MouseListener {
     public void addSVdd(Vector v) {
         GeoPoly basic = GeoPoly.getPoly();
 
-        addString2(getLanguage(1116, "The Nondegenerate Conditions"));
+        addString2(getLanguage(1116, "The Nondegenerate Conditions:"));
         for (int i = 0; i < v.size(); i++) {
 //            TDono d = (TDono) v.get(i);
             TMono m = (TMono) v.get(i);
@@ -701,12 +701,12 @@ public class panelGB extends panelAlgebric implements MouseListener {
             }
         }
 
-        addString2(getLanguage(1114, "The Initial Polynomial Set"));
+        addString2(getLanguage(1114, "The Initial Polynomial Set:"));
         printTP(pp);
 
         String s1 = poly.printSPoly(mc);
 
-        addString2(getLanguage(1115, "The Groebner basis:") + "GB = ");
+        addString2(getLanguage(1115, "The Groebner basis:") /* + "GB = " */);
 //        addString2("GB = ");
         Vector v = dp.getPBMono();
 

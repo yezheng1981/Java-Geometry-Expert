@@ -143,7 +143,7 @@ public class panelWu extends panelAlgebric implements Runnable, MouseListener {
         }
 
 
-        addString2(getLanguage(1104, "The Triangulized Hypotheses") + " (TS):");
+        addString2(getLanguage(1104, "The Triangulized Hypotheses:"));
         TPoly p1 = dp.getPolyList();
         int i = 0;
         while (p1 != null) {
@@ -152,11 +152,11 @@ public class panelWu extends panelAlgebric implements Runnable, MouseListener {
         }
 
 
-        addString2(getLanguage(1105, "The conclution") + " (CONC): ");
+        addString2(getLanguage(1105, "The conclution:"));
         addString1(sc + "\n");
         addString(poly.printSPoly(mc));
 
-        addString2(getLanguage(1106, "Successive Pseudo Remainder of CONC wrt TS:"));
+        addString2(getLanguage(1106, "Successive Pseudo Remainder of the conclution wrt Triangulized Hypotheses:"));
         int r = 0;
 
         try {

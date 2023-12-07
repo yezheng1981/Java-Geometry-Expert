@@ -236,6 +236,9 @@ msgstr "Rács lépésköz"
 msgid "Slope Angle"
 msgstr "Meredekség szöge"
 
+msgid "Slope"
+msgstr "Meredekség"
+
 #: ../wprover/DialogPsProperty.java:26 ../wprover/GExpert.java:766
 #: ../wprover/HelpMode.java:35
 msgid "Save as PS"
@@ -1058,12 +1061,12 @@ msgid "The Algebraic Form:"
 msgstr "Az algebrai alak:"
 
 #: ../wprover/panelGB.java:623
-msgid "The Nondegenerate Conditions"
-msgstr "A nem-elfajulási feltételek"
+msgid "The Nondegenerate Conditions:"
+msgstr "A nem-elfajulási feltételek:"
 
 #: ../wprover/panelGB.java:704
-msgid "The Initial Polynomial Set"
-msgstr "A kezdeti polinomhalmaz"
+msgid "The Initial Polynomial Set:"
+msgstr "A kezdeti polinomhalmaz:"
 
 #: ../wprover/panelGB.java:709
 msgid "The Groebner basis:"
@@ -1269,12 +1272,12 @@ msgid "Remainder"
 msgstr "Maradék"
 
 #: ../wprover/panelWu.java:146
-msgid "The Triangulized Hypotheses"
-msgstr "A triangularizált feladatkiírás"
+msgid "The Triangulized Hypotheses:"
+msgstr "A triangularizált feladatkiírás:"
 
 #: ../wprover/panelWu.java:159
-msgid "Successive Pseudo Remainder of CONC wrt TS:"
-msgstr "A CONC szukcesszív pszeudo-maradéka a TS szerint:"
+msgid "Successive Pseudo Remainder of the conclution wrt Triangulized Hypotheses:"
+msgstr "A következmény szukcesszív pszeudo-maradéka a triangularizált feladatkiírás szerint:"
 
 #: ../wprover/panelWu.java:168
 msgid "System Run Out Of Memory"
@@ -3367,3 +3370,15 @@ msgstr "Ha AB = AC = BC, vagyis az ABC háromszög egyenlő oldalú, akkor 3 · 
 
 msgid "Full Rules"
 msgstr "Teljes szög szabályok"
+
+msgid "Save as Maple Format"
+msgstr "Mentés Maple formátumban"
+
+msgid "The point should be a fix point."
+msgstr "Fixpontot kell választani."
+
+msgid "Please select the second point."
+msgstr "Válaszd ki a második pontot!"
+
+msgid "Please select a line or a circle."
+msgstr "Válassz egyenest vagy kört!"
