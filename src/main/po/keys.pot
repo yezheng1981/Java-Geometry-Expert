@@ -1155,6 +1155,9 @@ msgstr ""
 msgid "Can not find any proof!"
 msgstr ""
 
+msgid "Not Found"
+msgstr ""
+
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
 msgid "No conclution has been set!"
@@ -2150,6 +2153,9 @@ msgstr ""
 msgid "Can not find object icon {0}"
 msgstr ""
 
+msgid "Can not find file {0}"
+msgstr ""
+
 #: ../wprover/MProveTree.java:1363
 msgid "number"
 msgstr ""
@@ -2719,4 +2725,19 @@ msgid "Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag 
 msgstr ""
 
 msgid "△{0}"
+msgstr ""
+
+msgid "Click to see the detail"
+msgstr ""
+
+msgid "Rule {0} for the GDD Method"
+msgstr ""
+
+msgid "Rule {0} for the Full Angle Method"
+msgstr ""
+
+msgid "Rule {0}"
+msgstr ""
+
+msgid "RULE {0}"
 msgstr ""

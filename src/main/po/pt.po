@@ -1178,6 +1178,9 @@ msgstr "segmentos proporcionais"
 msgid "Can not find any proof!"
 msgstr "Não foi possível encontrar uma demonstração!"
 
+msgid "Not Found"
+msgstr ""
+
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
 #, fuzzy
@@ -2211,6 +2214,10 @@ msgstr "Selecionar"
 msgid "Can not find object icon {0}"
 msgstr "Não foi possível encontrar uma demonstração!"
 
+#, fuzzy
+msgid "Can not find file {0}"
+msgstr "Não foi possível encontrar uma demonstração!"
+
 #: ../wprover/MProveTree.java:1363
 msgid "number"
 msgstr ""
@@ -2803,6 +2810,10 @@ msgstr "é trivialmente verdadeiro"
 msgid "{0} are perpendicular"
 msgstr "retas perpendiculares"
 
+#, fuzzy
+msgid "{0} are concyclic"
+msgstr "Colinear"
+
 msgid "Full"
 msgstr ""
 
@@ -2828,6 +2839,24 @@ msgid ""
 "Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag "
 "with left mouseclick to move"
 msgstr ""
+
+msgid "△{0}"
+msgstr ""
+
+msgid "Click to see the detail"
+msgstr ""
+
+#, fuzzy
+msgid "Rule {0} for the GDD Method"
+msgstr "Regras para GDD"
+
+#, fuzzy
+msgid "Rule {0} for the Full Angle Method"
+msgstr "Regras para Ângulo Completo"
+
+#, fuzzy
+msgid "Rule {0}"
+msgstr "Retângulo"
 
 #~ msgid "animate_start"
 #~ msgstr "iniciar animação"

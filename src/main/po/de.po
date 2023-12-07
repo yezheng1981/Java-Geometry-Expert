@@ -1168,6 +1168,9 @@ msgstr "Verhältnisstrecken"
 msgid "Can not find any proof!"
 msgstr "Kann keinen Beweis finden!"
 
+msgid "Not Found"
+msgstr ""
+
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
 msgid "No conclution has been set!"
@@ -2186,6 +2189,10 @@ msgstr "Bitte wähle"
 msgid "Can not find object icon {0}"
 msgstr "Bild {0} kann nicht gefunden werden"
 
+#, fuzzy
+msgid "Can not find file {0}"
+msgstr "Bild {0} kann nicht gefunden werden"
+
 #: ../wprover/MProveTree.java:1363
 msgid "number"
 msgstr ""
@@ -2780,6 +2787,10 @@ msgstr "{0} ist trivial wahr"
 msgid "{0} are perpendicular"
 msgstr "normale Geraden"
 
+#, fuzzy
+msgid "{0} are concyclic"
+msgstr "Kollinear"
+
 msgid "Full"
 msgstr ""
 
@@ -2805,6 +2816,24 @@ msgid ""
 "Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag "
 "with left mouseclick to move"
 msgstr ""
+
+msgid "△{0}"
+msgstr ""
+
+msgid "Click to see the detail"
+msgstr ""
+
+#, fuzzy
+msgid "Rule {0} for the GDD Method"
+msgstr "Regeln für GDD"
+
+#, fuzzy
+msgid "Rule {0} for the Full Angle Method"
+msgstr "Regeln für Vollwinkel"
+
+#, fuzzy
+msgid "Rule {0}"
+msgstr "Rechteck"
 
 #~ msgid "animate_start"
 #~ msgstr "Starte Animation"

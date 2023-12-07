@@ -102,7 +102,13 @@ public class drawData {
     }
 
     public static double getDash(int index) {
-        return ((Double) dd.dashlist.get(index)).doubleValue();
+        double d;
+        try {
+            d = (double) dd.dashlist.get(index);
+        } catch (ClassCastException cce) {
+            d = (int) dd.dashlist.get(index);
+        }
+        return d;
     }
 
 

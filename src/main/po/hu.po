@@ -1153,6 +1153,9 @@ msgstr "arányos szakaszok"
 msgid "Can not find any proof!"
 msgstr "Nem található bizonyítás!"
 
+msgid "Not Found"
+msgstr ""
+
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
 msgid "No conclution has been set!"
@@ -2165,6 +2168,10 @@ msgstr "Válassz N(>=3) pontot"
 msgid "Can not find object icon {0}"
 msgstr "A(z) {0} kép objektum nem található"
 
+#, fuzzy
+msgid "Can not find file {0}"
+msgstr "A(z) {0} kép nem található"
+
 #: ../wprover/MProveTree.java:1363
 msgid "number"
 msgstr "szám"
@@ -2718,6 +2725,9 @@ msgstr "{0} párhuzamosak"
 msgid "{0} are perpendicular"
 msgstr "{0} merőlegesek"
 
+msgid "{0} are concyclic"
+msgstr "{0} egy körre illeszkednek"
+
 msgid "Full"
 msgstr "Teljes"
 
@@ -2739,11 +2749,24 @@ msgstr "Nincs eredmény"
 msgid ""
 "Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag "
 "with left mouseclick to move"
-msgstr "A SHIFT és vonszolás jobb egérgombbal belenagyít, a SHIFT és vonszolás bal egérgombbal mozgatja a képet"
+msgstr ""
+"A SHIFT és vonszolás jobb egérgombbal belenagyít, a SHIFT és vonszolás bal "
+"egérgombbal mozgatja a képet"
 
 msgid "△{0}"
 msgstr "{0}△"
 
-msgid "{0} are concyclic"
-msgstr "{0} egy körre illeszkednek"
+msgid "Click to see the detail"
+msgstr "Kattints a részletekhez"
 
+msgid "Rule {0} for the GDD Method"
+msgstr "A GDD-módszer {0}. szabálya"
+
+msgid "Rule {0} for the Full Angle Method"
+msgstr "A teljes szög módszer {0}. szabálya"
+
+msgid "Rule {0}"
+msgstr "{0}. szabály"
+
+msgid "RULE {0}"
+msgstr "{0}. SZABÁLY"

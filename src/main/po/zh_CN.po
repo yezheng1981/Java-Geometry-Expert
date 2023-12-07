@@ -1178,6 +1178,9 @@ msgstr "比例线段"
 msgid "Can not find any proof!"
 msgstr "　找不到任何证明"
 
+msgid "Not Found"
+msgstr ""
+
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
 #, fuzzy
@@ -2209,6 +2212,10 @@ msgstr "请选择"
 msgid "Can not find object icon {0}"
 msgstr "　找不到任何证明"
 
+#, fuzzy
+msgid "Can not find file {0}"
+msgstr "　找不到任何证明"
+
 #: ../wprover/MProveTree.java:1363
 msgid "number"
 msgstr ""
@@ -2800,6 +2807,10 @@ msgstr "显然正确"
 msgid "{0} are perpendicular"
 msgstr "垂直线"
 
+#, fuzzy
+msgid "{0} are concyclic"
+msgstr "共线"
+
 msgid "Full"
 msgstr ""
 
@@ -2825,6 +2836,24 @@ msgid ""
 "Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag "
 "with left mouseclick to move"
 msgstr ""
+
+msgid "△{0}"
+msgstr ""
+
+msgid "Click to see the detail"
+msgstr ""
+
+#, fuzzy
+msgid "Rule {0} for the GDD Method"
+msgstr "演绎数据库规则"
+
+#, fuzzy
+msgid "Rule {0} for the Full Angle Method"
+msgstr "全角规则"
+
+#, fuzzy
+msgid "Rule {0}"
+msgstr "矩形"
 
 #~ msgid "animate_start"
 #~ msgstr "播放动画"

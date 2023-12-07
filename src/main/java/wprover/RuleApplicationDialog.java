@@ -175,7 +175,7 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
     }
 
     public void LoadRule(el_term el) {
-        this.setTitle("RULE " + el.etype);
+        this.setTitle(GExpert.getTranslationViaGettext("RULE {0}", el.etype + ""));
         hash.clear();
         rpanel.LoadRule(el);
         rvpanel.loadRule(el);
@@ -185,7 +185,7 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
     }
 
     public void LoadRule(cond c) {
-        this.setTitle("RULE " + c.getRule());
+        this.setTitle(GExpert.getTranslationViaGettext("RULE {0}", c.getRule() + ""));
         hash.clear();
         rpanel.LoadRule(c);
         rvpanel.loadRule(c);
@@ -296,13 +296,13 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
             int n = v.size();
             if (n != 0) {
                 Color cr = new Color(0, 128, 0);
-                JLabel label = new JLabel(getLanguage("because") + "  ");
+                JLabel label = new JLabel(getLanguage("because") + " ");
                 label.setForeground(cr);
                 this.add(label);
                 for (int i = 0; i < v.size(); i++) {
                     setLabelObject(0, 4, (cond) v.get(i)).setForeground(Color.darkGray);
                     if (i < n - 1) {
-                        label = new JLabel(" , ");
+                        label = new JLabel(", ");
                         this.add(label);
                     }
                 }
@@ -317,14 +317,14 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
             int n = v.size();
 
             if (n > 0) {
-                JLabel label = new JLabel("because  ");
+                JLabel label = new JLabel(getLanguage("because") + " ");
                 Color cr = new Color(0, 128, 0);
                 label.setForeground(cr);
                 this.add(label);
                 for (int i = 0; i < n; i++) {
                     setLabelObject(0, 4, (cond) v.get(i)).setForeground(Color.darkGray);
                     if (i < n - 1) {
-                        label = new JLabel(" , ");
+                        label = new JLabel(", ");
                         this.add(label);
                     }
                 }
@@ -939,7 +939,8 @@ public class RuleApplicationDialog extends JBaseDialog implements ComponentListe
             this.type = type;
             this.RULE = r;
             // "<HTML><u>underline</u>"
-            str = "( RULE " + RULE + " )";
+            // str = "( RULE " + RULE + " )";
+            str = "(" + GExpert.getTranslationViaGettext("RULE {0}", RULE + "") + ")";
             this.setText(str);
         }
 

@@ -71,9 +71,9 @@ public class RuleListDialog extends JBaseDialog {
             return false;
 
         if (t == 0)
-            this.setTitle("Rule " + n + " for GDD Method");
+            this.setTitle(GExpert.getTranslationViaGettext("Rule {0} for the GDD Method", n + ""));
         else
-            this.setTitle("Rule " + n + " for Full Angle Method");
+            this.setTitle(GExpert.getTranslationViaGettext("Rule {0} for the Full Angle Method", n + ""));
 
         dpane.setRule(t, r);
         boolean rf = rpane.loadRule(t, n);
@@ -115,9 +115,13 @@ public class RuleListDialog extends JBaseDialog {
             rt2 = r.type;
 
             String sh;
+            /*
             if (t == 0)
                 sh = "RULE " + r.type;//+ " for Deductive Database Method";
             else sh = "RULE " + r.type;//+ " for Full Angle Method";
+             */
+            sh = GExpert.getTranslationViaGettext("Rule {0}", r.type + "");
+
             label1.setText(sh);
             label2.setText(r.name);
             label1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
@@ -215,24 +219,18 @@ public class RuleListDialog extends JBaseDialog {
                 if (n < 10)
                     s = "0" + s;
 
-
-                if (CMisc.isApplication()) {
-                    String sh;
-                    if (t == 0)
-                        sh = "examples/rulers/GDD/" + s + ".gex";
-                    else sh = "examples/rulers/FULL/" + s + ".gex";
-                    dx.Load(sh);
-                } else {
-                    String sh;
-                    if (t == 0)
-                        sh = "Examples/Rulers/GDD/" + s + ".gex";
-                    else sh = "Examples/Rulers/FULL/" + s + ".gex";
-                    loadRemote(sh);
-                }
+                String sh;
+                if (t == 0)
+                    sh = "examples/Rulers/GDD/" + s + ".gex";
+                else sh = "examples/Rulers/FULL/" + s + ".gex";
+                // FIXME: change "ruler" to "rule" in the whole program, it's a typo!
+                dx.Load(sh);
 
                 return true;
             } catch (IOException ee) {
-                JOptionPane.showMessageDialog(gxInstance, "Can not find file " + s + ".gex", "Not Found", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(gxInstance,
+                        GExpert.getTranslationViaGettext("Can not find file {0}", s + ".gex"),
+                        GExpert.getLanguage("Not Found"), JOptionPane.ERROR_MESSAGE);
                 return false;
             }
 

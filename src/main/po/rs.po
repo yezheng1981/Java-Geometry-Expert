@@ -1179,6 +1179,9 @@ msgstr "Odnos duži"
 msgid "Can not find any proof!"
 msgstr "Ne mogu naći nikakav dokaz!"
 
+msgid "Not Found"
+msgstr ""
+
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
 #, fuzzy
@@ -2213,6 +2216,10 @@ msgstr "Molimo izaberite"
 msgid "Can not find object icon {0}"
 msgstr "Ne mogu naći nikakav dokaz!"
 
+#, fuzzy
+msgid "Can not find file {0}"
+msgstr "Ne mogu naći nikakav dokaz!"
+
 #: ../wprover/MProveTree.java:1363
 msgid "number"
 msgstr ""
@@ -2806,6 +2813,10 @@ msgstr "Je trivijalno tačno"
 msgid "{0} are perpendicular"
 msgstr "normalne prave"
 
+#, fuzzy
+msgid "{0} are concyclic"
+msgstr "Kolinearno"
+
 msgid "Full"
 msgstr ""
 
@@ -2831,6 +2842,24 @@ msgid ""
 "Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag "
 "with left mouseclick to move"
 msgstr ""
+
+msgid "△{0}"
+msgstr ""
+
+msgid "Click to see the detail"
+msgstr ""
+
+#, fuzzy
+msgid "Rule {0} for the GDD Method"
+msgstr "Pravila izvođenja za metod GDD"
+
+#, fuzzy
+msgid "Rule {0} for the Full Angle Method"
+msgstr "Pravila izvođenja za metod punih uglova"
+
+#, fuzzy
+msgid "Rule {0}"
+msgstr "Pravougaonik"
 
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"

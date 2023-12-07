@@ -547,7 +547,7 @@ class itemLabel extends JLabel {
             }
             this.setIcon(null);
         } else if (type == 5) {
-            this.setToolTipText("Click to see the detail ");
+            this.setToolTipText(GExpert.getLanguage("Click to see the detail"));
             this.setIcon(icon);
             this.setText(null);
         } else if (type == 6) {
