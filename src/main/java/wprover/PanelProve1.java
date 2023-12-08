@@ -1568,6 +1568,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         }
     }
     HashSet<Pair> edges;
+    JDialog frame;
 
     private void createNodes(cond co, DefaultMutableTreeNode to) {
 
@@ -1811,6 +1812,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             }
 
             int w = 1000, h = 800;
+            if (frame == null || !frame.isValid())
             try {
                 Graphviz graphviz = gb.build();
                 String svgString = graphviz.toSvgStr();
@@ -1830,7 +1832,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 String info = "GDD proof visualization";
                 // TODO: Put this piece of information to some other place of the program:
                 info = "Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag with left mouseclick to move";
-                JFrame frame = new JFrame(GExpert.getLanguage(info));
+                frame = new JDialog(gxInstance.getFrame(), GExpert.getLanguage(info));
                 frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 frame.getContentPane().add(panel);
                 frame.pack();
@@ -2066,6 +2068,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         public popMenu() {
             super();
             JMenuItem item = new JMenuItem(GExpert.getLanguage("Prove"));
+            // item.setActionCommand("Prove");
             add(item);
             item.addActionListener(this);
             /*
@@ -2076,6 +2079,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
              */
             item.addActionListener(this);
             item = new JMenuItem(GExpert.getLanguage(310, "Refresh"));
+            // item.setActionCommand("Refresh");
             item.addActionListener(this);
             add(item);
             item = new JMenuItem(GExpert.getLanguage(305, "Search a fact"));
