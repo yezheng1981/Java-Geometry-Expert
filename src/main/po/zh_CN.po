@@ -239,6 +239,10 @@ msgstr "网格的疏密"
 msgid "Slope Angle"
 msgstr "倾斜角度"
 
+#, fuzzy
+msgid "Slope"
+msgstr "倾斜角度"
+
 #: ../wprover/DialogPsProperty.java:26 ../wprover/GExpert.java:766
 #: ../wprover/HelpMode.java:35
 msgid "Save as PS"
@@ -897,7 +901,8 @@ msgid "Default Font"
 msgstr "默认字体"
 
 #: ../wprover/MiscDialog.java:219
-msgid "Choose default foot for point's text"
+#, fuzzy
+msgid "Choose default font for point's text"
 msgstr "为点的文本选择默认的字体"
 
 #: ../wprover/MiscDialog.java:266
@@ -945,9 +950,37 @@ msgstr "定理"
 msgid "Area Method"
 msgstr "面积法"
 
+#, fuzzy
+msgid "Area Method computations"
+msgstr "面积法"
+
+#, fuzzy
+msgid "Manual proof editor"
+msgstr "手动证明方法"
+
 #: ../wprover/MiscDialog.java:540
 msgid "Manual Method"
 msgstr "手动证明方法"
+
+#, fuzzy
+msgid "Deduction tree of the GDD method"
+msgstr "演绎数据库规则"
+
+msgid "Algebraic computations for Wu's method"
+msgstr ""
+
+msgid "Algebraic computations for the Groebner basis method"
+msgstr ""
+
+#, fuzzy
+msgid "Derivation for the Full Angle method"
+msgstr "全角规则"
+
+msgid "Show the internal description of the construction"
+msgstr ""
+
+msgid "Show general properties that seem to be true"
+msgstr ""
 
 #: ../wprover/MiscDialog.java:558 ../wprover/PanelProve1.java:373
 msgid "Fixpoint"
@@ -1079,11 +1112,13 @@ msgid "The Algebraic Form:"
 msgstr "代数形式"
 
 #: ../wprover/panelGB.java:623
-msgid "The Nondegenerate Conditions"
+#, fuzzy
+msgid "The Nondegenerate Conditions:"
 msgstr "非退化条件"
 
 #: ../wprover/panelGB.java:704
-msgid "The Initial Polynomial Set"
+#, fuzzy
+msgid "The Initial Polynomial Set:"
 msgstr "初始的多项式集合"
 
 #: ../wprover/panelGB.java:709
@@ -1303,12 +1338,12 @@ msgid "Remainder"
 msgstr "余项"
 
 #: ../wprover/panelWu.java:146
-msgid "The Triangulized Hypotheses"
-msgstr ""
+msgid "The Triangulized Hypotheses:"
+msgstr "三角化之后的多项式"
 
 #: ../wprover/panelWu.java:159
 #, fuzzy
-msgid "Successive Pseudo Remainder of CONC wrt TS:"
+msgid "Successive Pseudo Remainder of Conclution wrt Triangulized Hypotheses:"
 msgstr "CONC关于TS依次消减的余项："
 
 #: ../wprover/panelWu.java:168
@@ -3227,7 +3262,7 @@ msgid "Other rules"
 msgstr "其他"
 
 #, fuzzy
-msgid "The Definition of Full Angle."
+msgid "The Definition of Full Angle"
 msgstr "全角规则"
 
 # Full 1/2
@@ -3249,7 +3284,7 @@ msgid "∠[u,v] = ∠[1] if and only if u ⊥ v."
 msgstr ""
 
 #, fuzzy
-msgid "Addition of Full Angles."
+msgid "Addition of Full Angles"
 msgstr "全角规则"
 
 # Full 5/2
@@ -3259,7 +3294,7 @@ msgid ""
 msgstr ""
 
 # Full 5/3
-msgid "For example, for any line m, we have ∠[u,v] = ∠[u,m] + ∠[m,v]"
+msgid "For example, for any line m, we have ∠[u,v] = ∠[u,m] + ∠[m,v]."
 msgstr ""
 
 # Full 6/1
@@ -3292,7 +3327,7 @@ msgstr ""
 # Full 9/1
 msgid ""
 "If A,B,M,N are concyclic, then ∠[AB, AM] = ∠[BN,NM]. Hence we have ∠[AB, CD] "
-"= ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM]] + ∠[AM, CD]."
+"= ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM] + ∠[AM, CD]."
 msgstr ""
 
 #, fuzzy
@@ -3303,13 +3338,13 @@ msgstr "矩形"
 msgid ""
 "If AB is the diameter of the circumcircle of triangle ABC and D is on the "
 "circumcircle, then for any line FG, we have ∠[CD,FG] = ∠[DBA] + ∠[ACB] + "
-"∠[BC, FG]]."
+"∠[BC, FG]."
 msgstr ""
 
 # Full 12/1
 msgid ""
-"If O is the intersection of Circle(O1,OP1P3I) and Circle(O2,OP2P4J) and O,I,"
-"J are collinear, then ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4]."
+"If O is the intersection of circle (O1,OP1P3I) and circle (O2,OP2P4J) and O,"
+"I,J are collinear, then ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4]."
 msgstr ""
 
 # Full 13/1
@@ -3318,30 +3353,31 @@ msgstr ""
 
 # Full 14/1
 msgid ""
-"For a circle(O,ABCD), if O is the intersection of AD and BC, then ∠[AOB] = 2 "
-"· ∠[CDA]."
+"For a circle (O,ABCD), if O is the intersection of AD and BC, then ∠[AOB] = "
+"2 · ∠[CDA]."
 msgstr ""
 
 # Full 15/1
-msgid "For a circle(O,AB), O is the center of circle, we have ∠[OAB] = ∠[ABO]."
+msgid ""
+"For a circle (O,AB), O is the center of circle, we have ∠[OAB] = ∠[ABO]."
 msgstr ""
 
 # Full 16/1
 msgid ""
 "If triangle ABE is a right triangle and O is the midpoint of the hypotenuse "
 "(i.e. AB), then for any line CD, we have ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, "
-"CD]"
+"CD]."
 msgstr ""
 
 # Full 17/1
 msgid ""
-"For a circle(O, ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + "
-"∠[AC,EF]."
+"For a circle (O,ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + "
+"∠[AC, EF]."
 msgstr ""
 
 # Full 18/1
 msgid ""
-"For a circle(O,ABF), if E is the midpoint of AF, we have ∠[AB, CD] = ∠[EOA] "
+"For a circle (O,ABF), if E is the midpoint of AF, we have ∠[AB, CD] = ∠[EOA] "
 "+ ∠[BF, CD]."
 msgstr ""
 
@@ -3376,14 +3412,18 @@ msgid ""
 "If OB // DE and A is on the circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB]."
 msgstr ""
 
+# Full 25/1
+msgid "A is on circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB] + 2 · ∠[OA,DE]."
+msgstr ""
+
 # Full 26/1
 msgid ""
-"CD is the diameter of a circle (A,BCD), AB ⊥ CD, then  2 · ∠[DB,BA]  = ∠[0]."
+"CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA]  = ∠[1]."
 msgstr ""
 
 # Full 27/1
 msgid ""
-"A, B, C, D, E are concyclic and AC = AB, then 2 · ∠[AB, BC] = ∠[CE, ED]."
+"A, B, C, D, E are concyclic and AC = AD, then 2 · ∠[AB, BC] = ∠[CE, ED]."
 msgstr ""
 
 # Full 28/1
@@ -3398,6 +3438,31 @@ msgid ""
 "∠[AB, BC] = ∠[0]."
 msgstr ""
 
+msgid "Full Rules"
+msgstr ""
+
+#, fuzzy
+msgid "Save as Maple Format"
+msgstr "另存为文本"
+
+#, fuzzy
+msgid "The point should be a fix point."
+msgstr "产生不动点消耗的时间："
+
+#, fuzzy
+msgid "Please select the second point."
+msgstr "请选择"
+
+#, fuzzy
+msgid "Please select a line or a circle."
+msgstr "请选择"
+
+msgid "Expand/collapse proof tree"
+msgstr ""
+
+msgid "Compute proof with the selected method"
+msgstr ""
+
 #~ msgid "animate_start"
 #~ msgstr "播放动画"
 
@@ -3409,9 +3474,6 @@ msgstr ""
 
 #~ msgid "FR"
 #~ msgstr "回退至最前"
-
-#~ msgid "Time to build fixpoint:"
-#~ msgstr "产生不动点消耗的时间："
 
 #~ msgid "LessGrid"
 #~ msgstr "网格稀疏"
@@ -3454,9 +3516,6 @@ msgstr ""
 #~ "The two objects you selected already have two points as their "
 #~ "intersections!"
 #~ msgstr "你所选择的两个元素已近有两个交点已经定义"
-
-#~ msgid "The Triangulized Hypotheses:"
-#~ msgstr "三角化之后的多项式"
 
 #~ msgid "The Groebner Basis:"
 #~ msgstr "Groebner基："

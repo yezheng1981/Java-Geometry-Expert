@@ -885,7 +885,7 @@ msgid "Default Font"
 msgstr ""
 
 #: ../wprover/MiscDialog.java:219
-msgid "Choose default foot for point's text"
+msgid "Choose default font for point's text"
 msgstr ""
 
 #: ../wprover/MiscDialog.java:266
@@ -933,9 +933,34 @@ msgstr ""
 msgid "Area Method"
 msgstr ""
 
+msgid "Area Method computations"
+msgstr ""
+
+msgid "Manual proof editor"
+msgstr ""
+
 #: ../wprover/MiscDialog.java:540
 msgid "Manual Method"
 msgstr ""
+
+msgid "Deduction tree of the GDD method"
+msgstr ""
+
+msgid "Algebraic computations for Wu's method"
+msgstr ""
+
+msgid "Algebraic computations for the Groebner basis method"
+msgstr ""
+
+msgid "Derivation for the Full Angle method"
+msgstr ""
+
+msgid "Show the internal description of the construction"
+msgstr ""
+
+msgid "Show general properties that seem to be true"
+msgstr ""
+
 
 #: ../wprover/MiscDialog.java:558 ../wprover/PanelProve1.java:373
 msgid "Fixpoint"
@@ -3201,4 +3226,10 @@ msgid "Please select the second point."
 msgstr ""
 
 msgid "Please select a line or a circle."
+msgstr ""
+
+msgid "Expand/collapse proof tree"
+msgstr ""
+
+msgid "Compute proof with the selected method"
 msgstr ""

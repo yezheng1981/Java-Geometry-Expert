@@ -85,18 +85,25 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         JScrollPane scroll = new JScrollPane(condPane);
         scroll.setBorder(null);
 
+        /*
         if (idonly < 0)
             this.add("Thm", scroll);     //0
-        else this.add("Thm", scroll);     //0 
+        else this.add("Thm", scroll);     //0
+         */
+        this.addTab("Thm", null, scroll, GExpert.getLanguage("Show the internal description of the construction"));
 
         tbar = new ButtonToolBar();
         createAllPopupMenu();
         this.addChangeListener(this);
         this.createFullTreePanel();
         this.createGDDTreePanel();                         //2
-        this.addTab("A", (areaPanel = new JScrollPane()));    //3
+
+        // This is not implemented yet. TODO: Implement the area method.
+        // To avoid confusion, this tab is disabled for version 0.81:
+        // this.addTab("A", null, (areaPanel = new JScrollPane()), GExpert.getLanguage("Area Method computations"));    //3
+
         createMProvePanel(mbar);
-        addTab("M", mpPanel);//4
+        addTab("M", null, mpPanel, GExpert.getLanguage("Manual proof editor"));//4
         this.createDatabaseTree();        //5
         gprover = new GProver(this, gxInstance);
         this.setBorder(null);
@@ -359,7 +366,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             }
         });
         gddPanel = new JScrollPane(tree);
-        this.addTab("D", gddPanel);
+        this.addTab("D", null, gddPanel, GExpert.getLanguage("Deduction tree of the GDD method"));
     }
 
     private void createDatabaseTree() {
@@ -417,7 +424,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
         dbPanel = new JScrollPane(tree_db);
 
-        this.add("Fix", dbPanel);
+        this.addTab("Fix", null, dbPanel, GExpert.getLanguage("Show general properties that seem to be true"));
     }
 
     private void createFullTreePanel() {
@@ -628,7 +635,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 
         });
         fullPanel = new JScrollPane(tree_full);
-        this.add("F", fullPanel);
+        this.addTab("F", null, fullPanel,  GExpert.getLanguage("Derivation for the Full Angle method"));
     }
 
     private void createMProvePanel(boolean mbar) {
@@ -895,7 +902,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 wuPanel.setLanguage(gxInstance.getLan());
                 wuPanel.setXInstance(gxInstance);
             }
-            this.addTab("Wu", wuPanel);
+            this.addTab("Wu", null, wuPanel, "Algebraic computations for Wu's method");
         }
         if (!wuPanel.isRunning()) {
             this.setSelectedComponent(wuPanel);
@@ -907,7 +914,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         if (gbPanel == null) {
             gbPanel = new panelGB(dp, new wuTextPane());
             gbPanel.setXInstance(gxInstance);
-            this.addTab("GB", gbPanel);
+            this.addTab("GB", null, gbPanel, "Algebraic computations for the Groebner basis method");
         }
         if (!gbPanel.isRunning()) {
             this.setSelectedComponent(gbPanel);
@@ -2053,9 +2060,12 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             JMenuItem item = new JMenuItem(GExpert.getLanguage("Prove"));
             add(item);
             item.addActionListener(this);
+            /*
+            // TODO: This is not yet implemented, so it is disabled since version 0.81:
             item = new JMenuItem(GExpert.getLanguage(311, "Prove in a new tab"));
             item.setEnabled(false);
             add(item);
+             */
             item.addActionListener(this);
             item = new JMenuItem(GExpert.getLanguage(310, "Refresh"));
             item.addActionListener(this);
@@ -2283,6 +2293,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
 //                    }
                 }
             });
+            b1.setToolTipText(GExpert.getLanguage("Default Font"));
 
             button3 = new JToggleButton(new AbstractAction("",
                     GExpert.createImageIcon("images/ptree/expand.gif")) {
@@ -2293,12 +2304,16 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 }
             });
 
+            button3.setToolTipText(GExpert.getLanguage("Expand/collapse proof tree"));
+
             button4 = new JToggleButton(new AbstractAction("",
                     GExpert.createImageIcon("images/ptree/draw.gif")) {
                 public void actionPerformed(ActionEvent e) {
                     startConstcutDiagram();
                 }
             });
+            button4.setToolTipText(GExpert.getLanguage("Show the internal description of the construction"));
+
             button5 = new JToggleButton(new AbstractAction("",
                     GExpert.createImageIcon("images/ptree/addconc.gif")) {
                 public void actionPerformed(ActionEvent e) {
@@ -2306,6 +2321,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                     button5.setSelected(false);
                 }
             });
+            button5.setToolTipText(GExpert.getLanguage("Add Conclution"));
+
             button6 = new JToggleButton(new AbstractAction("",
                     GExpert.createImageIcon("images/ptree/refresh.gif")) {
                 public void actionPerformed(ActionEvent e) {
@@ -2313,6 +2330,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                     button6.setSelected(false);
                 }
             });
+            button6.setToolTipText(GExpert.getLanguage("Refresh"));
+
             button7 = new JToggleButton(new AbstractAction("",
                     GExpert.createImageIcon("images/ptree/run.gif")) {
                 public void actionPerformed(ActionEvent e) {
@@ -2320,6 +2339,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                     button7.setSelected(false);
                 }
             });
+            button7.setToolTipText(GExpert.getLanguage("Compute proof with the selected method"));
 
             EntityButtonUI ui = new EntityButtonUI();
             b1.setUI(ui);

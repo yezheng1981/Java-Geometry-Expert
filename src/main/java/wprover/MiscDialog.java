@@ -217,7 +217,7 @@ public class MiscDialog extends JBaseDialog implements FocusListener, ActionList
                 public void actionPerformed(ActionEvent e) {
                     if (JOptionPane.OK_OPTION ==
                             vFontChooser.showDialog(gxInstance, CMisc.nameFont,
-                                    GExpert.getLanguage(1024, "Choose default foot for point's text"), Color.black)) {
+                                    GExpert.getLanguage(1024, "Choose default font for point's text"), Color.black)) {
                         CMisc.nameFont = vFontChooser.getReturnFont();
                         JButton b = (JButton) e.getSource();
                         b.setText(CMisc.nameFont.getName() + " " + CMisc.nameFont.getSize());
