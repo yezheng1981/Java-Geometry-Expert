@@ -864,7 +864,10 @@ public class mproveInputPanel extends JToolBar implements ActionListener {
         private mrule rule;
 
         public rulePanel() {
-            box = new JComboBox(mrule.cStrings);
+            String[] cStringsT = new String[mrule.cStrings.length];
+            for (int i = 0; i < mrule.cStrings.length; i++)
+                cStringsT[i] = GExpert.getLanguage(mrule.cStrings[i]);
+            box = new JComboBox(cStringsT);
             this.add(box);
         }
 

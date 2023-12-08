@@ -1666,10 +1666,10 @@ class mobject {
     }
 }
 
-
+// TODO. This seems to be unfinished.
 class mrule extends mobject {
     int rindex;
-    public static String[] cStrings = {"Rule1", "Rule2", "Rule3", "SAS", "AAS", "SSS", "ASA"};
+    public static String[] cStrings = {"Rule1", "Rule2", "Rule3", "SAS", /* "AAS", */ "SSS", "ASA"}; // FIXME. AAS is missing among the files.
 
     public mrule(int n) {
         super(RULE);
@@ -1679,14 +1679,15 @@ class mrule extends mobject {
     public String toString() {
 
         if (rindex < 0 || rindex >= cStrings.length) {
-            return " by Rule?";
+            return GExpert.getLanguage("by Rule?");
         }
-        return " by " + cStrings[rindex];
+        return GExpert.getTranslationViaGettext("by {0}", GExpert.getLanguage(cStrings[rindex]));
     }
 
     public String getRuleName() {
-        int n = rindex + 1;
-        return "Rule" + n;
+        int n = rindex;
+        return cStrings[n];
+        // return "Rule" + n;
     }
 
     public int getRuleIndex() {

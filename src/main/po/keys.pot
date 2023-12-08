@@ -3255,3 +3255,11 @@ msgstr ""
 msgid "AAA"
 msgstr ""
 
+msgid "by Rule?"
+msgstr ""
+
+msgid "by {0}"
+msgstr ""
+
+msgid "Middle Point"
+msgstr ""

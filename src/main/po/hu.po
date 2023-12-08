@@ -3462,3 +3462,12 @@ msgstr "másodperc"
 
 msgid "AAA"
 msgstr "SzSzSz"
+
+msgid "by Rule?"
+msgstr "melyik szabály?"
+
+msgid "by {0}"
+msgstr "{0} szerint"
+
+msgid "Middle Point"
+msgstr "Középpont"

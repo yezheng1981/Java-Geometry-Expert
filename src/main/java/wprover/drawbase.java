@@ -207,7 +207,10 @@ public class drawbase {
         this.lan = lan;
     }
 
+    @Deprecated
     public String getLanguage(int n, String s) {
+        return GExpert.getLanguage(s);
+        /*
         if (lan == null)
             return s;
 
@@ -215,6 +218,7 @@ public class drawbase {
         if (s1 != null && s1.length() > 0)
             return s1;
         return s;
+         */
     }
 
     public void DWButtonDown(double x, double y) {
@@ -511,7 +515,7 @@ public class drawbase {
         if (!isPointOnIntersection) {
             drawRect(x - 5, y - 5, x + 5, y + 5, g2);
             if (CatchType == 1)
-                g2.drawString("Middle Point", x + 10, y);
+                g2.drawString(GExpert.getLanguage("Middle Point"), x + 10, y);
         } else {
             drawCatchInterCross(g2);
         }

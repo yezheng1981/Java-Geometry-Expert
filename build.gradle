@@ -177,7 +177,7 @@ javapackager {
     description = "JGEX combines dynamic geometry software, automated geometry theorem prover with a visually dynamic approach for presenting proofs."
     mainClass = applicationMainClass
     bundleJre = true
-    additionalResources = [ file ("src/docs/examples"), file ("src/docs/help"), file("src/docs/import") ]
+    additionalResources = [ file ("src/docs/examples"), file ("src/docs/help"), file("src/docs/import"), file("src/docs/rules") ]
     organizationName = "JGEX Contributors"
     url = "https://github.com/kovzol/Java-Geometry-Expert"
     organizationEmail = "jgex@googlegroups.com"
