@@ -124,7 +124,7 @@ public class AllSolutionDialog extends JBaseDialog implements ActionListener, Wi
     }
 
     public void autoFiltered() {
-        cns = gxInstance.getpprove().getConstructionTerm().getConclution();
+        cns = gxInstance.getpprove().getConstructionTerm().getConclusion();
         if (cns != null) {
             dlg = new concDialog(gxInstance, ("Filter"));
             dlg.setPoints(gxInstance.dp.getPointList());

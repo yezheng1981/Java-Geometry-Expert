@@ -3243,12 +3243,8 @@ public class gddbase extends gib {
 ////////////////////////////////////////////////////////////
 
     public boolean sbase() {
-//        for (int i = 1; i <= cns_no; i++) {
-//            if (!isConclution(i))
-//                do_i_ln(i);
-//        }
         for (int i = 1; i <= cns_no; i++) {
-            if (!isConclution(i))
+            if (!isConclusion(i))
                 do_i_cons(i);
         }
 
@@ -5269,7 +5265,7 @@ public class gddbase extends gib {
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 
-    public void add_nodes(int[] p) { // for conclution;
+    public void add_nodes(int[] p) { // for conclusion;
 
         l_list d = new l_list();
         mnde m = null;

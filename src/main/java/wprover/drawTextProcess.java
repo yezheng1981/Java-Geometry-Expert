@@ -106,7 +106,7 @@ public class drawTextProcess extends drawProcess {
                         }
                     } else {
                         ((Timer) e.getSource()).stop();
-                        drawTextProcess.this.mouseDown(0, 0); // for conclution.
+                        drawTextProcess.this.mouseDown(0, 0); // for conclusion.
                     }
                     panel.repaint();
                 }
@@ -261,7 +261,7 @@ public class drawTextProcess extends drawProcess {
                         if (index != nd)
                             this.UndoAdded(pt.toDString(), false);
                     } else {
-                        Vector v = addCondAux(gterm().getConclution(), false);
+                        Vector v = addCondAux(gterm().getConclusion(), false);
                         cond cc1 = gterm().getConc();
                         addConcLineOrCircle(cc1);
                         if (gterm().isTermAnimated()) {

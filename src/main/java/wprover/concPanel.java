@@ -712,7 +712,7 @@ public class concPanel extends JPanel implements ActionListener, ItemListener {
             case massertion.CONG:
                 return Cm.PC_CTRI + " " + vs(0, 0) + " " + vs(0, 1) + " " + vs(0, 2) + " " + vs(1, 0) + " " + vs(1, 1) + " " + vs(1, 2) + ";";
         }
-        return "Not Yet Supported Conclution";
+        return "Not Yet Supported Conclusion";
     }
 
     public String getProveDescription() {
@@ -743,7 +743,7 @@ public class concPanel extends JPanel implements ActionListener, ItemListener {
             case massertion.CONG:
                 return "tri " + vs(0, 0) + vs(0, 1) + vs(0, 2) + " is equal to " + "tri " + vs(1, 0) + vs(1, 1) + vs(1, 2);
         }
-        return "Not Yet Supported Conclution";
+        return "Not Yet Supported Conclusion";
     }
 
     private void showCorrentOrder() {

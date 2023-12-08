@@ -1526,7 +1526,7 @@ class mobject {
     final static int ASSERT = 4;
     final static int DOBJECT = 5;
     final static int DRAW = 6;
-    final static int CONCLUTION = 7;
+
     final static int EQUATION = 8;
     final static int RULE = 9;
 

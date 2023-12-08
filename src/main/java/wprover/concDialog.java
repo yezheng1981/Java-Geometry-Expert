@@ -7,9 +7,6 @@ import java.util.Vector;
 import java.awt.*;
 import java.awt.event.*;
 
-import maths.TMono;
-import maths.PolyBasic;
-
 public class concDialog extends JBaseDialog implements ActionListener, ItemListener {
     int type = 0; // 0. Conclusion   1. NDGS.
     final static String[] ts = {
@@ -37,11 +34,9 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
     };//CST.s_conc_detail;
 
 
-    final public static int CONCLUTION_OK = 0;
+    final public static int CONCLUSION_OK = 0;
     final static Font font = new Font("Dialog", Font.BOLD, 14);
-    final public static int CONCLUTION_CANCLE = 1;
-    final public static int CONCLUTION_ERROR = -1;
-
+    final public static int CONCLUSION_CANCEL = 1;
 
     private Vector vlist = new Vector();
     private Vector vlist1 = new Vector();
@@ -114,7 +109,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
     }
 
     public concDialog(GExpert frame) {
-        super(frame.getFrame(), "Add Conclution");
+        super(frame.getFrame(), "Add Conclusion");
         this.setModal(false);
         model = false;
         init();
@@ -223,7 +218,7 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
 
         this.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
-                returnValue = CONCLUTION_CANCLE;
+                returnValue = CONCLUSION_CANCEL;
             }
         });
 
@@ -457,15 +452,15 @@ public class concDialog extends JBaseDialog implements ActionListener, ItemListe
     public void actionPerformed(ActionEvent e) {
         String command = e.getActionCommand();
         if (command.equalsIgnoreCase("OK")) {
-            returnValue = CONCLUTION_OK;
+            returnValue = CONCLUSION_OK;
             this.setVisible(false);
             if (type == 0)
-                gxInstance.getpprove().set_conclution(getProve(), this.checkValid());
+                gxInstance.getpprove().set_conclusion(getProve(), this.checkValid());
             else
                 gxInstance.getpprove().add_ndgs(getProve());
 
         } else if (command.equalsIgnoreCase("Cancel")) {
-            returnValue = CONCLUTION_CANCLE;
+            returnValue = CONCLUSION_CANCEL;
             this.setVisible(false);
         } else if (command.equalsIgnoreCase("Clear")) {
             this.resetAllItem();

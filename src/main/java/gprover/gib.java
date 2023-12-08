@@ -114,7 +114,7 @@ public class gib {
 
     //********************end of pred types*************************
 
-    //********************conclutions******************************
+    //********************conclusions******************************
     final public static int CO_COLL = 50 + 20;
     final public static int CO_PARA = 51 + 20;
     final public static int CO_PERP = 52 + 20;
@@ -140,7 +140,7 @@ public class gib {
     final public static int CO_EQ = 1112;
     final public static int CO_12 = 1903;
     final public static int CO_PET = 1904;
-    //********************end of conclutions******************************
+    //********************end of conclusions******************************
     //****************************Ordered .
 
     final public static int NDG_NEQ = 200;
@@ -320,7 +320,7 @@ public class gib {
 
     protected cond all_nd, last_nd;
     protected cond co_db, co_xy;
-    // for conclution;
+    // for conclusion;
     protected angtr all_tr, last_tr;
     protected l_list all_ns, last_ns;
     // for collection.
@@ -709,7 +709,7 @@ public class gib {
         }
     }
 
-    final boolean isConclution(int n) {
+    final boolean isConclusion(int n) {
         if (allcns[n] != null)
             return allcns[n].is_conc();
         return false;

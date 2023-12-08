@@ -120,27 +120,11 @@ public class gterm {
     }
 
 
-    public String getConclutions() {
-        return "NO";
-    }
-
-    public void generate_from_pss(cons c) {
-        for (int i = 0; i < c.pss.length && c.pss[i] != null; i++) {
-            String o = c.pss[i].toString();
-            int n = findPt(o);
-            if (n != 0)
-                c.ps[i] = n;
-            else if (isStringTypeInt(o))
-                c.ps[i] = Integer.parseInt(o);
-        }
-
-    }
-
     public cond getConc() {
         return conc;
     }
 
-    public cons getConclution() {
+    public cons getConclusion() {
         int s = gcons.size();
         if (s == 0) return null;
         cons c = (cons) gcons.get(s - 1);
@@ -149,7 +133,7 @@ public class gterm {
         return null;
     }
 
-    public boolean setConclution(cons c) {
+    public boolean setConclusion(cons c) {
 
         int s = gcons.size();
         if (s == 0) return false;
@@ -274,7 +258,7 @@ public class gterm {
             out.write(c.toString().getBytes());
             out.write("\n".getBytes());
         }
-        if (this.getConclution() == null)
+        if (this.getConclusion() == null)
             out.write("SHOW: NO\n".getBytes());
         return true;
     }
@@ -532,7 +516,7 @@ public class gterm {
         return is_position_set;
     }
 
-    boolean addConclution(String ln) {
+    boolean addConclusion(String ln) {
         cons c = new cons(0);
         String sln = ln.substring(4, ln.length());
         sln = sln.replace(':', ' ');
@@ -600,7 +584,7 @@ public class gterm {
     boolean addCondition(String ln) {
         String st = ln.trim().substring(0, 4);
         if (st.equalsIgnoreCase("show")) {
-            this.addConclution(ln.trim());
+            this.addConclusion(ln.trim());
         } else {
 
             ln = ln.replaceAll(";", "");
@@ -861,7 +845,7 @@ public class gterm {
             }
         }
 
-        cons c = getConclution();
+        cons c = getConclusion();
         if (c != null) {
             conc.pred = c.type;
             if (conc.pred == gib.CO_ACONG) {
@@ -1044,17 +1028,17 @@ public class gterm {
     }
 
     public String getConcText() {
-        cons c = this.getConclution();
+        cons c = this.getConclusion();
         if (c == null)
             return "NO";
         return CST.getDString(c.pss, c.type);
     }
 
-    public void setConclutionNo() {
+    public void setConclusionNo() {
 
     }
 
-    public boolean hasConclution() {
+    public boolean hasConclusion() {
         int n = gcons.size();
         if (n == 0)
             return false;

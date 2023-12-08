@@ -10,7 +10,6 @@ import java.awt.*;
 
 import maths.TMono;
 import maths.TPoly;
-import maths.CharSet;
 
 public class panelWu extends panelAlgebric implements Runnable, MouseListener {
     private TMono mremainder;
@@ -111,7 +110,7 @@ public class panelWu extends panelAlgebric implements Runnable, MouseListener {
         }
 
         String sc = gt.getConcText();
-        cons cc = gt.getConclution();
+        cons cc = gt.getConclusion();
         TMono mc = getTMono(cc);
         if (mc == null) {
             running = false;
@@ -152,11 +151,11 @@ public class panelWu extends panelAlgebric implements Runnable, MouseListener {
         }
 
 
-        addString2(getLanguage(1105, "The conclution:"));
+        addString2(getLanguage(1105, "The conclusion:"));
         addString1(sc + "\n");
         addString(poly.printSPoly(mc));
 
-        addString2(getLanguage(1106, "Successive Pseudo Remainder of the conclution wrt Triangulized Hypotheses:"));
+        addString2(getLanguage(1106, "Successive Pseudo Remainder of the conclusion wrt Triangulized Hypotheses:"));
         int r = 0;
 
         try {
@@ -169,17 +168,17 @@ public class panelWu extends panelAlgebric implements Runnable, MouseListener {
                     getLanguage(1131, "The Theorem Is Not Proved!"), getLanguage(1130, "System Run Out of Memory"), JOptionPane.WARNING_MESSAGE);
             addString("\n" + getLanguage(1130, "System Run Out of Memory"));
             addString("icon3", "icon3");
-            addString1(getLanguage(1109, "The conclution is not proved"));
+            addString1(getLanguage(1109, "The conclusion is not proved"));
             return;
         }
         scrollToEnd();
 
         if (r == 0) {
             addString("icon1", "icon1");
-            addString1(getLanguage(1108, "The conclution is true"));
+            addString1(getLanguage(1108, "The conclusion is true"));
         } else if (r == 1) {
             addString("icon2", "icon2");
-            addString1(getLanguage(1107, "The conclution is false"));
+            addString1(getLanguage(1107, "The conclusion is false"));
             if (poly.plength(mc) > 2) {
                 _mremainder = mc;
                 addString("\n");

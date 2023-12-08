@@ -124,7 +124,7 @@ public class RunningDialog extends JPopupMenu implements ActionListener {
             }
             long t = System.currentTimeMillis();
             long m = (t - start_time) / 1000;
-            labelt.setText(Long.toString(m) + " Seconds");
+            labelt.setText(Long.toString(m) + " " + GExpert.getLanguage("seconds"));
         } else {
             timer.stop();
             this.setVisible(false);

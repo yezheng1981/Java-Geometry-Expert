@@ -8586,43 +8586,6 @@ drawProcess extends drawbase implements Printable, ActionListener {
         }
     }
 
-    public TPoly add_cons_or_conclution(int type, Object obj1, Object obj2,
-                                        Object obj3, Object obj4) {
-
-        if (type == constraint.PARALLEL || type == constraint.PERPENDICULAR) {
-            CPoint p1 = (CPoint) obj1;
-            CPoint p2 = (CPoint) obj2;
-            CPoint p3 = (CPoint) obj3;
-            CPoint p4 = (CPoint) obj4;
-            CLine line1, line2;
-            line1 = line2 = null;
-            for (int i = 0; i < linelist.size(); i++) {
-                CLine ln = (CLine) linelist.get(i);
-                if (ln.points.contains(p1) && ln.points.contains(p2)) {
-                    if (line1 == null) {
-                        line1 = ln;
-                    } else {
-                        line2 = ln;
-                    }
-                }
-                if (ln.points.contains(p3) && ln.points.contains(p4)) {
-                    if (line1 == null) {
-                        line1 = ln;
-                    } else {
-                        line2 = ln;
-                    }
-                }
-            }
-            constraint cs = new constraint(type, line1, line2, null, null);
-        } else {
-            constraint cs = new constraint(type, obj1, obj2, obj3, obj4);
-        }
-
-        TPoly plist = constraint.getPolyListAndSetNull();
-        return plist;
-
-    }
-
 
     public CPolygon SelectAPolygon(double x, double y) {
         Vector v = new Vector();

@@ -878,7 +878,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         popcond = new popMenu();
     }
 
-    public void addConclution(String s) {
+    public void addConclusion(String s) {
         if (!condPane.checkValid()) {
             return;
         }
@@ -887,7 +887,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             gxInstance.setActionSelect();
 
         if (cdialog == null) {
-            cdialog = new concDialog(gxInstance, getLanguage("Add Conclution"));
+            cdialog = new concDialog(gxInstance, getLanguage("Add Conclusion"));
             cdialog.setTitle(s);
         }
         cdialog.setPoints(condPane.getAllPts());
@@ -902,7 +902,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 wuPanel.setLanguage(gxInstance.getLan());
                 wuPanel.setXInstance(gxInstance);
             }
-            this.addTab("Wu", null, wuPanel, "Algebraic computations for Wu's method");
+            this.addTab("Wu", null, wuPanel, GExpert.getLanguage("Algebraic computations for Wu's method"));
         }
         if (!wuPanel.isRunning()) {
             this.setSelectedComponent(wuPanel);
@@ -914,7 +914,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         if (gbPanel == null) {
             gbPanel = new panelGB(dp, new wuTextPane());
             gbPanel.setXInstance(gxInstance);
-            this.addTab("GB", null, gbPanel, "Algebraic computations for the Groebner basis method");
+            this.addTab("GB", null, gbPanel, GExpert.getLanguage("Algebraic computations for the Groebner basis method"));
         }
         if (!gbPanel.isRunning()) {
             this.setSelectedComponent(gbPanel);
@@ -1212,7 +1212,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         int n = dp.getPointSize();
         condPane.setVector(v);
         if (0 == dp.getRedolistSize())
-            condPane.addConclution();
+            condPane.addConclusion();
 
     }
 
@@ -1262,9 +1262,9 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         }
 
         gterm gt = condPane.getTerm();
-        if (gt == null || !gt.hasConclution()) {
-            JOptionPane.showMessageDialog(gxInstance, getLanguage(1006, "No conclution has been set!"),
-                    getLanguage(1005, "No conclution"),
+        if (gt == null || !gt.hasConclusion()) {
+            JOptionPane.showMessageDialog(gxInstance, getLanguage(1006, "No conclusion has been set!"),
+                    getLanguage(1005, "No conclusion"),
                     JOptionPane.INFORMATION_MESSAGE);
             return;
         }
@@ -1346,8 +1346,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         if (gddPanel == null)
             this.createGDDTreePanel();
         if (co.pred == 0) {
-            JOptionPane.showMessageDialog(gxInstance, getLanguage(1006, "No conclution has been set!"),
-                    getLanguage(1005, "No conclution"),
+            JOptionPane.showMessageDialog(gxInstance, getLanguage(1006, "No conclusion has been set!"),
+                    getLanguage(1005, "No conclusion"),
                     JOptionPane.INFORMATION_MESSAGE);
             return;
         }
@@ -1404,9 +1404,9 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             this.createFullTreePanel();
         }
         gterm t = condPane.getTerm();
-        if (t == null || !t.hasConclution()) {
-            JOptionPane.showMessageDialog(gxInstance, getLanguage(1006, "No conclution has been set!"),
-                    getLanguage(1005, "No conclution"),
+        if (t == null || !t.hasConclusion()) {
+            JOptionPane.showMessageDialog(gxInstance, getLanguage(1006, "No conclusion has been set!"),
+                    getLanguage(1005, "No conclusion"),
                     JOptionPane.INFORMATION_MESSAGE);
             return false;
         }
@@ -2325,11 +2325,11 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             button5 = new JToggleButton(new AbstractAction("",
                     GExpert.createImageIcon("images/ptree/addconc.gif")) {
                 public void actionPerformed(ActionEvent e) {
-                    addConclution(null);
+                    addConclusion(null);
                     button5.setSelected(false);
                 }
             });
-            button5.setToolTipText(GExpert.getLanguage("Add Conclution"));
+            button5.setToolTipText(GExpert.getLanguage("Add Conclusion"));
 
             button6 = new JToggleButton(new AbstractAction("",
                     GExpert.createImageIcon("images/ptree/refresh.gif")) {
@@ -2511,7 +2511,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 label.setToolTipText(item.getText());
             } else if (s.equals("CONC")) {
                 JMenuItem item = (JMenuItem) e.getSource();
-                addConclution(item.getText());
+                addConclusion(item.getText());
             } else if (s.equals("Generate")) {
                 PanelProve1.this.generate();
             } else if (s.equals("Detail")) {
@@ -2584,7 +2584,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                         } else if (gt.conc.pred != 0)
                             buffer.append("\tfalse ");
                         else
-                            buffer.append("\tNo conclution ");
+                            buffer.append("\tNo conclusion ");
                     }
                 }
             } catch (Exception ee) {
@@ -2749,7 +2749,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             }
         }
 
-        public void addMenu() {
+        public void addMenu() { // TODO: Check if these strings should be added for internationalization.
             showMenu = new JPopupMenu();
             JRadioButtonMenuItem t2 = new JRadioButtonMenuItem("Detail Construction");
             t2.addActionListener(this);
@@ -2763,7 +2763,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             it.addActionListener(this);
             showMenu.add(it);
 
-            it = new JMenuItem("Add Conclution");
+            it = new JMenuItem("Add Conclusion");
             it.addActionListener(this);
             showMenu.add(it);
 
@@ -2796,10 +2796,10 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 pp.setVisible(true);
             } else if (command.equals("NDG")) {
                 PanelProve1.this.showNDGs();
-            } else if (command.equals("Add Conclution")) {
-                PanelProve1.this.addConclution("Add Conclution");
+            } else if (command.equals("Add Conclusion")) {
+                PanelProve1.this.addConclusion("Add Conclusion");
             } else if (command.equals("NDGS")) {
-                PanelProve1.this.addConclution("Add Nondegenerate Conditions");
+                PanelProve1.this.addConclusion("Add Nondegenerate Conditions");
                 cdialog.setType(1);
             } else if (command.equals("Prove")) {
                 PanelProve1.this.prove();
@@ -2833,7 +2833,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
                 if (gt == null)
                     return;
                 int n1 = gt.getconsNum();
-                if (n == n1 + 1 && gt.hasConclution()) {
+                if (n == n1 + 1 && gt.hasConclusion()) {
                     cond c = gt.getConc();
                     if (dp != null)
                         dp.flashCond(c, true);
@@ -2920,12 +2920,12 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             return gt;
         }
 
-        public void setConclution(cons s, boolean r) {
+        public void setConclusion(cons s, boolean r) {
 
-            if (gt.setConclution(s)) {
+            if (gt.setConclusion(s)) {
                 setConstruction(gt);
                 if (r)
-                    dp.addCondAux(gt.getConclution(), false);
+                    dp.addCondAux(gt.getConclusion(), false);
                 dpane.repaint();
             }
         }
@@ -2978,7 +2978,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             if (gt == null)
                 gt = new gterm();
 
-            cons c = gt.getConclution();
+            cons c = gt.getConclusion();
             if (c != null)
                 sconc = c;
             gt.clear();
@@ -2986,10 +2986,10 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             setConstruction(gt);
         }
 
-        public void addConclution() {
+        public void addConclusion() {
             cons c = sconc;
             if (c != null) {
-                gt.setConclution(c);
+                gt.setConclusion(c);
                 listModel.addElement(c);
                 listModelx.addElement(c.toDString());
                 gt.ge_cpt();
@@ -3001,10 +3001,10 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             if (gt == null) {
                 return;
             }
-            if (this.gt != null && this.gt.hasConclution()) {
+            if (this.gt != null && this.gt.hasConclusion()) {
             } else {
-                if (!gt.hasConclution() && gt.getCons_no() > 0) {
-                    gt.setConclutionNo();
+                if (!gt.hasConclusion() && gt.getCons_no() > 0) {
+                    gt.setConclusionNo();
                 }
             }
 
@@ -3107,8 +3107,8 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
     }
 
 
-    public void set_conclution(cons s, boolean r) {
-        condPane.setConclution(s, r);
+    public void set_conclusion(cons s, boolean r) {
+        condPane.setConclusion(s, r);
     }
 
     public void add_ndgs(cons s) {

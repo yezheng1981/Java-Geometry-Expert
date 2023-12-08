@@ -1128,20 +1128,20 @@ msgstr "Groebner基："
 
 #: ../wprover/panelGB.java:723
 #, fuzzy
-msgid "The conclution:"
+msgid "The conclusion:"
 msgstr "结论"
 
 #: ../wprover/panelGB.java:726
 #, fuzzy
-msgid "The conclution after reduce:"
+msgid "The conclusion after reduce:"
 msgstr "消减以后的结论多项式："
 
 #: ../wprover/panelGB.java:731 ../wprover/panelWu.java:179
-msgid "The conclution is true"
+msgid "The conclusion is true"
 msgstr ""
 
 #: ../wprover/panelGB.java:734 ../wprover/panelWu.java:182
-msgid "The conclution is false"
+msgid "The conclusion is false"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:673
@@ -1149,7 +1149,7 @@ msgid "Search facts"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:889
-msgid "Add Conclution"
+msgid "Add Conclusion"
 msgstr "添加结论"
 
 #: ../wprover/PanelProve1.java:930
@@ -1219,12 +1219,12 @@ msgstr ""
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
 #, fuzzy
-msgid "No conclution has been set!"
+msgid "No conclusion has been set!"
 msgstr "没有添加结论，无法证明！"
 
 #: ../wprover/PanelProve1.java:1259 ../wprover/PanelProve1.java:1341
 #: ../wprover/PanelProve1.java:1398
-msgid "No conclution"
+msgid "No conclusion"
 msgstr "　没有结论"
 
 #: ../wprover/PanelProve1.java:1300 ../wprover/PanelProve1.java:1373
@@ -1343,7 +1343,7 @@ msgstr "三角化之后的多项式"
 
 #: ../wprover/panelWu.java:159
 #, fuzzy
-msgid "Successive Pseudo Remainder of Conclution wrt Triangulized Hypotheses:"
+msgid "Successive Pseudo Remainder of Conclusion wrt Triangulized Hypotheses:"
 msgstr "CONC关于TS依次消减的余项："
 
 #: ../wprover/panelWu.java:168
@@ -1355,7 +1355,7 @@ msgid "The Theorem Is Not Proved!"
 msgstr "定理未被证明"
 
 #: ../wprover/panelWu.java:172
-msgid "The conclution is not proved"
+msgid "The conclusion is not proved"
 msgstr ""
 
 #: ../wprover/RatioSelectDialog.java:27
@@ -3527,16 +3527,16 @@ msgstr "无法用演绎数据库方法证明这个定理。"
 #~ msgid "The Groebner Basis:"
 #~ msgstr "Groebner基："
 
-#~ msgid "The Conclution"
+#~ msgid "The Conclusion"
 #~ msgstr "结论"
 
-#~ msgid "The Conclution is false"
+#~ msgid "The Conclusion is false"
 #~ msgstr "结论是不对的"
 
-#~ msgid "The Conclution is true"
+#~ msgid "The Conclusion is true"
 #~ msgstr "结论是正确的"
 
-#~ msgid "The Conclution is not proved"
+#~ msgid "The Conclusion is not proved"
 #~ msgstr "结论没有被证明"
 
 #~ msgid "Point Number"

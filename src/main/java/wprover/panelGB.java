@@ -44,7 +44,7 @@ public class panelGB extends panelAlgebric implements MouseListener {
         PolyBasic.setbbStop(true);
         this.addString("\n");
         this.addString("icon4", "icon4");
-        this.addString("The Process Is Stopped By The User.");
+        this.addString(GExpert.getLanguage("The Process Is Stopped By The User."));
 
     }
 
@@ -205,7 +205,7 @@ public class panelGB extends panelAlgebric implements MouseListener {
     public void gbasis1() {
 
         String sc = gt.getConcText();
-        cons cc = gt.getConclution();
+        cons cc = gt.getConclusion();
 
         TMono mc = getTMono(cc);
         if (mc == null) {
@@ -327,19 +327,19 @@ public class panelGB extends panelAlgebric implements MouseListener {
         }
 
 
-        addString2("The conclution: ");
+        addString2("The conclusion: ");
         addString1(sc + "\n");
 
         addString(s1);
-        addString2("The conclution after reduce:");
+        addString2("The conclusion after reduce:");
         addString(s2);
 
         if (mc == null) {
             addString("icon1", "icon1");
-            addString1("The conclution is true");
+            addString1("The conclusion is true");
         } else {
             addString("icon2", "icon2");
-            addString1("The conclution is false");
+            addString1("The conclusion is false");
         }
         running = false;
     }
@@ -667,7 +667,7 @@ public class panelGB extends panelAlgebric implements MouseListener {
     public void gbasis() {
         GeoPoly basic = GeoPoly.getPoly();
         String sc = gt.getConcText();
-        cons cc = gt.getConclution();
+        cons cc = gt.getConclusion();
         TMono mc = getTMono(cc);
         if (mc == null) {
             running = false;
@@ -720,18 +720,18 @@ public class panelGB extends panelAlgebric implements MouseListener {
         pp = v;
 
         String s2 = poly.printSPoly(mc);
-        addString2(getLanguage(1105, "The conclution:"));
+        addString2(getLanguage(1105, "The conclusion:"));
         addString1(sc + "\n");
         addString(s1);
-        addString2(getLanguage(1117, "The conclution after reduce:"));
+        addString2(getLanguage(1117, "The conclusion after reduce:"));
         addString(s2);
 
         if (mc == null) {
             addString("icon1", "icon1");
-            addString1(getLanguage(1108, "The conclution is true"));
+            addString1(getLanguage(1108, "The conclusion is true"));
         } else {
             addString("icon2", "icon2");
-            addString1(getLanguage(1109, "The conclution is false"));
+            addString1(getLanguage(1109, "The conclusion is false"));
             if (poly.plength(mc) > 2) {
                 _mremainder = mc;
                 addString("\n");
@@ -791,7 +791,7 @@ public class panelGB extends panelAlgebric implements MouseListener {
 
     public void writeMaple(FileOutputStream out) throws IOException {
         GeoPoly basic = GeoPoly.getPoly();
-        cons cc = gt.getConclution();
+        cons cc = gt.getConclusion();
         TMono mc = getTMono(cc);
 
         // Part 1: Order for the variables.

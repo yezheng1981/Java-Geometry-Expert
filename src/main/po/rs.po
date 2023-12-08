@@ -1129,20 +1129,20 @@ msgstr "Grebnerova baza:"
 
 #: ../wprover/panelGB.java:723
 #, fuzzy
-msgid "The conclution:"
+msgid "The conclusion:"
 msgstr "Zaključak"
 
 #: ../wprover/panelGB.java:726
 #, fuzzy
-msgid "The conclution after reduce:"
+msgid "The conclusion after reduce:"
 msgstr "Zaključak nakon redukcije:"
 
 #: ../wprover/panelGB.java:731 ../wprover/panelWu.java:179
-msgid "The conclution is true"
+msgid "The conclusion is true"
 msgstr ""
 
 #: ../wprover/panelGB.java:734 ../wprover/panelWu.java:182
-msgid "The conclution is false"
+msgid "The conclusion is false"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:673
@@ -1150,7 +1150,7 @@ msgid "Search facts"
 msgstr "Traženje činjenica"
 
 #: ../wprover/PanelProve1.java:889
-msgid "Add Conclution"
+msgid "Add Conclusion"
 msgstr "Dodaj zaključak"
 
 #: ../wprover/PanelProve1.java:930
@@ -1220,12 +1220,12 @@ msgstr ""
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
 #, fuzzy
-msgid "No conclution has been set!"
+msgid "No conclusion has been set!"
 msgstr "Zaključak nije zadat!"
 
 #: ../wprover/PanelProve1.java:1259 ../wprover/PanelProve1.java:1341
 #: ../wprover/PanelProve1.java:1398
-msgid "No conclution"
+msgid "No conclusion"
 msgstr "Bez zaključka"
 
 #: ../wprover/PanelProve1.java:1300 ../wprover/PanelProve1.java:1373
@@ -1344,7 +1344,7 @@ msgstr "Triangulirane hipoteze:"
 
 #: ../wprover/panelWu.java:159
 #, fuzzy
-msgid "Successive Pseudo Remainder of Conclution wrt Triangulized Hypotheses:"
+msgid "Successive Pseudo Remainder of Conclusion wrt Triangulized Hypotheses:"
 msgstr "Sukcesivni pseudo-ostatak deljenja zaključka u odnosu na tezu"
 
 #: ../wprover/panelWu.java:168
@@ -1356,7 +1356,7 @@ msgid "The Theorem Is Not Proved!"
 msgstr "Teorema nije dokazana!"
 
 #: ../wprover/panelWu.java:172
-msgid "The conclution is not proved"
+msgid "The conclusion is not proved"
 msgstr ""
 
 #: ../wprover/RatioSelectDialog.java:27
@@ -3542,16 +3542,16 @@ msgstr "Ne mogu dokazati ovu teoremu primenom metode Deduktivne baze podataka."
 #~ msgid "The Groebner Basis:"
 #~ msgstr "Grebnerova baza:"
 
-#~ msgid "The Conclution"
+#~ msgid "The Conclusion"
 #~ msgstr "Zaključak"
 
-#~ msgid "The Conclution is false"
+#~ msgid "The Conclusion is false"
 #~ msgstr "Zaključak je netačan"
 
-#~ msgid "The Conclution is true"
+#~ msgid "The Conclusion is true"
 #~ msgstr "Zaključak je tačan."
 
-#~ msgid "The Conclution is not proved"
+#~ msgid "The Conclusion is not proved"
 #~ msgstr "Zaključak nije dokazan"
 
 #~ msgid "Point Number"

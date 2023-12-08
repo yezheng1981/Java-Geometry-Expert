@@ -101,7 +101,7 @@ public class CST {
             "PT_EQUAL"
     };
 
-    final public static String[] conclution = {
+    final public static String[] conclusion = {
             "COLLINEAR",
             "PARALLEL",
             "PERPENDICULAR",
@@ -162,8 +162,8 @@ public class CST {
 
     public static int getClu(String s) {
         s = s.toUpperCase();
-        for (int i = 0; i < conclution.length; i++)
-            if (s.equals(conclution[i]))
+        for (int i = 0; i < conclusion.length; i++)
+            if (s.equals(conclusion[i]))
                 return i + CONC_INDEX;
 
         if (s.equals("COCIRCLE")) {
@@ -183,8 +183,8 @@ public class CST {
     public static String getClus(int n) {
 
         int i = n - CONC_INDEX;
-        if (i >= 0 && i < conclution.length)
-            return conclution[i];
+        if (i >= 0 && i < conclusion.length)
+            return conclusion[i];
 
         if (n >= CONC_INDEX && n < INTER_INDEX)
             return s_conc_detail[n - CONC_INDEX];

@@ -1120,19 +1120,19 @@ msgid "The Groebner basis:"
 msgstr "Die Gröbnerbasis:"
 
 #: ../wprover/panelGB.java:723
-msgid "The conclution:"
+msgid "The conclusion:"
 msgstr "Die Folgerung:"
 
 #: ../wprover/panelGB.java:726
-msgid "The conclution after reduce:"
+msgid "The conclusion after reduce:"
 msgstr "Die Folgerung nach Reduktion:"
 
 #: ../wprover/panelGB.java:731 ../wprover/panelWu.java:179
-msgid "The conclution is true"
+msgid "The conclusion is true"
 msgstr ""
 
 #: ../wprover/panelGB.java:734 ../wprover/panelWu.java:182
-msgid "The conclution is false"
+msgid "The conclusion is false"
 msgstr ""
 
 #: ../wprover/PanelProve1.java:673
@@ -1140,7 +1140,7 @@ msgid "Search facts"
 msgstr "Suche Fakten"
 
 #: ../wprover/PanelProve1.java:889
-msgid "Add Conclution"
+msgid "Add Conclusion"
 msgstr "Füge Schlussfolgerung hinzu"
 
 #: ../wprover/PanelProve1.java:930
@@ -1209,12 +1209,12 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
-msgid "No conclution has been set!"
+msgid "No conclusion has been set!"
 msgstr "Keine Folgerung wurde eingestellt!"
 
 #: ../wprover/PanelProve1.java:1259 ../wprover/PanelProve1.java:1341
 #: ../wprover/PanelProve1.java:1398
-msgid "No conclution"
+msgid "No conclusion"
 msgstr "Keine Folgerung"
 
 #: ../wprover/PanelProve1.java:1300 ../wprover/PanelProve1.java:1373
@@ -1330,7 +1330,7 @@ msgstr "Die triangularisierten Hypothesen:"
 
 #: ../wprover/panelWu.java:159
 #, fuzzy
-msgid "Successive Pseudo Remainder of Conclution wrt Triangulized Hypotheses:"
+msgid "Successive Pseudo Remainder of Conclusion wrt Triangulized Hypotheses:"
 msgstr "Sukzessive Pseudo Rest von CONC im Bezug auf TS :"
 
 #: ../wprover/panelWu.java:168
@@ -1342,7 +1342,7 @@ msgid "The Theorem Is Not Proved!"
 msgstr "Der Satz ist nich bewiesen!"
 
 #: ../wprover/panelWu.java:172
-msgid "The conclution is not proved"
+msgid "The conclusion is not proved"
 msgstr ""
 
 #: ../wprover/RatioSelectDialog.java:27
@@ -3516,16 +3516,16 @@ msgstr ""
 #~ msgid "The Groebner Basis:"
 #~ msgstr "Die Gröbnerbasis:"
 
-#~ msgid "The Conclution"
+#~ msgid "The Conclusion"
 #~ msgstr "Die Folgerung"
 
-#~ msgid "The Conclution is false"
+#~ msgid "The Conclusion is false"
 #~ msgstr "Die Folgerung ist falsch"
 
-#~ msgid "The Conclution is true"
+#~ msgid "The Conclusion is true"
 #~ msgstr "Die Folgerung ist wahr"
 
-#~ msgid "The Conclution is not proved"
+#~ msgid "The Conclusion is not proved"
 #~ msgstr "Die Folgerung ist nicht bewiesen"
 
 #~ msgid "Point Number"

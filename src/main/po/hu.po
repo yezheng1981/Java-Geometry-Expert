@@ -1097,19 +1097,19 @@ msgid "The Groebner basis:"
 msgstr "A Gröbner bázis:"
 
 #: ../wprover/panelGB.java:723
-msgid "The conclution:"
+msgid "The conclusion:"
 msgstr "A következmény:"
 
 #: ../wprover/panelGB.java:726
-msgid "The conclution after reduce:"
+msgid "The conclusion after reduce:"
 msgstr "A következmény egyszerűsítés után:"
 
 #: ../wprover/panelGB.java:731 ../wprover/panelWu.java:179
-msgid "The conclution is true"
+msgid "The conclusion is true"
 msgstr "A következmény igaz"
 
 #: ../wprover/panelGB.java:734 ../wprover/panelWu.java:182
-msgid "The conclution is false"
+msgid "The conclusion is false"
 msgstr "A következmény hamis"
 
 #: ../wprover/PanelProve1.java:673
@@ -1117,7 +1117,7 @@ msgid "Search facts"
 msgstr "Tulajdonságok keresése"
 
 #: ../wprover/PanelProve1.java:889
-msgid "Add Conclution"
+msgid "Add Conclusion"
 msgstr "Következmény hozzáadása"
 
 #: ../wprover/PanelProve1.java:930
@@ -1185,12 +1185,12 @@ msgstr ""
 
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
-msgid "No conclution has been set!"
+msgid "No conclusion has been set!"
 msgstr "Nincs következmény beállítva!"
 
 #: ../wprover/PanelProve1.java:1259 ../wprover/PanelProve1.java:1341
 #: ../wprover/PanelProve1.java:1398
-msgid "No conclution"
+msgid "No conclusion"
 msgstr "Nincs következmény"
 
 #: ../wprover/PanelProve1.java:1300 ../wprover/PanelProve1.java:1373
@@ -1300,7 +1300,7 @@ msgid "The Triangulized Hypotheses:"
 msgstr "A triangularizált feladatkiírás:"
 
 #: ../wprover/panelWu.java:159
-msgid "Successive Pseudo Remainder of the conclution wrt Triangulized Hypotheses:"
+msgid "Successive Pseudo Remainder of the conclusion wrt Triangulized Hypotheses:"
 msgstr ""
 "A következmény szukcesszív pszeudo-maradéka a triangularizált feladatkiírás "
 "szerint:"
@@ -1314,7 +1314,7 @@ msgid "The Theorem Is Not Proved!"
 msgstr "A tétel nincs bizonyítva!"
 
 #: ../wprover/panelWu.java:172
-msgid "The conclution is not proved"
+msgid "The conclusion is not proved"
 msgstr "A következmény nem bizonyított"
 
 #: ../wprover/RatioSelectDialog.java:27
@@ -3448,11 +3448,14 @@ msgstr "A bizonyítás elkészítése a kiválasztott módszerrel"
 msgid "Failed to prove this theorem with Deductive Database Method."
 msgstr "A tételt a deduktív adatbázis módszerrel nem sikerült bizonyítani."
 
-msgid "Melyik?"
-msgstr ""
+msgid "Which?"
+msgstr "Melyik?"
 
 msgid "GBasis is Running"
 msgstr "Gröbner-bázis számolás"
 
 msgid "The Process Is Stopped By The User."
 msgstr "A számolás a felhasználó kérésére leállítva."
+
+msgid "seconds"
+msgstr "másodperc"
