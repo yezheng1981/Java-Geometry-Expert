@@ -1217,18 +1217,25 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
     }
 
     String getLanguage(String s) {
+        return GExpert.getLanguage(s);
+        /*
         if (gxInstance != null)
             return gxInstance.getLanguage(s);
         return s;
+         */
     }
 
+    @Deprecated
     public String getLanguage(int n, String s) {
+        return GExpert.getLanguage(s);
+        /*
         String s1 = "";
         if (gxInstance != null)
             s1 = gxInstance.getLanguage(s); // avoid using number n, instead, always use the string
         if (s1 != null && s1.length() > 0)
             return s1;
         return s;
+         */
     }
 
 
@@ -1285,6 +1292,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             if (p != null) {
                 dp.addAuxPoint(p);
                 int xt = p.getAux();
+                // TODO: Translate these strings as well:
                 String s = "An auxiliary point (point " + p.getConstructedPoint() + ") is constructed by A" + xt;
                 JOptionPane.showMessageDialog(gxInstance, s + "\n" + p, "Auxiliary Point Constructed", JOptionPane.INFORMATION_MESSAGE);
                 gxInstance.setActionTip("Auxiliary Points", p.toString());
@@ -1293,7 +1301,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             addGddProveTree_ls(ls);
             this.setSelectedComponent(gddPanel);
         } else {
-            String s = "Failed to prove this theorem with Deductive Database Method";
+            String s = "Failed to prove this theorem with Deductive Database Method.";
             s = this.getLanguage(1132, s);
             if (gxInstance != null)
                 gxInstance.setTextLabel2(s);

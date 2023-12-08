@@ -177,7 +177,7 @@ class BookCellRenderer extends vcellRender implements TreeCellRenderer {
                     if (n != 0) {
                         setLabelObject1(k++, 0, "   (" + getLanguage("by HYP") + ")");
                     } else if (c.getNo() == 0) {
-                        setLabelObject1(k++, 0, "   (in GIB)");
+                        setLabelObject1(k++, 0, "   (" + getLanguage("in GIB") +  ")");
                     }
 
                 }

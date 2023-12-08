@@ -377,7 +377,8 @@ class UndoStruct {
             int size = in.readInt();
             if (size > 0) {
                 byte[] str = new byte[size];
-                in.read(str, 0, str.length);
+                in.read(str, 0, str.length); // The message is loaded from the .gex file directly.
+                // FIXME: This means that an automated translation to another language is not trivial.
                 msg = new String(str);
             }
         }

@@ -714,7 +714,7 @@ public class drawbase {
             if (!isPointOnIntersection) {
                 g2.setFont(CMisc.font);
                 g2.setColor(Color.red);
-                g2.drawString("(" + size + ")Which ?", x + 10, y + 25);
+                g2.drawString("(" + size + ") " + GExpert.getLanguage("Which?"), x + 10, y + 25);
             }
         }
 

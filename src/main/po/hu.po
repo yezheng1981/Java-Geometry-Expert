@@ -1300,7 +1300,7 @@ msgid "The Triangulized Hypotheses:"
 msgstr "A triangularizált feladatkiírás:"
 
 #: ../wprover/panelWu.java:159
-msgid "Successive Pseudo Remainder of Conclution wrt Triangulized Hypotheses:"
+msgid "Successive Pseudo Remainder of the conclution wrt Triangulized Hypotheses:"
 msgstr ""
 "A következmény szukcesszív pszeudo-maradéka a triangularizált feladatkiírás "
 "szerint:"
@@ -1437,6 +1437,9 @@ msgstr ""
 #: ../wprover/vcellRender.java:178 ../wprover/vcellRender.java:395
 msgid "by HYP"
 msgstr "feladatkiírás szerint"
+
+msgid "in GIB"
+msgstr "az információs bázisból"
 
 #: ../wprover/vFontChooser.java:94
 msgid "Font Chooser"
@@ -2362,7 +2365,7 @@ msgstr "kijelentés típusa: {0} nincs definiálva."
 #: ../wprover/MProveTree.java:2056 ../wprover/MProveTree.java:2066
 #: ../wprover/CProperty.java:27
 msgid "No Selected"
-msgstr "Nincs kiválasztás"
+msgstr "Nincs kiválasztott alakzat"
 
 #: ../wprover/CProperty.java:58
 msgid "Dialog"
@@ -3441,3 +3444,15 @@ msgstr "A bizonyításfa kinyitása/összecsukása"
 
 msgid "Compute proof with the selected method"
 msgstr "A bizonyítás elkészítése a kiválasztott módszerrel"
+
+msgid "Failed to prove this theorem with Deductive Database Method."
+msgstr "A tételt a deduktív adatbázis módszerrel nem sikerült bizonyítani."
+
+msgid "Melyik?"
+msgstr ""
+
+msgid "GBasis is Running"
+msgstr "Gröbner-bázis számolás"
+
+msgid "The Process Is Stopped By The User."
+msgstr "A számolás a felhasználó kérésére leállítva."

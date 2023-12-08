@@ -67,7 +67,7 @@ public class panelGB extends panelAlgebric implements MouseListener {
             Timer t = new Timer(1000, new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
                     if (running) {
-                        rund = RunningDialog.startTimer(gxInstance, "GBasis is Running");
+                        rund = RunningDialog.startTimer(gxInstance, GExpert.getLanguage("GBasis is Running"));
                         rund.setPanelGB(panelGB.this);
                     }
                     Timer t = (Timer) e.getSource();

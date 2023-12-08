@@ -1478,6 +1478,9 @@ msgstr "文件已经下载，更新JGEX需要重新启动当前程序"
 msgid "by HYP"
 msgstr ""
 
+msgid "in GIB"
+msgstr ""
+
 #: ../wprover/vFontChooser.java:94
 msgid "Font Chooser"
 msgstr "选择字体"
@@ -3462,6 +3465,10 @@ msgstr ""
 
 msgid "Compute proof with the selected method"
 msgstr ""
+
+#, fuzzy
+msgid "Failed to prove this theorem with Deductive Database Method."
+msgstr "无法用演绎数据库方法证明这个定理。"
 
 #~ msgid "animate_start"
 #~ msgstr "播放动画"

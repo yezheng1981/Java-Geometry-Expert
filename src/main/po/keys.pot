@@ -1303,7 +1303,7 @@ msgid "The Triangulized Hypotheses:"
 msgstr ""
 
 #: ../wprover/panelWu.java:159
-msgid "Successive Pseudo Remainder of Conclution wrt Triangulized Hypotheses:"
+msgid "Successive Pseudo Remainder of the conclution wrt Triangulized Hypotheses:"
 msgstr ""
 
 #: ../wprover/panelWu.java:168
@@ -1432,6 +1432,9 @@ msgstr ""
 
 #: ../wprover/vcellRender.java:178 ../wprover/vcellRender.java:395
 msgid "by HYP"
+msgstr ""
+
+msgid "in GIB"
 msgstr ""
 
 #: ../wprover/vFontChooser.java:94
@@ -3232,4 +3235,16 @@ msgid "Expand/collapse proof tree"
 msgstr ""
 
 msgid "Compute proof with the selected method"
+msgstr ""
+
+msgid "Failed to prove this theorem with Deductive Database Method."
+msgstr ""
+
+msgid "Which?"
+msgstr ""
+
+msgid "GBasis is Running"
+msgstr ""
+
+msgid "The Process Is Stopped By The User."
 msgstr ""

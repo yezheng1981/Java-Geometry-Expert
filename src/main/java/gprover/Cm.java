@@ -8,6 +8,7 @@
 package gprover;
 
 
+import wprover.GExpert;
 
 final public class Cm {
 
@@ -97,7 +98,7 @@ final public class Cm {
     final public static String getFError(int n) {
         if (n == 1)
             return sfe_exp_error;
-        return "Failed to prove this theorem with Full Angle Method\n";
+        return GExpert.getLanguage("Failed to prove this theorem with Full Angle Method.") + "\n";
     }
 
     final public static boolean DEBUG = false;

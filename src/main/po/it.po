@@ -1480,6 +1480,9 @@ msgstr ""
 msgid "by HYP"
 msgstr ""
 
+msgid "in GIB"
+msgstr ""
+
 #: ../wprover/vFontChooser.java:94
 msgid "Font Chooser"
 msgstr "Scelta Font"
@@ -3468,6 +3471,11 @@ msgstr ""
 
 msgid "Compute proof with the selected method"
 msgstr ""
+
+#, fuzzy
+msgid "Failed to prove this theorem with Deductive Database Method."
+msgstr ""
+"Impossibile dimostrare questo teorema con il metodo del database deduttivo"
 
 #~ msgid "animate_start"
 #~ msgstr "avvia animazione"

@@ -24,7 +24,7 @@ public class CProperty extends JPanel implements ActionListener {
     private DPanel d;
     private Language lan;
 
-    private JLabel label = new JLabel("No Selected");
+    private JLabel label = new JLabel(GExpert.getLanguage("No Selected"));
     private Panel_CS pcs;
     private Panel_Point ppt;
     private Panel_Line pln;

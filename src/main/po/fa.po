@@ -1454,6 +1454,9 @@ msgstr ""
 msgid "by HYP"
 msgstr ""
 
+msgid "in GIB"
+msgstr ""
+
 #: ../wprover/vFontChooser.java:94
 msgid "Font Chooser"
 msgstr "انتخاب کننده فونت"
@@ -3423,6 +3426,10 @@ msgstr ""
 
 msgid "Compute proof with the selected method"
 msgstr ""
+
+#, fuzzy
+msgid "Failed to prove this theorem with Deductive Database Method."
+msgstr "با شیوه های استقرایی موجود نمیتوان این قضیه را ثابت کرد"
 
 #~ msgid "FF"
 #~ msgstr "بعدی"
