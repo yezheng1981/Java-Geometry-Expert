@@ -3161,7 +3161,7 @@ msgid "For a circle (O,AB), O is the center of circle, we have ∠[OAB] = ∠[AB
 msgstr ""
 
 # Full 16/1
-msgid "If triangle ABE is a right triangle and O is the midpoint of the hypotenuse (i.e. AB), then for any line CD, we have ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, CD]."
+msgid "If triangle ABE is a right triangle and O is the midpoint of the hypotenuse (i.e. AB), then for any line CD, we have ∠[AB, CD] = ∠[BAE] + ∠[1] + ∠[BE, CD]."
 msgstr ""
 
 # Full 17/1
@@ -3201,7 +3201,7 @@ msgid "A is on circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB] + 2 · ∠[OA,DE
 msgstr ""
 
 # Full 26/1
-msgid "CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA]  = ∠[1]."
+msgid "CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA] = ∠[1]."
 msgstr ""
 
 # Full 27/1

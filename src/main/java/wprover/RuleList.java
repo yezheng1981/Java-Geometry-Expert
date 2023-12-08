@@ -97,11 +97,7 @@ public class RuleList {
 
     final public static void loadRules() {
 
-        if(GExpert.lan.equals("German")) {
-            loadRules(rules.GDD_German, GDDLIST, 0);
-            loadRules(rules.FULL_German, FULLLIST, 1);
-        }
-        else if(GExpert.lan.equals("Serbian")) {
+     if(GExpert.lan.equals("Serbian")) { // FIXME: Use gettext instead.
             loadRules(rules.GDD_Serbian, GDDLIST, 0);
             loadRules(rules.FULL_Serbian, FULLLIST, 1);
         } else { // use English by default

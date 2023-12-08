@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../wprover/AboutDialog.java:57
 msgid "Java version"
-msgstr ""
+msgstr "Java Version"
 
 #: ../wprover/AboutDialog.java:64
 msgid "Java Geometry Expert is free under GNU General Public License (GPL)."
@@ -39,17 +39,16 @@ msgid "Authors"
 msgstr "Autoren"
 
 #: ../wprover/AboutDialog.java:103
-#, fuzzy
 msgid "For more information, please visit:"
 msgstr "Für mehr Informationen siehe:"
 
 #: ../wprover/concDialog.java:102
 msgid "True"
-msgstr ""
+msgstr "Wahr"
 
 #: ../wprover/concDialog.java:106
 msgid "False"
-msgstr ""
+msgstr "Falsch"
 
 #: ../wprover/concDialog.java:156
 msgid "Set One"
@@ -65,7 +64,7 @@ msgstr "Bitte wähle"
 
 #: ../wprover/concDialog.java:186
 msgid "true"
-msgstr ""
+msgstr "wahr"
 
 #: ../wprover/concDialog.java:205 ../wprover/GIFOptionDialog.java:56
 #: ../wprover/MiscDialog.java:66 ../wprover/mproveInputPanel.java:252
@@ -110,11 +109,11 @@ msgstr "Farbe"
 #: ../wprover/CProperty.java:640 ../wprover/CProperty.java:1017
 #: ../wprover/CStyleDialog.java:149
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #: ../wprover/CProperty.java:283 ../wprover/CStyleDialog.java:157
 msgid "Width"
-msgstr ""
+msgstr "Breite"
 
 #: ../wprover/CProperty.java:374 ../wprover/CProperty.java:632
 #: ../wprover/GExpert.java:854 ../wprover/GExpert.java:855
@@ -154,13 +153,12 @@ msgid "Show Text"
 msgstr "Zeige Text"
 
 #: ../wprover/CProperty.java:814
-#, fuzzy
 msgid "Significant Digits"
-msgstr "Signifikante Stelle"
+msgstr "Signifikante Stellen"
 
 #: ../wprover/CProperty.java:905
 msgid "Point number"
-msgstr ""
+msgstr "Punkt Nummer"
 
 #: ../wprover/CProperty.java:914
 msgid "Draw Line"
@@ -198,11 +196,11 @@ msgstr "Radius"
 
 #: ../wprover/CProperty.java:1219 ../wprover/RightClickPopMenu.java:76
 msgid "X Coordinate"
-msgstr ""
+msgstr "X-Koordinate"
 
 #: ../wprover/CProperty.java:1220 ../wprover/RightClickPopMenu.java:78
 msgid "Y Coordinate"
-msgstr ""
+msgstr "Y-Koordinate"
 
 #: ../wprover/CProperty.java:1221
 msgid "Freezed"
@@ -236,9 +234,8 @@ msgstr "Gitterschritt"
 msgid "Slope Angle"
 msgstr "Steigungswinkler"
 
-#, fuzzy
 msgid "Slope"
-msgstr "Steigungswinkler"
+msgstr "Steigung"
 
 #: ../wprover/DialogPsProperty.java:26 ../wprover/GExpert.java:766
 #: ../wprover/HelpMode.java:35
@@ -271,18 +268,16 @@ msgid "Warning"
 msgstr "Warnung"
 
 #: ../wprover/drawProcess.java:3097
-#, fuzzy
 msgid "The selected two lines don't have intersected point"
-msgstr "Die ausgewählten beiden Punkte haben keinen Schinttpunkt"
+msgstr "Die ausgewählten beiden Geraden haben keinen Schinttpunkt"
 
 #: ../wprover/drawProcess.java:3098
-#, fuzzy
 msgid "No intersected point"
 msgstr "Kein Schnittpunkt"
 
 #: ../wprover/drawProcess.java:8069
 msgid "The two lines you selected are parallel, don't have any intersection!"
-msgstr ""
+msgstr "Die ausgewählten Geraden sind parallel, sie haben keine Schnittmenge!"
 
 #: ../wprover/drawProcess.java:8071 ../wprover/drawProcess.java:8132
 #: ../wprover/drawProcess.java:8205
@@ -291,12 +286,12 @@ msgstr "Kein Schnittpunkt"
 
 #: ../wprover/drawProcess.java:8131
 msgid "The line and the circle you selected don't have any intersection"
-msgstr ""
+msgstr "Die ausgewählten Gerade und Kreis haben keine Schnittmenge"
 
 #: ../wprover/drawProcess.java:8147
 msgid ""
 "The two objects you selected already have two points as their intersections"
-msgstr ""
+msgstr "Die ausgewählten Objekte haben schon zwei Schnittpunkte"
 
 #: ../wprover/drawProcess.java:8148 ../wprover/drawProcess.java:8221
 msgid "intersection already defined"
@@ -316,9 +311,8 @@ msgid "Girth"
 msgstr "Umfang"
 
 #: ../wprover/GExpert.java:353 ../wprover/RightClickPopMenu.java:38
-#, fuzzy
 msgid "Properties"
-msgstr "Eigenschaft"
+msgstr "Eigenschaften"
 
 #: ../wprover/GExpert.java:744
 msgid "File"
@@ -334,7 +328,7 @@ msgstr "Öffnen"
 
 #: ../wprover/GExpert.java:753
 msgid "Import"
-msgstr ""
+msgstr "Importieren"
 
 #: ../wprover/GExpert.java:756 ../wprover/GExpert.java:1867
 #: ../wprover/HelpMode.java:33
@@ -367,7 +361,7 @@ msgstr "Speichere Beweis als animiertes Bild"
 
 #: ../wprover/GExpert.java:777
 msgid "Save GDD Proof as GraphViz File"
-msgstr ""
+msgstr "Speichern den GDD-Beweis als GraphViz-Datei"
 
 #: ../wprover/GExpert.java:781 ../wprover/HelpMode.java:40
 msgid "Print"
@@ -456,19 +450,19 @@ msgstr "Normal"
 
 #: ../wprover/GExpert.java:858 ../wprover/HelpMode.java:61
 msgid "Angle Bisector"
-msgstr ""
+msgstr "Winkelsymmetrale"
 
 #: ../wprover/GExpert.java:859 ../wprover/HelpMode.java:63
 msgid "Aline"
-msgstr ""
+msgstr "Gedrehte Strecke"
 
 #: ../wprover/GExpert.java:860 ../wprover/HelpMode.java:64
 msgid "Bline"
-msgstr ""
+msgstr "Streckensymmetrale"
 
 #: ../wprover/GExpert.java:861 ../wprover/HelpMode.java:65
 msgid "TCline"
-msgstr ""
+msgstr "Tangente an einen Kreispunkt"
 
 #: ../wprover/GExpert.java:866 ../wprover/HelpMode.java:68
 msgid "Circle by Three Points"
@@ -476,7 +470,7 @@ msgstr "Kreis durch drei Punkte"
 
 #: ../wprover/GExpert.java:867 ../wprover/HelpMode.java:69
 msgid "Compass"
-msgstr ""
+msgstr "Zirkel"
 
 #: ../wprover/GExpert.java:870 ../wprover/GExpert.java:922
 msgid "Action"
@@ -535,9 +529,8 @@ msgstr "Rechtwinkeliges Trapez"
 msgid "Rectangle"
 msgstr "Rechteck"
 
-#, fuzzy
 msgid "Rectangle {0}"
-msgstr "Rechteck"
+msgstr "Rechteck {0}"
 
 #: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
 #: ../wprover/MProveTree.java:1824
@@ -559,11 +552,11 @@ msgstr "Einschränkung"
 #: ../wprover/GExpert.java:904 ../wprover/HelpMode.java:89
 #: ../wprover/MProveTree.java:1818
 msgid "Eqangle"
-msgstr ""
+msgstr "Gleiche Winkel"
 
 #: ../wprover/GExpert.java:906 ../wprover/HelpMode.java:90
 msgid "Eqangle3p"
-msgstr ""
+msgstr "Die Summe von drei Winkeln ist einer"
 
 #: ../wprover/GExpert.java:907 ../wprover/HelpMode.java:91
 #: ../wprover/SpecificAngleDialog.java:32
@@ -584,7 +577,7 @@ msgstr "Proportion Abstand"
 
 #: ../wprover/GExpert.java:920 ../wprover/HelpMode.java:95
 msgid "CCtangent"
-msgstr ""
+msgstr "Kreise die einander berühren"
 
 #: ../wprover/GExpert.java:924 ../wprover/HelpMode.java:98
 #: ../wprover/RightClickPopMenu.java:73
@@ -657,25 +650,21 @@ msgid "Rules for GDD"
 msgstr "Regeln für GDD"
 
 #: ../wprover/GExpert.java:959 ../wprover/HelpMode.java:116
-#, fuzzy
 msgid "Rules for the Full Angle Method"
-msgstr "Regeln für Vollwinkel"
+msgstr "Regeln für die Vollwinkel-Methode"
 
 #: ../wprover/GExpert.java:960 ../wprover/HelpMode.java:117
-#, fuzzy
 msgid "Rules for the GDD Method"
-msgstr "Regeln für GDD"
+msgstr "Regeln für die GDD-Methode"
 
 #: ../wprover/GExpert.java:963
-#, fuzzy
 msgid "Options"
-msgstr "Option"
+msgstr "Optionen"
 
 #: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
 #: ../wprover/MiscDialog.java:32
-#, fuzzy
 msgid "Preferences"
-msgstr "Einstellung"
+msgstr "Einstellungen"
 
 #: ../wprover/GExpert.java:968 ../wprover/HelpMode.java:120
 #: ../wprover/ListTree.java:60 ../wprover/UndoEditDialog.java:20
@@ -725,7 +714,7 @@ msgstr "Den Wert des Winkels eingeben"
 
 #: ../wprover/GExpert.java:1811
 msgid "Nothing to be saved."
-msgstr ""
+msgstr "Es gibt nichts zu speichern."
 
 #: ../wprover/GExpert.java:1866
 msgid "The diagram has been changed, do you want to save it?"
@@ -737,7 +726,7 @@ msgstr "Datei existiert"
 
 #: ../wprover/GExpert.java:2008
 msgid "No animation has been defined."
-msgstr ""
+msgstr "Keine Animation wurde definiert."
 
 #: ../wprover/GExpert.java:2015
 msgid "GIF Option"
@@ -781,7 +770,7 @@ msgstr "Nach Updates suchen"
 
 #: ../wprover/LeadVariableDialog.java:34
 msgid "Leading Variable"
-msgstr ""
+msgstr "Leitvariable"
 
 #: ../wprover/LeadVariableDialog.java:58
 msgid "Variables"
@@ -832,7 +821,7 @@ msgstr "Löschen"
 
 #: ../wprover/ListTree.java:99
 msgid "Objects"
-msgstr ""
+msgstr "Objekte"
 
 #: ../wprover/MiscDialog.java:40
 msgid "Display"
@@ -852,23 +841,20 @@ msgid "Other"
 msgstr "Andere"
 
 #: ../wprover/MiscDialog.java:56
-#, fuzzy
 msgid "Save Preferences"
-msgstr "Speichere Einstellung"
+msgstr "Speichere Einstellungen"
 
 #: ../wprover/MiscDialog.java:59 ../wprover/CProperty.java:625
 msgid "Default"
 msgstr "Standard"
 
 #: ../wprover/MiscDialog.java:116
-#, fuzzy
 msgid "Can not save Preferences"
-msgstr "Einstellung kann nicht gespeichert werden"
+msgstr "Einstellungen können nicht gespeichert werden"
 
 #: ../wprover/MiscDialog.java:119
-#, fuzzy
 msgid "Preferences have been successfully saved."
-msgstr "Einstellungen erfolgreich gespeichert"
+msgstr "Einstellungen erfolgreich gespeichert."
 
 #: ../wprover/MiscDialog.java:120
 msgid "Please restart the program."
@@ -895,9 +881,8 @@ msgid "Default Font"
 msgstr "Standard Schrift"
 
 #: ../wprover/MiscDialog.java:219
-#, fuzzy
 msgid "Choose default font for point's text"
-msgstr "Wähle den Standardfußpunkt für den Text des Punktes"
+msgstr "Wähle die Schriftart für den Text des Punktes"
 
 #: ../wprover/MiscDialog.java:266
 msgid "None"
@@ -925,7 +910,7 @@ msgstr "Mit Pfeil"
 
 #: ../wprover/MiscDialog.java:382 ../wprover/CProperty.java:624
 msgid "Multiple Arc"
-msgstr ""
+msgstr "Mehrfacher Bogen"
 
 #: ../wprover/MiscDialog.java:384 ../wprover/CProperty.java:624
 #: ../wprover/CProperty.java:997
@@ -944,37 +929,33 @@ msgstr "Satz"
 msgid "Area Method"
 msgstr "Flächeninhalt-Methode"
 
-#, fuzzy
 msgid "Area Method computations"
-msgstr "Flächeninhalt-Methode"
+msgstr "Berechnungen für die Flächeninhalt-Methode"
 
-#, fuzzy
 msgid "Manual proof editor"
-msgstr "Händische Methode"
+msgstr "Händische Beweisverarbeitung"
 
 #: ../wprover/MiscDialog.java:540
 msgid "Manual Method"
 msgstr "Händische Methode"
 
-#, fuzzy
 msgid "Deduction tree of the GDD method"
-msgstr "Regeln für GDD"
+msgstr "Beweisbaum für die GDD-Methode"
 
 msgid "Algebraic computations for Wu's method"
-msgstr ""
+msgstr "Algebraische Berechnungen für Wus Methode"
 
 msgid "Algebraic computations for the Groebner basis method"
-msgstr ""
+msgstr "Algebraische Berechnungen für die Gröbnerbasis-Methode"
 
-#, fuzzy
 msgid "Derivation for the Full Angle method"
-msgstr "Regeln für Vollwinkel"
+msgstr "Herleitung für die Vollwinkel-Methode"
 
 msgid "Show the internal description of the construction"
-msgstr ""
+msgstr "Zeige die interne Beschreibung der Konstruktion"
 
 msgid "Show general properties that seem to be true"
-msgstr ""
+msgstr "Zeige allgemeine Eigenschaften, die wahr aussehen"
 
 #: ../wprover/MiscDialog.java:558 ../wprover/PanelProve1.java:373
 msgid "Fixpoint"
@@ -1007,7 +988,7 @@ msgstr ""
 
 #: ../wprover/MiscDialog.java:763
 msgid "ON"
-msgstr ""
+msgstr "EIN"
 
 #: ../wprover/MiscDialog.java:764
 msgid "OFF"
@@ -1050,22 +1031,18 @@ msgid "Inequality"
 msgstr "Ungleichung"
 
 #: ../wprover/MProveTree.java:758
-#, fuzzy
 msgid "Delete this row"
 msgstr "Löschen diese Zeile"
 
 #: ../wprover/MProveTree.java:763
-#, fuzzy
 msgid "Add a new row"
-msgstr "Eine Zeile addieren"
+msgstr "Eine Zeile hinzufügen"
 
 #: ../wprover/MProveTree.java:767
-#, fuzzy
 msgid "Append a term"
 msgstr "Einen Term hinzufügen"
 
 #: ../wprover/MProveTree.java:771
-#, fuzzy
 msgid "Combine selected rows"
 msgstr "Kombinieren ausgewählte Zeilen"
 
@@ -1087,7 +1064,7 @@ msgstr "Konstruktion"
 
 #: ../wprover/ndgDialog.java:259
 msgid "Nondegenerate Condition"
-msgstr ""
+msgstr "Nichtdegenerierte Bedingung"
 
 #: ../wprover/NumCheckDialog.java:30 ../wprover/PanelProve1.java:2410
 msgid "Numerical Check"
@@ -1106,14 +1083,12 @@ msgid "The Algebraic Form:"
 msgstr "Die algebraische Form:"
 
 #: ../wprover/panelGB.java:623
-#, fuzzy
 msgid "The Nondegenerate Conditions:"
-msgstr "Die nichtdegenerierte Bedingungen"
+msgstr "Die nichtdegenerierten Bedingungen:"
 
 #: ../wprover/panelGB.java:704
-#, fuzzy
 msgid "The Initial Polynomial Set:"
-msgstr "Die Menge der Startpolynome"
+msgstr "Die Menge der Startpolynome:"
 
 #: ../wprover/panelGB.java:709
 msgid "The Groebner basis:"
@@ -1129,11 +1104,11 @@ msgstr "Die Folgerung nach Reduktion:"
 
 #: ../wprover/panelGB.java:731 ../wprover/panelWu.java:179
 msgid "The conclusion is true"
-msgstr ""
+msgstr "Die Folgerung ist wahr"
 
 #: ../wprover/panelGB.java:734 ../wprover/panelWu.java:182
 msgid "The conclusion is false"
-msgstr ""
+msgstr "Die Folgerung ist falsch"
 
 #: ../wprover/PanelProve1.java:673
 msgid "Search facts"
@@ -1145,12 +1120,11 @@ msgstr "Füge Schlussfolgerung hinzu"
 
 #: ../wprover/PanelProve1.java:930
 msgid "Time:"
-msgstr ""
+msgstr "Zeit:"
 
 #: ../wprover/PanelProve1.java:930
-#, fuzzy
 msgid "second(s)"
-msgstr "Zweite"
+msgstr "Sekunde(n)"
 
 #: ../wprover/PanelProve1.java:993
 msgid "lines"
@@ -1205,7 +1179,7 @@ msgid "Can not find any proof!"
 msgstr "Kann keinen Beweis finden!"
 
 msgid "Not Found"
-msgstr ""
+msgstr "Nicht gefunden"
 
 #: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
 #: ../wprover/PanelProve1.java:1397
@@ -1240,7 +1214,7 @@ msgstr "{0} ist augenscheinlich wahr (nach der Hypothese)"
 
 #: ../wprover/PanelProve1.java:1385 ../wprover/PanelProve1.java:1409
 msgid "Can not prove this theorem"
-msgstr ""
+msgstr "Das Theorem kann nicht bewiesen werden"
 
 #: ../wprover/PanelProve1.java:1386
 msgid "Information"
@@ -1269,7 +1243,6 @@ msgid "Prove"
 msgstr "Beweise"
 
 #: ../wprover/PanelProve1.java:2060
-#, fuzzy
 msgid "Prove in a new tab"
 msgstr "Beweise in neuem Tab"
 
@@ -1278,18 +1251,16 @@ msgid "Refresh"
 msgstr "Aktualisieren"
 
 #: ../wprover/PanelProve1.java:2067
-#, fuzzy
 msgid "Search a fact"
 msgstr "Suche Fakten"
 
 #: ../wprover/PanelProve1.java:2185
-#, fuzzy
 msgid "File format not supported!"
-msgstr "Dateiformat nicht unterstützt"
+msgstr "Dateiformat nicht unterstützt!"
 
 #: ../wprover/PanelProve1.java:2186
 msgid "Can not open"
-msgstr ""
+msgstr "Kann nicht geladen werden"
 
 #: ../wprover/PanelProve1.java:2349
 msgid "Deductive Database Method"
@@ -1316,7 +1287,6 @@ msgid "Polynomials"
 msgstr "Polynome"
 
 #: ../wprover/PanelProve1.java:2431
-#, fuzzy
 msgid "All solutions"
 msgstr "Alle Lösungen"
 
@@ -1329,9 +1299,10 @@ msgid "The Triangulized Hypotheses:"
 msgstr "Die triangularisierten Hypothesen:"
 
 #: ../wprover/panelWu.java:159
-#, fuzzy
 msgid "Successive Pseudo Remainder of Conclusion wrt Triangulized Hypotheses:"
-msgstr "Sukzessive Pseudo Rest von CONC im Bezug auf TS :"
+msgstr ""
+"Sukzessive Pseudo Rest der Konklusion im Bezug auf den triangularisierten "
+"Hypothesen:"
 
 #: ../wprover/panelWu.java:168
 msgid "System Run Out Of Memory"
@@ -1343,7 +1314,7 @@ msgstr "Der Satz ist nich bewiesen!"
 
 #: ../wprover/panelWu.java:172
 msgid "The conclusion is not proved"
-msgstr ""
+msgstr "Die Folgerung ist nicht bewiesen"
 
 #: ../wprover/RatioSelectDialog.java:27
 msgid "Set the ratio"
@@ -1418,7 +1389,6 @@ msgid "Connection failed: Please check your network connection and try again."
 msgstr "Verbindung nicht erfolgreich: Bitte die Netzwerkverbindung überprüfen."
 
 #: ../wprover/Update.java:71 ../wprover/Update.java:121
-#, fuzzy
 msgid "Connection failed"
 msgstr "Verbindung nicht erfolgreich"
 
@@ -1434,11 +1404,11 @@ msgstr "Eine neue Version ist verfügbar. Möchten sie aktualisieren?"
 
 #: ../wprover/Update.java:147
 msgid "Your current JGEX version"
-msgstr ""
+msgstr "Die aktuelle JGEX-Version"
 
 #: ../wprover/Update.java:148
 msgid "Available JGEX version"
-msgstr ""
+msgstr "Die JGEX-Version, die verfügbar ist"
 
 #: ../wprover/Update.java:149
 msgid "Press OK to update."
@@ -1450,7 +1420,7 @@ msgstr "JGEX Aktualisierung"
 
 #: ../wprover/Update.java:189
 msgid "Hide"
-msgstr ""
+msgstr "Verstecke"
 
 #: ../wprover/Update.java:246
 msgid ""
@@ -1465,7 +1435,7 @@ msgid "by HYP"
 msgstr "laut Annahme"
 
 msgid "in GIB"
-msgstr ""
+msgstr "in Informationsbasis"
 
 #: ../wprover/vFontChooser.java:94
 msgid "Font Chooser"
@@ -1509,7 +1479,7 @@ msgstr "Effekte"
 
 #: ../wprover/vFontChooser.java:155
 msgid "Font color"
-msgstr ""
+msgstr "Farbe Schriftart"
 
 #: ../wprover/vFontChooser.java:162
 msgid "Preview"
@@ -1524,19 +1494,16 @@ msgid "Exit without save"
 msgstr "Beenden ohne zu speichern"
 
 #: ../wprover/AnimatePanel.java:42
-#, fuzzy
 msgid "Start the animation"
-msgstr "Einstellen der Proportion"
+msgstr "Die Animation starten"
 
 #: ../wprover/AnimatePanel.java:45
-#, fuzzy
 msgid "Pause the animation"
-msgstr "Einstellen der Proportion"
+msgstr "Pausiere die Animation"
 
 #: ../wprover/AnimatePanel.java:48
-#, fuzzy
 msgid "Stop the animation"
-msgstr "Einstellen der Proportion"
+msgstr "Stoppen die Animation"
 
 #: ../wprover/GExpert.java:781
 msgid "Print the client area"
@@ -1546,6 +1513,8 @@ msgstr "Bereich drucken"
 msgid ""
 "Click three points A, B, C, then click a point D on an object to get AB = CD"
 msgstr ""
+"Klicke auf drei Punkte A, B, C, dann klicke auf den Punkt D auf einem "
+"Objekt, um AB = CD zu erhalten"
 
 #: ../wprover/GExpert.java:812
 msgid "Click two circles to construct their radical axis"
@@ -1606,17 +1575,15 @@ msgstr ""
 msgid "Parallel Line"
 msgstr "Parallele Gerade"
 
-#, fuzzy
 msgid "parallel line"
-msgstr "parallele Geraden"
+msgstr "parallele Gerade"
 
 #: ../wprover/GExpert.java:857
 msgid "Perpendicular Line"
 msgstr "Normale Gerade"
 
-#, fuzzy
 msgid "perpendicular line"
-msgstr "normale Geraden"
+msgstr "normale Gerade"
 
 #: ../wprover/GExpert.java:858
 msgid "Draw an angle bisector"
@@ -1816,9 +1783,8 @@ msgid "Edit construct history"
 msgstr ""
 
 #: ../wprover/GExpert.java:970
-#, fuzzy
 msgid "Show Step Bar for prove"
-msgstr "Zeige Schrittsfenster"
+msgstr "Zeige Schrittsfenster beim Beweis"
 
 #: ../wprover/GExpert.java:972
 msgid "Show Draw Style Dialog"
@@ -2100,9 +2066,8 @@ msgstr ""
 msgid "isosceles triangle"
 msgstr ""
 
-#, fuzzy
 msgid "segment"
-msgstr "Vektor"
+msgstr "Strecke"
 
 #: ../wprover/GExpert.java:2492
 msgid "midpoint"
@@ -2188,24 +2153,20 @@ msgid "Please select two points"
 msgstr ""
 
 #: ../wprover/MProveTree.java:1255
-#, fuzzy
 msgid "Please select two segments"
-msgstr "Bitte wähle"
+msgstr "Bitte wähle zwei Strecken"
 
 #: ../wprover/MProveTree.java:1255
-#, fuzzy
 msgid "Please select two lines"
-msgstr "Bitte wähle"
+msgstr "Bitte wähle zwei Geraden"
 
 #: ../wprover/MProveTree.java:1255
-#, fuzzy
 msgid "Please select two angles"
-msgstr "Bitte wähle"
+msgstr "Bitte wähle zwei Winkel"
 
 #: ../wprover/MProveTree.java:1255
-#, fuzzy
 msgid "Please select two triangles"
-msgstr "Bitte gib zwei ganzen Zahlen an"
+msgstr "Bitte wähle zwei Dreiecke"
 
 #: ../wprover/MProveTree.java:1255
 msgid "Please select three non-collinear points"
@@ -2220,18 +2181,15 @@ msgid "Please select four points"
 msgstr ""
 
 #: ../wprover/MProveTree.java:1256
-#, fuzzy
 msgid "Please select N(>=3) points"
-msgstr "Bitte wähle"
+msgstr "Bitte wähle N(>=3) Punkte"
 
 #: ../wprover/MProveTree.java:1269
-#, fuzzy
 msgid "Can not find object icon {0}"
-msgstr "Bild {0} kann nicht gefunden werden"
+msgstr "Symbol {0} kann nicht gefunden werden"
 
-#, fuzzy
 msgid "Can not find file {0}"
-msgstr "Bild {0} kann nicht gefunden werden"
+msgstr "Datei {0} kann nicht gefunden werden"
 
 #: ../wprover/MProveTree.java:1363
 msgid "number"
@@ -2427,9 +2385,8 @@ msgstr "Geometry Expert"
 msgid "ALine"
 msgstr ""
 
-#, fuzzy
 msgid "ABline"
-msgstr "Gerade"
+msgstr "Winkelsymmetrale"
 
 msgid "Hexagon"
 msgstr "Sechseck"
@@ -2485,7 +2442,6 @@ msgstr "Version"
 msgid "On"
 msgstr "Ein"
 
-#, fuzzy
 msgid "Background color"
 msgstr "Hintergrundfarbe"
 
@@ -2558,16 +2514,14 @@ msgstr "So"
 msgid "Q.E.D."
 msgstr "Q.E.D."
 
-#, fuzzy
 msgid "Total solutions:"
-msgstr "Alle Lösungen"
+msgstr "Alle Lösungen:"
 
 msgid "Please select 3 points (0 points selected)"
 msgstr ""
 
-#, fuzzy
 msgid "Can not open link {0}"
-msgstr "Bild {0} kann nicht gefunden werden"
+msgstr "Link {0} kann nicht geladen werden"
 
 msgid ""
 "Construct a circle by clicking two points as radius and another point as "
@@ -2583,9 +2537,8 @@ msgstr ""
 msgid "Reset"
 msgstr ""
 
-#, fuzzy
 msgid "Start animation step by step"
-msgstr "Einstellen der Proportion"
+msgstr "Starte die Animation Schritt für Schritt"
 
 msgid "Go to the end of the proof"
 msgstr ""
@@ -2593,24 +2546,20 @@ msgstr ""
 msgid "Go to the next step of the proof"
 msgstr ""
 
-#, fuzzy
 msgid "Unfreeze All Points"
-msgstr "Freier Punkt"
+msgstr "Alle Punkte auftauen"
 
 msgid "Do you mean..."
 msgstr ""
 
-#, fuzzy
 msgid "Point {0}"
-msgstr "Punkt"
+msgstr "Punkt {0}"
 
-#, fuzzy
 msgid "Line {0}"
-msgstr "Gerade"
+msgstr "Gerade {0}"
 
-#, fuzzy
 msgid "Circle {0}"
-msgstr "Kreis"
+msgstr "Kreis {0}"
 
 msgid "Please draw..."
 msgstr ""
@@ -2618,85 +2567,68 @@ msgstr ""
 msgid "{0} points left"
 msgstr ""
 
-#, fuzzy
 msgid "midpoint of {0}"
-msgstr "Mittelpunkte"
+msgstr "Mittelpunkt von {0}"
 
-#, fuzzy
 msgid "{0} is the midpoint of {1}"
-msgstr "Mittelpunkte"
+msgstr "{0} ist der Mittelpunkt von {1}"
 
 msgid "parallel to {0} passing {1}"
 msgstr ""
 
-#, fuzzy
 msgid "passing {0}"
-msgstr "Gerade"
+msgstr "durch {0}"
 
 msgid "with foot {0}"
 msgstr ""
 
-#, fuzzy
 msgid "Triangle {0}"
-msgstr "Dreieck"
+msgstr "Dreieck {0}"
 
-#, fuzzy
 msgid "Quadrangle {0}"
-msgstr "Viereck"
+msgstr "Viereck {0}"
 
-#, fuzzy
 msgid "Pentagon {0}"
-msgstr "Fünfeck"
+msgstr "Fünfeck {0}"
 
-#, fuzzy
 msgid "Hexagon {0}"
-msgstr "Sechseck"
+msgstr "Sechseck {0}"
 
-#, fuzzy
 msgid "Polygon {0}"
-msgstr "Polygon"
+msgstr "Polygon {0}"
 
 msgid "Rhombus {0}"
 msgstr ""
 
-#, fuzzy
 msgid "Isosceles triangle {0}"
-msgstr "Gleichschenkeliges Dreieck"
+msgstr "Gleichschenkeliges Dreieck {0}"
 
-#, fuzzy
 msgid "Right triangle {0}"
-msgstr "Dreieck"
+msgstr "Rechtwinkeliges Dreieck {0}"
 
-#, fuzzy
 msgid "Parallelogram {0}"
-msgstr "Parallelogramm"
+msgstr "Parallelogramm {0}"
 
-#, fuzzy
 msgid "Square {0}"
-msgstr "Quadrat"
+msgstr "Quadrat {0}"
 
-#, fuzzy
 msgid "Trapezoid {0}"
-msgstr "Trapez"
+msgstr "Trapez {0}"
 
-#, fuzzy
 msgid "Right trapezoid {0}"
-msgstr "Rechtwinkeliges Trapez"
+msgstr "Rechtwinkeliges Trapez {0}"
 
-#, fuzzy
 msgid "Equilateral triangle {0}"
-msgstr "Gleichseitiges Dreieck"
+msgstr "Gleichseitiges Dreieck {0}"
 
 msgid "{0} is the reflection of {1} wrt {2}"
 msgstr ""
 
-#, fuzzy
 msgid "Isosceles"
-msgstr "Gleichschenkeliges Dreieck"
+msgstr "gleichschenkelig"
 
-#, fuzzy
 msgid "Equilateral"
-msgstr "Gleichseitiges Dreieck"
+msgstr "gleichseitig"
 
 msgid "Right"
 msgstr ""
@@ -2719,9 +2651,8 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#, fuzzy
 msgid "No"
-msgstr "Nichts"
+msgstr "Nein"
 
 msgid "Take a point {0} on line {1} such that {2}"
 msgstr ""
@@ -2744,20 +2675,17 @@ msgstr ""
 msgid "TRatio of {0} and {1}"
 msgstr ""
 
-#, fuzzy
 msgid "on line {0}"
-msgstr "Gerade"
+msgstr "auf der Geraden {0}"
 
 msgid "{0} is on line {1}"
 msgstr ""
 
-#, fuzzy
 msgid "{0} is parallel to {1}"
-msgstr "{0} ist trivial wahr"
+msgstr "{0} ist parallel zu {1}"
 
-#, fuzzy
 msgid "{0} is perpendicular to {1}"
-msgstr "normale Geraden"
+msgstr "{0} steht normal auf {1}"
 
 msgid "{0} is on the perpendicular bisector of {1}"
 msgstr ""
@@ -2765,82 +2693,65 @@ msgstr ""
 msgid "on the perpendicular bisector of {0}"
 msgstr ""
 
-#, fuzzy
 msgid "on circle {0}"
-msgstr "Kreis"
+msgstr "auf dem Kreis {0}"
 
 msgid "{0} is on circle {1}"
 msgstr ""
 
-#, fuzzy
 msgid "circumcenter of {0}"
-msgstr "Umkreismittelpunkt"
+msgstr "Umkreismittelpunkt von {0}"
 
 msgid "{0} is the circumcenter of {1}"
 msgstr ""
 
-#, fuzzy
 msgid "incenter of {0}"
-msgstr "Umkreismittelpunkt"
+msgstr "Inkreismittelpunkt von {0}"
 
-#, fuzzy
 msgid "{0} is the incenter of {1}"
-msgstr "normale Geraden"
+msgstr "{0} ist der Inkreismittelpunkt von {0}"
 
-#, fuzzy
 msgid "orthocenter of {0}"
-msgstr "Umkreismittelpunkt"
+msgstr "Höhenschnittpunkt von {0}"
 
-#, fuzzy
 msgid "{0} is the orthocenter of {1}"
-msgstr "normale Geraden"
+msgstr "{0} ist der Höhenschnittpunkt von {1}"
 
-#, fuzzy
 msgid "centroid of {0}"
-msgstr "Umkreismittelpunkt"
+msgstr "Schwerpunkt von {0}"
 
-#, fuzzy
 msgid "{0} is the centroid of {1}"
-msgstr "normale Geraden"
+msgstr "{0} ist der Schwerpunkt von {1}"
 
-#, fuzzy
 msgid "barycenter of {0}"
-msgstr "Umkreismittelpunkt"
+msgstr "Schwerpunkt von {0}"
 
-#, fuzzy
 msgid "{0} is the barycenter of {1}"
-msgstr "normale Geraden"
+msgstr "{0} ist der Schwerpunkt von {1}"
 
-#, fuzzy
 msgid "Segment"
-msgstr "Vektor"
+msgstr "Strecke"
 
-#, fuzzy
 msgid "{0} are collinear"
-msgstr "Kollinear"
+msgstr "{0} sind kollinear"
 
-#, fuzzy
 msgid "{0} are parallel"
-msgstr "{0} ist trivial wahr"
+msgstr "{0} sind parallel"
 
-#, fuzzy
 msgid "{0} are perpendicular"
-msgstr "normale Geraden"
+msgstr "{0} sind normal"
 
-#, fuzzy
 msgid "{0} are concyclic"
-msgstr "Kollinear"
+msgstr "{0} liegen auf einem Kreis"
 
 msgid "Full"
 msgstr ""
 
-#, fuzzy
 msgid "Manual"
-msgstr "Händische Methode"
+msgstr "Händisch"
 
-#, fuzzy
 msgid "Search"
-msgstr "Suche Fakten"
+msgstr "Suche"
 
 #, fuzzy
 msgid "Please choose"
@@ -2863,125 +2774,138 @@ msgstr ""
 msgid "Click to see the detail"
 msgstr ""
 
-#, fuzzy
 msgid "Rule {0} for the GDD Method"
-msgstr "Regeln für GDD"
+msgstr "Regel {0} für die GDD-Methode"
 
-#, fuzzy
 msgid "Rule {0} for the Full Angle Method"
-msgstr "Regeln für Vollwinkel"
+msgstr "Regel {0} für die Vollwinkel-Methode"
 
-#, fuzzy
 msgid "Rule {0}"
-msgstr "Rechteck"
+msgstr "Regel {0}"
 
-#, fuzzy
 msgid "RULE {0}"
-msgstr "Gerade"
+msgstr "REGEL {0}"
 
 msgid "r{0}"
 msgstr ""
 
-#, fuzzy
 msgid "addition"
-msgstr "Gleichung"
+msgstr "Addition"
 
-#, fuzzy
 msgid "rule {0}"
-msgstr "Rechteck"
+msgstr "Regel {0}"
 
 # GDD 1
 msgid "If AB ∥ BC, then A, B and C are collinear."
-msgstr ""
+msgstr "Gilt AB ∥ BC, dann sind A, B und C kollinear."
 
 # GDD 2/1
 msgid ""
 "For two angles ∠[l1,l2], ∠[l3,l4]. If l1 = l3 and l2 ∥ l4, then ∠[l1,l2] = "
 "∠[l3,l4]."
 msgstr ""
+"Für zwei Winkel ∠[l1,l2], ∠[l3,l4] gilt: Ist l1 = l3 und l2 ∥ l4, dann ist "
+"∠[l1,l2] = ∠[l3,l4]."
 
 # GDD 2/2
 msgid ""
 "For example, in parallelogram ABCD, AD ∥ BC and AC = CA, hence ∠[CAD] = "
 "∠[ACB]."
 msgstr ""
+"Beispielsweise gilt im Parallelogramm ABCD AD ∥ BC und AC = CA, und somit "
+"auch ∠[CAD] = ∠[ACB]."
 
 # GDD 3/1
 msgid ""
 "If AB ∥ CD and E is the intersection of AC and BD, then EA / EC = EB / ED."
 msgstr ""
+"Ist AB ∥ CD und E der Schnittpunkt von AC und BD, dann gilt EA / EC = EB / "
+"ED."
 
 # GDD 4 /1
 msgid "If AB ∥ EF and CD ⊥ EF, then CD ⊥ EF."
-msgstr ""
+msgstr "Wenn AB ∥ CD und CD ⊥ EF, dann gilt AB ⊥ EF."
 
 # GDD 5/1
 msgid "If AB ⊥ CD, then ∠[AB,CD] = [1] (or 90 degrees)."
-msgstr ""
+msgstr "Wenn AB ⊥ CD, dann gilt ∠[AB,CD] = [1] (oder 90 Grad)."
 
 # GDD 6/1
 msgid ""
 "In a right triangle ACB, ∠C = [1], if E is the midpoint of AB, then E is the "
 "circumcenter of ABC with EA = EB = EC."
 msgstr ""
+"Im rechtwinkligen Dreieck ACB gilt ∠C = [1], wenn der Mittelpunkt E von AB "
+"ist, dann ist E der Umkreismittelpunkt von ABC und EA = EB = EC."
 
 # GDD 7/1
 msgid "If AB ⊥ CD and CD ⊥ EF, then AB ∥ EF."
-msgstr ""
+msgstr "Wenn AB ⊥ CD und CD ⊥ EF, dann gilt AB ∥ EF."
 
 # GDD 8/1
 msgid ""
 "For four points A,B,C,D, if AC ⊥ BC and AD ⊥ BD, then A,B,C,D are concyclic."
 msgstr ""
+"Für vier Punkte A, B, C und D gilt: Wenn AC ⊥ BC und AD ⊥ BD, dann sind A,B,"
+"C,D zyklisch."
 
 # GDD 9/1
 msgid ""
 "For a circle c(O,AB) and a point C on circle c, if A,B,O are collinear, then "
 "AC ⊥ BC and ∠ACB = [1]."
 msgstr ""
+"Für einen Kreis c(O, AB) und einen Punkt C auf dem Kreis c gilt: Sind A, B "
+"und O kollinear, dann sind AC ⊥ BC und ∠ACB = [1]."
 
 # GDD 10/1
 msgid ""
 "If AB is the diameter of a circle and point D is on the circle, then AD ⊥ BD."
 msgstr ""
+"Wenn AB der Durchmesser eines Kreises ist und Punkt C auf diesem liegt, dann "
+"gilt AC ⊥ BC."
 
 # GDD 11/1
 msgid "Angle of circumference equals to half of the angle at the center."
-msgstr ""
+msgstr "Der Umfangwinkel ist gleich der Hälfte des Mittelpunktwinkels."
 
 # GDD 12/1
 msgid "If AB ∥ CD and A,B,C,D are concyclic, then ∠ABC = ∠DAB."
-msgstr ""
+msgstr "Wenn AB ∥ CD und A, B, C und D zyklisch sind, dann ist ∠ABC = ∠DAB."
 
 # GDD 13/1
 msgid "If A,B,C,D are concyclic, then ∠ADB = ∠ACB and vice versa."
-msgstr ""
+msgstr "Wenn A, B, C und D zyklisch sind, dann ist ∠ADB = ∠ACB und umgekehrt."
 
 # GDD 14/1
 msgid "Chord tangent angle theorem."
-msgstr ""
+msgstr "Sehne-Tangente-Winkel-Satz."
 
 # GDD 15 /1
 msgid ""
 "A line passing the centers of two circles is perpendicular to the common "
 "chord of two circles."
 msgstr ""
+"Die Gerade, die durch die Mittelpunkte zweier Kreise verläuft, steht "
+"senkrecht auf deren gemeinsamen Sehne."
 
 # GDD 15 /2
 msgid ""
 "For example, given two circles C1(O,AB) and C2(O1,AB), A and B are two "
 "common points, then OO1 ⊥ AB."
 msgstr ""
+"Sind beispielsweise AB gemeinsame Punkte der Kreise C1(O,AB) und C2(O1,AB), "
+"dann gilt OO1 ⊥ AB."
 
-#, fuzzy
 msgid "The Addition for Full Angle."
-msgstr "Regeln für Vollwinkel"
+msgstr "Addition für Vollwinkel."
 
 # GDD 16/2
 msgid ""
 "If ∠[l1,l2] = ∠[l3,l4] and ∠[l5,l6] = ∠[l7,l8], and l2 = l6 and l4 = l7, "
 "then ∠[l1,l4] = ∠[l5,l8]."
 msgstr ""
+"Ist ∠[l1,l2] = ∠[l3,l4], ∠[l5,l6] = ∠[l7,l8], l2 = l6 und l4 = l7, dann gilt "
+"∠[l1,l4] = ∠[l5,l8]."
 
 # GDD 17/1
 msgid "ASPP12"
@@ -2989,11 +2913,11 @@ msgstr ""
 
 # GDD 17/2
 msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ∥ l2, then l3 ∥ l4."
-msgstr ""
+msgstr "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ∥ l2, dann gilt l3 ∥ l4."
 
 # GDD 17/3
 msgid "Because if l1 ∥ l2, then ∠[l1,l2] = [0]. Hence ∠[l3,l4] = [0]."
-msgstr ""
+msgstr "Denn wenn l1 ∥ l2 gilt ∠[l1,l2] = [0]. Somit gilt ∠[l3,l4] = [0]."
 
 # GDD 18/1
 msgid "ASPP13"
@@ -3001,7 +2925,7 @@ msgstr ""
 
 # GDD 18/2
 msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ∥ l3, then l2 ∥ l4."
-msgstr ""
+msgstr "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ∥ l3, dann gilt l2 ∥ l4."
 
 # GDD 19/1
 msgid "ASTT12"
@@ -3009,7 +2933,7 @@ msgstr ""
 
 # GDD 19/2
 msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l2, then l3 ⊥ l4."
-msgstr ""
+msgstr "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ⊥ l2, dann gilt l3 ⊥ l4."
 
 # GDD 20/1
 msgid "ASTT13"
@@ -3017,37 +2941,34 @@ msgstr ""
 
 # GDD 20/2
 msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l3, then l2 ⊥ l4."
-msgstr ""
+msgstr "Ist ∠[l1,l2] = ∠[l3,l4] und l1 ⊥ l3, dann gilt l2 ⊥ l4."
 
-#, fuzzy
 msgid "Special Angles."
-msgstr "Besondere Winkel"
+msgstr "Besondere Winkel."
 
-#, fuzzy
 msgid "Supplementary Angle."
-msgstr "Spezieller Winkel"
+msgstr "Spezieller Winkel."
 
-#, fuzzy
 msgid "Isosceles Triangle."
-msgstr "Gleichschenkeliges Dreieck"
+msgstr "Gleichschenkeliges Dreieck."
 
-#, fuzzy
 msgid "Isosceles Triangle Theorem"
-msgstr "Gleichschenkeliges Dreieck"
+msgstr "Gleichschenkeliges Dreieck Satz"
 
 # GDD 24/2
 msgid ""
 "For an isosceles triangle ABC and a point D on line BC, if one of the "
 "following statements is true, the other two are also true:"
 msgstr ""
+"Sei ABC ein gleichschenkliges Dreieck und sei Punkt D auf der Seite BC. Wenn "
+"eine der folgenden Aussagen wahr ist, sind die anderen zwei auch wahr:"
 
 # GDD 24/3
 msgid "1. AD ⊥ BC, 2. D is the midpoint of BC, 3. ∠BAD = ∠DAC."
-msgstr ""
+msgstr "1. AD ⊥ BC, 2. D ist der Mittelpunkt von BC, 3. ∠BAD = ∠DAC."
 
-#, fuzzy
 msgid "Congruent Triangles."
-msgstr "Kongruentes Dreieck"
+msgstr "Kongruente Dreiecke."
 
 # GDD 25/2
 msgid ""
@@ -3055,47 +2976,55 @@ msgid ""
 "is, corresponding angles have the same measure, and corresponding sides have "
 "the same length."
 msgstr ""
+"Dreiecke sind kongruent, wenn sie in Größe und Form gleich sind. Das heißt, "
+"dass die dazugehörigen Winkel gleich groß sind und die Seiten die gleiche "
+"Länge haben."
 
 # GDD 26 #ASA/1
 msgid "ASA (angle-side-angle) congruence."
-msgstr ""
+msgstr "WSW (Winkel-Seite-Winkel) Kongruenz."
 
 # GDD 26 #ASA/2
 msgid ""
 "Two triangles are congruent if a pair of corresponding angles and the "
 "included side are equal."
 msgstr ""
+"Zwei Dreiecke sind kongruent, wenn zwei der Winkel und die davon "
+"eingeschlossene Seite gleich sind."
 
 # GDD 27 #SAS/1
 msgid "SAS (side-angle-side) congruence."
-msgstr ""
+msgstr "SWS (Seite-Winkel-Seite) Kongruenz."
 
 # GDD 27 #SAS/2
 msgid ""
 "Two triangles are congruent if a pair of corresponding sides and the "
 "included angle are equal."
 msgstr ""
+"Zwei Dreiecke sind kongruent, wenn zwei Seiten und der davon eingeschlossene "
+"Winkel gleich sind."
 
 # GDD 28 #SSS/1
 msgid "SSS (side-side-side) congruence."
-msgstr ""
+msgstr "SSS- (Seite-Seite-Seite) Kongruenz."
 
 # GDD 28 #SSS/2
 msgid "Two triangles are congruent if their corresponding sides are equal."
-msgstr ""
+msgstr "Zwei Dreiecke sind kongruent, wenn deren Seiten gleich sind."
 
 # GDD 29 #SAS/1
 msgid "SAS (side-angle-side) congruence for right triangles."
-msgstr ""
+msgstr "SWS (Seite-Winkel-Seite) Kongruenz für rechtwinklige Dreiecke."
 
 # GDD 29 #SAS/2
 msgid ""
 "Two right triangles are congruent if their two corresponding sides are equal."
 msgstr ""
+"Zwei rechtwinklige Dreiecke sind kongruent, wenn deren zwei entsprechenden "
+"kartesischen Ecken gleich sind."
 
-#, fuzzy
 msgid "Similar triangles."
-msgstr "ähnliche Dreiecke"
+msgstr "Ähnliche Dreiecke."
 
 # GDD 30/2
 msgid ""
@@ -3103,10 +3032,13 @@ msgid ""
 "different size. In particular, corresponding angles are congruent, and "
 "corresponding sides are in proportion."
 msgstr ""
+"Ähnliche Dreiecke sind Dreiecke, die dieselbe Form haben aber möglicherweise "
+"unterschiedlich groß sind; die dazugehörigen Winkel sind kongruent und die "
+"dazugehörigen Seiten sind im gleichen Verhältnis zueinander."
 
 # GDD 31 #AAA/1
 msgid "AAA (angle-angle-angle) similarity."
-msgstr ""
+msgstr "WWW (Winkel-Winkel-Winkel) Ähnlichkeit."
 
 # GDD 31 #AAA/2
 msgid ""
@@ -3115,10 +3047,14 @@ msgid ""
 "π, we really only need to know that two pairs of corresponding angles are "
 "congruent to know that the triangles are similar."
 msgstr ""
+"Haben zwei Dreiecke zwei entsprechende kongruente Winkel, sind die Dreiecke "
+"ähnlich. Da die Summe der Winkel in einem Dreieck π sein muss, muss nur klar "
+"sein, dass diese beiden Paare von entsprechenden Winkeln kongruent sind, um "
+"zu wissen, dass die Dreiecke ähnlich sind."
 
 # GDD 32 #SAS/1
 msgid "SAS (side-angle-side) similarity."
-msgstr ""
+msgstr "SWS (Seite-Winkel-Seite) Ähnlichkeit."
 
 # GDD 32 #SAS/2
 msgid ""
@@ -3126,30 +3062,37 @@ msgid ""
 "two pairs of sides that are proportional and the included angles are "
 "congruent, then the triangles are similar."
 msgstr ""
+"Die Seiten-Winkel-Seiten-Ähnlichkeit besagt, dass zwei Dreiecke ähnlich "
+"sind, wenn sie zwei  Seiten im gleichen Verhältnis haben und die "
+"eingeschlossenen Winkel kongruent sind."
 
 # GDD 33 #SSS/1
 msgid "SSS (side-side-side) similarity."
-msgstr ""
+msgstr "SSS (Seite-Seite-Seite) Ähnlichkeit."
 
 # GDD 33 #SSS/2
 msgid ""
 "If two triangles have all three pairs of sides in proportion, the triangles "
 "are similar."
 msgstr ""
+"Sind alle drei Seiten zweier Dreiecke im gleichen Verhältnis, sind die "
+"Dreiecke ähnlich."
 
 # GDD 34/1
 msgid "Ratio by similarity."
-msgstr ""
+msgstr "Verhältnis durch Ähnlichkeit."
 
 # GDD 35/1
 msgid "Middle Connection Theorem for Triangles."
-msgstr ""
+msgstr "Satz der Mittelparallelen für Dreiecke."
 
 # GDD 35/2
 msgid ""
 "The line connects the midpoints of two sides of a triangle is parallel to "
 "the third side of the triangle."
 msgstr ""
+"Die Strecke, die die Mittelpunkte zweier Seiten eines Dreiecks verbindet, "
+"ist parallel zur dritten Seite des Dreiecks."
 
 # GDD 36/1
 msgid ""
@@ -3157,26 +3100,32 @@ msgid ""
 "circle of the triangle, and the midpoint of the hypotenuse is the center of "
 "the circle."
 msgstr ""
+"Die Hypotenuse eines rechtwinkligen Dreiecks ist gleich dem Durchmesser des "
+"Umkreises des Dreiecks und deren Mittelpunkt ist gleich dem Mittelpunkt des "
+"Umkreises."
 
 # GDD 36/2
 msgid ""
 "For a right triangle ACB, if AC ⊥ BC and D is the midpoint of AB, then DC = "
 "DA = DB, D is the center of circle ABC."
 msgstr ""
+"Für ein rechtwinkliges Dreieck ACB gilt: Wenn AC ⊥ BC und D der Mittelpunkt "
+"von AB ist, dann ist DC = DA = DB und D der Mittelpunkt des Kreises ABC."
 
-#, fuzzy
 msgid "Equilateral Triangles."
-msgstr "Gleichseitiges Dreieck"
+msgstr "Gleichseitige Dreiecke."
 
 # GDD 37/2
 msgid ""
 "An equilateral triangle is a triangle in which all three sides have equal "
 "lengths."
 msgstr ""
+"Ein gleichseitiges Dreieck ist ein Dreieck in dem die Längen aller drei "
+"Seiten gleich sind."
 
 # GDD 38/1
 msgid "Pythagorean Theorem."
-msgstr ""
+msgstr "Satz des Pythagoras."
 
 # GDD 38/2
 msgid ""
@@ -3185,139 +3134,149 @@ msgid ""
 "of areas of the squares whose sides are the two legs (i.e. the two sides "
 "other than the hypotenuse)."
 msgstr ""
+"In jedem rechtwinkligen Dreieck ist die Fläche des Quadrats, dessen Seite "
+"die Hypotenuse (die Seite des rechtwinkligen Dreiecks, die gegenüber des "
+"rechten Winkels liegt) ist, gleich der Summe der Flächen des Quadrats deren "
+"Seiten die beiden Katheten sind (d.h. die beiden anderen Seiten als die "
+"Hypotenuse)."
 
 # GDD 39/1
 msgid ""
 "The sum of three interior angles of a triangle is [0] (or 180 degree for "
 "traditional angles)."
 msgstr ""
+"Die Summe der inneren Winkel eines Dreiecks ist [0] (oder 180 Grad für "
+"herkömmliche Dreiecke)."
 
-#, fuzzy
 msgid "Parallelogram."
-msgstr "Parallelogramm"
+msgstr "Parallelogramm."
 
 # GDD 40/2
 msgid ""
 "A parallelogram is a quadrilateral with two sets of opposite parallel sides."
 msgstr ""
+"Ein Parallelogramm ist ein Viereck mit zwei Paaren von gegenüberliegenden "
+"parallelen Seiten."
 
 # GDD 41/1
 msgid "Middle Connection Theorem for Trapezoid."
-msgstr ""
+msgstr "Satz der Mittelparallelen für Trapeze."
 
-#, fuzzy
 msgid "Ratio."
-msgstr "Verhältnis"
+msgstr "Verhältnis."
 
-#, fuzzy
 msgid "Use Ratio in Deductive Database Method."
-msgstr "Deduktive Datenbank Methode"
+msgstr "Verhältnis nutzen in der Deduktive Datenbank Methode."
 
 # GDD 43/1
 msgid "Ratio by angle bisector."
-msgstr ""
+msgstr "Verhältnis durch die Winkelhalbierende."
 
 # GDD 43/2
 msgid ""
 "In triangle ABC, if AD is the bisector of angle A, and D is on line BC, then "
 "AB/BD = AC/DC."
 msgstr ""
+"Im Dreieck ABC gilt: Ist AD die Winkelhalbierende von Winkel A und D liegt "
+"auf der Strecke BC, dann ist AB/BD = AC/DC."
 
-#, fuzzy
 msgid "Rules related to parallel lines"
-msgstr "parallele Geraden"
+msgstr "Regeln für parallele Geraden"
 
-#, fuzzy
 msgid "Rules related to perpendicular lines"
-msgstr "normale Geraden"
+msgstr "Regeln für normale Geraden"
 
 msgid "Rules related to circles"
-msgstr ""
+msgstr "Regeln für Kreise"
 
-#, fuzzy
 msgid "Rules related to angles"
-msgstr "Bitte wähle"
+msgstr "Regeln für Winkel"
 
-#, fuzzy
 msgid "Rules related to triangles"
-msgstr "Bitte gib zwei ganzen Zahlen an"
+msgstr "Regeln für Dreiecke"
 
-#, fuzzy
 msgid "Other rules"
-msgstr "Andere"
+msgstr "Andere Regeln"
 
-#, fuzzy
 msgid "The Definition of Full Angle"
-msgstr "Regeln für Vollwinkel"
+msgstr "Die Definition von Vollwinkel."
 
 # Full 1/2
 msgid ""
 "A full angle is defined as an ordered pair of two lines u and v denoted by "
 "∠[u,v]."
 msgstr ""
+"Ein Vollwinkel ist definiert als ein geordnetes Paar von zwei Geraden u und "
+"v und wird als ∠[u,v] bezeichnet."
 
 # Full 2/1
 msgid "∠[u,v] = -∠[v,u]."
-msgstr ""
+msgstr "∠[u,v] = -∠[v,u]."
 
 # Full 3/1
 msgid "∠[u,v] = ∠[0] if and only if u ∥ v (including u = v)."
-msgstr ""
+msgstr "∠[u,v] = ∠[0] genau dann, wenn u ∥ v (einschließlich u = v)."
 
 # Full 4/1
 msgid "∠[u,v] = ∠[1] if and only if u ⊥ v."
-msgstr ""
+msgstr "∠[u,v] = ∠[1] genau dann, wenn u ⊥ v."
 
-#, fuzzy
 msgid "Addition of Full Angles"
-msgstr "Regeln für Vollwinkel"
+msgstr "Addition von Vollwinkeln"
 
 # Full 5/2
 msgid ""
 "∠[u,s] + ∠[s,v] = ∠[u,v]. This rule is to split an angle into two or more "
 "angles."
 msgstr ""
+"∠[u,s] + ∠[s,v] = ∠[u,v]. Diese Regel gilt bei der Aufteilung eines Winkels "
+"in zwei oder mehrere Winkel."
 
 # Full 5/3
 msgid "For example, for any line m, we have ∠[u,v] = ∠[u,m] + ∠[m,v]."
 msgstr ""
+"Beispielsweise gilt ∠[u,v] = ∠[u,m] + ∠[m,v] für eine beliebige Gerade m."
 
 # Full 6/1
 msgid ""
 "If l ⊥ v or ∠[l,v] = ∠[1], then ∠[u,v] = ∠[u,l] + ∠[l,v] = ∠[u,l] + ∠[1]."
 msgstr ""
+"Wenn l ⊥ v oder ∠[l,v] = ∠[1], dann ist ∠[u,v] = ∠[u,l] + ∠[l,v] = ∠[u,l] + "
+"∠[1]."
 
 # Full 6/2
 msgid "For example, if we have AC ⊥ BC, then ∠[CBA] = ∠[BAC] + ∠[1]."
-msgstr ""
+msgstr "Ist beispielsweise AC ⊥ BC, dann ist ∠[CBA] = ∠[BAC] + ∠[1]."
 
-#, fuzzy
 msgid "The Isosceles Triangle Theorem for Full Angle."
-msgstr "Gleichschenkeliges Dreieck"
+msgstr "Gleichschenkeliges Dreieck Satz für Vollwinkel."
 
 # Full 7/2
 msgid ""
 "If AC = BC, we have ∠[ABC] = ∠[CAB]. Conversely, if ∠[ABC] = ∠[CAB], then AB "
 "= AC or A, B and C are collinear."
 msgstr ""
+"Ist AC = BC, gilt ∠[ABC] = ∠[CAB]. Umgekehrt, wenn ∠[ABC] = ∠[CAB], dann "
+"gilt AB = AC oder A, B und C sind kollinear."
 
-#, fuzzy
 msgid "The Inscribed Angle Theorem."
-msgstr "Gleichschenkeliges Dreieck"
+msgstr "Peripheriewinkelsatz."
 
 # Full 8/2
 msgid "Points A,B,C and D are concyclic if and only if ∠[ACB] = ∠[ADB]."
 msgstr ""
+"Die Punkte A, B, C und D sind genau dann zyklisch, wenn ∠[ACB] = ∠[ADB]."
 
 # Full 9/1
 msgid ""
 "If A,B,M,N are concyclic, then ∠[AB, AM] = ∠[BN,NM]. Hence we have ∠[AB, CD] "
 "= ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM] + ∠[AM, CD]."
 msgstr ""
+"Sind A, B, M und N zyklisch, gilt ∠[AB, AM] = ∠[BN,NM]. Daher gilt ∠[AB, CD] "
+"= ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM] + ∠[AM, CD]."
 
-#, fuzzy
 msgid "Rule 10."
-msgstr "Rechteck"
+msgstr "Regel 10."
 
 # Full 11/1
 msgid ""
@@ -3325,27 +3284,36 @@ msgid ""
 "circumcircle, then for any line FG, we have ∠[CD,FG] = ∠[DBA] + ∠[ACB] + "
 "∠[BC, FG]."
 msgstr ""
+"Ist AB der Durchmesser des Umkreises des Dreiecks ABC und Punkt D liegt "
+"darauf, dann gilt für jede Strecke FG ∠[CD,FG] = ∠[DBA] + ∠[ACB] + ∠[BC, FG]."
 
 # Full 12/1
 msgid ""
 "If O is the intersection of circle (O1,OP1P3I) and circle (O2,OP2P4J) and O,"
 "I,J are collinear, then ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4]."
 msgstr ""
+"Ist O der Schnittpunkt der Kreise (O1,OP1P3I) und (O2,OP2P4 J) und O, I und "
+"J sind kollinear, dann gilt ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4]."
 
 # Full 13/1
 msgid "If O is the circumcenter of triangle ABC, then ∠[BOC] = 2 · ∠[BAC]."
 msgstr ""
+"Ist O der Umkreismittelpunkt des Dreiecks ABC, dann gilt: ∠[BOC] = 2 · "
+"∠[BAC]."
 
 # Full 14/1
 msgid ""
 "For a circle (O,ABCD), if O is the intersection of AD and BC, then ∠[AOB] = "
 "2 · ∠[CDA]."
 msgstr ""
+"Ist O der Schnittpunkt von AD und BC, dann gilt für einen Kreis (O,ABCD) "
+"∠[AOB] = 2 · ∠[CDA]."
 
 # Full 15/1
 msgid ""
 "For a circle (O,AB), O is the center of circle, we have ∠[OAB] = ∠[ABO]."
 msgstr ""
+"Für einen Kreis (O,AB) bei dem O der Mittelpunkt ist, gilt ∠[OAB] = ∠[ABO]."
 
 # Full 16/1
 msgid ""
@@ -3353,96 +3321,113 @@ msgid ""
 "(i.e. AB), then for any line CD, we have ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, "
 "CD]."
 msgstr ""
+"Ist das Dreieck ABE ein rechtwinkliges Dreieck und O der Mittelpunkt der "
+"Hypotenuse (d.h. AB), dann gilt für jede Strecke CD ∠[AB, CD] =  ∠[BAE] + "
+"∠[1] + ∠[BE, CD]."
 
 # Full 17/1
 msgid ""
 "For a circle (O,ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + "
 "∠[AC, EF]."
 msgstr ""
+"Für einen Kreis (O, ABC) bei dem D der Mittelpunkt von BC ist gilt ∠[AB, EF] "
+"= ∠[BOD] + ∠[AC, EF]."
 
 # Full 18/1
 msgid ""
 "For a circle (O,ABF), if E is the midpoint of AF, we have ∠[AB, CD] = ∠[EOA] "
 "+ ∠[BF, CD]."
 msgstr ""
+"Für einen Kreis (O, ABF) bei dem E der Mittelpunkt von AF ist, gilt ∠[AB, "
+"CD] = ∠[EOA] + ∠[BF, CD]."
 
 # Full 19/1
 msgid ""
 "If G is the orthocenter of ABC, ∠[AE, HI] = ∠[AE, BE] + ∠[BE, HI] = ∠[1] + "
 "∠[BE, HI]."
 msgstr ""
+"Ist G der Höhenschnittpunkt von A, B und C, dann gilt ∠[AE, HI] = ∠[AE, BE] "
+"+ ∠[BE, HI] = ∠[1] + ∠[BE, HI]."
 
 # Full 20/1
 msgid ""
 "If A is the incenter of P2KI, ∠[AB, CD] = ∠[AB, BK] + ∠[BK, CD] = ∠[1] + "
 "∠[KI, KA] + ∠[IA, IK] + ∠[BK, CD]."
 msgstr ""
+"Ist A der Inkreismittelpunkt von P2, K und I, dann gilt ∠[AB, CD] = ∠[AB, "
+"BK] + ∠[BK, CD] = ∠[1] + ∠[KI, KA] + ∠[IA, IK] + ∠[BK, CD]."
 
-#, fuzzy
 msgid "Equal angle found in the Geometry Deductive Database."
-msgstr ""
-"Das Theorem konnte mit den deduktiven Methoden in der Datenbank nicht "
-"bewiesen werden"
+msgstr "Gleicher Winkel wurde in der GDD gefunden."
 
 # Full 22/1
 msgid "If AB ⊥ AC and AB = AC, then ∠[AB,AC] = 2 · ∠[AB,BC]."
-msgstr ""
+msgstr "Ist AB ⊥ AC und AB = AC, dann gilt ∠[AB,AC] = 2 · ∠[AB,BC]."
 
 # Full 23/1
 msgid ""
 "If AB ⊥ AC and AB = AC, then 2 · ∠[AB,DE] = 2 · ∠[AB,BC] + 2 · ∠[BC,DE] = "
 "∠[1] + 2 · ∠[BC,DE]."
 msgstr ""
+"Ist AB ⊥ AC und AB = AC, dann gilt 2 · ∠[AB,DE] = 2 · ∠[AB,BC] + 2 · ∠[BC,"
+"DE] = ∠[1] + 2 · ∠[BC,DE]."
 
 # Full 24/1
 msgid ""
 "If OB // DE and A is on the circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB]."
 msgstr ""
+"Ist OB // DE und A ist auf dem Kreis (O,B) dann gilt 2 · ∠[AB, DE] = ∠[OA,"
+"OB]."
 
 # Full 25/1
 msgid "A is on circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB] + 2 · ∠[OA,DE]."
 msgstr ""
+"Ist A auf dem Kreis (O B), dann gilt 2 · ∠[AB, DE] = ∠[OA,OB] + 2 · ∠[OA,DE]."
 
 # Full 26/1
 msgid ""
 "CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA]  = ∠[1]."
 msgstr ""
+"Ist CD ist der Durchmesser des Kreises (A,BCD) und AB ⊥ CD, dann gilt 2 · "
+"∠[DB,BA] = ∠[1]."
 
 # Full 27/1
 msgid ""
 "A, B, C, D, E are concyclic and AC = AD, then 2 · ∠[AB, BC] = ∠[CE, ED]."
 msgstr ""
+"Sind A, B, C, D und E zyklisch und AC = AB, dann ist 2 · ∠[AB, BC] = ∠[CE, "
+"ED]."
 
 # Full 28/1
 msgid ""
 "If A, B, E, F, G are concyclic and AE = AF, then 2 · ∠[AB, CD] = 2 · ∠[BE, "
 "CD] + ∠[EG, GF]."
 msgstr ""
+"Sind A, B, E, F und G zyklisch und AE = AF, dann ist 2 · ∠[AB, CD] = 2 · "
+"∠[BE, CD] + ∠[EG, GF]."
 
 # Full 29/1
 msgid ""
 "If AB = AC = BC, i.e., triangle ABC is an equilateral triangle, then 3 · "
 "∠[AB, BC] = ∠[0]."
 msgstr ""
+"Ist AB = AC = BC, d.h. Dreieck ABC ist gleichseitig, dann gilt 3 · ∠[AB, BC] "
+"= ∠[0]."
 
 msgid "Full Rules"
-msgstr ""
+msgstr "Vollwinkel Regeln"
 
-#, fuzzy
 msgid "Save as Maple Format"
-msgstr "Speichern als Text"
+msgstr "Speichern als Maple-Format"
 
-#, fuzzy
 msgid "The point should be a fix point."
-msgstr "Zeit zum Erstellen des Fixpunktes:"
+msgstr "Der Punkt sollte ein Fixpunkte sein."
 
-#, fuzzy
 msgid "Please select the second point."
-msgstr "Bitte wähle"
+msgstr "Bitte wähle den zweiten Punkt."
 
-#, fuzzy
 msgid "Please select a line or a circle."
-msgstr "Bitte wähle"
+msgstr "Bitte wähle eine Gerade oder einen Kreis."
 
 msgid "Expand/collapse proof tree"
 msgstr ""
@@ -3450,11 +3435,8 @@ msgstr ""
 msgid "Compute proof with the selected method"
 msgstr ""
 
-#, fuzzy
 msgid "Failed to prove this theorem with Deductive Database Method."
-msgstr ""
-"Das Theorem konnte mit den deduktiven Methoden in der Datenbank nicht "
-"bewiesen werden"
+msgstr "Das Theorem konnte mit der GGD-Methode nicht bewiesen werden."
 
 #~ msgid "animate_start"
 #~ msgstr "Starte Animation"

@@ -3329,11 +3329,11 @@ msgstr "Az (O,AB) körre, ahol O a középpont, ∠[OAB] = ∠[ABO] teljesül."
 # Full 16/1
 msgid ""
 "If triangle ABE is a right triangle and O is the midpoint of the hypotenuse "
-"(i.e. AB), then for any line CD, we have ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, "
+"(i.e. AB), then for any line CD, we have ∠[AB, CD] = ∠[BAE] + ∠[1] + ∠[BE, "
 "CD]."
 msgstr ""
 "Ha az ABE háromszög derékszögű és O az AB átfogó felezőpontja, akkor bármely "
-"CD egyenesre ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, CD]."
+"CD egyenesre ∠[AB, CD] = ∠[BAE] + ∠[1] + ∠[BE, CD]."
 
 # Full 17/1
 msgid ""
@@ -3397,9 +3397,9 @@ msgstr ""
 
 # Full 26/1
 msgid ""
-"CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA]  = ∠[1]."
+"CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA] = ∠[1]."
 msgstr ""
-"Ha CD az (A,BCD) kör átmérője, valamint AB ⊥ CD, akkor 2 · ∠[DB,BA]  = ∠[1]."
+"Ha CD az (A,BCD) kör átmérője, valamint AB ⊥ CD, akkor 2 · ∠[DB,BA] = ∠[1]."
 
 # Full 27/1
 msgid ""

@@ -97,18 +97,25 @@ public class LeadVariableDialog extends JBaseDialog implements MouseListener, Ac
 
 
     String getLanguage(String s) {
+        return GExpert.getLanguage(s);
+        /*
         if (gxInstance != null)
             return gxInstance.getLanguage(s);
         return s;
+         */
     }
 
+    @Deprecated
     public String getLanguage(int n, String s) {
+        return GExpert.getLanguage(s);
+        /*
         String s1 = "";
         if (gxInstance != null)
             s1 = gxInstance.getLanguage(n);
         if (s1 != null && s1.length() > 0)
             return s1;
         return s;
+         */
     }
 
     public void loadVariable(Vector s, boolean r) {

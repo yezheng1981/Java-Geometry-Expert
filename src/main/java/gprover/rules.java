@@ -207,7 +207,7 @@ public class rules {
                     "For a circle (O,AB), O is the center of circle, we have ∠[OAB] = ∠[ABO].",
 
                     "* 16",
-                    "If triangle ABE is a right triangle and O is the midpoint of the hypotenuse (i.e. AB), then for any line CD, we have ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, CD].",
+                    "If triangle ABE is a right triangle and O is the midpoint of the hypotenuse (i.e. AB), then for any line CD, we have ∠[AB, CD] = ∠[BAE] + ∠[1] + ∠[BE, CD].",
 
                     "* 17",
                     "For a circle (O,ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + ∠[AC, EF].",
@@ -237,7 +237,7 @@ public class rules {
                     "A is on circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB] + 2 · ∠[OA,DE].",
 
                     "* 26",
-                    "CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA]  = ∠[1].",
+                    "CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA] = ∠[1].",
 
                     "* 27",
                     "A, B, C, D, E are concyclic and AC = AD, then 2 · ∠[AB, BC] = ∠[CE, ED].",
@@ -539,7 +539,7 @@ public class rules {
                     " Die Punkte A, B, C und D sind genau dann zyklisch, wenn ∠[ACB] = ∠[ADB].",
 
                     "* 9",
-                    " Sind A, B, M und N zyklisch gilt ∠[AB, AM] = ∠[BN,NM]. Daher gilt  ∠[AB, CD] = ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM]] + ∠[AM, CD].",
+                    " Sind A, B, M und N zyklisch gilt ∠[AB, AM] = ∠[BN,NM]. Daher gilt ∠[AB, CD] = ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM]] + ∠[AM, CD].",
 
                     "* 10",
                     " Regel 10.",
