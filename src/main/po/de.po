@@ -769,8 +769,8 @@ msgid "Check for Update"
 msgstr "Nach Updates suchen"
 
 #: ../wprover/LeadVariableDialog.java:34
-msgid "Leading Variable"
-msgstr "Leitvariable"
+msgid "Algebraic Translation"
+msgstr "Algebraische Darstellung"
 
 #: ../wprover/LeadVariableDialog.java:58
 msgid "Variables"
@@ -781,8 +781,8 @@ msgid "Reduce"
 msgstr "Reduzieren"
 
 #: ../wprover/LeadVariableDialog.java:69
-msgid "Detail"
-msgstr "Detail"
+msgid "Details"
+msgstr "Details"
 
 #: ../wprover/LeadVariableDialog.java:70
 msgid "Reload"
@@ -1299,7 +1299,8 @@ msgid "The Triangulized Hypotheses:"
 msgstr "Die triangularisierten Hypothesen:"
 
 #: ../wprover/panelWu.java:159
-msgid "Successive Pseudo Remainder of Conclusion wrt Triangulized Hypotheses:"
+msgid ""
+"Successive Pseudo Remainder of the conclusion wrt Triangulized Hypotheses:"
 msgstr ""
 "Sukzessive Pseudo Rest der Konklusion im Bezug auf den triangularisierten "
 "Hypothesen:"
@@ -2625,10 +2626,10 @@ msgid "{0} is the reflection of {1} wrt {2}"
 msgstr ""
 
 msgid "Isosceles"
-msgstr "gleichschenkelig"
+msgstr "Gleichschenkelig"
 
 msgid "Equilateral"
-msgstr "gleichseitig"
+msgstr "Gleichseitig"
 
 msgid "Right"
 msgstr ""
@@ -2753,7 +2754,6 @@ msgstr "Händisch"
 msgid "Search"
 msgstr "Suche"
 
-#, fuzzy
 msgid "Please choose"
 msgstr "Bitte wähle"
 
@@ -3199,7 +3199,7 @@ msgid "Other rules"
 msgstr "Andere Regeln"
 
 msgid "The Definition of Full Angle"
-msgstr "Die Definition von Vollwinkel."
+msgstr "Die Definition von Vollwinkel"
 
 # Full 1/2
 msgid ""
@@ -3318,11 +3318,11 @@ msgstr ""
 # Full 16/1
 msgid ""
 "If triangle ABE is a right triangle and O is the midpoint of the hypotenuse "
-"(i.e. AB), then for any line CD, we have ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, "
+"(i.e. AB), then for any line CD, we have ∠[AB, CD] = ∠[BAE] + ∠[1] + ∠[BE, "
 "CD]."
 msgstr ""
 "Ist das Dreieck ABE ein rechtwinkliges Dreieck und O der Mittelpunkt der "
-"Hypotenuse (d.h. AB), dann gilt für jede Strecke CD ∠[AB, CD] =  ∠[BAE] + "
+"Hypotenuse (d.h. AB), dann gilt für jede Strecke CD ∠[AB, CD] = ∠[BAE] + "
 "∠[1] + ∠[BE, CD]."
 
 # Full 17/1
@@ -3386,7 +3386,7 @@ msgstr ""
 
 # Full 26/1
 msgid ""
-"CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA]  = ∠[1]."
+"CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA] = ∠[1]."
 msgstr ""
 "Ist CD ist der Durchmesser des Kreises (A,BCD) und AB ⊥ CD, dann gilt 2 · "
 "∠[DB,BA] = ∠[1]."
@@ -3437,6 +3437,21 @@ msgstr ""
 
 msgid "Failed to prove this theorem with Deductive Database Method."
 msgstr "Das Theorem konnte mit der GGD-Methode nicht bewiesen werden."
+
+msgid "Which?"
+msgstr ""
+
+msgid "GBasis is Running"
+msgstr ""
+
+msgid "The Process Is Stopped By The User."
+msgstr ""
+
+msgid "seconds"
+msgstr "Sekunde(n)"
+
+#~ msgid "Leading Variable"
+#~ msgstr "Leitvariable"
 
 #~ msgid "animate_start"
 #~ msgstr "Starte Animation"

@@ -31,7 +31,7 @@ public class LeadVariableDialog extends JBaseDialog implements MouseListener, Ac
 
         super(f.getFrame());
         gxInstance = f;
-        this.setTitle(getLanguage(154, "Leading Variable"));
+        this.setTitle(getLanguage(154, "Algebraic Translation"));
 
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
@@ -66,11 +66,11 @@ public class LeadVariableDialog extends JBaseDialog implements MouseListener, Ac
             }
         };
         JButton bb = new JButton(getLanguage(241, "Reduce"));
-        JButton b = new JButton(getLanguage(242, "Detail"));
+        JButton b = new JButton(getLanguage(242, "Details"));
         JButton b1 = new JButton(getLanguage(243, "Reload"));
         JButton b2 = new JButton(getLanguage("Close"));
         bb.setActionCommand("Reduce");
-        b.setActionCommand("Detail");
+        b.setActionCommand("Details");
         b1.setActionCommand("Reload");
         b2.setActionCommand("Close");
 
@@ -181,7 +181,7 @@ public class LeadVariableDialog extends JBaseDialog implements MouseListener, Ac
             this.loadVariable(gxInstance.dp.getPointList(), false);
         } else if (s.equals("Close")) {
             this.setVisible(false);
-        } else if (s.equals("Detail")) {
+        } else if (s.equals("Details")) {
             inspectTerm();
         } else if (s.equals("Reduce")) {
             if (tpane.getSelectedIndex() == 0)

@@ -787,7 +787,7 @@ msgid "Check for Update"
 msgstr "Dostupna ažuriranja"
 
 #: ../wprover/LeadVariableDialog.java:34
-msgid "Leading Variable"
+msgid "Algebraic Translation"
 msgstr ""
 
 #: ../wprover/LeadVariableDialog.java:58
@@ -799,7 +799,8 @@ msgid "Reduce"
 msgstr "Smanji"
 
 #: ../wprover/LeadVariableDialog.java:69
-msgid "Detail"
+#, fuzzy
+msgid "Details"
 msgstr "Detalji"
 
 #: ../wprover/LeadVariableDialog.java:70
@@ -1344,7 +1345,8 @@ msgstr "Triangulirane hipoteze:"
 
 #: ../wprover/panelWu.java:159
 #, fuzzy
-msgid "Successive Pseudo Remainder of Conclusion wrt Triangulized Hypotheses:"
+msgid ""
+"Successive Pseudo Remainder of the conclusion wrt Triangulized Hypotheses:"
 msgstr "Sukcesivni pseudo-ostatak deljenja zaključka u odnosu na tezu"
 
 #: ../wprover/panelWu.java:168
@@ -3374,7 +3376,7 @@ msgstr ""
 # Full 16/1
 msgid ""
 "If triangle ABE is a right triangle and O is the midpoint of the hypotenuse "
-"(i.e. AB), then for any line CD, we have ∠[AB, CD] =  ∠[BAE] + ∠[1] + ∠[BE, "
+"(i.e. AB), then for any line CD, we have ∠[AB, CD] = ∠[BAE] + ∠[1] + ∠[BE, "
 "CD]."
 msgstr ""
 
@@ -3427,7 +3429,7 @@ msgstr ""
 
 # Full 26/1
 msgid ""
-"CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA]  = ∠[1]."
+"CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA] = ∠[1]."
 msgstr ""
 
 # Full 27/1
@@ -3475,6 +3477,19 @@ msgstr ""
 #, fuzzy
 msgid "Failed to prove this theorem with Deductive Database Method."
 msgstr "Ne mogu dokazati ovu teoremu primenom metode Deduktivne baze podataka."
+
+msgid "Which?"
+msgstr ""
+
+msgid "GBasis is Running"
+msgstr ""
+
+msgid "The Process Is Stopped By The User."
+msgstr ""
+
+#, fuzzy
+msgid "seconds"
+msgstr "Druga"
 
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"

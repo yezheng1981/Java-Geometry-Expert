@@ -771,8 +771,8 @@ msgid "Check for Update"
 msgstr "Szoftverfrissítés"
 
 #: ../wprover/LeadVariableDialog.java:34
-msgid "Leading Variable"
-msgstr "Sorrendben első változó"
+msgid "Algebraic Translation"
+msgstr "Algebrai megfeleltetések"
 
 #: ../wprover/LeadVariableDialog.java:58
 msgid "Variables"
@@ -783,8 +783,8 @@ msgid "Reduce"
 msgstr "Redukció"
 
 #: ../wprover/LeadVariableDialog.java:69
-msgid "Detail"
-msgstr "Részlet"
+msgid "Details"
+msgstr "Részletek"
 
 #: ../wprover/LeadVariableDialog.java:70
 msgid "Reload"

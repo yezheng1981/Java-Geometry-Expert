@@ -773,7 +773,7 @@ msgid "Check for Update"
 msgstr ""
 
 #: ../wprover/LeadVariableDialog.java:34
-msgid "Leading Variable"
+msgid "Algebraic Translation"
 msgstr ""
 
 #: ../wprover/LeadVariableDialog.java:58
@@ -785,7 +785,7 @@ msgid "Reduce"
 msgstr ""
 
 #: ../wprover/LeadVariableDialog.java:69
-msgid "Detail"
+msgid "Details"
 msgstr ""
 
 #: ../wprover/LeadVariableDialog.java:70
