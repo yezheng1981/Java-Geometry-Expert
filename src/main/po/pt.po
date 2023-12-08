@@ -3490,6 +3490,9 @@ msgstr ""
 msgid "seconds"
 msgstr "Segundo(s)"
 
+msgid "AAA"
+msgstr ""
+
 #~ msgid "animate_start"
 #~ msgstr "iniciar animação"
 

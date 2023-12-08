@@ -3459,3 +3459,6 @@ msgstr "A számolás a felhasználó kérésére leállítva."
 
 msgid "seconds"
 msgstr "másodperc"
+
+msgid "AAA"
+msgstr "SzSzSz"

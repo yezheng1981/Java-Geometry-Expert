@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
 "POT-Creation-Date: 2023-11-15 23:44+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-12-08 15:51+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: ../wprover/AboutDialog.java:49
 msgid "Java Geometry Expert"
@@ -2323,19 +2323,19 @@ msgstr ""
 
 #: ../wprover/MProveTree.java:1672
 msgid "SAS"
-msgstr ""
+msgstr "SUS"
 
 #: ../wprover/MProveTree.java:1672
 msgid "AAS"
-msgstr ""
+msgstr "UUS"
 
 #: ../wprover/MProveTree.java:1672
 msgid "SSS"
-msgstr ""
+msgstr "SSS"
 
 #: ../wprover/MProveTree.java:1672
 msgid "ASA"
-msgstr ""
+msgstr "USU"
 
 #: ../wprover/MProveTree.java:1682 ../wprover/MProveTree.java:1684
 #: ../wprover/MProveTree.java:1758 ../wprover/MProveTree.java:1759
@@ -2918,96 +2918,109 @@ msgstr "Pravougaonik"
 
 # GDD 1
 msgid "If AB ∥ BC, then A, B and C are collinear."
-msgstr ""
+msgstr "Ako AB ∥ BC, onda Kolinearne(A,B,C)."
 
 # GDD 2/1
 msgid ""
 "For two angles ∠[l1,l2], ∠[l3,l4]. If l1 = l3 and l2 ∥ l4, then ∠[l1,l2] = "
 "∠[l3,l4]."
 msgstr ""
+"Za dva ugla ∠[l1,l2], ∠[l3,l4]. Ako l1 = l3 i l2 ∥ l4, onda ∠[l1,l2] = ∠[l3,"
+"l4]."
 
 # GDD 2/2
 msgid ""
 "For example, in parallelogram ABCD, AD ∥ BC and AC = CA, hence ∠[CAD] = "
 "∠[ACB]."
 msgstr ""
+"Na primer, u paralelogramu ABCD, AD ∥ BC i AC = CA, pa ∠[CAD] = ∠[ACB]."
 
 # GDD 3/1
 msgid ""
 "If AB ∥ CD and E is the intersection of AC and BD, then EA / EC = EB / ED."
-msgstr ""
+msgstr "Ako AB ∥ CD i E je presek AC i BD, onda EA / EC = EB / ED."
 
 # GDD 4 /1
 msgid "If AB ∥ EF and CD ⊥ EF, then CD ⊥ EF."
-msgstr ""
+msgstr "Ako AB ∥ CD i CD ⊥ EF, onda AB ⊥ EF."
 
 # GDD 5/1
 msgid "If AB ⊥ CD, then ∠[AB,CD] = [1] (or 90 degrees)."
-msgstr ""
+msgstr "Ako AB ⊥ CD, onda ∠[AB,CD] = [1] (ili 90 stepeni)."
 
 # GDD 6/1
 msgid ""
 "In a right triangle ACB, ∠C = [1], if E is the midpoint of AB, then E is the "
 "circumcenter of ABC with EA = EB = EC."
 msgstr ""
+"U pravouglom trouglu ACB, ∠C = [1], ako središte(E, A B), onda "
+"Circumcenter(E,A B C) i EA = EB = EC."
 
 # GDD 7/1
 msgid "If AB ⊥ CD and CD ⊥ EF, then AB ∥ EF."
-msgstr ""
+msgstr "Ako AB ⊥ CD i CD ⊥ EF, onda AB ∥ EF."
 
 # GDD 8/1
 msgid ""
 "For four points A,B,C,D, if AC ⊥ BC and AD ⊥ BD, then A,B,C,D are concyclic."
 msgstr ""
+"Za četiri tačke A,B,C,D, ako AC ⊥ BC i AD ⊥ BD, onda Ciklične(A,B,C,D)."
 
 # GDD 9/1
 msgid ""
 "For a circle c(O,AB) and a point C on circle c, if A,B,O are collinear, then "
 "AC ⊥ BC and ∠ACB = [1]."
 msgstr ""
+"Za krug c(O,AB) i tačku C na krugu c, ako Kolinearne(A,B,O), onda AC ⊥ BC i "
+"∠ACB = [1]."
 
 # GDD 10/1
 msgid ""
 "If AB is the diameter of a circle and point D is on the circle, then AD ⊥ BD."
-msgstr ""
+msgstr "Ako je AB prečnik kruga i tačka C je na krugu, onda AC ⊥ BC."
 
 # GDD 11/1
 msgid "Angle of circumference equals to half of the angle at the center."
-msgstr ""
+msgstr "Ugao obima jednak je polovini ugla centra."
 
 # GDD 12/1
 msgid "If AB ∥ CD and A,B,C,D are concyclic, then ∠ABC = ∠DAB."
-msgstr ""
+msgstr "Ako AB ∥ CD i Ciklične(A,B,C,D), onda ∠ABC = ∠DAB."
 
 # GDD 13/1
 msgid "If A,B,C,D are concyclic, then ∠ADB = ∠ACB and vice versa."
-msgstr ""
+msgstr "Ako Ciklične(A,B,C,D), onda ∠ADB = ∠ACB i obrnuto."
 
 # GDD 14/1
 msgid "Chord tangent angle theorem."
-msgstr ""
+msgstr "Ugao tangente tetive."
 
 # GDD 15 /1
 msgid ""
 "A line passing the centers of two circles is perpendicular to the common "
 "chord of two circles."
 msgstr ""
+"Linija koja prolazi kroz centre dva kruga je normalna na zajedničku horu dva "
+"kruga."
 
 # GDD 15 /2
 msgid ""
 "For example, given two circles C1(O,AB) and C2(O1,AB), A and B are two "
 "common points, then OO1 ⊥ AB."
 msgstr ""
+"Na primer, dva kruga C1(O,AB) i C2(O1,AB), AB su dve zajedničke tačke, onda "
+"OO1 ⊥ AB."
 
-#, fuzzy
 msgid "The Addition for Full Angle."
-msgstr "Pravila izvođenja za metod punih uglova"
+msgstr "Dodatak za puni ugao."
 
 # GDD 16/2
 msgid ""
 "If ∠[l1,l2] = ∠[l3,l4] and ∠[l5,l6] = ∠[l7,l8], and l2 = l6 and l4 = l7, "
 "then ∠[l1,l4] = ∠[l5,l8]."
 msgstr ""
+"Ako ∠[l1,l2] = ∠[l3,l4] i ∠[l5,l6] = ∠[l7,l8], i l2 = l6 i l4 = l7, onda "
+"∠[l1,l4] = ∠[l5,l8]."
 
 # GDD 17/1
 msgid "ASPP12"
@@ -3015,11 +3028,11 @@ msgstr ""
 
 # GDD 17/2
 msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ∥ l2, then l3 ∥ l4."
-msgstr ""
+msgstr "Ako ∠[l1,l2] = ∠[l3,l4] i l1 ∥ l2, onda l3 ∥ l4."
 
 # GDD 17/3
 msgid "Because if l1 ∥ l2, then ∠[l1,l2] = [0]. Hence ∠[l3,l4] = [0]."
-msgstr ""
+msgstr "Jer ako l1 ∥ l2, ∠[l1,l2] = [0]. Dakle ∠[l3,l4] = [0]."
 
 # GDD 18/1
 msgid "ASPP13"
@@ -3027,7 +3040,7 @@ msgstr ""
 
 # GDD 18/2
 msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ∥ l3, then l2 ∥ l4."
-msgstr ""
+msgstr "Ako ∠[l1,l2] = ∠[l3,l4] i l1 ∥ l3, onda l2 ∥ l4."
 
 # GDD 19/1
 msgid "ASTT12"
@@ -3035,7 +3048,7 @@ msgstr ""
 
 # GDD 19/2
 msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l2, then l3 ⊥ l4."
-msgstr ""
+msgstr "Ako ∠[l1,l2] = ∠[l3,l4] i l1 ⊥ l2, onda l3 ⊥ l4."
 
 # GDD 20/1
 msgid "ASTT13"
@@ -3043,7 +3056,7 @@ msgstr ""
 
 # GDD 20/2
 msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l3, then l2 ⊥ l4."
-msgstr ""
+msgstr "Ako ∠[l1,l2] = ∠[l3,l4] i l1 ⊥ l3, onda l2 ⊥ l4."
 
 #, fuzzy
 msgid "Special Angles."
@@ -3057,19 +3070,20 @@ msgstr "Posebni uglovi"
 msgid "Isosceles Triangle."
 msgstr "Jednakokraki trougao"
 
-#, fuzzy
 msgid "Isosceles Triangle Theorem"
-msgstr "Jednakokraki trougao"
+msgstr "Teorema jednokrakog trougla"
 
 # GDD 24/2
 msgid ""
 "For an isosceles triangle ABC and a point D on line BC, if one of the "
 "following statements is true, the other two are also true:"
 msgstr ""
+"Za jednokraki trougao ABC i tačku D na pravoj BC, ako je bilo koja od "
+"sledećih tvrdnji tačna, druge dve su takođe tačne."
 
 # GDD 24/3
 msgid "1. AD ⊥ BC, 2. D is the midpoint of BC, 3. ∠BAD = ∠DAC."
-msgstr ""
+msgstr "1. AD ⊥ BC, 2. D je sredina BC, 3. ∠BAD = ∠DAC."
 
 #, fuzzy
 msgid "Congruent Triangles."
@@ -3081,43 +3095,53 @@ msgid ""
 "is, corresponding angles have the same measure, and corresponding sides have "
 "the same length."
 msgstr ""
+"Trouglovi se nazivaju kongruentni ako imaju istu veličinu i oblik. To jest, "
+"odgovarajući uglovi imaju istu meru, a odgovarajuće stranice imaju istu "
+"dužinu."
 
 # GDD 26 #ASA/1
 msgid "ASA (angle-side-angle) congruence."
-msgstr ""
+msgstr "Teorema kongruencije USU (ugao–strani–ugao)."
 
 # GDD 26 #ASA/2
 msgid ""
 "Two triangles are congruent if a pair of corresponding angles and the "
 "included side are equal."
 msgstr ""
+"Dva trougla su podudarna ako su jedna ivica i na njoj nalegli uglovi jednog "
+"trougla podudarni sa odgovarajućom ivicom i odgovarajućim uglovima drugog "
+"trougla."
 
 # GDD 27 #SAS/1
 msgid "SAS (side-angle-side) congruence."
-msgstr ""
+msgstr "Teorema kongruencije SUS (strani-ugao-strani)."
 
 # GDD 27 #SAS/2
 msgid ""
 "Two triangles are congruent if a pair of corresponding sides and the "
 "included angle are equal."
 msgstr ""
+"Dva trougla su podudarna ako su dve ivice i njima zahvaćeni ugao jednog "
+"trougla podudarni sa odgovarajućim ivicama i uglovima drugog trougla."
 
 # GDD 28 #SSS/1
 msgid "SSS (side-side-side) congruence."
-msgstr ""
+msgstr "Teorema kongruencije SSS (strani-strani-strani)."
 
 # GDD 28 #SSS/2
 msgid "Two triangles are congruent if their corresponding sides are equal."
-msgstr ""
+msgstr "Dva trougla su kongruentna ako su im odgovarajuće stranice jednake."
 
 # GDD 29 #SAS/1
 msgid "SAS (side-angle-side) congruence for right triangles."
-msgstr ""
+msgstr "Teorema kongruencije SUS (strani-ugao-strani) za pravougle trouglove."
 
 # GDD 29 #SAS/2
 msgid ""
 "Two right triangles are congruent if their two corresponding sides are equal."
 msgstr ""
+"Dva pravougla trougla su kongruentna ako su im dva odgovarajuća "
+"kartezijanska ruba jednaka."
 
 #, fuzzy
 msgid "Similar triangles."
@@ -3129,10 +3153,13 @@ msgid ""
 "different size. In particular, corresponding angles are congruent, and "
 "corresponding sides are in proportion."
 msgstr ""
+"Slični trouglovi su trouglovi koji imaju istu formu, ali moguće različitu "
+"veličinu. Posebno, odgovarajući uglovi su kongruentni, a odgovarajuće "
+"stranice su proporcionalne."
 
 # GDD 31 #AAA/1
 msgid "AAA (angle-angle-angle) similarity."
-msgstr ""
+msgstr "Sličnost trouglova po uglovima (ugao-ugao-ugao, UUU)."
 
 # GDD 31 #AAA/2
 msgid ""
@@ -3141,10 +3168,14 @@ msgid ""
 "π, we really only need to know that two pairs of corresponding angles are "
 "congruent to know that the triangles are similar."
 msgstr ""
+"Ako dva trougla imaju dva kongruentna odgovarajuća ugla, onda su trouglovi "
+"slični. Budući da je zbroja uglova u trouglu jednak π, dovoljno je znati da "
+"su dva para odgovarajućih uglova kongruentna kako bi se utvrdilo da su "
+"trouglovi slični."
 
 # GDD 32 #SAS/1
 msgid "SAS (side-angle-side) similarity."
-msgstr ""
+msgstr "Sličnost trouglova po SUS (strani-ugao-strani, SUS)."
 
 # GDD 32 #SAS/2
 msgid ""
@@ -3152,30 +3183,37 @@ msgid ""
 "two pairs of sides that are proportional and the included angles are "
 "congruent, then the triangles are similar."
 msgstr ""
+"Test sličnosti trouglova po strani-ugao-strani (SUS) kaže da, ako dva "
+"trougla imaju dvoje proporcionalne stranice i kongruentne uključen ugao, "
+"onda su trouglovi slični."
 
 # GDD 33 #SSS/1
 msgid "SSS (side-side-side) similarity."
-msgstr ""
+msgstr "Sličnost trouglova po SSS (strani-strani-strani)."
 
 # GDD 33 #SSS/2
 msgid ""
 "If two triangles have all three pairs of sides in proportion, the triangles "
 "are similar."
 msgstr ""
+"Ako su dve stranice svakog para stranica dvaju trougla proporcionalne, onda "
+"su trouglovi slični."
 
 # GDD 34/1
 msgid "Ratio by similarity."
-msgstr ""
+msgstr "Odnos sličnosti."
 
 # GDD 35/1
 msgid "Middle Connection Theorem for Triangles."
-msgstr ""
+msgstr "Teorema spojnice središta trougla."
 
 # GDD 35/2
 msgid ""
 "The line connects the midpoints of two sides of a triangle is parallel to "
 "the third side of the triangle."
 msgstr ""
+"Prava koja spaja središta dve stranice trougla je paralelna trećoj stranici "
+"trougla."
 
 # GDD 36/1
 msgid ""
@@ -3183,12 +3221,16 @@ msgid ""
 "circle of the triangle, and the midpoint of the hypotenuse is the center of "
 "the circle."
 msgstr ""
+"Hipotenuza pravouglog trougla predstavlja promjera opisanog kruga, a "
+"središte kruga je u središtu hipotenuze (vidi Talesova teorema)."
 
 # GDD 36/2
 msgid ""
 "For a right triangle ACB, if AC ⊥ BC and D is the midpoint of AB, then DC = "
 "DA = DB, D is the center of circle ABC."
 msgstr ""
+"Za pravi trougao ACB, Ako AC ⊥ BC i D je središte stranice AB, onda je DC = "
+"DA = DB, a točka D je središte kružnice opisane oko trougla ABC."
 
 #, fuzzy
 msgid "Equilateral Triangles."
@@ -3199,10 +3241,12 @@ msgid ""
 "An equilateral triangle is a triangle in which all three sides have equal "
 "lengths."
 msgstr ""
+"Jednakostranični trougao je trougao u kojem su sve tri stranice jednake "
+"dužine."
 
 # GDD 38/1
 msgid "Pythagorean Theorem."
-msgstr ""
+msgstr "Pitagorina teorema."
 
 # GDD 38/2
 msgid ""
@@ -3211,12 +3255,18 @@ msgid ""
 "of areas of the squares whose sides are the two legs (i.e. the two sides "
 "other than the hypotenuse)."
 msgstr ""
+"U bilo kojem pravougli trouglu, površina kvadrata čija stranica je "
+"hipotenuza (stranica pravougli trougla nasuprot pravog kuta) jednaka je zbir "
+"površina kvadrata čije su stranice katete (dve preostale stranice pravougli "
+"trougla)."
 
 # GDD 39/1
 msgid ""
 "The sum of three interior angles of a triangle is [0] (or 180 degree for "
 "traditional angles)."
 msgstr ""
+"Zbir mjera unutarnjih kutova u trouglu iznosi [0] (ili 180° prema "
+"tradicionalnoj mjeri kuta)."
 
 #, fuzzy
 msgid "Parallelogram."
@@ -3225,11 +3275,11 @@ msgstr "Paralelogram"
 # GDD 40/2
 msgid ""
 "A parallelogram is a quadrilateral with two sets of opposite parallel sides."
-msgstr ""
+msgstr "Paralelogram je četverokut s dvije suprotne paralelne stranice."
 
 # GDD 41/1
 msgid "Middle Connection Theorem for Trapezoid."
-msgstr ""
+msgstr "Teorema srednja linija trapeza."
 
 #, fuzzy
 msgid "Ratio."
@@ -3241,13 +3291,15 @@ msgstr "Metod deduktivne baze podataka"
 
 # GDD 43/1
 msgid "Ratio by angle bisector."
-msgstr ""
+msgstr "Odnos prema simetrali ugla."
 
 # GDD 43/2
 msgid ""
 "In triangle ABC, if AD is the bisector of angle A, and D is on line BC, then "
 "AB/BD = AC/DC."
 msgstr ""
+"U trouglu ABC, ako je AD polovina ugla A, a D leži na liniji BC, onda važi "
+"AB/BD = AC/DC."
 
 #, fuzzy
 msgid "Rules related to parallel lines"
@@ -3272,78 +3324,84 @@ msgstr "Molim unesite dva cela broja"
 msgid "Other rules"
 msgstr "Ostalo"
 
-#, fuzzy
 msgid "The Definition of Full Angle"
-msgstr "Pravila izvođenja za metod punih uglova"
+msgstr "Definicija pune veličine ugla"
 
 # Full 1/2
 msgid ""
 "A full angle is defined as an ordered pair of two lines u and v denoted by "
 "∠[u,v]."
 msgstr ""
+"Puna veličina ugla se definiše kao uređeni par dviju linija u i v, označen "
+"kao ∠[u,v]."
 
 # Full 2/1
 msgid "∠[u,v] = -∠[v,u]."
-msgstr ""
+msgstr "∠[u,v] = -∠[v,u]."
 
 # Full 3/1
 msgid "∠[u,v] = ∠[0] if and only if u ∥ v (including u = v)."
-msgstr ""
+msgstr "∠[u,v] = ∠[0] Ako i samo ako u ∥ v (uključujući u = v)."
 
 # Full 4/1
 msgid "∠[u,v] = ∠[1] if and only if u ⊥ v."
-msgstr ""
+msgstr "∠[u,v] = ∠[1] ako i samo ako u ⊥ v."
 
-#, fuzzy
 msgid "Addition of Full Angles"
-msgstr "Pravila izvođenja za metod punih uglova"
+msgstr "Dodavanje pune ugla"
 
 # Full 5/2
 msgid ""
 "∠[u,s] + ∠[s,v] = ∠[u,v]. This rule is to split an angle into two or more "
 "angles."
 msgstr ""
+"∠[u,s] + ∠[s,v] = ∠[u,v]. (Ovo pravilo služi da bi se ugao podijelio na dva "
+"ili više manjih uglova.)"
 
 # Full 5/3
 msgid "For example, for any line m, we have ∠[u,v] = ∠[u,m] + ∠[m,v]."
-msgstr ""
+msgstr "Na primer, za bilo koju liniju m, imamo ∠[u,v] = ∠[u,m] + ∠[m,v]."
 
 # Full 6/1
 msgid ""
 "If l ⊥ v or ∠[l,v] = ∠[1], then ∠[u,v] = ∠[u,l] + ∠[l,v] = ∠[u,l] + ∠[1]."
 msgstr ""
+"Ako l ⊥ v ili ∠[l,v] = ∠[1], onda ∠[u,v] = ∠[u,l] + ∠[l,v] = ∠[u,l] + ∠[1]."
 
 # Full 6/2
 msgid "For example, if we have AC ⊥ BC, then ∠[CBA] = ∠[BAC] + ∠[1]."
-msgstr ""
+msgstr "Na primer, ako imamo AC ⊥ BC, onda ∠[CBA] = ∠[BAC] + ∠[1]."
 
-#, fuzzy
 msgid "The Isosceles Triangle Theorem for Full Angle."
-msgstr "Jednakokraki trougao"
+msgstr "Teorema o jednakokrakom trokutu za pune uglove."
 
 # Full 7/2
 msgid ""
 "If AC = BC, we have ∠[ABC] = ∠[CAB]. Conversely, if ∠[ABC] = ∠[CAB], then AB "
 "= AC or A, B and C are collinear."
 msgstr ""
+"Ako je AC = BC, tada imamo ∠[ABC] = ∠[CAB]. Obrnuto, ako je ∠[ABC] = ∠[CAB], "
+"tada su AB = AC ili tada su A, B i C ko-linearni."
 
-#, fuzzy
 msgid "The Inscribed Angle Theorem."
-msgstr "Jednakokraki trougao"
+msgstr "Teorema o tangentom uglu."
 
 # Full 8/2
 msgid "Points A,B,C and D are concyclic if and only if ∠[ACB] = ∠[ADB]."
-msgstr ""
+msgstr "A, B, C i D su tačke na kružnici, ako je ∠[ACB] = ∠[ADB]."
 
 # Full 9/1
 msgid ""
 "If A,B,M,N are concyclic, then ∠[AB, AM] = ∠[BN,NM]. Hence we have ∠[AB, CD] "
 "= ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM] + ∠[AM, CD]."
 msgstr ""
+"Ako su tačke A,B,C i D deo kruga, onda ako važi ∠[ACB] = ∠[ADB] i krug "
+"prolazi kroz te tačke. Takođe, ako je krug(A,B,M,N), onda važi ∠[AB, AM] = "
+"∠[BN,NM]. Iz ovoga sledi da važi ∠[AB, CD] = ∠[AB, AM] + ∠[AM, CD] = ∠[BN,"
+"NM] + ∠[AM, CD]."
 
-#, fuzzy
 msgid "Rule 10."
-msgstr "Pravougaonik"
+msgstr "Pravilo 10."
 
 # Full 11/1
 msgid ""
@@ -3351,27 +3409,33 @@ msgid ""
 "circumcircle, then for any line FG, we have ∠[CD,FG] = ∠[DBA] + ∠[ACB] + "
 "∠[BC, FG]."
 msgstr ""
+"Ako je AB prečnik opisanog kruga trougla ABC, a D se nalazi na tom krugu, "
+"tada za bilo koju liniju FG važi ∠[CD,FG] = ∠[DBA] + ∠[ACB] + ∠[BC, FG]."
 
 # Full 12/1
 msgid ""
 "If O is the intersection of circle (O1,OP1P3I) and circle (O2,OP2P4J) and O,"
 "I,J are collinear, then ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4]."
 msgstr ""
+"Ako je O presek kruga(O1, O P1 P3 I) & kruga(O2, O P2 P4 J) & O, I i J su "
+"kolinearne, tada važi ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4]."
 
 # Full 13/1
 msgid "If O is the circumcenter of triangle ABC, then ∠[BOC] = 2 · ∠[BAC]."
 msgstr ""
+"Ako je O centar opisanog kruga trougla ABC, tada važi ∠[BOC] = 2 · ∠[BAC]."
 
 # Full 14/1
 msgid ""
 "For a circle (O,ABCD), if O is the intersection of AD and BC, then ∠[AOB] = "
 "2 · ∠[CDA]."
 msgstr ""
+"Za krug(O, A B C D), ako je O presek AD i BC, tada važi ∠[AOB] = 2 · ∠[CDA]."
 
 # Full 15/1
 msgid ""
 "For a circle (O,AB), O is the center of circle, we have ∠[OAB] = ∠[ABO]."
-msgstr ""
+msgstr "Za krug(O, A B), gdje je O centar kruga, važi ∠[OAB] = ∠[ABO]."
 
 # Full 16/1
 msgid ""
@@ -3379,30 +3443,41 @@ msgid ""
 "(i.e. AB), then for any line CD, we have ∠[AB, CD] = ∠[BAE] + ∠[1] + ∠[BE, "
 "CD]."
 msgstr ""
+"Ako je trougao ABE pravougli sa hipotenuzom (tj. stranicom AB) koju deli "
+"tačka O, tada za bilo koju liniju CD važi ∠[AB, CD] = ∠[BAE] + ∠[1] + ∠[BE, "
+"CD]."
 
 # Full 17/1
 msgid ""
 "For a circle (O,ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + "
 "∠[AC, EF]."
 msgstr ""
+"Za krug(O, ABC) i tačku D koja je središnja tačka stranice BC, važi ∠[AB, "
+"EF] = ∠[BOD] + ∠[AC,EF]."
 
 # Full 18/1
 msgid ""
 "For a circle (O,ABF), if E is the midpoint of AF, we have ∠[AB, CD] = ∠[EOA] "
 "+ ∠[BF, CD]."
 msgstr ""
+"Za krug(O,ABF) i tačku E koja je središnja tačka stranice AF, važi ∠[AB, CD] "
+"= ∠[EOA] + ∠[BF, CD]."
 
 # Full 19/1
 msgid ""
 "If G is the orthocenter of ABC, ∠[AE, HI] = ∠[AE, BE] + ∠[BE, HI] = ∠[1] + "
 "∠[BE, HI]."
 msgstr ""
+"Ako je G ortocentar trougla ABC, tada važi ∠[AE, HI] = ∠[AE, BE] + ∠[BE, HI] "
+"= ∠[1] + ∠[BE, HI]."
 
 # Full 20/1
 msgid ""
 "If A is the incenter of P2KI, ∠[AB, CD] = ∠[AB, BK] + ∠[BK, CD] = ∠[1] + "
 "∠[KI, KA] + ∠[IA, IK] + ∠[BK, CD]."
 msgstr ""
+"Ako je A centar (incenter) od P2, K, I, ∠[AB, CD] = ∠[AB, BK] + ∠[BK, CD] = "
+"∠[1] + ∠[KI, KA] + ∠[IA, IK] + ∠[BK, CD]."
 
 #, fuzzy
 msgid "Equal angle found in the Geometry Deductive Database."
@@ -3410,44 +3485,52 @@ msgstr "Ne mogu dokazati ovu teoremu primenom metode Deduktivne baze podataka."
 
 # Full 22/1
 msgid "If AB ⊥ AC and AB = AC, then ∠[AB,AC] = 2 · ∠[AB,BC]."
-msgstr ""
+msgstr "Ako je AB ⊥ AC i AB = AC, onda ∠[AB,AC] = 2 · ∠[AB,BC]."
 
 # Full 23/1
 msgid ""
 "If AB ⊥ AC and AB = AC, then 2 · ∠[AB,DE] = 2 · ∠[AB,BC] + 2 · ∠[BC,DE] = "
 "∠[1] + 2 · ∠[BC,DE]."
 msgstr ""
+"Ako AB ⊥ AC i AB = AC, onda 2 · ∠[AB,DE] = 2 · ∠[AB,BC] + 2 · ∠[BC,DE] = "
+"∠[1] +2 · ∠[BC,DE]."
 
 # Full 24/1
 msgid ""
 "If OB // DE and A is on the circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB]."
 msgstr ""
+"Ako je OB // DE i A se nalazi na krugu(O,B), tada 2 · ∠[AB, DE] = ∠[OA,OB]."
 
 # Full 25/1
 msgid "A is on circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB] + 2 · ∠[OA,DE]."
 msgstr ""
+"A se nalazi na krugu(O,B), tada 2 · ∠[AB, DE] = ∠[OA,OB] + 2 · ∠[OA,DE]."
 
 # Full 26/1
 msgid ""
 "CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA] = ∠[1]."
-msgstr ""
+msgstr "CD je prečnik kruga(A, BCD), AB ⊥ CD, tada 2 · ∠[DB,BA] = ∠[0]."
 
 # Full 27/1
 msgid ""
 "A, B, C, D, E are concyclic and AC = AD, then 2 · ∠[AB, BC] = ∠[CE, ED]."
-msgstr ""
+msgstr "A, B, C, D, E su ciklični i AC = AB, tada 2 · ∠[AB, BC] = ∠[CE, ED]."
 
 # Full 28/1
 msgid ""
 "If A, B, E, F, G are concyclic and AE = AF, then 2 · ∠[AB, CD] = 2 · ∠[BE, "
 "CD] + ∠[EG, GF]."
 msgstr ""
+"Ako su A, B, E, F, G ciklični i AE = AF, tada 2 · ∠[AB, CD] = 2 · ∠[BE, CD] "
+"+ ∠[EG, GF]."
 
 # Full 29/1
 msgid ""
 "If AB = AC = BC, i.e., triangle ABC is an equilateral triangle, then 3 · "
 "∠[AB, BC] = ∠[0]."
 msgstr ""
+"Ako je AB = AC = BC, tj. trougao ABC je jednakostranični trougao, tada 3 · "
+"∠[AB, BC] = ∠[0]."
 
 msgid "Full Rules"
 msgstr ""
@@ -3490,6 +3573,10 @@ msgstr ""
 #, fuzzy
 msgid "seconds"
 msgstr "Druga"
+
+#, fuzzy
+msgid "AAA"
+msgstr "UUS"
 
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"

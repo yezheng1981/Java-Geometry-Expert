@@ -2650,7 +2650,7 @@ msgid "Flap"
 msgstr ""
 
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 msgid "No"
 msgstr "Nein"
@@ -3449,6 +3449,9 @@ msgstr ""
 
 msgid "seconds"
 msgstr "Sekunde(n)"
+
+msgid "AAA"
+msgstr "WWW"
 
 #~ msgid "Leading Variable"
 #~ msgstr "Leitvariable"

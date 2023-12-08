@@ -3485,6 +3485,9 @@ msgstr ""
 msgid "seconds"
 msgstr "秒"
 
+msgid "AAA"
+msgstr ""
+
 #~ msgid "animate_start"
 #~ msgstr "播放动画"
 
