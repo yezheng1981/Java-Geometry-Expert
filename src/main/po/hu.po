@@ -1094,7 +1094,7 @@ msgstr "A kezdeti polinomhalmaz:"
 
 #: ../wprover/panelGB.java:709
 msgid "The Groebner basis:"
-msgstr "A Gröbner bázis:"
+msgstr "A Gröbner-bázis:"
 
 #: ../wprover/panelGB.java:723
 msgid "The conclusion:"
@@ -2513,7 +2513,7 @@ msgstr ""
 "megadásához"
 
 msgid "Groebner Basis Method"
-msgstr "Gröbner bázis módszer"
+msgstr "Gröbner-bázis módszer"
 
 msgid "Because"
 msgstr "Mert"

@@ -99,8 +99,10 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         this.createGDDTreePanel();                         //2
 
         // This is not implemented yet. TODO: Implement the area method.
-        // To avoid confusion, this tab is disabled for version 0.81:
-        // this.addTab("A", null, (areaPanel = new JScrollPane()), GExpert.getLanguage("Area Method computations"));    //3
+        // To avoid confusion, this tab should be disabled, but currently the manual proof editor assumes its presence
+        // (because of using tab enumeration, seemingly, FIXME):
+        this.addTab("A", null, (areaPanel = new JScrollPane()), GExpert.getLanguage("Area Method computations"));    //3
+        areaPanel.disable();
 
         createMProvePanel(mbar);
         addTab("M", null, mpPanel, GExpert.getLanguage("Manual proof editor"));//4
