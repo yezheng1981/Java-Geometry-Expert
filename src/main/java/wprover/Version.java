@@ -3,9 +3,9 @@ package wprover;
 
 public class Version {
 
-    private static float version = 0.80f;
-    private static String sversion = "0.80";
-    private static String data = "2023-11-06";
+    private static float version = 0.81f;
+    private static String sversion = "0.81";
+    private static String data = "2023-12-10";
     private static String project = "Geometry Expert";
 
 

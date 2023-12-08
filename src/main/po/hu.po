@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../wprover/AboutDialog.java:53
 msgid "Last modified on"
-msgstr "Utolsó módosítása dátuma:"
+msgstr "Utolsó módosítás dátuma:"
 
 #: ../wprover/AboutDialog.java:57
 msgid "Java version"
