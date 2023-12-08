@@ -3058,17 +3058,14 @@ msgstr ""
 msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l3, then l2 ⊥ l4."
 msgstr "Ako ∠[l1,l2] = ∠[l3,l4] i l1 ⊥ l3, onda l2 ⊥ l4."
 
-#, fuzzy
 msgid "Special Angles."
-msgstr "Posebni uglovi"
+msgstr "Posebni uglovi."
 
-#, fuzzy
 msgid "Supplementary Angle."
-msgstr "Posebni uglovi"
+msgstr "Dopunski ugao."
 
-#, fuzzy
 msgid "Isosceles Triangle."
-msgstr "Jednakokraki trougao"
+msgstr "Jednokraki trougao."
 
 msgid "Isosceles Triangle Theorem"
 msgstr "Teorema jednokrakog trougla"
@@ -3085,9 +3082,8 @@ msgstr ""
 msgid "1. AD ⊥ BC, 2. D is the midpoint of BC, 3. ∠BAD = ∠DAC."
 msgstr "1. AD ⊥ BC, 2. D je sredina BC, 3. ∠BAD = ∠DAC."
 
-#, fuzzy
 msgid "Congruent Triangles."
-msgstr "Podudaran trougao"
+msgstr "Kongruentni trougao."
 
 # GDD 25/2
 msgid ""
@@ -3143,9 +3139,8 @@ msgstr ""
 "Dva pravougla trougla su kongruentna ako su im dva odgovarajuća "
 "kartezijanska ruba jednaka."
 
-#, fuzzy
 msgid "Similar triangles."
-msgstr "slični trouglovi"
+msgstr "Slični trouglovi."
 
 # GDD 30/2
 msgid ""
@@ -3232,9 +3227,8 @@ msgstr ""
 "Za pravi trougao ACB, Ako AC ⊥ BC i D je središte stranice AB, onda je DC = "
 "DA = DB, a točka D je središte kružnice opisane oko trougla ABC."
 
-#, fuzzy
 msgid "Equilateral Triangles."
-msgstr "Jednakostranični trougao"
+msgstr "Jednakostranični trougao."
 
 # GDD 37/2
 msgid ""
@@ -3268,9 +3262,8 @@ msgstr ""
 "Zbir mjera unutarnjih kutova u trouglu iznosi [0] (ili 180° prema "
 "tradicionalnoj mjeri kuta)."
 
-#, fuzzy
 msgid "Parallelogram."
-msgstr "Paralelogram"
+msgstr "Paralelogram."
 
 # GDD 40/2
 msgid ""
@@ -3281,13 +3274,11 @@ msgstr "Paralelogram je četverokut s dvije suprotne paralelne stranice."
 msgid "Middle Connection Theorem for Trapezoid."
 msgstr "Teorema srednja linija trapeza."
 
-#, fuzzy
 msgid "Ratio."
-msgstr "Odnos duži"
+msgstr "Razmera."
 
-#, fuzzy
 msgid "Use Ratio in Deductive Database Method."
-msgstr "Metod deduktivne baze podataka"
+msgstr "Razmera koristimo u deduktivnoj metodi baze podataka."
 
 # GDD 43/1
 msgid "Ratio by angle bisector."
@@ -3479,9 +3470,8 @@ msgstr ""
 "Ako je A centar (incenter) od P2, K, I, ∠[AB, CD] = ∠[AB, BK] + ∠[BK, CD] = "
 "∠[1] + ∠[KI, KA] + ∠[IA, IK] + ∠[BK, CD]."
 
-#, fuzzy
 msgid "Equal angle found in the Geometry Deductive Database."
-msgstr "Ne mogu dokazati ovu teoremu primenom metode Deduktivne baze podataka."
+msgstr "Jednak ugao pronađen u deduktivnoj geometrijskoj bazi podataka."
 
 # Full 22/1
 msgid "If AB ⊥ AC and AB = AC, then ∠[AB,AC] = 2 · ∠[AB,BC]."
@@ -3574,9 +3564,8 @@ msgstr ""
 msgid "seconds"
 msgstr "Druga"
 
-#, fuzzy
 msgid "AAA"
-msgstr "UUS"
+msgstr "UUU"
 
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"
