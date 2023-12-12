@@ -1,0 +1,17 @@
+name: build
+
+on: [push]
+
+jobs:
+  linux:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: prerequisites
+      run: >-
+        sudo apt update --allow-unauthenticated --allow-insecure-repositories &&
+        sudo apt install gettext openjdk-11-jdk
+    - name: build
+      run: ./gradlew package

@@ -1,0 +1,3505 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: jgex@googlegroups.com\n"
+"POT-Creation-Date: 2023-11-15 23:44+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../wprover/AboutDialog.java:49
+msgid "Java Geometry Expert"
+msgstr "متخصص هندسه تحت جاوا"
+
+#: ../wprover/AboutDialog.java:53
+msgid "Last modified on"
+msgstr ""
+
+#: ../wprover/AboutDialog.java:57
+msgid "Java version"
+msgstr ""
+
+#: ../wprover/AboutDialog.java:64
+msgid "Java Geometry Expert is free under GNU General Public License (GPL)."
+msgstr ""
+
+#: ../wprover/AboutDialog.java:65
+msgid "The user may download and distribute it freely."
+msgstr "کاربر میتواند برنامه را دانلود و استفاده کند"
+
+#: ../wprover/AboutDialog.java:78
+msgid "Authors"
+msgstr ""
+
+#: ../wprover/AboutDialog.java:103
+#, fuzzy
+msgid "For more information, please visit:"
+msgstr "برای کسب اطلاعات بیشتر ، ببینید :"
+
+#: ../wprover/concDialog.java:102
+msgid "True"
+msgstr ""
+
+#: ../wprover/concDialog.java:106
+msgid "False"
+msgstr ""
+
+#: ../wprover/concDialog.java:156
+msgid "Set One"
+msgstr "مجموعه یک"
+
+#: ../wprover/concDialog.java:157
+msgid "Set Two"
+msgstr "مجموعه دو"
+
+#: ../wprover/concDialog.java:184
+msgid "Please select"
+msgstr "لطفا انتخاب کنید"
+
+#: ../wprover/concDialog.java:186
+msgid "true"
+msgstr ""
+
+#: ../wprover/concDialog.java:205 ../wprover/GIFOptionDialog.java:56
+#: ../wprover/MiscDialog.java:66 ../wprover/mproveInputPanel.java:252
+#: ../wprover/PanelProve1.java:1407 ../wprover/RatioSelectDialog.java:49
+#: ../wprover/RectChooser1.java:81 ../wprover/RectChooser.java:84
+#: ../wprover/SpecificAngleDialog.java:55 ../wprover/TextFrame.java:121
+#: ../wprover/TextValueEditor.java:123 ../wprover/Update.java:188
+#: ../wprover/vFontChooser.java:170
+msgid "OK"
+msgstr "تایید"
+
+#: ../wprover/concDialog.java:209 ../wprover/NumCheckDialog.java:88
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: ../wprover/concDialog.java:211 ../wprover/DialogPsProperty.java:36
+#: ../wprover/GIFOptionDialog.java:57 ../wprover/mproveInputPanel.java:284
+#: ../wprover/RatioSelectDialog.java:50 ../wprover/RectChooser1.java:82
+#: ../wprover/RectChooser.java:85 ../wprover/SpecificAngleDialog.java:56
+#: ../wprover/TextFrame.java:122 ../wprover/TextValueEditor.java:124
+#: ../wprover/Update.java:187 ../wprover/vFontChooser.java:182
+msgid "Cancel"
+msgstr "لغو"
+
+#: ../wprover/concDialog.java:294 ../wprover/concDialog.java:312
+msgid "The number of points to be selected:"
+msgstr "تعداد نقاط انتخاب شده"
+
+#: ../wprover/CProperty.java:238 ../wprover/CProperty.java:179
+msgid "Basic"
+msgstr "پایه ای"
+
+#: ../wprover/CProperty.java:246 ../wprover/CProperty.java:664
+#: ../wprover/CStyleDialog.java:93 ../wprover/CStyleDialog.java:141
+#: ../wprover/DialogPsProperty.java:30 ../wprover/MiscDialog.java:44
+#: ../wprover/MiscDialog.java:641 ../wprover/RightClickPopMenu.java:34
+#: ../wprover/vFontChooser.java:149
+msgid "Color"
+msgstr "رنگ"
+
+#: ../wprover/CProperty.java:263 ../wprover/CProperty.java:393
+#: ../wprover/CProperty.java:640 ../wprover/CProperty.java:1017
+#: ../wprover/CStyleDialog.java:149
+msgid "Type"
+msgstr ""
+
+#: ../wprover/CProperty.java:283 ../wprover/CStyleDialog.java:157
+msgid "Width"
+msgstr ""
+
+#: ../wprover/CProperty.java:374 ../wprover/CProperty.java:632
+#: ../wprover/GExpert.java:854 ../wprover/GExpert.java:855
+#: ../wprover/HelpMode.java:45
+msgid "Line"
+msgstr "خط"
+
+#: ../wprover/CProperty.java:494 ../wprover/GExpert.java:864
+#: ../wprover/GExpert.java:865 ../wprover/HelpMode.java:67
+msgid "Circle"
+msgstr "دایره"
+
+#: ../wprover/CProperty.java:551 ../wprover/GExpert.java:842
+#: ../wprover/GExpert.java:843 ../wprover/HelpMode.java:42
+#: ../wprover/LeadVariableDialog.java:425
+msgid "Point"
+msgstr "نقطه"
+
+#: ../wprover/CProperty.java:653 ../wprover/MiscDialog.java:249
+msgid "Angle Text"
+msgstr "متن زاویه"
+
+#: ../wprover/CProperty.java:672
+msgid "Arc Num"
+msgstr "شماره قوس"
+
+#: ../wprover/CProperty.java:795 ../wprover/MiscDialog.java:270
+msgid "Label"
+msgstr "برچسب"
+
+#: ../wprover/CProperty.java:804
+msgid "Show Label"
+msgstr ""
+
+#: ../wprover/CProperty.java:805 ../wprover/MiscDialog.java:228
+msgid "Show Text"
+msgstr "نمایش متن"
+
+#: ../wprover/CProperty.java:814
+msgid "Significant Digits"
+msgstr ""
+
+#: ../wprover/CProperty.java:905
+msgid "Point number"
+msgstr ""
+
+#: ../wprover/CProperty.java:914
+msgid "Draw Line"
+msgstr "رسم خط"
+
+#: ../wprover/CProperty.java:960
+msgid "Num"
+msgstr "شماره"
+
+#: ../wprover/CProperty.java:961 ../wprover/CProperty.java:1095
+#: ../wprover/LeadVariableDialog.java:244
+#: ../wprover/LeadVariableDialog.java:427 ../wprover/MiscDialog.java:319
+msgid "Length"
+msgstr "طول"
+
+#: ../wprover/CProperty.java:1010 ../wprover/GExpert.java:874
+#: ../wprover/GExpert.java:887 ../wprover/HelpMode.java:86
+msgid "Polygon"
+msgstr "چند ضلعی"
+
+#: ../wprover/CProperty.java:1094 ../wprover/MiscDialog.java:375
+msgid "Angle"
+msgstr "زاویه"
+
+#: ../wprover/CProperty.java:1217 ../wprover/CProperty.java:1261
+#: ../wprover/CProperty.java:1307 ../wprover/LeadVariableDialog.java:242
+#: ../wprover/CProperty.java:625
+msgid "Name"
+msgstr "اسم"
+
+#: ../wprover/CProperty.java:1218 ../wprover/CProperty.java:1312
+#: ../wprover/drawProcess.java:10509 ../wprover/RightClickPopMenu.java:93
+msgid "Radius"
+msgstr "شعاع"
+
+#: ../wprover/CProperty.java:1219 ../wprover/RightClickPopMenu.java:76
+msgid "X Coordinate"
+msgstr ""
+
+#: ../wprover/CProperty.java:1220 ../wprover/RightClickPopMenu.java:78
+msgid "Y Coordinate"
+msgstr ""
+
+#: ../wprover/CProperty.java:1221
+msgid "Freezed"
+msgstr ""
+
+#: ../wprover/CProperty.java:1262
+msgid "Point on Line"
+msgstr "نقطه روی خط"
+
+#: ../wprover/CProperty.java:1308
+msgid "Point on Circle"
+msgstr "نقطه روی داریره"
+
+#: ../wprover/CProperty.java:1309
+msgid "Center"
+msgstr "مرکز"
+
+#: ../wprover/CProperty.java:1310
+msgid "Center X"
+msgstr "مرکز x"
+
+#: ../wprover/CProperty.java:1311
+msgid "Center Y"
+msgstr "مرکز y"
+
+#: ../wprover/CProperty.java:1352
+msgid "Grid Step"
+msgstr "گام شطرنجی"
+
+#: ../wprover/CProperty.java:1353
+msgid "Slope Angle"
+msgstr "شیب زاویه"
+
+#, fuzzy
+msgid "Slope"
+msgstr "شیب زاویه"
+
+#: ../wprover/DialogPsProperty.java:26 ../wprover/GExpert.java:766
+#: ../wprover/HelpMode.java:35
+msgid "Save as PS"
+msgstr "ذخیره به عنوان ps"
+
+#: ../wprover/DialogPsProperty.java:32 ../wprover/MiscDialog.java:616
+msgid "Gray"
+msgstr "خاکستری"
+
+#: ../wprover/DialogPsProperty.java:34 ../wprover/MiscDialog.java:617
+msgid "Black and White"
+msgstr "سیاه و سفید"
+
+#: ../wprover/DialogPsProperty.java:56
+msgid "Point filled with background color"
+msgstr "نقاط با رنگ زمینه ثابت شده اند"
+
+#: ../wprover/drawbase.java:527
+msgid "Intersection"
+msgstr "تقاطع"
+
+#: ../wprover/drawProcess.java:2242
+msgid "Angle Specification must be done before drawing anything"
+msgstr ""
+
+#: ../wprover/drawProcess.java:2243 ../wprover/drawProcess.java:3038
+#: ../wprover/PanelProve1.java:1087 ../wprover/Update.java:127
+msgid "Warning"
+msgstr "اخطار"
+
+#: ../wprover/drawProcess.java:3097
+#, fuzzy
+msgid "The selected two lines don't have intersected point"
+msgstr "دو خط انتخاب شده هیچ نقطه تقاطعی ندارند"
+
+#: ../wprover/drawProcess.java:3098
+#, fuzzy
+msgid "No intersected point"
+msgstr "بدون نقطه تقاطع"
+
+#: ../wprover/drawProcess.java:8069
+msgid "The two lines you selected are parallel, don't have any intersection!"
+msgstr ""
+
+#: ../wprover/drawProcess.java:8071 ../wprover/drawProcess.java:8132
+#: ../wprover/drawProcess.java:8205
+msgid "No intersection"
+msgstr ""
+
+#: ../wprover/drawProcess.java:8131
+msgid "The line and the circle you selected don't have any intersection"
+msgstr ""
+
+#: ../wprover/drawProcess.java:8147
+msgid ""
+"The two objects you selected already have two points as their intersections"
+msgstr ""
+
+#: ../wprover/drawProcess.java:8148 ../wprover/drawProcess.java:8221
+msgid "intersection already defined"
+msgstr ""
+
+#: ../wprover/drawProcess.java:8204
+msgid "The circles you selected don't have any intersection"
+msgstr ""
+
+#: ../wprover/drawProcess.java:10449 ../wprover/drawProcess.java:10501
+#: ../wprover/RightClickPopMenu.java:87 ../wprover/RightClickPopMenu.java:98
+msgid "Area"
+msgstr ""
+
+#: ../wprover/drawProcess.java:10505 ../wprover/RightClickPopMenu.java:90
+msgid "Girth"
+msgstr ""
+
+#: ../wprover/GExpert.java:353 ../wprover/RightClickPopMenu.java:38
+#, fuzzy
+msgid "Properties"
+msgstr "مشخصه"
+
+#: ../wprover/GExpert.java:744
+msgid "File"
+msgstr "فایل"
+
+#: ../wprover/GExpert.java:747 ../wprover/HelpMode.java:31
+msgid "New"
+msgstr "جدید"
+
+#: ../wprover/GExpert.java:751 ../wprover/HelpMode.java:32
+msgid "Open"
+msgstr "باز کردن"
+
+#: ../wprover/GExpert.java:753
+msgid "Import"
+msgstr ""
+
+#: ../wprover/GExpert.java:756 ../wprover/GExpert.java:1867
+#: ../wprover/HelpMode.java:33
+msgid "Save"
+msgstr "ذخیره"
+
+#: ../wprover/GExpert.java:758
+msgid "Save as..."
+msgstr "ذخیره به عنوان"
+
+#: ../wprover/GExpert.java:763 ../wprover/HelpMode.java:34
+msgid "Save as Text"
+msgstr "ذخیره به عنوان متن"
+
+#: ../wprover/GExpert.java:768 ../wprover/HelpMode.java:36
+msgid "Save as PDF"
+msgstr ""
+
+#: ../wprover/GExpert.java:771 ../wprover/HelpMode.java:37
+msgid "Save as Image"
+msgstr ""
+
+#: ../wprover/GExpert.java:773 ../wprover/HelpMode.java:38
+msgid "Save as Animated Image"
+msgstr ""
+
+#: ../wprover/GExpert.java:775 ../wprover/HelpMode.java:39
+msgid "Save Proof as Animated Image"
+msgstr ""
+
+#: ../wprover/GExpert.java:777
+msgid "Save GDD Proof as GraphViz File"
+msgstr ""
+
+#: ../wprover/GExpert.java:781 ../wprover/HelpMode.java:40
+msgid "Print"
+msgstr "چاپ"
+
+#: ../wprover/GExpert.java:784 ../wprover/HelpMode.java:41
+msgid "Exit"
+msgstr "خروج"
+
+#: ../wprover/GExpert.java:788
+msgid "Examples"
+msgstr "مثال ها"
+
+#: ../wprover/GExpert.java:809
+msgid "Construct"
+msgstr "ایجاد کردن"
+
+#: ../wprover/GExpert.java:811 ../wprover/HelpMode.java:49
+msgid "Point by Point and Segment"
+msgstr "نقطه به نقطه"
+
+#: ../wprover/GExpert.java:812 ../wprover/HelpMode.java:50
+msgid "Radical of Two Circles"
+msgstr ""
+
+#: ../wprover/GExpert.java:815 ../wprover/HelpMode.java:51
+msgid "Oriented Segment"
+msgstr ""
+
+#: ../wprover/GExpert.java:816 ../wprover/HelpMode.java:52
+msgid "Oriented T Segment"
+msgstr ""
+
+#: ../wprover/GExpert.java:818 ../wprover/HelpMode.java:53
+msgid "Oriented Segment * Ratio"
+msgstr ""
+
+#: ../wprover/GExpert.java:822 ../wprover/GExpert.java:828
+#: ../wprover/GExpert.java:839 ../wprover/GExpert.java:898
+#: ../wprover/GExpert.java:918
+msgid "Other..."
+msgstr ""
+
+#: ../wprover/GExpert.java:825
+msgid "Oriented T Segment * Ratio"
+msgstr ""
+
+#: ../wprover/GExpert.java:832 ../wprover/HelpMode.java:54
+msgid "Proportional Segment"
+msgstr ""
+
+#: ../wprover/GExpert.java:844 ../wprover/HelpMode.java:43
+#: ../wprover/MProveTree.java:1817
+msgid "Midpoint"
+msgstr "نقطه میانی"
+
+#: ../wprover/GExpert.java:846 ../wprover/HelpMode.java:55
+msgid "Circumcenter"
+msgstr ""
+
+#: ../wprover/GExpert.java:847 ../wprover/HelpMode.java:56
+msgid "Centroid"
+msgstr "مرکز"
+
+#: ../wprover/GExpert.java:848 ../wprover/HelpMode.java:57
+msgid "Orthocenter"
+msgstr ""
+
+#: ../wprover/GExpert.java:849 ../wprover/HelpMode.java:58
+msgid "Incenter"
+msgstr "داخل مرکز"
+
+#: ../wprover/GExpert.java:851 ../wprover/HelpMode.java:60
+msgid "Foot"
+msgstr "پای عمود"
+
+#: ../wprover/GExpert.java:856 ../wprover/HelpMode.java:46
+#: ../wprover/MProveTree.java:1816
+msgid "Parallel"
+msgstr "موازی"
+
+#: ../wprover/GExpert.java:857 ../wprover/HelpMode.java:47
+#: ../wprover/MProveTree.java:1816
+msgid "Perpendicular"
+msgstr "عمودی"
+
+#: ../wprover/GExpert.java:858 ../wprover/HelpMode.java:61
+msgid "Angle Bisector"
+msgstr ""
+
+#: ../wprover/GExpert.java:859 ../wprover/HelpMode.java:63
+msgid "Aline"
+msgstr ""
+
+#: ../wprover/GExpert.java:860 ../wprover/HelpMode.java:64
+msgid "Bline"
+msgstr ""
+
+#: ../wprover/GExpert.java:861 ../wprover/HelpMode.java:65
+msgid "TCline"
+msgstr ""
+
+#: ../wprover/GExpert.java:866 ../wprover/HelpMode.java:68
+msgid "Circle by Three Points"
+msgstr "دایره با سه نقطه"
+
+#: ../wprover/GExpert.java:867 ../wprover/HelpMode.java:69
+msgid "Compass"
+msgstr ""
+
+#: ../wprover/GExpert.java:870 ../wprover/GExpert.java:922
+msgid "Action"
+msgstr "عمل"
+
+#: ../wprover/GExpert.java:871 ../wprover/HelpMode.java:71
+msgid "Intersect"
+msgstr "قطع کردن"
+
+#: ../wprover/GExpert.java:872 ../wprover/HelpMode.java:72
+msgid "Mirror"
+msgstr ""
+
+#: ../wprover/GExpert.java:875 ../wprover/HelpMode.java:74
+msgid "Triangle"
+msgstr "مثلث"
+
+#: ../wprover/GExpert.java:876 ../wprover/HelpMode.java:75
+#: ../wprover/MProveTree.java:1822
+msgid "Isosceles Triangle"
+msgstr "مثلث متساوی الساقین"
+
+#: ../wprover/GExpert.java:877 ../wprover/HelpMode.java:76
+#: ../wprover/MProveTree.java:1823
+msgid "Equilateral Triangle"
+msgstr "مثلث متساوی الاضلاع"
+
+#: ../wprover/GExpert.java:878 ../wprover/HelpMode.java:77
+msgid "Right-angled Triangle"
+msgstr "مثلث قائم الزاویه"
+
+#: ../wprover/GExpert.java:879 ../wprover/HelpMode.java:78
+msgid "Isosceles Right-angled Triangle"
+msgstr "مثلث قائم الزاویه متسای الساقین"
+
+#: ../wprover/GExpert.java:880 ../wprover/HelpMode.java:79
+msgid "Quadrangle"
+msgstr "چهارضلعی"
+
+#: ../wprover/GExpert.java:881 ../wprover/HelpMode.java:80
+#: ../wprover/MProveTree.java:1820
+msgid "Parallelogram"
+msgstr "متوازی الاضلاع"
+
+#: ../wprover/GExpert.java:882 ../wprover/HelpMode.java:81
+#: ../wprover/MProveTree.java:1823
+msgid "Trapezoid"
+msgstr "ذوزنقه"
+
+#: ../wprover/GExpert.java:883 ../wprover/HelpMode.java:82
+msgid "Right-angled Trapezoid"
+msgstr "ذوزنقه قائم الزاویه"
+
+#: ../wprover/GExpert.java:884 ../wprover/HelpMode.java:83
+#: ../wprover/MProveTree.java:1824
+msgid "Rectangle"
+msgstr "مستطیل"
+
+#, fuzzy
+msgid "Rectangle {0}"
+msgstr "مستطیل"
+
+#: ../wprover/GExpert.java:885 ../wprover/HelpMode.java:84
+#: ../wprover/MProveTree.java:1824
+msgid "Square"
+msgstr "مربع"
+
+#: ../wprover/GExpert.java:886 ../wprover/HelpMode.java:85
+msgid "Pentagon"
+msgstr "پنج ضلعی"
+
+#: ../wprover/GExpert.java:889
+msgid "Special Angles"
+msgstr "زاویه های مخصوص"
+
+#: ../wprover/GExpert.java:903
+msgid "Constraint"
+msgstr "قید"
+
+#: ../wprover/GExpert.java:904 ../wprover/HelpMode.java:89
+#: ../wprover/MProveTree.java:1818
+msgid "Eqangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:906 ../wprover/HelpMode.java:90
+msgid "Eqangle3p"
+msgstr ""
+
+#: ../wprover/GExpert.java:907 ../wprover/HelpMode.java:91
+#: ../wprover/SpecificAngleDialog.java:32
+msgid "Angle Specification"
+msgstr "تعیین زاویه"
+
+#: ../wprover/GExpert.java:910 ../wprover/HelpMode.java:92
+msgid "Equal Ratio"
+msgstr "نسبت مساوی"
+
+#: ../wprover/GExpert.java:912 ../wprover/HelpMode.java:93
+msgid "Equal Distance"
+msgstr "فاصله مساوی"
+
+#: ../wprover/GExpert.java:914 ../wprover/HelpMode.java:94
+msgid "Ratio Distance"
+msgstr ""
+
+#: ../wprover/GExpert.java:920 ../wprover/HelpMode.java:95
+msgid "CCtangent"
+msgstr ""
+
+#: ../wprover/GExpert.java:924 ../wprover/HelpMode.java:98
+#: ../wprover/RightClickPopMenu.java:73
+msgid "Trace"
+msgstr "ردیابی"
+
+#: ../wprover/GExpert.java:925 ../wprover/HelpMode.java:99
+msgid "Locus"
+msgstr "مکان هندسی"
+
+#: ../wprover/GExpert.java:926 ../wprover/HelpMode.java:100
+msgid "Animation"
+msgstr "انیمیشن"
+
+#: ../wprover/GExpert.java:929 ../wprover/HelpMode.java:102
+msgid "Fill Polygon"
+msgstr "پرکردن چند ضلعی"
+
+#: ../wprover/GExpert.java:930 ../wprover/HelpMode.java:103
+msgid "Measure Distance"
+msgstr "اندازه گرفتن فاصله"
+
+#: ../wprover/GExpert.java:931 ../wprover/HelpMode.java:104
+msgid "Arrow"
+msgstr ""
+
+#: ../wprover/GExpert.java:934 ../wprover/HelpMode.java:106
+msgid "Equal Mark"
+msgstr "نمره مساوی"
+
+#: ../wprover/GExpert.java:940 ../wprover/HelpMode.java:107
+msgid "Right-angle Mark"
+msgstr ""
+
+#: ../wprover/GExpert.java:941 ../wprover/HelpMode.java:108
+#: ../wprover/TextValueEditor.java:45
+msgid "Calculation"
+msgstr ""
+
+#: ../wprover/GExpert.java:944 ../wprover/HelpMode.java:110
+msgid "Hide Object"
+msgstr "مخفی کردن شی"
+
+#: ../wprover/GExpert.java:945 ../wprover/HelpMode.java:111
+msgid "Show Object"
+msgstr "نمایش دادن شی"
+
+#: ../wprover/GExpert.java:947 ../wprover/HelpMode.java:112
+msgid "Transform"
+msgstr "تغییر شکل دادن"
+
+#: ../wprover/GExpert.java:948 ../wprover/HelpMode.java:113
+msgid "Equivalence"
+msgstr "تعادل"
+
+#: ../wprover/GExpert.java:949 ../wprover/HelpMode.java:114
+msgid "Free Transform"
+msgstr "تبدیل کردن آزاد"
+
+#: ../wprover/GExpert.java:957
+msgid "Lemmas"
+msgstr "لم ها"
+
+#: ../wprover/GExpert.java:959 ../wprover/HelpMode.java:116
+msgid "Rules for Full Angle"
+msgstr ""
+
+#: ../wprover/GExpert.java:960 ../wprover/HelpMode.java:117
+msgid "Rules for GDD"
+msgstr ""
+
+#: ../wprover/GExpert.java:959 ../wprover/HelpMode.java:116
+msgid "Rules for the Full Angle Method"
+msgstr ""
+
+#: ../wprover/GExpert.java:960 ../wprover/HelpMode.java:117
+msgid "Rules for the GDD Method"
+msgstr ""
+
+#: ../wprover/GExpert.java:963
+#, fuzzy
+msgid "Options"
+msgstr "خصیصه"
+
+#: ../wprover/GExpert.java:965 ../wprover/HelpMode.java:119
+#: ../wprover/MiscDialog.java:32
+#, fuzzy
+msgid "Preferences"
+msgstr "صلیقه ها"
+
+#: ../wprover/GExpert.java:968 ../wprover/HelpMode.java:120
+#: ../wprover/ListTree.java:60 ../wprover/UndoEditDialog.java:20
+msgid "Construct History"
+msgstr "لیست اشکال قبلی"
+
+#: ../wprover/GExpert.java:970 ../wprover/HelpMode.java:121
+msgid "Show Step Bar"
+msgstr "نمایش نوار مرحله به مرحله"
+
+#: ../wprover/GExpert.java:972 ../wprover/HelpMode.java:122
+msgid "Style Dialog"
+msgstr ""
+
+#: ../wprover/GExpert.java:975 ../wprover/GExpert.java:976
+#: ../wprover/HelpMode.java:125
+msgid "Help"
+msgstr "راهنما"
+
+#: ../wprover/GExpert.java:983 ../wprover/HelpMode.java:127
+msgid "Help on Mode"
+msgstr ""
+
+#: ../wprover/GExpert.java:986 ../wprover/HelpMode.java:128
+msgid "JGEX Homepage"
+msgstr ""
+
+#: ../wprover/GExpert.java:988 ../wprover/HelpMode.java:129
+msgid "Contact Us"
+msgstr ""
+
+#: ../wprover/GExpert.java:993 ../wprover/HelpMode.java:131
+msgid "About JGEX"
+msgstr "درباره JGEX"
+
+#: ../wprover/GExpert.java:1158 ../wprover/GExpert.java:2424
+msgid "Move"
+msgstr "حرکت دادن"
+
+#: ../wprover/GExpert.java:1163 ../wprover/GExpert.java:2419
+msgid "Select"
+msgstr "انتخاب"
+
+#: ../wprover/GExpert.java:1661
+msgid "Please input the value of the angle"
+msgstr ""
+
+#: ../wprover/GExpert.java:1811
+msgid "Nothing to be saved."
+msgstr ""
+
+#: ../wprover/GExpert.java:1866
+msgid "The diagram has been changed, do you want to save it?"
+msgstr "شکل هندسی تغییر یافته است ، میخواهید ذخیره شود ؟"
+
+#: ../wprover/GExpert.java:1931
+msgid "File exists"
+msgstr "وجود داشتن فایل"
+
+#: ../wprover/GExpert.java:2008
+msgid "No animation has been defined."
+msgstr ""
+
+#: ../wprover/GExpert.java:2015
+msgid "GIF Option"
+msgstr ""
+
+#: ../wprover/GIFOptionDialog.java:33
+msgid "Image Quality"
+msgstr ""
+
+#: ../wprover/GIFOptionDialog.java:103
+msgid "Best"
+msgstr ""
+
+#: ../wprover/GIFOptionDialog.java:105
+msgid "Good"
+msgstr ""
+
+#: ../wprover/GIFOptionDialog.java:107
+msgid "Medium"
+msgstr ""
+
+#: ../wprover/GIFOptionDialog.java:109
+msgid "Low"
+msgstr ""
+
+#: ../wprover/GIFOptionDialog.java:110
+msgid "Very Low"
+msgstr ""
+
+#: ../wprover/HelpMode.java:87
+msgid "sangle"
+msgstr ""
+
+#: ../wprover/HelpMode.java:126
+msgid "Online Help"
+msgstr "راهنمای آنلاین"
+
+#: ../wprover/HelpMode.java:130
+msgid "Check for Update"
+msgstr ""
+
+#: ../wprover/LeadVariableDialog.java:34
+msgid "Algebraic Translation"
+msgstr ""
+
+#: ../wprover/LeadVariableDialog.java:58
+msgid "Variables"
+msgstr "متغییرها"
+
+#: ../wprover/LeadVariableDialog.java:68
+msgid "Reduce"
+msgstr "کم کردن"
+
+#: ../wprover/LeadVariableDialog.java:69
+#, fuzzy
+msgid "Details"
+msgstr "جزئیات"
+
+#: ../wprover/LeadVariableDialog.java:70
+msgid "Reload"
+msgstr "بارگذاری مجدد"
+
+#: ../wprover/LeadVariableDialog.java:71 ../wprover/NumCheckDialog.java:89
+msgid "Close"
+msgstr "بستن"
+
+#: ../wprover/LeadVariableDialog.java:243
+#: ../wprover/LeadVariableDialog.java:426
+msgid "Variable"
+msgstr "متغییر"
+
+#: ../wprover/LeadVariableDialog.java:245
+#: ../wprover/LeadVariableDialog.java:333
+msgid "Polynomial"
+msgstr "چند جمله ای"
+
+#: ../wprover/LeadVariableDialog.java:376
+msgid "Cut"
+msgstr "بریدن"
+
+#: ../wprover/LeadVariableDialog.java:377
+msgid "Copy"
+msgstr "کپی کردن"
+
+#: ../wprover/LeadVariableDialog.java:378
+msgid "Paste"
+msgstr "چسباندن"
+
+#: ../wprover/LeadVariableDialog.java:379 ../wprover/MProveTree.java:752
+#: ../wprover/MProveTree.java:756 ../wprover/MProveTree.java:807
+msgid "Delete"
+msgstr "حذف کردن"
+
+#: ../wprover/ListTree.java:99
+msgid "Objects"
+msgstr ""
+
+#: ../wprover/MiscDialog.java:40
+msgid "Display"
+msgstr "نمایش"
+
+#: ../wprover/MiscDialog.java:42
+msgid "Mode"
+msgstr "حالت"
+
+#: ../wprover/MiscDialog.java:45 ../wprover/MiscDialog.java:287
+#: ../wprover/vFontChooser.java:108
+msgid "Font"
+msgstr "فونت"
+
+#: ../wprover/MiscDialog.java:46
+msgid "Other"
+msgstr ""
+
+#: ../wprover/MiscDialog.java:56
+#, fuzzy
+msgid "Save Preferences"
+msgstr "ذخیره صلایق"
+
+#: ../wprover/MiscDialog.java:59 ../wprover/CProperty.java:625
+msgid "Default"
+msgstr "پیش فرض"
+
+#: ../wprover/MiscDialog.java:116
+#, fuzzy
+msgid "Can not save Preferences"
+msgstr "نمیتوان این تنظیمات را ذخیره کرد"
+
+#: ../wprover/MiscDialog.java:119
+#, fuzzy
+msgid "Preferences have been successfully saved."
+msgstr "تنظیمات ذخیره شدند"
+
+#: ../wprover/MiscDialog.java:120
+msgid "Please restart the program."
+msgstr "لطفا برنامه را مجددا راه اندازی کنید"
+
+#: ../wprover/MiscDialog.java:121
+msgid "Saved"
+msgstr "ذخیره شده"
+
+#: ../wprover/MiscDialog.java:154
+msgid "Polygon Alpha"
+msgstr "آلفای چند جمله"
+
+#: ../wprover/MiscDialog.java:195
+msgid "Radius of Point"
+msgstr "شعاع نقطه"
+
+#: ../wprover/MiscDialog.java:212 ../wprover/MiscDialog.java:468
+msgid "Point's Text"
+msgstr "متن نقطه"
+
+#: ../wprover/MiscDialog.java:213
+msgid "Default Font"
+msgstr "فونت پیش فرض"
+
+#: ../wprover/MiscDialog.java:219
+#, fuzzy
+msgid "Choose default font for point's text"
+msgstr "انتخاب فوت مناسب برای متن نقاط"
+
+#: ../wprover/MiscDialog.java:266
+msgid "None"
+msgstr "هیچ"
+
+#: ../wprover/MiscDialog.java:273
+msgid "Degrees"
+msgstr "درجه"
+
+#: ../wprover/MiscDialog.java:307
+msgid "Foot Mark"
+msgstr "علامت پایین"
+
+#: ../wprover/MiscDialog.java:308
+msgid "Show foot mark"
+msgstr "نمایش علامت پایین"
+
+#: ../wprover/MiscDialog.java:378 ../wprover/CProperty.java:624
+msgid "Without Arrow"
+msgstr "بدون فلش"
+
+#: ../wprover/MiscDialog.java:380 ../wprover/CProperty.java:624
+msgid "With Arrow"
+msgstr "با فلش"
+
+#: ../wprover/MiscDialog.java:382 ../wprover/CProperty.java:624
+msgid "Multiple Arc"
+msgstr "چند قوس"
+
+#: ../wprover/MiscDialog.java:384 ../wprover/CProperty.java:624
+#: ../wprover/CProperty.java:997
+msgid "Fill"
+msgstr "پر کردن"
+
+#: ../wprover/MiscDialog.java:399
+msgid "Polygon Moving Interval"
+msgstr "فاصله حرکت چند ضلعی"
+
+#: ../wprover/MiscDialog.java:486 ../wprover/MProveTree.java:315
+msgid "Theorem"
+msgstr "قضیه"
+
+#: ../wprover/MiscDialog.java:522 ../wprover/PanelProve1.java:2368
+msgid "Area Method"
+msgstr ""
+
+msgid "Area Method computations"
+msgstr ""
+
+msgid "Manual proof editor"
+msgstr ""
+
+#: ../wprover/MiscDialog.java:540
+msgid "Manual Method"
+msgstr ""
+
+msgid "Deduction tree of the GDD method"
+msgstr ""
+
+msgid "Algebraic computations for Wu's method"
+msgstr ""
+
+msgid "Algebraic computations for the Groebner basis method"
+msgstr ""
+
+msgid "Derivation for the Full Angle method"
+msgstr ""
+
+msgid "Show the internal description of the construction"
+msgstr ""
+
+msgid "Show general properties that seem to be true"
+msgstr ""
+
+#: ../wprover/MiscDialog.java:558 ../wprover/PanelProve1.java:373
+msgid "Fixpoint"
+msgstr "نقطه ثابت"
+
+#: ../wprover/MiscDialog.java:576
+msgid "Algebra"
+msgstr ""
+
+#: ../wprover/MiscDialog.java:612
+msgid "Color Mode"
+msgstr "حالت رنگ"
+
+#: ../wprover/MiscDialog.java:615
+msgid "Colorful"
+msgstr "رنگارنگ"
+
+#: ../wprover/MiscDialog.java:652 ../wprover/CProperty.java:998
+msgid "Grid"
+msgstr "صفحه شطرنجی"
+
+#: ../wprover/MiscDialog.java:700 ../wprover/MiscDialog.java:711
+#: ../wprover/CProperty.java:318
+msgid "Choose Color"
+msgstr "رنگ انتخاب شده"
+
+#: ../wprover/MiscDialog.java:761
+msgid "AntiAlias"
+msgstr "ضد نام مستعار"
+
+#: ../wprover/MiscDialog.java:763
+msgid "ON"
+msgstr ""
+
+#: ../wprover/MiscDialog.java:764
+msgid "OFF"
+msgstr "خاموش"
+
+#: ../wprover/MiscDialog.java:778
+msgid "Language"
+msgstr "زبان"
+
+#: ../wprover/MiscDialog.java:802
+msgid "LookAndFeel"
+msgstr "نگاه کنید و احساس کنید"
+
+#: ../wprover/mproveInputPanel.java:237
+msgid "Edit"
+msgstr "ویرایش کردن"
+
+#: ../wprover/mproveInputPanel.java:260
+msgid "Add"
+msgstr "اضافه کردن"
+
+#: ../wprover/mproveInputPanel.java:268
+msgid "Append"
+msgstr "افزودن"
+
+#: ../wprover/mproveInputPanel.java:276
+msgid "Child"
+msgstr "بچه"
+
+#: ../wprover/mproveInputPanel.java:1138
+msgid "Basic Assertions"
+msgstr "ادعای پایه"
+
+#: ../wprover/mproveInputPanel.java:1160
+msgid "Polygon Related"
+msgstr "مربوط به چند ضلعی"
+
+#: ../wprover/mproveInputPanel.java:1169
+msgid "Inequality"
+msgstr "نابرابری"
+
+#: ../wprover/MProveTree.java:758
+#, fuzzy
+msgid "Delete this row"
+msgstr "حذف کردن این ردیف"
+
+#: ../wprover/MProveTree.java:763
+#, fuzzy
+msgid "Add a new row"
+msgstr "اضافه کردن یک ردیف جدید"
+
+#: ../wprover/MProveTree.java:767
+#, fuzzy
+msgid "Append a term"
+msgstr "افزودن"
+
+#: ../wprover/MProveTree.java:771
+msgid "Combine selected rows"
+msgstr ""
+
+#: ../wprover/ndgDialog.java:31 ../wprover/PanelProve1.java:2424
+msgid "Nondegenerate Conditions"
+msgstr ""
+
+#: ../wprover/ndgDialog.java:44
+msgid "The Simplified Nondegenerate Conditions"
+msgstr ""
+
+#: ../wprover/ndgDialog.java:45
+msgid "The Final Nondegenerate Conditions"
+msgstr ""
+
+#: ../wprover/ndgDialog.java:258 ../wprover/MProveTree.java:1519
+msgid "Construction"
+msgstr "ساخت"
+
+#: ../wprover/ndgDialog.java:259
+msgid "Nondegenerate Condition"
+msgstr ""
+
+#: ../wprover/NumCheckDialog.java:30 ../wprover/PanelProve1.java:2410
+msgid "Numerical Check"
+msgstr "تست عددی"
+
+#: ../wprover/NumCheckDialog.java:242
+msgid "TRUE"
+msgstr "صحیح"
+
+#: ../wprover/NumCheckDialog.java:246
+msgid "FALSE"
+msgstr "غلط"
+
+#: ../wprover/panelAlgebric.java:125
+msgid "The Algebraic Form:"
+msgstr ""
+
+#: ../wprover/panelGB.java:623
+msgid "The Nondegenerate Conditions:"
+msgstr ""
+
+#: ../wprover/panelGB.java:704
+msgid "The Initial Polynomial Set:"
+msgstr ""
+
+#: ../wprover/panelGB.java:709
+msgid "The Groebner basis:"
+msgstr ""
+
+#: ../wprover/panelGB.java:723
+#, fuzzy
+msgid "The conclusion:"
+msgstr "بدون نتیجه"
+
+#: ../wprover/panelGB.java:726
+msgid "The conclusion after reduce:"
+msgstr ""
+
+#: ../wprover/panelGB.java:731 ../wprover/panelWu.java:179
+msgid "The conclusion is true"
+msgstr ""
+
+#: ../wprover/panelGB.java:734 ../wprover/panelWu.java:182
+msgid "The conclusion is false"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:673
+msgid "Search facts"
+msgstr "واقعیات جستجو"
+
+#: ../wprover/PanelProve1.java:889
+msgid "Add Conclusion"
+msgstr "اضافه کردن نتیجه"
+
+#: ../wprover/PanelProve1.java:930
+msgid "Time:"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:930
+#, fuzzy
+msgid "second(s)"
+msgstr "ثانیه ( ها )"
+
+#: ../wprover/PanelProve1.java:993
+msgid "lines"
+msgstr "خطوط"
+
+#: ../wprover/PanelProve1.java:999
+msgid "parallel lines"
+msgstr "خطوط موازی"
+
+#: ../wprover/PanelProve1.java:1005
+msgid "perpendicular lines"
+msgstr "خطوط عمود"
+
+#: ../wprover/PanelProve1.java:1011
+msgid "midpoints"
+msgstr "نقاط میانی"
+
+#: ../wprover/PanelProve1.java:1017
+msgid "circles"
+msgstr "دایره ها"
+
+#: ../wprover/PanelProve1.java:1023
+msgid "congruent segments"
+msgstr "تکه های متجانس"
+
+#: ../wprover/PanelProve1.java:1030
+msgid "congruent angles"
+msgstr "زاویه های متجانس"
+
+#: ../wprover/PanelProve1.java:1042
+msgid "similiar triangles"
+msgstr "مثلث های متشابه"
+
+#: ../wprover/PanelProve1.java:1047
+msgid "congruent triangles"
+msgstr "مثلث های متجانس"
+
+#: ../wprover/PanelProve1.java:1054
+msgid "special angles"
+msgstr "زاویه های وِیژه"
+
+#: ../wprover/PanelProve1.java:1059
+msgid "perp-acong angles"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:1067
+msgid "ratio segments"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:1086
+msgid "Can not find any proof!"
+msgstr "هیچ اثباتی را نمیتوان یافت"
+
+msgid "Not Found"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:1258 ../wprover/PanelProve1.java:1340
+#: ../wprover/PanelProve1.java:1397
+#, fuzzy
+msgid "No conclusion has been set!"
+msgstr "بدون نتیجه"
+
+#: ../wprover/PanelProve1.java:1259 ../wprover/PanelProve1.java:1341
+#: ../wprover/PanelProve1.java:1398
+msgid "No conclusion"
+msgstr "بدون نتیجه"
+
+#: ../wprover/PanelProve1.java:1300 ../wprover/PanelProve1.java:1373
+#: ../wprover/PanelProve1.java:1379
+msgid "Message"
+msgstr "پیام"
+
+#: ../wprover/PanelProve1.java:1313
+#, fuzzy
+msgid "Please construct the diagram first!"
+msgstr "ابتدا این شکل هندسی را ایجاد کنید"
+
+#: ../wprover/PanelProve1.java:1314
+#, fuzzy
+msgid "Diagram not completed"
+msgstr "شکل هندسی کامل نشده است"
+
+#: ../wprover/PanelProve1.java:1372
+msgid "{0} is trivially true"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:1378
+msgid "{0} is obviously true (by hypothesis)"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:1385 ../wprover/PanelProve1.java:1409
+msgid "Can not prove this theorem"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:1386
+msgid "Information"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:1407
+msgid "Show Detail"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:1410
+msgid "Failed"
+msgstr "رد شده"
+
+#: ../wprover/PanelProve1.java:1416
+msgid "The conclusion can not be translated to full-angle expression."
+msgstr ""
+
+#: ../wprover/PanelProve1.java:1417
+msgid "Not Supported"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:2057 ../wprover/PanelProve1.java:2390
+#: ../wprover/PanelProve1.java:2392
+msgid "Prove"
+msgstr "اثبات"
+
+#: ../wprover/PanelProve1.java:2060
+msgid "Prove in a new tab"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:2064
+msgid "Refresh"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:2067
+#, fuzzy
+msgid "Search a fact"
+msgstr "واقعیات جستجو"
+
+#: ../wprover/PanelProve1.java:2185
+msgid "File format not supported!"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:2186
+msgid "Can not open"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:2349
+msgid "Deductive Database Method"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:2355
+msgid "Full Angle Method"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:2361
+msgid "Traditional Method"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:2383
+msgid "Wu's Method"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:2398
+msgid "To Prove"
+msgstr "اثبات کردن"
+
+#: ../wprover/PanelProve1.java:2418
+msgid "Polynomials"
+msgstr ""
+
+#: ../wprover/PanelProve1.java:2431
+#, fuzzy
+msgid "All solutions"
+msgstr "اضافه کردن نتیجه"
+
+#: ../wprover/panelWu.java:84 ../wprover/panelWu.java:94
+msgid "Remainder"
+msgstr ""
+
+#: ../wprover/panelWu.java:146
+msgid "The Triangulized Hypotheses:"
+msgstr ""
+
+#: ../wprover/panelWu.java:159
+msgid ""
+"Successive Pseudo Remainder of the conclusion wrt Triangulized Hypotheses:"
+msgstr ""
+
+#: ../wprover/panelWu.java:168
+msgid "System Run Out Of Memory"
+msgstr ""
+
+#: ../wprover/panelWu.java:169
+msgid "The Theorem Is Not Proved!"
+msgstr ""
+
+#: ../wprover/panelWu.java:172
+msgid "The conclusion is not proved"
+msgstr ""
+
+#: ../wprover/RatioSelectDialog.java:27
+msgid "Set the ratio"
+msgstr ""
+
+#: ../wprover/RatioSelectDialog.java:32
+msgid "Please input two integers"
+msgstr "لطفا دو عدد صحیح وارد کنید"
+
+#: ../wprover/RectChooser.java:36
+msgid "Please choose the client area"
+msgstr ""
+
+#: ../wprover/RightClickPopMenu.java:20
+msgid "Cancel Action"
+msgstr "لغو عمل"
+
+#: ../wprover/RightClickPopMenu.java:56
+msgid "Edit Text"
+msgstr "ویرایش متن"
+
+#: ../wprover/RightClickPopMenu.java:63
+msgid "Freeze"
+msgstr ""
+
+#: ../wprover/RightClickPopMenu.java:66
+msgid "Unfreeze"
+msgstr ""
+
+#: ../wprover/RightClickPopMenu.java:70
+msgid "Stop Trace"
+msgstr ""
+
+#: ../wprover/RightClickPopMenu.java:205
+msgid "Plain"
+msgstr "مسطح"
+
+#: ../wprover/RightClickPopMenu.java:206 ../wprover/vFontChooser.java:96
+msgid "Bold"
+msgstr "پررنگ"
+
+#: ../wprover/RuleApplicationDialog.java:309 ../wprover/MProveTree.java:1000
+#: ../wprover/MProveTree.java:1001 ../wprover/MProveTree.java:1002
+#: ../wprover/MProveTree.java:1003 ../wprover/MProveTree.java:1004
+#: ../wprover/MProveTree.java:1005 ../wprover/MProveTree.java:1006
+#: ../wprover/MProveTree.java:1007 ../wprover/MProveTree.java:1008
+#: ../wprover/MProveTree.java:1009 ../wprover/MProveTree.java:1010
+#: ../wprover/MProveTree.java:1011 ../wprover/MProveTree.java:1012
+#: ../wprover/MProveTree.java:1013 ../wprover/MProveTree.java:1015
+msgid "because"
+msgstr ""
+
+#: ../wprover/TextFrame.java:196 ../wprover/TextFrame.java:198
+#: ../wprover/MProveTree.java:1518
+msgid "Text"
+msgstr "متن"
+
+#: ../wprover/TextValueEditor.java:107
+msgid "Data"
+msgstr ""
+
+#: ../wprover/TextValueEditor.java:108
+msgid "Function"
+msgstr ""
+
+#: ../wprover/TextValueEditor.java:142
+msgid "Coordinates"
+msgstr ""
+
+#: ../wprover/Update.java:70 ../wprover/Update.java:120
+msgid "Connection failed: Please check your network connection and try again."
+msgstr ""
+
+#: ../wprover/Update.java:71 ../wprover/Update.java:121
+msgid "Connection failed"
+msgstr ""
+
+#: ../wprover/Update.java:140 ../wprover/Update.java:150
+msgid "Update Information"
+msgstr ""
+
+#: ../wprover/Update.java:146
+msgid ""
+"A new version is available on the server, \n"
+"do you want to update?"
+msgstr ""
+
+#: ../wprover/Update.java:147
+msgid "Your current JGEX version"
+msgstr ""
+
+#: ../wprover/Update.java:148
+msgid "Available JGEX version"
+msgstr ""
+
+#: ../wprover/Update.java:149
+msgid "Press OK to update."
+msgstr ""
+
+#: ../wprover/Update.java:168 ../wprover/Update.java:248
+msgid "JGEX Update"
+msgstr ""
+
+#: ../wprover/Update.java:189
+msgid "Hide"
+msgstr ""
+
+#: ../wprover/Update.java:246
+msgid ""
+"File downloaded! \n"
+"To update JGEX, the program will exit and restart"
+msgstr ""
+
+#: ../wprover/vcellRender.java:178 ../wprover/vcellRender.java:395
+msgid "by HYP"
+msgstr ""
+
+msgid "in GIB"
+msgstr ""
+
+#: ../wprover/vFontChooser.java:94
+msgid "Font Chooser"
+msgstr "انتخاب کننده فونت"
+
+#: ../wprover/vFontChooser.java:97
+msgid "Italic"
+msgstr "کج"
+
+#: ../wprover/vFontChooser.java:98
+msgid "Underline"
+msgstr "زیر خط"
+
+#: ../wprover/vFontChooser.java:99
+msgid "Strikethrough"
+msgstr "وسط ضربه زدن"
+
+#: ../wprover/vFontChooser.java:100
+msgid "Subscript"
+msgstr "زیر نویس"
+
+#: ../wprover/vFontChooser.java:101
+msgid "Superscript"
+msgstr "بالا نویس"
+
+#: ../wprover/vFontChooser.java:102
+msgid "Preview Font"
+msgstr "پیش نمایش فونت"
+
+#: ../wprover/vFontChooser.java:111
+msgid "Font name"
+msgstr "نام فونت"
+
+#: ../wprover/vFontChooser.java:115
+msgid "Font size"
+msgstr "اندازه فونت"
+
+#: ../wprover/vFontChooser.java:119
+msgid "Effects"
+msgstr "افکت"
+
+#: ../wprover/vFontChooser.java:155
+msgid "Font color"
+msgstr ""
+
+#: ../wprover/vFontChooser.java:162
+msgid "Preview"
+msgstr "پیش نمایش"
+
+#: ../wprover/vFontChooser.java:171
+msgid "Save and exit"
+msgstr "ذخیره و خروج"
+
+#: ../wprover/vFontChooser.java:183
+msgid "Exit without save"
+msgstr "خروج بدون ذخیره"
+
+#: ../wprover/AnimatePanel.java:42
+msgid "Start the animation"
+msgstr ""
+
+#: ../wprover/AnimatePanel.java:45
+msgid "Pause the animation"
+msgstr ""
+
+#: ../wprover/AnimatePanel.java:48
+msgid "Stop the animation"
+msgstr ""
+
+#: ../wprover/GExpert.java:781
+msgid "Print the client area"
+msgstr ""
+
+#: ../wprover/GExpert.java:811
+msgid ""
+"Click three points A, B, C, then click a point D on an object to get AB = CD"
+msgstr ""
+
+#: ../wprover/GExpert.java:812
+msgid "Click two circles to construct their radical axis"
+msgstr ""
+
+#: ../wprover/GExpert.java:815
+msgid "Click two points A, B, then a point C to get AB //= CD"
+msgstr ""
+
+#: ../wprover/GExpert.java:816
+msgid ""
+"Click two points A, B, then point C to get CD equal and perpendicular to +- "
+"AB"
+msgstr ""
+
+#: ../wprover/GExpert.java:822 ../wprover/GExpert.java:828
+#: ../wprover/GExpert.java:839
+msgid "Input your own ratio"
+msgstr ""
+
+#: ../wprover/GExpert.java:834
+msgid "Click two points to get a point with ratio {0}"
+msgstr ""
+
+#: ../wprover/GExpert.java:843 ../wprover/GExpert.java:2429
+msgid "Add a single point"
+msgstr ""
+
+#: ../wprover/GExpert.java:844 ../wprover/GExpert.java:2492
+msgid "Click two points to get their midpoint"
+msgstr ""
+
+#: ../wprover/GExpert.java:846
+msgid "Construct the circumcenter by selecting three points"
+msgstr ""
+
+#: ../wprover/GExpert.java:847
+msgid "Construct the centroid by clicking three points"
+msgstr ""
+
+#: ../wprover/GExpert.java:848
+msgid "Construct the orthocenter by clicking three points"
+msgstr ""
+
+#: ../wprover/GExpert.java:849
+msgid "Construct the incenter by clicking three points"
+msgstr ""
+
+#: ../wprover/GExpert.java:851
+msgid "Click a point then drag to a line to construct the foot"
+msgstr ""
+
+#: ../wprover/GExpert.java:855
+msgid "Draw a line by connecting two points"
+msgstr ""
+
+#: ../wprover/GExpert.java:856
+msgid "Parallel Line"
+msgstr "خط موازی"
+
+#, fuzzy
+msgid "parallel line"
+msgstr "خطوط موازی"
+
+#: ../wprover/GExpert.java:857
+msgid "Perpendicular Line"
+msgstr "خط عمودی"
+
+#, fuzzy
+msgid "perpendicular line"
+msgstr "خطوط عمود"
+
+#: ../wprover/GExpert.java:858
+msgid "Draw an angle bisector"
+msgstr ""
+
+#: ../wprover/GExpert.java:859
+msgid "Draw Aline"
+msgstr ""
+
+#: ../wprover/GExpert.java:860
+msgid "Perp-Bisect Line"
+msgstr ""
+
+#: ../wprover/GExpert.java:861
+msgid "Tangent Line"
+msgstr "خط مماس"
+
+#: ../wprover/GExpert.java:865
+msgid "Draw a circle by a center point and a point on circle"
+msgstr ""
+
+#: ../wprover/GExpert.java:867
+msgid "Circle by Radius"
+msgstr "دایره با شعاع"
+
+#: ../wprover/GExpert.java:871
+msgid "Intersect to decide a point"
+msgstr ""
+
+#: ../wprover/GExpert.java:872
+msgid "Mirror an element with respect to a line or a point"
+msgstr ""
+
+#: ../wprover/GExpert.java:875
+msgid "Draw a triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:876
+#, fuzzy
+msgid "Draw an isosceles triangle"
+msgstr "مثلث متساوی الساقین"
+
+#: ../wprover/GExpert.java:877
+#, fuzzy
+msgid "Draw an equilateral triangle"
+msgstr "مثلث متساوی الاضلاع"
+
+#: ../wprover/GExpert.java:878
+msgid "Draw a right-angled triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:879
+#, fuzzy
+msgid "Draw an isosceles right-angled triangle"
+msgstr "مثلث قائم الزاویه متسای الساقین"
+
+#: ../wprover/GExpert.java:880
+#, fuzzy
+msgid "Draw a quadrangle"
+msgstr "چهارگوشه"
+
+#: ../wprover/GExpert.java:881
+msgid "Draw a parallelogram"
+msgstr ""
+
+#: ../wprover/GExpert.java:882
+msgid "Draw a trapezoid"
+msgstr ""
+
+#: ../wprover/GExpert.java:883
+msgid "Draw a right angle trapezoid"
+msgstr ""
+
+#: ../wprover/GExpert.java:884
+msgid "Draw a rectangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:885
+msgid "Draw a square"
+msgstr ""
+
+#: ../wprover/GExpert.java:886
+msgid "Draw a pentagon"
+msgstr ""
+
+#: ../wprover/GExpert.java:887
+msgid "Draw a polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:890
+msgid "Draw an angle of {0} degrees"
+msgstr ""
+
+#: ../wprover/GExpert.java:891
+msgid "Draw an angle of other degrees"
+msgstr ""
+
+#: ../wprover/GExpert.java:904
+msgid "Set two angles equal"
+msgstr ""
+
+#: ../wprover/GExpert.java:906
+msgid "Set the sum of three angles equal to one"
+msgstr ""
+
+#: ../wprover/GExpert.java:907
+msgid "Set specific angles of system"
+msgstr ""
+
+#: ../wprover/GExpert.java:910
+msgid "Select four segments to set their equal ratio"
+msgstr ""
+
+#: ../wprover/GExpert.java:912
+msgid "Set two segments to be equal"
+msgstr ""
+
+#: ../wprover/GExpert.java:915
+msgid "Set two segments to have ratio: {0}"
+msgstr ""
+
+#: ../wprover/GExpert.java:918
+msgid "Set two segments to have specified ratio"
+msgstr ""
+
+#: ../wprover/GExpert.java:920
+msgid "Set two circles to be tangent"
+msgstr ""
+
+#: ../wprover/GExpert.java:924
+msgid ""
+"Select a point to trace its locus (in combination with move or animation)"
+msgstr ""
+
+#: ../wprover/GExpert.java:925
+msgid "The locus of a point"
+msgstr ""
+
+#: ../wprover/GExpert.java:926
+msgid "Click a point then an object to animate"
+msgstr ""
+
+#: ../wprover/GExpert.java:929
+msgid "select a closed segment path to fill the polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:930
+msgid "Select two angle to set equal"
+msgstr ""
+
+#: ../wprover/GExpert.java:931
+msgid "Select two points to construct an arrow"
+msgstr ""
+
+#: ../wprover/GExpert.java:935
+msgid "Mark for equal with one line"
+msgstr ""
+
+#: ../wprover/GExpert.java:936
+msgid "Mark for equal with two lines"
+msgstr ""
+
+#: ../wprover/GExpert.java:937
+msgid "Mark for equal with three lines"
+msgstr ""
+
+#: ../wprover/GExpert.java:938
+msgid "Mark for equal with four lines"
+msgstr ""
+
+#: ../wprover/GExpert.java:940
+#, fuzzy
+msgid "Draw a right angle mark"
+msgstr "چهارگوشه"
+
+#: ../wprover/GExpert.java:944
+msgid "Hide objects"
+msgstr ""
+
+#: ../wprover/GExpert.java:945
+msgid "Show objects that is hiden"
+msgstr ""
+
+#: ../wprover/GExpert.java:947
+msgid "Transform polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:948
+msgid "Equivalence transform polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:949
+msgid "Transform polygon freely"
+msgstr ""
+
+#: ../wprover/GExpert.java:965
+msgid "Set the default property"
+msgstr ""
+
+#: ../wprover/GExpert.java:968
+msgid "Edit construct history"
+msgstr ""
+
+#: ../wprover/GExpert.java:970
+#, fuzzy
+msgid "Show Step Bar for prove"
+msgstr "نمایش نوار مرحله به مرحله"
+
+#: ../wprover/GExpert.java:972
+msgid "Show Draw Style Dialog"
+msgstr ""
+
+#: ../wprover/GExpert.java:993
+msgid "About Java Geometry Expert"
+msgstr ""
+
+#: ../wprover/GExpert.java:2358
+msgid "construct history"
+msgstr ""
+
+#: ../wprover/GExpert.java:2361
+msgid "translate view"
+msgstr ""
+
+#: ../wprover/GExpert.java:2364
+msgid "zoom in view"
+msgstr ""
+
+#: ../wprover/GExpert.java:2367
+msgid "zoom out view"
+msgstr ""
+
+#: ../wprover/GExpert.java:2371
+msgid "snap to grid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2373
+msgid "draw the rectangle grid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2375
+msgid "make the grid less dense"
+msgstr ""
+
+#: ../wprover/GExpert.java:2377
+msgid "make the grid more dense"
+msgstr ""
+
+#: ../wprover/GExpert.java:2380
+msgid "redo a step"
+msgstr ""
+
+#: ../wprover/GExpert.java:2385
+msgid "undo a step"
+msgstr ""
+
+#: ../wprover/GExpert.java:2387
+msgid "forward to end"
+msgstr ""
+
+#: ../wprover/GExpert.java:2389
+msgid "back to start"
+msgstr ""
+
+#: ../wprover/GExpert.java:2392
+msgid "auto show draw step by step"
+msgstr ""
+
+#: ../wprover/GExpert.java:2406
+msgid "Create a new view"
+msgstr ""
+
+#: ../wprover/GExpert.java:2411
+msgid "Open a file"
+msgstr ""
+
+#: ../wprover/GExpert.java:2415
+msgid "Save to a file"
+msgstr ""
+
+#: ../wprover/GExpert.java:2419
+msgid "Select mode"
+msgstr ""
+
+#: ../wprover/GExpert.java:2433
+msgid "Select two points to construct a line"
+msgstr ""
+
+#: ../wprover/GExpert.java:2437 ../wprover/GExpert.java:856
+msgid "Draw a line which is parallel to another line"
+msgstr ""
+
+#: ../wprover/GExpert.java:2449
+msgid "Select a point and a line to construct the foot"
+msgstr ""
+
+#: ../wprover/GExpert.java:2453
+msgid "Draw two points and a circle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2459
+msgid "Select three points to construct the circle passing through them"
+msgstr ""
+
+#: ../wprover/GExpert.java:2463 ../wprover/GExpert.java:867
+msgid "Draw a circle with center and radius"
+msgstr ""
+
+#: ../wprover/GExpert.java:2468
+msgid "Define a polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:2472
+msgid "Select two lines to define their full-angle with a label"
+msgstr ""
+
+#: ../wprover/GExpert.java:2476
+msgid "Add text"
+msgstr ""
+
+#: ../wprover/GExpert.java:2480
+msgid "Take the intersection of two objects (circle or line)"
+msgstr ""
+
+#: ../wprover/GExpert.java:2484
+msgid "Mirror a object by clicking and then click a reflection axis or point"
+msgstr ""
+
+#: ../wprover/GExpert.java:2488
+msgid "Select two points or drag a segment to construct an isosceles triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2496
+msgid "Select two points or drag a segment to construct a square"
+msgstr ""
+
+#: ../wprover/AnimatePanel.java:42
+msgid "Play"
+msgstr ""
+
+#: ../wprover/AnimatePanel.java:45
+msgid "Pause"
+msgstr ""
+
+#: ../wprover/AnimatePanel.java:48
+msgid "stop"
+msgstr ""
+
+#: ../wprover/GExpert.java:857
+msgid "Draw a line which is perpendicular to another line"
+msgstr ""
+
+#: ../wprover/GExpert.java:860
+msgid "Draw a line which is perp-bisect to another line"
+msgstr ""
+
+#: ../wprover/GExpert.java:861
+msgid "Draw line which is tangent to a circle"
+msgstr ""
+
+#: ../wprover/GExpert.java:866
+msgid "Draw a circle by three points"
+msgstr ""
+
+#: ../wprover/GExpert.java:2361
+msgid "Translate"
+msgstr "جابجایی"
+
+#: ../wprover/GExpert.java:2364
+msgid "Zoom-in"
+msgstr "بزرگنمایی"
+
+#: ../wprover/GExpert.java:2367
+msgid "Zoom-out"
+msgstr "کوچک نمایی"
+
+#: ../wprover/GExpert.java:2371
+msgid "snap"
+msgstr ""
+
+#: ../wprover/GExpert.java:2373
+msgid "grid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2375
+msgid "lessGrid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2377
+msgid "moreGrid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2380
+msgid "redo"
+msgstr ""
+
+#: ../wprover/GExpert.java:2385
+msgid "undo"
+msgstr ""
+
+#: ../wprover/GExpert.java:2387
+msgid "ff"
+msgstr ""
+
+#: ../wprover/GExpert.java:2389
+msgid "fr"
+msgstr ""
+
+#: ../wprover/GExpert.java:2392
+msgid "play"
+msgstr ""
+
+#: ../wprover/GExpert.java:2406
+msgid "new"
+msgstr ""
+
+#: ../wprover/GExpert.java:2411
+msgid "open"
+msgstr ""
+
+#: ../wprover/GExpert.java:2415
+msgid "save"
+msgstr ""
+
+#: ../wprover/GExpert.java:2424
+msgid "move"
+msgstr ""
+
+#: ../wprover/GExpert.java:2429
+msgid "point"
+msgstr ""
+
+#: ../wprover/GExpert.java:2433 ../wprover/MProveTree.java:1252
+#: ../wprover/MProveTree.java:1363
+msgid "line"
+msgstr ""
+
+#: ../wprover/GExpert.java:2437
+msgid "parallel"
+msgstr ""
+
+#: ../wprover/GExpert.java:2441
+msgid "perpendicular"
+msgstr ""
+
+#: ../wprover/GExpert.java:2449
+msgid "foot"
+msgstr ""
+
+#: ../wprover/GExpert.java:2453 ../wprover/MProveTree.java:1252
+#: ../wprover/MProveTree.java:1369
+msgid "circle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2459
+msgid "circle3p"
+msgstr ""
+
+#: ../wprover/GExpert.java:2463
+msgid "compass"
+msgstr ""
+
+#: ../wprover/GExpert.java:2468 ../wprover/GExpert.java:2505
+#: ../wprover/GExpert.java:2569
+msgid "polygon"
+msgstr ""
+
+#: ../wprover/GExpert.java:2472 ../wprover/MProveTree.java:1252
+#: ../wprover/MProveTree.java:1388
+msgid "angle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2476
+msgid "text"
+msgstr ""
+
+#: ../wprover/GExpert.java:2480
+msgid "intersect"
+msgstr ""
+
+#: ../wprover/GExpert.java:2484
+msgid "reflectr"
+msgstr ""
+
+#: ../wprover/GExpert.java:2488 ../wprover/GExpert.java:2535
+msgid "isosceles triangle"
+msgstr ""
+
+msgid "segment"
+msgstr ""
+
+#: ../wprover/GExpert.java:2492
+msgid "midpoint"
+msgstr ""
+
+#: ../wprover/GExpert.java:2496 ../wprover/GExpert.java:2562
+#: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1372
+msgid "square"
+msgstr ""
+
+#: ../wprover/GExpert.java:2500 ../wprover/GExpert.java:2531
+#: ../wprover/GExpert.java:2543 ../wprover/MProveTree.java:1252
+#: ../wprover/MProveTree.java:1366
+msgid "triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2539
+msgid "equilateral triangle"
+msgstr ""
+
+#: ../wprover/GExpert.java:2547 ../wprover/MProveTree.java:1253
+#: ../wprover/MProveTree.java:1395
+msgid "quadrangle"
+msgstr "چهارگوشه"
+
+#: ../wprover/GExpert.java:2550 ../wprover/GExpert.java:2566
+msgid "pentagon"
+msgstr ""
+
+#: ../wprover/GExpert.java:2553 ../wprover/MProveTree.java:1253
+#: ../wprover/MProveTree.java:1399
+msgid "trapezoid"
+msgstr "ذوزنقه"
+
+#: ../wprover/GExpert.java:2556
+msgid "right angle trapezoid"
+msgstr ""
+
+#: ../wprover/GExpert.java:2559 ../wprover/MProveTree.java:1253
+#: ../wprover/MProveTree.java:1392
+msgid "rectangle"
+msgstr "مستطیل"
+
+#: ../wprover/MProveTree.java:1015
+msgid "hence"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1022 ../wprover/MProveTree.java:1265
+#: ../wprover/MProveTree.java:1023 ../wprover/MProveTree.java:1025
+#, fuzzy
+msgid "Can not find image: {0}"
+msgstr "هیچ اثباتی را نمیتوان یافت"
+
+#: ../wprover/MProveTree.java:1071
+msgid "Given:"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1071
+msgid "To Prove:"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1071
+msgid "In"
+msgstr "در"
+
+#: ../wprover/MProveTree.java:1071
+msgid "and"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1072
+msgid "Similarly,"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1375
+msgid "area"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1252 ../wprover/MProveTree.java:1378
+msgid "parallelogram"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1255
+msgid "Please select two points"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1255
+#, fuzzy
+msgid "Please select two segments"
+msgstr "لطفا انتخاب کنید"
+
+#: ../wprover/MProveTree.java:1255
+#, fuzzy
+msgid "Please select two lines"
+msgstr "لطفا انتخاب کنید"
+
+#: ../wprover/MProveTree.java:1255
+#, fuzzy
+msgid "Please select two angles"
+msgstr "لطفا انتخاب کنید"
+
+#: ../wprover/MProveTree.java:1255
+#, fuzzy
+msgid "Please select two triangles"
+msgstr "لطفا دو عدد صحیح وارد کنید"
+
+#: ../wprover/MProveTree.java:1255
+msgid "Please select three non-collinear points"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1256
+msgid "Please select three points"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1256 ../wprover/MProveTree.java:1257
+msgid "Please select four points"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1256
+#, fuzzy
+msgid "Please select N(>=3) points"
+msgstr "لطفا انتخاب کنید"
+
+#: ../wprover/MProveTree.java:1269
+#, fuzzy
+msgid "Can not find object icon {0}"
+msgstr "هیچ اثباتی را نمیتوان یافت"
+
+#, fuzzy
+msgid "Can not find file {0}"
+msgstr "هیچ اثباتی را نمیتوان یافت"
+
+#: ../wprover/MProveTree.java:1363
+msgid "number"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1366
+msgid "tri"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1369
+msgid "cir"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1382
+msgid "para"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1385
+msgid "perp"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1518
+msgid "Keywords"
+msgstr "کلمات کلیدی"
+
+#: ../wprover/MProveTree.java:1518
+msgid "Symbol"
+msgstr "علامت"
+
+#: ../wprover/MProveTree.java:1518
+msgid "Assertion"
+msgstr "ادعا"
+
+#: ../wprover/MProveTree.java:1519
+msgid "Object"
+msgstr "شی"
+
+#: ../wprover/MProveTree.java:1519
+msgid "Draw"
+msgstr "رسم کردن"
+
+#: ../wprover/MProveTree.java:1519
+msgid "Equation"
+msgstr "معادله"
+
+#: ../wprover/MProveTree.java:1520 ../wprover/MProveTree.java:1689
+msgid "Rule"
+msgstr "قاعده"
+
+#: ../wprover/MProveTree.java:1549 ../wprover/MProveTree.java:1554
+#: ../wprover/MProveTree.java:1672
+msgid "Rule1"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "Rule2"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "Rule3"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "SAS"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "AAS"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "SSS"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1672
+msgid "ASA"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1682 ../wprover/MProveTree.java:1684
+#: ../wprover/MProveTree.java:1758 ../wprover/MProveTree.java:1759
+#: ../wprover/MProveTree.java:1816
+msgid "Collinear"
+msgstr "روی یک خط بودن"
+
+#: ../wprover/MProveTree.java:1817
+msgid "Eqdistant"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1817
+msgid "Cyclic"
+msgstr "دایره ای"
+
+#: ../wprover/MProveTree.java:1818
+msgid "Congruent"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1818
+msgid "Similar"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1818
+msgid "Distance Less"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1819
+msgid "Angle Less"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1819
+msgid "Concurrent"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1819
+msgid "Perp-Bisector"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1822
+msgid "Right Triangle"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1823
+msgid "Iso-Right Triangle"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1825
+msgid "Between"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1825
+msgid "Angle Inside"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1825
+msgid "Angle Outside"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1825
+msgid "Triangle Inside"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1826
+msgid "Para Inside"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1826
+msgid "Opposite Inside"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1826
+msgid "Same Side"
+msgstr ""
+
+#: ../wprover/MProveTree.java:1826
+msgid "Convex"
+msgstr ""
+
+#: ../wprover/MProveTree.java:2053 ../wprover/MProveTree.java:2056
+msgid "assertion type: {0} not defined."
+msgstr ""
+
+#: ../wprover/MProveTree.java:2056 ../wprover/MProveTree.java:2066
+#: ../wprover/CProperty.java:27
+msgid "No Selected"
+msgstr ""
+
+#: ../wprover/CProperty.java:58
+msgid "Dialog"
+msgstr ""
+
+#: ../wprover/CProperty.java:625
+msgid "No Text"
+msgstr ""
+
+#: ../wprover/CProperty.java:625
+msgid "Value"
+msgstr ""
+
+#: ../wprover/CProperty.java:625
+msgid "Name With Value"
+msgstr ""
+
+#: ../wprover/CProperty.java:999
+msgid "Vertical Line"
+msgstr "خط افقی"
+
+#: ../wprover/CProperty.java:1000
+msgid "Horizontal Line"
+msgstr "خط عمودی"
+
+msgid "Geometry Expert"
+msgstr "متخصص هندسه"
+
+msgid "ALine"
+msgstr "در یک امتداد بودن"
+
+msgid "ABline"
+msgstr ""
+
+msgid "Hexagon"
+msgstr ""
+
+msgid "Nteqangle"
+msgstr ""
+
+msgid "autoshowstep"
+msgstr ""
+
+msgid "start to animate"
+msgstr ""
+
+msgid "Equal Angle"
+msgstr "زاویه مساوی"
+
+msgid "Similiar Triangle"
+msgstr "مثلث متشابه"
+
+msgid "Congruent Triangle"
+msgstr "مثلث متجانس"
+
+msgid "Bisect"
+msgstr "نیمساز"
+
+msgid "Tangent"
+msgstr "مماس"
+
+msgid "Equal Product"
+msgstr "محصول برابر"
+
+msgid "Ratio"
+msgstr "نسبت"
+
+msgid "Special Angle"
+msgstr "زاویه مخصوص"
+
+msgid "Angles Equation"
+msgstr "برابری زاویه ها"
+
+msgid "Segment Equation"
+msgstr ""
+
+msgid "NDGs"
+msgstr ""
+
+msgid "failed"
+msgstr "رد شده"
+
+msgid "Version"
+msgstr "نسخه"
+
+msgid "On"
+msgstr "روشن"
+
+#, fuzzy
+msgid "Background color"
+msgstr "رنگ زمینه"
+
+msgid "Change Color"
+msgstr "رنگ شی تغییر یافته"
+
+msgid "propline"
+msgstr ""
+
+msgid "type"
+msgstr "نوع"
+
+msgid "width"
+msgstr "عرض"
+
+#: ../wprover/GExpert.java:1930
+#, fuzzy
+msgid "{0} already exists, do you want to overwrite it?"
+msgstr "فایل وجود دارد ، میخواهید بر روی آن ذخیره شود ؟"
+
+msgid "Can not prove this theorem with Deductive Database Method"
+msgstr "با شیوه های استقرایی موجود نمیتوان این قضیه را ثابت کرد"
+
+msgid "Can not prove this theorem."
+msgstr "این قضیه را نمیتوان اثبات کرد"
+
+msgid "Proof text"
+msgstr "متن اثبات"
+
+msgid "Author:"
+msgstr "نویسندگان"
+
+msgid "Free Point"
+msgstr ""
+
+msgid "The coordinates"
+msgstr ""
+
+msgid "The equational hypotheses:"
+msgstr ""
+
+msgid "The theorem is not proved with the Deductive Database Method!"
+msgstr ""
+
+msgid "The theorem is not proved with The Full-Angle Method."
+msgstr ""
+
+msgid "Use the LEFT button to select a position"
+msgstr "از دکمه چپ برای مشخص نمودن موقعیت استفاده کنید"
+
+msgid "Select two points to determine a line"
+msgstr "نمایش خط با مشخص کردن دو نقطه"
+
+msgid ""
+"Please use the menu \"Action -> Animation\" to define an animation first"
+msgstr ""
+
+msgid "Groebner Basis Method"
+msgstr ""
+
+msgid "Because"
+msgstr "زیرا"
+
+msgid "Hence"
+msgstr ""
+
+msgid "Q.E.D."
+msgstr ""
+
+#, fuzzy
+msgid "Total solutions:"
+msgstr "بدون نتیجه"
+
+msgid "Please select 3 points (0 points selected)"
+msgstr ""
+
+#, fuzzy
+msgid "Can not open link {0}"
+msgstr "هیچ اثباتی را نمیتوان یافت"
+
+msgid ""
+"Construct a circle by clicking two points as radius and another point as "
+"center"
+msgstr ""
+
+msgid "Click a point then drag to construct a circle"
+msgstr ""
+
+msgid "Adjust the speed of animation"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Start animation step by step"
+msgstr ""
+
+msgid "Go to the end of the proof"
+msgstr ""
+
+msgid "Go to the next step of the proof"
+msgstr ""
+
+msgid "Unfreeze All Points"
+msgstr ""
+
+msgid "Do you mean..."
+msgstr ""
+
+#, fuzzy
+msgid "Point {0}"
+msgstr "نقطه"
+
+#, fuzzy
+msgid "Line {0}"
+msgstr "خط"
+
+#, fuzzy
+msgid "Circle {0}"
+msgstr "دایره"
+
+msgid "Please draw..."
+msgstr ""
+
+msgid "{0} points left"
+msgstr ""
+
+#, fuzzy
+msgid "midpoint of {0}"
+msgstr "نقاط میانی"
+
+#, fuzzy
+msgid "{0} is the midpoint of {1}"
+msgstr "نقاط میانی"
+
+msgid "parallel to {0} passing {1}"
+msgstr ""
+
+#, fuzzy
+msgid "passing {0}"
+msgstr "خط"
+
+msgid "with foot {0}"
+msgstr ""
+
+#, fuzzy
+msgid "Triangle {0}"
+msgstr "مثلث"
+
+#, fuzzy
+msgid "Quadrangle {0}"
+msgstr "چهارضلعی"
+
+#, fuzzy
+msgid "Pentagon {0}"
+msgstr "پنج ضلعی"
+
+#, fuzzy
+msgid "Hexagon {0}"
+msgstr "نقطه"
+
+#, fuzzy
+msgid "Polygon {0}"
+msgstr "چند ضلعی"
+
+msgid "Rhombus {0}"
+msgstr ""
+
+#, fuzzy
+msgid "Isosceles triangle {0}"
+msgstr "مثلث متساوی الساقین"
+
+#, fuzzy
+msgid "Right triangle {0}"
+msgstr "مثلث"
+
+#, fuzzy
+msgid "Parallelogram {0}"
+msgstr "متوازی الاضلاع"
+
+#, fuzzy
+msgid "Square {0}"
+msgstr "مربع"
+
+#, fuzzy
+msgid "Trapezoid {0}"
+msgstr "ذوزنقه"
+
+#, fuzzy
+msgid "Right trapezoid {0}"
+msgstr "ذوزنقه قائم الزاویه"
+
+#, fuzzy
+msgid "Equilateral triangle {0}"
+msgstr "مثلث متساوی الاضلاع"
+
+msgid "{0} is the reflection of {1} wrt {2}"
+msgstr ""
+
+#, fuzzy
+msgid "Isosceles"
+msgstr "مثلث متساوی الساقین"
+
+#, fuzzy
+msgid "Equilateral"
+msgstr "مثلث متساوی الاضلاع"
+
+msgid "Right"
+msgstr ""
+
+msgid "Building GIF File"
+msgstr ""
+
+msgid "0 frame(s) added"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Rotate"
+msgstr ""
+
+msgid "Flap"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+#, fuzzy
+msgid "No"
+msgstr "هیچ"
+
+msgid "Take a point {0} on line {1} such that {2}"
+msgstr ""
+
+msgid "Take a point {0} on circle {1} such that {2}"
+msgstr ""
+
+msgid "Radical of {0} and {1}"
+msgstr ""
+
+msgid "LRatio of {0} and {1}"
+msgstr ""
+
+msgid "NRatio of {0} and {1}"
+msgstr ""
+
+msgid "PRatio of {0} and {1}"
+msgstr ""
+
+msgid "TRatio of {0} and {1}"
+msgstr ""
+
+#, fuzzy
+msgid "on line {0}"
+msgstr "خط"
+
+msgid "{0} is on line {1}"
+msgstr ""
+
+msgid "{0} is parallel to {1}"
+msgstr ""
+
+#, fuzzy
+msgid "{0} is perpendicular to {1}"
+msgstr "خطوط عمود"
+
+msgid "{0} is on the perpendicular bisector of {1}"
+msgstr ""
+
+msgid "on the perpendicular bisector of {0}"
+msgstr ""
+
+#, fuzzy
+msgid "on circle {0}"
+msgstr "دایره"
+
+msgid "{0} is on circle {1}"
+msgstr ""
+
+msgid "circumcenter of {0}"
+msgstr ""
+
+msgid "{0} is the circumcenter of {1}"
+msgstr ""
+
+#, fuzzy
+msgid "incenter of {0}"
+msgstr "نقاط میانی"
+
+#, fuzzy
+msgid "{0} is the incenter of {1}"
+msgstr "خطوط عمود"
+
+#, fuzzy
+msgid "orthocenter of {0}"
+msgstr "نقاط میانی"
+
+#, fuzzy
+msgid "{0} is the orthocenter of {1}"
+msgstr "خطوط عمود"
+
+#, fuzzy
+msgid "centroid of {0}"
+msgstr "مرکز"
+
+#, fuzzy
+msgid "{0} is the centroid of {1}"
+msgstr "خطوط عمود"
+
+#, fuzzy
+msgid "barycenter of {0}"
+msgstr "نقاط میانی"
+
+#, fuzzy
+msgid "{0} is the barycenter of {1}"
+msgstr "خطوط عمود"
+
+msgid "Segment"
+msgstr ""
+
+#, fuzzy
+msgid "{0} are collinear"
+msgstr "روی یک خط بودن"
+
+#, fuzzy
+msgid "{0} are parallel"
+msgstr "روی یک خط بودن"
+
+#, fuzzy
+msgid "{0} are perpendicular"
+msgstr "خطوط عمود"
+
+#, fuzzy
+msgid "{0} are concyclic"
+msgstr "روی یک خط بودن"
+
+msgid "Full"
+msgstr ""
+
+msgid "Manual"
+msgstr ""
+
+#, fuzzy
+msgid "Search"
+msgstr "واقعیات جستجو"
+
+#, fuzzy
+msgid "Please choose"
+msgstr "لطفا انتخاب کنید"
+
+msgid "We could not find anything!"
+msgstr ""
+
+msgid "No result"
+msgstr ""
+
+msgid ""
+"Press SHIFT and drag with right mouseclick to zoom, press SHIFT and drag "
+"with left mouseclick to move"
+msgstr ""
+
+msgid "△{0}"
+msgstr ""
+
+msgid "Click to see the detail"
+msgstr ""
+
+msgid "Rule {0} for the GDD Method"
+msgstr ""
+
+msgid "Rule {0} for the Full Angle Method"
+msgstr ""
+
+#, fuzzy
+msgid "Rule {0}"
+msgstr "مستطیل"
+
+#, fuzzy
+msgid "RULE {0}"
+msgstr "خط"
+
+msgid "r{0}"
+msgstr ""
+
+#, fuzzy
+msgid "addition"
+msgstr "معادله"
+
+#, fuzzy
+msgid "rule {0}"
+msgstr "مستطیل"
+
+# GDD 1
+msgid "If AB ∥ BC, then A, B and C are collinear."
+msgstr ""
+
+# GDD 2/1
+msgid ""
+"For two angles ∠[l1,l2], ∠[l3,l4]. If l1 = l3 and l2 ∥ l4, then ∠[l1,l2] = "
+"∠[l3,l4]."
+msgstr ""
+
+# GDD 2/2
+msgid ""
+"For example, in parallelogram ABCD, AD ∥ BC and AC = CA, hence ∠[CAD] = "
+"∠[ACB]."
+msgstr ""
+
+# GDD 3/1
+msgid ""
+"If AB ∥ CD and E is the intersection of AC and BD, then EA / EC = EB / ED."
+msgstr ""
+
+# GDD 4 /1
+msgid "If AB ∥ EF and CD ⊥ EF, then CD ⊥ EF."
+msgstr ""
+
+# GDD 5/1
+msgid "If AB ⊥ CD, then ∠[AB,CD] = [1] (or 90 degrees)."
+msgstr ""
+
+# GDD 6/1
+msgid ""
+"In a right triangle ACB, ∠C = [1], if E is the midpoint of AB, then E is the "
+"circumcenter of ABC with EA = EB = EC."
+msgstr ""
+
+# GDD 7/1
+msgid "If AB ⊥ CD and CD ⊥ EF, then AB ∥ EF."
+msgstr ""
+
+# GDD 8/1
+msgid ""
+"For four points A,B,C,D, if AC ⊥ BC and AD ⊥ BD, then A,B,C,D are concyclic."
+msgstr ""
+
+# GDD 9/1
+msgid ""
+"For a circle c(O,AB) and a point C on circle c, if A,B,O are collinear, then "
+"AC ⊥ BC and ∠ACB = [1]."
+msgstr ""
+
+# GDD 10/1
+msgid ""
+"If AB is the diameter of a circle and point D is on the circle, then AD ⊥ BD."
+msgstr ""
+
+# GDD 11/1
+msgid "Angle of circumference equals to half of the angle at the center."
+msgstr ""
+
+# GDD 12/1
+msgid "If AB ∥ CD and A,B,C,D are concyclic, then ∠ABC = ∠DAB."
+msgstr ""
+
+# GDD 13/1
+msgid "If A,B,C,D are concyclic, then ∠ADB = ∠ACB and vice versa."
+msgstr ""
+
+# GDD 14/1
+msgid "Chord tangent angle theorem."
+msgstr ""
+
+# GDD 15 /1
+msgid ""
+"A line passing the centers of two circles is perpendicular to the common "
+"chord of two circles."
+msgstr ""
+
+# GDD 15 /2
+msgid ""
+"For example, given two circles C1(O,AB) and C2(O1,AB), A and B are two "
+"common points, then OO1 ⊥ AB."
+msgstr ""
+
+# GDD 16/1
+msgid "The Addition for Full Angle."
+msgstr ""
+
+# GDD 16/2
+msgid ""
+"If ∠[l1,l2] = ∠[l3,l4] and ∠[l5,l6] = ∠[l7,l8], and l2 = l6 and l4 = l7, "
+"then ∠[l1,l4] = ∠[l5,l8]."
+msgstr ""
+
+# GDD 17/1
+msgid "ASPP12"
+msgstr ""
+
+# GDD 17/2
+msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ∥ l2, then l3 ∥ l4."
+msgstr ""
+
+# GDD 17/3
+msgid "Because if l1 ∥ l2, then ∠[l1,l2] = [0]. Hence ∠[l3,l4] = [0]."
+msgstr ""
+
+# GDD 18/1
+msgid "ASPP13"
+msgstr ""
+
+# GDD 18/2
+msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ∥ l3, then l2 ∥ l4."
+msgstr ""
+
+# GDD 19/1
+msgid "ASTT12"
+msgstr ""
+
+# GDD 19/2
+msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l2, then l3 ⊥ l4."
+msgstr ""
+
+# GDD 20/1
+msgid "ASTT13"
+msgstr ""
+
+# GDD 20/2
+msgid "If ∠[l1,l2] = ∠[l3,l4] and l1 ⊥ l3, then l2 ⊥ l4."
+msgstr ""
+
+#, fuzzy
+msgid "Special Angles."
+msgstr "زاویه های مخصوص"
+
+#, fuzzy
+msgid "Supplementary Angle."
+msgstr "زاویه مخصوص"
+
+#, fuzzy
+msgid "Isosceles Triangle."
+msgstr "مثلث متساوی الساقین"
+
+#, fuzzy
+msgid "Isosceles Triangle Theorem"
+msgstr "مثلث متساوی الساقین"
+
+# GDD 24/2
+msgid ""
+"For an isosceles triangle ABC and a point D on line BC, if one of the "
+"following statements is true, the other two are also true:"
+msgstr ""
+
+# GDD 24/3
+msgid "1. AD ⊥ BC, 2. D is the midpoint of BC, 3. ∠BAD = ∠DAC."
+msgstr ""
+
+#, fuzzy
+msgid "Congruent Triangles."
+msgstr "مثلث متجانس"
+
+# GDD 25/2
+msgid ""
+"Triangles are called congruent if they have the same size and shape. That "
+"is, corresponding angles have the same measure, and corresponding sides have "
+"the same length."
+msgstr ""
+
+# GDD 26 #ASA/1
+msgid "ASA (angle-side-angle) congruence."
+msgstr ""
+
+# GDD 26 #ASA/2
+msgid ""
+"Two triangles are congruent if a pair of corresponding angles and the "
+"included side are equal."
+msgstr ""
+
+# GDD 27 #SAS/1
+msgid "SAS (side-angle-side) congruence."
+msgstr ""
+
+# GDD 27 #SAS/2
+msgid ""
+"Two triangles are congruent if a pair of corresponding sides and the "
+"included angle are equal."
+msgstr ""
+
+# GDD 28 #SSS/1
+msgid "SSS (side-side-side) congruence."
+msgstr ""
+
+# GDD 28 #SSS/2
+msgid "Two triangles are congruent if their corresponding sides are equal."
+msgstr ""
+
+# GDD 29 #SAS/1
+msgid "SAS (side-angle-side) congruence for right triangles."
+msgstr ""
+
+# GDD 29 #SAS/2
+msgid ""
+"Two right triangles are congruent if their two corresponding sides are equal."
+msgstr ""
+
+#, fuzzy
+msgid "Similar triangles."
+msgstr "مثلث های متشابه"
+
+# GDD 30/2
+msgid ""
+"Similar triangles are triangles that have the same shape but possibly "
+"different size. In particular, corresponding angles are congruent, and "
+"corresponding sides are in proportion."
+msgstr ""
+
+# GDD 31 #AAA/1
+msgid "AAA (angle-angle-angle) similarity."
+msgstr ""
+
+# GDD 31 #AAA/2
+msgid ""
+"If two triangles have two corresponding angles that are congruent, then the "
+"triangles are similar. Because the sum of the angles in a triangle must be "
+"π, we really only need to know that two pairs of corresponding angles are "
+"congruent to know that the triangles are similar."
+msgstr ""
+
+# GDD 32 #SAS/1
+msgid "SAS (side-angle-side) similarity."
+msgstr ""
+
+# GDD 32 #SAS/2
+msgid ""
+"The side-angle-side (SAS) similarity test says that if two triangles have "
+"two pairs of sides that are proportional and the included angles are "
+"congruent, then the triangles are similar."
+msgstr ""
+
+# GDD 33 #SSS/1
+msgid "SSS (side-side-side) similarity."
+msgstr ""
+
+# GDD 33 #SSS/2
+msgid ""
+"If two triangles have all three pairs of sides in proportion, the triangles "
+"are similar."
+msgstr ""
+
+# GDD 34/1
+msgid "Ratio by similarity."
+msgstr ""
+
+# GDD 35/1
+msgid "Middle Connection Theorem for Triangles."
+msgstr ""
+
+# GDD 35/2
+msgid ""
+"The line connects the midpoints of two sides of a triangle is parallel to "
+"the third side of the triangle."
+msgstr ""
+
+# GDD 36/1
+msgid ""
+"The hypotenuse of a right triangle is the diameter of the circumscribed "
+"circle of the triangle, and the midpoint of the hypotenuse is the center of "
+"the circle."
+msgstr ""
+
+# GDD 36/2
+msgid ""
+"For a right triangle ACB, if AC ⊥ BC and D is the midpoint of AB, then DC = "
+"DA = DB, D is the center of circle ABC."
+msgstr ""
+
+#, fuzzy
+msgid "Equilateral Triangles."
+msgstr "مثلث متساوی الاضلاع"
+
+# GDD 37/2
+msgid ""
+"An equilateral triangle is a triangle in which all three sides have equal "
+"lengths."
+msgstr ""
+
+# GDD 38/1
+msgid "Pythagorean Theorem."
+msgstr ""
+
+# GDD 38/2
+msgid ""
+"In any right triangle, the area of the square whose side is the hypotenuse "
+"(the side of a right triangle opposite the right angle) is equal to the sum "
+"of areas of the squares whose sides are the two legs (i.e. the two sides "
+"other than the hypotenuse)."
+msgstr ""
+
+# GDD 39/1
+msgid ""
+"The sum of three interior angles of a triangle is [0] (or 180 degree for "
+"traditional angles)."
+msgstr ""
+
+#, fuzzy
+msgid "Parallelogram."
+msgstr "متوازی الاضلاع"
+
+# GDD 40/2
+msgid ""
+"A parallelogram is a quadrilateral with two sets of opposite parallel sides."
+msgstr ""
+
+# GDD 41/1
+msgid "Middle Connection Theorem for Trapezoid."
+msgstr ""
+
+#, fuzzy
+msgid "Ratio."
+msgstr "نسبت"
+
+#, fuzzy
+msgid "Use Ratio in Deductive Database Method."
+msgstr "با شیوه های استقرایی موجود نمیتوان این قضیه را ثابت کرد"
+
+# GDD 43/1
+msgid "Ratio by angle bisector."
+msgstr ""
+
+# GDD 43/2
+msgid ""
+"In triangle ABC, if AD is the bisector of angle A, and D is on line BC, then "
+"AB/BD = AC/DC."
+msgstr ""
+
+#, fuzzy
+msgid "Rules related to parallel lines"
+msgstr "خطوط موازی"
+
+#, fuzzy
+msgid "Rules related to perpendicular lines"
+msgstr "خطوط عمود"
+
+msgid "Rules related to circles"
+msgstr ""
+
+#, fuzzy
+msgid "Rules related to angles"
+msgstr "لطفا انتخاب کنید"
+
+#, fuzzy
+msgid "Rules related to triangles"
+msgstr "لطفا دو عدد صحیح وارد کنید"
+
+msgid "Other rules"
+msgstr ""
+
+# Full 1/1
+msgid "The Definition of Full Angle"
+msgstr ""
+
+# Full 1/2
+msgid ""
+"A full angle is defined as an ordered pair of two lines u and v denoted by "
+"∠[u,v]."
+msgstr ""
+
+# Full 2/1
+msgid "∠[u,v] = -∠[v,u]."
+msgstr ""
+
+# Full 3/1
+msgid "∠[u,v] = ∠[0] if and only if u ∥ v (including u = v)."
+msgstr ""
+
+# Full 4/1
+msgid "∠[u,v] = ∠[1] if and only if u ⊥ v."
+msgstr ""
+
+# Full 5/1
+msgid "Addition of Full Angles"
+msgstr ""
+
+# Full 5/2
+msgid ""
+"∠[u,s] + ∠[s,v] = ∠[u,v]. This rule is to split an angle into two or more "
+"angles."
+msgstr ""
+
+# Full 5/3
+msgid "For example, for any line m, we have ∠[u,v] = ∠[u,m] + ∠[m,v]."
+msgstr ""
+
+# Full 6/1
+msgid ""
+"If l ⊥ v or ∠[l,v] = ∠[1], then ∠[u,v] = ∠[u,l] + ∠[l,v] = ∠[u,l] + ∠[1]."
+msgstr ""
+
+# Full 6/2
+msgid "For example, if we have AC ⊥ BC, then ∠[CBA] = ∠[BAC] + ∠[1]."
+msgstr ""
+
+#, fuzzy
+msgid "The Isosceles Triangle Theorem for Full Angle."
+msgstr "مثلث متساوی الساقین"
+
+# Full 7/2
+msgid ""
+"If AC = BC, we have ∠[ABC] = ∠[CAB]. Conversely, if ∠[ABC] = ∠[CAB], then AB "
+"= AC or A, B and C are collinear."
+msgstr ""
+
+#, fuzzy
+msgid "The Inscribed Angle Theorem."
+msgstr "مثلث متساوی الساقین"
+
+# Full 8/2
+msgid "Points A,B,C and D are concyclic if and only if ∠[ACB] = ∠[ADB]."
+msgstr ""
+
+# Full 9/1
+msgid ""
+"If A,B,M,N are concyclic, then ∠[AB, AM] = ∠[BN,NM]. Hence we have ∠[AB, CD] "
+"= ∠[AB, AM] + ∠[AM, CD] = ∠[BN,NM] + ∠[AM, CD]."
+msgstr ""
+
+#, fuzzy
+msgid "Rule 10."
+msgstr "مستطیل"
+
+# Full 11/1
+msgid ""
+"If AB is the diameter of the circumcircle of triangle ABC and D is on the "
+"circumcircle, then for any line FG, we have ∠[CD,FG] = ∠[DBA] + ∠[ACB] + "
+"∠[BC, FG]."
+msgstr ""
+
+# Full 12/1
+msgid ""
+"If O is the intersection of circle (O1,OP1P3I) and circle (O2,OP2P4J) and O,"
+"I,J are collinear, then ∠[P1O, OP2] = ∠[P1P2, IP3] + ∠[JP4, P2P4]."
+msgstr ""
+
+# Full 13/1
+msgid "If O is the circumcenter of triangle ABC, then ∠[BOC] = 2 · ∠[BAC]."
+msgstr ""
+
+# Full 14/1
+msgid ""
+"For a circle (O,ABCD), if O is the intersection of AD and BC, then ∠[AOB] = "
+"2 · ∠[CDA]."
+msgstr ""
+
+# Full 15/1
+msgid ""
+"For a circle (O,AB), O is the center of circle, we have ∠[OAB] = ∠[ABO]."
+msgstr ""
+
+# Full 16/1
+msgid ""
+"If triangle ABE is a right triangle and O is the midpoint of the hypotenuse "
+"(i.e. AB), then for any line CD, we have ∠[AB, CD] = ∠[BAE] + ∠[1] + ∠[BE, "
+"CD]."
+msgstr ""
+
+# Full 17/1
+msgid ""
+"For a circle (O,ABC) and D is midpoint of BC, we have ∠[AB, EF] = ∠[BOD] + "
+"∠[AC, EF]."
+msgstr ""
+
+# Full 18/1
+msgid ""
+"For a circle (O,ABF), if E is the midpoint of AF, we have ∠[AB, CD] = ∠[EOA] "
+"+ ∠[BF, CD]."
+msgstr ""
+
+# Full 19/1
+msgid ""
+"If G is the orthocenter of ABC, ∠[AE, HI] = ∠[AE, BE] + ∠[BE, HI] = ∠[1] + "
+"∠[BE, HI]."
+msgstr ""
+
+# Full 20/1
+msgid ""
+"If A is the incenter of P2KI, ∠[AB, CD] = ∠[AB, BK] + ∠[BK, CD] = ∠[1] + "
+"∠[KI, KA] + ∠[IA, IK] + ∠[BK, CD]."
+msgstr ""
+
+#, fuzzy
+msgid "Equal angle found in the Geometry Deductive Database."
+msgstr "با شیوه های استقرایی موجود نمیتوان این قضیه را ثابت کرد"
+
+# Full 22/1
+msgid "If AB ⊥ AC and AB = AC, then ∠[AB,AC] = 2 · ∠[AB,BC]."
+msgstr ""
+
+# Full 23/1
+msgid ""
+"If AB ⊥ AC and AB = AC, then 2 · ∠[AB,DE] = 2 · ∠[AB,BC] + 2 · ∠[BC,DE] = "
+"∠[1] + 2 · ∠[BC,DE]."
+msgstr ""
+
+# Full 24/1
+msgid ""
+"If OB // DE and A is on the circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB]."
+msgstr ""
+
+# Full 25/1
+msgid "A is on circle (O,B), then 2 · ∠[AB, DE] = ∠[OA,OB] + 2 · ∠[OA,DE]."
+msgstr ""
+
+# Full 26/1
+msgid ""
+"CD is the diameter of a circle (A,BCD), AB ⊥ CD, then 2 · ∠[DB,BA] = ∠[1]."
+msgstr ""
+
+# Full 27/1
+msgid ""
+"A, B, C, D, E are concyclic and AC = AD, then 2 · ∠[AB, BC] = ∠[CE, ED]."
+msgstr ""
+
+# Full 28/1
+msgid ""
+"If A, B, E, F, G are concyclic and AE = AF, then 2 · ∠[AB, CD] = 2 · ∠[BE, "
+"CD] + ∠[EG, GF]."
+msgstr ""
+
+# Full 29/1
+msgid ""
+"If AB = AC = BC, i.e., triangle ABC is an equilateral triangle, then 3 · "
+"∠[AB, BC] = ∠[0]."
+msgstr ""
+
+msgid "Full Rules"
+msgstr ""
+
+#, fuzzy
+msgid "Save as Maple Format"
+msgstr "ذخیره به عنوان متن"
+
+#, fuzzy
+msgid "The point should be a fix point."
+msgstr "زمان برای ایجاد نقطه"
+
+#, fuzzy
+msgid "Please select the second point."
+msgstr "لطفا انتخاب کنید"
+
+#, fuzzy
+msgid "Please select a line or a circle."
+msgstr "لطفا انتخاب کنید"
+
+msgid "Expand/collapse proof tree"
+msgstr ""
+
+msgid "Compute proof with the selected method"
+msgstr ""
+
+#, fuzzy
+msgid "Failed to prove this theorem with Deductive Database Method."
+msgstr "با شیوه های استقرایی موجود نمیتوان این قضیه را ثابت کرد"
+
+msgid "Which?"
+msgstr ""
+
+msgid "GBasis is Running"
+msgstr ""
+
+msgid "The Process Is Stopped By The User."
+msgstr ""
+
+#, fuzzy
+msgid "seconds"
+msgstr "ثانیه ( ها )"
+
+msgid "AAA"
+msgstr ""
+
+#~ msgid "FF"
+#~ msgstr "بعدی"
+
+#~ msgid "FR"
+#~ msgstr "قبلی"
+
+#~ msgid "LessGrid"
+#~ msgstr "شطرنجی کم"
+
+#~ msgid "MoreGrid"
+#~ msgstr "شطرنجی زیاد"
+
+#~ msgid "Redo"
+#~ msgstr "دوباره انجام دادن"
+
+#~ msgid "Undo"
+#~ msgstr "برگشت به عمل قبلی"
+
+#~ msgid "Font Size"
+#~ msgstr "اندازه فونت"
+
+#~ msgid "Font Color"
+#~ msgstr "رنگ فونت"
+
+#~ msgid "Built on"
+#~ msgstr "ساخته شده در"
+
+#~ msgid "JDK Version:"
+#~ msgstr "نسخه jdk"
+
+#~ msgid "X coordinate"
+#~ msgstr "مختص x"
+
+#~ msgid "Y coordinate"
+#~ msgstr "مختص y"
+
+#~ msgid "Point Number"
+#~ msgstr "شماره نقطه"
+
+#~ msgid ""
+#~ "However, JGEX is an educational tool, not intended for commercial use."
+#~ msgstr "به هر حال متخصص هندسه یک برنامه آموزشی است نه تجاری"
+
+#~ msgid "Equalateral Triangle"
+#~ msgstr "مثلث متساوی الاضلاع"
+
+#~ msgid "Change.."
+#~ msgstr "تغییر .."
+
+#~ msgid "Reflect"
+#~ msgstr "بازتاب دادن"
+
+#~ msgid "Java Geometry Expert is free under GNU General Public License(GPL)."
+#~ msgstr "برنامه متخصص هندسه تحت لیسانس آزاد قرار دارد"

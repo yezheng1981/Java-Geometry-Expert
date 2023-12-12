@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="convert3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/output/examples/Other/old/examples/convert.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

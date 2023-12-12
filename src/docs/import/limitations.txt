@@ -1,0 +1,11 @@
+Allowed objects: points, segments, lines, circle.
+The Midpoint command and creating orthogonal lines are supported.
+Circles can have only one designated intersection point.
+
+Lines are loaded as segments.
+
+Not supported at the moment (among other objects):
+Parallel lines, perpendicular or angle bisectors.
+These need to be constructed via simple Euclidean steps (see above).
+
+Colors and other properties of the objects are ignored.

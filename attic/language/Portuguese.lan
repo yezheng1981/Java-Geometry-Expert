@@ -1,0 +1,539 @@
+﻿Portuguese
+Font: Dialog # 0 # 14
+
+	* File Menu
+0# File 	# Arquivo
+1# New 		# Novo
+2# Open 	# Abrir
+3# Save 	# Salvar
+4# Save as... 	# Salvar como
+5# Save as PS 	# Salvar como PS
+6# Save as Text #	Salvar como Texto
+7# Print 	#	Imprimir
+8# Exit 	#	Sair
+9# Select 	# Selecionar
+10 # Move 	#	Mover
+11# Geometry Expert 		#	Geometry Expert
+12 # Save as Image 		#	Salvar como Imagem
+13 # Save as Animated Image 	# Salvar como Imagem Animada	
+
+14 # Save as PDF                	#Salvar como PDF
+15 # Save Proof as Animated Image   	#	Salvar Demonstração como Imagem Animada
+	* End of File Menu 
+
+
+	* Examples Menu
+19# Examples			#	Exemplos
+	* End of Example Menu
+
+
+	* Construct Menu
+20#	Construct # Construir
+21#	Point by Point and Segment # Segmento com dois pontos
+22#	Radical of Two Circles # Eixo radical de dois círculos
+23#	Oriented Segment # Transporte de segmento paralelo
+24#	Oriented T Segment # Transporte de segmento ortogonal
+25#	Other.. # Altro..
+27#	Oriented Segment * Ratio # Transporte de segmento paralelo * proporção
+28#	Oriented T Segment * Ratio # Transporte de segmento ortogonal* proporção
+
+31#	Proportional Segment # Segmento proporcional
+
+33#	Point # Ponto
+34#	Midpoint # Ponto médio
+35#	Circumcenter # Circuncentro
+36#	Centroid # Baricentro
+37#	Orthocenter # Ortocentro
+38#	Incenter # Incentro
+39#	Foot # Pé da perpendicular
+40#	Line # Segmento
+41#	Parallel Line # Reta paralela
+42#	Perpendicular Line # Reta Perpendicular
+43#	ALine # Transporte um ângulo
+44#	Perp-Bisect Line # Mediatriz do Segmento
+45#	Tangent Line # Reta tangente
+46#	Parallel # Paralela
+47#	Perpendicular # Perpendicular
+50 	#	Circle # Círculo
+51 	#	Circle by Three Points # Círculo por três pontos
+52 	#	Circle by Radius # Círculo dado o raio e o centro
+
+60 	#	Action # Ação
+61 	#	Intersect # Interseção
+62 	#	Mirror # Simetria
+
+70 	#	Polygon # Polígono
+71 	#	Triangle # Triângulo
+72 	#	Isosceles Triangle # Triângulo isóscele 
+73 	#	Equilateral Triangle # Triângulo equilátero
+74 	#	Right-angled Triangle # Triângulo retângulo
+75 	#	Isosceles Right-angled Triangle # Triângulo retângulo isóscele
+76 	#	Quadrangle # Quadrilátero
+77 	#	Parallelogram # Paralelogramo
+78 	#	Trapezoid # Trapézio
+79 	#	Right-angled Trapezoid # Trapézio retângulo
+80 	#	Rectangle # Retângulo
+81 	#	Square # Quadrado
+82 	#	Pentagon # Pentágono
+83 	#	Polygon # Polígono
+84 	# 	Hexagon # Hexágono
+
+90 	#	Special Angles # Ângulos Especiais	 
+100	#	Constraint # Restrições
+101	#	Eqangle # Equiângulo
+102	#	Nteqangle # Ângulos diferentes
+103	#	Eqangle3p # Equiângulo3p
+104	#	Angle Specification # Ângulo Específico
+105	#	Equal Ratio # Proporção Igual
+106	#	Equal Distance # Comprimento Igual
+107	#	CCtangent # Círculo Tangente
+108	#	Ratio Distance # Razão de comprimento  
+	* End of Construct Menu
+
+	* Action Menu
+120 #	Trace # Traçar
+121 #	Locus # Lugar Geométrico
+122 #	Animation # Animação
+123 #	Fill Polygon # Preencher polígono
+124 #	Measure Distance # Medir distância
+125 #	Equal Mark # Marca Igual
+126 #	Right-angle Mark # Marca de ângulo reto
+127 #	Hide Object # Ocultar objeto
+128 #	Show Object # Mostrar objeto
+129 #	Transform # Trasformar
+130 #	Equivalence # Equivalência
+131 #	Free Transform # Transformação livre 
+132 # Calculation 		# Cálculo
+133 # Arrow             # Vetor  
+	* End of Action Menu
+
+	* Lemmas Menu
+140 #	Lemmas # Lema
+141 #	Rulers for Full Angle # Regras para Ângulo Completo
+142 #	Rulers for GDD # Regras para GDD	 
+	* End of Lemmas Menu
+
+	* Prove Menu
+149 #   All Solutions # Todas as soluções
+150 #	Prove # Demonstração
+151 #	To Prove # Demonstrar
+152 #	Numerical Check # Verificação Numérica
+153 #	Nondegenerate Conditions # Condições não degeneradas
+154 #	Polynomials # Polinômios
+155 #	Option # Opções
+156 #	Preference # Preferências
+157 #	Construct History # Histórico da construção
+158 #	Show Step Bar # Mostrar barra de passo a passo 	 
+159 # Style Dialog           # Estilo de diálogo  
+	* End of Prove Menu
+
+	* Help Menu
+160 # Help 			        # 	 Ajuda
+161 # Online Help 		    	# 	Ajuda online 
+162 # About JGEX 		    	# 	Sobre JGEX 
+163 # Check for Update			# Checar atualização 	 
+164 # Help on Mode          # Ajuda sobre a ferramenta   
+165 # JGEX Homepage         # Homepage do JGEX   
+167 # Contact Us            # Contato   
+	* End of Help Menu
+
+	* ToolBar 
+170 #	Translate # Transladar
+171 #	Zoom-in # 
+172 #	Zoom-out # 
+173 #	Snap # 
+174 #	Grid # Grade
+175 #	LessGrid # Grade menos densa
+176 #	MoreGrid # Grade mais densa
+177 #	Redo # Refazer
+178 #	Undo # Desfazer
+179 #	FF # 
+180 #	FR # 
+181 #	autoshowstep # mostra automaticamente o passo
+182 #	animate_start # iniciar animação 
+	* End of ToolBar
+
+	* Assertion
+200 #	Collinear # Colinear
+201 #	Parallel # Paralelo
+202 #	Perpendicular # Perpendicular
+203 #	Midpoint # Ponto médio
+204 #	Cyclic # Cíclica
+205 #	Equal Distance # Distância Igual
+206 #	Equal Angle # Ângulo Igual
+207 #	Similiar Triangle # Triângulo semelhante
+208 #	Congruent Triangle # Triângulo congruente
+209 #	Equalateral Triangle # Triângulo equilátero
+210 #	Bisect # Bissectar
+211 #	Tangent # Tangente
+212 #	Equal Product # Produto Igual
+213 #	Ratio # Razão
+214 #	Special Angle # ângulo especial
+215 #	Angles Equation # Equação de ângulos
+216 #	Segment Equation # Equação de segmentos 
+	* End of Assertion
+
+	* Dialog
+230 #	TRUE # VERDADE
+231 #	FALSE # FALSO
+232 #	Intersection # Interseção
+
+240 #	Variables # Variáveis
+241 #	Reduce # Reduzir
+242 #	Detail # Detalhe
+243 #	Reload # Recarregar
+244 #	NDGs # 
+245 #	Name # Nome
+246 #	Variable # Variável
+247 #	Length # Comprimento
+248 #	Polynomial # Polinômio
+249 #	Cut # Cortar
+250 #	Copy # Copiar
+251 #	Paste # Colar
+252 #	Delete # Cancelar	
+253 # Calculation		# Cálculo	
+254 # Data			#	Data
+255 # Function 			# Função	
+	* End of Dialog
+
+
+	* FixPoint
+300 #	Close # Fechar
+301 #	Clear # Limpar
+302 #	Warning # Atenção
+303 #	failed # falhou
+304 #	Message # Messagem
+305 #	Search facts # Pesquisar fatos
+306 #	Add Conclution # Adicionar conclusão
+307 #	Fixpoint # Ponto fixo
+308 #	Second(s) # Segundo(s)
+309 #	Property # Propriedade 	
+310 # Refresh			#	Atualizar
+311 # Prove in New Tab		#	Demonstrar em uma nova caixa				
+	* End of FixPoint
+
+
+	* Property
+347 # Significant Digit		#	Dígitos Significativos
+348 # Show Label		#	Mostrar etiqueta
+349 # Show Text			#	Mostrar texto
+350 #	Color # Cor
+351 #	Gray # Cinza
+352 #	Black and White # Preto e branco
+353 #	Cancel # Cancelar
+354 #	Version # Versão
+355 #	Text # Texto
+356 #	OK #
+  * End of Property
+
+	* Preference Dialog
+357 #	Preference # Preferências
+358 #	Polygon Alpha # Alpha de polígonos
+359 #	Radius of Point # Raio dos pontos
+360 #	Point's Text # Texto dos pontos
+361 #	Show Text # Mostrar texto
+362 #	Default Font # Fonte padrão
+363 #	Angle Text # Texto em ângulo
+364 #	None # Nenhum
+365 #	Label # Rótulo
+366 #	Degrees # Graus
+367 #	Foot Mark # Marca do pé da perpendicular
+368 #	Show foot mark # Mostrar marca do pé da perpendicular
+369 #	Length # Comprimento
+370 #	Mode # Modo
+371 #	AntiAlias # 
+372 #	On # 
+373 #	OFF # 
+374 #	Change.. # Mudar..
+375 #	Language # Língua
+376 #	Display # 
+3761#	Font # 
+377 #	BackGround Color # Cor de fundo
+378 #	Choose Color # Escolher cor
+379 #	Change Color # Trocar cor
+
+388 #	Color Mode # Modo de cor 
+
+
+380 #	Animation # Animação
+381 #	Polygon Moving Interval # Intervalo de movimento do polígono
+382 #	Angle # ângulo
+383 #	Without Arrow # Sem vetor
+384 #	With Arrow # Com vetor
+385 #	Multiple Arc # Arco múltiplo
+386 #	Fill # Preencher
+390 #	Arc Num # Arco Num	
+	* End  of Preference Dialog
+
+	* Fixpoint
+401 #	lines # retas
+402 #	parallel lines # retas paralelas
+403 #	perpendicular lines # retas perpendiculares
+404 #	midpoints # pontos médios
+405 #	circles # círculos
+406 #	congruent segments # segmentos congruentes
+407 #	congruent angles # ângulos congruentes
+408 #	similiar triangles # triângulos semelhantes
+409 #	congruent triangles # triângulos congruentes
+410 #	special angles # ângulos especiais
+411 #	perp-acong angles # ângulos perp-acong
+412 #	ratio segments # segmentos proporcionais 	
+	* End of Fixpoint
+
+	* Line Property
+450 # Point Number 		# Número do ponto
+451 # Draw Line 		# Desenhar reta
+452 # Num 			# Num
+460 # Girth			# Perímetro
+461 # Area			# Área
+	* End of Line Property
+
+	* Preference
+501 #	Save Preference # Salvar preferências
+502 #	Can not Save Preference # Impossível salvar preferências
+503 #	Save Preference Successfully # Preferências salvas com sucesso
+504 #	Failed # Falhou
+505 #	Default # 
+506 #	Please restart the program. # Reinicie o programa
+507 #	Saved # Salvo
+508 #	LookAndFeel # Olheperceba 
+509 # Error 			# Erro
+	* End of Preference
+
+	* Font Chooser
+601 #	Font Chooser # Escolher Fonte
+602 #	Font # Fontes
+603 #	Effects # Efeitos
+604 #	Bold # Negrito
+605 #	Italic # Itálico
+606 #	Underline # Sublinhado
+607 #	Strikethrough # Tachado
+608 #	Subscript # Subscrito
+609 #	Superscript # Sobrescrito
+610 #	Preview Font # Visualização da fonte
+611 #	Font name # Nome da Fonte
+612 #	Font size # Tamanho da Fonte
+613 #	Font Color # Color da Fonte
+614 #	Preview # Visualização
+
+615 #	Save and exit # Salvar e sair
+616 #	Exit without save # Sair sem salvar
+650 # 	Other # Altro
+
+710 #	propline # 
+730 #	type # tipo
+731 #	width # espessura
+
+	* End of Font Chooser
+
+	* Tips
+1000 #	The diagram has been changed, do you want to save it? # A figura foi alterada, deseja salvá-la?
+1001 #	File exists # Arquivo já existe
+1002 #	already exists, do you want to overwrite it? # Arquivo já existe. Deseja substituí-lo?
+1003 #	Time to build fixpoint: # Tempo para construir o ponto fixo
+1004 #	Can not find any proof! # Não foi possível encontrar uma demonstração!
+1005 #	No conclution # Sem conclusão
+1006 #	NO conclution has been set! # Nenhuma conclusão foi definida!
+1007 #	Can not prove this theorem with Deductive Database Method # Não é possível provar este teorema com o método de banco de dados dedutivo
+1008 #	Please Construct the Diagram First! # Por favor, desenhe a figura primeiro!
+1009 #	Diagram Not Completed # Figura incompleta
+1010 #	is trivially true # é trivialmente verdadeiro
+1011 #	is obviously true  (by hypothesis) # é obviamente verdadeiro (por hipótese)
+1012 #	Can not prove this theorem. # Impossível demonstrar este teorema.
+1013 #	Point filled with background color # Ponto preenchido com a cor de fundo
+1014 #	Proof text # Texto da demonstração
+1015 #	Colorful # Colorido
+
+1016 #	Java Geometry Expert # 
+1017 #	Built on # Construído em 
+1018 #	JDK Version: # Versão JDK:
+1019 #	Java Geometry Expert is free under GNU General Public License(GPL). # Java Geometry Expert é gratuito sob a licença GNU GPL
+1020 #	The user may download and distribute it freely. # O usuário pode baixar e distribuir gratuitamente.
+1021 #	However, JGEX is an educational tool, not intended for commercial use. # No entanto, JGEX é um aplicativo educacional, não se destina ao uso comercial.
+1022 #	Author: # Autores
+1023 #	for more information,please visit: # para obter mais informações, visite:
+1024 #	Choose default foot for point's text # Escolha o padrão para o texto do ponto
+1025 #	The selected two line don't have intersected point # As duas linhas selecionadas não têm ponto de interseção
+1026 #	No Intersected point # Nenhum ponto de interseção
+1027 #	Angle Specification must be done before drawing anything # Você deve especificar o ângulo antes de desenhar qualquer coisa
+1028 #	The two lines you selected are parallel, \n don't have any intersection! # As duas linhas que você selecionou são paralelas, \n não têm interseção!
+1029 #	No intersection # Nenhuma interseção
+1030 #	The line and the circle you selected don't have any intersection! # A linha e o círculo que você selecionou não têm interseção!
+1031 #	The two objects you selected already have two points as their intersections! # Os dois objetos que você selecionou já têm dois pontos como interseções!
+1032 #	intersection already defined # interseção já definida
+1033 #	The circles you selected don't have any intersection # Os círculos que você selecionou não têm interseção
+1034 #	The two circles you selected already have two points as their intersections # Os dois círculos que você selecionou já têm dois pontos de interseção
+1050 #	Nothing to be saved # Nada a salvar
+1051 #	File Format Not Supported  # Formato de arquivo não compatível
+1052 # 	Free Point # Ponto livre
+1053 # 	Please input the value of the angle # Insira o valor do ângulo
+1054 # Connection Failed 			# Conexão falhou
+1055 # Connection failed: Please check your network connection and try again. # Falha na conexão: Verifique sua conexão de rede e tente novamente
+1056 # New version available, do you want to update now? 	# Nova versão disponível, deseja atualizar agora?
+1057 # Your current JGEX version: 		# Sua versão JGEX atual: 
+1058 # Available JGEX version: 			# VVersão JGEX disponível:
+1059 # Press OK to update.			# Pressione OK para atualizar. 
+1060 # Update Information			# Atualizar informações 
+1061 # JGEX Update				# Atualização JGEX
+1062 # File Downloaded				# Arquivo baixado
+1063 # File downloaded! \nTo update JGEX, we will exit the program and start again # Arquivo baixado! \n Para atualizar o JGEX, sairemos do programa e reiniciaremos
+1070 # Authors # Autores
+
+	* End of Tips
+
+	* Algebraic Proof
+1101 #	The Algebraic Form: # A forma algébrica:
+1102 #	The coordinates # As coordenadas
+1103 #	The equational hypotheses: # As equações das hipóteses:
+1104 #	The Triangulized Hypotheses: # As hipóteses triangularizadas:
+1105 #	The Conclution # A conclusão
+1106 #	Successive Pseudo Remainder of CONC wrpt TS : # Sucessivo Pseudo Remanescente de CONC escrito TS
+1107 #	The Conclution is false # A conclusão é falsa
+1108 #	The Conclution is true # A conclusão é verdadeira
+1109 #	The Conclution is not proved # A conclusão não está demonstrada
+1110 #	Remainder # Resto 
+1111 # Algebra Method 			# Método algébrico
+
+1114 #	The Initial Polynomial Set # O sistema polinomial inicial
+1115 #	The Groebner Basis: # A base de Groebner
+1116 #	The Nondegenerate Conditions # As condições não degeneradas
+1117 #	The Conclution After Reduce: # A conclusão após a redução
+
+1130 #	System Run Out Of Memory # O sistema ficou sem memória
+1131 #	The Theorem Is Not Proved! # O teorema não foi provado!
+1132 #	The theorem is not proved with the Deductive Database Method! # O teorema não é provado com o método dedutivo de banco de dados!
+1133 #	Show Detail # Mostrar detalhes
+1134 #	The conclusion can not be translated to full-angle expression. # A conclusão não pode ser traduzida em uma expressão de ângulo completo
+1135 #	Not Supported # Não suportado
+1136 #	The theorem is not proved with The Full-Angle Method. # O teorema não é provado com o método do ângulo completo.
+1137 #	Construction # Construção
+1138 #	The Simplified Nondegenerate Conditions # As condições simplificadas não degeneradas
+1139 #	The Final Nondegenerate Conditions # As condições finais não degeneradas 
+	* End of Algebraic Proof
+
+
+
+	* Dialog Save As 
+2001 	#	Use the LEFT button to select a position # Use a tecla ESQUERDA para escolher uma posição
+2002 	#	Select two points to determine a line # Selecione dois pontos para determinar uma reta
+
+2200 	#	Please input two integers # Insira dois inteiros
+2201 	#	Set the ratio # Definir a proporção
+2300 	#	Please Choose the Client Area # Escolha a área do cliente
+2301 	#	No animation has been defined # Nenhuma animação definida
+2302 	#	Please use the menu " Action -> Animation " to define an animation first # Primeiro use o menu "Ação -> Animação" para definir uma animação
+2303 	#	GIF Opt on # Opção GIF habilitada
+2304 	#	Image Quality # Qualidade da Imagem
+2305 	#	Best # Ótima
+2306 	#	Good # Boa
+2307 	#	Medium # Média
+2308 	#	Low # Baixa
+2309 	#	Very Low # Muito baixa
+	* End of Dialog Save As 
+
+
+	* Prove Method
+3001 #	Deductive Database Method # Método de banco de dados dedutivo
+3002 #	Full Angle Method # Método de ângulo completo
+3003 #	Traditional Method # Método tradicional
+3004 #	Area Method # Método da Área
+3005 #	Groebner Basis Method # Método de base de Groebner
+3006 #	Wu's Method # Método de Wu
+3007 # Manual Method			# Método manual
+	* End of Prove Method
+
+	* Manual Input
+3100 	#	Theorem # Teorema
+3101 	#	Delete # Cancela
+3102 	#	Delete This Row #Excluir esta linha 
+3103 	#	Add A New Row # Adicionar uma linha
+3104 	#	Append A Term # Anexar um termo
+3105 	#	Combine Selected Rows # Combine as linhas selecionadas
+3106 	#	Because # Porque
+3107 	#	Hence # Portanto
+3108 	#	Given: # Dado que:
+3109 	#	To Prove: # Demonstrar que:
+3110 	#	In # Em
+3111 	#	and # e
+3112 	#	Similarly, # Similarmente
+3113 	#	Q.E.D. # C.Q.D. 
+
+
+3114 	#	line # reta
+3115 	#	triangle # triângulo
+3116 	#	circle # círculo
+3117 	#	square # quadrado
+3118 	#	area # área
+3119 	#	angle # ângulo
+3120 	#	parallelogram # paralelogramo
+
+3150 	#	Text # Texto
+3151 	#	Keywords # Palavra-chave
+3152 	#	Symbol # Símbolo
+3153 	#	Assertion # Asserção
+3154 	#	Object # Objeto
+3155 	#	Draw # Desenho
+3156 	#	Construction # Construção
+3157 	#	Equation # Equação
+3158 	#	Rule # Regra
+3159 	#	rectangle # retângulo
+3160 	#	quadrangle # quadrangular
+3161 	#	trapezoid # trapezóide  
+
+3200 	#	Edit # Editar
+3201 	#	Add # Adicionar
+3202 	#	Append # Append
+3203 	#	Child # Criança
+3204 	#	OK # 
+3205 	#	Cancel # Anular
+3206 	#	Please select # Selecionar
+3207 	#	Basic # Básico
+
+3220 	#	Basic Assertions # Asserções básicas
+3221 	#	Polygon Related # Polígono referido
+3222 	#	Inequality # Desigualdade
+	* End of Manual Input
+
+	* Add Conclution.
+3300 	#	The number of points to be selected: # O número de pontos a serem selecionados:
+3301 	#	Set One # Selecione um
+3302 	#	Set Two # Selecione dois  
+	* End of Add Conclution.
+
+	* Property Menu 
+4000 	#	Fill # Preencher
+4001 	#	Grid # Grade
+4002 	#	Vertical Line # Reta vertical
+4003 	#	Horizontal Line # Reta horizontal
+4004 	#	Radius # Raio
+4005 	#	X coordinate # coordenada X
+4006 	#	Y coordinate # coordenada Y
+4007 	#	Freezed # Fixo
+4008 	#	Point on Line # Ponto na reta 
+4009 	#	Point on Circle # Ponto na circunferência 
+
+4010 	#	Center X # X do centro
+4011 	#	Center Y # Y do centro
+4012 	#	Center # Centro
+
+4013 	#	Grid Step # Passo da grade
+4014 	#	Slope Angle # Inclinação do ângulo 
+4015 # Coordinates 		# Coordenada
+	* End of Property Menu 
+
+	* Right Button Menu
+4020 	#	Cancel Action # Anular
+4021 	#	Edit Text # Editar texto
+4022 	#	Freeze # Fixar
+4023 	#	Unfreeze # Liberar
+4024 	#	Stop Trace # Parar traço
+4025 	#	Plain # Plain
+4026 	#	Bold # Negrito
+4027 	#	Font Size # Tamanho da Fonte 
+	* End of Right Button Menu
+
+
+10001 # Fact # Fato
+
+ 
+	* Update Dialog 
