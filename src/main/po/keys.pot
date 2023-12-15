@@ -3263,3 +3263,6 @@ msgstr ""
 
 msgid "Middle Point"
 msgstr ""
+
+msgid "View Remainder"
+msgstr ""

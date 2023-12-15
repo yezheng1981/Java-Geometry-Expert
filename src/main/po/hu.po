@@ -1300,7 +1300,8 @@ msgid "The Triangulized Hypotheses:"
 msgstr "A triangularizált feladatkiírás:"
 
 #: ../wprover/panelWu.java:159
-msgid "Successive Pseudo Remainder of the conclusion wrt Triangulized Hypotheses:"
+msgid ""
+"Successive Pseudo Remainder of the conclusion wrt Triangulized Hypotheses:"
 msgstr ""
 "A következmény szukcesszív pszeudo-maradéka a triangularizált feladatkiírás "
 "szerint:"
@@ -3471,3 +3472,6 @@ msgstr "{0} szerint"
 
 msgid "Middle Point"
 msgstr "Középpont"
+
+msgid "View Remainder"
+msgstr "Maradék megtekintése"

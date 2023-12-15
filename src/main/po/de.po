@@ -3453,6 +3453,21 @@ msgstr "Sekunde(n)"
 msgid "AAA"
 msgstr "WWW"
 
+#, fuzzy
+msgid "by Rule?"
+msgstr "Regel"
+
+msgid "by {0}"
+msgstr ""
+
+#, fuzzy
+msgid "Middle Point"
+msgstr "Mittelpunkt"
+
+#, fuzzy
+msgid "View Remainder"
+msgstr "Rest"
+
 #~ msgid "Leading Variable"
 #~ msgstr "Leitvariable"
 

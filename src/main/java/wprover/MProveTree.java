@@ -1092,7 +1092,7 @@ class mprefix extends mobject {
         if (type1 < cSprefix.length)
             return GExpert.getLanguage(cSprefix[type1]);
         else
-            return "????";
+            return "????"; // FIXME: What is this?
     }
 
     public void Load(DataInputStream in, drawProcess dp) throws IOException {

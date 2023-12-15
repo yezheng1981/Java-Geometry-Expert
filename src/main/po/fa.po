@@ -3449,6 +3449,20 @@ msgstr "ثانیه ( ها )"
 msgid "AAA"
 msgstr ""
 
+#, fuzzy
+msgid "by Rule?"
+msgstr "قاعده"
+
+msgid "by {0}"
+msgstr ""
+
+#, fuzzy
+msgid "Middle Point"
+msgstr "نقطه میانی"
+
+msgid "View Remainder"
+msgstr ""
+
 #~ msgid "FF"
 #~ msgstr "بعدی"
 

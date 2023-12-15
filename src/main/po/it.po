@@ -3495,6 +3495,21 @@ msgstr "Secondi"
 msgid "AAA"
 msgstr ""
 
+#, fuzzy
+msgid "by Rule?"
+msgstr "Regola"
+
+msgid "by {0}"
+msgstr ""
+
+#, fuzzy
+msgid "Middle Point"
+msgstr "Punto medio"
+
+#, fuzzy
+msgid "View Remainder"
+msgstr "Resto"
+
 #~ msgid "animate_start"
 #~ msgstr "avvia animazione"
 

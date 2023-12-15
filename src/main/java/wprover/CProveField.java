@@ -147,7 +147,7 @@ public class CProveField {
         int size = v.size();
         if (size == 0) return;
         if (head) {
-            ct = new CProveText((cond) v.get(size - 1), "To Prove: ");
+            ct = new CProveText((cond) v.get(size - 1), GExpert.getLanguage("To Prove:") + " ");
             vlist.add(ct);
             for (int i = 0; i < size; i++) {
                 cond co = (cond) v.get(i);
@@ -185,7 +185,7 @@ public class CProveField {
         CProveText ct = null;
         while (co != null) {
             if (head && i == -1)
-                ct = new CProveText(co, "To Prove: ");
+                ct = new CProveText(co, GExpert.getLanguage("To Prove:") + " ");
             else
                 ct = new CProveText(null, co, i, true);
             i++;

@@ -55,8 +55,6 @@ final public class Cm {
 
     final public static String P_POINT = "POINT";
 
-    final public static String P_SHOWD = "To Prove: ";
-
     final public static String DR_WPT = "WPT";
 
     ////////////////

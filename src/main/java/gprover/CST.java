@@ -548,7 +548,7 @@ public class CST {
                     return Cm.ANGLE_SIGN + "[" + pss[0] + pss[1] + pss[2] + "] = " + Cm.ANGLE_SIGN + "[" + pss[3] + pss[4] + pss[5] + "]";
             }
             case gib.CO_PBISECT:
-                return Cm.P_SHOWD + "??";
+                return GExpert.getLanguage("To Prove:") + " " + "??"; // TODO: Find some better method to express the content here.
             case gib.CO_STRI:
                 return Cm.TRIANGLE_SIGN + pss[0] + pss[1] + pss[2] + Cm.SIMILAR_SIGN + Cm.TRIANGLE_SIGN + pss[3] + pss[4] + pss[5];
             case gib.CO_CTRI:

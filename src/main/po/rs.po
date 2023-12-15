@@ -3567,6 +3567,21 @@ msgstr "Druga"
 msgid "AAA"
 msgstr "UUU"
 
+#, fuzzy
+msgid "by Rule?"
+msgstr "Pravilo"
+
+msgid "by {0}"
+msgstr ""
+
+#, fuzzy
+msgid "Middle Point"
+msgstr "Središte duži"
+
+#, fuzzy
+msgid "View Remainder"
+msgstr "Ostatak"
+
 #~ msgid "animate_start"
 #~ msgstr "animacija početak"
 

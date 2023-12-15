@@ -102,7 +102,7 @@ public class wuTextPane extends JTextPane implements ActionListener {
 
 
         s = doc.addStyle("button", regular);
-        button = new JButton("View Remainder");
+        button = new JButton(GExpert.getLanguage("View Remainder"));
         button.setCursor(Cursor.getDefaultCursor());
         button.setMargin(new Insets(0, 0, 0, 0));
         button.setActionCommand("remainder");

@@ -1737,7 +1737,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
     public void addGddProveTree_ls(l_list ls) {
         top.removeAllChildren();
         tree.cancelEditing();
-        top.setUserObject("To Prove: " + ls);
+        top.setUserObject(GExpert.getLanguage("To Prove:") + " " + ls);
         ((DefaultTreeModel) (tree.getModel())).reload();
 
         while (ls != null) {
@@ -1763,7 +1763,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
         top.removeAllChildren();
         tree.cancelEditing();
 
-        top.setUserObject("To Prove: " + co);
+        top.setUserObject(GExpert.getLanguage("To Prove:") + " " + co);
 
         ((DefaultTreeModel) (tree.getModel())).reload();
 
@@ -1935,7 +1935,7 @@ public class PanelProve1 extends JTabbedPane implements ChangeListener {
             return;
         }
         cond co = (cond) vl.get(vl.size() - 1);
-        top.setUserObject("To Prove: " + co.getText());
+        top.setUserObject(GExpert.getLanguage("To Prove:") + " " + co.getText());
         createNodes(vl);
 
         tree.expandPath(new TreePath(top));

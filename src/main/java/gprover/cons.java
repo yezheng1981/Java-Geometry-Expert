@@ -1,5 +1,7 @@
 package gprover;
 
+import wprover.GExpert;
+
 public class cons {
     final public static int MAXLEN = 16;
 
@@ -207,7 +209,7 @@ public class cons {
     public String toDString() {
         String s = CST.getDString(pss, type);
         if (conc)
-            return "To Prove: " + s;
+            return GExpert.getLanguage("To Prove:") + " " + s;
         if (type == gib.C_POINT)
             return trim(s);
         return s;
@@ -216,7 +218,7 @@ public class cons {
     public String toDDString() {
         String s = CST.getDString(pss, type, false);
         if (conc)
-            return "To Prove: " + s;
+            return GExpert.getLanguage("To Prove:") + " " + s;
         return s;
     }
 
